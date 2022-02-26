@@ -448,7 +448,7 @@ namespace System {
   ::System::Decimal operator-(const ::System::Decimal& d);
   // static public System.Decimal op_Increment(System.Decimal d)
   // Offset: 0x21361EC
-  ::System::Decimal& operator++(::System::Decimal& d);
+  ::System::Decimal operator++(const ::System::Decimal& d);
   // static public System.Decimal op_Addition(System.Decimal d1, System.Decimal d2)
   // Offset: 0x213626C
   ::System::Decimal operator+(const ::System::Decimal& d1, const ::System::Decimal& d2);
