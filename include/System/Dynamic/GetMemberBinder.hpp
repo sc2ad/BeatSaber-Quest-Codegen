@@ -65,7 +65,7 @@ namespace System::Dynamic {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Deleting conversion operator: operator ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>*
-    constexpr operator ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>*() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private readonly System.String <Name>k__BackingField
     ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private readonly System.Boolean <IgnoreCase>k__BackingField

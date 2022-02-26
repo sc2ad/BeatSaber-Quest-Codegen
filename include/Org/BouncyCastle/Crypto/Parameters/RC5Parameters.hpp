@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(int) == 0x4);
     public:
     // Deleting conversion operator: operator ::ArrayW<uint8_t>
-    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private readonly System.Int32 rounds
     int& dyn_rounds();
     // public System.Int32 get_Rounds()

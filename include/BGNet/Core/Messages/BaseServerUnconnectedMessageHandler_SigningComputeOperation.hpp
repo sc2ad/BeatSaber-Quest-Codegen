@@ -78,7 +78,7 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(::LiteNetLib::Utils::NetDataWriter*) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::Threading::Tasks::TaskCompletionSource_1<T>*
-    constexpr operator ::System::Threading::Tasks::TaskCompletionSource_1<T>*() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private readonly System.Byte[] _clientRandom
     ::ArrayW<uint8_t>& dyn__clientRandom();
     // Get instance field reference: private readonly System.Byte[] _serverRandom

@@ -55,7 +55,7 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::Threading::Tasks::TaskCompletionSource_1<T>*
-    constexpr operator ::System::Threading::Tasks::TaskCompletionSource_1<T>*() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private readonly IDiffieHellmanKeyPair _serverKey
     ::GlobalNamespace::IDiffieHellmanKeyPair*& dyn__serverKey();
     // Get instance field reference: private readonly System.Byte[] _clientKey

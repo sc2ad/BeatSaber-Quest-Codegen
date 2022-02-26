@@ -85,7 +85,7 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::System::Security::Cryptography::TripleDES*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<uint8_t>
-    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private System.Security.Cryptography.ICryptoTransform m_encryptor
     ::System::Security::Cryptography::ICryptoTransform*& dyn_m_encryptor();
     // Get instance field reference: private System.Security.Cryptography.CryptoStream _cs

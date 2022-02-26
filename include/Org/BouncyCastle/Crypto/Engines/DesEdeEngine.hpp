@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Deleting conversion operator: operator ::ArrayW<int>
-    constexpr operator ::ArrayW<int>() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private System.Int32[] workingKey1
     ::ArrayW<int>& dyn_workingKey1();
     // Get instance field reference: private System.Int32[] workingKey2

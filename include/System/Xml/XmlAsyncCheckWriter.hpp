@@ -67,7 +67,7 @@ namespace System::Xml {
     static_assert(sizeof(::System::Threading::Tasks::Task*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<::Il2CppChar>
-    constexpr operator ::ArrayW<::Il2CppChar>() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private readonly System.Xml.XmlWriter coreWriter
     ::System::Xml::XmlWriter*& dyn_coreWriter();
     // Get instance field reference: private System.Threading.Tasks.Task lastTask

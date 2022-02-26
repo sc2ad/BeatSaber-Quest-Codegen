@@ -75,7 +75,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static_assert(sizeof(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163K1Point*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>
-    constexpr operator ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get static field: static private readonly Org.BouncyCastle.Math.EC.ECFieldElement[] SECT163K1_AFFINE_ZS
     static ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> _get_SECT163K1_AFFINE_ZS();
     // Set static field: static private readonly Org.BouncyCastle.Math.EC.ECFieldElement[] SECT163K1_AFFINE_ZS

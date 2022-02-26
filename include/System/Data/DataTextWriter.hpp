@@ -59,7 +59,7 @@ namespace System::Data {
     static_assert(sizeof(::System::Xml::XmlWriter*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<::Il2CppChar>
-    constexpr operator ::ArrayW<::Il2CppChar>() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: private System.Xml.XmlWriter _xmltextWriter
     ::System::Xml::XmlWriter*& dyn__xmltextWriter();
     // System.IO.Stream get_BaseStream()

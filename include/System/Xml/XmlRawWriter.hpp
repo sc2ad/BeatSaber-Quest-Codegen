@@ -70,7 +70,7 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::IXmlNamespaceResolver*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<::Il2CppChar>
-    constexpr operator ::ArrayW<::Il2CppChar>() const noexcept = delete;
+    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
     // Get instance field reference: protected System.Xml.XmlRawWriterBase64Encoder base64Encoder
     ::System::Xml::XmlRawWriterBase64Encoder*& dyn_base64Encoder();
     // Get instance field reference: protected System.Xml.IXmlNamespaceResolver resolver
