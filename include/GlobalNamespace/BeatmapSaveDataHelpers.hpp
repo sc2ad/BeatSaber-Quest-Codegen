@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Version version2_6_0
     static void _set_version2_6_0(::System::Version* value);
     // static field const value: static private System.String kLegacyVersionSearchString
-    static constexpr const char* kLegacyVersionSearchString = ""_version":"";
+    static constexpr const char* kLegacyVersionSearchString = "\"_version\":\"";
     // Get static field: static private System.String kLegacyVersionSearchString
     static ::StringW _get_kLegacyVersionSearchString();
     // Set static field: static private System.String kLegacyVersionSearchString
     static void _set_kLegacyVersionSearchString(::StringW value);
     // static field const value: static private System.String kVersionSearchString
-    static constexpr const char* kVersionSearchString = ""version":"";
+    static constexpr const char* kVersionSearchString = "\"version\":\"";
     // Get static field: static private System.String kVersionSearchString
     static ::StringW _get_kVersionSearchString();
     // Set static field: static private System.String kVersionSearchString
