@@ -17,9 +17,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: TransitionTimingSO
   class TransitionTimingSO;
-}
-// Forward declaring namespace: Tweening
-namespace Tweening {
   // Forward declaring type: EaseType
   struct EaseType;
 }
@@ -60,14 +57,14 @@ namespace GlobalNamespace {
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TransitionTimingSO _transitionTiming
     ::GlobalNamespace::TransitionTimingSO*& dyn__transitionTiming();
-    // public Tweening.EaseType get_easeType()
-    // Offset: 0x2B3D584
-    ::Tweening::EaseType get_easeType();
+    // public EaseType get_easeType()
+    // Offset: 0x136EDF8
+    ::GlobalNamespace::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x2B3D5A0
+    // Offset: 0x136EE14
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x2B3D5BC
+    // Offset: 0x136EE30
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -87,7 +84,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BaseTransitionSO::get_easeType
 // Il2CppName: get_easeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::EaseType (GlobalNamespace::BaseTransitionSO::*)()>(&GlobalNamespace::BaseTransitionSO::get_easeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EaseType (GlobalNamespace::BaseTransitionSO::*)()>(&GlobalNamespace::BaseTransitionSO::get_easeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseTransitionSO*), "get_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

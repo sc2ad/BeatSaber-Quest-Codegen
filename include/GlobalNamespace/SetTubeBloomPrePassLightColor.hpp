@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
     ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // protected System.Void Start()
-    // Offset: 0x2B622FC
+    // Offset: 0x13B5258
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x2B62380
+    // Offset: 0x13B52DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

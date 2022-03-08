@@ -80,14 +80,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244344
+    // [InjectAttribute] Offset: 0x10B96B0
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244354
+    // [InjectAttribute] Offset: 0x10B96C0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x38
@@ -164,40 +164,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isReady
     bool& dyn__isReady();
     // public System.Single get_songTime()
-    // Offset: 0x1432EE4
+    // Offset: 0x144E780
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x1432EEC
+    // Offset: 0x144E788
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x1432EF4
+    // Offset: 0x144E790
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x1432EFC
+    // Offset: 0x144E798
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x1432F04
+    // Offset: 0x144E7A0
     float get_songEndTime();
+    // public System.Single get_songLength()
+    // Offset: 0x144E7AC
+    float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0x1432F10
+    // Offset: 0x144E7B8
     bool get_isReady();
     // protected System.Void Start()
-    // Offset: 0x1432F18
+    // Offset: 0x144E7C0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1432F24
+    // Offset: 0x144E7CC
     void Update();
     // public System.Void StartSong(System.Single songStartSyncTime)
-    // Offset: 0x14301E8
+    // Offset: 0x144B5E0
     void StartSong(float songStartSyncTime);
     // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
-    // Offset: 0x14330B8
+    // Offset: 0x144E960
     void SetConnectedPlayerSongTime(float syncTime, float songTime);
     // public System.Void StopSong()
-    // Offset: 0x14304C0
+    // Offset: 0x144B8B0
     void StopSong();
     // public System.Void .ctor()
-    // Offset: 0x14330CC
+    // Offset: 0x144E974
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -255,6 +258,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::get_songEndTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::get_songLength
+// Il2CppName: get_songLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::get_songLength)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*), "get_songLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::get_isReady

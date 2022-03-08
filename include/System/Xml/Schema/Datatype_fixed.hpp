@@ -44,7 +44,7 @@ namespace System::Xml::Schema {
   class Datatype_fixed : public ::System::Xml::Schema::Datatype_decimal {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D5D5E8
+    // Offset: 0x1C37D54
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
@@ -57,12 +57,12 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_fixed*, creationType>()));
     }
     // public override System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
-    // Offset: 0x1D658C4
+    // Offset: 0x1C37754
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Object DatatypeImplementation::ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D65B2C
+    // Offset: 0x1C37C2C
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Exception Datatype_decimal::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

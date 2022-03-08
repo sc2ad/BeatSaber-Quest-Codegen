@@ -57,14 +57,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.TreeInstance self
     ::UnityEngine::TreeInstance& dyn_self();
     // public System.Void .ctor(UnityEngine.TreeInstance self)
-    // Offset: 0x2A11068
+    // Offset: 0x2A7624C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TreeInstance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TreeInstance*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_TreeInstance other)
-    // Offset: 0x2A110A0
+    // Offset: 0x2A76284
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
   }; // HoudiniEngineUnity.Test_TreeInstance
   #pragma pack(pop)

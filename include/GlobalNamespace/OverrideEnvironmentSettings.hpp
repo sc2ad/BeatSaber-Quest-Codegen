@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideEnvironments and: data
     char __padding0[0x7] = {};
-    // private System.Collections.Generic.Dictionary`2<EnvironmentTypeSO,EnvironmentInfoSO> _data
+    // private readonly System.Collections.Generic.Dictionary`2<EnvironmentTypeSO,EnvironmentInfoSO> _data
     // Size: 0x8
     // Offset: 0x18
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentTypeSO*, ::GlobalNamespace::EnvironmentInfoSO*>* data;
@@ -67,16 +67,16 @@ namespace GlobalNamespace {
     public:
     // Get instance field reference: public System.Boolean overrideEnvironments
     bool& dyn_overrideEnvironments();
-    // Get instance field reference: private System.Collections.Generic.Dictionary`2<EnvironmentTypeSO,EnvironmentInfoSO> _data
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<EnvironmentTypeSO,EnvironmentInfoSO> _data
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentTypeSO*, ::GlobalNamespace::EnvironmentInfoSO*>*& dyn__data();
     // public System.Void SetEnvironmentInfoForType(EnvironmentTypeSO environmentType, EnvironmentInfoSO environmentInfo)
-    // Offset: 0x2AB5D04
+    // Offset: 0x134FA94
     void SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
     // public EnvironmentInfoSO GetOverrideEnvironmentInfoForType(EnvironmentTypeSO environmentType)
-    // Offset: 0x2AB5D74
+    // Offset: 0x134FB04
     ::GlobalNamespace::EnvironmentInfoSO* GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x2AB5DF4
+    // Offset: 0x134FB84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

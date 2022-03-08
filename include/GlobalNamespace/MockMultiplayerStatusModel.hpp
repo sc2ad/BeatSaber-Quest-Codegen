@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x12448CC
+    // [InjectAttribute] Offset: 0x10B9C48
     // private readonly MultiplayerStatusData _multiplayerStatusData
     // Size: 0x8
     // Offset: 0x10
@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerStatusData _multiplayerStatusData
     ::GlobalNamespace::MultiplayerStatusData*& dyn__multiplayerStatusData();
     // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1422C2C
+    // Offset: 0x133BD5C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1422CA0
+    // Offset: 0x133BDD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

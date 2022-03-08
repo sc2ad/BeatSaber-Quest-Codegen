@@ -54,10 +54,10 @@ namespace LeaderboardsDTO {
     ::StringW platformAuthToken;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // public System.String platformEnviroment
+    // public System.String platformEnvironment
     // Size: 0x8
     // Offset: 0x28
-    ::StringW platformEnviroment;
+    ::StringW platformEnvironment;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
     // public System.String publicUserDisplayName
@@ -79,14 +79,14 @@ namespace LeaderboardsDTO {
     ::StringW& dyn_platformUserId();
     // Get instance field reference: public System.String platformAuthToken
     ::StringW& dyn_platformAuthToken();
-    // Get instance field reference: public System.String platformEnviroment
-    ::StringW& dyn_platformEnviroment();
+    // Get instance field reference: public System.String platformEnvironment
+    ::StringW& dyn_platformEnvironment();
     // Get instance field reference: public System.String publicUserDisplayName
     ::StringW& dyn_publicUserDisplayName();
     // Get instance field reference: public System.String buildVersion
     ::StringW& dyn_buildVersion();
     // public System.Void .ctor()
-    // Offset: 0x13B1620
+    // Offset: 0x14A5608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

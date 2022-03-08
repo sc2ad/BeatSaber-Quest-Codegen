@@ -27,6 +27,9 @@ namespace Tweening {
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
+}
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
   // Forward declaring type: EaseType
   struct EaseType;
 }
@@ -70,7 +73,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* targetTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1245E20
+    // [InjectAttribute] Offset: 0x10BB16C
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -111,37 +114,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B5A168
+    // Offset: 0x13AC338
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0x2B5A200
+    // Offset: 0x13AC3D0
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x2B5A3F0
+    // Offset: 0x13AC5C0
     void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0x2B5A46C
+    // Offset: 0x13AC63C
     void HideInstant();
     // public System.Void ShowInstant()
-    // Offset: 0x2B5A530
+    // Offset: 0x13AC700
     void ShowInstant();
-    // public System.Void Animate(System.Boolean show, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0x2B5A5D8
-    void Animate(bool show, float duration, ::Tweening::EaseType easeType, float delay);
+    // public System.Void Animate(System.Boolean show, System.Single duration, EaseType easeType, System.Single delay)
+    // Offset: 0x13AC7A8
+    void Animate(bool show, float duration, ::GlobalNamespace::EaseType easeType, float delay);
     // private System.Void <InitIfNeeded>b__7_0(System.Single val)
-    // Offset: 0x2B5A714
+    // Offset: 0x13AC8E4
     void $InitIfNeeded$b__7_0(float val);
     // private System.Void <InitIfNeeded>b__7_2()
-    // Offset: 0x2B5A770
+    // Offset: 0x13AC940
     void $InitIfNeeded$b__7_2();
     // private System.Void <InitIfNeeded>b__7_1(System.Single val)
-    // Offset: 0x2B5A7A0
+    // Offset: 0x13AC970
     void $InitIfNeeded$b__7_1(float val);
     // private System.Void <InitIfNeeded>b__7_3()
-    // Offset: 0x2B5A7FC
+    // Offset: 0x13AC9CC
     void $InitIfNeeded$b__7_3();
     // public System.Void .ctor()
-    // Offset: 0x2B5A704
+    // Offset: 0x13AC8D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -204,11 +207,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::Animate
 // Il2CppName: Animate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)(bool, float, ::Tweening::EaseType, float)>(&GlobalNamespace::ScaleAnimator::Animate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)(bool, float, ::GlobalNamespace::EaseType, float)>(&GlobalNamespace::ScaleAnimator::Animate)> {
   static const MethodInfo* get() {
     static auto* show = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
+    static auto* easeType = &::il2cpp_utils::GetClassFromName("", "EaseType")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{show, duration, easeType, delay});
   }

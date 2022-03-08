@@ -38,14 +38,20 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
+    // static field const value: static public GameScenesManager/SceneDismissType DoNotUnload
+    static constexpr const int DoNotUnload = 0;
+    // Get static field: static public GameScenesManager/SceneDismissType DoNotUnload
+    static ::GlobalNamespace::GameScenesManager::SceneDismissType _get_DoNotUnload();
+    // Set static field: static public GameScenesManager/SceneDismissType DoNotUnload
+    static void _set_DoNotUnload(::GlobalNamespace::GameScenesManager::SceneDismissType value);
     // static field const value: static public GameScenesManager/SceneDismissType Unload
-    static constexpr const int Unload = 0;
+    static constexpr const int Unload = 1;
     // Get static field: static public GameScenesManager/SceneDismissType Unload
     static ::GlobalNamespace::GameScenesManager::SceneDismissType _get_Unload();
     // Set static field: static public GameScenesManager/SceneDismissType Unload
     static void _set_Unload(::GlobalNamespace::GameScenesManager::SceneDismissType value);
     // static field const value: static public GameScenesManager/SceneDismissType Deactivate
-    static constexpr const int Deactivate = 1;
+    static constexpr const int Deactivate = 2;
     // Get static field: static public GameScenesManager/SceneDismissType Deactivate
     static ::GlobalNamespace::GameScenesManager::SceneDismissType _get_Deactivate();
     // Set static field: static public GameScenesManager/SceneDismissType Deactivate

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
     ::GlobalNamespace::ScoreUIController::ScoreDisplayType& dyn_scoreDisplayType();
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
-    // Offset: 0x2B5E340
+    // Offset: 0x13B107C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreUIController::InitData* New_ctor(::GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreUIController::InitData::.ctor");

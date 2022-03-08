@@ -9,10 +9,6 @@
 #include "System/EventArgs.hpp"
 // Including type: System.Xml.Schema.XmlSeverityType
 #include "System/Xml/Schema/XmlSeverityType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml::Schema
@@ -64,25 +60,11 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSeverityType severity
     ::System::Xml::Schema::XmlSeverityType& dyn_severity();
     // public System.Xml.Schema.XmlSeverityType get_Severity()
-    // Offset: 0x169D298
+    // Offset: 0x1C44CF4
     ::System::Xml::Schema::XmlSeverityType get_Severity();
     // public System.Xml.Schema.XmlSchemaException get_Exception()
-    // Offset: 0x169D2A0
+    // Offset: 0x1C44CFC
     ::System::Xml::Schema::XmlSchemaException* get_Exception();
-    // System.Void .ctor(System.Xml.Schema.XmlSchemaException ex)
-    // Offset: 0x1695588
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValidationEventArgs* New_ctor(::System::Xml::Schema::XmlSchemaException* ex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ValidationEventArgs::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ValidationEventArgs*, creationType>(ex)));
-    }
-    // System.Void .ctor(System.Xml.Schema.XmlSchemaException ex, System.Xml.Schema.XmlSeverityType severity)
-    // Offset: 0x169D214
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValidationEventArgs* New_ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ValidationEventArgs::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ValidationEventArgs*, creationType>(ex, severity)));
-    }
   }; // System.Xml.Schema.ValidationEventArgs
   #pragma pack(pop)
   static check_size<sizeof(ValidationEventArgs), 24 + sizeof(::System::Xml::Schema::XmlSeverityType)> __System_Xml_Schema_ValidationEventArgsSizeCheck;
@@ -105,11 +87,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ValidationEventArgs*), "get_Exception", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::ValidationEventArgs::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::ValidationEventArgs::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

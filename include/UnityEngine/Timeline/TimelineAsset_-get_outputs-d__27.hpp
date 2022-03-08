@@ -112,38 +112,38 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> <>7__wrap2
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*& dyn_$$7__wrap2();
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
-    // Offset: 0x2987AE0
+    // Offset: 0x29F9A08
     ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2987B50
+    // Offset: 0x29F9A78
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2987464
+    // Offset: 0x29F938C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineAsset::$get_outputs$d__27* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineAsset::$get_outputs$d__27::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineAsset::$get_outputs$d__27*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x298749C
+    // Offset: 0x29F93C4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x29876AC
+    // Offset: 0x29F95D4
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x29875EC
+    // Offset: 0x29F9514
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x298752C
+    // Offset: 0x29F9454
     void $$m__Finally2();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2987AF0
+    // Offset: 0x29F9A18
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator()
-    // Offset: 0x2987BB8
+    // Offset: 0x29F9AE0
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2987C64
+    // Offset: 0x29F9B8C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.<get_outputs>d__27
   #pragma pack(pop)

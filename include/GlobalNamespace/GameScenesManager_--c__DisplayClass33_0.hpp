@@ -14,16 +14,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: ScenesTransitionSetupDataSO
+  class ScenesTransitionSetupDataSO;
+}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: ScenesTransitionSetupDataSO
-  class ScenesTransitionSetupDataSO;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -64,30 +64,30 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameScenesManager* $$4__this;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // public System.Collections.Generic.List`1<System.String> newSceneNames
+    // public ScenesTransitionSetupDataSO scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
+    ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData;
+    // Field size check
+    static_assert(sizeof(::GlobalNamespace::ScenesTransitionSetupDataSO*) == 0x8);
+    // public System.Collections.Generic.List`1<System.String> newSceneNames
+    // Size: 0x8
+    // Offset: 0x20
     ::System::Collections::Generic::List_1<::StringW>* newSceneNames;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
     // Size: 0x8
-    // Offset: 0x20
+    // Offset: 0x28
     ::System::Collections::Generic::List_1<::StringW>* emptyTransitionSceneNameList;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public GameScenesManager/ScenesStackData scenesStackData
     // Size: 0x8
-    // Offset: 0x28
+    // Offset: 0x30
     ::GlobalNamespace::GameScenesManager::ScenesStackData* scenesStackData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager::ScenesStackData*) == 0x8);
-    // public ScenesTransitionSetupDataSO scenesTransitionSetupData
-    // Size: 0x8
-    // Offset: 0x30
-    ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData;
-    // Field size check
-    static_assert(sizeof(::GlobalNamespace::ScenesTransitionSetupDataSO*) == 0x8);
     // public System.Action`1<Zenject.DiContainer> finishCallback
     // Size: 0x8
     // Offset: 0x38
@@ -109,14 +109,14 @@ namespace GlobalNamespace {
     public:
     // Get instance field reference: public GameScenesManager <>4__this
     ::GlobalNamespace::GameScenesManager*& dyn_$$4__this();
+    // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData
+    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_scenesTransitionSetupData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> newSceneNames
     ::System::Collections::Generic::List_1<::StringW>*& dyn_newSceneNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
     ::System::Collections::Generic::List_1<::StringW>*& dyn_emptyTransitionSceneNameList();
     // Get instance field reference: public GameScenesManager/ScenesStackData scenesStackData
     ::GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
-    // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_scenesTransitionSetupData();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
     ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> <>9__1
@@ -124,16 +124,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> <>9__2
     ::System::Action_1<::Zenject::DiContainer*>*& dyn_$$9__2();
     // System.Void <ClearAndOpenScenes>b__0(Zenject.DiContainer emptySceneContainer)
-    // Offset: 0x2C209D8
+    // Offset: 0x1579BC0
     void $ClearAndOpenScenes$b__0(::Zenject::DiContainer* emptySceneContainer);
     // System.Void <ClearAndOpenScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x2C20AF4
+    // Offset: 0x1579CE8
     void $ClearAndOpenScenes$b__1(::Zenject::DiContainer* container);
     // System.Void <ClearAndOpenScenes>b__2(Zenject.DiContainer container)
-    // Offset: 0x2C20B98
+    // Offset: 0x1579D8C
     void $ClearAndOpenScenes$b__2(::Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x2C1FA90
+    // Offset: 0x1578484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

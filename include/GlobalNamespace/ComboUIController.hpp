@@ -25,8 +25,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IScoreController
-  class IScoreController;
+  // Forward declaring type: IComboController
+  class IComboController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -66,23 +66,23 @@ namespace GlobalNamespace {
     ::UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242ACC
-    // private readonly IScoreController _scoreController
+    // [InjectAttribute] Offset: 0x10B7D88
+    // private readonly IComboController _comboController
     // Size: 0x8
     // Offset: 0x28
-    ::GlobalNamespace::IScoreController* scoreController;
+    ::GlobalNamespace::IComboController* comboController;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // private System.Int32 _comboLostID
+    static_assert(sizeof(::GlobalNamespace::IComboController*) == 0x8);
+    // private System.Int32 _comboLostId
     // Size: 0x4
     // Offset: 0x30
-    int comboLostID;
+    int comboLostId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // private System.Boolean _comboLost
+    // private System.Boolean _fullComboLost
     // Size: 0x1
     // Offset: 0x34
-    bool comboLost;
+    bool fullComboLost;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
@@ -92,35 +92,35 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI*& dyn__comboText();
     // Get instance field reference: private UnityEngine.Animator _animator
     ::UnityEngine::Animator*& dyn__animator();
-    // Get instance field reference: private readonly IScoreController _scoreController
-    ::GlobalNamespace::IScoreController*& dyn__scoreController();
-    // Get instance field reference: private System.Int32 _comboLostID
-    int& dyn__comboLostID();
-    // Get instance field reference: private System.Boolean _comboLost
-    bool& dyn__comboLost();
+    // Get instance field reference: private readonly IComboController _comboController
+    ::GlobalNamespace::IComboController*& dyn__comboController();
+    // Get instance field reference: private System.Int32 _comboLostId
+    int& dyn__comboLostId();
+    // Get instance field reference: private System.Boolean _fullComboLost
+    bool& dyn__fullComboLost();
     // protected System.Void Start()
-    // Offset: 0x13C2B74
+    // Offset: 0x1411FE4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x13C2EC0
+    // Offset: 0x141232C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13C2EC4
+    // Offset: 0x1412330
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x13C2BF0
+    // Offset: 0x1412060
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x13C2EC8
+    // Offset: 0x1412334
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x13C3068
+    // Offset: 0x14124D4
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x13C30AC
+    // Offset: 0x1412518
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x13C30E4
+    // Offset: 0x1412550
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

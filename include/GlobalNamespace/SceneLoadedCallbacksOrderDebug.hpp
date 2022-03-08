@@ -38,22 +38,22 @@ namespace GlobalNamespace {
   class SceneLoadedCallbacksOrderDebug : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0x299BC3C
+    // Offset: 0x2A08F24
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x299BCA8
+    // Offset: 0x2A08F90
     void OnEnable();
     // protected System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x299BD78
+    // Offset: 0x2A09060
     void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void Start()
-    // Offset: 0x299BE40
+    // Offset: 0x2A09128
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x299BEAC
+    // Offset: 0x2A09194
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x299BF7C
+    // Offset: 0x2A09264
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

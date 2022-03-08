@@ -27,18 +27,12 @@ namespace System::Xml::Schema {
   class FacetsChecker;
   // Forward declaring type: XmlTypeCode
   struct XmlTypeCode;
-  // Forward declaring type: RestrictionFlags
-  struct RestrictionFlags;
   // Forward declaring type: XmlSchemaWhiteSpace
   struct XmlSchemaWhiteSpace;
   // Forward declaring type: XmlValueConverter
   class XmlValueConverter;
   // Forward declaring type: XmlSchemaType
   class XmlSchemaType;
-  // Forward declaring type: XmlSchemaObjectTable
-  class XmlSchemaObjectTable;
-  // Forward declaring type: XmlSchemaObject
-  class XmlSchemaObject;
 }
 // Forward declaring namespace: System::Xml
 namespace System::Xml {
@@ -75,42 +69,37 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Type listValueType
     static void _set_listValueType(::System::Type* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D61A44
+    // Offset: 0x1C330E4
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.FacetsChecker Datatype_anySimpleType::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D61AAC
+    // Offset: 0x1C3314C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_anySimpleType::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1D61AB4
+    // Offset: 0x1C33154
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.XmlTokenizedType Datatype_anySimpleType::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
-    // override System.Xml.Schema.RestrictionFlags get_ValidRestrictionFlags()
-    // Offset: 0x1D61ABC
-    // Implemented from: System.Xml.Schema.Datatype_anySimpleType
-    // Base method: System.Xml.Schema.RestrictionFlags Datatype_anySimpleType::get_ValidRestrictionFlags()
-    ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D61AC4
+    // Offset: 0x1C3315C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1D61B2C
+    // Offset: 0x1C331C4
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ListValueType()
     ::System::Type* get_ListValueType();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1D61B94
+    // Offset: 0x1C3322C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_anySimpleType::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // public System.Void .ctor()
-    // Offset: 0x1D5D99C
+    // Offset: 0x1C3345C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
@@ -122,26 +111,21 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_NOTATION*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D61FC8
+    // Offset: 0x1C334C0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D61A38
+    // Offset: 0x1C330D8
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlValueConverter Datatype_anySimpleType::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D61B9C
+    // Offset: 0x1C33234
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Exception Datatype_anySimpleType::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);
-    // override System.Void VerifySchemaValid(System.Xml.Schema.XmlSchemaObjectTable notations, System.Xml.Schema.XmlSchemaObject caller)
-    // Offset: 0x1D61DC4
-    // Implemented from: System.Xml.Schema.DatatypeImplementation
-    // Base method: System.Void DatatypeImplementation::VerifySchemaValid(System.Xml.Schema.XmlSchemaObjectTable notations, System.Xml.Schema.XmlSchemaObject caller)
-    void VerifySchemaValid(::System::Xml::Schema::XmlSchemaObjectTable* notations, ::System::Xml::Schema::XmlSchemaObject* caller);
   }; // System.Xml.Schema.Datatype_NOTATION
   #pragma pack(pop)
 }
@@ -168,14 +152,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlTokenizedType (System::Xml::Schema::Datatype_NOTATION::*)()>(&System::Xml::Schema::Datatype_NOTATION::get_TokenizedType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_NOTATION*), "get_TokenizedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_NOTATION::get_ValidRestrictionFlags
-// Il2CppName: get_ValidRestrictionFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (System::Xml::Schema::Datatype_NOTATION::*)()>(&System::Xml::Schema::Datatype_NOTATION::get_ValidRestrictionFlags)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_NOTATION*), "get_ValidRestrictionFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::Datatype_NOTATION::get_ValueType
@@ -233,15 +209,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::E
     static auto* nsmgr = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlNamespaceResolver")->byval_arg;
     static auto* typedValue = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_NOTATION*), "TryParseValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, nameTable, nsmgr, typedValue});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_NOTATION::VerifySchemaValid
-// Il2CppName: VerifySchemaValid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::Datatype_NOTATION::*)(::System::Xml::Schema::XmlSchemaObjectTable*, ::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::Datatype_NOTATION::VerifySchemaValid)> {
-  static const MethodInfo* get() {
-    static auto* notations = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectTable")->byval_arg;
-    static auto* caller = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_NOTATION*), "VerifySchemaValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notations, caller});
   }
 };

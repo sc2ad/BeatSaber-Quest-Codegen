@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* scoreText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1242F34
-    // private ScoreUIController/InitData _initData
+    // [InjectOptionalAttribute] Offset: 0x10B81D0
+    // private readonly ScoreUIController/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::ScoreUIController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ScoreUIController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242F44
+    // [InjectAttribute] Offset: 0x10B81E0
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
@@ -97,38 +97,38 @@ namespace GlobalNamespace {
     static void _set_kMaxNumberOfDigits(int value);
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
     ::TMPro::TextMeshProUGUI*& dyn__scoreText();
-    // Get instance field reference: private ScoreUIController/InitData _initData
+    // Get instance field reference: private readonly ScoreUIController/InitData _initData
     ::GlobalNamespace::ScoreUIController::InitData*& dyn__initData();
     // Get instance field reference: private readonly IScoreController _scoreController
     ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // Get instance field reference: private System.Text.StringBuilder _stringBuilder
     ::System::Text::StringBuilder*& dyn__stringBuilder();
     // protected System.Void Start()
-    // Offset: 0x2B5DCEC
+    // Offset: 0x13B0A2C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x2B5E114
+    // Offset: 0x13B0E50
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2B5E118
+    // Offset: 0x13B0E54
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x2B5DD64
+    // Offset: 0x13B0AA4
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x2B5E11C
+    // Offset: 0x13B0E58
     void UnregisterFromEvents();
-    // private System.Void HandleScoreDidChangeRealtime(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x2B5E21C
-    void HandleScoreDidChangeRealtime(int rawScore, int modifiedScore);
-    // protected System.Void UpdateScore(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x2B5DF0C
-    void UpdateScore(int rawScore, int modifiedScore);
+    // private System.Void HandleScoreDidChangeRealtime(System.Int32 multipliedScore, System.Int32 modifiedScore)
+    // Offset: 0x13B0F58
+    void HandleScoreDidChangeRealtime(int multipliedScore, int modifiedScore);
+    // private System.Void UpdateScore(System.Int32 multipliedScore, System.Int32 modifiedScore)
+    // Offset: 0x13B0C48
+    void UpdateScore(int multipliedScore, int modifiedScore);
     // static private System.Void Append000Number(System.Text.StringBuilder stringBuilder, System.Int32 number)
-    // Offset: 0x2B5E220
+    // Offset: 0x13B0F5C
     static void Append000Number(::System::Text::StringBuilder* stringBuilder, int number);
     // public System.Void .ctor()
-    // Offset: 0x2B5E2D0
+    // Offset: 0x13B100C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -191,9 +191,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreUIController::*)(int, int)>(&GlobalNamespace::ScoreUIController::HandleScoreDidChangeRealtime)> {
   static const MethodInfo* get() {
-    static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* multipliedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreUIController*), "HandleScoreDidChangeRealtime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawScore, modifiedScore});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreUIController*), "HandleScoreDidChangeRealtime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multipliedScore, modifiedScore});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::UpdateScore
@@ -201,9 +201,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreUIController::*)(int, int)>(&GlobalNamespace::ScoreUIController::UpdateScore)> {
   static const MethodInfo* get() {
-    static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* multipliedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreUIController*), "UpdateScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawScore, modifiedScore});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreUIController*), "UpdateScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multipliedScore, modifiedScore});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::Append000Number

@@ -75,34 +75,34 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
     static void _set_$$9__19_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x246F014
+    // Offset: 0x1D07E24
     static void _cctor();
     // System.Type <InitFixedTickables>b__17_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x246F080
+    // Offset: 0x1D07E90
     ::System::Type* $InitFixedTickables$b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitFixedTickables>b__17_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x246F098
+    // Offset: 0x1D07EA8
     int $InitFixedTickables$b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Type <InitTickables>b__18_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x246F0B0
+    // Offset: 0x1D07EC0
     ::System::Type* $InitTickables$b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitTickables>b__18_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x246F0C8
+    // Offset: 0x1D07ED8
     int $InitTickables$b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Type <InitLateTickables>b__19_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x246F0E0
+    // Offset: 0x1D07EF0
     ::System::Type* $InitLateTickables$b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitLateTickables>b__19_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x246F0F8
+    // Offset: 0x1D07F08
     int $InitLateTickables$b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x246F110
+    // Offset: 0x1D07F20
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x246F16C
+    // Offset: 0x1D07F7C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x246F078
+    // Offset: 0x1D07E88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

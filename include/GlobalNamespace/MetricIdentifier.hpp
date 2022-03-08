@@ -53,22 +53,22 @@ namespace GlobalNamespace {
     ::StringW metricName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x1221E08
+    // [TupleElementNamesAttribute] Offset: 0x1096CC4
     // private readonly System.ValueTuple`2<System.String,System.String> _tag0
     // Size: 0xFFFFFFFF
     // Offset: 0x8
     ::System::ValueTuple_2<::StringW, ::StringW> tag0;
-    // [TupleElementNamesAttribute] Offset: 0x1221E90
+    // [TupleElementNamesAttribute] Offset: 0x1096D4C
     // private readonly System.ValueTuple`2<System.String,System.String> _tag1
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     ::System::ValueTuple_2<::StringW, ::StringW> tag1;
-    // [TupleElementNamesAttribute] Offset: 0x1221F18
+    // [TupleElementNamesAttribute] Offset: 0x1096DD4
     // private readonly System.ValueTuple`2<System.String,System.String> _tag2
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     ::System::ValueTuple_2<::StringW, ::StringW> tag2;
-    // [TupleElementNamesAttribute] Offset: 0x1221FA0
+    // [TupleElementNamesAttribute] Offset: 0x1096E5C
     // private readonly System.ValueTuple`2<System.String,System.String> _tag3
     // Size: 0xFFFFFFFF
     // Offset: 0x38
@@ -99,32 +99,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag3
     ::System::ValueTuple_2<::StringW, ::StringW>& dyn__tag3();
     // public System.Int32 get_tagCount()
-    // Offset: 0x2CA67C0
+    // Offset: 0x170AEF4
     int get_tagCount();
     // public System.Void .ctor(System.String metricName, System.ValueTuple`2<System.String,System.String> tag0, System.ValueTuple`2<System.String,System.String> tag1, System.ValueTuple`2<System.String,System.String> tag2, System.ValueTuple`2<System.String,System.String> tag3)
-    // Offset: 0x2CA58F0
+    // Offset: 0x170A024
     // ABORTED: conflicts with another method.  MetricIdentifier(::StringW metricName, ::System::ValueTuple_2<::StringW, ::StringW> tag0, ::System::ValueTuple_2<::StringW, ::StringW> tag1, ::System::ValueTuple_2<::StringW, ::StringW> tag2, ::System::ValueTuple_2<::StringW, ::StringW> tag3);
     // public System.Int32 CompareTo(MetricIdentifier other)
-    // Offset: 0x2CA6804
+    // Offset: 0x170AF38
     int CompareTo(::GlobalNamespace::MetricIdentifier other);
     // public System.Boolean Equals(MetricIdentifier other)
-    // Offset: 0x2CA68A0
+    // Offset: 0x170AFD4
     bool Equals(::GlobalNamespace::MetricIdentifier other);
     // public System.Collections.Generic.IEnumerable`1<System.ValueTuple`2<System.String,System.String>> GetTags()
-    // Offset: 0x2CA6E18
+    // Offset: 0x170B54C
     ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>* GetTags();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2CA68E4
+    // Offset: 0x170B018
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2CA6988
+    // Offset: 0x170B0BC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2CA6A68
+    // Offset: 0x170B19C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

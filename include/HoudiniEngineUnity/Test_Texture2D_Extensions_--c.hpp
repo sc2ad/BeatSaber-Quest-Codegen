@@ -55,16 +55,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Texture2D,HoudiniEngineUnity.Test_Texture2D> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A10980
+    // Offset: 0x2A75B64
     static void _cctor();
     // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__1_0(UnityEngine.Texture2D lod)
-    // Offset: 0x2A109EC
+    // Offset: 0x2A75BD0
     ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__1_0(::UnityEngine::Texture2D* lod);
     // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__2_0(UnityEngine.Texture2D lod)
-    // Offset: 0x2A10A50
+    // Offset: 0x2A75C34
     ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__2_0(::UnityEngine::Texture2D* lod);
     // public System.Void .ctor()
-    // Offset: 0x2A109E4
+    // Offset: 0x2A75BC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 cellIdx
     int& dyn_cellIdx();
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
-    // Offset: 0x2C15584
+    // Offset: 0x156DB78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlphabetScrollInfo::Data::.ctor");

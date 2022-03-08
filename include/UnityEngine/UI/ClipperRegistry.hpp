@@ -66,19 +66,19 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
     ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*& dyn_m_Clippers();
     // static public UnityEngine.UI.ClipperRegistry get_instance()
-    // Offset: 0x18738F0
+    // Offset: 0x1908974
     static ::UnityEngine::UI::ClipperRegistry* get_instance();
     // public System.Void Cull()
-    // Offset: 0x187396C
+    // Offset: 0x19089F0
     void Cull();
     // static public System.Void Register(UnityEngine.UI.IClipper c)
-    // Offset: 0x1874500
+    // Offset: 0x1909584
     static void Register(::UnityEngine::UI::IClipper* c);
     // static public System.Void Unregister(UnityEngine.UI.IClipper c)
-    // Offset: 0x1874574
+    // Offset: 0x19095F8
     static void Unregister(::UnityEngine::UI::IClipper* c);
     // protected System.Void .ctor()
-    // Offset: 0x1874490
+    // Offset: 0x1909514
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

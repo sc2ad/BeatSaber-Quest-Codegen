@@ -220,7 +220,7 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor()
-    // Offset: 0x1551364
+    // Offset: 0x202B6E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

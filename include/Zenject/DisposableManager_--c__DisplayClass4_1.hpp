@@ -68,16 +68,16 @@ namespace Zenject {
     // Get instance field reference: public Zenject.ILateDisposable lateDisposable
     ::Zenject::ILateDisposable*& dyn_lateDisposable();
     // System.Boolean <.ctor>b__2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1D292C4
+    // Offset: 0x1DF7E10
     bool $_ctor$b__2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D2935C
+    // Offset: 0x1DF7EA8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D293B8
+    // Offset: 0x1DF7F04
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1D27E50
+    // Offset: 0x1DF699C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -40,7 +40,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
     static void _set_alreadyExecutedTests(::System::Collections::Generic::List_1<::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18D09E0
+    // Offset: 0x194C5D0
     static void _cctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItemDataHolder
   #pragma pack(pop)

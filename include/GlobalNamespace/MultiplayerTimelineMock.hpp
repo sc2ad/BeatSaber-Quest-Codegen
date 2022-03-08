@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [HeaderAttribute] Offset: 0x12502E0
+    // [HeaderAttribute] Offset: 0x10C5300
     // private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
     // Size: 0x8
     // Offset: 0x18
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::GameObject*> connectedPlayerOutroAnimators;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [HeaderAttribute] Offset: 0x125034C
+    // [HeaderAttribute] Offset: 0x10C536C
     // private UnityEngine.GameObject _localPlayerIntroAnimator
     // Size: 0x8
     // Offset: 0x30
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* localPlayerOutroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [HeaderAttribute] Offset: 0x12503B8
+    // [HeaderAttribute] Offset: 0x10C53D8
     // private UnityEngine.GameObject _connectedDuelIntroAnimator
     // Size: 0x8
     // Offset: 0x48
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* localDuelOutroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1250434
+    // [HeaderAttribute] Offset: 0x10C5454
     // private UnityEngine.GameObject[] _resultAvatars
     // Size: 0x8
     // Offset: 0x68
@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::GameObject*> badgeTimelines;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [HeaderAttribute] Offset: 0x1250490
+    // [HeaderAttribute] Offset: 0x10C54B0
     // private UnityEngine.GameObject _resultsMocks
     // Size: 0x8
     // Offset: 0x78
@@ -182,49 +182,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _duelGroup
     ::UnityEngine::GameObject*& dyn__duelGroup();
     // public UnityEngine.GameObject[] get_connectedPlayerIntroAnimators()
-    // Offset: 0x2AAE4A0
+    // Offset: 0x1407DD4
     ::ArrayW<::UnityEngine::GameObject*> get_connectedPlayerIntroAnimators();
     // public UnityEngine.GameObject[] get_connectedPlayerScoreRings()
-    // Offset: 0x2AAE4A8
+    // Offset: 0x1407DDC
     ::ArrayW<::UnityEngine::GameObject*> get_connectedPlayerScoreRings();
     // public UnityEngine.GameObject[] get_connectedPlayerOutroAnimators()
-    // Offset: 0x2AAE4B0
+    // Offset: 0x1407DE4
     ::ArrayW<::UnityEngine::GameObject*> get_connectedPlayerOutroAnimators();
     // public UnityEngine.GameObject get_localPlayerIntroAnimator()
-    // Offset: 0x2AAE4B8
+    // Offset: 0x1407DEC
     ::UnityEngine::GameObject* get_localPlayerIntroAnimator();
     // public UnityEngine.GameObject get_localPlayerScoreRingItem()
-    // Offset: 0x2AAE4C0
+    // Offset: 0x1407DF4
     ::UnityEngine::GameObject* get_localPlayerScoreRingItem();
     // public UnityEngine.GameObject get_localPlayerOutroAnimator()
-    // Offset: 0x2AAE4C8
+    // Offset: 0x1407DFC
     ::UnityEngine::GameObject* get_localPlayerOutroAnimator();
     // public UnityEngine.GameObject get_connectedDuelIntroAnimator()
-    // Offset: 0x2AAE4D0
+    // Offset: 0x1407E04
     ::UnityEngine::GameObject* get_connectedDuelIntroAnimator();
     // public UnityEngine.GameObject get_connectedDuelOutroAnimator()
-    // Offset: 0x2AAE4D8
+    // Offset: 0x1407E0C
     ::UnityEngine::GameObject* get_connectedDuelOutroAnimator();
     // public UnityEngine.GameObject get_localDuelIntroAnimator()
-    // Offset: 0x2AAE4E0
+    // Offset: 0x1407E14
     ::UnityEngine::GameObject* get_localDuelIntroAnimator();
     // public UnityEngine.GameObject get_localDuelOutroAnimator()
-    // Offset: 0x2AAE4E8
+    // Offset: 0x1407E1C
     ::UnityEngine::GameObject* get_localDuelOutroAnimator();
     // public UnityEngine.GameObject[] get_resultAvatars()
-    // Offset: 0x2AAE4F0
+    // Offset: 0x1407E24
     ::ArrayW<::UnityEngine::GameObject*> get_resultAvatars();
     // public UnityEngine.GameObject[] get_badgeTimelines()
-    // Offset: 0x2AAE4F8
+    // Offset: 0x1407E2C
     ::ArrayW<::UnityEngine::GameObject*> get_badgeTimelines();
     // public UnityEngine.GameObject get_resultsMocks()
-    // Offset: 0x2AAE500
+    // Offset: 0x1407E34
     ::UnityEngine::GameObject* get_resultsMocks();
     // public System.Void HandleActivations(System.Boolean isDuel)
-    // Offset: 0x2AAE508
+    // Offset: 0x1407E3C
     void HandleActivations(bool isDuel);
     // public System.Void .ctor()
-    // Offset: 0x2AAE56C
+    // Offset: 0x1407EA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

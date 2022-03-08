@@ -88,10 +88,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElements
     int& dyn__numberOfElements();
     // public System.Void add_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x13F3E84
+    // Offset: 0x141E550
     void add_dropDownValueDidChangeEvent(::System::Action* value);
     // public System.Void remove_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x13F3F28
+    // Offset: 0x141E5F4
     void remove_dropDownValueDidChangeEvent(::System::Action* value);
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFF
@@ -103,22 +103,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::StringW TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x13F3FCC
+    // Offset: 0x141E698
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13F417C
+    // Offset: 0x141E848
     void OnDisable();
     // private System.Void HandleDropdownValueDidChange(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x13F4254
+    // Offset: 0x141E920
     void HandleDropdownValueDidChange(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI()
-    // Offset: 0x13F4094
+    // Offset: 0x141E760
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x13F429C
+    // Offset: 0x141E968
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x13F42FC
+    // Offset: 0x141E9C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

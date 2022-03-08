@@ -110,35 +110,35 @@ namespace ModestTree {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<System.Type> <>7__wrap1
     ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& dyn_$$7__wrap1();
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
-    // Offset: 0x16D2F30
+    // Offset: 0x1735364
     ::System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16D2F98
+    // Offset: 0x17353CC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x16D20E4
+    // Offset: 0x1734518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeExtensions::$GetParentTypes$d__28* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::TypeExtensions::$GetParentTypes$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeExtensions::$GetParentTypes$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16D29A0
+    // Offset: 0x1734DD4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x16D2A7C
+    // Offset: 0x1734EB0
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x16D29BC
+    // Offset: 0x1734DF0
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16D2F38
+    // Offset: 0x173536C
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Type> System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator()
-    // Offset: 0x16D2FA0
+    // Offset: 0x17353D4
     ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x16D304C
+    // Offset: 0x1735480
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.TypeExtensions/ModestTree.<GetParentTypes>d__28
   #pragma pack(pop)

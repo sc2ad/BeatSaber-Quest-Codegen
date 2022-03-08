@@ -68,7 +68,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1263830
+    // [RangeAttribute] Offset: 0x10DA4C4
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x38
@@ -87,7 +87,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Vector3 rotation;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1263848
+    // [RangeAttribute] Offset: 0x10DA4DC
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x54
@@ -112,16 +112,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single rotationWeight
     float& dyn_rotationWeight();
     // public System.Boolean IsValid()
-    // Offset: 0x222B958
+    // Offset: 0x222F7CC
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x222A3DC
+    // Offset: 0x222E250
     void Initiate(::UnityEngine::Transform* transform);
     // public System.Void Update()
-    // Offset: 0x222A5B8
+    // Offset: 0x222E42C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x222ACE0
+    // Offset: 0x222EB54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

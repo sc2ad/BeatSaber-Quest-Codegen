@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minAlpha
     float& dyn__minAlpha();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2093B18
+    // Offset: 0x1F1F614
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2093C04
+    // Offset: 0x1F1F700
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UnityLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2093B34
+    // Offset: 0x1F1F630
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

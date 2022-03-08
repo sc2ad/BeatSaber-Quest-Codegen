@@ -131,6 +131,12 @@ namespace GlobalNamespace {
     static ::StringW _get_kMusicPitch();
     // Set static field: static private System.String kMusicPitch
     static void _set_kMusicPitch(::StringW value);
+    // static field const value: static private System.String kMusicSpeed
+    static constexpr const char* kMusicSpeed = "MusicSpeed";
+    // Get static field: static private System.String kMusicSpeed
+    static ::StringW _get_kMusicSpeed();
+    // Set static field: static private System.String kMusicSpeed
+    static void _set_kMusicSpeed(::StringW value);
     // static field const value: static private System.String kMusicPitchShifterWet
     static constexpr const char* kMusicPitchShifterWet = "MusicPitchShifterWet";
     // Get static field: static private System.String kMusicPitchShifterWet
@@ -152,31 +158,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sfxEnabled
     bool& dyn__sfxEnabled();
     // public System.Single get_sfxLatency()
-    // Offset: 0x14902CC
+    // Offset: 0x14BFCD8
     float get_sfxLatency();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0x14903D8
+    // Offset: 0x14BFDE4
     void set_mainVolume(float value);
     // public System.Void set_musicVolume(System.Single value)
-    // Offset: 0x1490444
+    // Offset: 0x14BFE50
     void set_musicVolume(float value);
+    // public System.Single get_sfxVolume()
+    // Offset: 0x14BFEC0
+    float get_sfxVolume();
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0x14904B4
+    // Offset: 0x14BFED8
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0x1490540
+    // Offset: 0x14BFF64
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0x1490548
+    // Offset: 0x14BFF6C
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0x1490568
+    // Offset: 0x14BFF8C
     void set_musicPitch(float value);
+    // public System.Void set_musicSpeed(System.Single value)
+    // Offset: 0x14C005C
+    void set_musicSpeed(float value);
     // public System.Void Init()
-    // Offset: 0x1490334
+    // Offset: 0x14BFD40
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1490638
+    // Offset: 0x14C00C8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -219,6 +231,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioManagerSO*), "set_musicVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::get_sfxVolume
+// Il2CppName: get_sfxVolume
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AudioManagerSO::*)()>(&GlobalNamespace::AudioManagerSO::get_sfxVolume)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioManagerSO*), "get_sfxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::set_sfxVolume
 // Il2CppName: set_sfxVolume
 template<>
@@ -252,6 +272,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioManagerSO*), "set_musicPitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::set_musicSpeed
+// Il2CppName: set_musicSpeed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioManagerSO::*)(float)>(&GlobalNamespace::AudioManagerSO::set_musicSpeed)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioManagerSO*), "set_musicSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::Init

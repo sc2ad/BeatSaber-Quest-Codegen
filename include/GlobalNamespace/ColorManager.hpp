@@ -15,6 +15,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: ColorScheme
   class ColorScheme;
+  // Forward declaring type: EnvironmentColorType
+  struct EnvironmentColorType;
   // Forward declaring type: ColorType
   struct ColorType;
   // Forward declaring type: SaberType
@@ -51,7 +53,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x124F670
+    // [InjectAttribute] Offset: 0x10C4508
     // private readonly ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x10
@@ -66,22 +68,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ColorScheme _colorScheme
     ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x13BE820
+    // Offset: 0x1363FCC
     ::UnityEngine::Color get_obstaclesColor();
+    // public UnityEngine.Color ColorForType(EnvironmentColorType type, System.Boolean boost)
+    // Offset: 0x1363FEC
+    ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
     // public UnityEngine.Color ColorForType(ColorType type)
-    // Offset: 0x13BE840
+    // Offset: 0x1364074
     ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0x13BE890
+    // Offset: 0x13640C4
     ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0x13BE8E4
+    // Offset: 0x1364118
     ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0x13BE97C
+    // Offset: 0x13641B0
     ::UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0x13BE9E0
+    // Offset: 0x1364214
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,6 +106,16 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorManager::*)()>(&GlobalNamespace::ColorManager::get_obstaclesColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorManager::ColorForType
+// Il2CppName: ColorForType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorManager::*)(::GlobalNamespace::EnvironmentColorType, bool)>(&GlobalNamespace::ColorManager::ColorForType)> {
+  static const MethodInfo* get() {
+    static auto* type = &::il2cpp_utils::GetClassFromName("", "EnvironmentColorType")->byval_arg;
+    static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "ColorForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, boost});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::ColorForType

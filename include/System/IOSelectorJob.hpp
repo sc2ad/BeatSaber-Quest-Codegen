@@ -86,20 +86,20 @@ namespace System {
     // Get instance field reference: private System.IOAsyncResult state
     ::System::IOAsyncResult*& dyn_state();
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0x1AA2E34
+    // Offset: 0x1CD3DCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IOSelectorJob::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOSelectorJob*, creationType>(operation, callback, state)));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1AA2E74
+    // Offset: 0x1CD3E0C
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1AA2E94
+    // Offset: 0x1CD3E2C
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // public System.Void MarkDisposed()
-    // Offset: 0x1AA2E98
+    // Offset: 0x1CD3E30
     void MarkDisposed();
   }; // System.IOSelectorJob
   #pragma pack(pop)

@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _disabledRootObjects
     bool& dyn__disabledRootObjects();
     // public System.String get_sceneName()
-    // Offset: 0x299BC24
+    // Offset: 0x2A08F0C
     ::StringW get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x299BC2C
+    // Offset: 0x2A08F14
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x299BC34
+    // Offset: 0x2A08F1C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

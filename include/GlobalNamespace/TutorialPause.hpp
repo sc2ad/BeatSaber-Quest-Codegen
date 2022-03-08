@@ -53,21 +53,21 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1246D5C
+    // [InjectAttribute] Offset: 0x10BC04C
     // private readonly TutorialSongController _tutorialSongController
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::TutorialSongController* tutorialSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TutorialSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1246D6C
+    // [InjectAttribute] Offset: 0x10BC05C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1246D7C
+    // [InjectAttribute] Offset: 0x10BC06C
     // private readonly AudioListenerController _audioListenerController
     // Size: 0x8
     // Offset: 0x20
@@ -117,35 +117,38 @@ namespace GlobalNamespace {
     ::System::Action*& dyn_didResumeEvent();
     // Get instance field reference: private System.Boolean _pause
     bool& dyn__pause();
+    // public System.Boolean get_isPaused()
+    // Offset: 0x138C6B8
+    bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x2AED3A0
+    // Offset: 0x138C6C0
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x2AED444
+    // Offset: 0x138C764
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x2AED4E8
+    // Offset: 0x138C808
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x2AED58C
+    // Offset: 0x138C8AC
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x2AED630
+    // Offset: 0x138C950
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x2AED6D4
+    // Offset: 0x138C9F4
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x2AED778
+    // Offset: 0x138CA98
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x2AED7F8
+    // Offset: 0x138CB18
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x2AED80C
+    // Offset: 0x138CB2C
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x2AED888
+    // Offset: 0x138CBA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -159,6 +162,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialPause) == 0x41);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::get_isPaused
+// Il2CppName: get_isPaused
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::TutorialPause::*)()>(&GlobalNamespace::TutorialPause::get_isPaused)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "get_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialPause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

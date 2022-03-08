@@ -157,19 +157,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Boolean NIsealedStatusChecked
     bool& dyn_NIsealedStatusChecked();
     // public System.Boolean get_IsSealed()
-    // Offset: 0x1814DE0
+    // Offset: 0x18C56BC
     bool get_IsSealed();
     // public System.String get_NIname()
-    // Offset: 0x1814E38
+    // Offset: 0x18C5714
     ::StringW get_NIname();
     // public System.Void set_NIname(System.String value)
-    // Offset: 0x1814E7C
+    // Offset: 0x18C5758
     void set_NIname(::StringW value);
     // System.Void Init()
-    // Offset: 0x1814DC0
+    // Offset: 0x18C569C
     void Init();
     // System.Void .ctor()
-    // Offset: 0x1814DB8
+    // Offset: 0x18C5694
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

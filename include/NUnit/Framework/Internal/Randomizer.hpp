@@ -72,16 +72,16 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.Int32 DefaultStringLength
     static void _set_DefaultStringLength(int value);
     // static public System.Void set_InitialSeed(System.Int32 value)
-    // Offset: 0x28B59B8
+    // Offset: 0x29E2AE8
     static void set_InitialSeed(int value);
     // static private System.Void .cctor()
-    // Offset: 0x28B590C
+    // Offset: 0x29E2A3C
     static void _cctor();
     // static public NUnit.Framework.Internal.Randomizer CreateRandomizer()
-    // Offset: 0x28B5A60
+    // Offset: 0x29E2B90
     static ::NUnit::Framework::Internal::Randomizer* CreateRandomizer();
     // public System.Void .ctor(System.Int32 seed)
-    // Offset: 0x28B5B00
+    // Offset: 0x29E2C30
     // Implemented from: System.Random
     // Base method: System.Void Random::.ctor(System.Int32 seed)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

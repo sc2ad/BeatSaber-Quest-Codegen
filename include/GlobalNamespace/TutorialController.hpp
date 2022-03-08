@@ -91,23 +91,23 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1246CAC
-    // [SignalSenderAttribute] Offset: 0x1246CAC
+    // [SpaceAttribute] Offset: 0x10BBF9C
+    // [SignalSenderAttribute] Offset: 0x10BBF9C
     // private Signal _tutorialIntroStartedSignal
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::Signal* tutorialIntroStartedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [SignalSenderAttribute] Offset: 0x1246CF4
+    // [SignalSenderAttribute] Offset: 0x10BBFE4
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::Signal* tutorialFinishedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0x1246D2C
-    // private PauseController _pauseController
+    // [InjectAttribute] Offset: 0x10BC01C
+    // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::PauseController* pauseController;
@@ -140,38 +140,38 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Signal*& dyn__tutorialIntroStartedSignal();
     // Get instance field reference: private Signal _tutorialFinishedSignal
     ::GlobalNamespace::Signal*& dyn__tutorialFinishedSignal();
-    // Get instance field reference: private PauseController _pauseController
+    // Get instance field reference: private readonly PauseController _pauseController
     ::GlobalNamespace::PauseController*& dyn__pauseController();
     // Get instance field reference: private System.Boolean _paused
     bool& dyn__paused();
     // Get instance field reference: private System.Boolean _doingOutroTransition
     bool& dyn__doingOutroTransition();
     // protected System.Void Start()
-    // Offset: 0x2AEB510
+    // Offset: 0x138A60C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2AEB6E4
+    // Offset: 0x138A7D4
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0x2AEB928
+    // Offset: 0x138AA18
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0x2AEB9A4
+    // Offset: 0x138AA9C
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0x2AEB9F0
+    // Offset: 0x138AAE8
     ::System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x2AEBA8C
+    // Offset: 0x138AB84
     void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x2AEBB18
+    // Offset: 0x138AC10
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x2AEBB24
+    // Offset: 0x138AC1C
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x2AEBB2C
+    // Offset: 0x138AC24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

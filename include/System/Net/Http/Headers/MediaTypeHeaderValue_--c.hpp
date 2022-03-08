@@ -46,13 +46,13 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.NameValueHeaderValue> <>9__6_0
     static void _set_$$9__6_0(::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18FC220
+    // Offset: 0x1966C9C
     static void _cctor();
     // System.Boolean <get_CharSet>b__6_0(System.Net.Http.Headers.NameValueHeaderValue l)
-    // Offset: 0x18FC28C
+    // Offset: 0x1966D08
     bool $get_CharSet$b__6_0(::System::Net::Http::Headers::NameValueHeaderValue* l);
     // public System.Void .ctor()
-    // Offset: 0x18FC284
+    // Offset: 0x1966D00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

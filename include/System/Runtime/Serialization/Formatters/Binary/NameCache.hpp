@@ -62,16 +62,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.String name
     ::StringW& dyn_name();
     // static private System.Void .cctor()
-    // Offset: 0x1814D44
+    // Offset: 0x18C5620
     static void _cctor();
     // System.Object GetCachedValue(System.String name)
-    // Offset: 0x1814BFC
+    // Offset: 0x18C54D8
     ::Il2CppObject* GetCachedValue(::StringW name);
     // System.Void SetCachedValue(System.Object value)
-    // Offset: 0x1814CA8
+    // Offset: 0x18C5584
     void SetCachedValue(::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1814D3C
+    // Offset: 0x18C5618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerStatusData[] data
     ::ArrayW<::GlobalNamespace::MultiplayerStatusData*>& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x2AAE498
+    // Offset: 0x1407DCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

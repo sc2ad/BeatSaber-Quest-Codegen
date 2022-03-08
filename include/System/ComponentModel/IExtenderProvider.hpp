@@ -5,9 +5,6 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppObject;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Forward declaring type: IExtenderProvider
@@ -24,19 +21,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class IExtenderProvider {
     public:
-    // public System.Boolean CanExtend(System.Object extendee)
-    // Offset: 0xFFFFFFFF
-    bool CanExtend(::Il2CppObject* extendee);
   }; // System.ComponentModel.IExtenderProvider
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: System::ComponentModel::IExtenderProvider::CanExtend
-// Il2CppName: CanExtend
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::IExtenderProvider::*)(::Il2CppObject*)>(&System::ComponentModel::IExtenderProvider::CanExtend)> {
-  static const MethodInfo* get() {
-    static auto* extendee = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::IExtenderProvider*), "CanExtend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{extendee});
-  }
-};

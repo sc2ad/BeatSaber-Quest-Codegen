@@ -56,17 +56,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Byte[] data
     ::ArrayW<uint8_t>& dyn_data();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x1563A48
+    // Offset: 0x15E3EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519PublicKeyParameters* New_ctor(::ArrayW<uint8_t> buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519PublicKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1563EC4
+    // Offset: 0x15E431C
     static void _cctor();
     // public System.Void Encode(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x1563D9C
+    // Offset: 0x15E41F4
     void Encode(::ArrayW<uint8_t> buf, int off);
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters
   #pragma pack(pop)

@@ -17,14 +17,14 @@
 namespace GlobalNamespace {
   // Forward declaring type: PlayerTransforms
   class PlayerTransforms;
-  // Forward declaring type: IBeatmapObjectCallbackController
-  class IBeatmapObjectCallbackController;
+  // Forward declaring type: BeatmapCallbacksController
+  class BeatmapCallbacksController;
   // Forward declaring type: IAudioTimeSource
   class IAudioTimeSource;
-  // Forward declaring type: BeatmapObjectCallbackData
-  class BeatmapObjectCallbackData;
-  // Forward declaring type: BeatmapObjectData
-  class BeatmapObjectData;
+  // Forward declaring type: BeatmapDataCallbackWrapper
+  class BeatmapDataCallbackWrapper;
+  // Forward declaring type: ObstacleData
+  class ObstacleData;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -60,28 +60,28 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x12462A8
+    // [InjectAttribute] Offset: 0x10BB584
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x12462B8
-    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0x10BB594
+    // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
-    ::GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
+    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0x12462C8
+    static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
+    // [InjectAttribute] Offset: 0x10BB5A4
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x12462D8
+    // [InjectAttribute] Offset: 0x10BB5B4
     // private readonly PlayerHeightDetector/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -94,12 +94,12 @@ namespace GlobalNamespace {
     ::System::Action_1<float>* playerHeightDidChangeEvent;
     // Field size check
     static_assert(sizeof(::System::Action_1<float>*) == 0x8);
-    // private BeatmapObjectCallbackData _beatmapObjectCallbackData
+    // private BeatmapDataCallbackWrapper _beatmapObjectCallbackWrapper
     // Size: 0x8
     // Offset: 0x40
-    ::GlobalNamespace::BeatmapObjectCallbackData* beatmapObjectCallbackData;
+    ::GlobalNamespace::BeatmapDataCallbackWrapper* beatmapObjectCallbackWrapper;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::BeatmapObjectCallbackData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*) == 0x8);
     // private System.Single _noTopObstaclesStartTime
     // Size: 0x4
     // Offset: 0x48
@@ -129,16 +129,16 @@ namespace GlobalNamespace {
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
     ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
-    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    ::GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
+    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController
     ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
     // Get instance field reference: private readonly PlayerHeightDetector/InitData _initData
     ::GlobalNamespace::PlayerHeightDetector::InitData*& dyn__initData();
     // Get instance field reference: private System.Action`1<System.Single> playerHeightDidChangeEvent
     ::System::Action_1<float>*& dyn_playerHeightDidChangeEvent();
-    // Get instance field reference: private BeatmapObjectCallbackData _beatmapObjectCallbackData
-    ::GlobalNamespace::BeatmapObjectCallbackData*& dyn__beatmapObjectCallbackData();
+    // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapObjectCallbackWrapper
+    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapObjectCallbackWrapper();
     // Get instance field reference: private System.Single _noTopObstaclesStartTime
     float& dyn__noTopObstaclesStartTime();
     // Get instance field reference: private System.Single _computedPlayerHeight
@@ -148,28 +148,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastReportedHeight
     float& dyn__lastReportedHeight();
     // public System.Single get_playerHeight()
-    // Offset: 0x13E2504
+    // Offset: 0x148701C
     float get_playerHeight();
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13E23BC
+    // Offset: 0x1486ED4
     void add_playerHeightDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13E2460
+    // Offset: 0x1486F78
     void remove_playerHeightDidChangeEvent(::System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0x13E250C
+    // Offset: 0x1487024
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13E26AC
+    // Offset: 0x148710C
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x13E2770
+    // Offset: 0x1487128
     void LateUpdate();
-    // private System.Void BeatmapObjectSpawnCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x13E2960
-    void BeatmapObjectSpawnCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
+    // private System.Void BeatmapObjectSpawnCallback(ObstacleData obstacleData)
+    // Offset: 0x1487318
+    void BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData* obstacleData);
     // public System.Void .ctor()
-    // Offset: 0x13E2A6C
+    // Offset: 0x14873D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -240,10 +240,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback
 // Il2CppName: BeatmapObjectSpawnCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)(::GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)(::GlobalNamespace::ObstacleData*)>(&GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback)> {
   static const MethodInfo* get() {
-    static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "BeatmapObjectSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapObjectData});
+    static auto* obstacleData = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "BeatmapObjectSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::New_ctor

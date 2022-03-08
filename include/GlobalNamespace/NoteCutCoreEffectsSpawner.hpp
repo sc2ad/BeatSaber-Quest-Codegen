@@ -7,6 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: System.Int32
+#include "System/Int32.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -70,7 +72,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: shockWaveYPos and: noteCutParticlesEffect
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1240CF0
+    // [SpaceAttribute] Offset: 0x10B5C7C
     // private NoteCutParticlesEffect _noteCutParticlesEffect
     // Size: 0x8
     // Offset: 0x20
@@ -101,21 +103,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x1240D68
+    // [InjectAttribute] Offset: 0x10B5CF4
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1240D78
+    // [InjectAttribute] Offset: 0x10B5D04
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1240D88
+    // [InjectAttribute] Offset: 0x10B5D14
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x58
@@ -125,6 +127,30 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
+    // static field const value: static private System.Int32 kNormalNoteSparkleParticlesCount
+    static constexpr const int kNormalNoteSparkleParticlesCount = 150;
+    // Get static field: static private System.Int32 kNormalNoteSparkleParticlesCount
+    static int _get_kNormalNoteSparkleParticlesCount();
+    // Set static field: static private System.Int32 kNormalNoteSparkleParticlesCount
+    static void _set_kNormalNoteSparkleParticlesCount(int value);
+    // static field const value: static private System.Int32 kNormalNoteExplosionParticlesCount
+    static constexpr const int kNormalNoteExplosionParticlesCount = 50;
+    // Get static field: static private System.Int32 kNormalNoteExplosionParticlesCount
+    static int _get_kNormalNoteExplosionParticlesCount();
+    // Set static field: static private System.Int32 kNormalNoteExplosionParticlesCount
+    static void _set_kNormalNoteExplosionParticlesCount(int value);
+    // static field const value: static private System.Int32 kBurstSliderElementSparkleParticlesCount
+    static constexpr const int kBurstSliderElementSparkleParticlesCount = 50;
+    // Get static field: static private System.Int32 kBurstSliderElementSparkleParticlesCount
+    static int _get_kBurstSliderElementSparkleParticlesCount();
+    // Set static field: static private System.Int32 kBurstSliderElementSparkleParticlesCount
+    static void _set_kBurstSliderElementSparkleParticlesCount(int value);
+    // static field const value: static private System.Int32 kBurstSliderElementParticlesCount
+    static constexpr const int kBurstSliderElementParticlesCount = 20;
+    // Get static field: static private System.Int32 kBurstSliderElementParticlesCount
+    static int _get_kBurstSliderElementParticlesCount();
+    // Set static field: static private System.Int32 kBurstSliderElementParticlesCount
+    static void _set_kBurstSliderElementParticlesCount(int value);
     // Get instance field reference: private System.Single _shockWaveYPos
     float& dyn__shockWaveYPos();
     // Get instance field reference: private NoteCutParticlesEffect _noteCutParticlesEffect
@@ -144,22 +170,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
     ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // protected System.Void Start()
-    // Offset: 0x2B29894
+    // Offset: 0x140FA08
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B29920
+    // Offset: 0x140FA94
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x2B299B8
+    // Offset: 0x140FB2C
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-    // private System.Void SpawnNoteCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController)
-    // Offset: 0x2B29AD4
-    void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
+    // private System.Void SpawnNoteCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount)
+    // Offset: 0x140FCF4
+    void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int sparkleParticlesCount, int explosionParticlesCount);
     // private System.Void SpawnBombCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController)
-    // Offset: 0x2B29A74
+    // Offset: 0x140FC3C
     void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x2B2AC60
+    // Offset: 0x1410518
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -206,11 +232,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect
 // Il2CppName: SpawnNoteCutEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)(ByRef<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteController*)>(&GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)(ByRef<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteController*, int, int)>(&GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect)> {
   static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "SpawnNoteCutEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo, noteController});
+    static auto* sparkleParticlesCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* explosionParticlesCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "SpawnNoteCutEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo, noteController, sparkleParticlesCount, explosionParticlesCount});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnBombCutEffect

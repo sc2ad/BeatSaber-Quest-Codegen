@@ -29,46 +29,46 @@ namespace UnityEngine::EventSystems {
   class UIBehaviour : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0x18711FC
+    // Offset: 0x1906280
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x186688C
+    // Offset: 0x18FB910
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1871200
+    // Offset: 0x1906284
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x18669F4
+    // Offset: 0x18FBA78
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1871204
+    // Offset: 0x1906288
     void OnDestroy();
     // public System.Boolean IsActive()
-    // Offset: 0x1871208
+    // Offset: 0x190628C
     bool IsActive();
     // protected System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x1871210
+    // Offset: 0x1906294
     void OnRectTransformDimensionsChange();
     // protected System.Void OnBeforeTransformParentChanged()
-    // Offset: 0x1871214
+    // Offset: 0x1906298
     void OnBeforeTransformParentChanged();
     // protected System.Void OnTransformParentChanged()
-    // Offset: 0x1867BA4
+    // Offset: 0x18FCC28
     void OnTransformParentChanged();
     // protected System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x1871218
+    // Offset: 0x190629C
     void OnDidApplyAnimationProperties();
     // protected System.Void OnCanvasGroupChanged()
-    // Offset: 0x187121C
+    // Offset: 0x19062A0
     void OnCanvasGroupChanged();
     // protected System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x1867B98
+    // Offset: 0x18FCC1C
     void OnCanvasHierarchyChanged();
     // public System.Boolean IsDestroyed()
-    // Offset: 0x1871220
+    // Offset: 0x19062A4
     bool IsDestroyed();
     // protected System.Void .ctor()
-    // Offset: 0x18665EC
+    // Offset: 0x18FB670
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

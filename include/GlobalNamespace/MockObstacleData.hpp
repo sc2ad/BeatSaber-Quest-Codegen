@@ -5,8 +5,8 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-// Including type: ObstacleType
-#include "GlobalNamespace/ObstacleType.hpp"
+// Including type: NoteLineLayer
+#include "GlobalNamespace/NoteLineLayer.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,12 +49,12 @@ namespace GlobalNamespace {
     int lineIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // private ObstacleType <obstacleType>k__BackingField
+    // private NoteLineLayer <lineLayer>k__BackingField
     // Size: 0x4
     // Offset: 0x18
-    ::GlobalNamespace::ObstacleType obstacleType;
+    ::GlobalNamespace::NoteLineLayer lineLayer;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::ObstacleType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::NoteLineLayer) == 0x4);
     // private System.Single <duration>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -72,44 +72,44 @@ namespace GlobalNamespace {
     float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
     int& dyn_$lineIndex$k__BackingField();
-    // Get instance field reference: private ObstacleType <obstacleType>k__BackingField
-    ::GlobalNamespace::ObstacleType& dyn_$obstacleType$k__BackingField();
+    // Get instance field reference: private NoteLineLayer <lineLayer>k__BackingField
+    ::GlobalNamespace::NoteLineLayer& dyn_$lineLayer$k__BackingField();
     // Get instance field reference: private System.Single <duration>k__BackingField
     float& dyn_$duration$k__BackingField();
     // Get instance field reference: private System.Int32 <width>k__BackingField
     int& dyn_$width$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x2A21A74
+    // Offset: 0x2A85330
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2A21A7C
+    // Offset: 0x2A85338
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A21A84
+    // Offset: 0x2A85340
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x2A21A8C
+    // Offset: 0x2A85348
     void set_lineIndex(int value);
-    // public ObstacleType get_obstacleType()
-    // Offset: 0x2A21A94
-    ::GlobalNamespace::ObstacleType get_obstacleType();
-    // public System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0x2A21A9C
-    void set_obstacleType(::GlobalNamespace::ObstacleType value);
+    // public NoteLineLayer get_lineLayer()
+    // Offset: 0x2A85350
+    ::GlobalNamespace::NoteLineLayer get_lineLayer();
+    // public System.Void set_lineLayer(NoteLineLayer value)
+    // Offset: 0x2A85358
+    void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x2A21AA4
+    // Offset: 0x2A85360
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2A21AAC
+    // Offset: 0x2A85368
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x2A21AB4
+    // Offset: 0x2A85370
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x2A21ABC
+    // Offset: 0x2A85378
     void set_width(int value);
     // public System.Void .ctor()
-    // Offset: 0x2A21AC4
+    // Offset: 0x2A85380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -157,21 +157,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_obstacleType
-// Il2CppName: get_obstacleType
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_lineLayer
+// Il2CppName: get_lineLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObstacleType (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::get_obstacleType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::get_lineLayer)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "get_obstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "get_lineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::set_obstacleType
-// Il2CppName: set_obstacleType
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::set_lineLayer
+// Il2CppName: set_lineLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)(::GlobalNamespace::ObstacleType)>(&GlobalNamespace::MockObstacleData::set_obstacleType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)(::GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::MockObstacleData::set_lineLayer)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("", "ObstacleType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_obstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_lineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_duration

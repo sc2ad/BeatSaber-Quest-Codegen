@@ -78,14 +78,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerBadgeAwardData badge
     ::GlobalNamespace::MultiplayerBadgeAwardData*& dyn_badge();
     // public System.Void .ctor(IConnectedPlayer connectedPlayer, MultiplayerLevelCompletionResults multiplayerLevelCompletionResults)
-    // Offset: 0x2AA4684
+    // Offset: 0x13FDF74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPlayerResultsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayerResultsData*, creationType>(connectedPlayer, multiplayerLevelCompletionResults)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x2AA46BC
+    // Offset: 0x13FDFAC
     int CompareTo(::Il2CppObject* obj);
   }; // MultiplayerPlayerResultsData
   #pragma pack(pop)

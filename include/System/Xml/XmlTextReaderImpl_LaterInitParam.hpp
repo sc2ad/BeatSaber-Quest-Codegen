@@ -9,10 +9,6 @@
 #include "System/Xml/XmlTextReaderImpl.hpp"
 // Including type: System.Xml.XmlTextReaderImpl/System.Xml.InitInputType
 #include "System/Xml/XmlTextReaderImpl_InitInputType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
@@ -142,22 +138,9 @@ namespace System::Xml {
     ::System::IO::TextReader*& dyn_inputTextReader();
     // Get instance field reference: public System.Xml.XmlTextReaderImpl/System.Xml.InitInputType initType
     ::System::Xml::XmlTextReaderImpl::InitInputType& dyn_initType();
-    // public System.Void .ctor()
-    // Offset: 0x1BADD5C
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlTextReaderImpl::LaterInitParam* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::LaterInitParam::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::LaterInitParam*, creationType>()));
-    }
   }; // System.Xml.XmlTextReaderImpl/System.Xml.LaterInitParam
   #pragma pack(pop)
   static check_size<sizeof(XmlTextReaderImpl::LaterInitParam), 88 + sizeof(::System::Xml::XmlTextReaderImpl::InitInputType)> __System_Xml_XmlTextReaderImpl_LaterInitParamSizeCheck;
   static_assert(sizeof(XmlTextReaderImpl::LaterInitParam) == 0x5C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::LaterInitParam::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

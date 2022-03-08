@@ -101,40 +101,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action despawnCharacterEvent
     ::System::Action*& dyn_despawnCharacterEvent();
     // public System.Void add_animationDidPauseEvent(System.Action value)
-    // Offset: 0x299FC8C
+    // Offset: 0x2A0D5A4
     void add_animationDidPauseEvent(::System::Action* value);
     // public System.Void remove_animationDidPauseEvent(System.Action value)
-    // Offset: 0x299FD30
+    // Offset: 0x2A0D648
     void remove_animationDidPauseEvent(::System::Action* value);
     // public System.Void add_spawnCharacterEvent(System.Action value)
-    // Offset: 0x299FDD4
+    // Offset: 0x2A0D6EC
     void add_spawnCharacterEvent(::System::Action* value);
     // public System.Void remove_spawnCharacterEvent(System.Action value)
-    // Offset: 0x299FE78
+    // Offset: 0x2A0D790
     void remove_spawnCharacterEvent(::System::Action* value);
     // public System.Void add_despawnCharacterEvent(System.Action value)
-    // Offset: 0x299FF1C
+    // Offset: 0x2A0D834
     void add_despawnCharacterEvent(::System::Action* value);
     // public System.Void remove_despawnCharacterEvent(System.Action value)
-    // Offset: 0x299FFC0
+    // Offset: 0x2A0D8D8
     void remove_despawnCharacterEvent(::System::Action* value);
     // private System.Void PlayEvent(System.String eventName)
-    // Offset: 0x29A0064
+    // Offset: 0x2A0D97C
     void PlayEvent(::StringW eventName);
     // private System.Void PauseAnimation()
-    // Offset: 0x29A013C
+    // Offset: 0x2A0DA54
     void PauseAnimation();
     // private System.Void SpawnCharacterEvent()
-    // Offset: 0x29A037C
+    // Offset: 0x2A0DC94
     void SpawnCharacterEvent();
     // private System.Void DeSpawnCharacterEvent()
-    // Offset: 0x29A0390
+    // Offset: 0x2A0DCA8
     void DeSpawnCharacterEvent();
     // public System.Void ResumeAnimation()
-    // Offset: 0x29A03A4
+    // Offset: 0x2A0DCBC
     void ResumeAnimation();
     // public System.Void .ctor()
-    // Offset: 0x29A05D4
+    // Offset: 0x2A0DEEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

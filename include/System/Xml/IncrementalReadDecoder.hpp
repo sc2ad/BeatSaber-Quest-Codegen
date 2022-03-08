@@ -34,7 +34,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     int Decode(::ArrayW<::Il2CppChar> chars, int startPos, int len);
     // protected System.Void .ctor()
-    // Offset: 0x16EEC00
+    // Offset: 0x1AAB73C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

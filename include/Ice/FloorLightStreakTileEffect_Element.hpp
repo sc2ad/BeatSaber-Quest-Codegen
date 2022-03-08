@@ -92,22 +92,22 @@ namespace Ice {
     // Get instance field reference: private UnityEngine.Color _color
     ::UnityEngine::Color& dyn__color();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A34520
+    // Offset: 0x2AA2B18
     int get_lineIndex();
     // public System.Int32 get_currentTileY()
-    // Offset: 0x2A34528
+    // Offset: 0x2AA2B20
     int get_currentTileY();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2A34530
+    // Offset: 0x2AA2B28
     ::UnityEngine::Color get_color();
     // public System.Void Setup(UnityEngine.Color color, System.Int32 lineIndex, System.Single stayOnTileDuration)
-    // Offset: 0x2A3406C
+    // Offset: 0x2AA2664
     void Setup(::UnityEngine::Color color, int lineIndex, float stayOnTileDuration);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x2A33EF8
+    // Offset: 0x2AA24F0
     void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x2A34454
+    // Offset: 0x2AA2A4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

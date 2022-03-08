@@ -177,7 +177,7 @@ namespace LiteNetLib::Utils {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::NetSerializer::CustomType*>*& dyn__registeredTypes();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x2A4EE34
+    // Offset: 0x2ABA320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::.ctor");
@@ -267,7 +267,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, obj);
     }
     // public System.Void .ctor()
-    // Offset: 0x2A4ED6C
+    // Offset: 0x2ABA258
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

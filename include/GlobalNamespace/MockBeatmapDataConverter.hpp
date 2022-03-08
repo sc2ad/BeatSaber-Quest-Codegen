@@ -11,8 +11,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: MockBeatmapData
   class MockBeatmapData;
-  // Forward declaring type: BeatmapData
-  class BeatmapData;
+  // Forward declaring type: IReadonlyBeatmapData
+  class IReadonlyBeatmapData;
   // Forward declaring type: MockNoteData
   class MockNoteData;
   // Forward declaring type: NoteData
@@ -42,14 +42,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::MockBeatmapDataConverter::$$c
     class $$c;
-    // static public MockBeatmapData ToMockBeatmapData(BeatmapData beatmapData)
-    // Offset: 0x1421354
-    static ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::BeatmapData* beatmapData);
+    // static public MockBeatmapData ToMockBeatmapData(IReadonlyBeatmapData beatmapData)
+    // Offset: 0x1339ED4
+    static ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static public MockNoteData ToMockNoteData(NoteData noteData)
-    // Offset: 0x1421C60
+    // Offset: 0x133A784
     static ::GlobalNamespace::MockNoteData* ToMockNoteData(::GlobalNamespace::NoteData* noteData);
     // static public MockObstacleData ToMockObstacleData(ObstacleData obstacleData)
-    // Offset: 0x1421CFC
+    // Offset: 0x133A818
     static ::GlobalNamespace::MockObstacleData* ToMockObstacleData(::GlobalNamespace::ObstacleData* obstacleData);
   }; // MockBeatmapDataConverter
   #pragma pack(pop)
@@ -58,9 +58,9 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData
 // Il2CppName: ToMockBeatmapData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockBeatmapData* (*)(::GlobalNamespace::BeatmapData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData)> {
   static const MethodInfo* get() {
-    static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "BeatmapData")->byval_arg;
+    static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter*), "ToMockBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
 };

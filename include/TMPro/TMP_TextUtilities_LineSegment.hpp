@@ -48,7 +48,7 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Vector3 Point2
     ::UnityEngine::Vector3& dyn_Point2();
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x183BE2C
+    // Offset: 0x18D0EB0
     // ABORTED: conflicts with another method.  LineSegment(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
   }; // TMPro.TMP_TextUtilities/TMPro.LineSegment
   #pragma pack(pop)

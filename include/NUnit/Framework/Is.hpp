@@ -11,12 +11,10 @@
 namespace NUnit::Framework::Constraints {
   // Forward declaring type: TrueConstraint
   class TrueConstraint;
+  // Forward declaring type: FalseConstraint
+  class FalseConstraint;
   // Forward declaring type: EqualConstraint
   class EqualConstraint;
-  // Forward declaring type: GreaterThanOrEqualConstraint
-  class GreaterThanOrEqualConstraint;
-  // Forward declaring type: LessThanOrEqualConstraint
-  class LessThanOrEqualConstraint;
 }
 // Completed forward declares
 // Type namespace: NUnit.Framework
@@ -36,17 +34,14 @@ namespace NUnit::Framework {
   class Is : public ::Il2CppObject {
     public:
     // static public NUnit.Framework.Constraints.TrueConstraint get_True()
-    // Offset: 0x28C03A0
+    // Offset: 0x29EDB08
     static ::NUnit::Framework::Constraints::TrueConstraint* get_True();
+    // static public NUnit.Framework.Constraints.FalseConstraint get_False()
+    // Offset: 0x29EDB64
+    static ::NUnit::Framework::Constraints::FalseConstraint* get_False();
     // static public NUnit.Framework.Constraints.EqualConstraint EqualTo(System.Object expected)
-    // Offset: 0x28C03FC
+    // Offset: 0x29EDBC0
     static ::NUnit::Framework::Constraints::EqualConstraint* EqualTo(::Il2CppObject* expected);
-    // static public NUnit.Framework.Constraints.GreaterThanOrEqualConstraint GreaterThanOrEqualTo(System.Object expected)
-    // Offset: 0x28C0460
-    static ::NUnit::Framework::Constraints::GreaterThanOrEqualConstraint* GreaterThanOrEqualTo(::Il2CppObject* expected);
-    // static public NUnit.Framework.Constraints.LessThanOrEqualConstraint LessThanOrEqualTo(System.Object expected)
-    // Offset: 0x28C04C4
-    static ::NUnit::Framework::Constraints::LessThanOrEqualConstraint* LessThanOrEqualTo(::Il2CppObject* expected);
   }; // NUnit.Framework.Is
   #pragma pack(pop)
 }
@@ -59,6 +54,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "get_True", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Is::get_False
+// Il2CppName: get_False
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::FalseConstraint* (*)()>(&NUnit::Framework::Is::get_False)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "get_False", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Is::EqualTo
 // Il2CppName: EqualTo
 template<>
@@ -66,23 +69,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Fr
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "EqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected});
-  }
-};
-// Writing MetadataGetter for method: NUnit::Framework::Is::GreaterThanOrEqualTo
-// Il2CppName: GreaterThanOrEqualTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::GreaterThanOrEqualConstraint* (*)(::Il2CppObject*)>(&NUnit::Framework::Is::GreaterThanOrEqualTo)> {
-  static const MethodInfo* get() {
-    static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "GreaterThanOrEqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected});
-  }
-};
-// Writing MetadataGetter for method: NUnit::Framework::Is::LessThanOrEqualTo
-// Il2CppName: LessThanOrEqualTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::LessThanOrEqualConstraint* (*)(::Il2CppObject*)>(&NUnit::Framework::Is::LessThanOrEqualTo)> {
-  static const MethodInfo* get() {
-    static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "LessThanOrEqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected});
   }
 };

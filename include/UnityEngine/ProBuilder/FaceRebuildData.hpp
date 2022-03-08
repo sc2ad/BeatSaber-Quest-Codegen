@@ -101,16 +101,16 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32 _appliedOffset
     int& dyn__appliedOffset();
     // public System.Int32 Offset()
-    // Offset: 0x1F3AF48
+    // Offset: 0x1FB5BC0
     int Offset();
     // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1F3AFEC
+    // Offset: 0x1FB5C64
     static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedVertexLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedTextureLookup)
-    // Offset: 0x1F3B14C
+    // Offset: 0x1FB5DC4
     static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup);
     // public System.Void .ctor()
-    // Offset: 0x1F3B614
+    // Offset: 0x1FB628C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -119,7 +119,7 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<FaceRebuildData*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1F3AF50
+    // Offset: 0x1FB5BC8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

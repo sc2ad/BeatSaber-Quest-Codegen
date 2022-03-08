@@ -61,7 +61,7 @@ namespace Zenject {
   class ConcreteBinderNonGeneric : public ::Zenject::FromBinderNonGeneric {
     public:
     // public Zenject.FromBinderNonGeneric ToSelf()
-    // Offset: 0x16DBE88
+    // Offset: 0x173E2BC
     ::Zenject::FromBinderNonGeneric* ToSelf();
     // public Zenject.FromBinderNonGeneric To()
     // Offset: 0xFFFFFFFF
@@ -73,19 +73,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FromBinderNonGeneric*, false>(this, ___generic__method);
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
-    // Offset: 0x16DBFA0
+    // Offset: 0x173E3D4
     ::Zenject::FromBinderNonGeneric* To(::ArrayW<::System::Type*> concreteTypes);
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
-    // Offset: 0x16DBFA4
+    // Offset: 0x173E3D8
     ::Zenject::FromBinderNonGeneric* To(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
     // public Zenject.FromBinderNonGeneric To(System.Action`1<Zenject.ConventionSelectTypesBinder> generator)
-    // Offset: 0x16DC094
+    // Offset: 0x173E4C8
     ::Zenject::FromBinderNonGeneric* To(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator);
     // private Zenject.IProvider <ToSelf>b__1_0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x16DC3C8
+    // Offset: 0x173E7FC
     ::Zenject::IProvider* $ToSelf$b__1_0(::Zenject::DiContainer* container, ::System::Type* type);
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
-    // Offset: 0x16DBE60
+    // Offset: 0x173E294
     // Implemented from: Zenject.FromBinderNonGeneric
     // Base method: System.Void FromBinderNonGeneric::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)

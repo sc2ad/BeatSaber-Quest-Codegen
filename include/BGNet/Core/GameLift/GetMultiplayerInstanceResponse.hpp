@@ -36,7 +36,7 @@ namespace BGNet::Core::GameLift {
   struct GetMultiplayerInstanceResponse/*, public ::System::ValueType*/ {
     public:
     public:
-    // [JsonPropertyAttribute] Offset: 0x1222920
+    // [JsonPropertyAttribute] Offset: 0x10977FC
     // public readonly MultiplayerPlacementErrorCode errorCode
     // Size: 0x4
     // Offset: 0x0
@@ -45,14 +45,14 @@ namespace BGNet::Core::GameLift {
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlacementErrorCode) == 0x4);
     // Padding between fields: errorCode and: playerSessionInfo
     char __padding0[0x4] = {};
-    // [JsonPropertyAttribute] Offset: 0x1222958
+    // [JsonPropertyAttribute] Offset: 0x1097834
     // public readonly BGNet.Core.GameLift.PlayerSessionInfo playerSessionInfo
     // Size: 0x8
     // Offset: 0x8
     ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo;
     // Field size check
     static_assert(sizeof(::BGNet::Core::GameLift::PlayerSessionInfo*) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x1222990
+    // [JsonPropertyAttribute] Offset: 0x109786C
     // public readonly System.Int32 pollIntervalMs
     // Size: 0x4
     // Offset: 0x10
@@ -61,28 +61,28 @@ namespace BGNet::Core::GameLift {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: pollIntervalMs and: ticketId
     char __padding2[0x4] = {};
-    // [JsonPropertyAttribute] Offset: 0x12229C8
+    // [JsonPropertyAttribute] Offset: 0x10978A4
     // public readonly System.String ticketId
     // Size: 0x8
     // Offset: 0x18
     ::StringW ticketId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x1222A00
+    // [JsonPropertyAttribute] Offset: 0x10978DC
     // public readonly System.String ticketStatus
     // Size: 0x8
     // Offset: 0x20
     ::StringW ticketStatus;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x1222A38
+    // [JsonPropertyAttribute] Offset: 0x1097914
     // public readonly System.String placementId
     // Size: 0x8
     // Offset: 0x28
     ::StringW placementId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x1222A70
+    // [JsonPropertyAttribute] Offset: 0x109794C
     // public readonly System.String placementStatus
     // Size: 0x8
     // Offset: 0x30
@@ -111,7 +111,7 @@ namespace BGNet::Core::GameLift {
     // Get instance field reference: public readonly System.String placementStatus
     ::StringW& dyn_placementStatus();
     // public System.Void .ctor(MultiplayerPlacementErrorCode errorCode, BGNet.Core.GameLift.PlayerSessionInfo playerSessionInfo, System.Int32 pollIntervalMs, System.String ticketId, System.String ticketStatus, System.String placementId, System.String placementStatus)
-    // Offset: 0x2B7E690
+    // Offset: 0x15280E0
     // ABORTED: conflicts with another method.  GetMultiplayerInstanceResponse(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int pollIntervalMs, ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
   }; // BGNet.Core.GameLift.GetMultiplayerInstanceResponse
   #pragma pack(pop)

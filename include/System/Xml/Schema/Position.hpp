@@ -53,7 +53,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: public System.Object particle
     ::Il2CppObject*& dyn_particle();
     // public System.Void .ctor(System.Int32 symbol, System.Object particle)
-    // Offset: 0x14A1CA4
+    // Offset: 0x1C422B8
     // ABORTED: conflicts with another method.  Position(int symbol, ::Il2CppObject* particle);
   }; // System.Xml.Schema.Position
   #pragma pack(pop)

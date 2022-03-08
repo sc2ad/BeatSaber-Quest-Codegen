@@ -28,8 +28,6 @@ namespace System::Xml::Schema {
   class InteriorNode;
   // Forward declaring type: BitSet
   class BitSet;
-  // Forward declaring type: ValidationState
-  class ValidationState;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -40,11 +38,6 @@ namespace System::Collections {
 namespace System::Xml {
   // Forward declaring type: XmlQualifiedName
   class XmlQualifiedName;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Decimal
-  struct Decimal;
 }
 // Completed forward declares
 // Type namespace: System.Xml.Schema
@@ -134,77 +127,74 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Boolean enableUpaCheck
     bool& dyn_enableUpaCheck();
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean enableUpaCheck)
-    // Offset: 0x149FBA4
+    // Offset: 0x1C3FD90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ParticleContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleContentValidator*, creationType>(contentType, enableUpaCheck)));
     }
     // public System.Void Start()
-    // Offset: 0x149FD4C
+    // Offset: 0x1C3FE18
     void Start();
     // public System.Void OpenGroup()
-    // Offset: 0x149FE50
+    // Offset: 0x1C3FFAC
     void OpenGroup();
     // public System.Void CloseGroup()
-    // Offset: 0x149FE78
+    // Offset: 0x1C3FFD4
     void CloseGroup();
     // public System.Boolean Exists(System.Xml.XmlQualifiedName name)
-    // Offset: 0x149FFC4
+    // Offset: 0x1C40120
     bool Exists(::System::Xml::XmlQualifiedName* name);
     // public System.Void AddName(System.Xml.XmlQualifiedName name, System.Object particle)
-    // Offset: 0x149FFE0
+    // Offset: 0x1C40190
     void AddName(::System::Xml::XmlQualifiedName* name, ::Il2CppObject* particle);
     // public System.Void AddNamespaceList(System.Xml.Schema.NamespaceList namespaceList, System.Object particle)
-    // Offset: 0x14A0180
+    // Offset: 0x1C40470
     void AddNamespaceList(::System::Xml::Schema::NamespaceList* namespaceList, ::Il2CppObject* particle);
     // private System.Void AddLeafNode(System.Xml.Schema.SyntaxTreeNode node)
-    // Offset: 0x14A0094
+    // Offset: 0x1C40384
     void AddLeafNode(::System::Xml::Schema::SyntaxTreeNode* node);
     // public System.Void AddChoice()
-    // Offset: 0x14A0218
+    // Offset: 0x1C40818
     void AddChoice();
     // public System.Void AddSequence()
-    // Offset: 0x14A02FC
+    // Offset: 0x1C408FC
     void AddSequence();
     // public System.Void AddStar()
-    // Offset: 0x14A03E0
+    // Offset: 0x1C409E8
     void AddStar();
     // public System.Void AddPlus()
-    // Offset: 0x14A059C
+    // Offset: 0x1C40BAC
     void AddPlus();
     // public System.Void AddQMark()
-    // Offset: 0x14A0608
+    // Offset: 0x1C40C18
     void AddQMark();
-    // public System.Void AddLeafRange(System.Decimal min, System.Decimal max)
-    // Offset: 0x14A0674
-    void AddLeafRange(::System::Decimal min, ::System::Decimal max);
     // private System.Void Closure(System.Xml.Schema.InteriorNode node)
-    // Offset: 0x14A0444
+    // Offset: 0x1C40A54
     void Closure(::System::Xml::Schema::InteriorNode* node);
     // public System.Xml.Schema.ContentValidator Finish(System.Boolean useDFA)
-    // Offset: 0x14A0764
+    // Offset: 0x1C40C84
     ::System::Xml::Schema::ContentValidator* Finish(bool useDFA);
     // private System.Xml.Schema.BitSet[] CalculateTotalFollowposForRangeNodes(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos, out System.Xml.Schema.BitSet posWithRangeTerminals)
-    // Offset: 0x14A0D00
+    // Offset: 0x1C4121C
     ::ArrayW<::System::Xml::Schema::BitSet*> CalculateTotalFollowposForRangeNodes(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos, ByRef<::System::Xml::Schema::BitSet*> posWithRangeTerminals);
     // private System.Void CheckCMUPAWithLeafRangeNodes(System.Xml.Schema.BitSet curpos)
-    // Offset: 0x14A1188
+    // Offset: 0x1C416A4
     void CheckCMUPAWithLeafRangeNodes(::System::Xml::Schema::BitSet* curpos);
     // private System.Xml.Schema.BitSet GetApplicableMinMaxFollowPos(System.Xml.Schema.BitSet curpos, System.Xml.Schema.BitSet posWithRangeTerminals, System.Xml.Schema.BitSet[] minmaxFollowPos)
-    // Offset: 0x14A0FF4
+    // Offset: 0x1C41510
     ::System::Xml::Schema::BitSet* GetApplicableMinMaxFollowPos(::System::Xml::Schema::BitSet* curpos, ::System::Xml::Schema::BitSet* posWithRangeTerminals, ::ArrayW<::System::Xml::Schema::BitSet*> minmaxFollowPos);
     // private System.Void CheckUniqueParticleAttribution(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x14A13F0
+    // Offset: 0x1C41900
     void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
     // private System.Void CheckUniqueParticleAttribution(System.Xml.Schema.BitSet curpos)
-    // Offset: 0x14A19FC
+    // Offset: 0x1C4201C
     void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet* curpos);
     // private System.Int32[][] BuildTransitionTable(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos, System.Int32 endMarkerPos)
-    // Offset: 0x14A1484
+    // Offset: 0x1C41994
     ::ArrayW<::ArrayW<int>> BuildTransitionTable(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos, int endMarkerPos);
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType)
-    // Offset: 0x149FB9C
+    // Offset: 0x1C3FD88
     // Implemented from: System.Xml.Schema.ContentValidator
     // Base method: System.Void ContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType contentType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -212,21 +202,6 @@ namespace System::Xml::Schema {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ParticleContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleContentValidator*, creationType>(contentType)));
     }
-    // public override System.Void InitValidation(System.Xml.Schema.ValidationState context)
-    // Offset: 0x149FC2C
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Void ContentValidator::InitValidation(System.Xml.Schema.ValidationState context)
-    void InitValidation(::System::Xml::Schema::ValidationState* context);
-    // public override System.Object ValidateElement(System.Xml.XmlQualifiedName name, System.Xml.Schema.ValidationState context, out System.Int32 errorCode)
-    // Offset: 0x149FC8C
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Object ContentValidator::ValidateElement(System.Xml.XmlQualifiedName name, System.Xml.Schema.ValidationState context, out System.Int32 errorCode)
-    ::Il2CppObject* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int> errorCode);
-    // public override System.Boolean CompleteValidation(System.Xml.Schema.ValidationState context)
-    // Offset: 0x149FCEC
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Boolean ContentValidator::CompleteValidation(System.Xml.Schema.ValidationState context)
-    bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
   }; // System.Xml.Schema.ParticleContentValidator
   #pragma pack(pop)
   static check_size<sizeof(ParticleContentValidator), 64 + sizeof(bool)> __System_Xml_Schema_ParticleContentValidatorSizeCheck;
@@ -339,16 +314,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ParticleContentValidator*), "AddQMark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::ParticleContentValidator::AddLeafRange
-// Il2CppName: AddLeafRange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::ParticleContentValidator::*)(::System::Decimal, ::System::Decimal)>(&System::Xml::Schema::ParticleContentValidator::AddLeafRange)> {
-  static const MethodInfo* get() {
-    static auto* min = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
-    static auto* max = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ParticleContentValidator*), "AddLeafRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{min, max});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::ParticleContentValidator::Closure
 // Il2CppName: Closure
 template<>
@@ -432,32 +397,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::ParticleContentValidator::InitValidation
-// Il2CppName: InitValidation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::ValidationState*)>(&System::Xml::Schema::ParticleContentValidator::InitValidation)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ParticleContentValidator*), "InitValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ParticleContentValidator::ValidateElement
-// Il2CppName: ValidateElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int>)>(&System::Xml::Schema::ParticleContentValidator::ValidateElement)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    static auto* errorCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ParticleContentValidator*), "ValidateElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, context, errorCode});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ParticleContentValidator::CompleteValidation
-// Il2CppName: CompleteValidation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::ValidationState*)>(&System::Xml::Schema::ParticleContentValidator::CompleteValidation)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ParticleContentValidator*), "CompleteValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
-  }
-};

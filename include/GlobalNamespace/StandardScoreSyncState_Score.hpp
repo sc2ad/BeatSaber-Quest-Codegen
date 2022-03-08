@@ -47,18 +47,18 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::StandardScoreSyncState_Score _get_ModifiedScore();
     // Set static field: static public StandardScoreSyncState/Score ModifiedScore
     static void _set_ModifiedScore(::GlobalNamespace::StandardScoreSyncState_Score value);
-    // static field const value: static public StandardScoreSyncState/Score RawScore
-    static constexpr const int RawScore = 1;
-    // Get static field: static public StandardScoreSyncState/Score RawScore
-    static ::GlobalNamespace::StandardScoreSyncState_Score _get_RawScore();
-    // Set static field: static public StandardScoreSyncState/Score RawScore
-    static void _set_RawScore(::GlobalNamespace::StandardScoreSyncState_Score value);
-    // static field const value: static public StandardScoreSyncState/Score ImmediateMaxPossibleRawScore
-    static constexpr const int ImmediateMaxPossibleRawScore = 2;
-    // Get static field: static public StandardScoreSyncState/Score ImmediateMaxPossibleRawScore
-    static ::GlobalNamespace::StandardScoreSyncState_Score _get_ImmediateMaxPossibleRawScore();
-    // Set static field: static public StandardScoreSyncState/Score ImmediateMaxPossibleRawScore
-    static void _set_ImmediateMaxPossibleRawScore(::GlobalNamespace::StandardScoreSyncState_Score value);
+    // static field const value: static public StandardScoreSyncState/Score MultipliedScore
+    static constexpr const int MultipliedScore = 1;
+    // Get static field: static public StandardScoreSyncState/Score MultipliedScore
+    static ::GlobalNamespace::StandardScoreSyncState_Score _get_MultipliedScore();
+    // Set static field: static public StandardScoreSyncState/Score MultipliedScore
+    static void _set_MultipliedScore(::GlobalNamespace::StandardScoreSyncState_Score value);
+    // static field const value: static public StandardScoreSyncState/Score ImmediateMaxPossibleMultipliedScore
+    static constexpr const int ImmediateMaxPossibleMultipliedScore = 2;
+    // Get static field: static public StandardScoreSyncState/Score ImmediateMaxPossibleMultipliedScore
+    static ::GlobalNamespace::StandardScoreSyncState_Score _get_ImmediateMaxPossibleMultipliedScore();
+    // Set static field: static public StandardScoreSyncState/Score ImmediateMaxPossibleMultipliedScore
+    static void _set_ImmediateMaxPossibleMultipliedScore(::GlobalNamespace::StandardScoreSyncState_Score value);
     // static field const value: static public StandardScoreSyncState/Score Combo
     static constexpr const int Combo = 3;
     // Get static field: static public StandardScoreSyncState/Score Combo

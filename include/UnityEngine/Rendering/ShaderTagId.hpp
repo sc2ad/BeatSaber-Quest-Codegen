@@ -57,24 +57,24 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Int32 m_Id
     int& dyn_m_Id();
     // System.Int32 get_id()
-    // Offset: 0x20D1D18
+    // Offset: 0x21239A0
     int get_id();
     // System.Void set_id(System.Int32 value)
-    // Offset: 0x20D1D20
+    // Offset: 0x21239A8
     void set_id(int value);
     // static private System.Void .cctor()
-    // Offset: 0x20D1DE4
+    // Offset: 0x2123A6C
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Rendering.ShaderTagId other)
-    // Offset: 0x20D1DB0
+    // Offset: 0x2123A38
     bool Equals(::UnityEngine::Rendering::ShaderTagId other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x20D1D28
+    // Offset: 0x21239B0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20D1DC0
+    // Offset: 0x2123A48
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

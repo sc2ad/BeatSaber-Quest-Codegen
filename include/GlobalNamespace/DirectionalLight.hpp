@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [ColorUsageAttribute] Offset: 0x12293DC
+    // [ColorUsageAttribute] Offset: 0x109D524
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x18
@@ -93,16 +93,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single radius
     float& dyn_radius();
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x2088444
+    // Offset: 0x1F13444
     static ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* get_lights();
     // protected System.Void OnEnable()
-    // Offset: 0x20884AC
+    // Offset: 0x1F134AC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2088530
+    // Offset: 0x1F13530
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x20885B4
+    // Offset: 0x1F135B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x20885C4
+    // Offset: 0x1F135C4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

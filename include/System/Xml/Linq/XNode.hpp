@@ -69,22 +69,22 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.Xml.Linq.XNode next
     ::System::Xml::Linq::XNode*& dyn_next();
     // public System.Void Remove()
-    // Offset: 0x29E6D60
+    // Offset: 0x2A81EF0
     void Remove();
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
     // Offset: 0xFFFFFFFF
     void WriteTo(::System::Xml::XmlWriter* writer);
     // System.Void AppendText(System.Text.StringBuilder sb)
-    // Offset: 0x29E728C
+    // Offset: 0x2A8241C
     void AppendText(::System::Text::StringBuilder* sb);
     // System.Xml.Linq.XNode CloneNode()
     // Offset: 0xFFFFFFFF
     ::System::Xml::Linq::XNode* CloneNode();
     // private System.String GetXmlString(System.Xml.Linq.SaveOptions o)
-    // Offset: 0x29E6EF8
+    // Offset: 0x2A82088
     ::StringW GetXmlString(::System::Xml::Linq::SaveOptions o);
     // System.Void .ctor()
-    // Offset: 0x29E0C70
+    // Offset: 0x2A7DD28
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Void XObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -94,7 +94,7 @@ namespace System::Xml::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<XNode*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x29E6DF8
+    // Offset: 0x2A81F88
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

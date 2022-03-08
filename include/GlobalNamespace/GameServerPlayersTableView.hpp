@@ -9,8 +9,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.TableView/HMUI.IDataSource
 #include "HMUI/TableView_IDataSource.hpp"
-// Including type: BeatmapDifficulty
-#include "GlobalNamespace/BeatmapDifficulty.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -30,8 +28,8 @@ namespace GlobalNamespace {
   class GameServerPlayerTableCell;
   // Forward declaring type: AdditionalContentModel
   class AdditionalContentModel;
-  // Forward declaring type: BeatmapCharacteristicSO
-  class BeatmapCharacteristicSO;
+  // Forward declaring type: PreviewDifficultyBeatmap
+  class PreviewDifficultyBeatmap;
   // Forward declaring type: GameplayModifiers
   class GameplayModifiers;
   // Forward declaring type: IConnectedPlayer
@@ -53,9 +51,6 @@ namespace Zenject {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Action`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
-  class Action_3;
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
@@ -130,26 +125,26 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* tableHeaderModifiersGo;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E5D4
+    // [InjectAttribute] Offset: 0x10C346C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x48
     ::Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0x124E5E4
+    // [InjectAttribute] Offset: 0x10C347C
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
+    // private System.Action`1<PreviewDifficultyBeatmap> selectSuggestedLevelEvent
     // Size: 0x8
     // Offset: 0x58
-    ::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>* selectSuggestedLevelEvent;
+    ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* selectSuggestedLevelEvent;
     // Field size check
-    static_assert(sizeof(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*) == 0x8);
     // private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x60
@@ -253,8 +248,8 @@ namespace GlobalNamespace {
     ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
-    // Get instance field reference: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
-    ::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*& dyn_selectSuggestedLevelEvent();
+    // Get instance field reference: private System.Action`1<PreviewDifficultyBeatmap> selectSuggestedLevelEvent
+    ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& dyn_selectSuggestedLevelEvent();
     // Get instance field reference: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& dyn_selectSuggestedGameplayModifiersEvent();
     // Get instance field reference: private System.Action`1<System.String> kickPlayerEvent
@@ -276,58 +271,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private ILobbyPlayersDataModel _lobbyPlayersDataModel
     ::GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
     // private System.String get_currentCellId()
-    // Offset: 0x2AD5F64
+    // Offset: 0x1319F9C
     ::StringW get_currentCellId();
-    // public System.Void add_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x2AD5B30
-    void add_selectSuggestedLevelEvent(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>* value);
-    // public System.Void remove_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x2AD5BD4
-    void remove_selectSuggestedLevelEvent(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>* value);
+    // public System.Void add_selectSuggestedLevelEvent(System.Action`1<PreviewDifficultyBeatmap> value)
+    // Offset: 0x1319B68
+    void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
+    // public System.Void remove_selectSuggestedLevelEvent(System.Action`1<PreviewDifficultyBeatmap> value)
+    // Offset: 0x1319C0C
+    void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x2AD5C78
+    // Offset: 0x1319CB0
     void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x2AD5D1C
+    // Offset: 0x1319D54
     void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x2AD5DC0
+    // Offset: 0x1319DF8
     void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x2AD5E64
+    // Offset: 0x1319E9C
     void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Single CellSize()
-    // Offset: 0x2AD5F08
+    // Offset: 0x1319F40
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x2AD5F14
+    // Offset: 0x1319F4C
     int NumberOfCells();
     // private GameServerPlayerTableCell GetCurrentPrefab()
-    // Offset: 0x2AD5FD8
+    // Offset: 0x131A010
     ::GlobalNamespace::GameServerPlayerTableCell* GetCurrentPrefab();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x2AD6070
+    // Offset: 0x131A0A8
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
     // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerData playerData)
-    // Offset: 0x2AD64E4
+    // Offset: 0x131A53C
     bool TryGetLobbyPlayerData(int idx, ByRef<::GlobalNamespace::IConnectedPlayer*> player, ByRef<::GlobalNamespace::ILobbyPlayerData*> playerData);
     // private System.Void HandleCellUseBeatmap(System.Int32 idx)
-    // Offset: 0x2AD666C
+    // Offset: 0x131A6B0
     void HandleCellUseBeatmap(int idx);
     // private System.Void HandleCellUseModifiers(System.Int32 idx)
-    // Offset: 0x2AD6A18
+    // Offset: 0x131A92C
     void HandleCellUseModifiers(int idx);
     // private System.Void HandleCellKickPlayer(System.Int32 idx)
-    // Offset: 0x2AD6BA8
+    // Offset: 0x131AB98
     void HandleCellKickPlayer(int idx);
     // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Boolean showSongSelection, System.Boolean showModifierSelection, System.Boolean clearSelection)
-    // Offset: 0x2AD6CBC
+    // Offset: 0x131ACAC
     void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
     // private System.Void Init()
-    // Offset: 0x2AD6D80
+    // Offset: 0x131AD70
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x2AD6DB8
+    // Offset: 0x131ADA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -356,18 +351,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent
 // Il2CppName: add_selectSuggestedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*)>(&GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")})->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmap")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "add_selectSuggestedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent
 // Il2CppName: remove_selectSuggestedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*)>(&GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")})->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmap")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "remove_selectSuggestedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

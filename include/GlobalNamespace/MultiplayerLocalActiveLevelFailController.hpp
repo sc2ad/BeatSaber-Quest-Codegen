@@ -69,35 +69,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelFailedTextEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x124453C
+    // [InjectAttribute] Offset: 0x10B98B8
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0x124454C
+    // [InjectAttribute] Offset: 0x10B98C8
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124455C
+    // [InjectAttribute] Offset: 0x10B98D8
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124456C
+    // [InjectAttribute] Offset: 0x10B98E8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x124457C
+    // [InjectAttribute] Offset: 0x10B98F8
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
@@ -120,19 +120,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
     // protected System.Void Start()
-    // Offset: 0x1447174
+    // Offset: 0x139CC64
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1447264
+    // Offset: 0x139CD54
     void OnDestroy();
     // private System.Collections.IEnumerator PlayerFailedCoroutine()
-    // Offset: 0x1447364
+    // Offset: 0x139CE54
     ::System::Collections::IEnumerator* PlayerFailedCoroutine();
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x1447400
+    // Offset: 0x139CEF0
     void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1447454
+    // Offset: 0x139CF44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

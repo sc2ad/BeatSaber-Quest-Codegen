@@ -17,18 +17,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Action`1<T>
-  template<typename T>
-  class Action_1;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
-  class IEnumerable_1;
-}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -46,10 +34,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightmapLightsWithIds : public ::GlobalNamespace::LightWithIds {
     public:
-    // Writing base type padding for base size: 0x21 to desired offset: 0x24
-    char ___base_padding[0x3] = {};
-    // Nested type: ::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData
-    class LightIntensitiesData;
+    // Writing base type padding for base size: 0x2A to desired offset: 0x2C
+    char ___base_padding[0x2] = {};
+    // Nested type: ::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId
+    class LightIntensitiesWithId;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -61,48 +49,32 @@ namespace GlobalNamespace {
     #endif
     // private System.Single _maxTotalIntensity
     // Size: 0x4
-    // Offset: 0x24
+    // Offset: 0x2C
     float maxTotalIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // private LightmapLightsWithIds/LightIntensitiesData[] _lightIntensityData
-    // Size: 0x8
-    // Offset: 0x28
-    ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*> lightIntensityData;
-    // Field size check
-    static_assert(sizeof(::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*>) == 0x8);
-    // private System.Action`1<System.Single> globalIntensityDidChangeEvent
+    // private LightmapLightsWithIds/LightIntensitiesWithId[] _lightIntensityData
     // Size: 0x8
     // Offset: 0x30
-    ::System::Action_1<float>* globalIntensityDidChangeEvent;
+    ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*> lightIntensityData;
     // Field size check
-    static_assert(sizeof(::System::Action_1<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>) == 0x8);
     public:
     // Get instance field reference: private System.Single _maxTotalIntensity
     float& dyn__maxTotalIntensity();
-    // Get instance field reference: private LightmapLightsWithIds/LightIntensitiesData[] _lightIntensityData
-    ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
-    // Get instance field reference: private System.Action`1<System.Single> globalIntensityDidChangeEvent
-    ::System::Action_1<float>*& dyn_globalIntensityDidChangeEvent();
+    // Get instance field reference: private LightmapLightsWithIds/LightIntensitiesWithId[] _lightIntensityData
+    ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x208CC20
+    // Offset: 0x1F18004
     float get_maxTotalIntensity();
     // public System.Void set_maxTotalIntensity(System.Single value)
-    // Offset: 0x208CC28
+    // Offset: 0x1F1800C
     void set_maxTotalIntensity(float value);
-    // public System.Void add_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x208CC30
-    void add_globalIntensityDidChangeEvent(::System::Action_1<float>* value);
-    // public System.Void remove_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x208CCD4
-    void remove_globalIntensityDidChangeEvent(::System::Action_1<float>* value);
-    // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> get_lightIntensityData()
-    // Offset: 0x208CD78
-    // Implemented from: LightWithIds
-    // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> LightWithIds::get_lightIntensityData()
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
+    // protected System.Void Awake()
+    // Offset: 0x1F18014
+    void Awake();
     // public System.Void .ctor()
-    // Offset: 0x208D134
+    // Offset: 0x1F183D8
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -115,14 +87,14 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightsWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightsWithIds*, creationType>()));
     }
-    // protected override System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x208CD80
+    // protected override System.Void ProcessNewColorData()
+    // Offset: 0x1F18040
     // Implemented from: LightWithIds
-    // Base method: System.Void LightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame()
-    void HandleLightManagerDidChangeSomeColorsThisFrame();
+    // Base method: System.Void LightWithIds::ProcessNewColorData()
+    void ProcessNewColorData();
   }; // LightmapLightsWithIds
   #pragma pack(pop)
-  static check_size<sizeof(LightmapLightsWithIds), 48 + sizeof(::System::Action_1<float>*)> __GlobalNamespace_LightmapLightsWithIdsSizeCheck;
+  static check_size<sizeof(LightmapLightsWithIds), 48 + sizeof(::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>)> __GlobalNamespace_LightmapLightsWithIdsSizeCheck;
   static_assert(sizeof(LightmapLightsWithIds) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -143,41 +115,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "set_maxTotalIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::add_globalIntensityDidChangeEvent
-// Il2CppName: add_globalIntensityDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::Awake
+// Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightsWithIds::*)(::System::Action_1<float>*)>(&GlobalNamespace::LightmapLightsWithIds::add_globalIntensityDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightsWithIds::*)()>(&GlobalNamespace::LightmapLightsWithIds::Awake)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "add_globalIntensityDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::remove_globalIntensityDidChangeEvent
-// Il2CppName: remove_globalIntensityDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightsWithIds::*)(::System::Action_1<float>*)>(&GlobalNamespace::LightmapLightsWithIds::remove_globalIntensityDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "remove_globalIntensityDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::get_lightIntensityData
-// Il2CppName: get_lightIntensityData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightData*>* (GlobalNamespace::LightmapLightsWithIds::*)()>(&GlobalNamespace::LightmapLightsWithIds::get_lightIntensityData)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "get_lightIntensityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::HandleLightManagerDidChangeSomeColorsThisFrame
-// Il2CppName: HandleLightManagerDidChangeSomeColorsThisFrame
+// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::ProcessNewColorData
+// Il2CppName: ProcessNewColorData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightsWithIds::*)()>(&GlobalNamespace::LightmapLightsWithIds::HandleLightManagerDidChangeSomeColorsThisFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightsWithIds::*)()>(&GlobalNamespace::LightmapLightsWithIds::ProcessNewColorData)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "HandleLightManagerDidChangeSomeColorsThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "ProcessNewColorData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

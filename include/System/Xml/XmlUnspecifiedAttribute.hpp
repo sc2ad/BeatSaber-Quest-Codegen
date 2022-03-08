@@ -19,8 +19,6 @@ namespace System::Xml {
   // Forward declaring type: XmlDocument
   class XmlDocument;
   // Skipping declaration: XmlNode because it is already included!
-  // Forward declaring type: XmlWriter
-  class XmlWriter;
 }
 // Completed forward declares
 // Type namespace: System.Xml
@@ -58,20 +56,20 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean fSpecified
     bool& dyn_fSpecified();
     // System.Void SetSpecified(System.Boolean f)
-    // Offset: 0x1BB40BC
+    // Offset: 0x26ED5A0
     void SetSpecified(bool f);
     // public override System.Boolean get_Specified()
-    // Offset: 0x1BB3E8C
+    // Offset: 0x26ED3DC
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Boolean XmlAttribute::get_Specified()
     bool get_Specified();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x1BB3FCC
+    // Offset: 0x26ED51C
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Void XmlAttribute::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // protected internal System.Void .ctor(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.XmlDocument doc)
-    // Offset: 0x1BB3E84
+    // Offset: 0x26ED3D4
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Void XmlAttribute::.ctor(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,35 +78,20 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlUnspecifiedAttribute*, creationType>(prefix, localName, namespaceURI, doc)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1BB3E94
+    // Offset: 0x26ED3E4
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
-    // public override System.Xml.XmlNode InsertBefore(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    // Offset: 0x1BB3FF8
-    // Implemented from: System.Xml.XmlAttribute
-    // Base method: System.Xml.XmlNode XmlAttribute::InsertBefore(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    ::System::Xml::XmlNode* InsertBefore(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
-    // public override System.Xml.XmlNode InsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    // Offset: 0x1BB4024
-    // Implemented from: System.Xml.XmlAttribute
-    // Base method: System.Xml.XmlNode XmlAttribute::InsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    ::System::Xml::XmlNode* InsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
     // public override System.Xml.XmlNode RemoveChild(System.Xml.XmlNode oldChild)
-    // Offset: 0x1BB4050
+    // Offset: 0x26ED548
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::RemoveChild(System.Xml.XmlNode oldChild)
     ::System::Xml::XmlNode* RemoveChild(::System::Xml::XmlNode* oldChild);
     // public override System.Xml.XmlNode AppendChild(System.Xml.XmlNode newChild)
-    // Offset: 0x1BB407C
+    // Offset: 0x26ED574
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::AppendChild(System.Xml.XmlNode newChild)
     ::System::Xml::XmlNode* AppendChild(::System::Xml::XmlNode* newChild);
-    // public override System.Void WriteTo(System.Xml.XmlWriter w)
-    // Offset: 0x1BB40A8
-    // Implemented from: System.Xml.XmlAttribute
-    // Base method: System.Void XmlAttribute::WriteTo(System.Xml.XmlWriter w)
-    void WriteTo(::System::Xml::XmlWriter* w);
   }; // System.Xml.XmlUnspecifiedAttribute
   #pragma pack(pop)
   static check_size<sizeof(XmlUnspecifiedAttribute), 40 + sizeof(bool)> __System_Xml_XmlUnspecifiedAttributeSizeCheck;
@@ -154,26 +137,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlUnspecifiedAttribute*), "CloneNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deep});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlUnspecifiedAttribute::InsertBefore
-// Il2CppName: InsertBefore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlUnspecifiedAttribute::InsertBefore)> {
-  static const MethodInfo* get() {
-    static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
-    static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlUnspecifiedAttribute*), "InsertBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild, refChild});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlUnspecifiedAttribute::InsertAfter
-// Il2CppName: InsertAfter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlUnspecifiedAttribute::InsertAfter)> {
-  static const MethodInfo* get() {
-    static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
-    static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlUnspecifiedAttribute*), "InsertAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild, refChild});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::XmlUnspecifiedAttribute::RemoveChild
 // Il2CppName: RemoveChild
 template<>
@@ -190,14 +153,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlUnspecifiedAttribute*), "AppendChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlUnspecifiedAttribute::WriteTo
-// Il2CppName: WriteTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlUnspecifiedAttribute::WriteTo)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlUnspecifiedAttribute*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
   }
 };

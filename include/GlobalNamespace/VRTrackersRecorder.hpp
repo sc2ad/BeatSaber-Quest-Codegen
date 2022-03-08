@@ -201,31 +201,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _loadedOriginRot
     ::UnityEngine::Quaternion& dyn__loadedOriginRot();
     // protected System.Void Awake()
-    // Offset: 0x2CBA704
+    // Offset: 0x1A93B34
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2CBAD80
+    // Offset: 0x1A941B0
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x2CBB0B4
+    // Offset: 0x1A944E4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2CBB0D8
+    // Offset: 0x1A94508
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x2CBB0FC
+    // Offset: 0x1A9452C
     void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
     // protected System.Void Update()
-    // Offset: 0x2CBB370
+    // Offset: 0x1A947A0
     void Update();
     // private System.Void Save()
-    // Offset: 0x2CBAD90
+    // Offset: 0x1A941C0
     void Save();
     // private System.Void Load()
-    // Offset: 0x2CBA89C
+    // Offset: 0x1A93CCC
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x2CBB7D4
+    // Offset: 0x1A94C04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

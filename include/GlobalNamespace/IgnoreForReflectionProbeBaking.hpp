@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class IgnoreForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13AD2FC
+    // Offset: 0x14A12E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

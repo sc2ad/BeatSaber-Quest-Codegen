@@ -85,10 +85,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Collider> _colliders
     ::System::Collections::Generic::List_1<::UnityEngine::Collider*>*& dyn__colliders();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutputData other)
-    // Offset: 0x16CAB7C
+    // Offset: 0x176384C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
     // public System.Void .ctor()
-    // Offset: 0x16C44C8
+    // Offset: 0x175D198
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

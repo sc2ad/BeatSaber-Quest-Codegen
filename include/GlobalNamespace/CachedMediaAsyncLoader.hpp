@@ -92,13 +92,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
     ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
     // public System.Void ClearCache()
-    // Offset: 0x13B990C
+    // Offset: 0x135EE70
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13B996C
+    // Offset: 0x135EED0
     ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x13B9A80
+    // Offset: 0x135EFE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

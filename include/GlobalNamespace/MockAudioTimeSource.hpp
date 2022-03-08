@@ -63,28 +63,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <lastFrameDeltaSongTime>k__BackingField
     float& dyn_$lastFrameDeltaSongTime$k__BackingField();
     // public System.Single get_songTime()
-    // Offset: 0x14212D4
+    // Offset: 0x1339E48
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x14212DC
+    // Offset: 0x1339E50
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x14212E4
+    // Offset: 0x1339E58
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x14212EC
+    // Offset: 0x1339E60
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x14212F4
+    // Offset: 0x1339E68
     float get_songEndTime();
+    // public System.Single get_songLength()
+    // Offset: 0x1339E74
+    float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0x1421300
+    // Offset: 0x1339E80
     bool get_isReady();
     // protected System.Void Update()
-    // Offset: 0x1421308
+    // Offset: 0x1339E88
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x142134C
+    // Offset: 0x1339ECC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -142,6 +145,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockAudioTimeSource::*)()>(&GlobalNamespace::MockAudioTimeSource::get_songEndTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockAudioTimeSource*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MockAudioTimeSource::get_songLength
+// Il2CppName: get_songLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockAudioTimeSource::*)()>(&GlobalNamespace::MockAudioTimeSource::get_songLength)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockAudioTimeSource*), "get_songLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockAudioTimeSource::get_isReady

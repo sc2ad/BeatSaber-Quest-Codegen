@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1Null : public ::Org::BouncyCastle::Asn1::Asn1Object {
     public:
     // System.Void .ctor()
-    // Offset: 0x1B1E820
+    // Offset: 0x1C0736C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Null*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1B1E830
+    // Offset: 0x1C0737C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

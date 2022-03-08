@@ -76,7 +76,7 @@ namespace System::Xml::Linq {
     // Get instance field reference: public System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration prev
     ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_prev();
     // public System.Void .ctor()
-    // Offset: 0x29DF344
+    // Offset: 0x2A7C3FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

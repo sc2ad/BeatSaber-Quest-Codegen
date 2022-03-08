@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x123ECDC
+    // [InjectAttribute] Offset: 0x10B36F0
     // private readonly IMenuRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMenuRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x123ECEC
+    // [InjectAttribute] Offset: 0x10B3700
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x20
@@ -81,22 +81,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // protected System.Void Start()
-    // Offset: 0x2B23CF4
+    // Offset: 0x1409DBC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B23DE8
+    // Offset: 0x1409EB0
     void OnDestroy();
     // private System.Void HandleDataInvalidated()
-    // Offset: 0x2B23F68
+    // Offset: 0x140A030
     void HandleDataInvalidated();
     // private System.Void HandleGetIsEntitledToLevel(System.String userId, System.String levelId)
-    // Offset: 0x2B2401C
+    // Offset: 0x140A0E4
     void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
     // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetEntitlementStatus(System.String levelId)
-    // Offset: 0x2B240E0
+    // Offset: 0x140A1A8
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
     // public System.Void .ctor()
-    // Offset: 0x2B24204
+    // Offset: 0x140A2CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

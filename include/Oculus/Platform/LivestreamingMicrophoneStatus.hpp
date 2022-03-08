@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x12306C8
+    // [DescriptionAttribute] Offset: 0x10A5A34
     // static field const value: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
     static ::Oculus::Platform::LivestreamingMicrophoneStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
     static void _set_Unknown(::Oculus::Platform::LivestreamingMicrophoneStatus value);
-    // [DescriptionAttribute] Offset: 0x1230700
+    // [DescriptionAttribute] Offset: 0x10A5A6C
     // static field const value: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOn
     static constexpr const int MicrophoneOn = 1;
     // Get static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOn
     static ::Oculus::Platform::LivestreamingMicrophoneStatus _get_MicrophoneOn();
     // Set static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOn
     static void _set_MicrophoneOn(::Oculus::Platform::LivestreamingMicrophoneStatus value);
-    // [DescriptionAttribute] Offset: 0x1230738
+    // [DescriptionAttribute] Offset: 0x10A5AA4
     // static field const value: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOff
     static constexpr const int MicrophoneOff = 2;
     // Get static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOff

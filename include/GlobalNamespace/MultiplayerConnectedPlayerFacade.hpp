@@ -7,8 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: Tweening.EaseType
-#include "Tweening/EaseType.hpp"
+// Including type: EaseType
+#include "GlobalNamespace/EaseType.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -71,55 +71,55 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* outroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [NullAllowed] Offset: 0x1243F90
+    // [NullAllowed] Offset: 0x10B92CC
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerBigAvatarAnimator*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1243FC8
+    // [HeaderAttribute] Offset: 0x10B9304
     // private System.Single _bigAvatarDisappearDuration
     // Size: 0x4
     // Offset: 0x28
     float bigAvatarDisappearDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // private Tweening.EaseType _bigAvatarDisappearEasing
+    // private EaseType _bigAvatarDisappearEasing
     // Size: 0x4
     // Offset: 0x2C
-    ::Tweening::EaseType bigAvatarDisappearEasing;
+    ::GlobalNamespace::EaseType bigAvatarDisappearEasing;
     // Field size check
-    static_assert(sizeof(::Tweening::EaseType) == 0x4);
-    // [InjectAttribute] Offset: 0x1244024
+    static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
+    // [InjectAttribute] Offset: 0x10B9360
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244034
+    // [InjectAttribute] Offset: 0x10B9370
     // private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244044
+    // [InjectAttribute] Offset: 0x10B9380
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244054
+    // [InjectAttribute] Offset: 0x10B9390
     // private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* scoreDiffText;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244064
+    // [InjectAttribute] Offset: 0x10B93A0
     // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
     // Offset: 0x50
@@ -135,8 +135,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
     // Get instance field reference: private System.Single _bigAvatarDisappearDuration
     float& dyn__bigAvatarDisappearDuration();
-    // Get instance field reference: private Tweening.EaseType _bigAvatarDisappearEasing
-    ::Tweening::EaseType& dyn__bigAvatarDisappearEasing();
+    // Get instance field reference: private EaseType _bigAvatarDisappearEasing
+    ::GlobalNamespace::EaseType& dyn__bigAvatarDisappearEasing();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__songTimeSyncController();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
@@ -148,34 +148,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // public MultiplayerConnectedPlayerIntroAnimator get_introAnimator()
-    // Offset: 0x14301B8
+    // Offset: 0x144B5B0
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* get_introAnimator();
     // public UnityEngine.GameObject get_outroAnimator()
-    // Offset: 0x14301C0
+    // Offset: 0x144B5B8
     ::UnityEngine::GameObject* get_outroAnimator();
     // public MultiplayerConnectedPlayerScoreDiffText get_scoreDiffText()
-    // Offset: 0x14301C8
+    // Offset: 0x144B5C0
     ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* get_scoreDiffText();
     // public System.Void SetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0x14301D0
+    // Offset: 0x144B5C8
     void SetSongStartSyncTime(float songStartSyncTime);
     // public System.Void PauseSpawning()
-    // Offset: 0x1430310
+    // Offset: 0x144B708
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0x14303C4
+    // Offset: 0x144B7BC
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0x1430478
+    // Offset: 0x144B870
     void __ForceStopSong();
     // public System.Void HideBigAvatar()
-    // Offset: 0x14304CC
+    // Offset: 0x144B8BC
     void HideBigAvatar();
     // public AvatarPoseController __GetPlayerAvatar()
-    // Offset: 0x1430568
+    // Offset: 0x144B958
     ::GlobalNamespace::AvatarPoseController* __GetPlayerAvatar();
     // public System.Void .ctor()
-    // Offset: 0x14305BC
+    // Offset: 0x144B9AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

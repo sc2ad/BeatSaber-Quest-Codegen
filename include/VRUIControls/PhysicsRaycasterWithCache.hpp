@@ -101,7 +101,7 @@ namespace VRUIControls {
       // Get instance field reference: public readonly System.Int32 layerMask
       int& dyn_layerMask();
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-      // Offset: 0x29B82D0
+      // Offset: 0x2A37FC8
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask);
     }; // VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast
     #pragma pack(pop)
@@ -134,10 +134,10 @@ namespace VRUIControls {
     // Get instance field reference: private System.Int32 _lastFrameCount
     int& dyn__lastFrameCount();
     // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x29B7E6C
+    // Offset: 0x2A37B64
     bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float maxDistance, int layerMask);
     // public System.Void .ctor()
-    // Offset: 0x29B8310
+    // Offset: 0x2A38008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

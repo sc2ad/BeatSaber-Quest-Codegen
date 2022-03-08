@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class GenericLogger : public ::Il2CppObject {
     public:
     // static public System.Void VerboseLog(System.String message)
-    // Offset: 0x2C218EC
+    // Offset: 0x157B090
     static void VerboseLog(::StringW message);
   }; // GenericLogger
   #pragma pack(pop)

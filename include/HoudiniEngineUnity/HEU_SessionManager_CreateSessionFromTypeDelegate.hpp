@@ -42,20 +42,20 @@ namespace HoudiniEngineUnity {
   class HEU_SessionManager::CreateSessionFromTypeDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A60428
+    // Offset: 0x1AE8C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionManager::CreateSessionFromTypeDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_SessionManager::CreateSessionFromTypeDelegate*, creationType>(object, method)));
     }
     // public HoudiniEngineUnity.HEU_SessionBase Invoke(System.Type type)
-    // Offset: 0x1A60438
+    // Offset: 0x1AE8C34
     ::HoudiniEngineUnity::HEU_SessionBase* Invoke(::System::Type* type);
     // public System.IAsyncResult BeginInvoke(System.Type type, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A607D4
+    // Offset: 0x1AE8FD0
     ::System::IAsyncResult* BeginInvoke(::System::Type* type, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public HoudiniEngineUnity.HEU_SessionBase EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A607F8
+    // Offset: 0x1AE8FF4
     ::HoudiniEngineUnity::HEU_SessionBase* EndInvoke(::System::IAsyncResult* result);
   }; // HoudiniEngineUnity.HEU_SessionManager/HoudiniEngineUnity.CreateSessionFromTypeDelegate
   #pragma pack(pop)

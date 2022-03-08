@@ -9,6 +9,8 @@
 #include "System/Int32.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
+// Including type: NoteData/ScoringType
+#include "GlobalNamespace/NoteData.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -17,8 +19,19 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: ISaberSwingRatingCounter
-  class ISaberSwingRatingCounter;
+  // Forward declaring type: ScoreMultiplierCounter
+  class ScoreMultiplierCounter;
+  // Forward declaring type: IReadonlyBeatmapData
+  class IReadonlyBeatmapData;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: HashSet`1<T>
+  template<typename T>
+  class HashSet_1;
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
 }
 // Completed forward declares
 // Type namespace: 
@@ -37,65 +50,69 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreModel : public ::Il2CppObject {
     public:
+    // Nested type: ::GlobalNamespace::ScoreModel::NoteScoreDefinition
+    class NoteScoreDefinition;
+    // Nested type: ::GlobalNamespace::ScoreModel::MaxScoreCounterElement
+    class MaxScoreCounterElement;
     // static field const value: static public System.Int32 kMaxMultiplier
     static constexpr const int kMaxMultiplier = 8;
     // Get static field: static public System.Int32 kMaxMultiplier
     static int _get_kMaxMultiplier();
     // Set static field: static public System.Int32 kMaxMultiplier
     static void _set_kMaxMultiplier(int value);
-    // static field const value: static public System.Int32 kMaxBeforeCutSwingRawScore
-    static constexpr const int kMaxBeforeCutSwingRawScore = 70;
-    // Get static field: static public System.Int32 kMaxBeforeCutSwingRawScore
-    static int _get_kMaxBeforeCutSwingRawScore();
-    // Set static field: static public System.Int32 kMaxBeforeCutSwingRawScore
-    static void _set_kMaxBeforeCutSwingRawScore(int value);
-    // static field const value: static public System.Int32 kMaxCutDistanceRawScore
-    static constexpr const int kMaxCutDistanceRawScore = 15;
-    // Get static field: static public System.Int32 kMaxCutDistanceRawScore
-    static int _get_kMaxCutDistanceRawScore();
-    // Set static field: static public System.Int32 kMaxCutDistanceRawScore
-    static void _set_kMaxCutDistanceRawScore(int value);
-    // static field const value: static public System.Int32 kMaxAfterCutSwingRawScore
-    static constexpr const int kMaxAfterCutSwingRawScore = 30;
-    // Get static field: static public System.Int32 kMaxAfterCutSwingRawScore
-    static int _get_kMaxAfterCutSwingRawScore();
-    // Set static field: static public System.Int32 kMaxAfterCutSwingRawScore
-    static void _set_kMaxAfterCutSwingRawScore(int value);
-    // static field const value: static public System.Int32 kMaxCutRawScore
-    static constexpr const int kMaxCutRawScore = 115;
-    // Get static field: static public System.Int32 kMaxCutRawScore
-    static int _get_kMaxCutRawScore();
-    // Set static field: static public System.Int32 kMaxCutRawScore
-    static void _set_kMaxCutRawScore(int value);
-    // static field const value: static private System.Single kSwingScorePart
-    static constexpr const float kSwingScorePart = 0.7;
-    // Get static field: static private System.Single kSwingScorePart
-    static float _get_kSwingScorePart();
-    // Set static field: static private System.Single kSwingScorePart
-    static void _set_kSwingScorePart(float value);
-    // static field const value: static private System.Single kDistanceToCenterScorePart
-    static constexpr const float kDistanceToCenterScorePart = 0.3;
-    // Get static field: static private System.Single kDistanceToCenterScorePart
-    static float _get_kDistanceToCenterScorePart();
-    // Set static field: static private System.Single kDistanceToCenterScorePart
-    static void _set_kDistanceToCenterScorePart(float value);
-    // static field const value: static private System.Single kMaxDistanceForDistanceToCenterScore
+    // static field const value: static public System.Single kMaxDistanceForDistanceToCenterScore
     static constexpr const float kMaxDistanceForDistanceToCenterScore = 0.3;
-    // Get static field: static private System.Single kMaxDistanceForDistanceToCenterScore
+    // Get static field: static public System.Single kMaxDistanceForDistanceToCenterScore
     static float _get_kMaxDistanceForDistanceToCenterScore();
-    // Set static field: static private System.Single kMaxDistanceForDistanceToCenterScore
+    // Set static field: static public System.Single kMaxDistanceForDistanceToCenterScore
     static void _set_kMaxDistanceForDistanceToCenterScore(float value);
-    // static public System.Int32 MaxRawScoreForNumberOfNotes(System.Int32 noteCount)
-    // Offset: 0x2B5CB18
-    static int MaxRawScoreForNumberOfNotes(int noteCount);
-    // static public System.Void RawScoreWithoutMultiplier(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single cutDistanceToCenter, out System.Int32 beforeCutRawScore, out System.Int32 afterCutRawScore, out System.Int32 cutDistanceRawScore)
-    // Offset: 0x2B5D32C
-    static void RawScoreWithoutMultiplier(::GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float cutDistanceToCenter, ByRef<int> beforeCutRawScore, ByRef<int> afterCutRawScore, ByRef<int> cutDistanceRawScore);
-    // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 rawScore, System.Single gameplayModifiersScoreMultiplier)
-    // Offset: 0x2B5C194
-    static int GetModifiedScoreForGameplayModifiersScoreMultiplier(int rawScore, float gameplayModifiersScoreMultiplier);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B43D0
+    // Get static field: static public readonly System.Collections.Generic.HashSet`1<NoteData/ScoringType> fullScoreScoringTypes
+    static ::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData::ScoringType>* _get_fullScoreScoringTypes();
+    // Set static field: static public readonly System.Collections.Generic.HashSet`1<NoteData/ScoringType> fullScoreScoringTypes
+    static void _set_fullScoreScoringTypes(::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData::ScoringType>* value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B43E0
+    // Get static field: static private readonly System.Collections.Generic.Dictionary`2<NoteData/ScoringType,ScoreModel/NoteScoreDefinition> _scoreDefinitions
+    static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData::ScoringType, ::GlobalNamespace::ScoreModel::NoteScoreDefinition*>* _get__scoreDefinitions();
+    // Set static field: static private readonly System.Collections.Generic.Dictionary`2<NoteData/ScoringType,ScoreModel/NoteScoreDefinition> _scoreDefinitions
+    static void _set__scoreDefinitions(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData::ScoringType, ::GlobalNamespace::ScoreModel::NoteScoreDefinition*>* value);
+    // static field const value: static private System.Int32 kMaxBeforeCutScore
+    static constexpr const int kMaxBeforeCutScore = 70;
+    // Get static field: static private System.Int32 kMaxBeforeCutScore
+    static int _get_kMaxBeforeCutScore();
+    // Set static field: static private System.Int32 kMaxBeforeCutScore
+    static void _set_kMaxBeforeCutScore(int value);
+    // static field const value: static public System.Int32 kMaxCenterDistanceCutScore
+    static constexpr const int kMaxCenterDistanceCutScore = 15;
+    // Get static field: static public System.Int32 kMaxCenterDistanceCutScore
+    static int _get_kMaxCenterDistanceCutScore();
+    // Set static field: static public System.Int32 kMaxCenterDistanceCutScore
+    static void _set_kMaxCenterDistanceCutScore(int value);
+    // static field const value: static private System.Int32 kMaxAfterCutScore
+    static constexpr const int kMaxAfterCutScore = 30;
+    // Get static field: static private System.Int32 kMaxAfterCutScore
+    static int _get_kMaxAfterCutScore();
+    // Set static field: static private System.Int32 kMaxAfterCutScore
+    static void _set_kMaxAfterCutScore(int value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B43F0
+    // Get static field: static private readonly ScoreMultiplierCounter _scoreMultiplierCounter
+    static ::GlobalNamespace::ScoreMultiplierCounter* _get__scoreMultiplierCounter();
+    // Set static field: static private readonly ScoreMultiplierCounter _scoreMultiplierCounter
+    static void _set__scoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
+    // static private System.Void .cctor()
+    // Offset: 0x13AFEA8
+    static void _cctor();
+    // static public ScoreModel/NoteScoreDefinition GetNoteScoreDefinition(NoteData/ScoringType scoringType)
+    // Offset: 0x13AF3E0
+    static ::GlobalNamespace::ScoreModel::NoteScoreDefinition* GetNoteScoreDefinition(::GlobalNamespace::NoteData::ScoringType scoringType);
+    // static public System.Int32 ComputeMaxMultipliedScoreForBeatmap(IReadonlyBeatmapData beatmapData)
+    // Offset: 0x13AF464
+    static int ComputeMaxMultipliedScoreForBeatmap(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+    // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 multipliedScore, System.Single gameplayModifiersScoreMultiplier)
+    // Offset: 0x13AE830
+    static int GetModifiedScoreForGameplayModifiersScoreMultiplier(int multipliedScore, float gameplayModifiersScoreMultiplier);
     // public System.Void .ctor()
-    // Offset: 0x2B5D534
+    // Offset: 0x13AFEA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,26 +124,30 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ScoreModel::MaxRawScoreForNumberOfNotes
-// Il2CppName: MaxRawScoreForNumberOfNotes
+// Writing MetadataGetter for method: GlobalNamespace::ScoreModel::_cctor
+// Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::ScoreModel::MaxRawScoreForNumberOfNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::ScoreModel::_cctor)> {
   static const MethodInfo* get() {
-    static auto* noteCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "MaxRawScoreForNumberOfNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCount});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ScoreModel::RawScoreWithoutMultiplier
-// Il2CppName: RawScoreWithoutMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::ScoreModel::GetNoteScoreDefinition
+// Il2CppName: GetNoteScoreDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::ISaberSwingRatingCounter*, float, ByRef<int>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::ScoreModel::RawScoreWithoutMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreModel::NoteScoreDefinition* (*)(::GlobalNamespace::NoteData::ScoringType)>(&GlobalNamespace::ScoreModel::GetNoteScoreDefinition)> {
   static const MethodInfo* get() {
-    static auto* saberSwingRatingCounter = &::il2cpp_utils::GetClassFromName("", "ISaberSwingRatingCounter")->byval_arg;
-    static auto* cutDistanceToCenter = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* beforeCutRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* afterCutRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* cutDistanceRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "RawScoreWithoutMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberSwingRatingCounter, cutDistanceToCenter, beforeCutRawScore, afterCutRawScore, cutDistanceRawScore});
+    static auto* scoringType = &::il2cpp_utils::GetClassFromName("", "NoteData/ScoringType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "GetNoteScoreDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scoringType});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ScoreModel::ComputeMaxMultipliedScoreForBeatmap
+// Il2CppName: ComputeMaxMultipliedScoreForBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::ScoreModel::ComputeMaxMultipliedScoreForBeatmap)> {
+  static const MethodInfo* get() {
+    static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "ComputeMaxMultipliedScoreForBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoreModel::GetModifiedScoreForGameplayModifiersScoreMultiplier
@@ -134,9 +155,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, float)>(&GlobalNamespace::ScoreModel::GetModifiedScoreForGameplayModifiersScoreMultiplier)> {
   static const MethodInfo* get() {
-    static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* multipliedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* gameplayModifiersScoreMultiplier = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "GetModifiedScoreForGameplayModifiersScoreMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawScore, gameplayModifiersScoreMultiplier});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "GetModifiedScoreForGameplayModifiersScoreMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multipliedScore, gameplayModifiersScoreMultiplier});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoreModel::New_ctor

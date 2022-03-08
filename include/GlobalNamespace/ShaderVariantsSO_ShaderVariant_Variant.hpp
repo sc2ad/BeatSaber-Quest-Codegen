@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _keywords
     ::StringW& dyn__keywords();
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x2E107E8
+    // Offset: 0x2A21150
     ::UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x2E107F0
+    // Offset: 0x2A21158
     ::StringW get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x2E107F8
+    // Offset: 0x2A21160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");

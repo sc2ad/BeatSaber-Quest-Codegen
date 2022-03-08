@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair[] _relativeSfxVolumePerLevel
     ::ArrayW<::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>& dyn__relativeSfxVolumePerLevel();
     // public RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair[] get_relativeSfxVolumePerLevel()
-    // Offset: 0x13EE4AC
+    // Offset: 0x13C81BC
     ::ArrayW<::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*> get_relativeSfxVolumePerLevel();
     // public System.Void .ctor()
-    // Offset: 0x13EE4B4
+    // Offset: 0x13C81C4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -48,13 +48,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__9_0
     static void _set_$$9__9_0(::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B35B40
+    // Offset: 0x1C1E68C
     static void _cctor();
     // UnityEngine.Vector3 <Import>b__9_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1B35BAC
+    // Offset: 0x1C1E6F8
     ::UnityEngine::Vector3 $Import$b__9_0(::UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x1B35BA4
+    // Offset: 0x1C1E6F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

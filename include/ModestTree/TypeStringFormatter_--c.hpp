@@ -44,13 +44,13 @@ namespace ModestTree {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__2_0
     static void _set_$$9__2_0(::System::Func_2<::System::Type*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16D3764
+    // Offset: 0x1735B98
     static void _cctor();
     // System.String <PrettyNameInternal>b__2_0(System.Type t)
-    // Offset: 0x16D37D0
+    // Offset: 0x1735C04
     ::StringW $PrettyNameInternal$b__2_0(::System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x16D37C8
+    // Offset: 0x1735BFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

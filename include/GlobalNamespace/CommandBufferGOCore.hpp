@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1232C80
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10A7FEC
     // Get static field: static private UnityEngine.Material _material
     static ::UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
@@ -91,13 +91,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     ::UnityEngine::Mesh*& dyn__mesh();
     // protected System.Void OnEnable()
-    // Offset: 0x2E0ACD8
+    // Offset: 0x2A1B640
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2E0B100
+    // Offset: 0x2A1BA68
     void OnDisable();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x2E0B480
+    // Offset: 0x2A1BDE8
     void OnWillRenderObject();
     // protected UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
     // Offset: 0xFFFFFFFF
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected System.Void .ctor()
-    // Offset: 0x2E0AC5C
+    // Offset: 0x2A1B5C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

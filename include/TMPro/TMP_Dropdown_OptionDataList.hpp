@@ -54,13 +54,13 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> m_Options
     ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>*& dyn_m_Options();
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> get_options()
-    // Offset: 0x140D248
+    // Offset: 0x142EC40
     ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> value)
-    // Offset: 0x140D250
+    // Offset: 0x142EC48
     void set_options(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x140A9AC
+    // Offset: 0x142C3A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

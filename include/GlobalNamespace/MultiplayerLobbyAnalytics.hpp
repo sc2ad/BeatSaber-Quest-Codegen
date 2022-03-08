@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameServerLobbyFlowCoordinator* gameServerLobbyFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x123AEA4
+    // [InjectAttribute] Offset: 0x10AF8FC
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
@@ -74,31 +74,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
     ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // protected System.Void Awake()
-    // Offset: 0x14406E4
+    // Offset: 0x1395FE8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1440824
+    // Offset: 0x1396128
     void OnDestroy();
     // private System.Void HandleGameServerLobbyFlowCoordinatorDidSetupEvent()
-    // Offset: 0x14409AC
+    // Offset: 0x13962B0
     void HandleGameServerLobbyFlowCoordinatorDidSetupEvent();
     // private System.Void HandleGameServerLobbyFlowCoordinatorDidFinish()
-    // Offset: 0x1440B48
+    // Offset: 0x139644C
     void HandleGameServerLobbyFlowCoordinatorDidFinish();
     // private System.Void HandleGameServerLobbyFlowCoordinatorStartGameOrReady()
-    // Offset: 0x1440CF8
+    // Offset: 0x13965FC
     void HandleGameServerLobbyFlowCoordinatorStartGameOrReady();
     // private System.Void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel()
-    // Offset: 0x1440DC4
+    // Offset: 0x13966C8
     void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
     // private System.Void LogClick(System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
-    // Offset: 0x1440C14
+    // Offset: 0x1396518
     void LogClick(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
     // private System.String GetEventTypeFromLobbyType(GameServerLobbyFlowCoordinator/LobbyType lobbyType)
-    // Offset: 0x1440AE4
+    // Offset: 0x13963E8
     ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType lobbyType);
     // public System.Void .ctor()
-    // Offset: 0x1440E90
+    // Offset: 0x1396794
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

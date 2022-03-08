@@ -50,12 +50,12 @@ namespace GlobalNamespace {
     class $GetCertificateList$d__8;
     // Nested type: ::GlobalNamespace::X509CertificateUtility::$$c
     class $$c;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1222468
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1097344
     // Get static field: static private readonly System.String kBeatSaberDotComRootCertificate
     static ::StringW _get_kBeatSaberDotComRootCertificate();
     // Set static field: static private readonly System.String kBeatSaberDotComRootCertificate
     static void _set_kBeatSaberDotComRootCertificate(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1222478
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1097354
     // Get static field: static private readonly System.String kAwsRootCertificates
     static ::StringW _get_kAwsRootCertificates();
     // Set static field: static private readonly System.String kAwsRootCertificates
@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.Security.Cryptography.X509Certificates.X509Certificate2[] _rootCertificates
     static void _set__rootCertificates(::ArrayW<::System::Security::Cryptography::X509Certificates::X509Certificate2*> value);
     // static private System.Void .cctor()
-    // Offset: 0x2E08BC0
+    // Offset: 0x2612288
     static void _cctor();
     // static private System.Security.Cryptography.X509Certificates.X509Certificate2[] GetRootCertificates()
-    // Offset: 0x2E078DC
+    // Offset: 0x2610FA4
     static ::ArrayW<::System::Security::Cryptography::X509Certificates::X509Certificate2*> GetRootCertificates();
     // static public ICertificateEncryptionProvider GetCertificateEncryptionProvider(System.String privateKeyPem, System.String password)
-    // Offset: 0x2E07A44
+    // Offset: 0x261110C
     static ::GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password);
     // static private X509CertificateUtility/RSACertificateEncryptionProvider GetRSACertificateEncryptionProvider(System.String privateKeyPem, X509CertificateUtility/PasswordFinder passwordFinder)
-    // Offset: 0x2E07B28
+    // Offset: 0x26111F0
     static ::GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider* GetRSACertificateEncryptionProvider(::StringW privateKeyPem, ::GlobalNamespace::X509CertificateUtility::PasswordFinder* passwordFinder);
     // static public System.Collections.Generic.IEnumerable`1<System.Security.Cryptography.X509Certificates.X509Certificate2> GetCertificateList(System.String certificatePem, System.String certificateChainPem)
-    // Offset: 0x2E079B4
+    // Offset: 0x261107C
     static ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GetCertificateList(::StringW certificatePem, ::StringW certificateChainPem);
     // static public System.Void ValidateCertificateChain(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x2E07E20
+    // Offset: 0x26114E8
     static void ValidateCertificateChain(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
     // static private System.Void ValidateCertificateChainUnity(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x2E07E94
+    // Offset: 0x261155C
     static void ValidateCertificateChainUnity(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
     // static private System.Void ValidateCertificateChainDotNet(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x2E08754
+    // Offset: 0x2611E1C
     static void ValidateCertificateChainDotNet(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
   }; // X509CertificateUtility
   #pragma pack(pop)

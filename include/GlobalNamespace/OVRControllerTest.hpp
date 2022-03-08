@@ -99,13 +99,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder data
     ::System::Text::StringBuilder*& dyn_data();
     // private System.Void Start()
-    // Offset: 0x15A5FB4
+    // Offset: 0x16272B0
     void Start();
     // private System.Void Update()
-    // Offset: 0x15A77A0
+    // Offset: 0x1628A9C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x15A8154
+    // Offset: 0x1629450
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x15A815C
+    // Offset: 0x1629458
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

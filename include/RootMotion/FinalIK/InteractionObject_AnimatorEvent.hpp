@@ -47,42 +47,42 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x126862C
+    // [TooltipAttribute] Offset: 0x10DF2C0
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1268664
+    // [TooltipAttribute] Offset: 0x10DF2F8
     // public UnityEngine.Animation animation
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Animation* animation;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animation*) == 0x8);
-    // [TooltipAttribute] Offset: 0x126869C
+    // [TooltipAttribute] Offset: 0x10DF330
     // public System.String animationState
     // Size: 0x8
     // Offset: 0x20
     ::StringW animationState;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x12686D4
+    // [TooltipAttribute] Offset: 0x10DF368
     // public System.Single crossfadeTime
     // Size: 0x4
     // Offset: 0x28
     float crossfadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x126870C
+    // [TooltipAttribute] Offset: 0x10DF3A0
     // public System.Int32 layer
     // Size: 0x4
     // Offset: 0x2C
     int layer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x1268744
+    // [TooltipAttribute] Offset: 0x10DF3D8
     // public System.Boolean resetNormalizedTime
     // Size: 0x1
     // Offset: 0x30
@@ -109,16 +109,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean resetNormalizedTime
     bool& dyn_resetNormalizedTime();
     // public System.Void Activate(System.Boolean pickUp)
-    // Offset: 0x233AAAC
+    // Offset: 0x2382260
     void Activate(bool pickUp);
     // private System.Void Activate(UnityEngine.Animator animator)
-    // Offset: 0x233ABA0
+    // Offset: 0x2382354
     void Activate(::UnityEngine::Animator* animator);
     // private System.Void Activate(UnityEngine.Animation animation)
-    // Offset: 0x233AC58
+    // Offset: 0x238240C
     void Activate(::UnityEngine::Animation* animation);
     // public System.Void .ctor()
-    // Offset: 0x233AD38
+    // Offset: 0x23824EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

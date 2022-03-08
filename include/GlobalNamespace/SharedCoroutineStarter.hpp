@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   class SharedCoroutineStarter : public ::GlobalNamespace::PersistentSingleton_1<::GlobalNamespace::SharedCoroutineStarter*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x299C7A0
+    // Offset: 0x2A0A08C
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<BeatmapDifficultyMask,System.String>,System.String> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B4C1A0
+    // Offset: 0x14F8864
     static void _cctor();
     // System.String <Start>b__11_0(System.Tuple`2<BeatmapDifficultyMask,System.String> x)
-    // Offset: 0x2B4C20C
+    // Offset: 0x14F88D0
     ::StringW $Start$b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x);
     // public System.Void .ctor()
-    // Offset: 0x2B4C204
+    // Offset: 0x14F88C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -187,34 +187,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _dontTickThisFrame
     bool& dyn__dontTickThisFrame();
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0x2CBC65C
+    // Offset: 0x1A96B08
     void set_tickerColor(::UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0x2CBC680
+    // Offset: 0x1A96B2C
     void set_movingTickerColor(::UnityEngine::Color value);
     // public System.Single get_zeroOffset()
-    // Offset: 0x2CBC6B4
+    // Offset: 0x1A96B60
     float get_zeroOffset();
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0x2CBC6A4
+    // Offset: 0x1A96B50
     void set_zeroOffset(float value);
     // protected System.Void Awake()
-    // Offset: 0x2CBC6BC
+    // Offset: 0x1A96B68
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x2CBC7CC
+    // Offset: 0x1A96C78
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2CBC820
+    // Offset: 0x1A96CCC
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x2CBC874
+    // Offset: 0x1A96D20
     void Update();
     // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0x2CBCA38
+    // Offset: 0x1A96EE4
     void SetMovingTickerNormalizedPosition(float t);
     // public System.Void .ctor()
-    // Offset: 0x2CBCB1C
+    // Offset: 0x1A96FC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

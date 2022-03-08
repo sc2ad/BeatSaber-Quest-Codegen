@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _distance
     float& dyn__distance();
     // public System.Int32 get_playerCount()
-    // Offset: 0x14CCEF8
+    // Offset: 0x150B9BC
     int get_playerCount();
     // public System.Single get_distance()
-    // Offset: 0x14CCF00
+    // Offset: 0x150B9C4
     float get_distance();
     // public System.Void .ctor()
-    // Offset: 0x14CCF08
+    // Offset: 0x150B9CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

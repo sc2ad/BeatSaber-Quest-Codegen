@@ -58,14 +58,14 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Sprite sprite
     ::UnityEngine::Sprite*& dyn_sprite();
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex, UnityEngine.Sprite sprite)
-    // Offset: 0x1457778
+    // Offset: 0x145FFEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteGlyph* New_ctor(uint index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex, ::UnityEngine::Sprite* sprite) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteGlyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteGlyph*, creationType>(index, metrics, glyphRect, scale, atlasIndex, sprite)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1457448
+    // Offset: 0x145FCBC
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -75,7 +75,7 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteGlyph*, creationType>()));
     }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
-    // Offset: 0x14576B8
+    // Offset: 0x145FF2C
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

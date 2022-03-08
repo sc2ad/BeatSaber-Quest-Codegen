@@ -62,22 +62,22 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Boolean m_ScenePreview
     bool& dyn_m_ScenePreview();
     // public System.Single get_fps()
-    // Offset: 0x2987C68
+    // Offset: 0x29F9B90
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0x2987C70
+    // Offset: 0x29F9B98
     void set_fps(float value);
     // public System.Boolean get_scenePreview()
-    // Offset: 0x2987C98
+    // Offset: 0x29F9BC0
     bool get_scenePreview();
     // public System.Void set_scenePreview(System.Boolean value)
-    // Offset: 0x2987CA0
+    // Offset: 0x29F9BC8
     void set_scenePreview(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x2987D2C
+    // Offset: 0x29F9C54
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2987CAC
+    // Offset: 0x29F9BD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -76,25 +76,25 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: protected System.Int32 m_width
     int& dyn_m_width();
     // public Org.BouncyCastle.Math.EC.ECLookupTable get_LookupTable()
-    // Offset: 0x227DBCC
+    // Offset: 0x22B9E9C
     ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
     // public System.Void set_LookupTable(Org.BouncyCastle.Math.EC.ECLookupTable value)
-    // Offset: 0x227DBD4
+    // Offset: 0x22B9EA4
     void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Offset()
-    // Offset: 0x227DBDC
+    // Offset: 0x22B9EAC
     ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
     // public System.Void set_Offset(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x227DBE4
+    // Offset: 0x22B9EB4
     void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x227DBEC
+    // Offset: 0x22B9EBC
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x227DBF4
+    // Offset: 0x22B9EC4
     void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x227DBFC
+    // Offset: 0x22B9ECC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

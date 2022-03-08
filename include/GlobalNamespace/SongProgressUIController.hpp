@@ -27,8 +27,8 @@ namespace TMPro {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: AudioTimeSyncController
-  class AudioTimeSyncController;
+  // Forward declaring type: IAudioTimeSource
+  class IAudioTimeSource;
 }
 // Forward declaring namespace: System::Text
 namespace System::Text {
@@ -102,13 +102,13 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* progressSecondsText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242FC4
-    // private readonly AudioTimeSyncController _audioTimeSyncController
+    // [InjectAttribute] Offset: 0x10B8260
+    // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x48
-    ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
+    ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
     // private System.Int32 _prevMinutes
     // Size: 0x4
     // Offset: 0x50
@@ -148,8 +148,8 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI*& dyn__progressMinutesText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _progressSecondsText
     ::TMPro::TextMeshProUGUI*& dyn__progressSecondsText();
-    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
-    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
+    // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
+    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private System.Int32 _prevMinutes
     int& dyn__prevMinutes();
     // Get instance field reference: private System.Int32 _prevSeconds
@@ -159,13 +159,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RectTransform _progressImageRectTransform
     ::UnityEngine::RectTransform*& dyn__progressImageRectTransform();
     // protected System.Void Start()
-    // Offset: 0x13D3F9C
+    // Offset: 0x13EDE08
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13D40B4
+    // Offset: 0x13EDF84
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13D4298
+    // Offset: 0x13EE290
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

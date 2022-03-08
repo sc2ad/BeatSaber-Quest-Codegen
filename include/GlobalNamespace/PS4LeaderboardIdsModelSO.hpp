@@ -74,13 +74,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
     ::System::Collections::Generic::Dictionary_2<::StringW, uint>*& dyn__leaderboardIdToPs4Id();
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0x2AB764C
+    // Offset: 0x1351264
     ::System::Collections::Generic::List_1<::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, out System.UInt32 ps4LeaderboardId)
-    // Offset: 0x2AB7798
+    // Offset: 0x13513B0
     bool GetPS4LeaderboardId(::StringW leaderboardId, ByRef<uint> ps4LeaderboardId);
     // public System.Void .ctor()
-    // Offset: 0x2AB780C
+    // Offset: 0x1351424
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x2AB7654
+    // Offset: 0x135126C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

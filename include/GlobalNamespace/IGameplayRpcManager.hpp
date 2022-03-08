@@ -36,6 +36,8 @@ namespace GlobalNamespace {
   class NoteSpawnInfoNetSerializable;
   // Forward declaring type: ObstacleSpawnInfoNetSerializable
   class ObstacleSpawnInfoNetSerializable;
+  // Forward declaring type: SliderSpawnInfoNetSerializable
+  class SliderSpawnInfoNetSerializable;
   // Forward declaring type: NoteCutInfoNetSerializable
   class NoteCutInfoNetSerializable;
   // Forward declaring type: NoteMissInfoNetSerializable
@@ -140,6 +142,12 @@ namespace GlobalNamespace {
     // public System.Void remove_obstacleWasSpawnedEvent(System.Action`4<System.String,System.Single,System.Single,ObstacleSpawnInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
     void remove_obstacleWasSpawnedEvent(::System::Action_4<::StringW, float, float, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
+    // public System.Void add_sliderWasSpawnedEvent(System.Action`4<System.String,System.Single,System.Single,SliderSpawnInfoNetSerializable> value)
+    // Offset: 0xFFFFFFFF
+    void add_sliderWasSpawnedEvent(::System::Action_4<::StringW, float, float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
+    // public System.Void remove_sliderWasSpawnedEvent(System.Action`4<System.String,System.Single,System.Single,SliderSpawnInfoNetSerializable> value)
+    // Offset: 0xFFFFFFFF
+    void remove_sliderWasSpawnedEvent(::System::Action_4<::StringW, float, float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
     // public System.Void add_noteWasCutEvent(System.Action`4<System.String,System.Single,System.Single,NoteCutInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
     void add_noteWasCutEvent(::System::Action_4<::StringW, float, float, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
@@ -158,6 +166,9 @@ namespace GlobalNamespace {
     // public System.Void ObstacleSpawned(System.Single songTime, ObstacleSpawnInfoNetSerializable obstacleSpawnInfoNetSerializable)
     // Offset: 0xFFFFFFFF
     void ObstacleSpawned(float songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
+    // public System.Void SliderSpawned(System.Single songTime, SliderSpawnInfoNetSerializable sliderSpawnInfoNetSerializable)
+    // Offset: 0xFFFFFFFF
+    void SliderSpawned(float songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
     // public System.Void NoteMissed(System.Single songTime, NoteMissInfoNetSerializable noteMissInfoNetSerializable)
     // Offset: 0xFFFFFFFF
     void NoteMissed(float songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfoNetSerializable);
@@ -431,6 +442,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_obstacleWasSpawnedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_sliderWasSpawnedEvent
+// Il2CppName: add_sliderWasSpawnedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(::System::Action_4<::StringW, float, float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::add_sliderWasSpawnedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("", "SliderSpawnInfoNetSerializable")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_sliderWasSpawnedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_sliderWasSpawnedEvent
+// Il2CppName: remove_sliderWasSpawnedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(::System::Action_4<::StringW, float, float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_sliderWasSpawnedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("", "SliderSpawnInfoNetSerializable")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_sliderWasSpawnedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_noteWasCutEvent
 // Il2CppName: add_noteWasCutEvent
 template<>
@@ -485,6 +514,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* obstacleSpawnInfoNetSerializable = &::il2cpp_utils::GetClassFromName("", "ObstacleSpawnInfoNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "ObstacleSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songTime, obstacleSpawnInfoNetSerializable});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::SliderSpawned
+// Il2CppName: SliderSpawned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(&GlobalNamespace::IGameplayRpcManager::SliderSpawned)> {
+  static const MethodInfo* get() {
+    static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sliderSpawnInfoNetSerializable = &::il2cpp_utils::GetClassFromName("", "SliderSpawnInfoNetSerializable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "SliderSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songTime, sliderSpawnInfoNetSerializable});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::NoteMissed

@@ -115,12 +115,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::ArrayW<uint> _get_TAU_SIGMA();
     // Set static field: static private readonly System.UInt32[] TAU_SIGMA
     static void _set_TAU_SIGMA(::ArrayW<uint> value);
-    // [ObsoleteAttribute] Offset: 0x12148C8
+    // [ObsoleteAttribute] Offset: 0x1093EEC
     // Get static field: static protected readonly System.Byte[] sigma
     static ::ArrayW<uint8_t> _get_sigma();
     // Set static field: static protected readonly System.Byte[] sigma
     static void _set_sigma(::ArrayW<uint8_t> value);
-    // [ObsoleteAttribute] Offset: 0x12148D8
+    // [ObsoleteAttribute] Offset: 0x1093EFC
     // Get static field: static protected readonly System.Byte[] tau
     static ::ArrayW<uint8_t> _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
@@ -144,56 +144,56 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.UInt32 cW2
     uint& dyn_cW2();
     // protected System.Int32 get_NonceSize()
-    // Offset: 0x23579CC
+    // Offset: 0x23EEF08
     int get_NonceSize();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23579D4
+    // Offset: 0x23EEF10
     ::StringW get_AlgorithmName();
     // public System.Void .ctor(System.Int32 rounds)
-    // Offset: 0x2357580
+    // Offset: 0x23EEABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Salsa20Engine* New_ctor(int rounds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>(rounds)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2358788
+    // Offset: 0x23EFCC4
     static void _cctor();
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
-    // Offset: 0x235737C
+    // Offset: 0x23EE8B8
     void PackTauOrSigma(int keyLength, ::ArrayW<uint> state, int stateOffset);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x235766C
+    // Offset: 0x23EEBA8
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Void AdvanceCounter()
-    // Offset: 0x2357AA8
+    // Offset: 0x23EEFE4
     void AdvanceCounter();
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x2357B0C
+    // Offset: 0x23EF048
     void ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int len, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x2357DAC
+    // Offset: 0x23EF2E8
     void Reset();
     // protected System.Void ResetCounter()
-    // Offset: 0x2357DD4
+    // Offset: 0x23EF310
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x2357E0C
+    // Offset: 0x23EF348
     void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x2358074
+    // Offset: 0x23EF5B0
     void GenerateKeyStream(::ArrayW<uint8_t> output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x2358110
+    // Offset: 0x23EF64C
     static void SalsaCore(int rounds, ::ArrayW<uint> input, ::ArrayW<uint> x);
     // private System.Void ResetLimitCounter()
-    // Offset: 0x2357DC8
+    // Offset: 0x23EF304
     void ResetLimitCounter();
     // private System.Boolean LimitExceeded(System.UInt32 len)
-    // Offset: 0x2357D70
+    // Offset: 0x23EF2AC
     bool LimitExceeded(uint len);
     // public System.Void .ctor()
-    // Offset: 0x2357510
+    // Offset: 0x23EEA4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

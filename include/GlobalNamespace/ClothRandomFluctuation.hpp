@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Cloth* cloth;
     // Field size check
     static_assert(sizeof(::UnityEngine::Cloth*) == 0x8);
-    // [HeaderAttribute] Offset: 0x123AB60
+    // [HeaderAttribute] Offset: 0x10AF658
     // private System.Boolean _useLocalExternalFluctuations
     // Size: 0x1
     // Offset: 0x20
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 externalFluctuations;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x123ABBC
+    // [HeaderAttribute] Offset: 0x10AF6B4
     // private System.Boolean _useLocalRandomFluctuations
     // Size: 0x1
     // Offset: 0x30
@@ -131,16 +131,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _speed
     float& dyn__speed();
     // protected System.Void Update()
-    // Offset: 0x13BD8E8
+    // Offset: 0x1363094
     void Update();
     // private System.Void FluctuateCloth(UnityEngine.Cloth cloth)
-    // Offset: 0x13BD8F0
+    // Offset: 0x136309C
     void FluctuateCloth(::UnityEngine::Cloth* cloth);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x13BDB0C
+    // Offset: 0x13632B8
     float GetNoise(float time, float offset);
     // public System.Void .ctor()
-    // Offset: 0x13BDC58
+    // Offset: 0x1363404
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

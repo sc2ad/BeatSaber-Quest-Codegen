@@ -156,7 +156,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _mergeNodeID
     int& dyn__mergeNodeID();
     // public System.Void .ctor()
-    // Offset: 0x177F574
+    // Offset: 0x185BC04
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
     // Base method: System.Void Object::.ctor()

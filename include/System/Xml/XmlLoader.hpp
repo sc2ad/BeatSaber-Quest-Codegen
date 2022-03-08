@@ -100,85 +100,82 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean preserveWhitespace
     bool& dyn_preserveWhitespace();
     // System.Void Load(System.Xml.XmlDocument doc, System.Xml.XmlReader reader, System.Boolean preserveWhitespace)
-    // Offset: 0x1A1E410
+    // Offset: 0x15A585C
     void Load(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader, bool preserveWhitespace);
     // private System.Void LoadDocSequence(System.Xml.XmlDocument parentDoc)
-    // Offset: 0x1A1E640
+    // Offset: 0x15A5AF0
     void LoadDocSequence(::System::Xml::XmlDocument* parentDoc);
-    // System.Xml.XmlNode ReadCurrentNode(System.Xml.XmlDocument doc, System.Xml.XmlReader reader)
-    // Offset: 0x1A1EC54
-    ::System::Xml::XmlNode* ReadCurrentNode(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader);
     // private System.Xml.XmlNode LoadNode(System.Boolean skipOverWhitespace)
-    // Offset: 0x1A1E6B0
+    // Offset: 0x15A5B60
     ::System::Xml::XmlNode* LoadNode(bool skipOverWhitespace);
     // private System.Xml.XmlAttribute LoadAttributeNode()
-    // Offset: 0x1A1EDA8
+    // Offset: 0x15A60E8
     ::System::Xml::XmlAttribute* LoadAttributeNode();
     // private System.Xml.XmlAttribute LoadDefaultAttribute()
-    // Offset: 0x1A1F740
+    // Offset: 0x15A6A80
     ::System::Xml::XmlAttribute* LoadDefaultAttribute();
     // private System.Void LoadAttributeValue(System.Xml.XmlNode parent, System.Boolean direct)
-    // Offset: 0x1A1F8E4
+    // Offset: 0x15A6C24
     void LoadAttributeValue(::System::Xml::XmlNode* parent, bool direct);
     // private System.Xml.XmlEntityReference LoadEntityReferenceNode(System.Boolean direct)
-    // Offset: 0x1A1F0E0
+    // Offset: 0x15A6420
     ::System::Xml::XmlEntityReference* LoadEntityReferenceNode(bool direct);
     // private System.Xml.XmlDeclaration LoadDeclarationNode()
-    // Offset: 0x1A1F2D0
+    // Offset: 0x15A6610
     ::System::Xml::XmlDeclaration* LoadDeclarationNode();
     // private System.Xml.XmlDocumentType LoadDocumentTypeNode()
-    // Offset: 0x1A1F47C
+    // Offset: 0x15A67BC
     ::System::Xml::XmlDocumentType* LoadDocumentTypeNode();
     // private System.Xml.XmlNode LoadNodeDirect()
-    // Offset: 0x1A1FBD4
+    // Offset: 0x15A6F2C
     ::System::Xml::XmlNode* LoadNodeDirect();
     // private System.Xml.XmlAttribute LoadAttributeNodeDirect()
-    // Offset: 0x1A20B94
+    // Offset: 0x15A7F3C
     ::System::Xml::XmlAttribute* LoadAttributeNodeDirect();
     // System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode)
-    // Offset: 0x1A13B44
+    // Offset: 0x15A7ED0
     void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode);
     // private System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode, System.Boolean bUseResolver, System.Xml.XmlResolver resolver)
-    // Offset: 0x1A20CDC
+    // Offset: 0x15A8198
     void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode, bool bUseResolver, ::System::Xml::XmlResolver* resolver);
     // private System.Void LoadDocumentType(System.Xml.IDtdInfo dtdInfo, System.Xml.XmlDocumentType dtNode)
-    // Offset: 0x1A201A4
+    // Offset: 0x15A74DC
     void LoadDocumentType(::System::Xml::IDtdInfo* dtdInfo, ::System::Xml::XmlDocumentType* dtNode);
     // private System.Xml.XmlParserContext GetContext(System.Xml.XmlNode node)
-    // Offset: 0x1A21100
+    // Offset: 0x15A89C8
     ::System::Xml::XmlParserContext* GetContext(::System::Xml::XmlNode* node);
     // System.Xml.XmlNamespaceManager ParsePartialContent(System.Xml.XmlNode parentNode, System.String innerxmltext, System.Xml.XmlNodeType nt)
-    // Offset: 0x1A133B8
+    // Offset: 0x15A91FC
     ::System::Xml::XmlNamespaceManager* ParsePartialContent(::System::Xml::XmlNode* parentNode, ::StringW innerxmltext, ::System::Xml::XmlNodeType nt);
     // System.Void LoadInnerXmlElement(System.Xml.XmlElement node, System.String innerxmltext)
-    // Offset: 0x1A166BC
+    // Offset: 0x15A9614
     void LoadInnerXmlElement(::System::Xml::XmlElement* node, ::StringW innerxmltext);
     // System.Void LoadInnerXmlAttribute(System.Xml.XmlAttribute node, System.String innerxmltext)
-    // Offset: 0x1A21E3C
+    // Offset: 0x15A9938
     void LoadInnerXmlAttribute(::System::Xml::XmlAttribute* node, ::StringW innerxmltext);
     // private System.Void RemoveDuplicateNamespace(System.Xml.XmlElement elem, System.Xml.XmlNamespaceManager mgr, System.Boolean fCheckElemAttrs)
-    // Offset: 0x1A21B9C
+    // Offset: 0x15A9698
     void RemoveDuplicateNamespace(::System::Xml::XmlElement* elem, ::System::Xml::XmlNamespaceManager* mgr, bool fCheckElemAttrs);
     // private System.String EntitizeName(System.String name)
-    // Offset: 0x1A21E44
+    // Offset: 0x15A9940
     ::StringW EntitizeName(::StringW name);
     // System.Void ExpandEntity(System.Xml.XmlEntity ent)
-    // Offset: 0x1A1AE88
+    // Offset: 0x15A275C
     void ExpandEntity(::System::Xml::XmlEntity* ent);
     // System.Void ExpandEntityReference(System.Xml.XmlEntityReference eref)
-    // Offset: 0x1A1B2F0
+    // Offset: 0x15A2BE0
     void ExpandEntityReference(::System::Xml::XmlEntityReference* eref);
     // private System.Xml.XmlReader CreateInnerXmlReader(System.String xmlFragment, System.Xml.XmlNodeType nt, System.Xml.XmlParserContext context, System.Xml.XmlDocument doc)
-    // Offset: 0x1A21934
+    // Offset: 0x15A93C0
     ::System::Xml::XmlReader* CreateInnerXmlReader(::StringW xmlFragment, ::System::Xml::XmlNodeType nt, ::System::Xml::XmlParserContext* context, ::System::Xml::XmlDocument* doc);
     // static System.Void ParseXmlDeclarationValue(System.String strValue, out System.String version, out System.String encoding, out System.String standalone)
-    // Offset: 0x1A1FFEC
+    // Offset: 0x15A7328
     static void ParseXmlDeclarationValue(::StringW strValue, ByRef<::StringW> version, ByRef<::StringW> encoding, ByRef<::StringW> standalone);
     // static System.Exception UnexpectedNodeType(System.Xml.XmlNodeType nodetype)
-    // Offset: 0x1A1F624
+    // Offset: 0x15A6964
     static ::System::Exception* UnexpectedNodeType(::System::Xml::XmlNodeType nodetype);
     // public System.Void .ctor()
-    // Offset: 0x1A133B0
+    // Offset: 0x15A2754
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -210,16 +207,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
   static const MethodInfo* get() {
     static auto* parentDoc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadDocSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentDoc});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlLoader::ReadCurrentNode
-// Il2CppName: ReadCurrentNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlLoader::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlReader*)>(&System::Xml::XmlLoader::ReadCurrentNode)> {
-  static const MethodInfo* get() {
-    static auto* doc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
-    static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "ReadCurrentNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{doc, reader});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadNode

@@ -147,85 +147,85 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.SessionMode _sessionMode
     ::HoudiniEngineUnity::SessionMode& dyn__sessionMode();
     // public System.Int64 get_SessionID()
-    // Offset: 0x1A5D5E8
+    // Offset: 0x1AE5DE4
     int64_t get_SessionID();
     // public System.Void set_SessionID(System.Int64 value)
-    // Offset: 0x1A5CC8C
+    // Offset: 0x1AE5488
     void set_SessionID(int64_t value);
     // public System.Int32 get_ProcessID()
-    // Offset: 0x1A5D650
+    // Offset: 0x1AE5E4C
     int get_ProcessID();
     // public System.Void set_ProcessID(System.Int32 value)
-    // Offset: 0x1A5D658
+    // Offset: 0x1AE5E54
     void set_ProcessID(int value);
     // public HoudiniEngineUnity.HAPI_SessionType get_SessionType()
-    // Offset: 0x1A5D660
+    // Offset: 0x1AE5E5C
     ::HoudiniEngineUnity::HAPI_SessionType get_SessionType();
     // public System.Void set_SessionType(HoudiniEngineUnity.HAPI_SessionType value)
-    // Offset: 0x1A5D668
+    // Offset: 0x1AE5E64
     void set_SessionType(::HoudiniEngineUnity::HAPI_SessionType value);
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x1A5D670
+    // Offset: 0x1AE5E6C
     bool get_IsInitialized();
     // public System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x1A5D678
+    // Offset: 0x1AE5E74
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsValidSessionID()
-    // Offset: 0x1A5D684
+    // Offset: 0x1AE5E80
     bool get_IsValidSessionID();
     // public System.String get_PipeName()
-    // Offset: 0x1A5D68C
+    // Offset: 0x1AE5E88
     ::StringW get_PipeName();
     // public System.Void set_PipeName(System.String value)
-    // Offset: 0x1A5D6D4
+    // Offset: 0x1AE5ED0
     void set_PipeName(::StringW value);
     // public System.Int32 get_Port()
-    // Offset: 0x1A5D6DC
+    // Offset: 0x1AE5ED8
     int get_Port();
     // public System.Void set_Port(System.Int32 value)
-    // Offset: 0x1A5D6E4
+    // Offset: 0x1AE5EE0
     void set_Port(int value);
     // public System.Type get_SessionClassType()
-    // Offset: 0x1A5D6EC
+    // Offset: 0x1AE5EE8
     ::System::Type* get_SessionClassType();
     // public System.Void set_SessionClassType(System.Type value)
-    // Offset: 0x1A5D798
+    // Offset: 0x1AE5F94
     void set_SessionClassType(::System::Type* value);
     // public System.Boolean get_IsDefaultSession()
-    // Offset: 0x1A5D7D4
+    // Offset: 0x1AE5FD0
     bool get_IsDefaultSession();
     // public System.Void set_IsDefaultSession(System.Boolean value)
-    // Offset: 0x1A5D7DC
+    // Offset: 0x1AE5FD8
     void set_IsDefaultSession(bool value);
     // public System.Boolean get_IsSessionSync()
-    // Offset: 0x1A5C844
+    // Offset: 0x1AE5040
     bool get_IsSessionSync();
     // public HoudiniEngineUnity.SessionConnectionState get_ThisConnectionMode()
-    // Offset: 0x1A5D7E8
+    // Offset: 0x1AE5FE4
     ::HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode();
     // public System.Void set_ThisConnectionMode(HoudiniEngineUnity.SessionConnectionState value)
-    // Offset: 0x1A5D7F0
+    // Offset: 0x1AE5FEC
     void set_ThisConnectionMode(::HoudiniEngineUnity::SessionConnectionState value);
     // public HoudiniEngineUnity.SessionMode get_ThisSessionMode()
-    // Offset: 0x1A5D7F8
+    // Offset: 0x1AE5FF4
     ::HoudiniEngineUnity::SessionMode get_ThisSessionMode();
     // public System.Void set_ThisSessionMode(HoudiniEngineUnity.SessionMode value)
-    // Offset: 0x1A5D800
+    // Offset: 0x1AE5FFC
     void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value);
     // static private System.Void .cctor()
-    // Offset: 0x1A5D818
+    // Offset: 0x1AE6014
     static void _cctor();
     // public HoudiniEngineUnity.HEU_SessionSyncData GetOrCreateSessionSync()
-    // Offset: 0x1A5D4BC
+    // Offset: 0x1AE5CB8
     ::HoudiniEngineUnity::HEU_SessionSyncData* GetOrCreateSessionSync();
     // public HoudiniEngineUnity.HEU_SessionSyncData GetSessionSync()
-    // Offset: 0x1A5D5D8
+    // Offset: 0x1AE5DD4
     ::HoudiniEngineUnity::HEU_SessionSyncData* GetSessionSync();
     // public System.Void SetSessionSync(HoudiniEngineUnity.HEU_SessionSyncData syncData)
-    // Offset: 0x1A5D5E0
+    // Offset: 0x1AE5DDC
     void SetSessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* syncData);
     // public System.Void .ctor()
-    // Offset: 0x1A5D808
+    // Offset: 0x1AE6004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

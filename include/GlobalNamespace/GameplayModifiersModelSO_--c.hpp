@@ -35,137 +35,123 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::GameplayModifiersModelSO::$$c* _get_$$9();
     // Set static field: static public readonly GameplayModifiersModelSO/<>c <>9
     static void _set_$$9(::GlobalNamespace::GameplayModifiersModelSO::$$c* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_0
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_0();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_0
-    static void _set_$$9__20_0(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_1
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_1();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_1
-    static void _set_$$9__20_1(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_2
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_2();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_2
-    static void _set_$$9__20_2(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_3
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_3();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_3
-    static void _set_$$9__20_3(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_4
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_4();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_4
-    static void _set_$$9__20_4(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_5
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_5();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_5
-    static void _set_$$9__20_5(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_6
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_6();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_6
-    static void _set_$$9__20_6(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_7
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_7();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_7
-    static void _set_$$9__20_7(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_8
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_8();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_8
-    static void _set_$$9__20_8(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_9
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_9();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_9
-    static void _set_$$9__20_9(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_10
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_10();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_10
-    static void _set_$$9__20_10(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_11
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_11();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_11
-    static void _set_$$9__20_11(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_12
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_12();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_12
-    static void _set_$$9__20_12(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_13
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_13();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_13
-    static void _set_$$9__20_13(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_14
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_14();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_14
-    static void _set_$$9__20_14(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_15
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_15();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_15
-    static void _set_$$9__20_15(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_16
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_16();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_16
-    static void _set_$$9__20_16(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
-    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_17
-    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__20_17();
-    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__20_17
-    static void _set_$$9__20_17(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_0
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_0();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_0
+    static void _set_$$9__18_0(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_1
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_1();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_1
+    static void _set_$$9__18_1(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_2
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_2();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_2
+    static void _set_$$9__18_2(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_3
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_3();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_3
+    static void _set_$$9__18_3(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_4
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_4();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_4
+    static void _set_$$9__18_4(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_5
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_5();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_5
+    static void _set_$$9__18_5(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_6
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_6();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_6
+    static void _set_$$9__18_6(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_7
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_7();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_7
+    static void _set_$$9__18_7(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_8
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_8();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_8
+    static void _set_$$9__18_8(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_9
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_9();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_9
+    static void _set_$$9__18_9(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_10
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_10();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_10
+    static void _set_$$9__18_10(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_11
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_11();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_11
+    static void _set_$$9__18_11(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_12
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_12();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_12
+    static void _set_$$9__18_12(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_13
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_13();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_13
+    static void _set_$$9__18_13(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_14
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_14();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_14
+    static void _set_$$9__18_14(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
+    // Get static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_15
+    static ::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* _get_$$9__18_15();
+    // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_15
+    static void _set_$$9__18_15(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
     // static private System.Void .cctor()
-    // Offset: 0x13A35F8
+    // Offset: 0x1320D30
     static void _cctor();
-    // System.Boolean <OnEnable>b__20_0(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3664
-    bool $OnEnable$b__20_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_1(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3684
-    bool $OnEnable$b__20_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_2(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A369C
-    bool $OnEnable$b__20_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_3(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A36B4
-    bool $OnEnable$b__20_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_4(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A36D4
-    bool $OnEnable$b__20_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_5(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A36EC
-    bool $OnEnable$b__20_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_6(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3704
-    bool $OnEnable$b__20_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_7(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A371C
-    bool $OnEnable$b__20_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_8(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3734
-    bool $OnEnable$b__20_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_9(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3754
-    bool $OnEnable$b__20_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_10(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3774
-    bool $OnEnable$b__20_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_11(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3794
-    bool $OnEnable$b__20_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_12(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A37AC
-    bool $OnEnable$b__20_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_13(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A37C4
-    bool $OnEnable$b__20_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_14(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A37DC
-    bool $OnEnable$b__20_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_15(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A37F4
-    bool $OnEnable$b__20_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_16(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A380C
-    bool $OnEnable$b__20_16(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // System.Boolean <OnEnable>b__20_17(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13A3824
-    bool $OnEnable$b__20_17(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_0(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320D9C
+    bool $OnEnable$b__18_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_1(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320DBC
+    bool $OnEnable$b__18_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_2(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320DD4
+    bool $OnEnable$b__18_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_3(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320DEC
+    bool $OnEnable$b__18_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_4(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320E0C
+    bool $OnEnable$b__18_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_5(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320E24
+    bool $OnEnable$b__18_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_6(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320E3C
+    bool $OnEnable$b__18_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_7(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320E54
+    bool $OnEnable$b__18_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_8(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320E6C
+    bool $OnEnable$b__18_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_9(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320E8C
+    bool $OnEnable$b__18_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_10(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320EAC
+    bool $OnEnable$b__18_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_11(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320ECC
+    bool $OnEnable$b__18_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_12(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320EE4
+    bool $OnEnable$b__18_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_13(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320EFC
+    bool $OnEnable$b__18_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_14(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320F14
+    bool $OnEnable$b__18_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // System.Boolean <OnEnable>b__18_15(GameplayModifiers gameplayModifiers)
+    // Offset: 0x1320F2C
+    bool $OnEnable$b__18_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x13A365C
+    // Offset: 0x1320D94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -185,166 +171,148 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_0
-// Il2CppName: <OnEnable>b__20_0
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_0
+// Il2CppName: <OnEnable>b__18_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_0)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_1
-// Il2CppName: <OnEnable>b__20_1
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_1
+// Il2CppName: <OnEnable>b__18_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_1)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_2
-// Il2CppName: <OnEnable>b__20_2
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_2
+// Il2CppName: <OnEnable>b__18_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_2)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_3
-// Il2CppName: <OnEnable>b__20_3
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_3
+// Il2CppName: <OnEnable>b__18_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_3)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_4
-// Il2CppName: <OnEnable>b__20_4
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_4
+// Il2CppName: <OnEnable>b__18_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_4)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_5
-// Il2CppName: <OnEnable>b__20_5
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_5
+// Il2CppName: <OnEnable>b__18_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_5)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_6
-// Il2CppName: <OnEnable>b__20_6
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_6
+// Il2CppName: <OnEnable>b__18_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_6)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_7
-// Il2CppName: <OnEnable>b__20_7
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_7
+// Il2CppName: <OnEnable>b__18_7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_7)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_8
-// Il2CppName: <OnEnable>b__20_8
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_8
+// Il2CppName: <OnEnable>b__18_8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_8)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_9
-// Il2CppName: <OnEnable>b__20_9
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_9
+// Il2CppName: <OnEnable>b__18_9
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_9)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_9)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_10
-// Il2CppName: <OnEnable>b__20_10
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_10
+// Il2CppName: <OnEnable>b__18_10
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_10)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_10)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_11
-// Il2CppName: <OnEnable>b__20_11
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_11
+// Il2CppName: <OnEnable>b__18_11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_11)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_12
-// Il2CppName: <OnEnable>b__20_12
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_12
+// Il2CppName: <OnEnable>b__18_12
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_12)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_12)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_13
-// Il2CppName: <OnEnable>b__20_13
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_13
+// Il2CppName: <OnEnable>b__18_13
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_13)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_13)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_14
-// Il2CppName: <OnEnable>b__20_14
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_14
+// Il2CppName: <OnEnable>b__18_14
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_14)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_14)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_15
-// Il2CppName: <OnEnable>b__20_15
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_15
+// Il2CppName: <OnEnable>b__18_15
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_15)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__18_15)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_15", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_16
-// Il2CppName: <OnEnable>b__20_16
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_16)> {
-  static const MethodInfo* get() {
-    static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_17
-// Il2CppName: <OnEnable>b__20_17
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_17)> {
-  static const MethodInfo* get() {
-    static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_17", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__18_15", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::New_ctor

@@ -53,7 +53,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _autoload
     bool& dyn__autoload();
     // public System.Void .ctor()
-    // Offset: 0x19B5598
+    // Offset: 0x19EC348
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

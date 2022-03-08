@@ -25,7 +25,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   class TerrainUtility::TerrainGroups : public ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A28798
+    // Offset: 0x2A938D8
     // Implemented from: System.Collections.Generic.Dictionary`2
     // Base method: System.Void Dictionary_2::.ctor()
     // Base method: System.Void Object::.ctor()

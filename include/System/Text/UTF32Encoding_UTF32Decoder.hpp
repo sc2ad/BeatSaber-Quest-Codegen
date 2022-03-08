@@ -52,19 +52,19 @@ namespace System::Text {
     // Get instance field reference: System.Int32 readByteCount
     int& dyn_readByteCount();
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x1FB1884
+    // Offset: 0x2044440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF32Encoding::UTF32Decoder* New_ctor(::System::Text::UTF32Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::UTF32Encoding::UTF32Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF32Encoding::UTF32Decoder*, creationType>(encoding)));
     }
     // override System.Boolean get_HasState()
-    // Offset: 0x1FB1D98
+    // Offset: 0x2044954
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
     // public override System.Void Reset()
-    // Offset: 0x1FB1D78
+    // Offset: 0x2044934
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();

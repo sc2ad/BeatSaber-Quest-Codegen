@@ -119,32 +119,32 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
     ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
     // public System.Boolean get_IsCached()
-    // Offset: 0x16D68E0
+    // Offset: 0x1738D14
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x16D68E8
+    // Offset: 0x1738D1C
     bool get_TypeVariesBasedOnMemberType();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x16D68F0
+    // Offset: 0x1738D24
     ::Zenject::DiContainer* get_Container();
     // protected System.Type get_ComponentType()
-    // Offset: 0x16D68F8
+    // Offset: 0x1738D2C
     ::System::Type* get_ComponentType();
     // protected System.Boolean get_ShouldToggleActive()
     // Offset: 0xFFFFFFFF
     bool get_ShouldToggleActive();
     // public System.Void .ctor(Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x16D6734
+    // Offset: 0x1738B68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToGameObjectComponentProviderBase* New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToGameObjectComponentProviderBase*, creationType>(container, componentType, extraArguments, concreteIdentifier, instantiateCallback)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x16D6900
+    // Offset: 0x1738D34
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x16D6908
+    // Offset: 0x1738D3C
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // protected UnityEngine.GameObject GetGameObject(Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF

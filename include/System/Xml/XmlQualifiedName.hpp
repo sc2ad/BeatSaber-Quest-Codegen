@@ -14,8 +14,6 @@
 // Begin forward declares
 // Forward declaring namespace: System::Xml
 namespace System::Xml {
-  // Forward declaring type: XmlNameTable
-  class XmlNameTable;
   // Forward declaring type: IXmlNamespaceResolver
   class IXmlNamespaceResolver;
 }
@@ -81,63 +79,48 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 hash
     int& dyn_hash();
     // public System.String get_Namespace()
-    // Offset: 0x14D63CC
+    // Offset: 0x15AEE34
     ::StringW get_Namespace();
     // public System.String get_Name()
-    // Offset: 0x14D63D4
+    // Offset: 0x15AEE3C
     ::StringW get_Name();
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x14D6A44
+    // Offset: 0x15A8988
     bool get_IsEmpty();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x14D6364
+    // Offset: 0x15AEDCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlQualifiedName* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlQualifiedName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlQualifiedName*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String ns)
-    // Offset: 0x14D62C8
+    // Offset: 0x15AED30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlQualifiedName* New_ctor(::StringW name, ::StringW ns) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlQualifiedName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlQualifiedName*, creationType>(name, ns)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14D70EC
+    // Offset: 0x15AF8E4
     static void _cctor();
-    // static public System.String ToString(System.String name, System.String ns)
-    // Offset: 0x14D6CE4
-    static ::StringW ToString(::StringW name, ::StringW ns);
     // static private System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x14D64BC
+    // Offset: 0x15AEF24
     static ::System::Xml::XmlQualifiedName::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // static private System.Boolean IsRandomizedHashingDisabled()
-    // Offset: 0x14D6D68
+    // Offset: 0x15AF70C
     static bool IsRandomizedHashingDisabled();
     // static private System.Int32 GetHashCodeOfString(System.String s, System.Int32 length, System.Int64 additionalEntropy)
-    // Offset: 0x14D6D80
+    // Offset: 0x15AF724
     static int GetHashCodeOfString(::StringW s, int length, int64_t additionalEntropy);
     // System.Void Init(System.String name, System.String ns)
-    // Offset: 0x14D6D9C
+    // Offset: 0x15AF740
     void Init(::StringW name, ::StringW ns);
-    // System.Void SetNamespace(System.String ns)
-    // Offset: 0x14D6DA8
-    void SetNamespace(::StringW ns);
-    // System.Void Verify()
-    // Offset: 0x14D6DB0
-    void Verify();
-    // System.Void Atomize(System.Xml.XmlNameTable nameTable)
-    // Offset: 0x14D6E6C
-    void Atomize(::System::Xml::XmlNameTable* nameTable);
     // static System.Xml.XmlQualifiedName Parse(System.String s, System.Xml.IXmlNamespaceResolver nsmgr, out System.String prefix)
-    // Offset: 0x14D6EC4
+    // Offset: 0x15AF74C
     static ::System::Xml::XmlQualifiedName* Parse(::StringW s, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::StringW> prefix);
-    // System.Xml.XmlQualifiedName Clone()
-    // Offset: 0x14D7064
-    ::System::Xml::XmlQualifiedName* Clone();
     // public System.Void .ctor()
-    // Offset: 0x14D626C
+    // Offset: 0x15AECD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -146,17 +129,17 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlQualifiedName*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x14D63DC
+    // Offset: 0x15AEE44
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x14D6A84
+    // Offset: 0x15AF4AC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x14D6AFC
+    // Offset: 0x15AF524
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
@@ -165,10 +148,10 @@ namespace System::Xml {
   static check_size<sizeof(XmlQualifiedName), 32 + sizeof(int)> __System_Xml_XmlQualifiedNameSizeCheck;
   static_assert(sizeof(XmlQualifiedName) == 0x24);
   // static public System.Boolean op_Equality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
-  // Offset: 0x14D6C78
+  // Offset: 0x15AF6A0
   bool operator ==(::System::Xml::XmlQualifiedName* a, ::System::Xml::XmlQualifiedName& b);
   // static public System.Boolean op_Inequality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
-  // Offset: 0x14D6BF8
+  // Offset: 0x15AF620
   bool operator !=(::System::Xml::XmlQualifiedName* a, ::System::Xml::XmlQualifiedName& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -212,16 +195,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::ToString
-// Il2CppName: ToString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&System::Xml::XmlQualifiedName::ToString)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, ns});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::XmlQualifiedName::GetHashCodeDelegate
 // Il2CppName: GetHashCodeDelegate
 template<>
@@ -259,32 +232,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, ns});
   }
 };
-// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::SetNamespace
-// Il2CppName: SetNamespace
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)(::StringW)>(&System::Xml::XmlQualifiedName::SetNamespace)> {
-  static const MethodInfo* get() {
-    static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "SetNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::Verify
-// Il2CppName: Verify
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::Verify)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "Verify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::Atomize
-// Il2CppName: Atomize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)(::System::Xml::XmlNameTable*)>(&System::Xml::XmlQualifiedName::Atomize)> {
-  static const MethodInfo* get() {
-    static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "Atomize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameTable});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::XmlQualifiedName::Parse
 // Il2CppName: Parse
 template<>
@@ -294,14 +241,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     static auto* nsmgr = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlNamespaceResolver")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, nsmgr, prefix});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::Clone
-// Il2CppName: Clone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::Clone)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlQualifiedName::New_ctor

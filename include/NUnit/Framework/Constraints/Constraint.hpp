@@ -61,21 +61,21 @@ namespace NUnit::Framework::Constraints {
     ::System::Lazy_1<::StringW>* displayName;
     // Field size check
     static_assert(sizeof(::System::Lazy_1<::StringW>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1236D68
+    // [DebuggerBrowsableAttribute] Offset: 0x10AB6B0
     // private System.String <Description>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::StringW Description;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1236DA4
+    // [DebuggerBrowsableAttribute] Offset: 0x10AB6EC
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1236DE0
+    // [DebuggerBrowsableAttribute] Offset: 0x10AB728
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -96,28 +96,28 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     ::NUnit::Framework::Constraints::ConstraintBuilder*& dyn_$Builder$k__BackingField();
     // public System.String get_DisplayName()
-    // Offset: 0x1B4EC48
+    // Offset: 0x1C55BC8
     ::StringW get_DisplayName();
     // public System.String get_Description()
-    // Offset: 0x1B4ECA0
+    // Offset: 0x1C55C20
     ::StringW get_Description();
     // protected System.Void set_Description(System.String value)
-    // Offset: 0x1B4ECA8
+    // Offset: 0x1C55C28
     void set_Description(::StringW value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x1B4ECB0
+    // Offset: 0x1C55C30
     ::ArrayW<::Il2CppObject*> get_Arguments();
     // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x1B4ECB8
+    // Offset: 0x1C55C38
     void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x1B4ECC0
+    // Offset: 0x1C55C40
     ::NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x1B4ECC8
+    // Offset: 0x1C55C48
     void set_Builder(::NUnit::Framework::Constraints::ConstraintBuilder* value);
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x1B4E858
+    // Offset: 0x1C55B0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::Constraint::.ctor");
@@ -127,19 +127,19 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     ::NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // protected System.String GetStringRepresentation()
-    // Offset: 0x1B4ED50
+    // Offset: 0x1C55CD0
     ::StringW GetStringRepresentation();
     // static private System.String _displayable(System.Object o)
-    // Offset: 0x1B4EEA4
+    // Offset: 0x1C55E24
     static ::StringW _displayable(::Il2CppObject* o);
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x1B4EFD0
+    // Offset: 0x1C55F50
     ::NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
     // private System.String <.ctor>b__1_0()
-    // Offset: 0x1B4F0AC
+    // Offset: 0x1C5602C
     ::StringW $_ctor$b__1_0();
     // public override System.String ToString()
-    // Offset: 0x1B4ECD0
+    // Offset: 0x1C55C50
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

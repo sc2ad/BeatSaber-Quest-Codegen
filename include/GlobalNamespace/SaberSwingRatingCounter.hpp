@@ -21,8 +21,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: SaberMovementData
-  class SaberMovementData;
+  // Forward declaring type: ISaberMovementData
+  class ISaberMovementData;
   // Forward declaring type: LazyCopyHashSet`1<T>
   template<typename T>
   class LazyCopyHashSet_1;
@@ -35,8 +35,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Transform
-  class Transform;
+  // Forward declaring type: Quaternion
+  struct Quaternion;
 }
 // Completed forward declares
 // Type namespace: 
@@ -55,8 +55,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberSwingRatingCounter : public ::Il2CppObject/*, public ::GlobalNamespace::ISaberMovementDataProcessor, public ::GlobalNamespace::ISaberSwingRatingCounter*/ {
     public:
-    // Nested type: ::GlobalNamespace::SaberSwingRatingCounter::Pool
-    class Pool;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -66,12 +64,12 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private SaberMovementData _saberMovementData
+    // private ISaberMovementData _saberMovementData
     // Size: 0x8
     // Offset: 0x10
-    ::GlobalNamespace::SaberMovementData* saberMovementData;
+    ::GlobalNamespace::ISaberMovementData* saberMovementData;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::SaberMovementData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ISaberMovementData*) == 0x8);
     // private UnityEngine.Vector3 _cutPlaneNormal
     // Size: 0xC
     // Offset: 0x18
@@ -116,10 +114,10 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 noteForward;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // private System.Boolean _rateBeforerCut
+    // private System.Boolean _rateBeforeCut
     // Size: 0x1
     // Offset: 0x50
-    bool rateBeforerCut;
+    bool rateBeforeCut;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _rateAfterCut
@@ -205,8 +203,8 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISaberSwingRatingCounter() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounter*>(this);
     }
-    // Get instance field reference: private SaberMovementData _saberMovementData
-    ::GlobalNamespace::SaberMovementData*& dyn__saberMovementData();
+    // Get instance field reference: private ISaberMovementData _saberMovementData
+    ::GlobalNamespace::ISaberMovementData*& dyn__saberMovementData();
     // Get instance field reference: private UnityEngine.Vector3 _cutPlaneNormal
     ::UnityEngine::Vector3& dyn__cutPlaneNormal();
     // Get instance field reference: private System.Single _cutTime
@@ -221,8 +219,8 @@ namespace GlobalNamespace {
     bool& dyn__notePlaneWasCut();
     // Get instance field reference: private UnityEngine.Vector3 _noteForward
     ::UnityEngine::Vector3& dyn__noteForward();
-    // Get instance field reference: private System.Boolean _rateBeforerCut
-    bool& dyn__rateBeforerCut();
+    // Get instance field reference: private System.Boolean _rateBeforeCut
+    bool& dyn__rateBeforeCut();
     // Get instance field reference: private System.Boolean _rateAfterCut
     bool& dyn__rateAfterCut();
     // Get instance field reference: private readonly LazyCopyHashSet`1<ISaberSwingRatingCounterDidChangeReceiver> _didChangeReceivers
@@ -248,37 +246,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     bool& dyn__finished();
     // public System.Single get_beforeCutRating()
-    // Offset: 0x2B56D8C
+    // Offset: 0x13A8CA4
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0x2B56D94
+    // Offset: 0x13A8CAC
     float get_afterCutRating();
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x2B56D9C
+    // Offset: 0x13A8CB4
     void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x2B56E04
+    // Offset: 0x13A8D1C
     void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x2B56E6C
+    // Offset: 0x13A8D84
     void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x2B56ED4
+    // Offset: 0x13A8DEC
     void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
-    // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform, System.Boolean rateBeforeCut, System.Boolean rateAfterCut)
-    // Offset: 0x2B56F3C
-    void Init(::GlobalNamespace::SaberMovementData* saberMovementData, ::UnityEngine::Transform* noteTransform, bool rateBeforeCut, bool rateAfterCut);
+    // public System.Void Init(ISaberMovementData saberMovementData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, System.Boolean rateBeforeCut, System.Boolean rateAfterCut)
+    // Offset: 0x13A8E54
+    void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0x2B570A0
+    // Offset: 0x13A91C4
     void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
-    // private System.Void Finish()
-    // Offset: 0x2B575D0
+    // public System.Void Finish()
+    // Offset: 0x13A975C
     void Finish();
     // public System.Void DrawGizmos()
-    // Offset: 0x2B57718
+    // Offset: 0x13A98F8
     void DrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x2B579FC
+    // Offset: 0x13A9BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -347,13 +345,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::SaberMovementData*, ::UnityEngine::Transform*, bool, bool)>(&GlobalNamespace::SaberSwingRatingCounter::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberMovementData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, bool, bool)>(&GlobalNamespace::SaberSwingRatingCounter::Init)> {
   static const MethodInfo* get() {
-    static auto* saberMovementData = &::il2cpp_utils::GetClassFromName("", "SaberMovementData")->byval_arg;
-    static auto* noteTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* saberMovementData = &::il2cpp_utils::GetClassFromName("", "ISaberMovementData")->byval_arg;
+    static auto* notePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* noteRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* rateBeforeCut = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* rateAfterCut = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRatingCounter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberMovementData, noteTransform, rateBeforeCut, rateAfterCut});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRatingCounter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberMovementData, notePosition, noteRotation, rateBeforeCut, rateAfterCut});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::ProcessNewData

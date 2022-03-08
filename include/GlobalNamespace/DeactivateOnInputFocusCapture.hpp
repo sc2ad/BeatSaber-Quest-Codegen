@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x11FE2C8
+    // [InjectAttribute] Offset: 0x108B328
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x18
@@ -57,19 +57,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // protected System.Void OnEnable()
-    // Offset: 0x2C18C14
+    // Offset: 0x157123C
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x2C18E34
+    // Offset: 0x1571574
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x2C18FD0
+    // Offset: 0x1571710
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x2C191D0
+    // Offset: 0x157199C
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x2C19330
+    // Offset: 0x1571AFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

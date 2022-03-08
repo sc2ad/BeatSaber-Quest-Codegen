@@ -62,17 +62,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.TerrainLayer self
     ::UnityEngine::TerrainLayer*& dyn_self();
     // public System.Void .ctor(UnityEngine.TerrainLayer self)
-    // Offset: 0x2A0FB3C
+    // Offset: 0x2A74D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TerrainLayer* New_ctor(::UnityEngine::TerrainLayer* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TerrainLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TerrainLayer*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A0FB68
+    // Offset: 0x2A74D4C
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_TerrainLayer other)
-    // Offset: 0x2A0FBD8
+    // Offset: 0x2A74DBC
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_TerrainLayer* other);
   }; // HoudiniEngineUnity.Test_TerrainLayer
   #pragma pack(pop)

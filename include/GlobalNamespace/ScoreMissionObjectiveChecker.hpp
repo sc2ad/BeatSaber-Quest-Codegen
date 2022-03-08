@@ -46,24 +46,24 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1243C44
-    // private IScoreController _scoreController
+    // [InjectAttribute] Offset: 0x10B8F70
+    // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
     public:
-    // Get instance field reference: private IScoreController _scoreController
+    // Get instance field reference: private readonly IScoreController _scoreController
     ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B5D038
+    // Offset: 0x13AF03C
     void OnDestroy();
-    // private System.Void HandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x2B5D138
-    void HandleScoreDidChange(int rawScore, int modifiedScore);
+    // private System.Void HandleScoreDidChange(System.Int32 multipliedScore, System.Int32 modifiedScore)
+    // Offset: 0x13AF13C
+    void HandleScoreDidChange(int multipliedScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x2B5D324
+    // Offset: 0x13AF3D0
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScoreMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x2B5D164
+    // Offset: 0x13AF214
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
@@ -101,9 +101,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreMissionObjectiveChecker::*)(int, int)>(&GlobalNamespace::ScoreMissionObjectiveChecker::HandleScoreDidChange)> {
   static const MethodInfo* get() {
-    static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* multipliedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMissionObjectiveChecker*), "HandleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawScore, modifiedScore});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMissionObjectiveChecker*), "HandleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multipliedScore, modifiedScore});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoreMissionObjectiveChecker::New_ctor

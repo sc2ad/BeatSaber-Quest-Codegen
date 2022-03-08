@@ -57,7 +57,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
     ::ArrayW<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>& dyn_entries();
     // public System.Void .ctor()
-    // Offset: 0x2B40600
+    // Offset: 0x1371D34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

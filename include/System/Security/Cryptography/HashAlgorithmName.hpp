@@ -54,29 +54,29 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private readonly System.String _name
     ::StringW& dyn__name();
     // static public System.Security.Cryptography.HashAlgorithmName get_SHA256()
-    // Offset: 0x1AC6D70
+    // Offset: 0x1B8176C
     static ::System::Security::Cryptography::HashAlgorithmName get_SHA256();
     // public System.String get_Name()
-    // Offset: 0x1AC6DC0
+    // Offset: 0x1B817BC
     ::StringW get_Name();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1AC6DB8
+    // Offset: 0x1B817B4
     // ABORTED: conflicts with another method.  HashAlgorithmName(::StringW name);
     // public System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName other)
-    // Offset: 0x1AC6EB4
+    // Offset: 0x1B818B0
     bool Equals(::System::Security::Cryptography::HashAlgorithmName other);
     // public override System.String ToString()
-    // Offset: 0x1AC6DC8
+    // Offset: 0x1B817C4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1AC6E24
+    // Offset: 0x1B81820
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AC6EC0
+    // Offset: 0x1B818BC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

@@ -44,21 +44,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: loadFromColorScheme and: environmentColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x12523B8
+    // [DrawIfAttribute] Offset: 0x10C7310
     // public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor environmentColor
     // Size: 0x4
     // Offset: 0x14
     ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor environmentColor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1252450
+    // [DrawIfAttribute] Offset: 0x10C73A8
     // public System.Single intensity
     // Size: 0x4
     // Offset: 0x18
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x12524E8
+    // [DrawIfAttribute] Offset: 0x10C7440
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x1C
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color color
     ::UnityEngine::Color& dyn_color();
     // public System.Void .ctor()
-    // Offset: 0x13B6A54
+    // Offset: 0x135A0C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

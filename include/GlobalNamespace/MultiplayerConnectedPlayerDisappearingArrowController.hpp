@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerConnectedPlayerGameNoteController _gameNoteController
     ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__gameNoteController();
     // protected MultiplayerConnectedPlayerGameNoteController get_gameNoteController()
-    // Offset: 0x142FD48
+    // Offset: 0x144B130
     ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x142FD50
+    // Offset: 0x144B138
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

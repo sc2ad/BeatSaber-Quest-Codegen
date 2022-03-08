@@ -46,12 +46,6 @@ namespace GlobalNamespace {
     // public System.Single get_jumpOffsetY()
     // Offset: 0xFFFFFFFF
     float get_jumpOffsetY();
-    // public System.Void set_jumpOffsetY(System.Single value)
-    // Offset: 0xFFFFFFFF
-    void set_jumpOffsetY(float value);
-    // public System.Single get_currentBpm()
-    // Offset: 0xFFFFFFFF
-    float get_currentBpm();
     // public System.Single get_moveDuration()
     // Offset: 0xFFFFFFFF
     float get_moveDuration();
@@ -106,23 +100,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IBeatmapObjectSpawnController::*)()>(&GlobalNamespace::IBeatmapObjectSpawnController::get_jumpOffsetY)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectSpawnController*), "get_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::set_jumpOffsetY
-// Il2CppName: set_jumpOffsetY
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectSpawnController::*)(float)>(&GlobalNamespace::IBeatmapObjectSpawnController::set_jumpOffsetY)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectSpawnController*), "set_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::get_currentBpm
-// Il2CppName: get_currentBpm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IBeatmapObjectSpawnController::*)()>(&GlobalNamespace::IBeatmapObjectSpawnController::get_currentBpm)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectSpawnController*), "get_currentBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::get_moveDuration

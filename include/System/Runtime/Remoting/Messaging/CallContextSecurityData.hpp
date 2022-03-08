@@ -62,13 +62,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Security.Principal.IPrincipal _principal
     ::System::Security::Principal::IPrincipal*& dyn__principal();
     // System.Boolean get_HasInfo()
-    // Offset: 0x1B884E8
+    // Offset: 0x1C7FAB0
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x1B884F8
+    // Offset: 0x1C7FAC0
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1B88568
+    // Offset: 0x1C7FB30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
-    // private System.Int32 <rawScore>k__BackingField
+    // private System.Int32 <multipliedScore>k__BackingField
     // Size: 0x4
     // Offset: 0x28
-    int rawScore;
+    int multipliedScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // private System.Int32 <modifiedScore>k__BackingField
@@ -123,8 +123,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::IDifficultyBeatmap*& dyn_$beatmap$k__BackingField();
     // Get instance field reference: private GameplayModifiers <gameplayModifiers>k__BackingField
     ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
-    // Get instance field reference: private System.Int32 <rawScore>k__BackingField
-    int& dyn_$rawScore$k__BackingField();
+    // Get instance field reference: private System.Int32 <multipliedScore>k__BackingField
+    int& dyn_$multipliedScore$k__BackingField();
     // Get instance field reference: private System.Int32 <modifiedScore>k__BackingField
     int& dyn_$modifiedScore$k__BackingField();
     // Get instance field reference: private System.Boolean <fullCombo>k__BackingField
@@ -142,71 +142,71 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 currentUploadAttemptCount
     int& dyn_currentUploadAttemptCount();
     // public System.String get_playerId()
-    // Offset: 0x13B0E80
+    // Offset: 0x14A4E68
     ::StringW get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x13B0E88
+    // Offset: 0x14A4E70
     void set_playerId(::StringW value);
     // public IDifficultyBeatmap get_beatmap()
-    // Offset: 0x13B0E90
+    // Offset: 0x14A4E78
     ::GlobalNamespace::IDifficultyBeatmap* get_beatmap();
     // private System.Void set_beatmap(IDifficultyBeatmap value)
-    // Offset: 0x13B0E98
+    // Offset: 0x14A4E80
     void set_beatmap(::GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13B0EA0
+    // Offset: 0x14A4E88
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x13B0EA8
+    // Offset: 0x14A4E90
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
-    // public System.Int32 get_rawScore()
-    // Offset: 0x13B0EB0
-    int get_rawScore();
-    // private System.Void set_rawScore(System.Int32 value)
-    // Offset: 0x13B0EB8
-    void set_rawScore(int value);
+    // public System.Int32 get_multipliedScore()
+    // Offset: 0x14A4E98
+    int get_multipliedScore();
+    // private System.Void set_multipliedScore(System.Int32 value)
+    // Offset: 0x14A4EA0
+    void set_multipliedScore(int value);
     // public System.Int32 get_modifiedScore()
-    // Offset: 0x13B0EC0
+    // Offset: 0x14A4EA8
     int get_modifiedScore();
     // private System.Void set_modifiedScore(System.Int32 value)
-    // Offset: 0x13B0EC8
+    // Offset: 0x14A4EB0
     void set_modifiedScore(int value);
     // public System.Boolean get_fullCombo()
-    // Offset: 0x13B0ED0
+    // Offset: 0x14A4EB8
     bool get_fullCombo();
     // private System.Void set_fullCombo(System.Boolean value)
-    // Offset: 0x13B0ED8
+    // Offset: 0x14A4EC0
     void set_fullCombo(bool value);
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0x13B0EE4
+    // Offset: 0x14A4ECC
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0x13B0EEC
+    // Offset: 0x14A4ED4
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0x13B0EF4
+    // Offset: 0x14A4EDC
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0x13B0EFC
+    // Offset: 0x14A4EE4
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCount()
-    // Offset: 0x13B0F04
+    // Offset: 0x14A4EEC
     int get_missedCount();
     // private System.Void set_missedCount(System.Int32 value)
-    // Offset: 0x13B0F0C
+    // Offset: 0x14A4EF4
     void set_missedCount(int value);
     // public System.Int32 get_maxCombo()
-    // Offset: 0x13B0F14
+    // Offset: 0x14A4EFC
     int get_maxCombo();
     // private System.Void set_maxCombo(System.Int32 value)
-    // Offset: 0x13B0F1C
+    // Offset: 0x14A4F04
     void set_maxCombo(int value);
-    // public System.Void .ctor(System.String playerId, IDifficultyBeatmap beatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x13B0F24
+    // public System.Void .ctor(System.String playerId, IDifficultyBeatmap beatmap, System.Int32 multipliedScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
+    // Offset: 0x14A4F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardScoreUploader::ScoreData* New_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+    static LeaderboardScoreUploader::ScoreData* New_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int multipliedScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::ScoreData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::ScoreData*, creationType>(playerId, beatmap, rawScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo, gameplayModifiers)));
+      return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::ScoreData*, creationType>(playerId, beatmap, multipliedScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo, gameplayModifiers)));
     }
   }; // LeaderboardScoreUploader/ScoreData
   #pragma pack(pop)
@@ -265,21 +265,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_rawScore
-// Il2CppName: get_rawScore
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_multipliedScore
+// Il2CppName: get_multipliedScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)()>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_rawScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)()>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_multipliedScore)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "get_rawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "get_multipliedScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_rawScore
-// Il2CppName: set_rawScore
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_multipliedScore
+// Il2CppName: set_multipliedScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)(int)>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_rawScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)(int)>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_multipliedScore)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "set_rawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "set_multipliedScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_modifiedScore

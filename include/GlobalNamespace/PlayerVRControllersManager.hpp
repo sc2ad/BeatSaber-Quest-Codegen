@@ -63,11 +63,17 @@ namespace GlobalNamespace {
     ::GlobalNamespace::VRController*& dyn__leftHandVRController();
     // Get instance field reference: private VRController _rightHandVRController
     ::GlobalNamespace::VRController*& dyn__rightHandVRController();
+    // public VRController get_leftHandVRController()
+    // Offset: 0x13BE748
+    ::GlobalNamespace::VRController* get_leftHandVRController();
+    // public VRController get_rightHandVRController()
+    // Offset: 0x13BE750
+    ::GlobalNamespace::VRController* get_rightHandVRController();
     // public System.Void DisableAllVRControllers()
-    // Offset: 0x13E5B6C
+    // Offset: 0x13BE758
     void DisableAllVRControllers();
     // public System.Void .ctor()
-    // Offset: 0x13E5BB0
+    // Offset: 0x13BE79C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,6 +91,22 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerVRControllersManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PlayerVRControllersManager::get_leftHandVRController
+// Il2CppName: get_leftHandVRController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRController* (GlobalNamespace::PlayerVRControllersManager::*)()>(&GlobalNamespace::PlayerVRControllersManager::get_leftHandVRController)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerVRControllersManager*), "get_leftHandVRController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerVRControllersManager::get_rightHandVRController
+// Il2CppName: get_rightHandVRController
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRController* (GlobalNamespace::PlayerVRControllersManager::*)()>(&GlobalNamespace::PlayerVRControllersManager::get_rightHandVRController)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerVRControllersManager*), "get_rightHandVRController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerVRControllersManager::DisableAllVRControllers
 // Il2CppName: DisableAllVRControllers
 template<>

@@ -69,14 +69,14 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private System.Int32 m_firstTaskAlreadyCompleted
     int& dyn_m_firstTaskAlreadyCompleted();
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x1CDBB64
+    // Offset: 0x1D10648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskFactory::CompleteOnInvokePromise* New_ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskFactory::CompleteOnInvokePromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1CDBC7C
+    // Offset: 0x1D10760
     void Invoke(::System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.TaskFactory/System.Threading.Tasks.CompleteOnInvokePromise
   // WARNING Not writing size check since size may be invalid!

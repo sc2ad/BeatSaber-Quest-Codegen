@@ -109,55 +109,46 @@ namespace MS::Internal::Xml::Cache {
     // Get instance field reference: private System.String value
     ::StringW& dyn_value();
     // public System.Xml.XPath.XPathNodeType get_NodeType()
-    // Offset: 0x1B94F74
+    // Offset: 0x1A9B5B8
     ::System::Xml::XPath::XPathNodeType get_NodeType();
     // public System.String get_Prefix()
-    // Offset: 0x1B95090
+    // Offset: 0x1A9B6D4
     ::StringW get_Prefix();
     // public System.String get_LocalName()
-    // Offset: 0x1B94FC8
+    // Offset: 0x1A9B60C
     ::StringW get_LocalName();
     // public System.String get_NamespaceUri()
-    // Offset: 0x1B9502C
+    // Offset: 0x1A9B670
     ::StringW get_NamespaceUri();
     // public System.Xml.XPath.XPathDocument get_Document()
-    // Offset: 0x1B950FC
+    // Offset: 0x1A9B740
     ::System::Xml::XPath::XPathDocument* get_Document();
-    // public System.Int32 get_LineNumber()
-    // Offset: 0x1B9577C
-    int get_LineNumber();
-    // public System.Int32 get_LinePosition()
-    // Offset: 0x1B95888
-    int get_LinePosition();
-    // public System.Int32 get_CollapsedLinePosition()
-    // Offset: 0x1B9585C
-    int get_CollapsedLinePosition();
     // public MS.Internal.Xml.Cache.XPathNodePageInfo get_PageInfo()
-    // Offset: 0x1B958B8
+    // Offset: 0x1A9BCE4
     ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
     // public System.Boolean get_IsXmlNamespaceNode()
-    // Offset: 0x1B9534C
+    // Offset: 0x1A9B990
     bool get_IsXmlNamespaceNode();
     // public System.Boolean get_HasSibling()
-    // Offset: 0x1B958D4
+    // Offset: 0x1A9BD00
     bool get_HasSibling();
     // public System.Boolean get_HasCollapsedText()
-    // Offset: 0x1B958E4
+    // Offset: 0x1A9BD10
     bool get_HasCollapsedText();
     // public System.Boolean get_IsText()
-    // Offset: 0x1B958F0
+    // Offset: 0x1A9BD1C
     bool get_IsText();
     // public System.Boolean get_HasNamespaceDecls()
-    // Offset: 0x1B95960
+    // Offset: 0x1A9BD8C
     bool get_HasNamespaceDecls();
     // public System.String get_Value()
-    // Offset: 0x1B9596C
+    // Offset: 0x1A9BD98
     ::StringW get_Value();
     // public System.Int32 GetParent(out MS.Internal.Xml.Cache.XPathNode[] pageNode)
-    // Offset: 0x1B95514
+    // Offset: 0x1A9BB58
     int GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode);
     // public System.Int32 GetSibling(out MS.Internal.Xml.Cache.XPathNode[] pageNode)
-    // Offset: 0x1B953DC
+    // Offset: 0x1A9BA20
     int GetSibling(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode);
   }; // MS.Internal.Xml.Cache.XPathNode
   #pragma pack(pop)
@@ -203,30 +194,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathDocument* (MS::Internal::Xml::Cache::XPathNode::*)()>(&MS::Internal::Xml::Cache::XPathNode::get_Document)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNode), "get_Document", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNode::get_LineNumber
-// Il2CppName: get_LineNumber
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MS::Internal::Xml::Cache::XPathNode::*)()>(&MS::Internal::Xml::Cache::XPathNode::get_LineNumber)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNode), "get_LineNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNode::get_LinePosition
-// Il2CppName: get_LinePosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MS::Internal::Xml::Cache::XPathNode::*)()>(&MS::Internal::Xml::Cache::XPathNode::get_LinePosition)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNode), "get_LinePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNode::get_CollapsedLinePosition
-// Il2CppName: get_CollapsedLinePosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MS::Internal::Xml::Cache::XPathNode::*)()>(&MS::Internal::Xml::Cache::XPathNode::get_CollapsedLinePosition)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNode), "get_CollapsedLinePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNode::get_PageInfo

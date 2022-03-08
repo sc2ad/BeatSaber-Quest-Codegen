@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1250CA8
+    // [InjectAttribute] Offset: 0x10C5CC8
     // private readonly EnvironmentSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -52,10 +52,15 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentSceneSetupData*) == 0x8);
     public:
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C5CD8
+    // Get static field: static private readonly System.Int32 trackLaneYPositionPropertyId
+    static int _get_trackLaneYPositionPropertyId();
+    // Set static field: static private readonly System.Int32 trackLaneYPositionPropertyId
+    static void _set_trackLaneYPositionPropertyId(int value);
     // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
     ::GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x13FB0EC
+    // Offset: 0x12DA5B4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -69,8 +74,13 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetup*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x12DA5BC
+    // Implemented from: UnityEngine.Object
+    // Base method: System.Void Object::.cctor()
+    static void _cctor();
     // public override System.Void InstallBindings()
-    // Offset: 0x13FB040
+    // Offset: 0x12DA464
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
@@ -84,6 +94,14 @@ namespace GlobalNamespace {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetup::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::EnvironmentSceneSetup::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentSceneSetup*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>

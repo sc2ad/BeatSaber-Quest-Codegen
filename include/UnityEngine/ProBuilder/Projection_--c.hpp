@@ -52,16 +52,16 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.Vector2> <>9__6_1
     static void _set_$$9__6_1(::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1914294
+    // Offset: 0x1995178
     static void _cctor();
     // System.Int32 <Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> a, UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> b)
-    // Offset: 0x1914300
+    // Offset: 0x19951E4
     int $Sort$b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> a, ::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> b);
     // UnityEngine.Vector2 <Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> x)
-    // Offset: 0x1914358
+    // Offset: 0x199523C
     ::UnityEngine::Vector2 $Sort$b__6_1(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> x);
     // public System.Void .ctor()
-    // Offset: 0x19142F8
+    // Offset: 0x19951DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

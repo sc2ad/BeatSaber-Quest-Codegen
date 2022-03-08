@@ -41,10 +41,10 @@ namespace OnlineServices {
     ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // public readonly System.Int32 rawScore
+    // public readonly System.Int32 multipliedScore
     // Size: 0x4
     // Offset: 0x8
-    int rawScore;
+    int multipliedScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // public readonly System.Int32 modifiedScore
@@ -95,15 +95,15 @@ namespace OnlineServices {
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     public:
     // Creating value type constructor for type: LevelScoreResultsData
-    constexpr LevelScoreResultsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : difficultyBeatmap{difficultyBeatmap_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_} {}
+    constexpr LevelScoreResultsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, int multipliedScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : difficultyBeatmap{difficultyBeatmap_}, multipliedScore{multipliedScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public readonly IDifficultyBeatmap difficultyBeatmap
     ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
-    // Get instance field reference: public readonly System.Int32 rawScore
-    int& dyn_rawScore();
+    // Get instance field reference: public readonly System.Int32 multipliedScore
+    int& dyn_multipliedScore();
     // Get instance field reference: public readonly System.Int32 modifiedScore
     int& dyn_modifiedScore();
     // Get instance field reference: public readonly System.Boolean fullCombo
@@ -118,11 +118,11 @@ namespace OnlineServices {
     int& dyn_maxCombo();
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
     ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
-    // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x2AB3034
-    // ABORTED: conflicts with another method.  LevelScoreResultsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Int32 multipliedScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
+    // Offset: 0x134CDC4
+    // ABORTED: conflicts with another method.  LevelScoreResultsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int multipliedScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public override System.String ToString()
-    // Offset: 0x2AB305C
+    // Offset: 0x134CDEC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

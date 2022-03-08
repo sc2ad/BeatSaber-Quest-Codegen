@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: intensity
     char __padding2[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x1229DF4
+    // [DrawIfAttribute] Offset: 0x109DFF4
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x3C
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1229E98
+    // [DrawIfAttribute] Offset: 0x109E098
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x40
@@ -115,13 +115,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
     ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2090740
+    // Offset: 0x1F1BB84
     ::UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x20907A0
+    // Offset: 0x1F1BBE4
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x2090A78
+    // Offset: 0x1F1BEBC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -135,7 +135,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x2090820
+    // Offset: 0x1F1BC64
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

@@ -23,8 +23,11 @@ namespace GlobalNamespace {
   class AudioHelpers : public ::Il2CppObject {
     public:
     // static public System.Single NormalizedVolumeToDB(System.Single normalizedVolume)
-    // Offset: 0x2C15BBC
+    // Offset: 0x156E1B0
     static float NormalizedVolumeToDB(float normalizedVolume);
+    // static public System.Single DBToNormalizedVolume(System.Single db)
+    // Offset: 0x156E244
+    static float DBToNormalizedVolume(float db);
   }; // AudioHelpers
   #pragma pack(pop)
 }
@@ -36,5 +39,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
   static const MethodInfo* get() {
     static auto* normalizedVolume = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioHelpers*), "NormalizedVolumeToDB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalizedVolume});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AudioHelpers::DBToNormalizedVolume
+// Il2CppName: DBToNormalizedVolume
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::AudioHelpers::DBToNormalizedVolume)> {
+  static const MethodInfo* get() {
+    static auto* db = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioHelpers*), "DBToNormalizedVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{db});
   }
 };

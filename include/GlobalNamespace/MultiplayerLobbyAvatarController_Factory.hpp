@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class MultiplayerLobbyAvatarController::Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerLobbyAvatarController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14415D8
+    // Offset: 0x1396EDC
     // Implemented from: Zenject.PlaceholderFactory`2
     // Base method: System.Void PlaceholderFactory_2::.ctor()
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()

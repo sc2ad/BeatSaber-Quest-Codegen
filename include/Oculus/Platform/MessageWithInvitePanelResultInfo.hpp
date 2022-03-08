@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithInvitePanelResultInfo : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*> {
     public:
     // protected Oculus.Platform.Models.InvitePanelResultInfo GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19667E4
+    // Offset: 0x19B77A0
     ::Oculus::Platform::Models::InvitePanelResultInfo* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x196189C
+    // Offset: 0x19B2858
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithInvitePanelResultInfo*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.InvitePanelResultInfo GetInvitePanelResultInfo()
-    // Offset: 0x19667A0
+    // Offset: 0x19B775C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.InvitePanelResultInfo Message::GetInvitePanelResultInfo()
     ::Oculus::Platform::Models::InvitePanelResultInfo* GetInvitePanelResultInfo();

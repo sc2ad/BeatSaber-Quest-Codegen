@@ -34,19 +34,19 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreFormatter : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123D09C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B1A44
     // Get static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static ::System::Globalization::NumberFormatInfo* _get__numberFormatInfo();
     // Set static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
     static void _set__numberFormatInfo(::System::Globalization::NumberFormatInfo* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B5CF54
+    // Offset: 0x13AEED4
     static void _cctor();
     // static public System.String Format(System.Int32 score)
-    // Offset: 0x2B4DA24
+    // Offset: 0x13AEFB0
     static ::StringW Format(int score);
     // public System.Void .ctor()
-    // Offset: 0x2B5D030
+    // Offset: 0x13AF034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

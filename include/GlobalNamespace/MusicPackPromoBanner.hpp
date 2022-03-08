@@ -103,14 +103,14 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [LocalizationKeyAttribute] Offset: 0x124F260
+    // [LocalizationKeyAttribute] Offset: 0x10C40F8
     // static field const value: static private System.String kPlayNow
     static constexpr const char* kPlayNow = "PROMO_BANNER_PLAY_NOW_LABEL";
     // Get static field: static private System.String kPlayNow
     static ::StringW _get_kPlayNow();
     // Set static field: static private System.String kPlayNow
     static void _set_kPlayNow(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x124F270
+    // [LocalizationKeyAttribute] Offset: 0x10C4108
     // static field const value: static private System.String kGetNow
     static constexpr const char* kGetNow = "PROMO_GET_NOW_LABEL";
     // Get static field: static private System.String kGetNow
@@ -130,19 +130,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private IPreviewBeatmapLevel _currentPromoBeatmapLevel
     ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__currentPromoBeatmapLevel();
     // public IPreviewBeatmapLevel get_currentPromoBeatmapLevel()
-    // Offset: 0x2AAF638
+    // Offset: 0x1409234
     ::GlobalNamespace::IPreviewBeatmapLevel* get_currentPromoBeatmapLevel();
     // public IBeatmapLevelPack get_currentPromoMusicPack()
-    // Offset: 0x2AAF640
+    // Offset: 0x140923C
     ::GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();
     // public System.String get_promoButtonText()
-    // Offset: 0x2AAF648
+    // Offset: 0x1409244
     ::StringW get_promoButtonText();
     // public System.Void Setup(DlcPromoPanelDataSO/MusicPackPromoInfo musicPackPromoData, System.Boolean probablyOwned)
-    // Offset: 0x2AAF664
+    // Offset: 0x1409260
     void Setup(::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* musicPackPromoData, bool probablyOwned);
     // public System.Void .ctor()
-    // Offset: 0x2AAF834
+    // Offset: 0x1409430
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

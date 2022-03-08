@@ -44,6 +44,9 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
+  // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
+  class IReadOnlyList_1;
 }
 // Completed forward declares
 // Type namespace: HMUI
@@ -73,7 +76,7 @@ namespace HMUI {
     protected:
     #endif
     #endif
-    // [NullAllowed] Offset: 0x122B9D0
+    // [NullAllowed] Offset: 0x10A0CD8
     // private UnityEngine.Transform _separatorPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -146,37 +149,40 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
     ::System::Collections::Generic::Dictionary_2<int, ::System::Action_1<int>*>*& dyn__callbacks();
     // public HMUI.SegmentedControl/HMUI.IDataSource get_dataSource()
-    // Offset: 0x16AE738
+    // Offset: 0x1695BA4
     ::HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/HMUI.IDataSource value)
-    // Offset: 0x16AE740
+    // Offset: 0x1695BAC
     void set_dataSource(::HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x16AEA6C
+    // Offset: 0x1695ED8
     int get_selectedCellNumber();
+    // public System.Collections.Generic.IReadOnlyList`1<HMUI.SegmentedControlCell> get_cells()
+    // Offset: 0x1695EE0
+    ::System::Collections::Generic::IReadOnlyList_1<::HMUI::SegmentedControlCell*>* get_cells();
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x16AE5F0
+    // Offset: 0x1695A5C
     void add_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x16AE694
+    // Offset: 0x1695B00
     void remove_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
     // private System.Void CreateCells()
-    // Offset: 0x16AEA74
+    // Offset: 0x1695EE8
     void CreateCells();
     // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x16AF078
+    // Offset: 0x16964EC
     void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // public System.Void SetCallbackForCell(System.Int32 cellNumber, System.Action`1<System.Int32> callback)
-    // Offset: 0x16AF1D0
+    // Offset: 0x1696644
     void SetCallbackForCell(int cellNumber, ::System::Action_1<int>* callback);
     // public System.Void ReloadData()
-    // Offset: 0x16AE748
+    // Offset: 0x1695BB4
     void ReloadData();
     // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x16AF240
+    // Offset: 0x16966B4
     void SelectCellWithNumber(int selectCellNumber);
     // public System.Void .ctor()
-    // Offset: 0x16AF2FC
+    // Offset: 0x1696770
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -217,6 +223,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::get_selectedCellNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "get_selectedCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMUI::SegmentedControl::get_cells
+// Il2CppName: get_cells
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::HMUI::SegmentedControlCell*>* (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::get_cells)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "get_cells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::SegmentedControl::add_didSelectCellEvent

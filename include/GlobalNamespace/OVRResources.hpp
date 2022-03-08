@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<System.String> assetNames
     static void _set_assetNames(::System::Collections::Generic::List_1<::StringW>* value);
     // static public UnityEngine.Object Load(System.String path)
-    // Offset: 0x1A7A70C
+    // Offset: 0x1B02F08
     static ::UnityEngine::Object* Load(::StringW path);
     // static public T Load(System.String path)
     // Offset: 0xFFFFFFFF
@@ -73,10 +73,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, path);
     }
     // static public System.Void SetResourceBundle(UnityEngine.AssetBundle bundle)
-    // Offset: 0x1A7A8C8
+    // Offset: 0x1B030C4
     static void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
     // public System.Void .ctor()
-    // Offset: 0x1A7A980
+    // Offset: 0x1B0317C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

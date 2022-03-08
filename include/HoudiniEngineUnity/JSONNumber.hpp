@@ -66,79 +66,79 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Double m_Data
     double& dyn_m_Data();
     // public System.Void .ctor(System.Double aData)
-    // Offset: 0x19AEB1C
+    // Offset: 0x19E58CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNumber* New_ctor(double aData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONNumber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNumber*, creationType>(aData)));
     }
     // public System.Void .ctor(System.String aData)
-    // Offset: 0x19B3F64
+    // Offset: 0x19EAD14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNumber* New_ctor(::StringW aData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONNumber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNumber*, creationType>(aData)));
     }
     // static private System.Boolean IsNumeric(System.Object value)
-    // Offset: 0x19B402C
+    // Offset: 0x19EADDC
     static bool IsNumeric(::Il2CppObject* value);
     // public override HoudiniEngineUnity.JSONNodeType get_Tag()
-    // Offset: 0x19B3DBC
+    // Offset: 0x19EAB6C
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNodeType JSONNode::get_Tag()
     ::HoudiniEngineUnity::JSONNodeType get_Tag();
     // public override System.Boolean get_IsNumber()
-    // Offset: 0x19B3DC4
+    // Offset: 0x19EAB74
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Boolean JSONNode::get_IsNumber()
     bool get_IsNumber();
     // public override System.String get_Value()
-    // Offset: 0x19B3DEC
+    // Offset: 0x19EAB9C
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.String JSONNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x19B3E64
+    // Offset: 0x19EAC14
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override System.Double get_AsDouble()
-    // Offset: 0x19B3F28
+    // Offset: 0x19EACD8
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Double JSONNode::get_AsDouble()
     double get_AsDouble();
     // public override System.Void set_AsDouble(System.Double value)
-    // Offset: 0x19B3F30
+    // Offset: 0x19EACE0
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_AsDouble(System.Double value)
     void set_AsDouble(double value);
     // public override System.Int64 get_AsLong()
-    // Offset: 0x19B3F38
+    // Offset: 0x19EACE8
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Int64 JSONNode::get_AsLong()
     int64_t get_AsLong();
     // public override System.Void set_AsLong(System.Int64 value)
-    // Offset: 0x19B3F58
+    // Offset: 0x19EAD08
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_AsLong(System.Int64 value)
     void set_AsLong(int64_t value);
     // public override HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator GetEnumerator()
-    // Offset: 0x19B3DCC
+    // Offset: 0x19EAB7C
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator JSONNode::GetEnumerator()
     ::HoudiniEngineUnity::JSONNode::Enumerator GetEnumerator();
     // override System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, HoudiniEngineUnity.JSONTextMode aMode)
-    // Offset: 0x19B3FEC
+    // Offset: 0x19EAD9C
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, HoudiniEngineUnity.JSONTextMode aMode)
     void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19B415C
+    // Offset: 0x19EAF0C
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19B4288
+    // Offset: 0x19EB038
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();

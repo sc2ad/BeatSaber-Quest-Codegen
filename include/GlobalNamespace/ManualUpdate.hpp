@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class ManualUpdate : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2C2444C
+    // Offset: 0x157DD24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

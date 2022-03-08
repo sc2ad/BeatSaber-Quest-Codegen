@@ -84,39 +84,39 @@ namespace System::Net::Http {
     // Get instance field reference: private readonly System.String method
     ::StringW& dyn_method();
     // static public System.Net.Http.HttpMethod get_Get()
-    // Offset: 0x1906564
+    // Offset: 0x1970FE0
     static ::System::Net::Http::HttpMethod* get_Get();
     // public System.String get_Method()
-    // Offset: 0x19065CC
+    // Offset: 0x1971048
     ::StringW get_Method();
     // static public System.Net.Http.HttpMethod get_Post()
-    // Offset: 0x19065D4
+    // Offset: 0x1971050
     static ::System::Net::Http::HttpMethod* get_Post();
     // public System.Void .ctor(System.String method)
-    // Offset: 0x19064B4
+    // Offset: 0x1970F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMethod* New_ctor(::StringW method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMethod*, creationType>(method)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1906740
+    // Offset: 0x19711BC
     static void _cctor();
     // public System.Boolean Equals(System.Net.Http.HttpMethod other)
-    // Offset: 0x1906654
+    // Offset: 0x19710D0
     bool Equals(::System::Net::Http::HttpMethod* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1906678
+    // Offset: 0x19710F4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1906718
+    // Offset: 0x1971194
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1906738
+    // Offset: 0x19711B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -125,7 +125,7 @@ namespace System::Net::Http {
   static check_size<sizeof(HttpMethod), 16 + sizeof(::StringW)> __System_Net_Http_HttpMethodSizeCheck;
   static_assert(sizeof(HttpMethod) == 0x18);
   // static public System.Boolean op_Equality(System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right)
-  // Offset: 0x190663C
+  // Offset: 0x19710B8
   bool operator ==(::System::Net::Http::HttpMethod* left, ::System::Net::Http::HttpMethod& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

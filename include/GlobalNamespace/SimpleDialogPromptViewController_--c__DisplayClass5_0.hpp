@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public SimpleDialogPromptViewController <>4__this
     ::GlobalNamespace::SimpleDialogPromptViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__0()
-    // Offset: 0x13CBC98
+    // Offset: 0x13B6BF4
     void $DidActivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x13CBA9C
+    // Offset: 0x13B69F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

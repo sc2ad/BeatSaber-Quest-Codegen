@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     ::StringW& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x2C45980
+    // Offset: 0x164E97C
     // Implemented from: GameLiftConnectionManager/GameLiftConnectionManagerParamsBase
     // Base method: System.Void GameLiftConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

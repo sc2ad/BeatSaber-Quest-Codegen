@@ -21,8 +21,6 @@ namespace System::Xml {
   // Forward declaring type: XmlNodeType
   struct XmlNodeType;
   // Skipping declaration: XmlNode because it is already included!
-  // Forward declaring type: XmlWriter
-  class XmlWriter;
 }
 // Completed forward declares
 // Type namespace: System.Xml
@@ -68,65 +66,55 @@ namespace System::Xml {
     // Get instance field reference: private System.String data
     ::StringW& dyn_data();
     // public System.Void set_Data(System.String value)
-    // Offset: 0x14D6134
+    // Offset: 0x15AEBCC
     void set_Data(::StringW value);
     // protected internal System.Void .ctor(System.String target, System.String data, System.Xml.XmlDocument doc)
-    // Offset: 0x14D6084
+    // Offset: 0x15A815C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlProcessingInstruction* New_ctor(::StringW target, ::StringW data, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlProcessingInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlProcessingInstruction*, creationType>(target, data, doc)));
     }
     // public override System.String get_Name()
-    // Offset: 0x14D60C0
+    // Offset: 0x15AEB58
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x14D611C
+    // Offset: 0x15AEBB4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_Value()
-    // Offset: 0x14D6128
+    // Offset: 0x15AEBC0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x14D6130
+    // Offset: 0x15AEBC8
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override System.String get_InnerText()
-    // Offset: 0x14D61E4
+    // Offset: 0x15AEC7C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_InnerText()
     ::StringW get_InnerText();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x14D61EC
+    // Offset: 0x15AEC84
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x14D61F0
+    // Offset: 0x15AEC88
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x14D61F8
+    // Offset: 0x15AEC90
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
-    // public override System.Void WriteTo(System.Xml.XmlWriter w)
-    // Offset: 0x14D623C
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Void XmlNode::WriteTo(System.Xml.XmlWriter w)
-    void WriteTo(::System::Xml::XmlWriter* w);
-    // public override System.Void WriteContentTo(System.Xml.XmlWriter w)
-    // Offset: 0x14D6268
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Void XmlNode::WriteContentTo(System.Xml.XmlWriter w)
-    void WriteContentTo(::System::Xml::XmlWriter* w);
   }; // System.Xml.XmlProcessingInstruction
   #pragma pack(pop)
   static check_size<sizeof(XmlProcessingInstruction), 40 + sizeof(::StringW)> __System_Xml_XmlProcessingInstructionSizeCheck;
@@ -211,23 +199,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
   static const MethodInfo* get() {
     static auto* deep = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlProcessingInstruction*), "CloneNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deep});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlProcessingInstruction::WriteTo
-// Il2CppName: WriteTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlProcessingInstruction::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlProcessingInstruction::WriteTo)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlProcessingInstruction*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlProcessingInstruction::WriteContentTo
-// Il2CppName: WriteContentTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlProcessingInstruction::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlProcessingInstruction::WriteContentTo)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlProcessingInstruction*), "WriteContentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
   }
 };

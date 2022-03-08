@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x123E37C
+    // [InjectAttribute] Offset: 0x10B2DA0
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -120,25 +120,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.DateTime _lastRequestTime
     ::System::DateTime& dyn__lastRequestTime();
     // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13EB820
+    // Offset: 0x13C5484
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Void Init()
-    // Offset: 0x13EBA18
+    // Offset: 0x13C567C
     void Init();
     // private System.Void StartRequest()
-    // Offset: 0x13EB9A0
+    // Offset: 0x13C5604
     void StartRequest();
     // private System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x13EBA1C
+    // Offset: 0x13C5680
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
     // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x13EB894
+    // Offset: 0x13C54F8
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x13EBB1C
+    // Offset: 0x13C5780
     bool IsUrlValid(::StringW url);
     // public System.Void .ctor()
-    // Offset: 0x13EBB88
+    // Offset: 0x13C57EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

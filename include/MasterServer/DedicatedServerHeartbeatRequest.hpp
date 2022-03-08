@@ -105,34 +105,34 @@ namespace MasterServer {
     // Get instance field reference: public System.Int32 unoccupiedServerSlots
     int& dyn_unoccupiedServerSlots();
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatRequest> get_pool()
-    // Offset: 0x2C4DDDC
+    // Offset: 0x1656DF4
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerHeartbeatRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x2C4DE24
+    // Offset: 0x1656E3C
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x2C4DE2C
+    // Offset: 0x1656E44
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x2C4DE34
+    // Offset: 0x1656E4C
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x2C4DE3C
+    // Offset: 0x1656E54
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerHeartbeatRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Int32 cpuUtilization, System.Int32 occupiedServerSlots, System.Int32 unoccupiedServerSlots)
-    // Offset: 0x2C4DE44
+    // Offset: 0x1656E5C
     ::MasterServer::DedicatedServerHeartbeatRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, int cpuUtilization, int occupiedServerSlots, int unoccupiedServerSlots);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2C4DE54
+    // Offset: 0x1656E6C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2C4DEC8
+    // Offset: 0x1656EE0
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2C4DF40
+    // Offset: 0x1656F58
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x2C4DF9C
+    // Offset: 0x1656FB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

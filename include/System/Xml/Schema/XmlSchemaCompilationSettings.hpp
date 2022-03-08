@@ -48,11 +48,8 @@ namespace System::Xml::Schema {
     }
     // Get instance field reference: private System.Boolean enableUpaCheck
     bool& dyn_enableUpaCheck();
-    // public System.Boolean get_EnableUpaCheck()
-    // Offset: 0x18AE150
-    bool get_EnableUpaCheck();
     // public System.Void .ctor()
-    // Offset: 0x18AE124
+    // Offset: 0x202255C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,14 +63,6 @@ namespace System::Xml::Schema {
   static_assert(sizeof(XmlSchemaCompilationSettings) == 0x11);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCompilationSettings::get_EnableUpaCheck
-// Il2CppName: get_EnableUpaCheck
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::XmlSchemaCompilationSettings::*)()>(&System::Xml::Schema::XmlSchemaCompilationSettings::get_EnableUpaCheck)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCompilationSettings*), "get_EnableUpaCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCompilationSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -65,49 +65,44 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Get instance field reference: private readonly System.Collections.IDictionary d
     ::System::Collections::IDictionary*& dyn_d();
     // public System.Void .ctor(System.Collections.IDictionary d)
-    // Offset: 0x25A4B54
+    // Offset: 0x25C2674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmodifiableDictionaryProxy* New_ctor(::System::Collections::IDictionary* d) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmodifiableDictionaryProxy*, creationType>(d)));
     }
     // public override System.Int32 get_Count()
-    // Offset: 0x25A4D0C
+    // Offset: 0x25C282C
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Int32 UnmodifiableDictionary::get_Count()
     int get_Count();
     // public override System.Object get_SyncRoot()
-    // Offset: 0x25A4E74
+    // Offset: 0x25C2994
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Object UnmodifiableDictionary::get_SyncRoot()
     ::Il2CppObject* get_SyncRoot();
     // public override System.Collections.ICollection get_Keys()
-    // Offset: 0x25A4F28
+    // Offset: 0x25C2A48
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.ICollection UnmodifiableDictionary::get_Keys()
     ::System::Collections::ICollection* get_Keys();
-    // public override System.Collections.ICollection get_Values()
-    // Offset: 0x25A4FDC
-    // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
-    // Base method: System.Collections.ICollection UnmodifiableDictionary::get_Values()
-    ::System::Collections::ICollection* get_Values();
     // public override System.Boolean Contains(System.Object k)
-    // Offset: 0x25A4B80
+    // Offset: 0x25C26A0
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Boolean UnmodifiableDictionary::Contains(System.Object k)
     bool Contains(::Il2CppObject* k);
     // public override System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x25A4C44
+    // Offset: 0x25C2764
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Void UnmodifiableDictionary::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(::System::Array* array, int index);
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x25A4DC0
+    // Offset: 0x25C28E0
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.IDictionaryEnumerator UnmodifiableDictionary::GetEnumerator()
     ::System::Collections::IDictionaryEnumerator* GetEnumerator();
     // protected override System.Object GetValue(System.Object k)
-    // Offset: 0x25A5090
+    // Offset: 0x25C2AFC
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Object UnmodifiableDictionary::GetValue(System.Object k)
     ::Il2CppObject* GetValue(::Il2CppObject* k);
@@ -143,14 +138,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Values
-// Il2CppName: get_Values
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Values)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::Contains

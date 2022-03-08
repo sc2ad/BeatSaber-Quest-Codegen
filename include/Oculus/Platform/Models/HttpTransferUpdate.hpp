@@ -64,7 +64,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean IsCompleted
     bool& dyn_IsCompleted();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1966348
+    // Offset: 0x19B7304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpTransferUpdate* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::HttpTransferUpdate::.ctor");

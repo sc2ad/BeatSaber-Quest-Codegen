@@ -139,7 +139,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String environmentName
     ::StringW& dyn_environmentName();
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean practice, System.Single startSongTime, System.Single songSpeedMultiplier, System.Boolean overrideEnvironments, System.String environmentType, System.String environmentName)
-    // Offset: 0x2B50DFC
+    // Offset: 0x13CBF5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RunLevelMenuDestination* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool practice, float startSongTime, float songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RunLevelMenuDestination::.ctor");

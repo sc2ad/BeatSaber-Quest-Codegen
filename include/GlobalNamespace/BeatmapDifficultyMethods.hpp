@@ -32,16 +32,16 @@ namespace GlobalNamespace {
   class BeatmapDifficultyMethods : public ::Il2CppObject {
     public:
     // static public System.String Name(BeatmapDifficulty difficulty)
-    // Offset: 0x2B4BC94
+    // Offset: 0x14F8358
     static ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.String ShortName(BeatmapDifficulty difficulty)
-    // Offset: 0x2B4C258
+    // Offset: 0x14F891C
     static ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Int32 DefaultRating(BeatmapDifficulty difficulty)
-    // Offset: 0x2B4C2C0
+    // Offset: 0x14F8984
     static int DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Single NoteJumpMovementSpeed(BeatmapDifficulty difficulty)
-    // Offset: 0x2B4C2E8
+    // Offset: 0x14F89AC
     static float NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
   }; // BeatmapDifficultyMethods
   #pragma pack(pop)

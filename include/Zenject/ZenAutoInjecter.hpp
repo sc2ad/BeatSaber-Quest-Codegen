@@ -120,31 +120,31 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _hasInjected
     bool& dyn__hasInjected();
     // public Zenject.ZenAutoInjecter/Zenject.ContainerSources get_ContainerSource()
-    // Offset: 0x2471908
+    // Offset: 0x1D0A718
     ::Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/Zenject.ContainerSources value)
-    // Offset: 0x2471910
+    // Offset: 0x1D0A720
     void set_ContainerSource(::Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void Construct()
-    // Offset: 0x2471918
+    // Offset: 0x1D0A728
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x2471984
+    // Offset: 0x1D0A794
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x24719D0
+    // Offset: 0x1D0A7E0
     ::Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x2471B20
+    // Offset: 0x1D0A930
     ::Zenject::DiContainer* GetContainerForCurrentScene();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x2471BCC
+    // Offset: 0x1D0A9DC
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x2471C54
+    // Offset: 0x1D0AA64
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x2471BBC
+    // Offset: 0x1D0A9CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

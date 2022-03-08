@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorSO* failedLightsColor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1244E94
+    // [SpaceAttribute] Offset: 0x10BA1E0
     // protected System.Single _leadingSwitchCrossFadeDuration
     // Size: 0x4
     // Offset: 0x30
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: leadingSwitchCrossFadeDuration and: gameplayLightsAnimators
     char __padding3[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1244ECC
+    // [SpaceAttribute] Offset: 0x10BA218
     // protected LightsAnimator[] _gameplayLightsAnimators
     // Size: 0x8
     // Offset: 0x38
@@ -99,28 +99,28 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::LightsAnimator*> allLightsAnimators;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightsAnimator*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1244F14
+    // [InjectAttribute] Offset: 0x10BA260
     // private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLeadPlayerProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244F24
+    // [InjectAttribute] Offset: 0x10BA270
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244F34
+    // [InjectAttribute] Offset: 0x10BA280
     // protected readonly Tweening.TimeTweeningManager tweeningManager
     // Size: 0x8
     // Offset: 0x58
     ::Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244F44
+    // [InjectAttribute] Offset: 0x10BA290
     // protected readonly IConnectedPlayer connectedPlayer
     // Size: 0x8
     // Offset: 0x60
@@ -151,22 +151,22 @@ namespace GlobalNamespace {
     // Get instance field reference: protected readonly IConnectedPlayer connectedPlayer
     ::GlobalNamespace::IConnectedPlayer*& dyn_connectedPlayer();
     // protected System.Void Start()
-    // Offset: 0x1439640
+    // Offset: 0x144BC6C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x143850C
+    // Offset: 0x144BF0C
     void OnDestroy();
     // protected System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
     // Offset: 0xFFFFFFFF
     void AnimateNewLeaderSelected(bool isLeading);
     // protected System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x14389F8
+    // Offset: 0x144C5BC
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0x1439838
+    // Offset: 0x1453F50
     void HandleNewLeaderWasSelected(::StringW userId);
     // protected System.Void .ctor()
-    // Offset: 0x1438B80
+    // Offset: 0x144C87C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

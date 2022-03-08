@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public HMUI.ViewController viewController
     ::HMUI::ViewController*& dyn_viewController();
     // System.Void <PresentDetailViewController>b__0()
-    // Offset: 0x146E8B4
+    // Offset: 0x14A9588
     void $PresentDetailViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x146E8AC
+    // Offset: 0x14A922C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

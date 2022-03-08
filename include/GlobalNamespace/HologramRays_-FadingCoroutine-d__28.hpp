@@ -9,8 +9,8 @@
 #include "GlobalNamespace/HologramRays.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-// Including type: Tweening.EaseType
-#include "Tweening/EaseType.hpp"
+// Including type: EaseType
+#include "GlobalNamespace/EaseType.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -65,12 +65,12 @@ namespace GlobalNamespace {
     ::GlobalNamespace::HologramRays* $$4__this;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HologramRays*) == 0x8);
-    // public Tweening.EaseType easeType
+    // public EaseType easeType
     // Size: 0x4
     // Offset: 0x30
-    ::Tweening::EaseType easeType;
+    ::GlobalNamespace::EaseType easeType;
     // Field size check
-    static_assert(sizeof(::Tweening::EaseType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
     // public System.Single duration
     // Size: 0x4
     // Offset: 0x34
@@ -90,31 +90,31 @@ namespace GlobalNamespace {
     bool& dyn_turningOn();
     // Get instance field reference: public HologramRays <>4__this
     ::GlobalNamespace::HologramRays*& dyn_$$4__this();
-    // Get instance field reference: public Tweening.EaseType easeType
-    ::Tweening::EaseType& dyn_easeType();
+    // Get instance field reference: public EaseType easeType
+    ::GlobalNamespace::EaseType& dyn_easeType();
     // Get instance field reference: public System.Single duration
     float& dyn_duration();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13AC94C
+    // Offset: 0x132A1F0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13AC9B4
+    // Offset: 0x132A258
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13AC630
+    // Offset: 0x1329ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HologramRays::$FadingCoroutine$d__28* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HologramRays::$FadingCoroutine$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HologramRays::$FadingCoroutine$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13AC794
+    // Offset: 0x132A038
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13AC798
+    // Offset: 0x132A03C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13AC954
+    // Offset: 0x132A1F8
     void System_Collections_IEnumerator_Reset();
   }; // HologramRays/<FadingCoroutine>d__28
   #pragma pack(pop)

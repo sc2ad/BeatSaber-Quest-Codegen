@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerAvatarAudioController <>4__this
     ::GlobalNamespace::MultiplayerAvatarAudioController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x142879C
+    // Offset: 0x14438EC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1428804
+    // Offset: 0x1443954
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1428680
+    // Offset: 0x14437D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerAvatarAudioController::$Start$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerAvatarAudioController::$Start$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerAvatarAudioController::$Start$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14286B4
+    // Offset: 0x1443804
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14286B8
+    // Offset: 0x1443808
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14287A4
+    // Offset: 0x14438F4
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerAvatarAudioController/<Start>d__4
   #pragma pack(pop)

@@ -31,10 +31,10 @@ namespace UnityEngine::Networking {
   class UnityWebRequestTexture : public ::Il2CppObject {
     public:
     // static public UnityEngine.Networking.UnityWebRequest GetTexture(System.String uri)
-    // Offset: 0x2A6311C
+    // Offset: 0x2ACBE58
     static ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
     // static public UnityEngine.Networking.UnityWebRequest GetTexture(System.String uri, System.Boolean nonReadable)
-    // Offset: 0x2A63124
+    // Offset: 0x2ACBE60
     static ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
   }; // UnityEngine.Networking.UnityWebRequestTexture
   #pragma pack(pop)

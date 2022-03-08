@@ -13,17 +13,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Xml::Schema
-namespace System::Xml::Schema {
-  // Forward declaring type: XmlSchemaDatatype
-  class XmlSchemaDatatype;
-  // Forward declaring type: RestrictionFacets
-  class RestrictionFacets;
-  // Forward declaring type: DatatypeImplementation
-  class DatatypeImplementation;
-  // Forward declaring type: XmlSchemaObjectCollection
-  class XmlSchemaObjectCollection;
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Exception
@@ -35,12 +24,17 @@ namespace System {
   // Forward declaring type: TimeSpan
   struct TimeSpan;
 }
+// Forward declaring namespace: System::Xml::Schema
+namespace System::Xml::Schema {
+  // Forward declaring type: XmlSchemaDatatype
+  class XmlSchemaDatatype;
+  // Forward declaring type: RestrictionFacets
+  class RestrictionFacets;
+}
 // Forward declaring namespace: System::Xml
 namespace System::Xml {
   // Forward declaring type: XmlQualifiedName
   class XmlQualifiedName;
-  // Forward declaring type: XmlNameTable
-  class XmlNameTable;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -64,64 +58,59 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class FacetsChecker : public ::Il2CppObject {
     public:
-    // Nested type: ::System::Xml::Schema::FacetsChecker::FacetsCompiler
-    struct FacetsCompiler;
     // System.Exception CheckLexicalFacets(ref System.String parseString, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D668
+    // Offset: 0x1C3D080
     ::System::Exception* CheckLexicalFacets(ByRef<::StringW> parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D8E4
+    // Offset: 0x1C3D2F4
     ::System::Exception* CheckValueFacets(::Il2CppObject* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Decimal value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D8EC
+    // Offset: 0x1C3D2FC
     ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Int64 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D8F4
+    // Offset: 0x1C3D304
     ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Int32 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D8FC
+    // Offset: 0x1C3D30C
     ::System::Exception* CheckValueFacets(int value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Int16 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D904
+    // Offset: 0x1C3D314
     ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.DateTime value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D90C
+    // Offset: 0x1C3D31C
     ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Double value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D914
+    // Offset: 0x1C3D324
     ::System::Exception* CheckValueFacets(double value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Single value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D91C
+    // Offset: 0x1C3D32C
     ::System::Exception* CheckValueFacets(float value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.String value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D924
+    // Offset: 0x1C3D334
     ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Byte[] value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D92C
+    // Offset: 0x1C3D33C
     ::System::Exception* CheckValueFacets(::ArrayW<uint8_t> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.TimeSpan value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D934
+    // Offset: 0x1C3D344
     ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Xml.XmlQualifiedName value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D93C
+    // Offset: 0x1C3D34C
     ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Void CheckWhitespaceFacets(ref System.String s, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D6B0
+    // Offset: 0x1C3D0C4
     void CheckWhitespaceFacets(ByRef<::StringW> s, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckPatternFacets(System.Xml.Schema.RestrictionFacets restriction, System.String value)
-    // Offset: 0x1D6D7A4
+    // Offset: 0x1C3D1B4
     ::System::Exception* CheckPatternFacets(::System::Xml::Schema::RestrictionFacets* restriction, ::StringW value);
     // System.Boolean MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D6D944
+    // Offset: 0x1C3D354
     bool MatchEnumeration(::Il2CppObject* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
-    // System.Xml.Schema.RestrictionFacets ConstructRestriction(System.Xml.Schema.DatatypeImplementation datatype, System.Xml.Schema.XmlSchemaObjectCollection facets, System.Xml.XmlNameTable nameTable)
-    // Offset: 0x1D6D94C
-    ::System::Xml::Schema::RestrictionFacets* ConstructRestriction(::System::Xml::Schema::DatatypeImplementation* datatype, ::System::Xml::Schema::XmlSchemaObjectCollection* facets, ::System::Xml::XmlNameTable* nameTable);
     // static System.Decimal Power(System.Int32 x, System.Int32 y)
-    // Offset: 0x1D6FCCC
+    // Offset: 0x1C3D35C
     static ::System::Decimal Power(int x, int y);
     // protected System.Void .ctor()
-    // Offset: 0x1D6A340
+    // Offset: 0x1C3C518
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -292,17 +281,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     static auto* enumeration = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* datatype = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaDatatype")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::FacetsChecker*), "MatchEnumeration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, enumeration, datatype});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::FacetsChecker::ConstructRestriction
-// Il2CppName: ConstructRestriction
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFacets* (System::Xml::Schema::FacetsChecker::*)(::System::Xml::Schema::DatatypeImplementation*, ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::XmlNameTable*)>(&System::Xml::Schema::FacetsChecker::ConstructRestriction)> {
-  static const MethodInfo* get() {
-    static auto* datatype = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "DatatypeImplementation")->byval_arg;
-    static auto* facets = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectCollection")->byval_arg;
-    static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::FacetsChecker*), "ConstructRestriction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{datatype, facets, nameTable});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::FacetsChecker::Power

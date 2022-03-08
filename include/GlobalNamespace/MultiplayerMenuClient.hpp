@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x124AED4
+    // [InjectAttribute] Offset: 0x10BFE54
     // private readonly MenuPlayerController _menuPlayerController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MenuPlayerController* menuPlayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuPlayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124AEE4
+    // [InjectAttribute] Offset: 0x10BFE64
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // protected System.Void LateUpdate()
-    // Offset: 0x2A9AF00
+    // Offset: 0x13A2D7C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x2A9B2A8
+    // Offset: 0x13A3124
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

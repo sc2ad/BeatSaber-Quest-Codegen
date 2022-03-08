@@ -30,13 +30,13 @@ namespace System::ComponentModel {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x1ED3774
+    // Offset: 0x1CC158C
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1ED38D8
+    // Offset: 0x1CC16F0
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1ED376C
+    // Offset: 0x1CC1584
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

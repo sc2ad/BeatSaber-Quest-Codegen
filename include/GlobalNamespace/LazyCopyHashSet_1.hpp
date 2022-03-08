@@ -109,19 +109,19 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LazyCopyHashSet_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyCopyHashSet_1<T>*, creationType>(capacity)));
     }
-    // public System.Void Add(T Listener)
+    // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
-    void Add(T Listener) {
+    void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LazyCopyHashSet_1::Add");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(Listener)})));
-      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, Listener);
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
-    // public System.Void Remove(T listener)
+    // public System.Void Remove(T item)
     // Offset: 0xFFFFFFFF
-    void Remove(T listener) {
+    void Remove(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LazyCopyHashSet_1::Remove");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(listener)})));
-      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, listener);
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

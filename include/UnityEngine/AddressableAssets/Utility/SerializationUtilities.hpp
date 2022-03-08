@@ -37,16 +37,16 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Nested type: ::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ObjectType
     struct ObjectType;
     // static System.Int32 ReadInt32FromByteArray(System.Byte[] data, System.Int32 offset)
-    // Offset: 0x2A2D58C
+    // Offset: 0x2A9CB84
     static int ReadInt32FromByteArray(::ArrayW<uint8_t> data, int offset);
     // static System.Int32 WriteInt32ToByteArray(System.Byte[] data, System.Int32 val, System.Int32 offset)
-    // Offset: 0x2A2D60C
+    // Offset: 0x2A9CC04
     static int WriteInt32ToByteArray(::ArrayW<uint8_t> data, int val, int offset);
     // static System.Object ReadObjectFromByteArray(System.Byte[] keyData, System.Int32 dataIndex)
-    // Offset: 0x2A2D69C
+    // Offset: 0x2A9CC94
     static ::Il2CppObject* ReadObjectFromByteArray(::ArrayW<uint8_t> keyData, int dataIndex);
     // static System.Int32 WriteObjectToByteList(System.Object obj, System.Collections.Generic.List`1<System.Byte> buffer)
-    // Offset: 0x2A2DC98
+    // Offset: 0x2A9D290
     static int WriteObjectToByteList(::Il2CppObject* obj, ::System::Collections::Generic::List_1<uint8_t>* buffer);
   }; // UnityEngine.AddressableAssets.Utility.SerializationUtilities
   #pragma pack(pop)

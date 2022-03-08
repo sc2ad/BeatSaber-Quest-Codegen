@@ -68,29 +68,29 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Collections.IEnumerator arrayEnumerator
     ::System::Collections::IEnumerator*& dyn_arrayEnumerator();
     // public System.Object get_Current()
-    // Offset: 0x1DEECB8
+    // Offset: 0x1D73B2C
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1DEEE88
+    // Offset: 0x1D73CFC
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x1DEF028
+    // Offset: 0x1D73E9C
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1DEF110
+    // Offset: 0x1D73F84
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Collections.ArrayList array, System.Int32 objectReturnType)
-    // Offset: 0x1DEEA5C
+    // Offset: 0x1D738D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrderedDictionary::OrderedDictionaryEnumerator* New_ctor(::System::Collections::ArrayList* array, int objectReturnType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::OrderedDictionary::OrderedDictionaryEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrderedDictionary::OrderedDictionaryEnumerator*, creationType>(array, objectReturnType)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1DEF1F8
+    // Offset: 0x1D7406C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1DEF2A8
+    // Offset: 0x1D7411C
     void Reset();
   }; // System.Collections.Specialized.OrderedDictionary/System.Collections.Specialized.OrderedDictionaryEnumerator
   #pragma pack(pop)

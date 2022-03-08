@@ -9,8 +9,8 @@
 #include "UnityEngine/Playables/PlayableBehaviour.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: Tweening.EaseType
-#include "Tweening/EaseType.hpp"
+// Including type: EaseType
+#include "GlobalNamespace/EaseType.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -67,12 +67,12 @@ namespace GlobalNamespace {
     ::UnityEngine::Color endColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // public Tweening.EaseType _easeType
+    // public EaseType _easeType
     // Size: 0x4
     // Offset: 0x30
-    ::Tweening::EaseType easeType;
+    ::GlobalNamespace::EaseType easeType;
     // Field size check
-    static_assert(sizeof(::Tweening::EaseType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
     // Padding between fields: easeType and: avatarVisualController
     char __padding2[0x4] = {};
     // private AvatarVisualController _avatarVisualController
@@ -92,14 +92,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Color& dyn__startColor();
     // Get instance field reference: public UnityEngine.Color _endColor
     ::UnityEngine::Color& dyn__endColor();
-    // Get instance field reference: public Tweening.EaseType _easeType
-    ::Tweening::EaseType& dyn__easeType();
+    // Get instance field reference: public EaseType _easeType
+    ::GlobalNamespace::EaseType& dyn__easeType();
     // Get instance field reference: private AvatarVisualController _avatarVisualController
     ::GlobalNamespace::AvatarVisualController*& dyn__avatarVisualController();
     // Get instance field reference: private System.Single _duration
     float& dyn__duration();
     // public System.Void .ctor()
-    // Offset: 0x149253C
+    // Offset: 0x14C204C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -109,17 +109,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AvatarColorBehaviour*, creationType>()));
     }
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x149223C
+    // Offset: 0x14C1D4C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(::UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x14922B8
+    // Offset: 0x14C1DC8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x14924A4
+    // Offset: 0x14C1FB4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);

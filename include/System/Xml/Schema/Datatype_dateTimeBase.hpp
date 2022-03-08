@@ -31,8 +31,6 @@ namespace System::Xml::Schema {
   struct XmlTypeCode;
   // Forward declaring type: XmlSchemaWhiteSpace
   struct XmlSchemaWhiteSpace;
-  // Forward declaring type: RestrictionFlags
-  struct RestrictionFlags;
   // Forward declaring type: XmlValueConverter
   class XmlValueConverter;
   // Forward declaring type: XmlSchemaType
@@ -93,60 +91,55 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XsdDateTimeFlags dateTimeFlags
     ::System::Xml::Schema::XsdDateTimeFlags& dyn_dateTimeFlags();
     // System.Void .ctor(System.Xml.Schema.XsdDateTimeFlags dateTimeFlags)
-    // Offset: 0x1D64168
+    // Offset: 0x1C35C6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Datatype_dateTimeBase* New_ctor(::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Datatype_dateTimeBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_dateTimeBase*, creationType>(dateTimeFlags)));
     }
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D641EC
+    // Offset: 0x1C35D58
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.FacetsChecker Datatype_anySimpleType::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D64254
+    // Offset: 0x1C35DC0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_anySimpleType::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D6425C
+    // Offset: 0x1C35DC8
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1D642C4
+    // Offset: 0x1C35E30
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ListValueType()
     ::System::Type* get_ListValueType();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1D6432C
+    // Offset: 0x1C35E98
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_anySimpleType::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
-    // override System.Xml.Schema.RestrictionFlags get_ValidRestrictionFlags()
-    // Offset: 0x1D64334
-    // Implemented from: System.Xml.Schema.Datatype_anySimpleType
-    // Base method: System.Xml.Schema.RestrictionFlags Datatype_anySimpleType::get_ValidRestrictionFlags()
-    ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
     // static private System.Void .cctor()
-    // Offset: 0x1D6477C
+    // Offset: 0x1C362E0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D641E0
+    // Offset: 0x1C35D4C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlValueConverter Datatype_anySimpleType::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1D6433C
+    // Offset: 0x1C35EA0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Int32 Datatype_anySimpleType::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D64458
+    // Offset: 0x1C35FBC
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Exception Datatype_anySimpleType::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);
@@ -198,14 +191,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (System::Xml::Schema::Datatype_dateTimeBase::*)()>(&System::Xml::Schema::Datatype_dateTimeBase::get_BuiltInWhitespaceFacet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_dateTimeBase*), "get_BuiltInWhitespaceFacet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_dateTimeBase::get_ValidRestrictionFlags
-// Il2CppName: get_ValidRestrictionFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (System::Xml::Schema::Datatype_dateTimeBase::*)()>(&System::Xml::Schema::Datatype_dateTimeBase::get_ValidRestrictionFlags)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_dateTimeBase*), "get_ValidRestrictionFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::Datatype_dateTimeBase::_cctor

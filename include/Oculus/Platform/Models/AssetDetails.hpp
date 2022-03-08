@@ -81,7 +81,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::LanguagePackInfo* LanguageOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::LanguagePackInfo*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x12324A0
+    // [ObsoleteAttribute] Offset: 0x10A780C
     // public readonly Oculus.Platform.Models.LanguagePackInfo Language
     // Size: 0x8
     // Offset: 0x40
@@ -112,7 +112,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Metadata
     ::StringW& dyn_Metadata();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1963808
+    // Offset: 0x19B47C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetDetails* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AssetDetails::.ctor");

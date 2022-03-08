@@ -30,7 +30,7 @@ namespace UnityEngine {
   class ExitGUIException : public ::System::Exception {
     public:
     // System.Void .ctor(System.String message)
-    // Offset: 0x1F5300C
+    // Offset: 0x1FCEC84
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private SmoothCamera _smoothCamera
     ::GlobalNamespace::SmoothCamera*& dyn__smoothCamera();
     // protected System.Void Start()
-    // Offset: 0x13CF798
+    // Offset: 0x13E966C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13CF928
+    // Offset: 0x13E97FC
     void OnDestroy();
     // private System.Void HandleDidActivate()
-    // Offset: 0x13CF92C
+    // Offset: 0x13E9800
     void HandleDidActivate();
     // private System.Void HandleDidDeactivate()
-    // Offset: 0x13CF97C
+    // Offset: 0x13E9850
     void HandleDidDeactivate();
     // private System.Void ActivateSmoothCameraIfNeeded()
-    // Offset: 0x13CF79C
+    // Offset: 0x13E9670
     void ActivateSmoothCameraIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x13CF980
+    // Offset: 0x13E9854
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

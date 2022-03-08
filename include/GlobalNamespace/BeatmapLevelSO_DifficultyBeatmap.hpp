@@ -25,8 +25,18 @@ namespace GlobalNamespace {
   class IBeatmapLevel;
   // Forward declaring type: IDifficultyBeatmapSet
   class IDifficultyBeatmapSet;
-  // Forward declaring type: BeatmapData
-  class BeatmapData;
+  // Forward declaring type: IBeatmapDataBasicInfo
+  class IBeatmapDataBasicInfo;
+  // Forward declaring type: IReadonlyBeatmapData
+  class IReadonlyBeatmapData;
+  // Forward declaring type: EnvironmentInfoSO
+  class EnvironmentInfoSO;
+}
+// Forward declaring namespace: System::Threading::Tasks
+namespace System::Threading::Tasks {
+  // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
+  class Task_1;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -40,6 +50,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelSO::DifficultyBeatmap : public ::Il2CppObject/*, public ::GlobalNamespace::IDifficultyBeatmap*/ {
     public:
+    // Nested type: ::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::$GetBeatmapDataBasicInfoAsync$d__13
+    struct $GetBeatmapDataBasicInfoAsync$d__13;
+    // Nested type: ::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::$GetBeatmapDataAsync$d__14
+    struct $GetBeatmapDataAsync$d__14;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -111,35 +125,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
     ::GlobalNamespace::IDifficultyBeatmapSet*& dyn__parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x14C4AB0
+    // Offset: 0x1504950
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x14C4AB8
+    // Offset: 0x1504958
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x14C4AC0
+    // Offset: 0x1504960
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x14C4AC8
+    // Offset: 0x1504968
     float get_noteJumpStartBeatOffset();
-    // public BeatmapData get_beatmapData()
-    // Offset: 0x14C4AD0
-    ::GlobalNamespace::BeatmapData* get_beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0x14C4AEC
+    // Offset: 0x1504B94
     ::GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x14C4AF4
+    // Offset: 0x1504B9C
     ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public System.Void .ctor(IBeatmapLevel parentLevel, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapDataSO beatmapData)
-    // Offset: 0x14C4AFC
+    // Offset: 0x1504BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelSO::DifficultyBeatmap* New_ctor(::GlobalNamespace::IBeatmapLevel* parentLevel, ::GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, ::GlobalNamespace::BeatmapDataSO* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO::DifficultyBeatmap*, creationType>(parentLevel, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapData)));
     }
+    // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
+    // Offset: 0x1504970
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
+    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo)
+    // Offset: 0x1504A70
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
     // public System.Void SetParents(IBeatmapLevel parentLevel, IDifficultyBeatmapSet parentDifficultyBeatmapSet)
-    // Offset: 0x14C16DC
+    // Offset: 0x1500E2C
     void SetParents(::GlobalNamespace::IBeatmapLevel* parentLevel, ::GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet);
   }; // BeatmapLevelSO/DifficultyBeatmap
   #pragma pack(pop)
@@ -179,14 +196,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "get_noteJumpStartBeatOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::get_beatmapData
-// Il2CppName: get_beatmapData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::*)()>(&GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::get_beatmapData)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "get_beatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::get_level
 // Il2CppName: get_level
 template<>
@@ -207,6 +216,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::GetBeatmapDataBasicInfoAsync
+// Il2CppName: GetBeatmapDataBasicInfoAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* (GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::*)()>(&GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::GetBeatmapDataBasicInfoAsync)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "GetBeatmapDataBasicInfoAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::GetBeatmapDataAsync
+// Il2CppName: GetBeatmapDataAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::*)(::GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::GetBeatmapDataAsync)> {
+  static const MethodInfo* get() {
+    static auto* environmentInfo = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::SetParents
 // Il2CppName: SetParents
 template<>

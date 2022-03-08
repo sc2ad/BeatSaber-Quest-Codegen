@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MissionObjectiveChecker*> missionObjectiveCheckers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MissionObjectiveChecker*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1243BF4
+    // [InjectAttribute] Offset: 0x10B8F20
     // private MissionObjectiveCheckersManager/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MissionObjectiveCheckersManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1243C04
+    // [InjectAttribute] Offset: 0x10B8F30
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x28
@@ -120,52 +120,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionObjectiveChecker[] _activeMissionObjectiveCheckers
     ::ArrayW<::GlobalNamespace::MissionObjectiveChecker*>& dyn__activeMissionObjectiveCheckers();
     // public MissionObjectiveChecker[] get_activeMissionObjectiveCheckers()
-    // Offset: 0x2A72B7C
+    // Offset: 0x133645C
     ::ArrayW<::GlobalNamespace::MissionObjectiveChecker*> get_activeMissionObjectiveCheckers();
     // public System.Void add_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x2A6EF80
+    // Offset: 0x1331E4C
     void add_objectiveDidFailEvent(::System::Action* value);
     // public System.Void remove_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x2A6EACC
+    // Offset: 0x13319A4
     void remove_objectiveDidFailEvent(::System::Action* value);
     // public System.Void add_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x2A6BED0
+    // Offset: 0x132EC00
     void add_objectiveWasClearedEvent(::System::Action* value);
     // public System.Void remove_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x2A6BFFC
+    // Offset: 0x132ED2C
     void remove_objectiveWasClearedEvent(::System::Action* value);
     // public System.Void add_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x2A72A34
+    // Offset: 0x1336314
     void add_objectivesListDidChangeEvent(::System::Action* value);
     // public System.Void remove_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x2A72AD8
+    // Offset: 0x13363B8
     void remove_objectivesListDidChangeEvent(::System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x2A72B84
+    // Offset: 0x1336464
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2A73070
+    // Offset: 0x1336950
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckerStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x2A7320C
+    // Offset: 0x1336AEC
     void HandleMissionObjectiveCheckerStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // public MissionObjectiveChecker GetMissionObjectiveChecker(MissionObjectiveTypeSO missionObjectiveType)
-    // Offset: 0x2A7324C
+    // Offset: 0x1336B2C
     ::GlobalNamespace::MissionObjectiveChecker* GetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
     // public MissionObjectiveResult[] GetResults()
-    // Offset: 0x2A6DFD8
+    // Offset: 0x1330EB0
     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*> GetResults();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x2A73374
+    // Offset: 0x1336C54
     void HandleLevelFailed();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x2A73460
+    // Offset: 0x1336D40
     void HandleLevelFinished();
     // private System.Void StopChecking()
-    // Offset: 0x2A73378
+    // Offset: 0x1336C58
     void StopChecking();
     // public System.Void .ctor()
-    // Offset: 0x2A73464
+    // Offset: 0x1336D44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

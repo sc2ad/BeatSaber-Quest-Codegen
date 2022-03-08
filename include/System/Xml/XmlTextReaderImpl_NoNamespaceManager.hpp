@@ -21,17 +21,6 @@ namespace System::Collections {
   // Forward declaring type: IEnumerator
   class IEnumerator;
 }
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: IDictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class IDictionary_2;
-}
-// Forward declaring namespace: System::Xml
-namespace System::Xml {
-  // Forward declaring type: XmlNamespaceScope
-  struct XmlNamespaceScope;
-}
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(::System::Xml::XmlTextReaderImpl::NoNamespaceManager);
@@ -45,12 +34,12 @@ namespace System::Xml {
   class XmlTextReaderImpl::NoNamespaceManager : public ::System::Xml::XmlNamespaceManager {
     public:
     // public override System.String get_DefaultNamespace()
-    // Offset: 0x1BADD74
+    // Offset: 0x26EC64C
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.String XmlNamespaceManager::get_DefaultNamespace()
     ::StringW get_DefaultNamespace();
     // public System.Void .ctor()
-    // Offset: 0x1BADD6C
+    // Offset: 0x26EC644
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -60,42 +49,37 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::NoNamespaceManager*, creationType>()));
     }
     // public override System.Void PushScope()
-    // Offset: 0x1BADDC4
+    // Offset: 0x26EC69C
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::PushScope()
     void PushScope();
     // public override System.Boolean PopScope()
-    // Offset: 0x1BADDC8
+    // Offset: 0x26EC6A0
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Boolean XmlNamespaceManager::PopScope()
     bool PopScope();
     // public override System.Void AddNamespace(System.String prefix, System.String uri)
-    // Offset: 0x1BADDD0
+    // Offset: 0x26EC6A8
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::AddNamespace(System.String prefix, System.String uri)
     void AddNamespace(::StringW prefix, ::StringW uri);
     // public override System.Void RemoveNamespace(System.String prefix, System.String uri)
-    // Offset: 0x1BADDD4
+    // Offset: 0x26EC6AC
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::RemoveNamespace(System.String prefix, System.String uri)
     void RemoveNamespace(::StringW prefix, ::StringW uri);
     // public override System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1BADDD8
+    // Offset: 0x26EC6B0
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Collections.IEnumerator XmlNamespaceManager::GetEnumerator()
     ::System::Collections::IEnumerator* GetEnumerator();
-    // public override System.Collections.Generic.IDictionary`2<System.String,System.String> GetNamespacesInScope(System.Xml.XmlNamespaceScope scope)
-    // Offset: 0x1BADDE0
-    // Implemented from: System.Xml.XmlNamespaceManager
-    // Base method: System.Collections.Generic.IDictionary`2<System.String,System.String> XmlNamespaceManager::GetNamespacesInScope(System.Xml.XmlNamespaceScope scope)
-    ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
     // public override System.String LookupNamespace(System.String prefix)
-    // Offset: 0x1BADDE8
+    // Offset: 0x26EC6B8
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.String XmlNamespaceManager::LookupNamespace(System.String prefix)
     ::StringW LookupNamespace(::StringW prefix);
     // public override System.String LookupPrefix(System.String uri)
-    // Offset: 0x1BADE38
+    // Offset: 0x26EC708
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.String XmlNamespaceManager::LookupPrefix(System.String uri)
     ::StringW LookupPrefix(::StringW uri);
@@ -157,15 +141,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Xml::XmlTextReaderImpl::NoNamespaceManager::*)()>(&System::Xml::XmlTextReaderImpl::NoNamespaceManager::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::NoNamespaceManager*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::NoNamespaceManager::GetNamespacesInScope
-// Il2CppName: GetNamespacesInScope
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (System::Xml::XmlTextReaderImpl::NoNamespaceManager::*)(::System::Xml::XmlNamespaceScope)>(&System::Xml::XmlTextReaderImpl::NoNamespaceManager::GetNamespacesInScope)> {
-  static const MethodInfo* get() {
-    static auto* scope = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceScope")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::NoNamespaceManager*), "GetNamespacesInScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scope});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::NoNamespaceManager::LookupNamespace

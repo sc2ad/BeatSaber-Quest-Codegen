@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     int modifiedScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // private System.Int32 _rawScore
+    // private System.Int32 _multipliedScore
     // Size: 0x4
     // Offset: 0x4
-    int rawScore;
+    int multipliedScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // private System.Int32 _immediateMaxPossibleRawScore
+    // private System.Int32 _immediateMaxPossibleMultipliedScore
     // Size: 0x4
     // Offset: 0x8
-    int immediateMaxPossibleRawScore;
+    int immediateMaxPossibleMultipliedScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // private System.Int32 _combo
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: StandardScoreSyncState
-    constexpr StandardScoreSyncState(int modifiedScore_ = {}, int rawScore_ = {}, int immediateMaxPossibleRawScore_ = {}, int combo_ = {}, int multiplier_ = {}) noexcept : modifiedScore{modifiedScore_}, rawScore{rawScore_}, immediateMaxPossibleRawScore{immediateMaxPossibleRawScore_}, combo{combo_}, multiplier{multiplier_} {}
+    constexpr StandardScoreSyncState(int modifiedScore_ = {}, int multipliedScore_ = {}, int immediateMaxPossibleMultipliedScore_ = {}, int combo_ = {}, int multiplier_ = {}) noexcept : modifiedScore{modifiedScore_}, multipliedScore{multipliedScore_}, immediateMaxPossibleMultipliedScore{immediateMaxPossibleMultipliedScore_}, combo{combo_}, multiplier{multiplier_} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
@@ -93,46 +93,46 @@ namespace GlobalNamespace {
     }
     // Get instance field reference: private System.Int32 _modifiedScore
     int& dyn__modifiedScore();
-    // Get instance field reference: private System.Int32 _rawScore
-    int& dyn__rawScore();
-    // Get instance field reference: private System.Int32 _immediateMaxPossibleRawScore
-    int& dyn__immediateMaxPossibleRawScore();
+    // Get instance field reference: private System.Int32 _multipliedScore
+    int& dyn__multipliedScore();
+    // Get instance field reference: private System.Int32 _immediateMaxPossibleMultipliedScore
+    int& dyn__immediateMaxPossibleMultipliedScore();
     // Get instance field reference: private System.Int32 _combo
     int& dyn__combo();
     // Get instance field reference: private System.Int32 _multiplier
     int& dyn__multiplier();
     // public System.Void SetState(StandardScoreSyncState/Score s, System.Int32 value)
-    // Offset: 0x2E06B6C
+    // Offset: 0x2610234
     void SetState(::GlobalNamespace::StandardScoreSyncState_Score s, int value);
     // public StandardScoreSyncState GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0x2E06BB0
+    // Offset: 0x2610278
     ::GlobalNamespace::StandardScoreSyncState GetDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
     // public StandardScoreSyncState ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0x2E06BD4
+    // Offset: 0x261029C
     ::GlobalNamespace::StandardScoreSyncState ApplyDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
     // public System.Int32 GetState(StandardScoreSyncState/Score s)
-    // Offset: 0x2E06BF8
+    // Offset: 0x26102C0
     int GetState(::GlobalNamespace::StandardScoreSyncState_Score s);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2E06C44
+    // Offset: 0x261030C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2E06CB4
+    // Offset: 0x261037C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(in StandardScoreSyncState other)
-    // Offset: 0x2E06D24
+    // Offset: 0x26103EC
     bool Equals(ByRef<::GlobalNamespace::StandardScoreSyncState> other);
     // public System.Int32 GetSize()
-    // Offset: 0x2E06D80
+    // Offset: 0x2610448
     int GetSize();
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0x2E06E10
+    // Offset: 0x26104D8
     ::GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0x2E06E34
+    // Offset: 0x26104FC
     ::GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
     // private System.Boolean IEquatableByReference<StandardScoreSyncState>.Equals(in StandardScoreSyncState other)
-    // Offset: 0x2E06E58
+    // Offset: 0x2610520
     bool IEquatableByReference$StandardScoreSyncState$_Equals(ByRef<::GlobalNamespace::StandardScoreSyncState> other);
   }; // StandardScoreSyncState
   #pragma pack(pop)

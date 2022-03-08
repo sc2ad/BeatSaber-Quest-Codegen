@@ -98,48 +98,48 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 m_Port
     int& dyn_m_Port();
     // public System.Net.IPAddress get_Address()
-    // Offset: 0x17A495C
+    // Offset: 0x1A83218
     ::System::Net::IPAddress* get_Address();
     // public System.Int32 get_Port()
-    // Offset: 0x17A4964
+    // Offset: 0x1A83220
     int get_Port();
     // public System.Void .ctor(System.Net.IPAddress address, System.Int32 port)
-    // Offset: 0x17A485C
+    // Offset: 0x1A83118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPEndPoint* New_ctor(::System::Net::IPAddress* address, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::IPEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPEndPoint*, creationType>(address, port)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17A5048
+    // Offset: 0x1A837B0
     static void _cctor();
     // public override System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x17A4840
+    // Offset: 0x1A830FC
     // Implemented from: System.Net.EndPoint
     // Base method: System.Net.Sockets.AddressFamily EndPoint::get_AddressFamily()
     ::System::Net::Sockets::AddressFamily get_AddressFamily();
     // public override System.String ToString()
-    // Offset: 0x17A496C
+    // Offset: 0x1A83228
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Net.SocketAddress Serialize()
-    // Offset: 0x17A4A28
+    // Offset: 0x1A832E4
     // Implemented from: System.Net.EndPoint
     // Base method: System.Net.SocketAddress EndPoint::Serialize()
     ::System::Net::SocketAddress* Serialize();
     // public override System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
-    // Offset: 0x17A4B04
+    // Offset: 0x1A8335C
     // Implemented from: System.Net.EndPoint
     // Base method: System.Net.EndPoint EndPoint::Create(System.Net.SocketAddress socketAddress)
     ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x17A4F1C
+    // Offset: 0x1A83684
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17A500C
+    // Offset: 0x1A83774
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

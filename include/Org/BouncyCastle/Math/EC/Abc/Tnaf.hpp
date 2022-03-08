@@ -77,43 +77,43 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Set static field: static public readonly System.SByte[][] Alpha1Tnaf
     static void _set_Alpha1Tnaf(::ArrayW<::ArrayW<int8_t>> value);
     // static private System.Void .cctor()
-    // Offset: 0x22660CC
+    // Offset: 0x229B38C
     static void _cctor();
     // static public Org.BouncyCastle.Math.BigInteger Norm(System.SByte mu, Org.BouncyCastle.Math.EC.Abc.ZTauElement lambda)
-    // Offset: 0x2264844
+    // Offset: 0x2299B04
     static ::Org::BouncyCastle::Math::BigInteger* Norm(int8_t mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda);
     // static public Org.BouncyCastle.Math.EC.Abc.ZTauElement Round(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal lambda0, Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal lambda1, System.SByte mu)
-    // Offset: 0x2264980
+    // Offset: 0x2299C40
     static ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* Round(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* lambda0, ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* lambda1, int8_t mu);
     // static public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal ApproximateDivisionByN(Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.BigInteger s, Org.BouncyCastle.Math.BigInteger vm, System.SByte a, System.Int32 m, System.Int32 c)
-    // Offset: 0x2264D84
+    // Offset: 0x229A044
     static ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* ApproximateDivisionByN(::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::BigInteger* s, ::Org::BouncyCastle::Math::BigInteger* vm, int8_t a, int m, int c);
     // static public System.SByte GetMu(System.Int32 curveA)
-    // Offset: 0x2264F04
+    // Offset: 0x229A1C4
     static int8_t GetMu(int curveA);
     // static public Org.BouncyCastle.Math.BigInteger[] GetLucas(System.SByte mu, System.Int32 k, System.Boolean doV)
-    // Offset: 0x2264F14
+    // Offset: 0x229A1D4
     static ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GetLucas(int8_t mu, int k, bool doV);
     // static public Org.BouncyCastle.Math.BigInteger GetTw(System.SByte mu, System.Int32 w)
-    // Offset: 0x2265118
+    // Offset: 0x229A3D8
     static ::Org::BouncyCastle::Math::BigInteger* GetTw(int8_t mu, int w);
     // static public Org.BouncyCastle.Math.BigInteger[] GetSi(Org.BouncyCastle.Math.EC.AbstractF2mCurve curve)
-    // Offset: 0x22652B8
+    // Offset: 0x229A578
     static ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GetSi(::Org::BouncyCastle::Math::EC::AbstractF2mCurve* curve);
     // static protected System.Int32 GetShiftsForCofactor(Org.BouncyCastle.Math.BigInteger h)
-    // Offset: 0x22655C0
+    // Offset: 0x229A880
     static int GetShiftsForCofactor(::Org::BouncyCastle::Math::BigInteger* h);
     // static public Org.BouncyCastle.Math.EC.Abc.ZTauElement PartModReduction(Org.BouncyCastle.Math.BigInteger k, System.Int32 m, System.SByte a, Org.BouncyCastle.Math.BigInteger[] s, System.SByte mu, System.SByte c)
-    // Offset: 0x226567C
+    // Offset: 0x229A93C
     static ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* PartModReduction(::Org::BouncyCastle::Math::BigInteger* k, int m, int8_t a, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> s, int8_t mu, int8_t c);
     // static public Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyFromTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte[] u)
-    // Offset: 0x2265914
+    // Offset: 0x229ABD4
     static ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayW<int8_t> u);
     // static public System.SByte[] TauAdicWNaf(System.SByte mu, Org.BouncyCastle.Math.EC.Abc.ZTauElement lambda, System.SByte width, Org.BouncyCastle.Math.BigInteger pow2w, Org.BouncyCastle.Math.BigInteger tw, Org.BouncyCastle.Math.EC.Abc.ZTauElement[] alpha)
-    // Offset: 0x2265B30
+    // Offset: 0x229ADF0
     static ::ArrayW<int8_t> TauAdicWNaf(int8_t mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t width, ::Org::BouncyCastle::Math::BigInteger* pow2w, ::Org::BouncyCastle::Math::BigInteger* tw, ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*> alpha);
     // static public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] GetPreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
-    // Offset: 0x2265EF0
+    // Offset: 0x229B1B0
     static ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*> GetPreComp(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
   }; // Org.BouncyCastle.Math.EC.Abc.Tnaf
   #pragma pack(pop)

@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
   class HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A5C3E4
+    // Offset: 0x1AE4BE0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

@@ -57,10 +57,10 @@ namespace LeaderboardsDTO {
     ::StringW guidInstance;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // public System.Int32 rawScore
+    // public System.Int32 multipliedScore
     // Size: 0x4
     // Offset: 0x28
-    int rawScore;
+    int multipliedScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // public System.Int32 modifiedScore
@@ -134,8 +134,8 @@ namespace LeaderboardsDTO {
     ::StringW& dyn_guids();
     // Get instance field reference: public System.String guidInstance
     ::StringW& dyn_guidInstance();
-    // Get instance field reference: public System.Int32 rawScore
-    int& dyn_rawScore();
+    // Get instance field reference: public System.Int32 multipliedScore
+    int& dyn_multipliedScore();
     // Get instance field reference: public System.Int32 modifiedScore
     int& dyn_modifiedScore();
     // Get instance field reference: public System.Boolean fullCombo
@@ -157,7 +157,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String extraDataBase64
     ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x13B1618
+    // Offset: 0x14A5600
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

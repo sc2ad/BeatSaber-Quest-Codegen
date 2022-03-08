@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO::SongPackDataType) == 0x4);
     // Padding between fields: type and: beatmapLevelPack
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x1251D9C
+    // [NullAllowed] Offset: 0x10C6CF4
     // public BeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x1251DAC
+    // [NullAllowed] Offset: 0x10C6D04
     // public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x20
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     ::StringW serializedName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x1251DBC
+    // [NullAllowed] Offset: 0x10C6D14
     // public BeatmapLevelPackCollectionSO _levelPackCollection
     // Size: 0x8
     // Offset: 0x30
@@ -127,16 +127,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
     // public System.String get_serializedName()
-    // Offset: 0x13D1AC8
+    // Offset: 0x13EB934
     ::StringW get_serializedName();
     // public SongPackMask get_songPackMask()
-    // Offset: 0x13D1B0C
+    // Offset: 0x13EB978
     ::GlobalNamespace::SongPackMask get_songPackMask();
     // public System.Boolean get_containsMultiplePacks()
-    // Offset: 0x13D1E88
+    // Offset: 0x13EBCF4
     bool get_containsMultiplePacks();
     // public System.Void .ctor()
-    // Offset: 0x13D1EAC
+    // Offset: 0x13EBD18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

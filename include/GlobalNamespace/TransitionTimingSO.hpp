@@ -7,8 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-// Including type: Tweening.EaseType
-#include "Tweening/EaseType.hpp"
+// Including type: EaseType
+#include "GlobalNamespace/EaseType.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -39,12 +39,12 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private Tweening.EaseType _easeType
+    // private EaseType _easeType
     // Size: 0x4
     // Offset: 0x18
-    ::Tweening::EaseType easeType;
+    ::GlobalNamespace::EaseType easeType;
     // Field size check
-    static_assert(sizeof(::Tweening::EaseType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
     // private System.Single _easeDuration
     // Size: 0x4
     // Offset: 0x1C
@@ -54,18 +54,18 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // Get instance field reference: private Tweening.EaseType _easeType
-    ::Tweening::EaseType& dyn__easeType();
+    // Get instance field reference: private EaseType _easeType
+    ::GlobalNamespace::EaseType& dyn__easeType();
     // Get instance field reference: private System.Single _easeDuration
     float& dyn__easeDuration();
-    // public Tweening.EaseType get_easeType()
-    // Offset: 0x2AE9520
-    ::Tweening::EaseType get_easeType();
+    // public EaseType get_easeType()
+    // Offset: 0x13891F8
+    ::GlobalNamespace::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x2AE9528
+    // Offset: 0x1389200
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x2AE9530
+    // Offset: 0x1389208
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::TransitionTimingSO::get_easeType
 // Il2CppName: get_easeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::EaseType (GlobalNamespace::TransitionTimingSO::*)()>(&GlobalNamespace::TransitionTimingSO::get_easeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EaseType (GlobalNamespace::TransitionTimingSO::*)()>(&GlobalNamespace::TransitionTimingSO::get_easeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TransitionTimingSO*), "get_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -55,7 +55,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean DidSendRequest
     bool& dyn_DidSendRequest();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1966BCC
+    // Offset: 0x19B7B88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchFriendRequestFlowResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LaunchFriendRequestFlowResult::.ctor");

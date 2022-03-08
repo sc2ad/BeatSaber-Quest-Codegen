@@ -36,34 +36,34 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::OVRTracker::Frustum
     struct Frustum;
     // public System.Boolean get_isPresent()
-    // Offset: 0x2440A74
+    // Offset: 0x24856D8
     bool get_isPresent();
     // public System.Boolean get_isPositionTracked()
-    // Offset: 0x2440B10
+    // Offset: 0x2485774
     bool get_isPositionTracked();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x2440B70
+    // Offset: 0x24857D4
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x2440C0C
+    // Offset: 0x2485870
     void set_isEnabled(bool value);
     // public System.Int32 get_count()
-    // Offset: 0x2440CAC
+    // Offset: 0x2485910
     int get_count();
     // public OVRTracker/Frustum GetFrustum(System.Int32 tracker)
-    // Offset: 0x2440E28
+    // Offset: 0x2485A8C
     ::GlobalNamespace::OVRTracker::Frustum GetFrustum(int tracker);
     // public OVRPose GetPose(System.Int32 tracker)
-    // Offset: 0x2440ED8
+    // Offset: 0x2485B3C
     ::GlobalNamespace::OVRPose GetPose(int tracker);
     // public System.Boolean GetPoseValid(System.Int32 tracker)
-    // Offset: 0x244116C
+    // Offset: 0x2485DD0
     bool GetPoseValid(int tracker);
     // public System.Boolean GetPresent(System.Int32 tracker)
-    // Offset: 0x2440CEC
+    // Offset: 0x2485950
     bool GetPresent(int tracker);
     // public System.Void .ctor()
-    // Offset: 0x24412A8
+    // Offset: 0x2485F0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

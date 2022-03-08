@@ -64,22 +64,22 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.SyntaxTreeNode rightChild
     ::System::Xml::Schema::SyntaxTreeNode*& dyn_rightChild();
     // public System.Xml.Schema.SyntaxTreeNode get_LeftChild()
-    // Offset: 0x1499F24
+    // Offset: 0x1C3D480
     ::System::Xml::Schema::SyntaxTreeNode* get_LeftChild();
     // public System.Void set_LeftChild(System.Xml.Schema.SyntaxTreeNode value)
-    // Offset: 0x1499F2C
+    // Offset: 0x1C3D488
     void set_LeftChild(::System::Xml::Schema::SyntaxTreeNode* value);
     // public System.Xml.Schema.SyntaxTreeNode get_RightChild()
-    // Offset: 0x1499F34
+    // Offset: 0x1C3D490
     ::System::Xml::Schema::SyntaxTreeNode* get_RightChild();
     // public System.Void set_RightChild(System.Xml.Schema.SyntaxTreeNode value)
-    // Offset: 0x1499F3C
+    // Offset: 0x1C3D498
     void set_RightChild(::System::Xml::Schema::SyntaxTreeNode* value);
     // protected System.Void ExpandTreeNoRecursive(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1499F44
+    // Offset: 0x1C3D4A0
     void ExpandTreeNoRecursive(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // protected System.Void .ctor()
-    // Offset: 0x149A154
+    // Offset: 0x1C3D6B0
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -89,7 +89,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<InteriorNode*, creationType>()));
     }
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x149A0E0
+    // Offset: 0x1C3D63C
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);

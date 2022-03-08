@@ -29,8 +29,6 @@ namespace System::Xml::Schema {
   struct XmlTypeCode;
   // Forward declaring type: XmlSchemaWhiteSpace
   struct XmlSchemaWhiteSpace;
-  // Forward declaring type: RestrictionFlags
-  struct RestrictionFlags;
   // Forward declaring type: XmlValueConverter
   class XmlValueConverter;
   // Forward declaring type: XmlSchemaType
@@ -69,42 +67,32 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Type listValueType
     static void _set_listValueType(::System::Type* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D62C00
+    // Offset: 0x1C34214
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.FacetsChecker Datatype_anySimpleType::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D62C68
+    // Offset: 0x1C3427C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_anySimpleType::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D62C70
+    // Offset: 0x1C34284
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ValueType()
     ::System::Type* get_ValueType();
-    // override System.Boolean get_HasValueFacets()
-    // Offset: 0x1D62CD8
-    // Implemented from: System.Xml.Schema.DatatypeImplementation
-    // Base method: System.Boolean DatatypeImplementation::get_HasValueFacets()
-    bool get_HasValueFacets();
     // override System.Type get_ListValueType()
-    // Offset: 0x1D62CE0
+    // Offset: 0x1C342EC
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ListValueType()
     ::System::Type* get_ListValueType();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1D62D48
+    // Offset: 0x1C34354
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_anySimpleType::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
-    // override System.Xml.Schema.RestrictionFlags get_ValidRestrictionFlags()
-    // Offset: 0x1D62D50
-    // Implemented from: System.Xml.Schema.Datatype_anySimpleType
-    // Base method: System.Xml.Schema.RestrictionFlags Datatype_anySimpleType::get_ValidRestrictionFlags()
-    ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
     // public System.Void .ctor()
-    // Offset: 0x1D5CEE8
+    // Offset: 0x1C347BC
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
@@ -116,23 +104,23 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_anyURI*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D62FD0
+    // Offset: 0x1C34820
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D62BF4
+    // Offset: 0x1C34208
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlValueConverter Datatype_anySimpleType::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1D62D58
+    // Offset: 0x1C3435C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Int32 Datatype_anySimpleType::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D62E54
+    // Offset: 0x1C34458
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Exception Datatype_anySimpleType::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);
@@ -164,14 +152,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_anyURI*), "get_ValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_anyURI::get_HasValueFacets
-// Il2CppName: get_HasValueFacets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::Datatype_anyURI::*)()>(&System::Xml::Schema::Datatype_anyURI::get_HasValueFacets)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_anyURI*), "get_HasValueFacets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::Datatype_anyURI::get_ListValueType
 // Il2CppName: get_ListValueType
 template<>
@@ -186,14 +166,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (System::Xml::Schema::Datatype_anyURI::*)()>(&System::Xml::Schema::Datatype_anyURI::get_BuiltInWhitespaceFacet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_anyURI*), "get_BuiltInWhitespaceFacet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_anyURI::get_ValidRestrictionFlags
-// Il2CppName: get_ValidRestrictionFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (System::Xml::Schema::Datatype_anyURI::*)()>(&System::Xml::Schema::Datatype_anyURI::get_ValidRestrictionFlags)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_anyURI*), "get_ValidRestrictionFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::Datatype_anyURI::New_ctor

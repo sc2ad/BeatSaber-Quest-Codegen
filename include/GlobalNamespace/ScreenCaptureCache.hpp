@@ -118,13 +118,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache::ScreenshotType, ::UnityEngine::Texture2D*>*& dyn__cache();
     // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
-    // Offset: 0x2E10698
+    // Offset: 0x2A21000
     ::UnityEngine::Texture2D* GetLastScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);
     // public System.Void StoreScreenshot(ScreenCaptureCache/ScreenshotType screenshotType, UnityEngine.Texture2D texture)
-    // Offset: 0x2E10358
+    // Offset: 0x2A20CC0
     void StoreScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
     // public System.Void .ctor()
-    // Offset: 0x2E10718
+    // Offset: 0x2A21080
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [LocalizationKeyAttribute] Offset: 0x1243D04
+    // [LocalizationKeyAttribute] Offset: 0x10B9030
     // private System.String _titleLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::StringW titleLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x1243D3C
+    // [LocalizationKeyAttribute] Offset: 0x10B9068
     // private System.String _subtitleLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -92,19 +92,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _icon
     ::UnityEngine::Sprite*& dyn__icon();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x142AAEC
+    // Offset: 0x1445C3C
     ::UnityEngine::Sprite* get_icon();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x142AAF4
+    // Offset: 0x1445C44
     ::StringW get_titleLocalizationKey();
     // public System.String get_subtitleLocalizationKey()
-    // Offset: 0x142AAFC
+    // Offset: 0x1445C4C
     ::StringW get_subtitleLocalizationKey();
     // public MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
     // Offset: 0xFFFFFFFF
     ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x14292CC
+    // Offset: 0x144441C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

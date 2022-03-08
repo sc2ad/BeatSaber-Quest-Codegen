@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124FA70
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C4A30
     // Get static field: static private readonly System.Int32 _cubePropertyId
     static int _get__cubePropertyId();
     // Set static field: static private readonly System.Int32 _cubePropertyId
@@ -105,13 +105,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _cubemapFlatTexture
     ::UnityEngine::RenderTexture*& dyn__cubemapFlatTexture();
     // protected System.Void Start()
-    // Offset: 0x13C6A8C
+    // Offset: 0x14161DC
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13C6B10
+    // Offset: 0x1416260
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13C6D64
+    // Offset: 0x14164B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -124,7 +124,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CubemapTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13C6D6C
+    // Offset: 0x14164BC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

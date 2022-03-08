@@ -103,58 +103,58 @@ namespace UnityEngine::UI {
     // Get instance field reference: protected System.Boolean m_ChildScaleHeight
     bool& dyn_m_ChildScaleHeight();
     // public System.Single get_spacing()
-    // Offset: 0x1D8DC78
+    // Offset: 0x1E442F0
     float get_spacing();
     // public System.Void set_spacing(System.Single value)
-    // Offset: 0x1D8DC80
+    // Offset: 0x1E442F8
     void set_spacing(float value);
     // public System.Boolean get_childForceExpandWidth()
-    // Offset: 0x1D8DCE4
+    // Offset: 0x1E4435C
     bool get_childForceExpandWidth();
     // public System.Void set_childForceExpandWidth(System.Boolean value)
-    // Offset: 0x1D8DCEC
+    // Offset: 0x1E44364
     void set_childForceExpandWidth(bool value);
     // public System.Boolean get_childForceExpandHeight()
-    // Offset: 0x1D8DD50
+    // Offset: 0x1E443C8
     bool get_childForceExpandHeight();
     // public System.Void set_childForceExpandHeight(System.Boolean value)
-    // Offset: 0x1D8DD58
+    // Offset: 0x1E443D0
     void set_childForceExpandHeight(bool value);
     // public System.Boolean get_childControlWidth()
-    // Offset: 0x1D8DDBC
+    // Offset: 0x1E44434
     bool get_childControlWidth();
     // public System.Void set_childControlWidth(System.Boolean value)
-    // Offset: 0x1D8DDC4
+    // Offset: 0x1E4443C
     void set_childControlWidth(bool value);
     // public System.Boolean get_childControlHeight()
-    // Offset: 0x1D8DE28
+    // Offset: 0x1E444A0
     bool get_childControlHeight();
     // public System.Void set_childControlHeight(System.Boolean value)
-    // Offset: 0x1D8DE30
+    // Offset: 0x1E444A8
     void set_childControlHeight(bool value);
     // public System.Boolean get_childScaleWidth()
-    // Offset: 0x1D8DE94
+    // Offset: 0x1E4450C
     bool get_childScaleWidth();
     // public System.Void set_childScaleWidth(System.Boolean value)
-    // Offset: 0x1D8DE9C
+    // Offset: 0x1E44514
     void set_childScaleWidth(bool value);
     // public System.Boolean get_childScaleHeight()
-    // Offset: 0x1D8DF00
+    // Offset: 0x1E44578
     bool get_childScaleHeight();
     // public System.Void set_childScaleHeight(System.Boolean value)
-    // Offset: 0x1D8DF08
+    // Offset: 0x1E44580
     void set_childScaleHeight(bool value);
     // protected System.Void CalcAlongAxis(System.Int32 axis, System.Boolean isVertical)
-    // Offset: 0x1D8D3F0
+    // Offset: 0x1E43A68
     void CalcAlongAxis(int axis, bool isVertical);
     // protected System.Void SetChildrenAlongAxis(System.Int32 axis, System.Boolean isVertical)
-    // Offset: 0x1D8D6A0
+    // Offset: 0x1E43D18
     void SetChildrenAlongAxis(int axis, bool isVertical);
     // private System.Void GetChildSizes(UnityEngine.RectTransform child, System.Int32 axis, System.Boolean controlSize, System.Boolean childForceExpand, out System.Single min, out System.Single preferred, out System.Single flexible)
-    // Offset: 0x1D8DF6C
+    // Offset: 0x1E445E4
     void GetChildSizes(::UnityEngine::RectTransform* child, int axis, bool controlSize, bool childForceExpand, ByRef<float> min, ByRef<float> preferred, ByRef<float> flexible);
     // protected System.Void .ctor()
-    // Offset: 0x1D8D3B0
+    // Offset: 0x1E43A28
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

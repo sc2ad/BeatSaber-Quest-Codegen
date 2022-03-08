@@ -7,8 +7,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
-// Including type: BeatmapDifficulty
-#include "GlobalNamespace/BeatmapDifficulty.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -30,8 +28,8 @@ namespace GlobalNamespace {
   class LobbyPlayerPermissionsModel;
   // Forward declaring type: ILobbyGameStateController
   class ILobbyGameStateController;
-  // Forward declaring type: BeatmapCharacteristicSO
-  class BeatmapCharacteristicSO;
+  // Forward declaring type: PreviewDifficultyBeatmap
+  class PreviewDifficultyBeatmap;
   // Forward declaring type: GameplayModifiers
   class GameplayModifiers;
   // Forward declaring type: MultiplayerLobbyState
@@ -51,9 +49,6 @@ namespace HMUI {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Action`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
-  class Action_3;
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
@@ -92,61 +87,61 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameServerPlayersTableView* gameServerPlayersTableView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerPlayersTableView*) == 0x8);
-    // [HeaderAttribute] Offset: 0x124D68C
+    // [HeaderAttribute] Offset: 0x10C260C
     // private UnityEngine.UI.Button _invitePlayerButton
     // Size: 0x8
     // Offset: 0x78
     ::UnityEngine::UI::Button* invitePlayerButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124D6D8
+    // [SpaceAttribute] Offset: 0x10C2658
     // private HMUI.HoverHint _cantInvitePlayerHoverHint
     // Size: 0x8
     // Offset: 0x80
     ::HMUI::HoverHint* cantInvitePlayerHoverHint;
     // Field size check
     static_assert(sizeof(::HMUI::HoverHint*) == 0x8);
-    // [InjectAttribute] Offset: 0x124D710
+    // [InjectAttribute] Offset: 0x10C2690
     // private readonly IInvitePlatformHandler _invitePlatformHandler
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::IInvitePlatformHandler* invitePlatformHandler;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IInvitePlatformHandler*) == 0x8);
-    // [InjectAttribute] Offset: 0x124D720
+    // [InjectAttribute] Offset: 0x10C26A0
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124D730
+    // [InjectAttribute] Offset: 0x10C26B0
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124D740
+    // [InjectAttribute] Offset: 0x10C26C0
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124D750
+    // [InjectAttribute] Offset: 0x10C26D0
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedBeatmapEvent
+    // private System.Action`1<PreviewDifficultyBeatmap> selectSuggestedBeatmapEvent
     // Size: 0x8
     // Offset: 0xB0
-    ::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>* selectSuggestedBeatmapEvent;
+    ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* selectSuggestedBeatmapEvent;
     // Field size check
-    static_assert(sizeof(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*) == 0x8);
     // private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0xB8
@@ -188,8 +183,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
     ::GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
-    // Get instance field reference: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedBeatmapEvent
-    ::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*& dyn_selectSuggestedBeatmapEvent();
+    // Get instance field reference: private System.Action`1<PreviewDifficultyBeatmap> selectSuggestedBeatmapEvent
+    ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& dyn_selectSuggestedBeatmapEvent();
     // Get instance field reference: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& dyn_selectSuggestedGameplayModifiersEvent();
     // Get instance field reference: private System.Action`1<System.String> kickPlayerEvent
@@ -198,59 +193,59 @@ namespace GlobalNamespace {
     ::System::Action*& dyn_didOpenInvitePanelEvent();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     ::HMUI::ButtonBinder*& dyn__buttonBinder();
-    // public System.Void add_selectSuggestedBeatmapEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x2B60B04
-    void add_selectSuggestedBeatmapEvent(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>* value);
-    // public System.Void remove_selectSuggestedBeatmapEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x2B60BA8
-    void remove_selectSuggestedBeatmapEvent(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>* value);
+    // public System.Void add_selectSuggestedBeatmapEvent(System.Action`1<PreviewDifficultyBeatmap> value)
+    // Offset: 0x13B3A64
+    void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
+    // public System.Void remove_selectSuggestedBeatmapEvent(System.Action`1<PreviewDifficultyBeatmap> value)
+    // Offset: 0x13B3B08
+    void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x2B60C4C
+    // Offset: 0x13B3BAC
     void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x2B60CF0
+    // Offset: 0x13B3C50
     void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x2B60D94
+    // Offset: 0x13B3CF4
     void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x2B60E38
+    // Offset: 0x13B3D98
     void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_didOpenInvitePanelEvent(System.Action value)
-    // Offset: 0x2B60EDC
+    // Offset: 0x13B3E3C
     void add_didOpenInvitePanelEvent(::System::Action* value);
     // public System.Void remove_didOpenInvitePanelEvent(System.Action value)
-    // Offset: 0x2B60F80
+    // Offset: 0x13B3EE0
     void remove_didOpenInvitePanelEvent(::System::Action* value);
     // private System.Void HandleLobbyPlayersDataDidChange(System.String userId)
-    // Offset: 0x2B61B18
+    // Offset: 0x13B4A78
     void HandleLobbyPlayersDataDidChange(::StringW userId);
     // private System.Void HandleLobbyGameStateControllerLobbyStateChanged(MultiplayerLobbyState _)
-    // Offset: 0x2B61B1C
+    // Offset: 0x13B4A7C
     void HandleLobbyGameStateControllerLobbyStateChanged(::GlobalNamespace::MultiplayerLobbyState _);
     // private System.Void HandleLobbyPlayerPermissionChanged()
-    // Offset: 0x2B61B20
+    // Offset: 0x13B4A80
     void HandleLobbyPlayerPermissionChanged();
     // private System.Void SetDataToTable()
-    // Offset: 0x2B61628
+    // Offset: 0x13B4588
     void SetDataToTable();
-    // private System.Void HandleSelectSuggestedLevel(System.String levelId, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x2B61B24
-    void HandleSelectSuggestedLevel(::StringW levelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
+    // private System.Void HandleSelectSuggestedLevel(PreviewDifficultyBeatmap beatmapLevel)
+    // Offset: 0x13B4A84
+    void HandleSelectSuggestedLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
     // private System.Void HandleSelectSuggestedGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x2B61BB4
+    // Offset: 0x13B4AF8
     void HandleSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // private System.Void HandleKickPlayer(System.String userId)
-    // Offset: 0x2B61C28
+    // Offset: 0x13B4B6C
     void HandleKickPlayer(::StringW userId);
     // private System.Void HandleOpenPlatformInvitePanel()
-    // Offset: 0x2B61C9C
+    // Offset: 0x13B4BE0
     void HandleOpenPlatformInvitePanel();
     // private System.Void TrySetInviteButtonEnabled()
-    // Offset: 0x2B61334
+    // Offset: 0x13B4294
     void TrySetInviteButtonEnabled();
     // public System.Void .ctor()
-    // Offset: 0x2B61D6C
+    // Offset: 0x13B4CB0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -264,12 +259,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerPlayerListViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x2B61024
+    // Offset: 0x13B3F84
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x2B61848
+    // Offset: 0x13B47A8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -282,18 +277,18 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListViewController::add_selectSuggestedBeatmapEvent
 // Il2CppName: add_selectSuggestedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::ServerPlayerListViewController::add_selectSuggestedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*)>(&GlobalNamespace::ServerPlayerListViewController::add_selectSuggestedBeatmapEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")})->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmap")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListViewController*), "add_selectSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListViewController::remove_selectSuggestedBeatmapEvent
 // Il2CppName: remove_selectSuggestedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_3<::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::ServerPlayerListViewController::remove_selectSuggestedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*)>(&GlobalNamespace::ServerPlayerListViewController::remove_selectSuggestedBeatmapEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")})->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmap")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListViewController*), "remove_selectSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -388,12 +383,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListViewController::HandleSelectSuggestedLevel
 // Il2CppName: HandleSelectSuggestedLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListViewController::*)(::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::ServerPlayerListViewController::HandleSelectSuggestedLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListViewController::*)(::GlobalNamespace::PreviewDifficultyBeatmap*)>(&GlobalNamespace::ServerPlayerListViewController::HandleSelectSuggestedLevel)> {
   static const MethodInfo* get() {
-    static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* beatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
-    static auto* beatmapDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListViewController*), "HandleSelectSuggestedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId, beatmapCharacteristic, beatmapDifficulty});
+    static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmap")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListViewController*), "HandleSelectSuggestedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListViewController::HandleSelectSuggestedGameplayModifiers

@@ -23,17 +23,12 @@
 namespace System::Xml {
   // Forward declaring type: XmlNameTable
   class XmlNameTable;
-  // Forward declaring type: XmlNamespaceScope
-  struct XmlNamespaceScope;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-  // Forward declaring type: IDictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class IDictionary_2;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -107,7 +102,7 @@ namespace System::Xml {
       // Get instance field reference: public System.Int32 previousNsIndex
       int& dyn_previousNsIndex();
       // public System.Void Set(System.String prefix, System.String uri, System.Int32 scopeId, System.Int32 previousNsIndex)
-      // Offset: 0x1A23AE4
+      // Offset: 0x15ABAC0
       void Set(::StringW prefix, ::StringW uri, int scopeId, int previousNsIndex);
     }; // System.Xml.XmlNamespaceManager/System.Xml.NamespaceDeclaration
     #pragma pack(pop)
@@ -202,47 +197,44 @@ namespace System::Xml {
     // Get instance field reference: private System.String xmlNs
     ::StringW& dyn_xmlNs();
     // public System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x1A23AF0
+    // Offset: 0x15ABACC
     ::System::Xml::XmlNameTable* get_NameTable();
     // public System.String get_DefaultNamespace()
-    // Offset: 0x1A23AF8
+    // Offset: 0x15ABAD4
     ::StringW get_DefaultNamespace();
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable)
-    // Offset: 0x1A20F68
+    // Offset: 0x15A8418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNamespaceManager* New_ctor(::System::Xml::XmlNameTable* nameTable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNamespaceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNamespaceManager*, creationType>(nameTable)));
     }
     // public System.Void PushScope()
-    // Offset: 0x1A23B70
+    // Offset: 0x15ABB4C
     void PushScope();
     // public System.Boolean PopScope()
-    // Offset: 0x1A23B80
+    // Offset: 0x15ABB5C
     bool PopScope();
     // public System.Void AddNamespace(System.String prefix, System.String uri)
-    // Offset: 0x1A23C68
+    // Offset: 0x15ABC44
     void AddNamespace(::StringW prefix, ::StringW uri);
     // public System.Void RemoveNamespace(System.String prefix, System.String uri)
-    // Offset: 0x1A24194
+    // Offset: 0x15AC170
     void RemoveNamespace(::StringW prefix, ::StringW uri);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1A242FC
+    // Offset: 0x15AC2D8
     ::System::Collections::IEnumerator* GetEnumerator();
-    // public System.Collections.Generic.IDictionary`2<System.String,System.String> GetNamespacesInScope(System.Xml.XmlNamespaceScope scope)
-    // Offset: 0x1A2444C
-    ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
     // public System.String LookupNamespace(System.String prefix)
-    // Offset: 0x1A24600
+    // Offset: 0x15AC428
     ::StringW LookupNamespace(::StringW prefix);
     // private System.Int32 LookupNamespaceDecl(System.String prefix)
-    // Offset: 0x1A23FDC
+    // Offset: 0x15ABFB8
     int LookupNamespaceDecl(::StringW prefix);
     // public System.String LookupPrefix(System.String uri)
-    // Offset: 0x1A24660
+    // Offset: 0x15AC488
     ::StringW LookupPrefix(::StringW uri);
     // System.Void .ctor()
-    // Offset: 0x1A23ADC
+    // Offset: 0x15ABAB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -320,15 +312,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Xml::XmlNamespaceManager::*)()>(&System::Xml::XmlNamespaceManager::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNamespaceManager*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlNamespaceManager::GetNamespacesInScope
-// Il2CppName: GetNamespacesInScope
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (System::Xml::XmlNamespaceManager::*)(::System::Xml::XmlNamespaceScope)>(&System::Xml::XmlNamespaceManager::GetNamespacesInScope)> {
-  static const MethodInfo* get() {
-    static auto* scope = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceScope")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNamespaceManager*), "GetNamespacesInScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scope});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlNamespaceManager::LookupNamespace

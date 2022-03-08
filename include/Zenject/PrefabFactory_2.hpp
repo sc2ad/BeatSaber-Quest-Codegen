@@ -52,7 +52,7 @@ namespace Zenject {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x11F86D0
+    // [InjectAttribute] Offset: 0x1085AD0
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

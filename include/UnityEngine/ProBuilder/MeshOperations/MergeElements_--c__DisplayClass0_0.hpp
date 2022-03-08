@@ -60,10 +60,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
     ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& dyn_remove();
     // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1B33990
+    // Offset: 0x1C1C4DC
     bool $MergePairs$b__0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x1B32EF0
+    // Offset: 0x1C1BA3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

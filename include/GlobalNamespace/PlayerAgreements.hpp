@@ -93,32 +93,32 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
     int& dyn_healthAndSafetyVersion();
     // public System.Void .ctor(System.Int32 eulaVersion, System.Int32 privacyPolicyVersion, System.Int32 healthAndSafetyVersion)
-    // Offset: 0x2AC27F8
+    // Offset: 0x148195C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor(int eulaVersion, int privacyPolicyVersion, int healthAndSafetyVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion)));
     }
     // public System.Void AgreeToEula()
-    // Offset: 0x2AC2838
+    // Offset: 0x148199C
     void AgreeToEula();
     // public System.Void AgreeToPrivacyPolicy()
-    // Offset: 0x2AC2844
+    // Offset: 0x14819A8
     void AgreeToPrivacyPolicy();
     // public System.Void AgreeToHealthAndSafety()
-    // Offset: 0x2AC2850
+    // Offset: 0x14819B4
     void AgreeToHealthAndSafety();
     // public System.Boolean AgreedToEula()
-    // Offset: 0x2AC285C
+    // Offset: 0x14819C0
     bool AgreedToEula();
     // public System.Boolean AgreedToPrivacyPolicy()
-    // Offset: 0x2AC286C
+    // Offset: 0x14819D0
     bool AgreedToPrivacyPolicy();
     // public System.Boolean AgreedToHealthAndSafety()
-    // Offset: 0x2AC287C
+    // Offset: 0x14819E0
     bool AgreedToHealthAndSafety();
     // public System.Void .ctor()
-    // Offset: 0x2AC27CC
+    // Offset: 0x1481930
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

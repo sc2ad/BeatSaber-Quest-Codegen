@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x11FE7B0
+    // [SpaceAttribute] Offset: 0x108B810
     // private System.Single _distanceScale
     // Size: 0x4
     // Offset: 0x28
@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x11FE7F8
+    // [SpaceAttribute] Offset: 0x108B858
     // private System.Single _alpha
     // Size: 0x4
     // Offset: 0x30
     float alpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x11FE830
+    // [SpaceAttribute] Offset: 0x108B890
     // private System.Single _floorYPos
     // Size: 0x4
     // Offset: 0x34
@@ -119,13 +119,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     ::UnityEngine::Transform*& dyn__transform();
     // protected System.Void Start()
-    // Offset: 0x299D70C
+    // Offset: 0x2A0B00C
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x299D734
+    // Offset: 0x2A0B034
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x299D8AC
+    // Offset: 0x2A0B1A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

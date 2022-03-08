@@ -62,10 +62,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> points
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_points();
     // System.Void <GetAllPoints>b__0(HoudiniEngineUnity.CurveNodeData transform)
-    // Offset: 0x16B8698
+    // Offset: 0x1751368
     void $GetAllPoints$b__0(::HoudiniEngineUnity::CurveNodeData* transform);
     // public System.Void .ctor()
-    // Offset: 0x16B8690
+    // Offset: 0x1751360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

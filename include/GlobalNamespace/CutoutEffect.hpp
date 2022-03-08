@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [NullAllowed] Offset: 0x1240FB0
+    // [NullAllowed] Offset: 0x10B608C
     // private BoolSO _useRandomCutoutOffset
     // Size: 0x8
     // Offset: 0x20
@@ -80,12 +80,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1240FF8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B60D4
     // Get static field: static private readonly System.Int32 _cutoutPropertyID
     static int _get__cutoutPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutPropertyID
     static void _set__cutoutPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1241008
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B60E4
     // Get static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
     static int _get__cutoutTexOffsetPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
@@ -101,19 +101,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _cutout
     float& dyn__cutout();
     // public System.Boolean get_useRandomCutoutOffset()
-    // Offset: 0x13C8C70
+    // Offset: 0x14190B4
     bool get_useRandomCutoutOffset();
     // protected System.Void Start()
-    // Offset: 0x13C8CC0
+    // Offset: 0x1419104
     void Start();
     // public System.Void SetCutout(System.Single cutout)
-    // Offset: 0x13C8924
+    // Offset: 0x1418D68
     void SetCutout(float cutout);
     // public System.Void SetCutout(System.Single cutout, UnityEngine.Vector3 cutoutOffset)
-    // Offset: 0x13C8D70
+    // Offset: 0x14191B4
     void SetCutout(float cutout, ::UnityEngine::Vector3 cutoutOffset);
     // public System.Void .ctor()
-    // Offset: 0x13C8E94
+    // Offset: 0x14192D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CutoutEffect*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13C8E9C
+    // Offset: 0x14192E0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

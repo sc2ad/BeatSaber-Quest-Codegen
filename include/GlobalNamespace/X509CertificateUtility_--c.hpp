@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509ChainStatus,System.String> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2E08C34
+    // Offset: 0x26122FC
     static void _cctor();
     // System.String <ValidateCertificateChainUnity>b__10_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
-    // Offset: 0x2E08CA0
+    // Offset: 0x2612368
     ::StringW $ValidateCertificateChainUnity$b__10_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
     // System.String <ValidateCertificateChainDotNet>b__11_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
-    // Offset: 0x2E08D28
+    // Offset: 0x26123F0
     ::StringW $ValidateCertificateChainDotNet$b__11_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
     // public System.Void .ctor()
-    // Offset: 0x2E08C98
+    // Offset: 0x2612360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

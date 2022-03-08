@@ -82,19 +82,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetVolume
     float& dyn__targetVolume();
     // protected System.Void Start()
-    // Offset: 0x148FB50
+    // Offset: 0x14BF55C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x148FBEC
+    // Offset: 0x14BF5F8
     void Update();
     // public System.Void FadeOut()
-    // Offset: 0x148FD2C
+    // Offset: 0x14BF738
     void FadeOut();
     // public System.Void FadeIn()
-    // Offset: 0x148FBBC
+    // Offset: 0x14BF5C8
     void FadeIn();
     // public System.Void .ctor()
-    // Offset: 0x148FD58
+    // Offset: 0x14BF764
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

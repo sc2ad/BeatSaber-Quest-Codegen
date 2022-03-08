@@ -75,16 +75,16 @@ namespace HMUI {
     // Get instance field reference: private HMUI.HoverHint _hoverHint
     ::HMUI::HoverHint*& dyn__hoverHint();
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x16A3BD0
+    // Offset: 0x168A424
     ::UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x16A3BB4
+    // Offset: 0x168A408
     void set_sprite(::UnityEngine::Sprite* value);
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x16A3BEC
+    // Offset: 0x168A440
     void set_hintText(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x16A3C08
+    // Offset: 0x168A45C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

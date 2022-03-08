@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _button
     ::UnityEngine::UI::Button*& dyn__button();
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x2C16734
+    // Offset: 0x156ED5C
     ::System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x2C167D0
+    // Offset: 0x156EDF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

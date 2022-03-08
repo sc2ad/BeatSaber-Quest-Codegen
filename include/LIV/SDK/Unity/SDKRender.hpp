@@ -306,152 +306,152 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: private System.Int32 _requestedPoseFrameIndex
     int& dyn__requestedPoseFrameIndex();
     // private System.Boolean get_useDeferredRendering()
-    // Offset: 0x29B2A34
+    // Offset: 0x2A3272C
     bool get_useDeferredRendering();
     // private System.Boolean get_interlacedRendering()
-    // Offset: 0x29B2A8C
+    // Offset: 0x2A32784
     bool get_interlacedRendering();
     // private System.Boolean get_canRenderBackground()
-    // Offset: 0x29B2AA4
+    // Offset: 0x2A3279C
     bool get_canRenderBackground();
     // private System.Boolean get_canRenderForeground()
-    // Offset: 0x29B2B40
+    // Offset: 0x2A32838
     bool get_canRenderForeground();
     // private System.Boolean get_canRenderOptimized()
-    // Offset: 0x29B2BF0
+    // Offset: 0x2A328E8
     bool get_canRenderOptimized();
     // public LIV.SDK.Unity.LIV get_liv()
-    // Offset: 0x29B5C80
+    // Offset: 0x2A35978
     ::LIV::SDK::Unity::LIV* get_liv();
     // public LIV.SDK.Unity.SDKOutputFrame get_outputFrame()
-    // Offset: 0x29B5C88
+    // Offset: 0x2A35980
     ::LIV::SDK::Unity::SDKOutputFrame get_outputFrame();
     // public LIV.SDK.Unity.SDKInputFrame get_inputFrame()
-    // Offset: 0x29B5C98
+    // Offset: 0x2A35990
     ::LIV::SDK::Unity::SDKInputFrame get_inputFrame();
     // public LIV.SDK.Unity.SDKResolution get_resolution()
-    // Offset: 0x29B5CA8
+    // Offset: 0x2A359A0
     ::LIV::SDK::Unity::SDKResolution get_resolution();
     // public UnityEngine.Camera get_cameraInstance()
-    // Offset: 0x29B5CB0
+    // Offset: 0x2A359A8
     ::UnityEngine::Camera* get_cameraInstance();
     // public UnityEngine.Camera get_cameraReference()
-    // Offset: 0x29B50A8
+    // Offset: 0x2A34DA0
     ::UnityEngine::Camera* get_cameraReference();
     // public UnityEngine.Camera get_hmdCamera()
-    // Offset: 0x29B5CB8
+    // Offset: 0x2A359B0
     ::UnityEngine::Camera* get_hmdCamera();
     // public UnityEngine.Transform get_stage()
-    // Offset: 0x29B5CD4
+    // Offset: 0x2A359CC
     ::UnityEngine::Transform* get_stage();
     // public UnityEngine.Transform get_stageTransform()
-    // Offset: 0x29B5CEC
+    // Offset: 0x2A359E4
     ::UnityEngine::Transform* get_stageTransform();
     // public UnityEngine.Matrix4x4 get_stageLocalToWorldMatrix()
-    // Offset: 0x29B5D08
+    // Offset: 0x2A35A00
     ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
     // public UnityEngine.Matrix4x4 get_localToWorldMatrix()
-    // Offset: 0x29B46C0
+    // Offset: 0x2A343B8
     ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
     // public System.Int32 get_spectatorLayerMask()
-    // Offset: 0x29B4780
+    // Offset: 0x2A34478
     int get_spectatorLayerMask();
     // public System.Boolean get_disableStandardAssets()
-    // Offset: 0x29B4D10
+    // Offset: 0x2A34A08
     bool get_disableStandardAssets();
     // public System.Boolean get_canSetPose()
-    // Offset: 0x29B5DF0
+    // Offset: 0x2A35AE8
     bool get_canSetPose();
     // public System.Void .ctor(LIV.SDK.Unity.LIV liv)
-    // Offset: 0x29AF0CC
+    // Offset: 0x2A2EDC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SDKRender* New_ctor(::LIV::SDK::Unity::LIV* liv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LIV::SDK::Unity::SDKRender::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SDKRender*, creationType>(liv)));
     }
     // private UnityEngine.Material GetClipPlaneMaterial(System.Boolean debugClipPlane, System.Boolean complexClipPlane, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x29B285C
+    // Offset: 0x2A32554
     ::UnityEngine::Material* GetClipPlaneMaterial(bool debugClipPlane, bool complexClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // private UnityEngine.Material GetGroundClipPlaneMaterial(System.Boolean debugClipPlane, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x29B2988
+    // Offset: 0x2A32680
     ::UnityEngine::Material* GetGroundClipPlaneMaterial(bool debugClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // public System.Void Render()
-    // Offset: 0x29AF6E0
+    // Offset: 0x2A2F3D8
     void Render();
     // private System.Void RenderBackground()
-    // Offset: 0x29B38D0
+    // Offset: 0x2A335C8
     void RenderBackground();
     // private System.Void RenderForeground()
-    // Offset: 0x29B3A0C
+    // Offset: 0x2A33704
     void RenderForeground();
     // private System.Void RenderOptimized()
-    // Offset: 0x29B3FA0
+    // Offset: 0x2A33C98
     void RenderOptimized();
     // private System.Void CreateAssets()
-    // Offset: 0x29B2C78
+    // Offset: 0x2A32970
     void CreateAssets();
     // private System.Void DestroyAssets()
-    // Offset: 0x29B59E8
+    // Offset: 0x2A356E0
     void DestroyAssets();
     // public System.Void Dispose()
-    // Offset: 0x29AF218
+    // Offset: 0x2A2EF10
     void Dispose();
     // public System.Boolean SetPose(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single verticalFieldOfView, System.Boolean useLocalSpace)
-    // Offset: 0x29B5E10
+    // Offset: 0x2A35B08
     bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float verticalFieldOfView, bool useLocalSpace);
     // public System.Void SetGroundPlane(System.Single distance, UnityEngine.Vector3 normal, System.Boolean useLocalSpace)
-    // Offset: 0x29B62A0
+    // Offset: 0x2A35F98
     void SetGroundPlane(float distance, ::UnityEngine::Vector3 normal, bool useLocalSpace);
     // public System.Void SetGroundPlane(UnityEngine.Plane plane, System.Boolean useLocalSpace)
-    // Offset: 0x29B6494
+    // Offset: 0x2A3618C
     void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace);
     // public System.Void SetGroundPlane(UnityEngine.Transform transform, System.Boolean useLocalSpace)
-    // Offset: 0x29B6510
+    // Offset: 0x2A36208
     void SetGroundPlane(::UnityEngine::Transform* transform, bool useLocalSpace);
     // private System.Void ReleaseBridgePoseControl()
-    // Offset: 0x29B5B68
+    // Offset: 0x2A35860
     void ReleaseBridgePoseControl();
     // private System.Void UpdateBridgeResolution()
-    // Offset: 0x29B3268
+    // Offset: 0x2A32F60
     void UpdateBridgeResolution();
     // private System.Void UpdateBridgeInputFrame()
-    // Offset: 0x29B32D0
+    // Offset: 0x2A32FC8
     void UpdateBridgeInputFrame();
     // private System.Void InvokePreRender()
-    // Offset: 0x29B3860
+    // Offset: 0x2A33558
     void InvokePreRender();
     // private System.Void IvokePostRender()
-    // Offset: 0x29B44B4
+    // Offset: 0x2A341AC
     void IvokePostRender();
     // private System.Void InvokePreRenderBackground()
-    // Offset: 0x29B4A94
+    // Offset: 0x2A3478C
     void InvokePreRenderBackground();
     // private System.Void InvokePostRenderBackground()
-    // Offset: 0x29B4C08
+    // Offset: 0x2A34900
     void InvokePostRenderBackground();
     // private System.Void InvokePreRenderForeground()
-    // Offset: 0x29B4EE0
+    // Offset: 0x2A34BD8
     void InvokePreRenderForeground();
     // private System.Void InvokePostRenderForeground()
-    // Offset: 0x29B4F50
+    // Offset: 0x2A34C48
     void InvokePostRenderForeground();
     // private System.Void CreateBackgroundTexture()
-    // Offset: 0x29B66E8
+    // Offset: 0x2A363E0
     void CreateBackgroundTexture();
     // private System.Void CreateForegroundTexture()
-    // Offset: 0x29B68EC
+    // Offset: 0x2A365E4
     void CreateForegroundTexture();
     // private System.Void CreateOptimizedTexture()
-    // Offset: 0x29B6984
+    // Offset: 0x2A3667C
     void CreateOptimizedTexture();
     // private System.Void CreateComplexClipPlaneTexture()
-    // Offset: 0x29B6A1C
+    // Offset: 0x2A36714
     void CreateComplexClipPlaneTexture();
     // private System.Void UpdateTextures()
-    // Offset: 0x29B35A0
+    // Offset: 0x2A33298
     void UpdateTextures();
     // private System.Void SendTextureToBridge(UnityEngine.RenderTexture texture, LIV.SDK.Unity.TEXTURE_ID id)
-    // Offset: 0x29B4B04
+    // Offset: 0x2A347FC
     void SendTextureToBridge(::UnityEngine::RenderTexture* texture, ::LIV::SDK::Unity::TEXTURE_ID id);
   }; // LIV.SDK.Unity.SDKRender
   #pragma pack(pop)

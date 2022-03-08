@@ -124,7 +124,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
     ::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
-    // Offset: 0x14720E0
+    // Offset: 0x14ACB58
     // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::StringW levelID, uint bytesTotal, uint bytesTransferred, ::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
   #pragma pack(pop)

@@ -42,22 +42,17 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D67304
+    // Offset: 0x1C397C8
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Xml.Schema.FacetsChecker Datatype_decimal::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D6736C
+    // Offset: 0x1C39830
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_integer::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
-    // override System.Boolean get_HasValueFacets()
-    // Offset: 0x1D67374
-    // Implemented from: System.Xml.Schema.DatatypeImplementation
-    // Base method: System.Boolean DatatypeImplementation::get_HasValueFacets()
-    bool get_HasValueFacets();
     // public System.Void .ctor()
-    // Offset: 0x1D5D994
+    // Offset: 0x1C39590
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Void Datatype_integer::.ctor()
     // Base method: System.Void Datatype_decimal::.ctor()
@@ -71,7 +66,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_nonPositiveInteger*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D6737C
+    // Offset: 0x1C39838
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.cctor()
     // Base method: System.Void Datatype_anySimpleType::.cctor()
@@ -95,14 +90,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (System::Xml::Schema::Datatype_nonPositiveInteger::*)()>(&System::Xml::Schema::Datatype_nonPositiveInteger::get_TypeCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_nonPositiveInteger*), "get_TypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_nonPositiveInteger::get_HasValueFacets
-// Il2CppName: get_HasValueFacets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::Datatype_nonPositiveInteger::*)()>(&System::Xml::Schema::Datatype_nonPositiveInteger::get_HasValueFacets)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_nonPositiveInteger*), "get_HasValueFacets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::Datatype_nonPositiveInteger::New_ctor

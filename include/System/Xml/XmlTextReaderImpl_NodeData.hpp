@@ -222,85 +222,82 @@ namespace System::Xml {
     // Get instance field reference: System.Object typedValue
     ::Il2CppObject*& dyn_typedValue();
     // static System.Xml.XmlTextReaderImpl/System.Xml.NodeData get_None()
-    // Offset: 0x1BADE40
+    // Offset: 0x26EC710
     static ::System::Xml::XmlTextReaderImpl::NodeData* get_None();
     // System.Int32 get_LineNo()
-    // Offset: 0x1BADF9C
+    // Offset: 0x26EC86C
     int get_LineNo();
     // System.Int32 get_LinePos()
-    // Offset: 0x1BADFA4
+    // Offset: 0x26EC874
     int get_LinePos();
     // System.Boolean get_IsEmptyElement()
-    // Offset: 0x1BADFAC
+    // Offset: 0x26EC87C
     bool get_IsEmptyElement();
     // System.Void set_IsEmptyElement(System.Boolean value)
-    // Offset: 0x1BADFD0
+    // Offset: 0x26EC8A0
     void set_IsEmptyElement(bool value);
     // System.Boolean get_IsDefaultAttribute()
-    // Offset: 0x1BADFDC
+    // Offset: 0x26EC8AC
     bool get_IsDefaultAttribute();
     // System.Void set_IsDefaultAttribute(System.Boolean value)
-    // Offset: 0x1BAE000
+    // Offset: 0x26EC8D0
     void set_IsDefaultAttribute(bool value);
     // System.Boolean get_ValueBuffered()
-    // Offset: 0x1BAE00C
+    // Offset: 0x26EC8DC
     bool get_ValueBuffered();
     // System.String get_StringValue()
-    // Offset: 0x1BAE01C
+    // Offset: 0x26EC8EC
     ::StringW get_StringValue();
     // System.Void TrimSpacesInValue()
-    // Offset: 0x1BAE054
+    // Offset: 0x26EC924
     void TrimSpacesInValue();
     // System.Void Clear(System.Xml.XmlNodeType type)
-    // Offset: 0x1BADF14
+    // Offset: 0x26EC7E4
     void Clear(::System::Xml::XmlNodeType type);
     // System.Void ClearName()
-    // Offset: 0x1BAE0A0
+    // Offset: 0x26EC970
     void ClearName();
     // System.Void SetLineInfo(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1BAE11C
+    // Offset: 0x26EC9EC
     void SetLineInfo(int lineNo, int linePos);
     // System.Void SetLineInfo2(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1BAE128
+    // Offset: 0x26EC9F8
     void SetLineInfo2(int lineNo, int linePos);
     // System.Void SetValueNode(System.Xml.XmlNodeType type, System.String value)
-    // Offset: 0x1BAE134
+    // Offset: 0x26ECA04
     void SetValueNode(::System::Xml::XmlNodeType type, ::StringW value);
     // System.Void SetValueNode(System.Xml.XmlNodeType type, System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x1BAE168
+    // Offset: 0x26ECA38
     void SetValueNode(::System::Xml::XmlNodeType type, ::ArrayW<::Il2CppChar> chars, int startPos, int len);
     // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName)
-    // Offset: 0x1BAE1A8
+    // Offset: 0x26ECA78
     void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName);
     // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName, System.String prefix, System.String nameWPrefix)
-    // Offset: 0x1BAE21C
+    // Offset: 0x26ECAEC
     void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName, ::StringW prefix, ::StringW nameWPrefix);
     // System.Void SetValue(System.String value)
-    // Offset: 0x1BAE2B4
+    // Offset: 0x26ECB84
     void SetValue(::StringW value);
     // System.Void SetValue(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x1BAE2C4
+    // Offset: 0x26ECB94
     void SetValue(::ArrayW<::Il2CppChar> chars, int startPos, int len);
     // System.Void OnBufferInvalidated()
-    // Offset: 0x1BAE2D0
+    // Offset: 0x26ECBA0
     void OnBufferInvalidated();
     // System.Void CopyTo(System.Int32 valueOffset, System.Text.StringBuilder sb)
-    // Offset: 0x1BAE320
+    // Offset: 0x26ECBF0
     void CopyTo(int valueOffset, ::System::Text::StringBuilder* sb);
-    // System.Int32 CopyTo(System.Int32 valueOffset, System.Char[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1BAE3A4
-    int CopyTo(int valueOffset, ::ArrayW<::Il2CppChar> buffer, int offset, int length);
     // System.String GetNameWPrefix(System.Xml.XmlNameTable nt)
-    // Offset: 0x1BAE410
+    // Offset: 0x26ECC74
     ::StringW GetNameWPrefix(::System::Xml::XmlNameTable* nt);
     // System.String CreateNameWPrefix(System.Xml.XmlNameTable nt)
-    // Offset: 0x1BAE424
+    // Offset: 0x26ECC88
     ::StringW CreateNameWPrefix(::System::Xml::XmlNameTable* nt);
     // private System.Int32 System.IComparable.CompareTo(System.Object obj)
-    // Offset: 0x1BAE4C0
+    // Offset: 0x26ECD24
     int System_IComparable_CompareTo(::Il2CppObject* obj);
     // System.Void .ctor()
-    // Offset: 0x1BADEE0
+    // Offset: 0x26EC7B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -513,18 +510,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     static auto* valueOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::NodeData*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueOffset, sb});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::NodeData::CopyTo
-// Il2CppName: CopyTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlTextReaderImpl::NodeData::*)(int, ::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlTextReaderImpl::NodeData::CopyTo)> {
-  static const MethodInfo* get() {
-    static auto* valueOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
-    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlTextReaderImpl::NodeData*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueOffset, buffer, offset, length});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlTextReaderImpl::NodeData::GetNameWPrefix

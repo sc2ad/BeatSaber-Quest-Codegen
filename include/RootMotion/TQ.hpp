@@ -57,7 +57,7 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Quaternion q
     ::UnityEngine::Quaternion& dyn_q();
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
-    // Offset: 0x1F1E3DC
+    // Offset: 0x1FB0578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TQ* New_ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::TQ::.ctor");

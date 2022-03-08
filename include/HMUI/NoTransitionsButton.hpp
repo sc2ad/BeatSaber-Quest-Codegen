@@ -123,16 +123,16 @@ namespace HMUI {
     // Get instance field reference: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState
     ::HMUI::NoTransitionsButton::SelectionState& dyn__selectionState();
     // public HMUI.NoTransitionsButton/HMUI.SelectionState get_selectionState()
-    // Offset: 0x16A7BA8
+    // Offset: 0x168EF58
     ::HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x16A7BB0
+    // Offset: 0x168EF60
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x16A7C58
+    // Offset: 0x168F008
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x16A7D94
+    // Offset: 0x168F144
     // Implemented from: UnityEngine.UI.Button
     // Base method: System.Void Button::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -148,7 +148,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsButton*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x16A7D00
+    // Offset: 0x168F0B0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

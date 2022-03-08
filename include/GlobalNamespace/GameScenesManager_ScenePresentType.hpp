@@ -38,14 +38,20 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
+    // static field const value: static public GameScenesManager/ScenePresentType DoNotLoad
+    static constexpr const int DoNotLoad = 0;
+    // Get static field: static public GameScenesManager/ScenePresentType DoNotLoad
+    static ::GlobalNamespace::GameScenesManager::ScenePresentType _get_DoNotLoad();
+    // Set static field: static public GameScenesManager/ScenePresentType DoNotLoad
+    static void _set_DoNotLoad(::GlobalNamespace::GameScenesManager::ScenePresentType value);
     // static field const value: static public GameScenesManager/ScenePresentType Load
-    static constexpr const int Load = 0;
+    static constexpr const int Load = 1;
     // Get static field: static public GameScenesManager/ScenePresentType Load
     static ::GlobalNamespace::GameScenesManager::ScenePresentType _get_Load();
     // Set static field: static public GameScenesManager/ScenePresentType Load
     static void _set_Load(::GlobalNamespace::GameScenesManager::ScenePresentType value);
     // static field const value: static public GameScenesManager/ScenePresentType Activate
-    static constexpr const int Activate = 1;
+    static constexpr const int Activate = 2;
     // Get static field: static public GameScenesManager/ScenePresentType Activate
     static ::GlobalNamespace::GameScenesManager::ScenePresentType _get_Activate();
     // Set static field: static public GameScenesManager/ScenePresentType Activate

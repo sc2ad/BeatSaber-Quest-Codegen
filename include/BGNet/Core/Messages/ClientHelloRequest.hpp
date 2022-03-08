@@ -73,13 +73,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public readonly System.Byte[] random
     ::ArrayW<uint8_t>& dyn_random();
     // static public PacketPool`1<BGNet.Core.Messages.ClientHelloRequest> get_pool()
-    // Offset: 0x2B7F940
+    // Offset: 0x1529390
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ClientHelloRequest*>* get_pool();
     // public BGNet.Core.Messages.ClientHelloRequest Init(System.Byte[] random)
-    // Offset: 0x2B82228
+    // Offset: 0x152BB64
     ::BGNet::Core::Messages::ClientHelloRequest* Init(::ArrayW<uint8_t> random);
     // public System.Void .ctor()
-    // Offset: 0x2B87858
+    // Offset: 0x1531074
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -89,17 +89,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2B8776C
+    // Offset: 0x1530F88
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2B877B0
+    // Offset: 0x1530FCC
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x2B877FC
+    // Offset: 0x1531018
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

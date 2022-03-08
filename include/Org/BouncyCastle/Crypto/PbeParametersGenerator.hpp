@@ -70,7 +70,7 @@ namespace Org::BouncyCastle::Crypto {
     // Get instance field reference: protected System.Int32 mIterationCount
     int& dyn_mIterationCount();
     // public System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x1566B90
+    // Offset: 0x15E6FE8
     void Init(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int iterationCount);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     // Offset: 0xFFFFFFFF
@@ -82,13 +82,13 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFF
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
     // static public System.Byte[] Pkcs5PasswordToBytes(System.Char[] password)
-    // Offset: 0x1566C90
+    // Offset: 0x15E70E8
     static ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::ArrayW<::Il2CppChar> password);
     // static public System.Byte[] Pkcs12PasswordToBytes(System.Char[] password, System.Boolean wrongPkcs12Zero)
-    // Offset: 0x1566CF8
+    // Offset: 0x15E7150
     static ::ArrayW<uint8_t> Pkcs12PasswordToBytes(::ArrayW<::Il2CppChar> password, bool wrongPkcs12Zero);
     // protected System.Void .ctor()
-    // Offset: 0x1566B88
+    // Offset: 0x15E6FE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

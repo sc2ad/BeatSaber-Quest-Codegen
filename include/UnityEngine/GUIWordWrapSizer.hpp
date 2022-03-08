@@ -75,19 +75,19 @@ namespace UnityEngine {
     // Get instance field reference: private readonly System.Single m_ForcedMaxHeight
     float& dyn_m_ForcedMaxHeight();
     // public System.Void .ctor(UnityEngine.GUIStyle style, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1F63864
+    // Offset: 0x1FDF4DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUIWordWrapSizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIWordWrapSizer*, creationType>(style, content, options)));
     }
     // public override System.Void CalcWidth()
-    // Offset: 0x1F68668
+    // Offset: 0x1FE42E0
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void CalcHeight()
-    // Offset: 0x1F6872C
+    // Offset: 0x1FE43A4
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();

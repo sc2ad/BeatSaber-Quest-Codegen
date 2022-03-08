@@ -135,26 +135,26 @@ namespace MasterServer {
     // Get instance field reference: public MasterServer.AuthenticateUserMasterServerResponse/MasterServer.Result result
     ::MasterServer::AuthenticateUserMasterServerResponse::Result& dyn_result();
     // static public PacketPool`1<MasterServer.AuthenticateUserMasterServerResponse> get_pool()
-    // Offset: 0x2C4C85C
+    // Offset: 0x1655874
     static ::GlobalNamespace::PacketPool_1<::MasterServer::AuthenticateUserMasterServerResponse*>* get_pool();
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0x2C4C93C
+    // Offset: 0x1655954
     bool get_isAuthenticated();
     // public MasterServer.AuthenticateUserMasterServerResponse Init(MasterServer.AuthenticateUserMasterServerResponse/MasterServer.Result result)
-    // Offset: 0x2C4C94C
+    // Offset: 0x1655964
     ::MasterServer::AuthenticateUserMasterServerResponse* Init(::MasterServer::AuthenticateUserMasterServerResponse::Result result);
     // public override System.Byte get_resultCode()
-    // Offset: 0x2C4C8A4
+    // Offset: 0x16558BC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x2C4C8AC
+    // Offset: 0x16558C4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x2C4CA30
+    // Offset: 0x1655A48
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -164,17 +164,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateUserMasterServerResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2C4C954
+    // Offset: 0x165596C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2C4C990
+    // Offset: 0x16559A8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x2C4C9D4
+    // Offset: 0x16559EC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

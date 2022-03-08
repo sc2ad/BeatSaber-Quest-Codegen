@@ -102,10 +102,10 @@ namespace System::Xml {
     // Get instance field reference: private System.Net.Cache.RequestCachePolicy _cachePolicy
     ::System::Net::Cache::RequestCachePolicy*& dyn__cachePolicy();
     // static private System.Xml.XmlDownloadManager get_DownloadManager()
-    // Offset: 0x1BB40C8
+    // Offset: 0x26ED5AC
     static ::System::Xml::XmlDownloadManager* get_DownloadManager();
     // public System.Void .ctor()
-    // Offset: 0x1BB4198
+    // Offset: 0x26ED67C
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Void XmlResolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -115,17 +115,17 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlUrlResolver*, creationType>()));
     }
     // public override System.Object GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x1BB41A0
+    // Offset: 0x26ED684
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Object XmlResolver::GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
     ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // public override System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
-    // Offset: 0x1BB4324
+    // Offset: 0x26ED808
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Uri XmlResolver::ResolveUri(System.Uri baseUri, System.String relativeUri)
     ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
     // public override System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x1BB432C
+    // Offset: 0x26ED810
     // Implemented from: System.Xml.XmlResolver
     // Base method: System.Threading.Tasks.Task`1<System.Object> XmlResolver::GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
     ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);

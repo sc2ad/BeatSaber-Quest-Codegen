@@ -86,7 +86,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
       ::ArrayW<::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>& dyn_keyframes();
       // public System.Void .ctor()
-      // Offset: 0x13CE1CC
+      // Offset: 0x13B84B0
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -197,7 +197,7 @@ namespace GlobalNamespace {
     float forwardOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1250020
+    // [InjectAttribute] Offset: 0x10C5020
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x40
@@ -256,25 +256,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _prevRot
     ::UnityEngine::Quaternion& dyn__prevRot();
     // protected System.Void Awake()
-    // Offset: 0x13CD59C
+    // Offset: 0x13B7880
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13CD93C
+    // Offset: 0x13B7C20
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0x13CDA80
+    // Offset: 0x13B7D64
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0x13CDC4C
+    // Offset: 0x13B7F30
     void Update();
     // private System.Void Save()
-    // Offset: 0x13CD94C
+    // Offset: 0x13B7C30
     void Save();
     // private System.Void Load()
-    // Offset: 0x13CD68C
+    // Offset: 0x13B7970
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x13CE1D4
+    // Offset: 0x13B84B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

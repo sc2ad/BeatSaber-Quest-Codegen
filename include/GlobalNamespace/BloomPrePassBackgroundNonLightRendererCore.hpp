@@ -70,8 +70,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useCustomMaterial and: customMaterial
     char __padding1[0x6] = {};
-    // [DrawIfAttribute] Offset: 0x1228ADC
-    // [NullAllowed] Offset: 0x1228ADC
+    // [DrawIfAttribute] Offset: 0x109CB1C
+    // [NullAllowed] Offset: 0x109CB1C
     // private UnityEngine.Material _customMaterial
     // Size: 0x8
     // Offset: 0x28
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Rendering::CommandBuffer*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1228B94
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109CBD4
     // Get static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static int _get__worldSpaceCameraPosID();
     // Set static field: static private readonly System.Int32 _worldSpaceCameraPosID
@@ -102,13 +102,13 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::UnityEngine::Renderer* get_renderer();
     // private System.Void InitIfNeeded()
-    // Offset: 0x2084FC0
+    // Offset: 0x1F10034
     void InitIfNeeded();
     // protected System.Void Awake()
-    // Offset: 0x20850AC
+    // Offset: 0x1F10120
     void Awake();
     // protected System.Void .ctor()
-    // Offset: 0x2084F58
+    // Offset: 0x1F0FFCC
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -122,13 +122,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundNonLightRendererCore*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x20852A8
+    // Offset: 0x1F1031C
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x20850B0
+    // Offset: 0x1F10124
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);

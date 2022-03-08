@@ -37,7 +37,7 @@ namespace Zenject {
   class ScriptableObjectInstaller : public ::Zenject::ScriptableObjectInstallerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2464838
+    // Offset: 0x1CF8B08
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -49,12 +49,12 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstaller*, creationType>()));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x2464848
+    // Offset: 0x1CF8B18
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Object ScriptableObjectInstallerBase::__zenCreate(System.Object[] P_0)
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x24648A4
+    // Offset: 0x1CF8B74
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: Zenject.InjectTypeInfo ScriptableObjectInstallerBase::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

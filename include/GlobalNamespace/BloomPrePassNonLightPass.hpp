@@ -137,34 +137,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassNonLightPass/ExecutionTimeType _registeredExecutionTimeType
     ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType& dyn__registeredExecutionTimeType();
     // public BloomPrePassNonLightPass/ExecutionTimeType get_executionTimeType()
-    // Offset: 0x2086154
+    // Offset: 0x1F111C8
     ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType get_executionTimeType();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassAfterBlurList()
-    // Offset: 0x208615C
+    // Offset: 0x1F111D0
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassAfterBlurList();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassBeforeBlurList()
-    // Offset: 0x20861C4
+    // Offset: 0x1F11238
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassBeforeBlurList();
     // protected System.Void OnEnable()
-    // Offset: 0x208622C
+    // Offset: 0x1F112A0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x208631C
+    // Offset: 0x1F11390
     void OnDisable();
     // private System.Void Register()
-    // Offset: 0x2086230
+    // Offset: 0x1F112A4
     void Register();
     // private System.Void Unregister()
-    // Offset: 0x2086320
+    // Offset: 0x1F11394
     void Unregister();
     // protected System.Void OnValidate()
-    // Offset: 0x2085650
+    // Offset: 0x1F106C4
     void OnValidate();
     // public System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     // Offset: 0xFFFFFFFF
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
     // protected System.Void .ctor()
-    // Offset: 0x20847E0
+    // Offset: 0x1F0F854
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -177,7 +177,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassNonLightPass*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x20863F0
+    // Offset: 0x1F11464
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -71,23 +71,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
     ::System::Collections::Generic::List_1<::StringW>*& dyn__playersWithoutEntitlements();
     // public System.Collections.Generic.List`1<System.String> get_playersWithoutEntitlements()
-    // Offset: 0x297628C
+    // Offset: 0x29F5DC4
     ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> playersWithoutEntitlements)
-    // Offset: 0x297629C
+    // Offset: 0x29F5DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersMissingEntitlementsNetSerializable* New_ctor(::System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>(playersWithoutEntitlements)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29762C8
+    // Offset: 0x29F5E00
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29763E0
+    // Offset: 0x29F5F18
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x2976294
+    // Offset: 0x29F5DCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

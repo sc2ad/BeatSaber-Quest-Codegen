@@ -74,7 +74,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _generatedGOs
     ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__generatedGOs();
     // public System.Void .ctor()
-    // Offset: 0x1A64074
+    // Offset: 0x1AEC870
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

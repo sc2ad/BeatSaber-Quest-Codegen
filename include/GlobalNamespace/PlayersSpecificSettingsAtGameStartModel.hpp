@@ -83,32 +83,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_playersAtGameStart()
-    // Offset: 0x2DFFFD8
+    // Offset: 0x26096A0
     ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
     // public PlayerSpecificSettingsNetSerializable get_localPlayerSpecificSettings()
-    // Offset: 0x2DFFFF0
+    // Offset: 0x26096B8
     ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* get_localPlayerSpecificSettings();
     // private System.Void set_localPlayerSpecificSettings(PlayerSpecificSettingsNetSerializable value)
-    // Offset: 0x2DFFFF8
+    // Offset: 0x26096C0
     void set_localPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* value);
     // public PlayerSpecificSettingsAtStartNetSerializable get_playersAtGameStartNetSerializable()
-    // Offset: 0x2E00000
+    // Offset: 0x26096C8
     ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* get_playersAtGameStartNetSerializable();
     // private System.Void set_playersAtGameStartNetSerializable(PlayerSpecificSettingsAtStartNetSerializable value)
-    // Offset: 0x2E00008
+    // Offset: 0x26096D0
     void set_playersAtGameStartNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings)
-    // Offset: 0x2E00010
+    // Offset: 0x26096D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersSpecificSettingsAtGameStartModel* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersSpecificSettingsAtGameStartModel*, creationType>(multiplayerSessionManager, localPlayerSpecificSettings)));
     }
     // public PlayerSpecificSettingsNetSerializable GetPlayerSpecificSettingsForUserId(System.String userId)
-    // Offset: 0x2E00094
+    // Offset: 0x260975C
     ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* GetPlayerSpecificSettingsForUserId(::StringW userId);
     // public System.Void SaveFromNetSerializable(PlayerSpecificSettingsAtStartNetSerializable playersAtGameStartNetSerializable)
-    // Offset: 0x2E003BC
+    // Offset: 0x2609A84
     void SaveFromNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable);
   }; // PlayersSpecificSettingsAtGameStartModel
   #pragma pack(pop)

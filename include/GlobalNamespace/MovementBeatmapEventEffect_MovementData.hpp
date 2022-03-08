@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPositionOffset
     ::UnityEngine::Vector3& dyn__localPositionOffset();
     // public UnityEngine.Vector3 get_localPositionOffset()
-    // Offset: 0x1427A80
+    // Offset: 0x1442BD0
     ::UnityEngine::Vector3 get_localPositionOffset();
     // public System.Void .ctor()
-    // Offset: 0x1427A8C
+    // Offset: 0x1442BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

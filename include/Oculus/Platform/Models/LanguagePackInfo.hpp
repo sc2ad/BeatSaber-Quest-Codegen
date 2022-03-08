@@ -64,7 +64,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Tag
     ::StringW& dyn_Tag();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x196CF20
+    // Offset: 0x19BDEDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguagePackInfo* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LanguagePackInfo::.ctor");

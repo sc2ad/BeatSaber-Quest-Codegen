@@ -69,16 +69,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public CreditsData/ChildCreditsItem[] creditsItems
     ::ArrayW<::GlobalNamespace::CreditsData::ChildCreditsItem*>& dyn_creditsItems();
     // public System.Boolean HasTitle()
-    // Offset: 0x13C58F4
+    // Offset: 0x1415044
     bool HasTitle();
     // public System.Boolean HasText()
-    // Offset: 0x13C5904
+    // Offset: 0x1415054
     bool HasText();
     // public System.Boolean HasRowItems()
-    // Offset: 0x13C5914
+    // Offset: 0x1415064
     bool HasRowItems();
     // public System.Void .ctor()
-    // Offset: 0x13C5934
+    // Offset: 0x1415084
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

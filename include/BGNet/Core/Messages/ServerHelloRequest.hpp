@@ -87,13 +87,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public readonly ByteArrayNetSerializable signature
     ::GlobalNamespace::ByteArrayNetSerializable*& dyn_signature();
     // static public PacketPool`1<BGNet.Core.Messages.ServerHelloRequest> get_pool()
-    // Offset: 0x2B7FA18
+    // Offset: 0x1529468
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ServerHelloRequest*>* get_pool();
     // public BGNet.Core.Messages.ServerHelloRequest Init(System.Byte[] random, System.Byte[] publicKey, System.Byte[] signature)
-    // Offset: 0x2B874B4
+    // Offset: 0x1530CD0
     ::BGNet::Core::Messages::ServerHelloRequest* Init(::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::ArrayW<uint8_t> signature);
     // public System.Void .ctor()
-    // Offset: 0x2B88DD4
+    // Offset: 0x15325F0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -103,17 +103,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<ServerHelloRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2B88CAC
+    // Offset: 0x15324C8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2B88D00
+    // Offset: 0x153251C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x2B88D54
+    // Offset: 0x1532570
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

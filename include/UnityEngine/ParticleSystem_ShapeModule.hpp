@@ -47,20 +47,14 @@ namespace UnityEngine {
     }
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
     ::UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
-    // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x2A55054
-    void set_position(::UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0x2A550FC
+    // Offset: 0x2AC0368
     void set_rotation(::UnityEngine::Vector3 value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x2A5462C
+    // Offset: 0x2ABFAC0
     // ABORTED: conflicts with another method.  ShapeModule(::UnityEngine::ParticleSystem* particleSystem);
-    // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x2A550AC
-    static void set_position_Injected(ByRef<::UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<::UnityEngine::Vector3> value);
     // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x2A55154
+    // Offset: 0x2AC03C0
     static void set_rotation_Injected(ByRef<::UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<::UnityEngine::Vector3> value);
   }; // UnityEngine.ParticleSystem/UnityEngine.ShapeModule
   #pragma pack(pop)
@@ -68,15 +62,6 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::ShapeModule) == 0x8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position
-// Il2CppName: set_position
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::ShapeModule::*)(::UnityEngine::Vector3)>(&UnityEngine::ParticleSystem::ShapeModule::set_position)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_rotation
 // Il2CppName: set_rotation
 template<>
@@ -90,16 +75,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position_Injected
-// Il2CppName: set_position_Injected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::ParticleSystem::ShapeModule>, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::ParticleSystem::ShapeModule::set_position_Injected)> {
-  static const MethodInfo* get() {
-    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/ShapeModule")->this_arg;
-    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, value});
-  }
-};
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_rotation_Injected
 // Il2CppName: set_rotation_Injected
 template<>

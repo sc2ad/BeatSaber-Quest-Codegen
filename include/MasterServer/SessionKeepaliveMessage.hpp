@@ -54,19 +54,19 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.SessionKeepaliveMessage> get_pool()
-    // Offset: 0x2C9929C
+    // Offset: 0x16FD510
     static ::GlobalNamespace::PacketPool_1<::MasterServer::SessionKeepaliveMessage*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2C992E4
+    // Offset: 0x16FD558
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2C992E8
+    // Offset: 0x16FD55C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2C992EC
+    // Offset: 0x16FD560
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x2C99348
+    // Offset: 0x16FD5BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

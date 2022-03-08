@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   class HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
     public:
     // private System.Void InstancerCallback()
-    // Offset: 0x1631CB4
+    // Offset: 0x169F820
     void InstancerCallback();
     // static private System.Void LogArray(System.String name, T[] arr, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFF
@@ -51,10 +51,10 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, arr, tupleSize);
     }
     // static private System.Void LogAttr(HoudiniEngineUnity.HEU_OutputAttribute outAttr)
-    // Offset: 0x1631FF8
+    // Offset: 0x169FB64
     static void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
     // public System.Void .ctor()
-    // Offset: 0x1632140
+    // Offset: 0x169FCAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

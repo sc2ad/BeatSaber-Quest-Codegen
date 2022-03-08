@@ -45,10 +45,10 @@ namespace GlobalNamespace {
   class NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
     public:
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<NoteJumpDurationTypeSettings,System.String>> GetNamedValues()
-    // Offset: 0x2B30000
+    // Offset: 0x14E7944
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
     // public System.Void .ctor()
-    // Offset: 0x2B300BC
+    // Offset: 0x14E7A00
     // Implemented from: ValueDropdownController`1
     // Base method: System.Void ValueDropdownController_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

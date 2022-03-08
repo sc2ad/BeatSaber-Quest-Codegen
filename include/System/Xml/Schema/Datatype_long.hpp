@@ -65,32 +65,27 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D66C24
+    // Offset: 0x1C38F94
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Xml.Schema.FacetsChecker Datatype_decimal::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
-    // override System.Boolean get_HasValueFacets()
-    // Offset: 0x1D66C8C
-    // Implemented from: System.Xml.Schema.DatatypeImplementation
-    // Base method: System.Boolean DatatypeImplementation::get_HasValueFacets()
-    bool get_HasValueFacets();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D66C94
+    // Offset: 0x1C38FFC
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_integer::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D66D38
+    // Offset: 0x1C390A0
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Type Datatype_decimal::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1D66DA0
+    // Offset: 0x1C39108
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Type Datatype_decimal::get_ListValueType()
     ::System::Type* get_ListValueType();
     // public System.Void .ctor()
-    // Offset: 0x1D5D84C
+    // Offset: 0x1C38CD4
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Void Datatype_integer::.ctor()
     // Base method: System.Void Datatype_decimal::.ctor()
@@ -104,19 +99,19 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_long*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D66F54
+    // Offset: 0x1C392BC
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.cctor()
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1D66C9C
+    // Offset: 0x1C39004
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Int32 Datatype_decimal::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D66E08
+    // Offset: 0x1C39170
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Exception Datatype_integer::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);
@@ -130,14 +125,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (System::Xml::Schema::Datatype_long::*)()>(&System::Xml::Schema::Datatype_long::get_FacetsChecker)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_long*), "get_FacetsChecker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_long::get_HasValueFacets
-// Il2CppName: get_HasValueFacets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::Datatype_long::*)()>(&System::Xml::Schema::Datatype_long::get_HasValueFacets)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_long*), "get_HasValueFacets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::Datatype_long::get_TypeCode

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void UnPauseCurrentChannel();
     // protected System.Void .ctor()
-    // Offset: 0x14909E4
+    // Offset: 0x14C0474
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

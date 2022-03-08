@@ -9,7 +9,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -18,6 +17,12 @@ namespace GlobalNamespace {
   class IDifficultyBeatmapSet;
   // Forward declaring type: PreviewDifficultyBeatmapSet
   class PreviewDifficultyBeatmapSet;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
+  class IReadOnlyList_1;
 }
 // Completed forward declares
 // Type namespace: 
@@ -37,25 +42,25 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class DifficultyBeatmapSetExtensions : public ::Il2CppObject {
     public:
-    // static public T[] GetDifficultyBeatmapSetsWithout360Movement(T[] difficultyBeatmapSets)
+    // static public System.Collections.Generic.IReadOnlyList`1<T> GetDifficultyBeatmapSetsWithout360Movement(System.Collections.Generic.IReadOnlyList`1<T> difficultyBeatmapSets)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<T> GetDifficultyBeatmapSetsWithout360Movement(::ArrayW<T> difficultyBeatmapSets) {
+    static ::System::Collections::Generic::IReadOnlyList_1<T>* GetDifficultyBeatmapSetsWithout360Movement(::System::Collections::Generic::IReadOnlyList_1<T>* difficultyBeatmapSets) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IDifficultyBeatmapSet>);
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "DifficultyBeatmapSetExtensions", "GetDifficultyBeatmapSetsWithout360Movement", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(difficultyBeatmapSets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
     }
-    // static public PreviewDifficultyBeatmapSet[] GetPreviewDifficultyBeatmapSets(T[] difficultyBeatmapSets)
+    // static public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> GetPreviewDifficultyBeatmapSets(System.Collections.Generic.IReadOnlyList`1<T> difficultyBeatmapSets)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*> GetPreviewDifficultyBeatmapSets(::ArrayW<T> difficultyBeatmapSets) {
+    static ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* GetPreviewDifficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<T>* difficultyBeatmapSets) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IDifficultyBeatmapSet>);
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyBeatmapSetExtensions::GetPreviewDifficultyBeatmapSets");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "DifficultyBeatmapSetExtensions", "GetPreviewDifficultyBeatmapSets", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(difficultyBeatmapSets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
     }
   }; // DifficultyBeatmapSetExtensions
   #pragma pack(pop)

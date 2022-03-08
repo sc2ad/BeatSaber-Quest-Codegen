@@ -77,13 +77,13 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> m_builder
     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>& dyn_m_builder();
     // public System.Threading.Tasks.Task get_Task()
-    // Offset: 0x1C6A140
+    // Offset: 0x1D656B4
     ::System::Threading::Tasks::Task* get_Task();
     // static private System.Void .cctor()
-    // Offset: 0x1C6A26C
+    // Offset: 0x1D657E0
     static void _cctor();
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
-    // Offset: 0x1C6A0D4
+    // Offset: 0x1D65648
     static ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -96,7 +96,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1C6A0E0
+    // Offset: 0x1D65654
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -121,10 +121,10 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult()
-    // Offset: 0x1C6A190
+    // Offset: 0x1D65704
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0x1C6A20C
+    // Offset: 0x1D65780
     void SetException(::System::Exception* exception);
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
   // WARNING Not writing size check since size may be invalid!

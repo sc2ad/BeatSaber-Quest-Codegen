@@ -57,14 +57,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_GeoInfo self
     ::HoudiniEngineUnity::HAPI_GeoInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_GeoInfo self)
-    // Offset: 0x19B6774
+    // Offset: 0x19ED524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_GeoInfo* New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_GeoInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_GeoInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_GeoInfo other)
-    // Offset: 0x19B67AC
+    // Offset: 0x19ED55C
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_GeoInfo
   #pragma pack(pop)

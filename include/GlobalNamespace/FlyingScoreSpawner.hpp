@@ -19,14 +19,12 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: NoteCutInfo
-  struct NoteCutInfo;
+  // Forward declaring type: IReadonlyCutScoreBuffer
+  class IReadonlyCutScoreBuffer;
   // Skipping declaration: FlyingObjectEffect because it is already included!
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
-  // Skipping declaration: Quaternion because it is already included!
   // Skipping declaration: Color because it is already included!
 }
 // Completed forward declares
@@ -59,14 +57,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1240B70
+    // [InjectAttribute] Offset: 0x10B5AFC
     // private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FlyingScoreEffect::Pool* flyingScoreEffectPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingScoreEffect::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x1240B80
+    // [InjectAttribute] Offset: 0x10B5B0C
     // private readonly FlyingScoreSpawner/InitData _initData
     // Size: 0x8
     // Offset: 0x20
@@ -84,14 +82,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingScoreEffect::Pool*& dyn__flyingScoreEffectPool();
     // Get instance field reference: private readonly FlyingScoreSpawner/InitData _initData
     ::GlobalNamespace::FlyingScoreSpawner::InitData*& dyn__initData();
-    // public System.Void SpawnFlyingScore(in NoteCutInfo noteCutInfo, System.Int32 noteLineIndex, System.Int32 multiplier, UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, UnityEngine.Color color)
-    // Offset: 0x2AC6644
-    void SpawnFlyingScore(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, int noteLineIndex, int multiplier, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::UnityEngine::Color color);
+    // public System.Void SpawnFlyingScore(IReadonlyCutScoreBuffer cutScoreBuffer, UnityEngine.Color color)
+    // Offset: 0x12E560C
+    void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x2AC6938
+    // Offset: 0x12E594C
     void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0x2AC6A54
+    // Offset: 0x12E5A68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,16 +110,11 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore
 // Il2CppName: SpawnFlyingScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)(ByRef<::GlobalNamespace::NoteCutInfo>, int, int, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Color)>(&GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)(::GlobalNamespace::IReadonlyCutScoreBuffer*, ::UnityEngine::Color)>(&GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore)> {
   static const MethodInfo* get() {
-    static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
-    static auto* noteLineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
-    static auto* inverseRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* cutScoreBuffer = &::il2cpp_utils::GetClassFromName("", "IReadonlyCutScoreBuffer")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreSpawner*), "SpawnFlyingScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo, noteLineIndex, multiplier, pos, rotation, inverseRotation, color});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreSpawner*), "SpawnFlyingScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutScoreBuffer, color});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreSpawner::HandleFlyingObjectEffectDidFinish

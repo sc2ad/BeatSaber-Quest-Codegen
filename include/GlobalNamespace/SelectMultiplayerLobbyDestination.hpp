@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String lobbyCode
     ::StringW& dyn_lobbyCode();
     // public System.Void .ctor(System.String lobbySecret, System.String lobbyCode)
-    // Offset: 0x2B5FB38
+    // Offset: 0x13B2958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbySecret, ::StringW lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(lobbySecret, lobbyCode)));
     }
     // public System.Void .ctor(System.UInt64 roomId)
-    // Offset: 0x2B5FB70
+    // Offset: 0x13B2990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(roomId)));
     }
     // public System.Void .ctor(System.String lobbyCode)
-    // Offset: 0x2B5FC34
+    // Offset: 0x13B2A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");

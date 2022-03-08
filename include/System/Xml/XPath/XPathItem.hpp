@@ -74,13 +74,13 @@ namespace System::Xml::XPath {
     // Offset: 0xFFFFFFFF
     int64_t get_ValueAsLong();
     // public System.Object ValueAs(System.Type returnType)
-    // Offset: 0x161ABCC
+    // Offset: 0x1B88EBC
     ::Il2CppObject* ValueAs(::System::Type* returnType);
     // public System.Object ValueAs(System.Type returnType, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor()
-    // Offset: 0x161ABE0
+    // Offset: 0x1B88ED0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

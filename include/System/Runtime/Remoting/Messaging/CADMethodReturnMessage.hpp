@@ -87,29 +87,29 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Type[] _sig
     ::ArrayW<::System::Type*>& dyn__sig();
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x1B87FD0
+    // Offset: 0x1C7F598
     int get_PropertiesCount();
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage retMsg)
-    // Offset: 0x1B87AA0
+    // Offset: 0x1C7F068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodReturnMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodReturnMessage*, creationType>(retMsg)));
     }
     // static System.Runtime.Remoting.Messaging.CADMethodReturnMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x1B87A1C
+    // Offset: 0x1C7EFE4
     static ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x1B87E20
+    // Offset: 0x1C7F3E8
     ::System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x1B87EFC
+    // Offset: 0x1C7F4C4
     ::ArrayW<::Il2CppObject*> GetArgs(::System::Collections::ArrayList* args);
     // System.Object GetReturnValue(System.Collections.ArrayList args)
-    // Offset: 0x1B87F0C
+    // Offset: 0x1C7F4D4
     ::Il2CppObject* GetReturnValue(::System::Collections::ArrayList* args);
     // System.Exception GetException(System.Collections.ArrayList args)
-    // Offset: 0x1B87F1C
+    // Offset: 0x1C7F4E4
     ::System::Exception* GetException(::System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodReturnMessage
   #pragma pack(pop)

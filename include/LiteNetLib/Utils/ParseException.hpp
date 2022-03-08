@@ -30,7 +30,7 @@ namespace LiteNetLib::Utils {
   class ParseException : public ::System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2A4EF80
+    // Offset: 0x2ABA46C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

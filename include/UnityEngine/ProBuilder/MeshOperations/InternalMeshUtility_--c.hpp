@@ -77,31 +77,31 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<System.Boolean,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<bool, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B328A4
+    // Offset: 0x1C1B3F0
     static void _cctor();
     // UnityEngine.Vector3[] <CreateMeshWithTransform>b__1_0(UnityEngine.Mesh x)
-    // Offset: 0x1B32910
+    // Offset: 0x1C1B45C
     ::ArrayW<::UnityEngine::Vector3> $CreateMeshWithTransform$b__1_0(::UnityEngine::Mesh* x);
     // UnityEngine.Color[] <CreateMeshWithTransform>b__1_1(UnityEngine.Mesh x)
-    // Offset: 0x1B3292C
+    // Offset: 0x1C1B478
     ::ArrayW<::UnityEngine::Color> $CreateMeshWithTransform$b__1_1(::UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <CreateMeshWithTransform>b__1_2(UnityEngine.Mesh x)
-    // Offset: 0x1B32948
+    // Offset: 0x1C1B494
     ::ArrayW<::UnityEngine::Vector2> $CreateMeshWithTransform$b__1_2(::UnityEngine::Mesh* x);
     // UnityEngine.Vector3[] <ResetPbObjectWithMeshFilter>b__2_0(UnityEngine.Mesh x)
-    // Offset: 0x1B32964
+    // Offset: 0x1C1B4B0
     ::ArrayW<::UnityEngine::Vector3> $ResetPbObjectWithMeshFilter$b__2_0(::UnityEngine::Mesh* x);
     // UnityEngine.Color[] <ResetPbObjectWithMeshFilter>b__2_1(UnityEngine.Mesh x)
-    // Offset: 0x1B32980
+    // Offset: 0x1C1B4CC
     ::ArrayW<::UnityEngine::Color> $ResetPbObjectWithMeshFilter$b__2_1(::UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <ResetPbObjectWithMeshFilter>b__2_2(UnityEngine.Mesh x)
-    // Offset: 0x1B3299C
+    // Offset: 0x1C1B4E8
     ::ArrayW<::UnityEngine::Vector2> $ResetPbObjectWithMeshFilter$b__2_2(::UnityEngine::Mesh* x);
     // System.Boolean <FilterUnusedSubmeshIndexes>b__3_0(System.Boolean x)
-    // Offset: 0x1B329B8
+    // Offset: 0x1C1B504
     bool $FilterUnusedSubmeshIndexes$b__3_0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x1B32908
+    // Offset: 0x1C1B454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

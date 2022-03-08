@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String achievementId
     ::StringW& dyn_achievementId();
     // System.Void <UnlockAchievement>b__0(PlatformAchievementsModelSO/UnlockAchievementResult result)
-    // Offset: 0x1486C68
+    // Offset: 0x14B6A08
     void $UnlockAchievement$b__0(::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
     // public System.Void .ctor()
-    // Offset: 0x1486B34
+    // Offset: 0x14B68D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -28,6 +28,8 @@ namespace GlobalNamespace {
   class NoteSpawnInfoNetSerializable;
   // Forward declaring type: ObstacleSpawnInfoNetSerializable
   class ObstacleSpawnInfoNetSerializable;
+  // Forward declaring type: SliderSpawnInfoNetSerializable
+  class SliderSpawnInfoNetSerializable;
   // Forward declaring type: NoteMissInfoNetSerializable
   class NoteMissInfoNetSerializable;
   // Forward declaring type: NoteCutInfoNetSerializable
@@ -105,40 +107,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _onSongFinished
     ::System::Action*& dyn__onSongFinished();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded, NodePoseSyncStateManager nodePoseSyncStateManager)
-    // Offset: 0x14240DC
+    // Offset: 0x133D1E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGeneratorMirror*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded, nodePoseSyncStateManager)));
     }
     // private System.Void FindPlayerToMirror()
-    // Offset: 0x1424E5C
+    // Offset: 0x133E0A0
     void FindPlayerToMirror();
     // private System.Void HandleNoteWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, NoteSpawnInfoNetSerializable noteSpawnInfoNetSerializable)
-    // Offset: 0x1425174
+    // Offset: 0x133E3B8
     void HandleNoteWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
     // private System.Void HandleObstacleWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, ObstacleSpawnInfoNetSerializable obstacleSpawnInfoNetSerializable)
-    // Offset: 0x14252F0
+    // Offset: 0x133E534
     void HandleObstacleWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
+    // private System.Void HandleSliderWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, SliderSpawnInfoNetSerializable sliderSpawnInfoNetSerializable)
+    // Offset: 0x133E6B0
+    void HandleSliderWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
     // private System.Void HandleNoteWasMissed(System.String userId, System.Single syncTime, System.Single songTime, NoteMissInfoNetSerializable noteMissInfo)
-    // Offset: 0x142546C
+    // Offset: 0x133E82C
     void HandleNoteWasMissed(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
     // private System.Void HandleNoteWasCut(System.String userId, System.Single syncTime, System.Single songTime, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x14255E8
+    // Offset: 0x133E9A8
     void HandleNoteWasCut(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // private System.Void HandleScoreSyncStateUpdate(StandardScoreSyncStateNetSerializable nodePose, IConnectedPlayer player)
-    // Offset: 0x1425764
+    // Offset: 0x133EB24
     void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleLevelFinished(System.String userId, MultiplayerLevelCompletionResults results)
-    // Offset: 0x1425960
+    // Offset: 0x133ED20
     void HandleLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public override System.Void Dispose()
-    // Offset: 0x1424A08
+    // Offset: 0x133DBA8
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::Dispose()
     void Dispose();
     // public override System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
-    // Offset: 0x1424D90
+    // Offset: 0x133DFD4
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     void SendPoses(float introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Threading::CancellationToken cancellationToken, ::System::Action* onSongFinished);
@@ -182,6 +187,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* obstacleSpawnInfoNetSerializable = &::il2cpp_utils::GetClassFromName("", "ObstacleSpawnInfoNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "HandleObstacleWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, syncTime, songTime, obstacleSpawnInfoNetSerializable});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleSliderWasSpawned
+// Il2CppName: HandleSliderWasSpawned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::StringW, float, float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleSliderWasSpawned)> {
+  static const MethodInfo* get() {
+    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* syncTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sliderSpawnInfoNetSerializable = &::il2cpp_utils::GetClassFromName("", "SliderSpawnInfoNetSerializable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "HandleSliderWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, syncTime, songTime, sliderSpawnInfoNetSerializable});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasMissed

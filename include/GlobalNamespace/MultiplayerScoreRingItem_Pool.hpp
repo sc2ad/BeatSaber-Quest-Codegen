@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MultiplayerScoreRingItem::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerScoreRingItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AAA7A8
+    // Offset: 0x140411C
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

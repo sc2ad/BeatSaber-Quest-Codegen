@@ -115,16 +115,16 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Get instance field reference: public System.Boolean synchronousOnly
     bool& dyn_synchronousOnly();
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x18DD770
+    // Offset: 0x1959360
     ::NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // static private NUnit.Framework.Internal.Filters.FullNameFilter OptimizedGroupFilter(System.String s)
-    // Offset: 0x18DDF00
+    // Offset: 0x1959AF0
     static ::NUnit::Framework::Internal::Filters::FullNameFilter* OptimizedGroupFilter(::StringW s);
     // static private System.Void AddFilters(System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestFilter> filters, System.String[] values, System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder)
-    // Offset: 0x18DDAB4
+    // Offset: 0x19596A4
     static void AddFilters(::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::ITestFilter*>* filters, ::ArrayW<::StringW> values, ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>* builder);
     // public System.Void .ctor()
-    // Offset: 0x18DE05C
+    // Offset: 0x1959C4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

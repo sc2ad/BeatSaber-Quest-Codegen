@@ -54,10 +54,10 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Material stencilMaterial
     ::UnityEngine::Material*& dyn_stencilMaterial();
     // System.Boolean <RemoveStencilMaterial>b__0(TMPro.TMP_MaterialManager/TMPro.MaskingMaterial item)
-    // Offset: 0x14519C8
+    // Offset: 0x145A23C
     bool $RemoveStencilMaterial$b__0(::TMPro::TMP_MaterialManager::MaskingMaterial* item);
     // public System.Void .ctor()
-    // Offset: 0x144FF8C
+    // Offset: 0x1458800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

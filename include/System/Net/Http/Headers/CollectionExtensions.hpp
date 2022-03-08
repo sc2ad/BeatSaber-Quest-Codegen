@@ -56,7 +56,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static public System.Void SetValue(System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters, System.String key, System.String value)
-    // Offset: 0x18F5018
+    // Offset: 0x195FA94
     static void SetValue(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters, ::StringW key, ::StringW value);
     // static public System.String ToString(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF

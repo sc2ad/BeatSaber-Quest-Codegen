@@ -24,7 +24,7 @@ namespace System::Resources {
   class ResourceManager::CultureNameResourceSetPair : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1C63220
+    // Offset: 0x1D5E794
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

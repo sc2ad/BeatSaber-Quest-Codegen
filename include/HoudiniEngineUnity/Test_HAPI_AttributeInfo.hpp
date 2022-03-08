@@ -57,14 +57,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo self
     ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_AttributeInfo self)
-    // Offset: 0x19B65D8
+    // Offset: 0x19ED388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_AttributeInfo* New_ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_AttributeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_AttributeInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_AttributeInfo other)
-    // Offset: 0x19B6610
+    // Offset: 0x19ED3C0
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AttributeInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_AttributeInfo
   #pragma pack(pop)

@@ -73,13 +73,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _inputsPageIndexUI
     int& dyn__inputsPageIndexUI();
     // public System.Void CopyTo(HoudiniEngineUnity.HEU_InstanceInputUIState dest)
-    // Offset: 0x1787770
+    // Offset: 0x1863E00
     void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstanceInputUIState other)
-    // Offset: 0x178779C
+    // Offset: 0x1863E2C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
     // public System.Void .ctor()
-    // Offset: 0x178792C
+    // Offset: 0x1863FBC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

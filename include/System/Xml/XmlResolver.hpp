@@ -46,16 +46,16 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // public System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
-    // Offset: 0x14DB4F8
+    // Offset: 0x15B11B8
     ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
     // public System.Boolean SupportsType(System.Uri absoluteUri, System.Type type)
-    // Offset: 0x14DB6D4
+    // Offset: 0x15B1394
     bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
     // public System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x14DB814
+    // Offset: 0x15B14D4
     ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // protected System.Void .ctor()
-    // Offset: 0x14DB874
+    // Offset: 0x15B1534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

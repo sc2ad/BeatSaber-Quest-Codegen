@@ -54,10 +54,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_loc();
     // System.Boolean <RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
-    // Offset: 0x17E105C
+    // Offset: 0x189380C
     bool $RemoveResourceLocator$b__0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
     // public System.Void .ctor()
-    // Offset: 0x17DB008
+    // Offset: 0x188D7B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -18,6 +18,11 @@ namespace System {
   // Forward declaring type: Type
   class Type;
 }
+// Forward declaring namespace: System::Collections
+namespace System::Collections {
+  // Forward declaring type: IComparer
+  class IComparer;
+}
 // Forward declaring namespace: System::ComponentModel
 namespace System::ComponentModel {
   // Forward declaring type: ITypeDescriptorContext
@@ -71,39 +76,70 @@ namespace System::ComponentModel {
     ::System::ComponentModel::TypeConverter::StandardValuesCollection*& dyn_values();
     // Get instance field reference: private System.Type type
     ::System::Type*& dyn_type();
+    // protected System.Collections.IComparer get_Comparer()
+    // Offset: 0x1D7ABD8
+    ::System::Collections::IComparer* get_Comparer();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x1DF5EB8
+    // Offset: 0x1D7A97C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumConverter* New_ctor(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::EnumConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumConverter*, creationType>(type)));
     }
     // public override System.Boolean CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
-    // Offset: 0x1DF5EE4
+    // Offset: 0x1D7A9F8
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
     bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
     // public override System.Boolean CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type destinationType)
-    // Offset: 0x1DF5FF4
+    // Offset: 0x1D7AAE8
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type destinationType)
     bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
     // public override System.Object ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
-    // Offset: 0x1DF6104
+    // Offset: 0x1D7AC40
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
     ::Il2CppObject* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
     // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
-    // Offset: 0x1DF6658
+    // Offset: 0x1D7B184
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
+    // public override System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection GetStandardValues(System.ComponentModel.ITypeDescriptorContext context)
+    // Offset: 0x1D7BEFC
+    // Implemented from: System.ComponentModel.TypeConverter
+    // Base method: System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection TypeConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext context)
+    ::System::ComponentModel::TypeConverter::StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
+    // public override System.Boolean GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext context)
+    // Offset: 0x1D7C2C0
+    // Implemented from: System.ComponentModel.TypeConverter
+    // Base method: System.Boolean TypeConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext context)
+    bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
+    // public override System.Boolean GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext context)
+    // Offset: 0x1D7C368
+    // Implemented from: System.ComponentModel.TypeConverter
+    // Base method: System.Boolean TypeConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext context)
+    bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
+    // public override System.Boolean IsValid(System.ComponentModel.ITypeDescriptorContext context, System.Object value)
+    // Offset: 0x1D7C370
+    // Implemented from: System.ComponentModel.TypeConverter
+    // Base method: System.Boolean TypeConverter::IsValid(System.ComponentModel.ITypeDescriptorContext context, System.Object value)
+    bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::Il2CppObject* value);
   }; // System.ComponentModel.EnumConverter
   #pragma pack(pop)
   static check_size<sizeof(EnumConverter), 24 + sizeof(::System::Type*)> __System_ComponentModel_EnumConverterSizeCheck;
   static_assert(sizeof(EnumConverter) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::ComponentModel::EnumConverter::get_Comparer
+// Il2CppName: get_Comparer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IComparer* (System::ComponentModel::EnumConverter::*)()>(&System::ComponentModel::EnumConverter::get_Comparer)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EnumConverter*), "get_Comparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::ComponentModel::EnumConverter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -149,5 +185,42 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EnumConverter*), "ConvertTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, culture, value, destinationType});
+  }
+};
+// Writing MetadataGetter for method: System::ComponentModel::EnumConverter::GetStandardValues
+// Il2CppName: GetStandardValues
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter::StandardValuesCollection* (System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&System::ComponentModel::EnumConverter::GetStandardValues)> {
+  static const MethodInfo* get() {
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EnumConverter*), "GetStandardValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
+  }
+};
+// Writing MetadataGetter for method: System::ComponentModel::EnumConverter::GetStandardValuesExclusive
+// Il2CppName: GetStandardValuesExclusive
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&System::ComponentModel::EnumConverter::GetStandardValuesExclusive)> {
+  static const MethodInfo* get() {
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EnumConverter*), "GetStandardValuesExclusive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
+  }
+};
+// Writing MetadataGetter for method: System::ComponentModel::EnumConverter::GetStandardValuesSupported
+// Il2CppName: GetStandardValuesSupported
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&System::ComponentModel::EnumConverter::GetStandardValuesSupported)> {
+  static const MethodInfo* get() {
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EnumConverter*), "GetStandardValuesSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
+  }
+};
+// Writing MetadataGetter for method: System::ComponentModel::EnumConverter::IsValid
+// Il2CppName: IsValid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::Il2CppObject*)>(&System::ComponentModel::EnumConverter::IsValid)> {
+  static const MethodInfo* get() {
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EnumConverter*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, value});
   }
 };

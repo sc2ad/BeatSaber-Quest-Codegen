@@ -66,13 +66,13 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Get instance field reference: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
-    // Offset: 0x18DE2D0
+    // Offset: 0x1959EC0
     ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::StringW v);
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__3(System.String v)
-    // Offset: 0x18DE338
+    // Offset: 0x1959F28
     ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::StringW v);
     // public System.Void .ctor()
-    // Offset: 0x18DE054
+    // Offset: 0x1959C44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

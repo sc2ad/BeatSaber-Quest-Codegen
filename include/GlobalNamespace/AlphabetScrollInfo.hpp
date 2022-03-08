@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::AlphabetScrollInfo::Data
     class Data;
     // public System.Void .ctor()
-    // Offset: 0x2C1557C
+    // Offset: 0x156DB70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

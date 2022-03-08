@@ -14,6 +14,12 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Skipping declaration: Interactable because it is already included!
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: SelectableCellSelectableStateController
@@ -30,22 +36,25 @@ namespace GlobalNamespace {
   class SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::SelectableCell*> {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x2B5FC8C
+    // Offset: 0x13B2AAC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2B5FD6C
+    // Offset: 0x13B2BD8
     void OnDisable();
+    // private System.Void HandleSelectableCellInteractableDidChange(HMUI.Interactable interactableCell, System.Boolean interactable)
+    // Offset: 0x13B2D04
+    void HandleSelectableCellInteractableDidChange(::HMUI::Interactable* interactableCell, bool interactable);
     // private System.Void HandleSelectableCellHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x2B5FE4C
+    // Offset: 0x13B2DE8
     void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void HandleSelectableCellSelectionStateDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object owner)
-    // Offset: 0x2B5FE8C
+    // Offset: 0x13B2DEC
     void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* owner);
     // private System.Void ResolveState(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x2B5FE50
+    // Offset: 0x13B2D9C
     void ResolveState(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x2B5FF10
+    // Offset: 0x13B2E70
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()
@@ -76,6 +85,16 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableCellSelectableStateController::*)()>(&GlobalNamespace::SelectableCellSelectableStateController::OnDisable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableCellSelectableStateController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellInteractableDidChange
+// Il2CppName: HandleSelectableCellInteractableDidChange
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableCellSelectableStateController::*)(::HMUI::Interactable*, bool)>(&GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellInteractableDidChange)> {
+  static const MethodInfo* get() {
+    static auto* interactableCell = &::il2cpp_utils::GetClassFromName("HMUI", "Interactable")->byval_arg;
+    static auto* interactable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableCellSelectableStateController*), "HandleSelectableCellInteractableDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{interactableCell, interactable});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellHighlightDidChange

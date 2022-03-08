@@ -62,21 +62,21 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x12335FC
+    // [InjectAttribute] Offset: 0x10A8968
     // private MainEffectController _mainEffectController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MainEffectController* mainEffectController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainEffectController*) == 0x8);
-    // [InjectAttribute] Offset: 0x123360C
+    // [InjectAttribute] Offset: 0x10A8978
     // private ScreenCaptureCache _screenCaptureCache
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::ScreenCaptureCache* screenCaptureCache;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ScreenCaptureCache*) == 0x8);
-    // [InjectAttribute] Offset: 0x123361C
+    // [InjectAttribute] Offset: 0x10A8988
     // private ScreenCaptureAfterDelay/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -109,16 +109,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _captureRenderTexture
     ::UnityEngine::RenderTexture*& dyn__captureRenderTexture();
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x2E0FF90
+    // Offset: 0x2A208F8
     ::System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2E1002C
+    // Offset: 0x2A20994
     void OnDestroy();
     // private System.Void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2E10110
+    // Offset: 0x2A20A78
     void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x2E10408
+    // Offset: 0x2A20D70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

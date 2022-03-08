@@ -39,7 +39,7 @@ namespace System::Xml::Schema {
   class Datatype_doubleXdr : public ::System::Xml::Schema::Datatype_double {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D5D3AC
+    // Offset: 0x1C372AC
     // Implemented from: System.Xml.Schema.Datatype_double
     // Base method: System.Void Datatype_double::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
@@ -52,7 +52,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_doubleXdr*, creationType>()));
     }
     // public override System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
-    // Offset: 0x1D65248
+    // Offset: 0x1C3707C
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Object DatatypeImplementation::ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);

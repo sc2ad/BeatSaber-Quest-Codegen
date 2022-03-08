@@ -22,8 +22,6 @@ namespace System::Xml {
   struct XmlNodeType;
   // Forward declaring type: XmlDocument
   class XmlDocument;
-  // Forward declaring type: XmlWriter
-  class XmlWriter;
 }
 // Completed forward declares
 // Type namespace: System.Xml
@@ -63,52 +61,52 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlLinkedNode lastChild
     ::System::Xml::XmlLinkedNode*& dyn_lastChild();
     // public override System.String get_Name()
-    // Offset: 0x1A13234
+    // Offset: 0x1B98C84
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x1A13260
+    // Offset: 0x1B98CB0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1A1328C
+    // Offset: 0x1B98CDC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode get_ParentNode()
-    // Offset: 0x1A13294
+    // Offset: 0x1B98CE4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_ParentNode()
     ::System::Xml::XmlNode* get_ParentNode();
     // public override System.Xml.XmlDocument get_OwnerDocument()
-    // Offset: 0x1A1329C
+    // Offset: 0x1B98CEC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlDocument XmlNode::get_OwnerDocument()
     ::System::Xml::XmlDocument* get_OwnerDocument();
     // public override System.Void set_InnerXml(System.String value)
-    // Offset: 0x1A1331C
+    // Offset: 0x1B98D6C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerXml(System.String value)
     void set_InnerXml(::StringW value);
     // override System.Boolean get_IsContainer()
-    // Offset: 0x1A13604
+    // Offset: 0x1B98E8C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsContainer()
     bool get_IsContainer();
     // override System.Xml.XmlLinkedNode get_LastNode()
-    // Offset: 0x1A1360C
+    // Offset: 0x1B98E94
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlLinkedNode XmlNode::get_LastNode()
     ::System::Xml::XmlLinkedNode* get_LastNode();
     // override System.Void set_LastNode(System.Xml.XmlLinkedNode value)
-    // Offset: 0x1A13614
+    // Offset: 0x1B98E9C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_LastNode(System.Xml.XmlLinkedNode value)
     void set_LastNode(::System::Xml::XmlLinkedNode* value);
     // protected internal System.Void .ctor(System.Xml.XmlDocument ownerDocument)
-    // Offset: 0x1A1317C
+    // Offset: 0x1B97068
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::.ctor(System.Xml.XmlDocument ownerDocument)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -117,35 +115,20 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocumentFragment*, creationType>(ownerDocument)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1A1357C
+    // Offset: 0x1B98E04
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // override System.Boolean IsValidChildType(System.Xml.XmlNodeType type)
-    // Offset: 0x1A1361C
+    // Offset: 0x1B98EA4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::IsValidChildType(System.Xml.XmlNodeType type)
     bool IsValidChildType(::System::Xml::XmlNodeType type);
     // override System.Boolean CanInsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    // Offset: 0x1A1368C
+    // Offset: 0x1B98F14
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::CanInsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
     bool CanInsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
-    // override System.Boolean CanInsertBefore(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    // Offset: 0x1A13700
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Boolean XmlNode::CanInsertBefore(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    bool CanInsertBefore(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
-    // public override System.Void WriteTo(System.Xml.XmlWriter w)
-    // Offset: 0x1A1376C
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Void XmlNode::WriteTo(System.Xml.XmlWriter w)
-    void WriteTo(::System::Xml::XmlWriter* w);
-    // public override System.Void WriteContentTo(System.Xml.XmlWriter w)
-    // Offset: 0x1A1377C
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Void XmlNode::WriteContentTo(System.Xml.XmlWriter w)
-    void WriteContentTo(::System::Xml::XmlWriter* w);
   }; // System.Xml.XmlDocumentFragment
   #pragma pack(pop)
   static check_size<sizeof(XmlDocumentFragment), 24 + sizeof(::System::Xml::XmlLinkedNode*)> __System_Xml_XmlDocumentFragmentSizeCheck;
@@ -256,33 +239,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlDocumentFragment*), "CanInsertAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild, refChild});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlDocumentFragment::CanInsertBefore
-// Il2CppName: CanInsertBefore
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlDocumentFragment::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlDocumentFragment::CanInsertBefore)> {
-  static const MethodInfo* get() {
-    static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
-    static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlDocumentFragment*), "CanInsertBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild, refChild});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlDocumentFragment::WriteTo
-// Il2CppName: WriteTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlDocumentFragment::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlDocumentFragment::WriteTo)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlDocumentFragment*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlDocumentFragment::WriteContentTo
-// Il2CppName: WriteContentTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlDocumentFragment::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlDocumentFragment::WriteContentTo)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlDocumentFragment*), "WriteContentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
   }
 };

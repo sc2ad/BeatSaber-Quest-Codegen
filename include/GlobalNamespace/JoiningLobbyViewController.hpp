@@ -89,22 +89,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didCancelEvent
     ::System::Action*& dyn_didCancelEvent();
     // public System.Void add_didCancelEvent(System.Action value)
-    // Offset: 0x13AF888
+    // Offset: 0x14A3870
     void add_didCancelEvent(::System::Action* value);
     // public System.Void remove_didCancelEvent(System.Action value)
-    // Offset: 0x13AF92C
+    // Offset: 0x14A3914
     void remove_didCancelEvent(::System::Action* value);
     // public System.Void Init(System.String text)
-    // Offset: 0x13AF9D0
+    // Offset: 0x14A39B8
     void Init(::StringW text);
     // public System.Void HideLoading()
-    // Offset: 0x13AFA08
+    // Offset: 0x14A39F0
     void HideLoading();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x13AFB1C
+    // Offset: 0x14A3B04
     void $DidActivate$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x13AFB14
+    // Offset: 0x14A3AFC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<JoiningLobbyViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13AFA54
+    // Offset: 0x14A3A3C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

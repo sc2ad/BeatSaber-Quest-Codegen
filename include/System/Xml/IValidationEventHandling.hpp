@@ -17,9 +17,6 @@ namespace System::Xml::Schema {
   struct XmlSeverityType;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppObject;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Xml
 namespace System::Xml {
   // Forward declaring type: IValidationEventHandling
@@ -36,9 +33,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class IValidationEventHandling {
     public:
-    // public System.Object get_EventHandler()
-    // Offset: 0xFFFFFFFF
-    ::Il2CppObject* get_EventHandler();
     // public System.Void SendEvent(System.Exception exception, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0xFFFFFFFF
     void SendEvent(::System::Exception* exception, ::System::Xml::Schema::XmlSeverityType severity);
@@ -46,14 +40,6 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: System::Xml::IValidationEventHandling::get_EventHandler
-// Il2CppName: get_EventHandler
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::IValidationEventHandling::*)()>(&System::Xml::IValidationEventHandling::get_EventHandler)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::IValidationEventHandling*), "get_EventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::IValidationEventHandling::SendEvent
 // Il2CppName: SendEvent
 template<>

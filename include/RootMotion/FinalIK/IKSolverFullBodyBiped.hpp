@@ -78,21 +78,21 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* rootNode;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x1265070
+    // [RangeAttribute] Offset: 0x10DBD04
     // public System.Single spineStiffness
     // Size: 0x4
     // Offset: 0xD8
     float spineStiffness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1265088
+    // [RangeAttribute] Offset: 0x10DBD1C
     // public System.Single pullBodyVertical
     // Size: 0x4
     // Offset: 0xDC
     float pullBodyVertical;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x12650A0
+    // [RangeAttribute] Offset: 0x10DBD34
     // public System.Single pullBodyHorizontal
     // Size: 0x4
     // Offset: 0xE0
@@ -125,130 +125,130 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 offset
     ::UnityEngine::Vector3& dyn_offset();
     // public RootMotion.FinalIK.IKEffector get_bodyEffector()
-    // Offset: 0x2145C74
+    // Offset: 0x21CBF6C
     ::RootMotion::FinalIK::IKEffector* get_bodyEffector();
     // public RootMotion.FinalIK.IKEffector get_leftShoulderEffector()
-    // Offset: 0x2145DBC
+    // Offset: 0x21CC0B4
     ::RootMotion::FinalIK::IKEffector* get_leftShoulderEffector();
     // public RootMotion.FinalIK.IKEffector get_rightShoulderEffector()
-    // Offset: 0x2145DC4
+    // Offset: 0x21CC0BC
     ::RootMotion::FinalIK::IKEffector* get_rightShoulderEffector();
     // public RootMotion.FinalIK.IKEffector get_leftThighEffector()
-    // Offset: 0x2145DCC
+    // Offset: 0x21CC0C4
     ::RootMotion::FinalIK::IKEffector* get_leftThighEffector();
     // public RootMotion.FinalIK.IKEffector get_rightThighEffector()
-    // Offset: 0x2145DD4
+    // Offset: 0x21CC0CC
     ::RootMotion::FinalIK::IKEffector* get_rightThighEffector();
     // public RootMotion.FinalIK.IKEffector get_leftHandEffector()
-    // Offset: 0x2145DDC
+    // Offset: 0x21CC0D4
     ::RootMotion::FinalIK::IKEffector* get_leftHandEffector();
     // public RootMotion.FinalIK.IKEffector get_rightHandEffector()
-    // Offset: 0x2145DE4
+    // Offset: 0x21CC0DC
     ::RootMotion::FinalIK::IKEffector* get_rightHandEffector();
     // public RootMotion.FinalIK.IKEffector get_leftFootEffector()
-    // Offset: 0x2145DEC
+    // Offset: 0x21CC0E4
     ::RootMotion::FinalIK::IKEffector* get_leftFootEffector();
     // public RootMotion.FinalIK.IKEffector get_rightFootEffector()
-    // Offset: 0x2145DF4
+    // Offset: 0x21CC0EC
     ::RootMotion::FinalIK::IKEffector* get_rightFootEffector();
     // public RootMotion.FinalIK.FBIKChain get_leftArmChain()
-    // Offset: 0x2145DFC
+    // Offset: 0x21CC0F4
     ::RootMotion::FinalIK::FBIKChain* get_leftArmChain();
     // public RootMotion.FinalIK.FBIKChain get_rightArmChain()
-    // Offset: 0x2145E34
+    // Offset: 0x21CC12C
     ::RootMotion::FinalIK::FBIKChain* get_rightArmChain();
     // public RootMotion.FinalIK.FBIKChain get_leftLegChain()
-    // Offset: 0x2145E6C
+    // Offset: 0x21CC164
     ::RootMotion::FinalIK::FBIKChain* get_leftLegChain();
     // public RootMotion.FinalIK.FBIKChain get_rightLegChain()
-    // Offset: 0x2145EA4
+    // Offset: 0x21CC19C
     ::RootMotion::FinalIK::FBIKChain* get_rightLegChain();
     // public RootMotion.FinalIK.IKMappingLimb get_leftArmMapping()
-    // Offset: 0x2145EDC
+    // Offset: 0x21CC1D4
     ::RootMotion::FinalIK::IKMappingLimb* get_leftArmMapping();
     // public RootMotion.FinalIK.IKMappingLimb get_rightArmMapping()
-    // Offset: 0x2145F10
+    // Offset: 0x21CC208
     ::RootMotion::FinalIK::IKMappingLimb* get_rightArmMapping();
     // public RootMotion.FinalIK.IKMappingLimb get_leftLegMapping()
-    // Offset: 0x2145F48
+    // Offset: 0x21CC240
     ::RootMotion::FinalIK::IKMappingLimb* get_leftLegMapping();
     // public RootMotion.FinalIK.IKMappingLimb get_rightLegMapping()
-    // Offset: 0x2145F80
+    // Offset: 0x21CC278
     ::RootMotion::FinalIK::IKMappingLimb* get_rightLegMapping();
     // public RootMotion.FinalIK.IKMappingBone get_headMapping()
-    // Offset: 0x2145FB8
+    // Offset: 0x21CC2B0
     ::RootMotion::FinalIK::IKMappingBone* get_headMapping();
     // public UnityEngine.Vector3 get_pullBodyOffset()
-    // Offset: 0x2147F7C
+    // Offset: 0x21CE274
     ::UnityEngine::Vector3 get_pullBodyOffset();
     // private System.Void set_pullBodyOffset(UnityEngine.Vector3 value)
-    // Offset: 0x2147F88
+    // Offset: 0x21CE280
     void set_pullBodyOffset(::UnityEngine::Vector3 value);
     // public System.Void SetChainWeights(RootMotion.FinalIK.FullBodyBipedChain c, System.Single pull, System.Single reach)
-    // Offset: 0x2145FEC
+    // Offset: 0x21CC2E4
     void SetChainWeights(::RootMotion::FinalIK::FullBodyBipedChain c, float pull, float reach);
     // public System.Void SetEffectorWeights(RootMotion.FinalIK.FullBodyBipedEffector effector, System.Single positionWeight, System.Single rotationWeight)
-    // Offset: 0x21460F8
+    // Offset: 0x21CC3F0
     void SetEffectorWeights(::RootMotion::FinalIK::FullBodyBipedEffector effector, float positionWeight, float rotationWeight);
     // public RootMotion.FinalIK.FBIKChain GetChain(RootMotion.FinalIK.FullBodyBipedChain c)
-    // Offset: 0x2146040
+    // Offset: 0x21CC338
     ::RootMotion::FinalIK::FBIKChain* GetChain(::RootMotion::FinalIK::FullBodyBipedChain c);
     // public RootMotion.FinalIK.FBIKChain GetChain(RootMotion.FinalIK.FullBodyBipedEffector effector)
-    // Offset: 0x21461D4
+    // Offset: 0x21CC4CC
     ::RootMotion::FinalIK::FBIKChain* GetChain(::RootMotion::FinalIK::FullBodyBipedEffector effector);
     // public RootMotion.FinalIK.IKEffector GetEffector(RootMotion.FinalIK.FullBodyBipedEffector effector)
-    // Offset: 0x2145C7C
+    // Offset: 0x21CBF74
     ::RootMotion::FinalIK::IKEffector* GetEffector(::RootMotion::FinalIK::FullBodyBipedEffector effector);
     // public RootMotion.FinalIK.IKEffector GetEndEffector(RootMotion.FinalIK.FullBodyBipedChain c)
-    // Offset: 0x21462A4
+    // Offset: 0x21CC59C
     ::RootMotion::FinalIK::IKEffector* GetEndEffector(::RootMotion::FinalIK::FullBodyBipedChain c);
     // public RootMotion.FinalIK.IKMappingLimb GetLimbMapping(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x214635C
+    // Offset: 0x21CC654
     ::RootMotion::FinalIK::IKMappingLimb* GetLimbMapping(::RootMotion::FinalIK::FullBodyBipedChain chain);
     // public RootMotion.FinalIK.IKMappingLimb GetLimbMapping(RootMotion.FinalIK.FullBodyBipedEffector effector)
-    // Offset: 0x2146410
+    // Offset: 0x21CC708
     ::RootMotion::FinalIK::IKMappingLimb* GetLimbMapping(::RootMotion::FinalIK::FullBodyBipedEffector effector);
     // public RootMotion.FinalIK.IKMappingSpine GetSpineMapping()
-    // Offset: 0x21464C4
+    // Offset: 0x21CC7BC
     ::RootMotion::FinalIK::IKMappingSpine* GetSpineMapping();
     // public RootMotion.FinalIK.IKMappingBone GetHeadMapping()
-    // Offset: 0x21464CC
+    // Offset: 0x21CC7C4
     ::RootMotion::FinalIK::IKMappingBone* GetHeadMapping();
     // public RootMotion.FinalIK.IKConstraintBend GetBendConstraint(RootMotion.FinalIK.FullBodyBipedChain limb)
-    // Offset: 0x2146500
+    // Offset: 0x21CC7F8
     ::RootMotion::FinalIK::IKConstraintBend* GetBendConstraint(::RootMotion::FinalIK::FullBodyBipedChain limb);
     // public System.Void SetToReferences(RootMotion.BipedReferences references, UnityEngine.Transform rootNode)
-    // Offset: 0x2146758
+    // Offset: 0x21CCA50
     void SetToReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode);
     // static public UnityEngine.Transform DetectRootNodeBone(RootMotion.BipedReferences references)
-    // Offset: 0x2147894
+    // Offset: 0x21CDB8C
     static ::UnityEngine::Transform* DetectRootNodeBone(::RootMotion::BipedReferences* references);
     // public System.Void SetLimbOrientations(RootMotion.BipedLimbOrientations o)
-    // Offset: 0x2147D28
+    // Offset: 0x21CE020
     void SetLimbOrientations(::RootMotion::BipedLimbOrientations* o);
     // private System.Void SetLimbOrientation(RootMotion.FinalIK.FullBodyBipedChain chain, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation limbOrientation)
-    // Offset: 0x2147D88
+    // Offset: 0x21CE080
     void SetLimbOrientation(::RootMotion::FinalIK::FullBodyBipedChain chain, ::RootMotion::BipedLimbOrientations::LimbOrientation* limbOrientation);
     // static private UnityEngine.Transform GetLeftClavicle(RootMotion.BipedReferences references)
-    // Offset: 0x2147BA8
+    // Offset: 0x21CDEA0
     static ::UnityEngine::Transform* GetLeftClavicle(::RootMotion::BipedReferences* references);
     // static private UnityEngine.Transform GetRightClavicle(RootMotion.BipedReferences references)
-    // Offset: 0x2147C68
+    // Offset: 0x21CDF60
     static ::UnityEngine::Transform* GetRightClavicle(::RootMotion::BipedReferences* references);
     // static private System.Boolean Contains(UnityEngine.Transform[] array, UnityEngine.Transform transform)
-    // Offset: 0x2147F94
+    // Offset: 0x21CE28C
     static bool Contains(::ArrayW<::UnityEngine::Transform*> array, ::UnityEngine::Transform* transform);
     // private System.Void PullBody()
-    // Offset: 0x21481B8
+    // Offset: 0x21CE4B0
     void PullBody();
     // private UnityEngine.Vector3 GetBodyOffset()
-    // Offset: 0x2148348
+    // Offset: 0x21CE640
     ::UnityEngine::Vector3 GetBodyOffset();
     // private UnityEngine.Vector3 GetHandBodyPull(RootMotion.FinalIK.IKEffector effector, RootMotion.FinalIK.FBIKChain arm, UnityEngine.Vector3 offset)
-    // Offset: 0x2148548
+    // Offset: 0x21CE840
     ::UnityEngine::Vector3 GetHandBodyPull(::RootMotion::FinalIK::IKEffector* effector, ::RootMotion::FinalIK::FBIKChain* arm, ::UnityEngine::Vector3 offset);
     // public System.Void .ctor()
-    // Offset: 0x2148B7C
+    // Offset: 0x21CEE74
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody
     // Base method: System.Void IKSolverFullBody::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -259,22 +259,22 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFullBodyBiped*, creationType>()));
     }
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x21465C8
+    // Offset: 0x21CC8C0
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody
     // Base method: System.Boolean IKSolverFullBody::IsValid(ref System.String message)
     bool IsValid(ByRef<::StringW> message);
     // protected override System.Void ReadPose()
-    // Offset: 0x2148070
+    // Offset: 0x21CE368
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody
     // Base method: System.Void IKSolverFullBody::ReadPose()
     void ReadPose();
     // protected override System.Void ApplyBendConstraints()
-    // Offset: 0x2148748
+    // Offset: 0x21CEA40
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody
     // Base method: System.Void IKSolverFullBody::ApplyBendConstraints()
     void ApplyBendConstraints();
     // protected override System.Void WritePose()
-    // Offset: 0x2148A7C
+    // Offset: 0x21CED74
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody
     // Base method: System.Void IKSolverFullBody::WritePose()
     void WritePose();

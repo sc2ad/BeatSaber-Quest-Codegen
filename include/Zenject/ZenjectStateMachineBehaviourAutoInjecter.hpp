@@ -72,19 +72,19 @@ namespace Zenject {
     // Get instance field reference: private UnityEngine.Animator _animator
     ::UnityEngine::Animator*& dyn__animator();
     // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x247345C
+    // Offset: 0x1D0C26C
     void Construct(::Zenject::DiContainer* container);
     // public System.Void Start()
-    // Offset: 0x24734C8
+    // Offset: 0x1D0C2D8
     void Start();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x24735C4
+    // Offset: 0x1D0C3D4
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x24736B8
+    // Offset: 0x1D0C4C8
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x24735BC
+    // Offset: 0x1D0C3CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

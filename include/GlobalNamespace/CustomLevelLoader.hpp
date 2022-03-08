@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _smallDefaultPackCover
     ::UnityEngine::Sprite*& dyn__smallDefaultPackCover();
     // public System.Void .ctor()
-    // Offset: 0x13C723C
+    // Offset: 0x14171D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

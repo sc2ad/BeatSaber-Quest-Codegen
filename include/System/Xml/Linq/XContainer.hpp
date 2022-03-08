@@ -18,8 +18,6 @@
 namespace System::Xml::Linq {
   // Forward declaring type: XAttribute
   class XAttribute;
-  // Forward declaring type: LoadOptions
-  struct LoadOptions;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -34,8 +32,6 @@ namespace System {
 }
 // Forward declaring namespace: System::Xml
 namespace System::Xml {
-  // Forward declaring type: XmlReader
-  class XmlReader;
   // Forward declaring type: XmlWriter
   class XmlWriter;
 }
@@ -84,77 +80,71 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.Object content
     ::Il2CppObject*& dyn_content();
     // public System.Xml.Linq.XNode get_LastNode()
-    // Offset: 0x29E1024
+    // Offset: 0x2A7E0DC
     ::System::Xml::Linq::XNode* get_LastNode();
     // System.Void .ctor(System.Xml.Linq.XContainer other)
-    // Offset: 0x29E0E30
+    // Offset: 0x2A7DEE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XContainer* New_ctor(::System::Xml::Linq::XContainer* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XContainer*, creationType>(other)));
     }
     // public System.Void Add(System.Object content)
-    // Offset: 0x29E1158
+    // Offset: 0x2A7E210
     void Add(::Il2CppObject* content);
     // public System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XNode> Nodes()
-    // Offset: 0x29E1D78
+    // Offset: 0x2A7EE28
     ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* Nodes();
     // System.Void AddAttribute(System.Xml.Linq.XAttribute a)
-    // Offset: 0x29E1E30
+    // Offset: 0x2A7EEE0
     void AddAttribute(::System::Xml::Linq::XAttribute* a);
     // System.Void AddAttributeSkipNotify(System.Xml.Linq.XAttribute a)
-    // Offset: 0x29E1E34
+    // Offset: 0x2A7EEE4
     void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
     // System.Void AddContentSkipNotify(System.Object content)
-    // Offset: 0x29E15F8
+    // Offset: 0x2A7E6B0
     void AddContentSkipNotify(::Il2CppObject* content);
     // System.Void AddNode(System.Xml.Linq.XNode n)
-    // Offset: 0x29E19FC
+    // Offset: 0x2A7EAB4
     void AddNode(::System::Xml::Linq::XNode* n);
     // System.Void AddNodeSkipNotify(System.Xml.Linq.XNode n)
-    // Offset: 0x29E1E38
+    // Offset: 0x2A7EEE8
     void AddNodeSkipNotify(::System::Xml::Linq::XNode* n);
     // System.Void AddString(System.String s)
-    // Offset: 0x29E1A80
+    // Offset: 0x2A7EB34
     void AddString(::StringW s);
     // System.Void AddStringSkipNotify(System.String s)
-    // Offset: 0x29E1EBC
+    // Offset: 0x2A7EF68
     void AddStringSkipNotify(::StringW s);
     // System.Void AppendNode(System.Xml.Linq.XNode n)
-    // Offset: 0x29E20B4
+    // Offset: 0x2A7F15C
     void AppendNode(::System::Xml::Linq::XNode* n);
     // System.Void AppendNodeSkipNotify(System.Xml.Linq.XNode n)
-    // Offset: 0x29E0F60
+    // Offset: 0x2A7E018
     void AppendNodeSkipNotify(::System::Xml::Linq::XNode* n);
     // System.Void ConvertTextToNode()
-    // Offset: 0x29E2008
+    // Offset: 0x2A7F0B0
     void ConvertTextToNode();
     // static System.String GetDateTimeString(System.DateTime value)
-    // Offset: 0x29E2550
+    // Offset: 0x2A7F5F8
     static ::StringW GetDateTimeString(::System::DateTime value);
     // static System.String GetStringValue(System.Object value)
-    // Offset: 0x29DFCB8
+    // Offset: 0x2A7CD70
     static ::StringW GetStringValue(::Il2CppObject* value);
-    // System.Void ReadContentFrom(System.Xml.XmlReader r)
-    // Offset: 0x29E25BC
-    void ReadContentFrom(::System::Xml::XmlReader* r);
-    // System.Void ReadContentFrom(System.Xml.XmlReader r, System.Xml.Linq.LoadOptions o)
-    // Offset: 0x29E2DAC
-    void ReadContentFrom(::System::Xml::XmlReader* r, ::System::Xml::Linq::LoadOptions o);
     // System.Void RemoveNode(System.Xml.Linq.XNode n)
-    // Offset: 0x29E3CDC
+    // Offset: 0x2A7F664
     void RemoveNode(::System::Xml::Linq::XNode* n);
     // System.Void ValidateNode(System.Xml.Linq.XNode node, System.Xml.Linq.XNode previous)
-    // Offset: 0x29E3E88
+    // Offset: 0x2A7F810
     void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
     // System.Void ValidateString(System.String s)
-    // Offset: 0x29E3E8C
+    // Offset: 0x2A7F814
     void ValidateString(::StringW s);
     // System.Void WriteContentTo(System.Xml.XmlWriter writer)
-    // Offset: 0x29E3E90
+    // Offset: 0x2A7F818
     void WriteContentTo(::System::Xml::XmlWriter* writer);
     // System.Void .ctor()
-    // Offset: 0x29E0E28
+    // Offset: 0x2A7DEE0
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::.ctor()
     // Base method: System.Void XObject::.ctor()
@@ -165,7 +155,7 @@ namespace System::Xml::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<XContainer*, creationType>()));
     }
     // override System.Void AppendText(System.Text.StringBuilder sb)
-    // Offset: 0x29E245C
+    // Offset: 0x2A7F504
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::AppendText(System.Text.StringBuilder sb)
     void AppendText(::System::Text::StringBuilder* sb);
@@ -309,25 +299,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XContainer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Linq::XContainer::ReadContentFrom
-// Il2CppName: ReadContentFrom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XContainer::*)(::System::Xml::XmlReader*)>(&System::Xml::Linq::XContainer::ReadContentFrom)> {
-  static const MethodInfo* get() {
-    static auto* r = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XContainer*), "ReadContentFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Linq::XContainer::ReadContentFrom
-// Il2CppName: ReadContentFrom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XContainer::*)(::System::Xml::XmlReader*, ::System::Xml::Linq::LoadOptions)>(&System::Xml::Linq::XContainer::ReadContentFrom)> {
-  static const MethodInfo* get() {
-    static auto* r = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
-    static auto* o = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "LoadOptions")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XContainer*), "ReadContentFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, o});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Linq::XContainer::RemoveNode

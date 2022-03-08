@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IDifficultyBeatmap
-  class IDifficultyBeatmap;
+  // Forward declaring type: IReadonlyBeatmapData
+  class IReadonlyBeatmapData;
 }
 // Completed forward declares
 // Type namespace: 
@@ -36,16 +36,16 @@ namespace GlobalNamespace {
   class BaseResultsEnvironmentController : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void Activate(System.Boolean immediately)
-    // Offset: 0x2B3D2D0
+    // Offset: 0x136EB44
     void Activate(bool immediately);
     // public System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x2B3D2F8
+    // Offset: 0x136EB6C
     void Deactivate(bool immediately);
-    // public System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
+    // public System.Void Setup(IReadonlyBeatmapData beatmapData)
     // Offset: 0xFFFFFFFF
-    void Setup(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // protected System.Void .ctor()
-    // Offset: 0x2B3D320
+    // Offset: 0x136EB94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -82,10 +82,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BaseResultsEnvironmentController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseResultsEnvironmentController::*)(::GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::BaseResultsEnvironmentController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseResultsEnvironmentController::*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BaseResultsEnvironmentController::Setup)> {
   static const MethodInfo* get() {
-    static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
+    static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BaseResultsEnvironmentController::New_ctor

@@ -38,12 +38,12 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
-    // static field const value: static public ScoreUIController/ScoreDisplayType RawScore
-    static constexpr const int RawScore = 0;
-    // Get static field: static public ScoreUIController/ScoreDisplayType RawScore
-    static ::GlobalNamespace::ScoreUIController::ScoreDisplayType _get_RawScore();
-    // Set static field: static public ScoreUIController/ScoreDisplayType RawScore
-    static void _set_RawScore(::GlobalNamespace::ScoreUIController::ScoreDisplayType value);
+    // static field const value: static public ScoreUIController/ScoreDisplayType MultipliedScore
+    static constexpr const int MultipliedScore = 0;
+    // Get static field: static public ScoreUIController/ScoreDisplayType MultipliedScore
+    static ::GlobalNamespace::ScoreUIController::ScoreDisplayType _get_MultipliedScore();
+    // Set static field: static public ScoreUIController/ScoreDisplayType MultipliedScore
+    static void _set_MultipliedScore(::GlobalNamespace::ScoreUIController::ScoreDisplayType value);
     // static field const value: static public ScoreUIController/ScoreDisplayType ModifiedScore
     static constexpr const int ModifiedScore = 1;
     // Get static field: static public ScoreUIController/ScoreDisplayType ModifiedScore

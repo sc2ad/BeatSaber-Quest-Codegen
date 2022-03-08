@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public Polyglot.Language language
     ::Polyglot::Language& dyn_language();
     // System.Boolean <get_localizedAudioClip>b__0(LocalizedAudioClipSO/LocalizedAudioClipInfo t)
-    // Offset: 0x2BA5CA8
+    // Offset: 0x13D9B0C
     bool $get_localizedAudioClip$b__0(::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x2BA5C98
+    // Offset: 0x13D9AFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

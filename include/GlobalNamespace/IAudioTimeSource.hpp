@@ -30,6 +30,9 @@ namespace GlobalNamespace {
     // public System.Single get_songEndTime()
     // Offset: 0xFFFFFFFF
     float get_songEndTime();
+    // public System.Single get_songLength()
+    // Offset: 0xFFFFFFFF
+    float get_songLength();
     // public System.Boolean get_isReady()
     // Offset: 0xFFFFFFFF
     bool get_isReady();
@@ -59,6 +62,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IAudioTimeSource::*)()>(&GlobalNamespace::IAudioTimeSource::get_songEndTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAudioTimeSource*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IAudioTimeSource::get_songLength
+// Il2CppName: get_songLength
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IAudioTimeSource::*)()>(&GlobalNamespace::IAudioTimeSource::get_songLength)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAudioTimeSource*), "get_songLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IAudioTimeSource::get_isReady

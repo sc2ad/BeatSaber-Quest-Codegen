@@ -58,10 +58,10 @@ namespace TMPro {
     // Get instance field reference: public System.UInt32 second
     uint& dyn_second();
     // System.Boolean <AddKerningPair>b__0(TMPro.KerningPair item)
-    // Offset: 0x1404834
+    // Offset: 0x142622C
     bool $AddKerningPair$b__0(::TMPro::KerningPair* item);
     // public System.Void .ctor()
-    // Offset: 0x14042D4
+    // Offset: 0x1425CCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

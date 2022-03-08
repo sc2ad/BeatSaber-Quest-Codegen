@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly NoteLineLayer noteLineLayer
     ::GlobalNamespace::NoteLineLayer& dyn_noteLineLayer();
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x2AEE920
+    // Offset: 0x138DBEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialJumpingNoteSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData::.ctor");

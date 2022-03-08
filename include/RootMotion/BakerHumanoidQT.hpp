@@ -201,42 +201,42 @@ namespace RootMotion {
     // Get instance field reference: private System.Boolean lastQSet
     bool& dyn_lastQSet();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x221DDF0
+    // Offset: 0x2221C64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(name)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
-    // Offset: 0x221E03C
+    // Offset: 0x2221EB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(transform, goal, name)));
     }
     // public System.Void Reset()
-    // Offset: 0x221DF10
+    // Offset: 0x2221D84
     void Reset();
     // public System.Void SetIKKeyframes(System.Single time, UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.Vector3 bodyPosition, UnityEngine.Quaternion bodyRotation)
-    // Offset: 0x221E174
+    // Offset: 0x2221FE8
     void SetIKKeyframes(float time, ::UnityEngine::Avatar* avatar, float humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation);
     // public System.Void SetKeyframes(System.Single time, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x221E61C
+    // Offset: 0x2222490
     void SetKeyframes(float time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // public System.Void MoveLastKeyframes(System.Single time)
-    // Offset: 0x221E718
+    // Offset: 0x222258C
     void MoveLastKeyframes(float time);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x221E814
+    // Offset: 0x2222688
     void SetLoopFrame(float time);
     // private System.Void MoveLastKeyframe(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x221E78C
+    // Offset: 0x2222600
     void MoveLastKeyframe(float time, ::UnityEngine::AnimationCurve* curve);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x221EAD4
+    // Offset: 0x2222948
     void MultiplyLength(::UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x221EB88
+    // Offset: 0x22229FC
     void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT
   #pragma pack(pop)

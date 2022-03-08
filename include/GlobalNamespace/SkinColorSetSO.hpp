@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private SkinColorSO[] _colors
     ::ArrayW<::GlobalNamespace::SkinColorSO*>& dyn__colors();
     // public SkinColorSO[] get_colors()
-    // Offset: 0x13CF358
+    // Offset: 0x13B990C
     ::ArrayW<::GlobalNamespace::SkinColorSO*> get_colors();
     // public System.Void .ctor()
-    // Offset: 0x13CF360
+    // Offset: 0x13B9914
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

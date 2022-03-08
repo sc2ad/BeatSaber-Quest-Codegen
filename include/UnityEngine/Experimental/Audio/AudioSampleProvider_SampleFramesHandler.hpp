@@ -35,20 +35,20 @@ namespace UnityEngine::Experimental::Audio {
   class AudioSampleProvider::SampleFramesHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2A40A08
+    // Offset: 0x2AAE004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioSampleProvider::SampleFramesHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioSampleProvider::SampleFramesHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount)
-    // Offset: 0x2A405E0
+    // Offset: 0x2AADBDC
     void Invoke(::UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2A40A18
+    // Offset: 0x2AAE014
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2A40AB4
+    // Offset: 0x2AAE0B0
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler
   #pragma pack(pop)

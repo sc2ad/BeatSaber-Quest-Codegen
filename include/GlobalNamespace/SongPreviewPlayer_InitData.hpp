@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single ambientVolumeScale
     float& dyn_ambientVolumeScale();
     // public System.Void .ctor(System.Single ambientVolumeScale)
-    // Offset: 0x13D3B0C
+    // Offset: 0x13ED978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::InitData* New_ctor(float ambientVolumeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::InitData::.ctor");

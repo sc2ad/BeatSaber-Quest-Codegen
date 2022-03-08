@@ -124,7 +124,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1248FF8
+    // [InjectAttribute] Offset: 0x10BE2D8
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x18
@@ -153,25 +153,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private SelectableStateController/ViewState <currentViewState>k__BackingField
     ::GlobalNamespace::SelectableStateController::ViewState& dyn_$currentViewState$k__BackingField();
     // public Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x2B600A8
+    // Offset: 0x13B3008
     ::Tweening::TimeTweeningManager* get_tweeningManager();
     // private SelectableStateController/ViewState get_currentViewState()
-    // Offset: 0x2B600B0
+    // Offset: 0x13B3010
     ::GlobalNamespace::SelectableStateController::ViewState get_currentViewState();
     // private System.Void set_currentViewState(SelectableStateController/ViewState value)
-    // Offset: 0x2B600B8
+    // Offset: 0x13B3018
     void set_currentViewState(::GlobalNamespace::SelectableStateController::ViewState value);
     // public System.Void add_stateDidChangeEvent(System.Action`2<SelectableStateController/ViewState,System.Boolean> value)
-    // Offset: 0x2B5FF60
+    // Offset: 0x13B2EC0
     void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController::ViewState, bool>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`2<SelectableStateController/ViewState,System.Boolean> value)
-    // Offset: 0x2B60004
+    // Offset: 0x13B2F64
     void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController::ViewState, bool>* value);
     // protected System.Void SetState(SelectableStateController/ViewState state, System.Boolean animated)
-    // Offset: 0x2B5FE90
+    // Offset: 0x13B2DF0
     void SetState(::GlobalNamespace::SelectableStateController::ViewState state, bool animated);
     // protected System.Void .ctor()
-    // Offset: 0x2B600C0
+    // Offset: 0x13B3020
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

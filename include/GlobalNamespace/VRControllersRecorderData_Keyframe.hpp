@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single time
     float& dyn_time();
     // public System.Void .ctor(VRControllersRecorderData/PositionAndRotation[] positionAndRotations, System.Single time)
-    // Offset: 0x2CB8E04
+    // Offset: 0x1A92210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData::Keyframe* New_ctor(::ArrayW<::GlobalNamespace::VRControllersRecorderData::PositionAndRotation> positionAndRotations, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderData::Keyframe::.ctor");

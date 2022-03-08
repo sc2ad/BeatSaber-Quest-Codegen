@@ -27,21 +27,17 @@ namespace System::ComponentModel {
   class ICustomTypeDescriptor;
   // Forward declaring type: MemberDescriptor
   class MemberDescriptor;
-  // Forward declaring type: PropertyDescriptorCollection
-  class PropertyDescriptorCollection;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
   // Forward declaring type: Hashtable
   class Hashtable;
-  // Forward declaring type: ArrayList
-  class ArrayList;
-  // Forward declaring type: IList
-  class IList;
   // Forward declaring type: IDictionary
   class IDictionary;
   // Forward declaring type: ICollection
   class ICollection;
+  // Forward declaring type: IList
+  class IList;
 }
 // Forward declaring namespace: System::Diagnostics
 namespace System::Diagnostics {
@@ -52,10 +48,6 @@ namespace System::Diagnostics {
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: IServiceProvider
-  class IServiceProvider;
-  // Forward declaring type: Attribute
-  class Attribute;
 }
 // Completed forward declares
 // Type namespace: System.ComponentModel
@@ -74,8 +66,6 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeDescriptor : public ::Il2CppObject {
     public:
-    // Nested type: ::System::ComponentModel::TypeDescriptor::AttributeFilterCacheItem
-    class AttributeFilterCacheItem;
     // Nested type: ::System::ComponentModel::TypeDescriptor::FilterCacheItem
     class FilterCacheItem;
     // Nested type: ::System::ComponentModel::TypeDescriptor::IUnimplemented
@@ -102,10 +92,6 @@ namespace System::ComponentModel {
     static ::System::Collections::Hashtable* _get__defaultProviders();
     // Set static field: static private System.Collections.Hashtable _defaultProviders
     static void _set__defaultProviders(::System::Collections::Hashtable* value);
-    // Get static field: static private System.ComponentModel.WeakHashtable _associationTable
-    static ::System::ComponentModel::WeakHashtable* _get__associationTable();
-    // Set static field: static private System.ComponentModel.WeakHashtable _associationTable
-    static void _set__associationTable(::System::ComponentModel::WeakHashtable* value);
     // Get static field: static private System.Int32 _metadataVersion
     static int _get__metadataVersion();
     // Set static field: static private System.Int32 _metadataVersion
@@ -143,112 +129,88 @@ namespace System::ComponentModel {
     // Set static field: static private System.ComponentModel.RefreshEventHandler Refreshed
     static void _set_Refreshed(::System::ComponentModel::RefreshEventHandler* value);
     // static public System.Type get_ComObjectType()
-    // Offset: 0x1EC9988
+    // Offset: 0x1D87118
     static ::System::Type* get_ComObjectType();
     // static public System.Type get_InterfaceType()
-    // Offset: 0x1EC99F8
+    // Offset: 0x1D87188
     static ::System::Type* get_InterfaceType();
     // static System.Int32 get_MetadataVersion()
-    // Offset: 0x1EC9A68
+    // Offset: 0x1D871F8
     static int get_MetadataVersion();
     // static private System.Void .cctor()
-    // Offset: 0x1ED05B4
+    // Offset: 0x1D8C554
     static void _cctor();
     // static public System.Void AddProvider(System.ComponentModel.TypeDescriptionProvider provider, System.Type type)
-    // Offset: 0x1EC9AD0
+    // Offset: 0x1D87260
     static void AddProvider(::System::ComponentModel::TypeDescriptionProvider* provider, ::System::Type* type);
     // static private System.Void CheckDefaultProvider(System.Type type)
-    // Offset: 0x1ECA784
+    // Offset: 0x1D87EE8
     static void CheckDefaultProvider(::System::Type* type);
-    // static public System.Object CreateInstance(System.IServiceProvider provider, System.Type objectType, System.Type[] argTypes, System.Object[] args)
-    // Offset: 0x1ECAD8C
-    static ::Il2CppObject* CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::Il2CppObject*> args);
-    // static private System.Collections.ArrayList FilterMembers(System.Collections.IList members, System.Attribute[] attributes)
-    // Offset: 0x1ECB098
-    static ::System::Collections::ArrayList* FilterMembers(::System::Collections::IList* members, ::ArrayW<::System::Attribute*> attributes);
-    // static public System.Object GetAssociation(System.Type type, System.Object primary)
-    // Offset: 0x1EC4A38
-    static ::Il2CppObject* GetAssociation(::System::Type* type, ::Il2CppObject* primary);
     // static public System.ComponentModel.AttributeCollection GetAttributes(System.Type componentType)
-    // Offset: 0x1EC5AC4
+    // Offset: 0x1D845D8
     static ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Type* componentType);
     // static public System.ComponentModel.AttributeCollection GetAttributes(System.Object component)
-    // Offset: 0x1EC6E4C
+    // Offset: 0x1D8471C
     static ::System::ComponentModel::AttributeCollection* GetAttributes(::Il2CppObject* component);
     // static public System.ComponentModel.AttributeCollection GetAttributes(System.Object component, System.Boolean noCustomTypeDesc)
-    // Offset: 0x1ECB590
+    // Offset: 0x1D885E4
     static ::System::ComponentModel::AttributeCollection* GetAttributes(::Il2CppObject* component, bool noCustomTypeDesc);
     // static System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1EC28C0
+    // Offset: 0x1D8B588
     static ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // static public System.ComponentModel.TypeConverter GetConverter(System.Type type)
-    // Offset: 0x1ECED24
+    // Offset: 0x1D8BDD4
     static ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
     // static System.ComponentModel.ICustomTypeDescriptor GetDescriptor(System.Type type, System.String typeName)
-    // Offset: 0x1ECB49C
+    // Offset: 0x1D884F0
     static ::System::ComponentModel::ICustomTypeDescriptor* GetDescriptor(::System::Type* type, ::StringW typeName);
     // static System.ComponentModel.ICustomTypeDescriptor GetDescriptor(System.Object component, System.Boolean noCustomTypeDesc)
-    // Offset: 0x1ECB9F8
+    // Offset: 0x1D88A48
     static ::System::ComponentModel::ICustomTypeDescriptor* GetDescriptor(::Il2CppObject* component, bool noCustomTypeDesc);
     // static System.ComponentModel.ICustomTypeDescriptor GetExtendedDescriptor(System.Object component)
-    // Offset: 0x1ECBBE4
+    // Offset: 0x1D88C34
     static ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedDescriptor(::Il2CppObject* component);
     // static private System.String GetExtenderCollisionSuffix(System.ComponentModel.MemberDescriptor member)
-    // Offset: 0x1ECEE44
+    // Offset: 0x1D8BF24
     static ::StringW GetExtenderCollisionSuffix(::System::ComponentModel::MemberDescriptor* member);
     // static private System.Type GetNodeForBaseType(System.Type searchType)
-    // Offset: 0x1ECF150
+    // Offset: 0x1D8C230
     static ::System::Type* GetNodeForBaseType(::System::Type* searchType);
-    // static public System.ComponentModel.PropertyDescriptorCollection GetProperties(System.Object component)
-    // Offset: 0x1ECF24C
-    static ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::Il2CppObject* component);
-    // static public System.ComponentModel.PropertyDescriptorCollection GetProperties(System.Object component, System.Boolean noCustomTypeDesc)
-    // Offset: 0x1ECF2B4
-    static ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::Il2CppObject* component, bool noCustomTypeDesc);
-    // static private System.ComponentModel.PropertyDescriptorCollection GetPropertiesImpl(System.Object component, System.Attribute[] attributes, System.Boolean noCustomTypeDesc, System.Boolean noAttributes)
-    // Offset: 0x1ECF330
-    static ::System::ComponentModel::PropertyDescriptorCollection* GetPropertiesImpl(::Il2CppObject* component, ::ArrayW<::System::Attribute*> attributes, bool noCustomTypeDesc, bool noAttributes);
     // static System.ComponentModel.TypeDescriptionProvider GetProviderRecursive(System.Type type)
-    // Offset: 0x1ED003C
+    // Offset: 0x1D78C6C
     static ::System::ComponentModel::TypeDescriptionProvider* GetProviderRecursive(::System::Type* type);
     // static public System.Type GetReflectionType(System.Type type)
-    // Offset: 0x1ED00A4
+    // Offset: 0x1D75FE0
     static ::System::Type* GetReflectionType(::System::Type* type);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Type type)
-    // Offset: 0x1ECB030
+    // Offset: 0x1D8BEBC
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::System::Type* type);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Type type, System.Boolean createDelegator)
-    // Offset: 0x1EC9D20
+    // Offset: 0x1D874B0
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::System::Type* type, bool createDelegator);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Object instance)
-    // Offset: 0x1ECECBC
+    // Offset: 0x1D8BD6C
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::Il2CppObject* instance);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Object instance, System.Boolean createDelegator)
-    // Offset: 0x1ED0194
+    // Offset: 0x1D8C32C
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::Il2CppObject* instance, bool createDelegator);
-    // static private System.Collections.ICollection PipelineAttributeFilter(System.Int32 pipelineType, System.Collections.ICollection members, System.Attribute[] filter, System.Object instance, System.Collections.IDictionary cache)
-    // Offset: 0x1ECF9EC
-    static ::System::Collections::ICollection* PipelineAttributeFilter(int pipelineType, ::System::Collections::ICollection* members, ::ArrayW<::System::Attribute*> filter, ::Il2CppObject* instance, ::System::Collections::IDictionary* cache);
     // static private System.Collections.ICollection PipelineFilter(System.Int32 pipelineType, System.Collections.ICollection members, System.Object instance, System.Collections.IDictionary cache)
-    // Offset: 0x1ECCD88
+    // Offset: 0x1D89DD4
     static ::System::Collections::ICollection* PipelineFilter(int pipelineType, ::System::Collections::ICollection* members, ::Il2CppObject* instance, ::System::Collections::IDictionary* cache);
     // static private System.Collections.ICollection PipelineInitialize(System.Int32 pipelineType, System.Collections.ICollection members, System.Collections.IDictionary cache)
-    // Offset: 0x1ECE554
+    // Offset: 0x1D8B604
     static ::System::Collections::ICollection* PipelineInitialize(int pipelineType, ::System::Collections::ICollection* members, ::System::Collections::IDictionary* cache);
     // static private System.Collections.ICollection PipelineMerge(System.Int32 pipelineType, System.Collections.ICollection primary, System.Collections.ICollection secondary, System.Object instance, System.Collections.IDictionary cache)
-    // Offset: 0x1ECBCA0
+    // Offset: 0x1D88CF0
     static ::System::Collections::ICollection* PipelineMerge(int pipelineType, ::System::Collections::ICollection* primary, ::System::Collections::ICollection* secondary, ::Il2CppObject* instance, ::System::Collections::IDictionary* cache);
     // static private System.Void RaiseRefresh(System.Type type)
-    // Offset: 0x1ED040C
+    // Offset: 0x1D8C4A4
     static void RaiseRefresh(::System::Type* type);
     // static public System.Void Refresh(System.Type type)
-    // Offset: 0x1ECA268
+    // Offset: 0x1D879CC
     static void Refresh(::System::Type* type);
-    // static private System.Boolean ShouldHideMember(System.ComponentModel.MemberDescriptor member, System.Attribute attribute)
-    // Offset: 0x1ECB408
-    static bool ShouldHideMember(::System::ComponentModel::MemberDescriptor* member, ::System::Attribute* attribute);
     // static public System.Void SortDescriptorArray(System.Collections.IList infos)
-    // Offset: 0x1ED04BC
+    // Offset: 0x1D7D060
     static void SortDescriptorArray(::System::Collections::IList* infos);
   }; // System.ComponentModel.TypeDescriptor
   #pragma pack(pop)
@@ -303,38 +265,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "CheckDefaultProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::CreateInstance
-// Il2CppName: CreateInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::IServiceProvider*, ::System::Type*, ::ArrayW<::System::Type*>, ::ArrayW<::Il2CppObject*>)>(&System::ComponentModel::TypeDescriptor::CreateInstance)> {
-  static const MethodInfo* get() {
-    static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IServiceProvider")->byval_arg;
-    static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, objectType, argTypes, args});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::FilterMembers
-// Il2CppName: FilterMembers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (*)(::System::Collections::IList*, ::ArrayW<::System::Attribute*>)>(&System::ComponentModel::TypeDescriptor::FilterMembers)> {
-  static const MethodInfo* get() {
-    static auto* members = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
-    static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Attribute"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "FilterMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{members, attributes});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::GetAssociation
-// Il2CppName: GetAssociation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*, ::Il2CppObject*)>(&System::ComponentModel::TypeDescriptor::GetAssociation)> {
-  static const MethodInfo* get() {
-    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* primary = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "GetAssociation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, primary});
   }
 };
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::GetAttributes
@@ -430,37 +360,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "GetNodeForBaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{searchType});
   }
 };
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::GetProperties
-// Il2CppName: GetProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::Il2CppObject*)>(&System::ComponentModel::TypeDescriptor::GetProperties)> {
-  static const MethodInfo* get() {
-    static auto* component = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{component});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::GetProperties
-// Il2CppName: GetProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::Il2CppObject*, bool)>(&System::ComponentModel::TypeDescriptor::GetProperties)> {
-  static const MethodInfo* get() {
-    static auto* component = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* noCustomTypeDesc = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{component, noCustomTypeDesc});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::GetPropertiesImpl
-// Il2CppName: GetPropertiesImpl
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (*)(::Il2CppObject*, ::ArrayW<::System::Attribute*>, bool, bool)>(&System::ComponentModel::TypeDescriptor::GetPropertiesImpl)> {
-  static const MethodInfo* get() {
-    static auto* component = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Attribute"), 1)->byval_arg;
-    static auto* noCustomTypeDesc = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* noAttributes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "GetPropertiesImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{component, attributes, noCustomTypeDesc, noAttributes});
-  }
-};
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::GetProviderRecursive
 // Il2CppName: GetProviderRecursive
 template<>
@@ -517,19 +416,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "NodeFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance, createDelegator});
   }
 };
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::PipelineAttributeFilter
-// Il2CppName: PipelineAttributeFilter
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (*)(int, ::System::Collections::ICollection*, ::ArrayW<::System::Attribute*>, ::Il2CppObject*, ::System::Collections::IDictionary*)>(&System::ComponentModel::TypeDescriptor::PipelineAttributeFilter)> {
-  static const MethodInfo* get() {
-    static auto* pipelineType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* members = &::il2cpp_utils::GetClassFromName("System.Collections", "ICollection")->byval_arg;
-    static auto* filter = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Attribute"), 1)->byval_arg;
-    static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* cache = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "PipelineAttributeFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pipelineType, members, filter, instance, cache});
-  }
-};
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::PipelineFilter
 // Il2CppName: PipelineFilter
 template<>
@@ -582,16 +468,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::ShouldHideMember
-// Il2CppName: ShouldHideMember
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ComponentModel::MemberDescriptor*, ::System::Attribute*)>(&System::ComponentModel::TypeDescriptor::ShouldHideMember)> {
-  static const MethodInfo* get() {
-    static auto* member = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "MemberDescriptor")->byval_arg;
-    static auto* attribute = &::il2cpp_utils::GetClassFromName("System", "Attribute")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor*), "ShouldHideMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{member, attribute});
   }
 };
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::SortDescriptorArray

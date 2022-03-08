@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class MenuDestination : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x2A67570
+    // Offset: 0x13E2908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

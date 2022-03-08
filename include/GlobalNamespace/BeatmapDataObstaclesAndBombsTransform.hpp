@@ -13,8 +13,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: IReadonlyBeatmapData
   class IReadonlyBeatmapData;
-  // Forward declaring type: BeatmapObjectData
-  class BeatmapObjectData;
+  // Forward declaring type: BeatmapDataItem
+  class BeatmapDataItem;
 }
 // Completed forward declares
 // Type namespace: 
@@ -33,12 +33,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataObstaclesAndBombsTransform : public ::Il2CppObject {
     public:
+    // Nested type: ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::$$c__DisplayClass0_0
+    class $$c__DisplayClass0_0;
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x2B49AA4
+    // Offset: 0x137ACF0
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
-    // static private System.Boolean ShouldUseBeatmapObject(BeatmapObjectData beatmapObjectData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x2B49E18
-    static bool ShouldUseBeatmapObject(::GlobalNamespace::BeatmapObjectData* beatmapObjectData, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
+    // static private System.Boolean ShouldUseBeatmapDataItem(BeatmapDataItem beatmapDataItem, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
+    // Offset: 0x137AE1C
+    static bool ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
   }; // BeatmapDataObstaclesAndBombsTransform
   #pragma pack(pop)
 }
@@ -54,14 +56,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData, enabledObstaclesType, noBombs});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject
-// Il2CppName: ShouldUseBeatmapObject
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem
+// Il2CppName: ShouldUseBeatmapDataItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapObjectData*, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem)> {
   static const MethodInfo* get() {
-    static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
+    static auto* beatmapDataItem = &::il2cpp_utils::GetClassFromName("", "BeatmapDataItem")->byval_arg;
     static auto* enabledObstaclesType = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers/EnabledObstacleType")->byval_arg;
     static auto* noBombs = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*), "ShouldUseBeatmapObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapObjectData, enabledObstaclesType, noBombs});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*), "ShouldUseBeatmapDataItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapDataItem, enabledObstaclesType, noBombs});
   }
 };

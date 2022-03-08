@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_Gradient_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Gradient ToTestObject(UnityEngine.Gradient self)
-    // Offset: 0x19B5F6C
+    // Offset: 0x19ECD1C
     static ::HoudiniEngineUnity::Test_Gradient* ToTestObject(::UnityEngine::Gradient* self);
     // static public HoudiniEngineUnity.Test_Gradient[] ToTestObject(UnityEngine.Gradient[] self)
-    // Offset: 0x19B5FD0
+    // Offset: 0x19ECD80
     static ::ArrayW<::HoudiniEngineUnity::Test_Gradient*> ToTestObject(::ArrayW<::UnityEngine::Gradient*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Gradient> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Gradient> self)
-    // Offset: 0x19B60BC
+    // Offset: 0x19ECE6C
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>* self);
   }; // HoudiniEngineUnity.Test_Gradient_Extensions
   #pragma pack(pop)

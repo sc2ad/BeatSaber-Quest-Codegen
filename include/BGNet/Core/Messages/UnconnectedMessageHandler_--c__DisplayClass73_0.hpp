@@ -88,10 +88,10 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     ::System::Threading::CancellationToken& dyn_cancellationToken();
     // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(BGNet.Core.Messages.IUnconnectedReliableRequest mm)
-    // Offset: 0x2B8ABC0
+    // Offset: 0x15343E0
     ::System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(::BGNet::Core::Messages::IUnconnectedReliableRequest* mm);
     // public System.Void .ctor()
-    // Offset: 0x2B8ABB8
+    // Offset: 0x15343D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

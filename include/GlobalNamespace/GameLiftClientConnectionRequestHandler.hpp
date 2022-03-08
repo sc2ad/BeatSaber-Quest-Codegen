@@ -65,19 +65,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <playerSessionId>k__BackingField
     ::StringW& dyn_$playerSessionId$k__BackingField();
     // public System.String get_playerSessionId()
-    // Offset: 0x2C428D0
+    // Offset: 0x164B894
     ::StringW get_playerSessionId();
     // public System.Void set_playerSessionId(System.String value)
-    // Offset: 0x2C428D8
+    // Offset: 0x164B89C
     void set_playerSessionId(::StringW value);
     // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x2C428E0
+    // Offset: 0x164B8A4
     void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x2C42954
+    // Offset: 0x164B918
     bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
     // public System.Void .ctor()
-    // Offset: 0x2C42968
+    // Offset: 0x164B92C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

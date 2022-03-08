@@ -15,6 +15,9 @@
 namespace System {
   // Forward declaring type: Random
   class Random;
+  // Forward declaring type: IComparable`1<T>
+  template<typename T>
+  class IComparable_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -24,6 +27,9 @@ namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
   template<typename T>
   class IList_1;
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
 }
 // Completed forward declares
 // Type namespace: 
@@ -43,13 +49,13 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ListExtensions : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124FCB0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C4C70
     // Get static field: static private readonly System.Random _random
     static ::System::Random* _get__random();
     // Set static field: static private readonly System.Random _random
     static void _set__random(::System::Random* value);
     // static private System.Void .cctor()
-    // Offset: 0x147FBF0
+    // Offset: 0x14D2E20
     static void _cctor();
     // static public System.Int32 IndexOf(System.Collections.Generic.IReadOnlyList`1<T> self, T item)
     // Offset: 0xFFFFFFFF
@@ -69,6 +75,16 @@ namespace GlobalNamespace {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list);
     }
+    // static public System.Void InsertIntoSortedListFromEnd(System.Collections.Generic.List`1<T> sortedList, T newItem)
+    // Offset: 0xFFFFFFFF
+    template<class T>
+    static void InsertIntoSortedListFromEnd(::System::Collections::Generic::List_1<T>* sortedList, T newItem) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IComparable_1<T>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ListExtensions::InsertIntoSortedListFromEnd");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ListExtensions", "InsertIntoSortedListFromEnd", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sortedList), ::il2cpp_utils::ExtractType(newItem)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, sortedList, newItem);
+    }
   }; // ListExtensions
   #pragma pack(pop)
 }
@@ -86,4 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::ListExtensions::ShuffleInPlace
 // Il2CppName: ShuffleInPlace
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GlobalNamespace::ListExtensions::InsertIntoSortedListFromEnd
+// Il2CppName: InsertIntoSortedListFromEnd
 // Cannot write MetadataGetter for generic methods!

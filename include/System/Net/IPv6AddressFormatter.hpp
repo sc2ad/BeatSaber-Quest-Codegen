@@ -51,22 +51,22 @@ namespace System::Net {
     // Get instance field reference: private System.Int64 scopeId
     int64_t& dyn_scopeId();
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
-    // Offset: 0x17A3F2C
+    // Offset: 0x1A827E8
     // ABORTED: conflicts with another method.  IPv6AddressFormatter(::ArrayW<uint16_t> addr, int64_t scopeId);
     // static private System.UInt16 SwapUShort(System.UInt16 number)
-    // Offset: 0x17A514C
+    // Offset: 0x1A838B4
     static uint16_t SwapUShort(uint16_t number);
     // private System.UInt32 AsIPv4Int()
-    // Offset: 0x17A5158
+    // Offset: 0x1A838C0
     uint AsIPv4Int();
     // private System.Boolean IsIPv4Compatible()
-    // Offset: 0x17A51A4
+    // Offset: 0x1A8390C
     bool IsIPv4Compatible();
     // private System.Boolean IsIPv4Mapped()
-    // Offset: 0x17A521C
+    // Offset: 0x1A83984
     bool IsIPv4Mapped();
     // public override System.String ToString()
-    // Offset: 0x17A3F34
+    // Offset: 0x1A827F0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

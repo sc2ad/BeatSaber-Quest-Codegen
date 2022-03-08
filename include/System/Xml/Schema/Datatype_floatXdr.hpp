@@ -39,7 +39,7 @@ namespace System::Xml::Schema {
   class Datatype_floatXdr : public ::System::Xml::Schema::Datatype_float {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D5D6B0
+    // Offset: 0x1C383FC
     // Implemented from: System.Xml.Schema.Datatype_float
     // Base method: System.Void Datatype_float::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
@@ -52,7 +52,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_floatXdr*, creationType>()));
     }
     // public override System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
-    // Offset: 0x1D66044
+    // Offset: 0x1C38200
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Object DatatypeImplementation::ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);

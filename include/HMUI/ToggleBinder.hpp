@@ -11,6 +11,9 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: HMUI
+namespace HMUI {
+}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
@@ -25,6 +28,8 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
+  // Forward declaring type: Action
+  class Action;
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
@@ -54,6 +59,8 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ToggleBinder : public ::Il2CppObject {
     public:
+    // Nested type: ::HMUI::ToggleBinder::$$c__DisplayClass7_0
+    class $$c__DisplayClass7_0;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -81,32 +88,35 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _enabled
     bool& dyn__enabled();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x16B5D80
+    // Offset: 0x169D050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ToggleBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x16B5D18
+    // Offset: 0x169CFE8
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x16B5DC0
+    // Offset: 0x169D090
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.UI.Toggle toggle, System.Action`1<System.Boolean> action)
-    // Offset: 0x16B5EC8
+    // Offset: 0x169D198
     void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
+    // public System.Void AddBinding(UnityEngine.UI.Toggle toggle, System.Boolean enabled, System.Action action)
+    // Offset: 0x169D258
+    void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
     // public System.Void ClearBindings()
-    // Offset: 0x16B5F88
+    // Offset: 0x169D350
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x16B6120
+    // Offset: 0x169D4E8
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x16B62A8
+    // Offset: 0x169D670
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x16B5CE8
+    // Offset: 0x169CFB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -149,6 +159,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleBinder*), "AddBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle, action});
+  }
+};
+// Writing MetadataGetter for method: HMUI::ToggleBinder::AddBinding
+// Il2CppName: AddBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, bool, ::System::Action*)>(&HMUI::ToggleBinder::AddBinding)> {
+  static const MethodInfo* get() {
+    static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
+    static auto* enabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleBinder*), "AddBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle, enabled, action});
   }
 };
 // Writing MetadataGetter for method: HMUI::ToggleBinder::ClearBindings

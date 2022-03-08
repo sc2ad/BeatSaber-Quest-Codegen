@@ -93,50 +93,43 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.IDtdInfo dtdInfo
     ::System::Xml::IDtdInfo*& dyn_dtdInfo();
     // public System.String get_InternalSubset()
-    // Offset: 0x29E4D6C
+    // Offset: 0x2A806F0
     ::StringW get_InternalSubset();
     // public System.String get_Name()
-    // Offset: 0x29E4D74
+    // Offset: 0x2A806F8
     ::StringW get_Name();
     // public System.String get_PublicId()
-    // Offset: 0x29E4D84
+    // Offset: 0x2A80708
     ::StringW get_PublicId();
     // public System.String get_SystemId()
-    // Offset: 0x29E4D8C
+    // Offset: 0x2A80710
     ::StringW get_SystemId();
     // public System.Void .ctor(System.String name, System.String publicId, System.String systemId, System.String internalSubset)
-    // Offset: 0x29E4C0C
+    // Offset: 0x2A80590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocumentType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentType*, creationType>(name, publicId, systemId, internalSubset)));
     }
     // public System.Void .ctor(System.Xml.Linq.XDocumentType other)
-    // Offset: 0x29E4CAC
+    // Offset: 0x2A80630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentType* New_ctor(::System::Xml::Linq::XDocumentType* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocumentType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentType*, creationType>(other)));
     }
-    // System.Void .ctor(System.String name, System.String publicId, System.String systemId, System.String internalSubset, System.Xml.IDtdInfo dtdInfo)
-    // Offset: 0x29E2D84
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::IDtdInfo* dtdInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocumentType::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XDocumentType*, creationType>(name, publicId, systemId, internalSubset, dtdInfo)));
-    }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x29E4D7C
+    // Offset: 0x2A80700
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x29E4D94
+    // Offset: 0x2A80718
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x29E4E34
+    // Offset: 0x2A807B8
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();
@@ -178,10 +171,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XDocumentType*), "get_SystemId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Linq::XDocumentType::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Xml::Linq::XDocumentType::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

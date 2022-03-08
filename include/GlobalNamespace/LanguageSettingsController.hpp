@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LanguageSO _settingsValue
     ::GlobalNamespace::LanguageSO*& dyn__settingsValue();
     // public System.Void .ctor()
-    // Offset: 0x13AFD48
+    // Offset: 0x14A3D30
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -69,17 +69,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LanguageSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x13AFB80
+    // Offset: 0x14A3B68
     // Implemented from: DropdownSettingsController
     // Base method: System.Boolean DropdownSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x13AFC2C
+    // Offset: 0x14A3C14
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x13AFCC8
+    // Offset: 0x14A3CB0
     // Implemented from: DropdownSettingsController
     // Base method: System.String DropdownSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

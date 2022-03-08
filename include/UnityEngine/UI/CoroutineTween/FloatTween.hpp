@@ -91,43 +91,43 @@ namespace UnityEngine::UI::CoroutineTween {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x1875310
+    // Offset: 0x190A394
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x1875318
+    // Offset: 0x190A39C
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x1875320
+    // Offset: 0x190A3A4
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x1875328
+    // Offset: 0x190A3AC
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x1875330
+    // Offset: 0x190A3B4
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x1875338
+    // Offset: 0x190A3BC
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x1875340
+    // Offset: 0x190A3C4
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x1875348
+    // Offset: 0x190A3CC
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x1875354
+    // Offset: 0x190A3D8
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x1875424
+    // Offset: 0x190A4A8
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x1875500
+    // Offset: 0x190A584
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x1875508
+    // Offset: 0x190A58C
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x1875414
+    // Offset: 0x190A498
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)

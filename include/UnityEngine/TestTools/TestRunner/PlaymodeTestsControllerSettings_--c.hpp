@@ -51,13 +51,13 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter,NUnit.Framework.Interfaces.ITestFilter> <>9__5_0
     static void _set_$$9__5_0(::System::Func_2<::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*, ::NUnit::Framework::Interfaces::ITestFilter*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18DFECC
+    // Offset: 0x195BABC
     static void _cctor();
     // NUnit.Framework.Interfaces.ITestFilter <BuildNUnitFilter>b__5_0(UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter f)
-    // Offset: 0x18DFF38
+    // Offset: 0x195BB28
     ::NUnit::Framework::Interfaces::ITestFilter* $BuildNUnitFilter$b__5_0(::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter* f);
     // public System.Void .ctor()
-    // Offset: 0x18DFF30
+    // Offset: 0x195BB20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

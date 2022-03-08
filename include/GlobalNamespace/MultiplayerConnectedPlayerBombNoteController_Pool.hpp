@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerBombNoteController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x142FCF8
+    // Offset: 0x144B0E0
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

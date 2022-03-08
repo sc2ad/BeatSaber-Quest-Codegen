@@ -13,6 +13,12 @@ namespace GlobalNamespace {
   class BeatmapIdentifierNetSerializable;
   // Forward declaring type: IDifficultyBeatmap
   class IDifficultyBeatmap;
+  // Forward declaring type: PreviewDifficultyBeatmap
+  class PreviewDifficultyBeatmap;
+  // Forward declaring type: BeatmapLevelsModel
+  class BeatmapLevelsModel;
+  // Forward declaring type: BeatmapCharacteristicCollectionSO
+  class BeatmapCharacteristicCollectionSO;
 }
 // Completed forward declares
 // Type namespace: 
@@ -33,11 +39,17 @@ namespace GlobalNamespace {
   class BeatmapIdentifierNetSerializableHelper : public ::Il2CppObject {
     public:
     // static public BeatmapIdentifierNetSerializable GetIdentifier(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x14BE28C
+    // Offset: 0x14FCD54
     static ::GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // static public System.Boolean HasIdentifier(IDifficultyBeatmap difficultyBeatmap, BeatmapIdentifierNetSerializable beatmapId)
-    // Offset: 0x14BE52C
+    // Offset: 0x14FCFF4
     static bool HasIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId);
+    // static public PreviewDifficultyBeatmap ToPreviewDifficultyBeatmap(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelsModel beatmapLevelsModel, BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
+    // Offset: 0x14FD29C
+    static ::GlobalNamespace::PreviewDifficultyBeatmap* ToPreviewDifficultyBeatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
+    // static public BeatmapIdentifierNetSerializable ToIdentifier(PreviewDifficultyBeatmap previewDifficultyBeatmapLevel)
+    // Offset: 0x14FD564
+    static ::GlobalNamespace::BeatmapIdentifierNetSerializable* ToIdentifier(::GlobalNamespace::PreviewDifficultyBeatmap* previewDifficultyBeatmapLevel);
   }; // BeatmapIdentifierNetSerializableHelper
   #pragma pack(pop)
 }
@@ -59,5 +71,25 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* beatmapId = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializableHelper*), "HasIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap, beatmapId});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToPreviewDifficultyBeatmap
+// Il2CppName: ToPreviewDifficultyBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PreviewDifficultyBeatmap* (*)(::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::BeatmapCharacteristicCollectionSO*)>(&GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToPreviewDifficultyBeatmap)> {
+  static const MethodInfo* get() {
+    static auto* beatmapId = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
+    static auto* beatmapLevelsModel = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelsModel")->byval_arg;
+    static auto* beatmapCharacteristicCollection = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicCollectionSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializableHelper*), "ToPreviewDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapId, beatmapLevelsModel, beatmapCharacteristicCollection});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToIdentifier
+// Il2CppName: ToIdentifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapIdentifierNetSerializable* (*)(::GlobalNamespace::PreviewDifficultyBeatmap*)>(&GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToIdentifier)> {
+  static const MethodInfo* get() {
+    static auto* previewDifficultyBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmap")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializableHelper*), "ToIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewDifficultyBeatmapLevel});
   }
 };

@@ -120,28 +120,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _graphicsColor
     ::UnityEngine::Color& dyn__graphicsColor();
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x13EA1F8
+    // Offset: 0x13C40F0
     void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x13EA29C
+    // Offset: 0x13C4194
     void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0x13EA340
+    // Offset: 0x13C4238
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13EA3F0
+    // Offset: 0x13C42E8
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x13EA40C
+    // Offset: 0x13C4304
     void AddColor(::UnityEngine::Color color);
     // public System.Void DiscardUpcomingColor()
-    // Offset: 0x13EA4C4
+    // Offset: 0x13C43BC
     void DiscardUpcomingColor();
     // private System.Void <Awake>b__9_0()
-    // Offset: 0x13EA514
+    // Offset: 0x13C440C
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x13EA4D0
+    // Offset: 0x13C43C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class OVRLayerAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x197F6F8
+    // Offset: 0x19D06B4
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

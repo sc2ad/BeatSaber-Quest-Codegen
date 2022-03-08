@@ -148,31 +148,31 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean useGamelift
     bool& dyn_useGamelift();
     // private System.String get__minimumAppVersion()
-    // Offset: 0x2AADA44
+    // Offset: 0x1407378
     ::StringW get__minimumAppVersion();
     // private System.Void set__minimumAppVersion(System.String value)
-    // Offset: 0x2AADA4C
+    // Offset: 0x1407380
     void set__minimumAppVersion(::StringW value);
     // private System.Int64 get__maintenanceStartTime()
-    // Offset: 0x2AADA54
+    // Offset: 0x1407388
     int64_t get__maintenanceStartTime();
     // private System.Void set__maintenanceStartTime(System.Int64 value)
-    // Offset: 0x2AADA5C
+    // Offset: 0x1407390
     void set__maintenanceStartTime(int64_t value);
     // private MultiplayerStatusData/UserMessage get__userMessage()
-    // Offset: 0x2AADA64
+    // Offset: 0x1407398
     ::GlobalNamespace::MultiplayerStatusData::UserMessage* get__userMessage();
     // private System.Void set__userMessage(MultiplayerStatusData/UserMessage value)
-    // Offset: 0x2AADA6C
+    // Offset: 0x14073A0
     void set__userMessage(::GlobalNamespace::MultiplayerStatusData::UserMessage* value);
     // private System.Boolean get__useGamelift()
-    // Offset: 0x2AADA74
+    // Offset: 0x14073A8
     bool get__useGamelift();
     // private System.Void set__useGamelift(System.Boolean value)
-    // Offset: 0x2AADA7C
+    // Offset: 0x14073B0
     void set__useGamelift(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2AADA88
+    // Offset: 0x14073BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

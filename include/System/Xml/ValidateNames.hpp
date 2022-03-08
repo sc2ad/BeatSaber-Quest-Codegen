@@ -37,41 +37,35 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(::System::Xml::XmlCharType value);
     // static private System.Void .cctor()
-    // Offset: 0x1619E00
+    // Offset: 0x1B88D78
     static void _cctor();
     // static System.Int32 ParseNmtoken(System.String s, System.Int32 offset)
-    // Offset: 0x1619098
+    // Offset: 0x1B881F0
     static int ParseNmtoken(::StringW s, int offset);
     // static System.Int32 ParseNmtokenNoNamespaces(System.String s, System.Int32 offset)
-    // Offset: 0x1619184
+    // Offset: 0x1B882DC
     static int ParseNmtokenNoNamespaces(::StringW s, int offset);
     // static System.Int32 ParseNameNoNamespaces(System.String s, System.Int32 offset)
-    // Offset: 0x161928C
+    // Offset: 0x1B883E4
     static int ParseNameNoNamespaces(::StringW s, int offset);
-    // static System.Boolean IsNameNoNamespaces(System.String s)
-    // Offset: 0x1619414
-    static bool IsNameNoNamespaces(::StringW s);
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
-    // Offset: 0x16194A4
+    // Offset: 0x1B8856C
     static int ParseNCName(::StringW s, int offset);
     // static System.Int32 ParseNCName(System.String s)
-    // Offset: 0x16195F0
+    // Offset: 0x1B886B8
     static int ParseNCName(::StringW s);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
-    // Offset: 0x1619658
+    // Offset: 0x1B88720
     static int ParseQName(::StringW s, int offset, ByRef<int> colonOffset);
     // static System.Void ParseQNameThrow(System.String s, out System.String prefix, out System.String localName)
-    // Offset: 0x1619754
+    // Offset: 0x1B8881C
     static void ParseQNameThrow(::StringW s, ByRef<::StringW> prefix, ByRef<::StringW> localName);
     // static System.Void ThrowInvalidName(System.String s, System.Int32 offsetStartChar, System.Int32 offsetBadChar)
-    // Offset: 0x1619870
+    // Offset: 0x1B88938
     static void ThrowInvalidName(::StringW s, int offsetStartChar, int offsetBadChar);
     // static System.Exception GetInvalidNameException(System.String s, System.Int32 offsetStartChar, System.Int32 offsetBadChar)
-    // Offset: 0x1619B04
+    // Offset: 0x1B88BCC
     static ::System::Exception* GetInvalidNameException(::StringW s, int offsetStartChar, int offsetBadChar);
-    // static System.Void SplitQName(System.String name, out System.String prefix, out System.String lname)
-    // Offset: 0x1619CB0
-    static void SplitQName(::StringW name, ByRef<::StringW> prefix, ByRef<::StringW> lname);
   }; // System.Xml.ValidateNames
   #pragma pack(pop)
 }
@@ -112,15 +106,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidateNames*), "ParseNameNoNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::ValidateNames::IsNameNoNamespaces
-// Il2CppName: IsNameNoNamespaces
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Xml::ValidateNames::IsNameNoNamespaces)> {
-  static const MethodInfo* get() {
-    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidateNames*), "IsNameNoNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: System::Xml::ValidateNames::ParseNCName
@@ -184,16 +169,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::E
     static auto* offsetStartChar = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* offsetBadChar = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidateNames*), "GetInvalidNameException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offsetStartChar, offsetBadChar});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::ValidateNames::SplitQName
-// Il2CppName: SplitQName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::StringW>, ByRef<::StringW>)>(&System::Xml::ValidateNames::SplitQName)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
-    static auto* lname = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidateNames*), "SplitQName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, prefix, lname});
   }
 };

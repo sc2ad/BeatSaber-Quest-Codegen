@@ -28,6 +28,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGamePause {
     public:
+    // public System.Boolean get_isPaused()
+    // Offset: 0xFFFFFFFF
+    bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_didPauseEvent(::System::Action* value);
@@ -59,6 +62,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::IGamePause::get_isPaused
+// Il2CppName: get_isPaused
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IGamePause::*)()>(&GlobalNamespace::IGamePause::get_isPaused)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGamePause*), "get_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IGamePause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

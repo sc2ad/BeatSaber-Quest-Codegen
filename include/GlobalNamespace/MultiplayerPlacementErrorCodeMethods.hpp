@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   class MultiplayerPlacementErrorCodeMethods : public ::Il2CppObject {
     public:
     // static public ConnectionFailedReason ToConnectionFailedReason(MultiplayerPlacementErrorCode errorCode)
-    // Offset: 0x2CA7474
+    // Offset: 0x170BBA8
     static ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
   }; // MultiplayerPlacementErrorCodeMethods
   #pragma pack(pop)

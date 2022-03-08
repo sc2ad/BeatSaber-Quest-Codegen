@@ -45,20 +45,20 @@ namespace System::Net {
   class AuthenticationSchemeSelector : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AA626C
+    // Offset: 0x1CD73D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticationSchemeSelector* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::AuthenticationSchemeSelector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationSchemeSelector*, creationType>(object, method)));
     }
     // public System.Net.AuthenticationSchemes Invoke(System.Net.HttpListenerRequest httpRequest)
-    // Offset: 0x1AA627C
+    // Offset: 0x1CD73E8
     ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* httpRequest);
     // public System.IAsyncResult BeginInvoke(System.Net.HttpListenerRequest httpRequest, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AA6618
+    // Offset: 0x1CD7784
     ::System::IAsyncResult* BeginInvoke(::System::Net::HttpListenerRequest* httpRequest, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.AuthenticationSchemes EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AA663C
+    // Offset: 0x1CD77A8
     ::System::Net::AuthenticationSchemes EndInvoke(::System::IAsyncResult* result);
   }; // System.Net.AuthenticationSchemeSelector
   #pragma pack(pop)

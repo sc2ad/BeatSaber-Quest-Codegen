@@ -61,14 +61,14 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Byte[] _clientKey
     ::ArrayW<uint8_t>& dyn__clientKey();
     // public System.Void .ctor(IDiffieHellmanKeyPair serverKey, System.Byte[] clientKey)
-    // Offset: 0x2B85B38
+    // Offset: 0x152F348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation* New_ctor(::GlobalNamespace::IDiffieHellmanKeyPair* serverKey, ::ArrayW<uint8_t> clientKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseServerUnconnectedMessageHandler::GetPreMasterSecretComputeOperation*, creationType>(serverKey, clientKey)));
     }
     // protected System.Byte[] Compute()
-    // Offset: 0x2B87520
+    // Offset: 0x1530D3C
     ::ArrayW<uint8_t> Compute();
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.GetPreMasterSecretComputeOperation
   // WARNING Not writing size check since size may be invalid!

@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _serializedId
     ::StringW& dyn__serializedId();
     // public System.String get_id()
-    // Offset: 0x13E6330
+    // Offset: 0x13BEEF0
     ::StringW get_id();
     // public System.Void .ctor()
-    // Offset: 0x13E6338
+    // Offset: 0x13BEEF8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

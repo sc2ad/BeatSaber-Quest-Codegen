@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 value
     int& dyn_value();
     // public System.String get_localizedText()
-    // Offset: 0x2AAFFB8
+    // Offset: 0x1409BB4
     ::StringW get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x2AAFFCC
+    // Offset: 0x1409BC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

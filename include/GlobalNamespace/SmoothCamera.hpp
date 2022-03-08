@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
-    // [InjectAttribute] Offset: 0x1246A28
+    // [InjectAttribute] Offset: 0x10BBD08
     // private MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
@@ -112,19 +112,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _positionSmooth
     float& dyn__positionSmooth();
     // public System.Void Init(System.Single fieldOfView, System.Single positionSmooth, System.Single rotationSmooth, System.Boolean thirdPersonEnabled, UnityEngine.Vector3 thirdPersonPosition, UnityEngine.Vector3 thirdPersonEulerAngles)
-    // Offset: 0x13CF368
+    // Offset: 0x13E923C
     void Init(float fieldOfView, float positionSmooth, float rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition, ::UnityEngine::Vector3 thirdPersonEulerAngles);
     // protected System.Void OnEnable()
-    // Offset: 0x13CF514
+    // Offset: 0x13E93E8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13CF534
+    // Offset: 0x13E9408
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x13CF554
+    // Offset: 0x13E9428
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x13CF790
+    // Offset: 0x13E9664
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

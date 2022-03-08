@@ -114,7 +114,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.TOPNodeTags _tags
     ::HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
     // public System.Void .ctor()
-    // Offset: 0x1A63E9C
+    // Offset: 0x1AEC698
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

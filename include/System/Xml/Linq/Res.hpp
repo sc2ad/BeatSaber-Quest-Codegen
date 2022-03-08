@@ -26,10 +26,10 @@ namespace System::Xml::Linq {
   class Res : public ::Il2CppObject {
     public:
     // static public System.String GetString(System.String name)
-    // Offset: 0x29DF358
+    // Offset: 0x2A7C410
     static ::StringW GetString(::StringW name);
     // static public System.String GetString(System.String name, params System.Object[] args)
-    // Offset: 0x29DFB20
+    // Offset: 0x2A7CBD8
     static ::StringW GetString(::StringW name, ::ArrayW<::Il2CppObject*> args);
   }; // System.Xml.Linq.Res
   #pragma pack(pop)

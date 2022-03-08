@@ -13,27 +13,22 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::ComponentModel
 namespace System::ComponentModel {
   // Forward declaring type: ICustomTypeDescriptor
   class ICustomTypeDescriptor;
-  // Forward declaring type: IExtenderProvider
-  class IExtenderProvider;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: IServiceProvider
-  class IServiceProvider;
-  // Forward declaring type: Type
-  class Type;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
   // Forward declaring type: IDictionary
   class IDictionary;
+}
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Type
+  class Type;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -78,39 +73,29 @@ namespace System::ComponentModel {
     // Get instance field reference: System.ComponentModel.TypeDescriptionProvider Provider
     ::System::ComponentModel::TypeDescriptionProvider*& dyn_Provider();
     // System.Void .ctor(System.ComponentModel.TypeDescriptionProvider provider)
-    // Offset: 0x1ECA23C
+    // Offset: 0x1CBFFDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::TypeDescriptionNode* New_ctor(::System::ComponentModel::TypeDescriptionProvider* provider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::TypeDescriptionNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::TypeDescriptionNode*, creationType>(provider)));
     }
-    // public override System.Object CreateInstance(System.IServiceProvider provider, System.Type objectType, System.Type[] argTypes, System.Object[] args)
-    // Offset: 0x1ED11B0
-    // Implemented from: System.ComponentModel.TypeDescriptionProvider
-    // Base method: System.Object TypeDescriptionProvider::CreateInstance(System.IServiceProvider provider, System.Type objectType, System.Type[] argTypes, System.Object[] args)
-    ::Il2CppObject* CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::Il2CppObject*> args);
     // public override System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1ED1328
+    // Offset: 0x1CC0008
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Collections.IDictionary TypeDescriptionProvider::GetCache(System.Object instance)
     ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1ED13CC
+    // Offset: 0x1CC00AC
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetExtendedTypeDescriptor(System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
-    // protected internal override System.ComponentModel.IExtenderProvider[] GetExtenderProviders(System.Object instance)
-    // Offset: 0x1ED1480
-    // Implemented from: System.ComponentModel.TypeDescriptionProvider
-    // Base method: System.ComponentModel.IExtenderProvider[] TypeDescriptionProvider::GetExtenderProviders(System.Object instance)
-    ::ArrayW<::System::ComponentModel::IExtenderProvider*> GetExtenderProviders(::Il2CppObject* instance);
     // public override System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1ED1524
+    // Offset: 0x1CC0160
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Type TypeDescriptionProvider::GetReflectionType(System.Type objectType, System.Object instance)
     ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1ED1600
+    // Offset: 0x1CC023C
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetTypeDescriptor(System.Type objectType, System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);
@@ -124,18 +109,6 @@ namespace System::ComponentModel {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::TypeDescriptionNode::CreateInstance
-// Il2CppName: CreateInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::TypeDescriptor::TypeDescriptionNode::*)(::System::IServiceProvider*, ::System::Type*, ::ArrayW<::System::Type*>, ::ArrayW<::Il2CppObject*>)>(&System::ComponentModel::TypeDescriptor::TypeDescriptionNode::CreateInstance)> {
-  static const MethodInfo* get() {
-    static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IServiceProvider")->byval_arg;
-    static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::TypeDescriptionNode*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, objectType, argTypes, args});
-  }
-};
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::TypeDescriptionNode::GetCache
 // Il2CppName: GetCache
 template<>
@@ -152,15 +125,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::TypeDescriptionNode*), "GetExtendedTypeDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::TypeDescriptionNode::GetExtenderProviders
-// Il2CppName: GetExtenderProviders
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*> (System::ComponentModel::TypeDescriptor::TypeDescriptionNode::*)(::Il2CppObject*)>(&System::ComponentModel::TypeDescriptor::TypeDescriptionNode::GetExtenderProviders)> {
-  static const MethodInfo* get() {
-    static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::TypeDescriptionNode*), "GetExtenderProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
 };
 // Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::TypeDescriptionNode::GetReflectionType

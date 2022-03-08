@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::GlobalNamespace::NoteData* get_noteData();
     // protected System.Void .ctor()
-    // Offset: 0x2B29500
+    // Offset: 0x140F67C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

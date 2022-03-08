@@ -34,13 +34,13 @@ namespace UnityEngine::TestTools {
   class TestCommandPcHelper : public ::Il2CppObject {
     public:
     // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
-    // Offset: 0x18DB1D0
+    // Offset: 0x1956DC0
     void SetEnumeratorPC(::System::Collections::IEnumerator* enumerator, int pc);
     // public System.Int32 GetEnumeratorPC(System.Collections.IEnumerator enumerator)
-    // Offset: 0x18DB1D4
+    // Offset: 0x1956DC4
     int GetEnumeratorPC(::System::Collections::IEnumerator* enumerator);
     // public System.Void .ctor()
-    // Offset: 0x18DB1DC
+    // Offset: 0x1956DCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

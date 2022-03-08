@@ -300,10 +300,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawButton Right
     ::GlobalNamespace::OVRInput::RawButton& dyn_Right();
     // public OVRInput/RawButton ToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x197C540
+    // Offset: 0x19CD4FC
     ::GlobalNamespace::OVRInput::RawButton ToRawMask(::GlobalNamespace::OVRInput::Button virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x197BA7C
+    // Offset: 0x19CCA38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

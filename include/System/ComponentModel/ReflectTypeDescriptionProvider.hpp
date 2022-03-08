@@ -14,7 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::ComponentModel
@@ -23,12 +22,6 @@ namespace System::ComponentModel {
   class AttributeCollection;
   // Forward declaring type: TypeConverter
   class TypeConverter;
-  // Forward declaring type: PropertyDescriptorCollection
-  class PropertyDescriptorCollection;
-  // Forward declaring type: IExtenderProvider
-  class IExtenderProvider;
-  // Forward declaring type: PropertyDescriptor
-  class PropertyDescriptor;
   // Forward declaring type: ICustomTypeDescriptor
   class ICustomTypeDescriptor;
 }
@@ -36,8 +29,6 @@ namespace System::ComponentModel {
 namespace System::Collections {
   // Forward declaring type: Hashtable
   class Hashtable;
-  // Forward declaring type: ICollection
-  class ICollection;
   // Forward declaring type: IDictionary
   class IDictionary;
 }
@@ -47,13 +38,6 @@ namespace System {
   class Type;
   // Forward declaring type: Attribute
   class Attribute;
-  // Forward declaring type: IServiceProvider
-  class IServiceProvider;
-}
-// Forward declaring namespace: System::Reflection
-namespace System::Reflection {
-  // Forward declaring type: MemberInfo
-  class MemberInfo;
 }
 // Completed forward declares
 // Type namespace: System.ComponentModel
@@ -114,18 +98,10 @@ namespace System::ComponentModel {
     static ::Il2CppObject* _get__dictionaryKey();
     // Set static field: static private System.Object _dictionaryKey
     static void _set__dictionaryKey(::Il2CppObject* value);
-    // Get static field: static private System.Collections.Hashtable _propertyCache
-    static ::System::Collections::Hashtable* _get__propertyCache();
-    // Set static field: static private System.Collections.Hashtable _propertyCache
-    static void _set__propertyCache(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable _attributeCache
     static ::System::Collections::Hashtable* _get__attributeCache();
     // Set static field: static private System.Collections.Hashtable _attributeCache
     static void _set__attributeCache(::System::Collections::Hashtable* value);
-    // Get static field: static private System.Collections.Hashtable _extendedPropertyCache
-    static ::System::Collections::Hashtable* _get__extendedPropertyCache();
-    // Set static field: static private System.Collections.Hashtable _extendedPropertyCache
-    static void _set__extendedPropertyCache(::System::Collections::Hashtable* value);
     // Get static field: static private readonly System.Guid _extenderProviderKey
     static ::System::Guid _get__extenderProviderKey();
     // Set static field: static private readonly System.Guid _extenderProviderKey
@@ -149,70 +125,43 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Collections.Hashtable _typeData
     ::System::Collections::Hashtable*& dyn__typeData();
     // static private System.Collections.Hashtable get_IntrinsicTypeConverters()
-    // Offset: 0x1EC07B0
+    // Offset: 0x1D81B00
     static ::System::Collections::Hashtable* get_IntrinsicTypeConverters();
     // static private System.Void .cctor()
-    // Offset: 0x1EC6B8C
+    // Offset: 0x1D84318
     static void _cctor();
     // static private System.Object CreateInstance(System.Type objectType, System.Type callingType)
-    // Offset: 0x1EC1224
+    // Offset: 0x1D823A8
     static ::Il2CppObject* CreateInstance(::System::Type* objectType, ::System::Type* callingType);
     // System.ComponentModel.AttributeCollection GetAttributes(System.Type type)
-    // Offset: 0x1EC132C
+    // Offset: 0x1D824B0
     ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Type* type);
     // System.ComponentModel.TypeConverter GetConverter(System.Type type, System.Object instance)
-    // Offset: 0x1EC1E1C
+    // Offset: 0x1D82FA4
     ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type, ::Il2CppObject* instance);
     // System.ComponentModel.AttributeCollection GetExtendedAttributes(System.Object instance)
-    // Offset: 0x1EC22D0
+    // Offset: 0x1D83458
     ::System::ComponentModel::AttributeCollection* GetExtendedAttributes(::Il2CppObject* instance);
     // System.ComponentModel.TypeConverter GetExtendedConverter(System.Object instance)
-    // Offset: 0x1EC2338
+    // Offset: 0x1D834C0
     ::System::ComponentModel::TypeConverter* GetExtendedConverter(::Il2CppObject* instance);
-    // System.ComponentModel.PropertyDescriptorCollection GetExtendedProperties(System.Object instance)
-    // Offset: 0x1EC2378
-    ::System::ComponentModel::PropertyDescriptorCollection* GetExtendedProperties(::Il2CppObject* instance);
-    // static private System.ComponentModel.IExtenderProvider[] GetExtenders(System.Collections.ICollection components, System.Object instance, System.Collections.IDictionary cache)
-    // Offset: 0x1EC3BD4
-    static ::ArrayW<::System::ComponentModel::IExtenderProvider*> GetExtenders(::System::Collections::ICollection* components, ::Il2CppObject* instance, ::System::Collections::IDictionary* cache);
-    // System.Object GetExtendedPropertyOwner(System.Object instance, System.ComponentModel.PropertyDescriptor pd)
-    // Offset: 0x1EC46AC
-    ::Il2CppObject* GetExtendedPropertyOwner(::Il2CppObject* instance, ::System::ComponentModel::PropertyDescriptor* pd);
-    // System.ComponentModel.PropertyDescriptorCollection GetProperties(System.Type type)
-    // Offset: 0x1EC4760
-    ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Type* type);
-    // System.Object GetPropertyOwner(System.Type type, System.Object instance, System.ComponentModel.PropertyDescriptor pd)
-    // Offset: 0x1EC46E4
-    ::Il2CppObject* GetPropertyOwner(::System::Type* type, ::Il2CppObject* instance, ::System::ComponentModel::PropertyDescriptor* pd);
     // private System.ComponentModel.ReflectTypeDescriptionProvider/System.ComponentModel.ReflectedTypeData GetTypeData(System.Type type, System.Boolean createIfNeeded)
-    // Offset: 0x1EC134C
+    // Offset: 0x1D824D0
     ::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData* GetTypeData(::System::Type* type, bool createIfNeeded);
-    // static private System.Type GetTypeFromName(System.String typeName)
-    // Offset: 0x1EC50C8
-    static ::System::Type* GetTypeFromName(::StringW typeName);
     // System.Boolean IsPopulated(System.Type type)
-    // Offset: 0x1EC5204
+    // Offset: 0x1D83544
     bool IsPopulated(::System::Type* type);
     // static private System.Attribute[] ReflectGetAttributes(System.Type type)
-    // Offset: 0x1EC5254
+    // Offset: 0x1D83594
     static ::ArrayW<::System::Attribute*> ReflectGetAttributes(::System::Type* type);
-    // static System.Attribute[] ReflectGetAttributes(System.Reflection.MemberInfo member)
-    // Offset: 0x1EC568C
-    static ::ArrayW<::System::Attribute*> ReflectGetAttributes(::System::Reflection::MemberInfo* member);
-    // static private System.ComponentModel.PropertyDescriptor[] ReflectGetExtendedProperties(System.ComponentModel.IExtenderProvider provider)
-    // Offset: 0x1EC293C
-    static ::ArrayW<::System::ComponentModel::PropertyDescriptor*> ReflectGetExtendedProperties(::System::ComponentModel::IExtenderProvider* provider);
-    // static private System.ComponentModel.PropertyDescriptor[] ReflectGetProperties(System.Type type)
-    // Offset: 0x1EC5C0C
-    static ::ArrayW<::System::ComponentModel::PropertyDescriptor*> ReflectGetProperties(::System::Type* type);
     // System.Void Refresh(System.Type type)
-    // Offset: 0x1EC6240
+    // Offset: 0x1D839CC
     void Refresh(::System::Type* type);
     // static private System.Object SearchIntrinsicTable(System.Collections.Hashtable table, System.Type callingType)
-    // Offset: 0x1EC6288
+    // Offset: 0x1D83A14
     static ::Il2CppObject* SearchIntrinsicTable(::System::Collections::Hashtable* table, ::System::Type* callingType);
     // System.Void .ctor()
-    // Offset: 0x1EC07A0
+    // Offset: 0x1D81AF8
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Void TypeDescriptionProvider::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -221,33 +170,23 @@ namespace System::ComponentModel {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ReflectTypeDescriptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectTypeDescriptionProvider*, creationType>()));
     }
-    // public override System.Object CreateInstance(System.IServiceProvider provider, System.Type objectType, System.Type[] argTypes, System.Object[] args)
-    // Offset: 0x1EC1058
-    // Implemented from: System.ComponentModel.TypeDescriptionProvider
-    // Base method: System.Object TypeDescriptionProvider::CreateInstance(System.IServiceProvider provider, System.Type objectType, System.Type[] argTypes, System.Object[] args)
-    ::Il2CppObject* CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::Il2CppObject*> args);
     // public override System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1EC1AC4
+    // Offset: 0x1D82C4C
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Collections.IDictionary TypeDescriptionProvider::GetCache(System.Object instance)
     ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
-    // protected internal override System.ComponentModel.IExtenderProvider[] GetExtenderProviders(System.Object instance)
-    // Offset: 0x1EC376C
-    // Implemented from: System.ComponentModel.TypeDescriptionProvider
-    // Base method: System.ComponentModel.IExtenderProvider[] TypeDescriptionProvider::GetExtenderProviders(System.Object instance)
-    ::ArrayW<::System::ComponentModel::IExtenderProvider*> GetExtenderProviders(::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1EC4758
+    // Offset: 0x1D83500
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetExtendedTypeDescriptor(System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
     // public override System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1EC508C
+    // Offset: 0x1D83508
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Type TypeDescriptionProvider::GetReflectionType(System.Type objectType, System.Object instance)
     ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1EC50C0
+    // Offset: 0x1D8353C
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetTypeDescriptor(System.Type objectType, System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);
@@ -320,56 +259,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetExtendedConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
 };
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetExtendedProperties
-// Il2CppName: GetExtendedProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ReflectTypeDescriptionProvider::*)(::Il2CppObject*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::GetExtendedProperties)> {
-  static const MethodInfo* get() {
-    static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetExtendedProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetExtenders
-// Il2CppName: GetExtenders
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*> (*)(::System::Collections::ICollection*, ::Il2CppObject*, ::System::Collections::IDictionary*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::GetExtenders)> {
-  static const MethodInfo* get() {
-    static auto* components = &::il2cpp_utils::GetClassFromName("System.Collections", "ICollection")->byval_arg;
-    static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* cache = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetExtenders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{components, instance, cache});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetExtendedPropertyOwner
-// Il2CppName: GetExtendedPropertyOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::ReflectTypeDescriptionProvider::*)(::Il2CppObject*, ::System::ComponentModel::PropertyDescriptor*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::GetExtendedPropertyOwner)> {
-  static const MethodInfo* get() {
-    static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* pd = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyDescriptor")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetExtendedPropertyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance, pd});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetProperties
-// Il2CppName: GetProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ReflectTypeDescriptionProvider::*)(::System::Type*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::GetProperties)> {
-  static const MethodInfo* get() {
-    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetPropertyOwner
-// Il2CppName: GetPropertyOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::ReflectTypeDescriptionProvider::*)(::System::Type*, ::Il2CppObject*, ::System::ComponentModel::PropertyDescriptor*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::GetPropertyOwner)> {
-  static const MethodInfo* get() {
-    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* pd = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyDescriptor")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetPropertyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, instance, pd});
-  }
-};
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetTypeData
 // Il2CppName: GetTypeData
 template<>
@@ -378,15 +267,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* createIfNeeded = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetTypeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, createIfNeeded});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetTypeFromName
-// Il2CppName: GetTypeFromName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::StringW)>(&System::ComponentModel::ReflectTypeDescriptionProvider::GetTypeFromName)> {
-  static const MethodInfo* get() {
-    static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetTypeFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
   }
 };
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::IsPopulated
@@ -405,33 +285,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "ReflectGetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::ReflectGetAttributes
-// Il2CppName: ReflectGetAttributes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::MemberInfo*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectGetAttributes)> {
-  static const MethodInfo* get() {
-    static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "ReflectGetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{member});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::ReflectGetExtendedProperties
-// Il2CppName: ReflectGetExtendedProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::PropertyDescriptor*> (*)(::System::ComponentModel::IExtenderProvider*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectGetExtendedProperties)> {
-  static const MethodInfo* get() {
-    static auto* provider = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "IExtenderProvider")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "ReflectGetExtendedProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::ReflectGetProperties
-// Il2CppName: ReflectGetProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::PropertyDescriptor*> (*)(::System::Type*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectGetProperties)> {
-  static const MethodInfo* get() {
-    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "ReflectGetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::Refresh
@@ -457,18 +310,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::CreateInstance
-// Il2CppName: CreateInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::ReflectTypeDescriptionProvider::*)(::System::IServiceProvider*, ::System::Type*, ::ArrayW<::System::Type*>, ::ArrayW<::Il2CppObject*>)>(&System::ComponentModel::ReflectTypeDescriptionProvider::CreateInstance)> {
-  static const MethodInfo* get() {
-    static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IServiceProvider")->byval_arg;
-    static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, objectType, argTypes, args});
-  }
-};
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetCache
 // Il2CppName: GetCache
 template<>
@@ -476,15 +317,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetExtenderProviders
-// Il2CppName: GetExtenderProviders
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*> (System::ComponentModel::ReflectTypeDescriptionProvider::*)(::Il2CppObject*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::GetExtenderProviders)> {
-  static const MethodInfo* get() {
-    static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider*), "GetExtenderProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
 };
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::GetExtendedTypeDescriptor

@@ -11,7 +11,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -26,18 +25,12 @@ namespace GlobalNamespace {
   class CountdownController;
   // Forward declaring type: MultiplayerLobbyCenterScreenLayoutAnimator
   class MultiplayerLobbyCenterScreenLayoutAnimator;
-  // Forward declaring type: ILobbyPlayersDataModel
-  class ILobbyPlayersDataModel;
+  // Forward declaring type: ILobbyGameStateController
+  class ILobbyGameStateController;
   // Forward declaring type: MenuLightsManager
   class MenuLightsManager;
-  // Forward declaring type: IPreviewBeatmapLevel
-  class IPreviewBeatmapLevel;
-  // Forward declaring type: BeatmapCharacteristicSO
-  class BeatmapCharacteristicSO;
-  // Forward declaring type: BeatmapDifficulty
-  struct BeatmapDifficulty;
-  // Forward declaring type: ILobbyPlayerData
-  class ILobbyPlayerData;
+  // Forward declaring type: ILevelGameplaySetupData
+  class ILevelGameplaySetupData;
 }
 // Completed forward declares
 // Type namespace: 
@@ -83,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124CE50
+    // [SpaceAttribute] Offset: 0x10C1DD0
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x30
@@ -96,7 +89,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ModifiersSelectionView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124CE98
+    // [SpaceAttribute] Offset: 0x10C1E18
     // private CountdownController _countdownController
     // Size: 0x8
     // Offset: 0x40
@@ -109,14 +102,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x124CEE0
-    // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    // [InjectAttribute] Offset: 0x10C1E60
+    // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x50
-    ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
+    ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x124CEF0
+    static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
+    // [InjectAttribute] Offset: 0x10C1E70
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x58
@@ -154,8 +147,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::CountdownController*& dyn__countdownController();
     // Get instance field reference: private MultiplayerLobbyCenterScreenLayoutAnimator _multiplayerLobbyCenterScreenLayoutAnimator
     ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*& dyn__multiplayerLobbyCenterScreenLayoutAnimator();
-    // Get instance field reference: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
-    ::GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
+    // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
+    ::GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
     // Get instance field reference: private readonly MenuLightsManager _menuLightsManager
     ::GlobalNamespace::MenuLightsManager*& dyn__menuLightsManager();
     // Get instance field reference: private System.Boolean <countdownShown>k__BackingField
@@ -163,46 +156,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _countdownEndTime
     float& dyn__countdownEndTime();
     // public System.Boolean get_countdownShown()
-    // Offset: 0x13BB274
+    // Offset: 0x1360F64
     bool get_countdownShown();
     // private System.Void set_countdownShown(System.Boolean value)
-    // Offset: 0x13BB27C
+    // Offset: 0x1360F6C
     void set_countdownShown(bool value);
     // public System.Void Setup(System.Boolean showModifiers)
-    // Offset: 0x13BB288
+    // Offset: 0x1360F78
     void Setup(bool showModifiers);
     // public System.Void Show()
-    // Offset: 0x13BB2C4
+    // Offset: 0x1360FB4
     void Show();
     // public System.Void Hide()
-    // Offset: 0x13BB7A4
+    // Offset: 0x13612C4
     void Hide();
     // public System.Void ShowCountdown(System.Single countdownEndTime)
-    // Offset: 0x13BB91C
+    // Offset: 0x1361440
     void ShowCountdown(float countdownEndTime);
     // public System.Void HideCountdown(System.Boolean instant)
-    // Offset: 0x13BB8D8
+    // Offset: 0x13613F8
     void HideCountdown(bool instant);
     // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
-    // Offset: 0x13BBAEC
+    // Offset: 0x1361488
     void SetCountdownEndTime(float countdownEndTime);
     // public System.Void ShowCountdownColorPreset(System.Boolean animated)
-    // Offset: 0x13BBBCC
+    // Offset: 0x13614F0
     void ShowCountdownColorPreset(bool animated);
     // public System.Void ShowLobbyColorPreset(System.Boolean animated)
-    // Offset: 0x13BB50C
+    // Offset: 0x1361144
     void ShowLobbyColorPreset(bool animated);
-    // public System.Void SetHostDataManual(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x13BBBF8
-    void SetHostDataManual(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
-    // private System.Void SetNextGameData(ILobbyPlayerData playerData)
-    // Offset: 0x13BB538
-    void SetNextGameData(::GlobalNamespace::ILobbyPlayerData* playerData);
-    // private System.Void HandleLobbyPlayersDataModelDidChange(System.String userId)
-    // Offset: 0x13BBC20
-    void HandleLobbyPlayersDataModelDidChange(::StringW userId);
+    // private System.Void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(ILevelGameplaySetupData levelGameplaySetupData)
+    // Offset: 0x136151C
+    void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
+    // public System.Void SetNextGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
+    // Offset: 0x1361170
+    void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void .ctor()
-    // Offset: 0x13BBD74
+    // Offset: 0x1361520
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -307,33 +297,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "ShowLobbyColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::SetHostDataManual
-// Il2CppName: SetHostDataManual
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged
+// Il2CppName: HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::IPreviewBeatmapLevel*, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::CenterStageScreenController::SetHostDataManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(&GlobalNamespace::CenterStageScreenController::HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged)> {
   static const MethodInfo* get() {
-    static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
-    static auto* beatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
-    static auto* beatmapDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "SetHostDataManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevel, beatmapCharacteristic, beatmapDifficulty});
+    static auto* levelGameplaySetupData = &::il2cpp_utils::GetClassFromName("", "ILevelGameplaySetupData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelGameplaySetupData});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::SetNextGameData
-// Il2CppName: SetNextGameData
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::SetNextGameplaySetupData
+// Il2CppName: SetNextGameplaySetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::ILobbyPlayerData*)>(&GlobalNamespace::CenterStageScreenController::SetNextGameData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(&GlobalNamespace::CenterStageScreenController::SetNextGameplaySetupData)> {
   static const MethodInfo* get() {
-    static auto* playerData = &::il2cpp_utils::GetClassFromName("", "ILobbyPlayerData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "SetNextGameData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerData});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::HandleLobbyPlayersDataModelDidChange
-// Il2CppName: HandleLobbyPlayersDataModelDidChange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(::StringW)>(&GlobalNamespace::CenterStageScreenController::HandleLobbyPlayersDataModelDidChange)> {
-  static const MethodInfo* get() {
-    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "HandleLobbyPlayersDataModelDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
+    static auto* levelGameplaySetupData = &::il2cpp_utils::GetClassFromName("", "ILevelGameplaySetupData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "SetNextGameplaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelGameplaySetupData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::New_ctor

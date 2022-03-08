@@ -85,7 +85,7 @@ namespace System {
     // Get instance field reference: public System.String RemoteUrl
     ::StringW& dyn_RemoteUrl();
     // public System.Void .ctor()
-    // Offset: 0x242BB70
+    // Offset: 0x2A97E54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -213,89 +213,56 @@ namespace System::Xml::Schema {
     // Get instance field reference: protected System.Collections.Generic.List`1<System.String> values
     ::System::Collections::Generic::List_1<::StringW>*& dyn_values();
     // System.Xml.XmlQualifiedName get_Name()
-    // Offset: 0x16934BC
+    // Offset: 0x1C42DD8
     ::System::Xml::XmlQualifiedName* get_Name();
-    // System.Void set_Name(System.Xml.XmlQualifiedName value)
-    // Offset: 0x16934C4
-    void set_Name(::System::Xml::XmlQualifiedName* value);
     // System.String get_Prefix()
-    // Offset: 0x16934CC
+    // Offset: 0x1C42968
     ::StringW get_Prefix();
-    // System.Void set_Prefix(System.String value)
-    // Offset: 0x1693528
-    void set_Prefix(::StringW value);
     // System.Boolean get_IsDeclaredInExternal()
-    // Offset: 0x1693530
+    // Offset: 0x1C42DE0
     bool get_IsDeclaredInExternal();
     // System.Void set_IsDeclaredInExternal(System.Boolean value)
-    // Offset: 0x1693538
+    // Offset: 0x1C42DE8
     void set_IsDeclaredInExternal(bool value);
     // System.Xml.Schema.SchemaDeclBase/System.Xml.Schema.Use get_Presence()
-    // Offset: 0x1693544
+    // Offset: 0x1C42DF4
     ::System::Xml::Schema::SchemaDeclBase::Use get_Presence();
     // System.Void set_Presence(System.Xml.Schema.SchemaDeclBase/System.Xml.Schema.Use value)
-    // Offset: 0x169354C
+    // Offset: 0x1C42DFC
     void set_Presence(::System::Xml::Schema::SchemaDeclBase::Use value);
-    // System.Int64 get_MaxLength()
-    // Offset: 0x1693554
-    int64_t get_MaxLength();
-    // System.Void set_MaxLength(System.Int64 value)
-    // Offset: 0x169355C
-    void set_MaxLength(int64_t value);
-    // System.Int64 get_MinLength()
-    // Offset: 0x1693564
-    int64_t get_MinLength();
-    // System.Void set_MinLength(System.Int64 value)
-    // Offset: 0x169356C
-    void set_MinLength(int64_t value);
-    // System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0x1693574
-    ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // System.Void set_SchemaType(System.Xml.Schema.XmlSchemaType value)
-    // Offset: 0x169357C
+    // Offset: 0x1C42E04
     void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
     // System.Xml.Schema.XmlSchemaDatatype get_Datatype()
-    // Offset: 0x1693584
+    // Offset: 0x1C42E0C
     ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
     // System.Void set_Datatype(System.Xml.Schema.XmlSchemaDatatype value)
-    // Offset: 0x169358C
+    // Offset: 0x1C42E14
     void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
     // System.Collections.Generic.List`1<System.String> get_Values()
-    // Offset: 0x169362C
+    // Offset: 0x1C42EB4
     ::System::Collections::Generic::List_1<::StringW>* get_Values();
-    // System.Void set_Values(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x1693634
-    void set_Values(::System::Collections::Generic::List_1<::StringW>* value);
     // System.String get_DefaultValueRaw()
-    // Offset: 0x169363C
+    // Offset: 0x1C42EBC
     ::StringW get_DefaultValueRaw();
-    // System.Void set_DefaultValueRaw(System.String value)
-    // Offset: 0x1693698
-    void set_DefaultValueRaw(::StringW value);
     // System.Object get_DefaultValueTyped()
-    // Offset: 0x16936A0
+    // Offset: 0x1C42F18
     ::Il2CppObject* get_DefaultValueTyped();
     // System.Void set_DefaultValueTyped(System.Object value)
-    // Offset: 0x16936A8
+    // Offset: 0x1C42F20
     void set_DefaultValueTyped(::Il2CppObject* value);
     // protected System.Void .ctor(System.Xml.XmlQualifiedName name, System.String prefix)
-    // Offset: 0x16933AC
+    // Offset: 0x1C427F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaDeclBase* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaDeclBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SchemaDeclBase*, creationType>(name, prefix)));
     }
     // System.Void AddValue(System.String value)
-    // Offset: 0x1693594
+    // Offset: 0x1C42E1C
     void AddValue(::StringW value);
-    // System.Boolean CheckEnumeration(System.Object pVal)
-    // Offset: 0x16936B0
-    bool CheckEnumeration(::Il2CppObject* pVal);
-    // System.Boolean CheckValue(System.Object pVal)
-    // Offset: 0x169377C
-    bool CheckValue(::Il2CppObject* pVal);
     // protected System.Void .ctor()
-    // Offset: 0x1693444
+    // Offset: 0x1C42894
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -319,30 +286,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::set_Name
-// Il2CppName: set_Name
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaDeclBase::*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::SchemaDeclBase::set_Name)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::get_Prefix
 // Il2CppName: get_Prefix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::SchemaDeclBase::*)()>(&System::Xml::Schema::SchemaDeclBase::get_Prefix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "get_Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::set_Prefix
-// Il2CppName: set_Prefix
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaDeclBase::*)(::StringW)>(&System::Xml::Schema::SchemaDeclBase::set_Prefix)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "set_Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::get_IsDeclaredInExternal
@@ -379,48 +328,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "set_Presence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::get_MaxLength
-// Il2CppName: get_MaxLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Xml::Schema::SchemaDeclBase::*)()>(&System::Xml::Schema::SchemaDeclBase::get_MaxLength)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "get_MaxLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::set_MaxLength
-// Il2CppName: set_MaxLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaDeclBase::*)(int64_t)>(&System::Xml::Schema::SchemaDeclBase::set_MaxLength)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "set_MaxLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::get_MinLength
-// Il2CppName: get_MinLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Xml::Schema::SchemaDeclBase::*)()>(&System::Xml::Schema::SchemaDeclBase::get_MinLength)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "get_MinLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::set_MinLength
-// Il2CppName: set_MinLength
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaDeclBase::*)(int64_t)>(&System::Xml::Schema::SchemaDeclBase::set_MinLength)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "set_MinLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::get_SchemaType
-// Il2CppName: get_SchemaType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (System::Xml::Schema::SchemaDeclBase::*)()>(&System::Xml::Schema::SchemaDeclBase::get_SchemaType)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "get_SchemaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::set_SchemaType
 // Il2CppName: set_SchemaType
 template<>
@@ -455,30 +362,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::set_Values
-// Il2CppName: set_Values
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaDeclBase::*)(::System::Collections::Generic::List_1<::StringW>*)>(&System::Xml::Schema::SchemaDeclBase::set_Values)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "set_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::get_DefaultValueRaw
 // Il2CppName: get_DefaultValueRaw
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::SchemaDeclBase::*)()>(&System::Xml::Schema::SchemaDeclBase::get_DefaultValueRaw)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "get_DefaultValueRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::set_DefaultValueRaw
-// Il2CppName: set_DefaultValueRaw
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaDeclBase::*)(::StringW)>(&System::Xml::Schema::SchemaDeclBase::set_DefaultValueRaw)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "set_DefaultValueRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::get_DefaultValueTyped
@@ -509,24 +398,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "AddValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::CheckEnumeration
-// Il2CppName: CheckEnumeration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::SchemaDeclBase::*)(::Il2CppObject*)>(&System::Xml::Schema::SchemaDeclBase::CheckEnumeration)> {
-  static const MethodInfo* get() {
-    static auto* pVal = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "CheckEnumeration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pVal});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::CheckValue
-// Il2CppName: CheckValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::SchemaDeclBase::*)(::Il2CppObject*)>(&System::Xml::Schema::SchemaDeclBase::CheckValue)> {
-  static const MethodInfo* get() {
-    static auto* pVal = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaDeclBase*), "CheckValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pVal});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaDeclBase::New_ctor

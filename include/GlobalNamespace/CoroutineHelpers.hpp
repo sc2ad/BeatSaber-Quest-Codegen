@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0
     class $ExecuteAfterDelayCoroutine$d__0;
     // static public System.Collections.IEnumerator ExecuteAfterDelayCoroutine(System.Action action, System.Single time)
-    // Offset: 0x2C17530
+    // Offset: 0x156FB58
     static ::System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(::System::Action* action, float time);
     // public System.Void .ctor()
-    // Offset: 0x2C175DC
+    // Offset: 0x156FC04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

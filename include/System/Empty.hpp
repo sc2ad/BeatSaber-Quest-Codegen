@@ -47,13 +47,13 @@ namespace System {
     // Set static field: static public readonly System.Empty Value
     static void _set_Value(::System::Empty* value);
     // static private System.Void .cctor()
-    // Offset: 0x18828BC
+    // Offset: 0x19178C4
     static void _cctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1882828
+    // Offset: 0x1917830
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void .ctor()
-    // Offset: 0x18827D0
+    // Offset: 0x19177D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +62,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<Empty*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x18827D8
+    // Offset: 0x19177E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

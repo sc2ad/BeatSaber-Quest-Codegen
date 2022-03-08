@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String serializedName
     ::StringW& dyn_serializedName();
     // System.Boolean <SelectCellWithSerializedName>b__0(QuickPlaySongPacksDropdown/SongPackMaskItem item)
-    // Offset: 0x13ECECC
+    // Offset: 0x13C6B30
     bool $SelectCellWithSerializedName$b__0(::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);
     // public System.Void .ctor()
-    // Offset: 0x13ECAA0
+    // Offset: 0x13C6704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,30 +65,30 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 pos
     int& dyn_pos();
     // public System.Int32 get_Pos()
-    // Offset: 0x149A9FC
+    // Offset: 0x1C3D6EC
     int get_Pos();
     // public System.Void set_Pos(System.Int32 value)
-    // Offset: 0x149AA04
+    // Offset: 0x1C3D6F4
     void set_Pos(int value);
     // public System.Void .ctor(System.Int32 pos)
-    // Offset: 0x149A9D0
+    // Offset: 0x1C3D6C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeafNode* New_ctor(int pos) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::LeafNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeafNode*, creationType>(pos)));
     }
     // public override System.Boolean get_IsNullable()
-    // Offset: 0x149AA5C
+    // Offset: 0x1C3D74C
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Boolean SyntaxTreeNode::get_IsNullable()
     bool get_IsNullable();
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x149AA0C
+    // Offset: 0x1C3D6FC
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // public override System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x149AA10
+    // Offset: 0x1C3D700
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);

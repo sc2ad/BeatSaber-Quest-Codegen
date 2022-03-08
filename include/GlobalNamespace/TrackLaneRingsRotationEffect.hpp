@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1242960
+    // [HeaderAttribute] Offset: 0x10B7C1C
     // private System.Single _startupRotationAngle
     // Size: 0x4
     // Offset: 0x20
@@ -121,31 +121,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> ringRotationEffectsToDelete
     ::System::Collections::Generic::List_1<int>*& dyn_ringRotationEffectsToDelete();
     // protected System.Void Awake()
-    // Offset: 0x2AE80A4
+    // Offset: 0x1386648
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x2AE81BC
+    // Offset: 0x1386760
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0x2AE8268
+    // Offset: 0x138680C
     void FixedUpdate();
     // public System.Void AddRingRotationEffect(System.Single angle, System.Single step, System.Int32 propagationSpeed, System.Single flexySpeed)
-    // Offset: 0x2AE81CC
+    // Offset: 0x1386770
     void AddRingRotationEffect(float angle, float step, int propagationSpeed, float flexySpeed);
     // public System.Single GetFirstRingRotationAngle()
-    // Offset: 0x2AE84E4
+    // Offset: 0x1386A88
     float GetFirstRingRotationAngle();
     // public System.Single GetFirstRingDestinationRotationAngle()
-    // Offset: 0x2AE8528
+    // Offset: 0x1386ACC
     float GetFirstRingDestinationRotationAngle();
     // private TrackLaneRingsRotationEffect/RingRotationEffect SpawnRingRotationEffect()
-    // Offset: 0x2AE844C
+    // Offset: 0x13869F0
     ::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* SpawnRingRotationEffect();
     // private System.Void RecycleRingRotationEffect(TrackLaneRingsRotationEffect/RingRotationEffect ringRotationEffect)
-    // Offset: 0x2AE83E4
+    // Offset: 0x1386988
     void RecycleRingRotationEffect(::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* ringRotationEffect);
     // public System.Void .ctor()
-    // Offset: 0x2AE856C
+    // Offset: 0x1386B10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

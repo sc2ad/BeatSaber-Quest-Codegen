@@ -73,35 +73,38 @@ namespace GlobalNamespace {
     ::System::Action*& dyn_willResumeEvent();
     // Get instance field reference: private System.Action didResumeEvent
     ::System::Action*& dyn_didResumeEvent();
+    // public System.Boolean get_isPaused()
+    // Offset: 0x133BDD8
+    bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x1422CA8
+    // Offset: 0x133BDE0
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x1422D4C
+    // Offset: 0x133BE84
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x1422DF0
+    // Offset: 0x133BF28
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x1422E94
+    // Offset: 0x133BFCC
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x1422F38
+    // Offset: 0x133C070
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x1422FDC
+    // Offset: 0x133C114
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x1423080
+    // Offset: 0x133C1B8
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x14230E0
+    // Offset: 0x133C218
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x1423140
+    // Offset: 0x133C278
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x14231A0
+    // Offset: 0x133C2D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -115,6 +118,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPause) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::get_isPaused
+// Il2CppName: get_isPaused
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPause::*)()>(&GlobalNamespace::MockPause::get_isPaused)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "get_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

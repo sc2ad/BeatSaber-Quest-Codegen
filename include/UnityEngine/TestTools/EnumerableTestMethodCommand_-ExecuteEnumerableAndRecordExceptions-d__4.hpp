@@ -86,26 +86,26 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext context
     ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x18D8794
+    // Offset: 0x1954384
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18D87FC
+    // Offset: 0x19543EC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x18D7830
+    // Offset: 0x1953420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x18D8484
+    // Offset: 0x1954074
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x18D8488
+    // Offset: 0x1954078
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x18D879C
+    // Offset: 0x195438C
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.EnumerableTestMethodCommand/UnityEngine.TestTools.<ExecuteEnumerableAndRecordExceptions>d__4
   #pragma pack(pop)

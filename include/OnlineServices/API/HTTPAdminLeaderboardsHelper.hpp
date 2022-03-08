@@ -101,26 +101,26 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.UriBuilder _uriBuilder
     ::System::UriBuilder*& dyn__uriBuilder();
     // public System.Void .ctor(System.String uri, System.String secret)
-    // Offset: 0x2BBB1A0
+    // Offset: 0x1347D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper* New_ctor(::StringW uri, ::StringW secret) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper*, creationType>(uri, secret)));
     }
     // public System.Threading.Tasks.Task`1<System.String> ServerStatus(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2BBB220
+    // Offset: 0x1347D80
     ::System::Threading::Tasks::Task_1<::StringW>* ServerStatus(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoResultDto> LeaderboardsExist(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2BBB344
+    // Offset: 0x1347EA4
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* LeaderboardsExist(::ArrayW<::StringW> leaderboardIds, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> CreateOrUpdateLeaderboards(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2BBB458
+    // Offset: 0x1347FB8
     ::System::Threading::Tasks::Task_1<bool>* CreateOrUpdateLeaderboards(::ArrayW<::StringW> leaderboardIds, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2BBB56C
+    // Offset: 0x13480CC
     ::System::Threading::Tasks::Task_1<::StringW>* SendWebRequestAsync(::StringW uri, ::StringW method, ::StringW bodyData, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendAndWaitAsync(UnityEngine.Networking.UnityWebRequest webRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2BBB6A4
+    // Offset: 0x1348204
     ::System::Threading::Tasks::Task* SendAndWaitAsync(::UnityEngine::Networking::UnityWebRequest* webRequest, ::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper
   #pragma pack(pop)

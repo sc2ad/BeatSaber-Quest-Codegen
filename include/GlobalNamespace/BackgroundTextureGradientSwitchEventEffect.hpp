@@ -7,8 +7,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: BeatmapEventType
-#include "GlobalNamespace/BeatmapEventType.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -19,10 +17,12 @@
 namespace GlobalNamespace {
   // Forward declaring type: BloomPrePassBackgroundTextureGradient
   class BloomPrePassBackgroundTextureGradient;
-  // Forward declaring type: IBeatmapObjectCallbackController
-  class IBeatmapObjectCallbackController;
-  // Forward declaring type: BeatmapEventData
-  class BeatmapEventData;
+  // Forward declaring type: BeatmapCallbacksController
+  class BeatmapCallbacksController;
+  // Forward declaring type: BeatmapDataCallbackWrapper
+  class BeatmapDataCallbackWrapper;
+  // Forward declaring type: ColorBoostBeatmapEventData
+  class ColorBoostBeatmapEventData;
 }
 // Completed forward declares
 // Type namespace: 
@@ -50,55 +50,53 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private BeatmapEventType _colorBoostEvent
-    // Size: 0x4
-    // Offset: 0x18
-    ::GlobalNamespace::BeatmapEventType colorBoostEvent;
-    // Field size check
-    static_assert(sizeof(::GlobalNamespace::BeatmapEventType) == 0x4);
-    // Padding between fields: colorBoostEvent and: defaultTextureGradient
-    char __padding0[0x4] = {};
     // private BloomPrePassBackgroundTextureGradient _defaultTextureGradient
     // Size: 0x8
-    // Offset: 0x20
+    // Offset: 0x18
     ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* defaultTextureGradient;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient*) == 0x8);
     // private BloomPrePassBackgroundTextureGradient _boostTextureGradient
     // Size: 0x8
-    // Offset: 0x28
+    // Offset: 0x20
     ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* boostTextureGradient;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient*) == 0x8);
-    // [InjectAttribute] Offset: 0x1241B28
-    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0x10B6C14
+    // private readonly BeatmapCallbacksController _beatmapCallbacksController
+    // Size: 0x8
+    // Offset: 0x28
+    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
+    // Field size check
+    static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
+    // private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     // Size: 0x8
     // Offset: 0x30
-    ::GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
+    ::GlobalNamespace::BeatmapDataCallbackWrapper* beatmapDataCallbackWrapper;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // Get instance field reference: private BeatmapEventType _colorBoostEvent
-    ::GlobalNamespace::BeatmapEventType& dyn__colorBoostEvent();
     // Get instance field reference: private BloomPrePassBackgroundTextureGradient _defaultTextureGradient
     ::GlobalNamespace::BloomPrePassBackgroundTextureGradient*& dyn__defaultTextureGradient();
     // Get instance field reference: private BloomPrePassBackgroundTextureGradient _boostTextureGradient
     ::GlobalNamespace::BloomPrePassBackgroundTextureGradient*& dyn__boostTextureGradient();
-    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    ::GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
+    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
+    // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
+    ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Start()
-    // Offset: 0x2B3A1DC
+    // Offset: 0x136B9C0
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x2B3A2CC
+    // Offset: 0x136BA64
     void OnDestroy();
-    // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x2B3A3CC
-    void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(::GlobalNamespace::BeatmapEventData* beatmapEventData);
+    // private System.Void HandleBeatmapEvent(ColorBoostBeatmapEventData eventData)
+    // Offset: 0x136BA7C
+    void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x2B3A43C
+    // Offset: 0x136BAD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,7 +110,7 @@ namespace GlobalNamespace {
     }
   }; // BackgroundTextureGradientSwitchEventEffect
   #pragma pack(pop)
-  static check_size<sizeof(BackgroundTextureGradientSwitchEventEffect), 48 + sizeof(::GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_BackgroundTextureGradientSwitchEventEffectSizeCheck;
+  static check_size<sizeof(BackgroundTextureGradientSwitchEventEffect), 48 + sizeof(::GlobalNamespace::BeatmapDataCallbackWrapper*)> __GlobalNamespace_BackgroundTextureGradientSwitchEventEffectSizeCheck;
   static_assert(sizeof(BackgroundTextureGradientSwitchEventEffect) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -132,13 +130,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
-// Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+// Writing MetadataGetter for method: GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent
+// Il2CppName: HandleBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)(::GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)(::GlobalNamespace::ColorBoostBeatmapEventData*)>(&GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent)> {
   static const MethodInfo* get() {
-    static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
+    static auto* eventData = &::il2cpp_utils::GetClassFromName("", "ColorBoostBeatmapEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*), "HandleBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::New_ctor

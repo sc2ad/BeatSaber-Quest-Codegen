@@ -35,18 +35,18 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::MenuTransitionsHelper::$$c* _get_$$9();
     // Set static field: static public readonly MenuTransitionsHelper/<>c <>9
     static void _set_$$9(::GlobalNamespace::MenuTransitionsHelper::$$c* value);
-    // Get static field: static public System.Action <>9__21_0
-    static ::System::Action* _get_$$9__21_0();
-    // Set static field: static public System.Action <>9__21_0
-    static void _set_$$9__21_0(::System::Action* value);
+    // Get static field: static public System.Action <>9__23_0
+    static ::System::Action* _get_$$9__23_0();
+    // Set static field: static public System.Action <>9__23_0
+    static void _set_$$9__23_0(::System::Action* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A69C10
+    // Offset: 0x132BB10
     static void _cctor();
-    // System.Void <StartBeatmapEditor>b__21_0()
-    // Offset: 0x2A69C7C
-    void $StartBeatmapEditor$b__21_0();
+    // System.Void <StartBeatmapEditor>b__23_0()
+    // Offset: 0x132BB7C
+    void $StartBeatmapEditor$b__23_0();
     // public System.Void .ctor()
-    // Offset: 0x2A69C74
+    // Offset: 0x132BB74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,12 +66,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c::$StartBeatmapEditor$b__21_0
-// Il2CppName: <StartBeatmapEditor>b__21_0
+// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c::$StartBeatmapEditor$b__23_0
+// Il2CppName: <StartBeatmapEditor>b__23_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::$$c::*)()>(&GlobalNamespace::MenuTransitionsHelper::$$c::$StartBeatmapEditor$b__21_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::$$c::*)()>(&GlobalNamespace::MenuTransitionsHelper::$$c::$StartBeatmapEditor$b__23_0)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c*), "<StartBeatmapEditor>b__21_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c*), "<StartBeatmapEditor>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c::New_ctor

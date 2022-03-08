@@ -12,27 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System::Xml::Schema
-namespace System::Xml::Schema {
-  // Forward declaring type: ValidationState
-  class ValidationState;
-  // Forward declaring type: XmlSchemaSet
-  class XmlSchemaSet;
-  // Forward declaring type: XmlSchemaParticle
-  class XmlSchemaParticle;
-}
-// Forward declaring namespace: System::Xml
-namespace System::Xml {
-  // Forward declaring type: XmlQualifiedName
-  class XmlQualifiedName;
-}
-// Forward declaring namespace: System::Collections
-namespace System::Collections {
-  // Forward declaring type: ArrayList
-  class ArrayList;
-}
-// Completed forward declares
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Forward declaring type: ContentValidator
@@ -100,58 +79,28 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Boolean isEmptiable
     bool& dyn_isEmptiable();
     // public System.Xml.Schema.XmlSchemaContentType get_ContentType()
-    // Offset: 0x1D59AD8
+    // Offset: 0x1AADF38
     ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
-    // public System.Boolean get_PreserveWhitespace()
-    // Offset: 0x1D59AE0
-    bool get_PreserveWhitespace();
-    // public System.Boolean get_IsEmptiable()
-    // Offset: 0x1D59AFC
-    bool get_IsEmptiable();
     // public System.Boolean get_IsOpen()
-    // Offset: 0x1D59B04
+    // Offset: 0x1AADF40
     bool get_IsOpen();
-    // public System.Void set_IsOpen(System.Boolean value)
-    // Offset: 0x1D59B28
-    void set_IsOpen(bool value);
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType)
-    // Offset: 0x1D59A58
+    // Offset: 0x1AADEB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentValidator*, creationType>(contentType)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean isOpen, System.Boolean isEmptiable)
-    // Offset: 0x1D59A8C
+    // Offset: 0x1AADEEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentValidator*, creationType>(contentType, isOpen, isEmptiable)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D59E30
+    // Offset: 0x1AADF64
     static void _cctor();
-    // public System.Void InitValidation(System.Xml.Schema.ValidationState context)
-    // Offset: 0x1D59B34
-    void InitValidation(::System::Xml::Schema::ValidationState* context);
-    // public System.Object ValidateElement(System.Xml.XmlQualifiedName name, System.Xml.Schema.ValidationState context, out System.Int32 errorCode)
-    // Offset: 0x1D59B38
-    ::Il2CppObject* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int> errorCode);
-    // public System.Boolean CompleteValidation(System.Xml.Schema.ValidationState context)
-    // Offset: 0x1D59B68
-    bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
-    // public System.Collections.ArrayList ExpectedElements(System.Xml.Schema.ValidationState context, System.Boolean isRequiredOnly)
-    // Offset: 0x1D59B70
-    ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
-    // public System.Collections.ArrayList ExpectedParticles(System.Xml.Schema.ValidationState context, System.Boolean isRequiredOnly, System.Xml.Schema.XmlSchemaSet schemaSet)
-    // Offset: 0x1D59B78
-    ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
-    // static public System.Void AddParticleToExpected(System.Xml.Schema.XmlSchemaParticle p, System.Xml.Schema.XmlSchemaSet schemaSet, System.Collections.ArrayList particles)
-    // Offset: 0x1D59B80
-    static void AddParticleToExpected(::System::Xml::Schema::XmlSchemaParticle* p, ::System::Xml::Schema::XmlSchemaSet* schemaSet, ::System::Collections::ArrayList* particles);
-    // static public System.Void AddParticleToExpected(System.Xml.Schema.XmlSchemaParticle p, System.Xml.Schema.XmlSchemaSet schemaSet, System.Collections.ArrayList particles, System.Boolean global)
-    // Offset: 0x1D59C00
-    static void AddParticleToExpected(::System::Xml::Schema::XmlSchemaParticle* p, ::System::Xml::Schema::XmlSchemaSet* schemaSet, ::System::Collections::ArrayList* particles, bool global);
   }; // System.Xml.Schema.ContentValidator
   #pragma pack(pop)
   static check_size<sizeof(ContentValidator), 21 + sizeof(bool)> __System_Xml_Schema_ContentValidatorSizeCheck;
@@ -166,37 +115,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::get_PreserveWhitespace
-// Il2CppName: get_PreserveWhitespace
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::ContentValidator::*)()>(&System::Xml::Schema::ContentValidator::get_PreserveWhitespace)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "get_PreserveWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::get_IsEmptiable
-// Il2CppName: get_IsEmptiable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::ContentValidator::*)()>(&System::Xml::Schema::ContentValidator::get_IsEmptiable)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "get_IsEmptiable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::get_IsOpen
 // Il2CppName: get_IsOpen
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::ContentValidator::*)()>(&System::Xml::Schema::ContentValidator::get_IsOpen)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "get_IsOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::set_IsOpen
-// Il2CppName: set_IsOpen
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::ContentValidator::*)(bool)>(&System::Xml::Schema::ContentValidator::set_IsOpen)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "set_IsOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::New_ctor
@@ -213,78 +137,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::Schema::ContentValidator::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::InitValidation
-// Il2CppName: InitValidation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*)>(&System::Xml::Schema::ContentValidator::InitValidation)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "InitValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::ValidateElement
-// Il2CppName: ValidateElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::ContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int>)>(&System::Xml::Schema::ContentValidator::ValidateElement)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    static auto* errorCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "ValidateElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, context, errorCode});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::CompleteValidation
-// Il2CppName: CompleteValidation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*)>(&System::Xml::Schema::ContentValidator::CompleteValidation)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "CompleteValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::ExpectedElements
-// Il2CppName: ExpectedElements
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(&System::Xml::Schema::ContentValidator::ExpectedElements)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    static auto* isRequiredOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "ExpectedElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, isRequiredOnly});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::ExpectedParticles
-// Il2CppName: ExpectedParticles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::Schema::ContentValidator::ExpectedParticles)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    static auto* isRequiredOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* schemaSet = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "ExpectedParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, isRequiredOnly, schemaSet});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::AddParticleToExpected
-// Il2CppName: AddParticleToExpected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaSet*, ::System::Collections::ArrayList*)>(&System::Xml::Schema::ContentValidator::AddParticleToExpected)> {
-  static const MethodInfo* get() {
-    static auto* p = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaParticle")->byval_arg;
-    static auto* schemaSet = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
-    static auto* particles = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "AddParticleToExpected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, schemaSet, particles});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::ContentValidator::AddParticleToExpected
-// Il2CppName: AddParticleToExpected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaSet*, ::System::Collections::ArrayList*, bool)>(&System::Xml::Schema::ContentValidator::AddParticleToExpected)> {
-  static const MethodInfo* get() {
-    static auto* p = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaParticle")->byval_arg;
-    static auto* schemaSet = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
-    static auto* particles = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
-    static auto* global = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ContentValidator*), "AddParticleToExpected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, schemaSet, particles, global});
   }
 };

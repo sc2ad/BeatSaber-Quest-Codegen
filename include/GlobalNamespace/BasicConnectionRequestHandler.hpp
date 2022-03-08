@@ -65,19 +65,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <secret>k__BackingField
     ::StringW& dyn_$secret$k__BackingField();
     // public System.String get_secret()
-    // Offset: 0x2B8D8F8
+    // Offset: 0x15368D4
     ::StringW get_secret();
     // public System.Void set_secret(System.String value)
-    // Offset: 0x2B8D900
+    // Offset: 0x15368DC
     void set_secret(::StringW value);
     // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x2B8D908
+    // Offset: 0x15368E4
     void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x2B8D97C
+    // Offset: 0x1536958
     bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
     // public System.Void .ctor()
-    // Offset: 0x2B8DA3C
+    // Offset: 0x1536A18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

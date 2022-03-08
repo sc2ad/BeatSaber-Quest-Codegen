@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
     int& dyn_healthAndSafetyVersion();
     // public System.Void .ctor()
-    // Offset: 0x13DF920
+    // Offset: 0x14846CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

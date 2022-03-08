@@ -73,7 +73,7 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: protected System.String descriptionText
     ::StringW& dyn_descriptionText();
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x1B589F0
+    // Offset: 0x1C5F328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringConstraint* New_ctor(::StringW expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::StringConstraint::.ctor");
@@ -83,12 +83,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     bool Matches(::StringW actual);
     // public override System.String get_Description()
-    // Offset: 0x1B58FBC
+    // Offset: 0x1C5F8F4
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::StringW get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x1B5907C
+    // Offset: 0x1C5F9B4
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     ::NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Asn1::Anssi {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier FRP256v1
     static void _set_FRP256v1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B1A048
+    // Offset: 0x1C02B94
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Anssi.AnssiObjectIdentifiers
   #pragma pack(pop)

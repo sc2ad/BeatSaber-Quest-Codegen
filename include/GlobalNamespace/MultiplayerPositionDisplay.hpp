@@ -97,14 +97,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fadeOutDuration and: scoreProvider
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0x1245850
+    // [InjectAttribute] Offset: 0x10BAB9C
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1245860
+    // [InjectAttribute] Offset: 0x10BABAC
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x68
@@ -191,31 +191,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _colorAnimationStartDuration
     float& dyn__colorAnimationStartDuration();
     // protected System.Void Start()
-    // Offset: 0x2AA5F48
+    // Offset: 0x13FF8C8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2AA6118
+    // Offset: 0x13FFA98
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x2AA632C
+    // Offset: 0x13FFCAC
     void Update();
     // private System.Void UpdateColors()
-    // Offset: 0x2AA6388
+    // Offset: 0x13FFD08
     void UpdateColors();
     // private System.Void UpdatePosition()
-    // Offset: 0x2AA6428
+    // Offset: 0x13FFDA8
     void UpdatePosition();
     // private System.Void HandlePlayerFailed()
-    // Offset: 0x2AA65A0
+    // Offset: 0x13FFF20
     void HandlePlayerFailed();
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer obj)
-    // Offset: 0x2AA6684
+    // Offset: 0x1400004
     void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* obj);
     // private System.Void ChangeColor(UnityEngine.Color toColor, System.Single duration)
-    // Offset: 0x2AA62A4
+    // Offset: 0x13FFC24
     void ChangeColor(::UnityEngine::Color toColor, float duration);
     // public System.Void .ctor()
-    // Offset: 0x2AA6738
+    // Offset: 0x14000B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

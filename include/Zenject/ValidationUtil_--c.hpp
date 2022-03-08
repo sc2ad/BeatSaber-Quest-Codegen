@@ -51,19 +51,19 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,Zenject.TypeValuePair> <>9__0_0
     static void _set_$$9__0_0(::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x24715FC
+    // Offset: 0x1D0A40C
     static void _cctor();
     // Zenject.TypeValuePair <CreateDefaultArgs>b__0_0(System.Type x)
-    // Offset: 0x2471668
+    // Offset: 0x1D0A478
     ::Zenject::TypeValuePair $CreateDefaultArgs$b__0_0(::System::Type* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x24716DC
+    // Offset: 0x1D0A4EC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x2471738
+    // Offset: 0x1D0A548
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x2471660
+    // Offset: 0x1D0A470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

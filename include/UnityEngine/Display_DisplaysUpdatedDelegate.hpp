@@ -35,20 +35,20 @@ namespace UnityEngine {
   class Display::DisplaysUpdatedDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1EB86B4
+    // Offset: 0x1F5EBBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Display::DisplaysUpdatedDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Display::DisplaysUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Display::DisplaysUpdatedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1EB8398
+    // Offset: 0x1F5E8A0
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1EB86C4
+    // Offset: 0x1F5EBCC
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1EB86F0
+    // Offset: 0x1F5EBF8
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Display/UnityEngine.DisplaysUpdatedDelegate
   #pragma pack(pop)

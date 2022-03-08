@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kUnityAssertions
     static void _set_kUnityAssertions(::StringW value);
     // static public System.Void LessThan(System.Single expected, System.Single value, System.String message)
-    // Offset: 0x2C15824
+    // Offset: 0x156DE18
     static void LessThan(float expected, float value, ::StringW message);
   }; // AssertExtensions
   #pragma pack(pop)

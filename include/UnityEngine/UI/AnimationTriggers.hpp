@@ -43,35 +43,35 @@ namespace UnityEngine::UI {
     protected:
     #endif
     #endif
-    // [FormerlySerializedAsAttribute] Offset: 0x11E1694
+    // [FormerlySerializedAsAttribute] Offset: 0x1062ED8
     // private System.String m_NormalTrigger
     // Size: 0x8
     // Offset: 0x10
     ::StringW m_NormalTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11E16E0
+    // [FormerlySerializedAsAttribute] Offset: 0x1062F24
     // private System.String m_HighlightedTrigger
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_HighlightedTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11E172C
+    // [FormerlySerializedAsAttribute] Offset: 0x1062F70
     // private System.String m_PressedTrigger
     // Size: 0x8
     // Offset: 0x20
     ::StringW m_PressedTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11E1778
+    // [FormerlySerializedAsAttribute] Offset: 0x1062FBC
     // private System.String m_SelectedTrigger
     // Size: 0x8
     // Offset: 0x28
     ::StringW m_SelectedTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11E17C4
+    // [FormerlySerializedAsAttribute] Offset: 0x1063008
     // private System.String m_DisabledTrigger
     // Size: 0x8
     // Offset: 0x30
@@ -120,37 +120,37 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.String m_DisabledTrigger
     ::StringW& dyn_m_DisabledTrigger();
     // public System.String get_normalTrigger()
-    // Offset: 0x187128C
+    // Offset: 0x1906310
     ::StringW get_normalTrigger();
     // public System.Void set_normalTrigger(System.String value)
-    // Offset: 0x1871294
+    // Offset: 0x1906318
     void set_normalTrigger(::StringW value);
     // public System.String get_highlightedTrigger()
-    // Offset: 0x187129C
+    // Offset: 0x1906320
     ::StringW get_highlightedTrigger();
     // public System.Void set_highlightedTrigger(System.String value)
-    // Offset: 0x18712A4
+    // Offset: 0x1906328
     void set_highlightedTrigger(::StringW value);
     // public System.String get_pressedTrigger()
-    // Offset: 0x18712AC
+    // Offset: 0x1906330
     ::StringW get_pressedTrigger();
     // public System.Void set_pressedTrigger(System.String value)
-    // Offset: 0x18712B4
+    // Offset: 0x1906338
     void set_pressedTrigger(::StringW value);
     // public System.String get_selectedTrigger()
-    // Offset: 0x18712BC
+    // Offset: 0x1906340
     ::StringW get_selectedTrigger();
     // public System.Void set_selectedTrigger(System.String value)
-    // Offset: 0x18712C4
+    // Offset: 0x1906348
     void set_selectedTrigger(::StringW value);
     // public System.String get_disabledTrigger()
-    // Offset: 0x18712CC
+    // Offset: 0x1906350
     ::StringW get_disabledTrigger();
     // public System.Void set_disabledTrigger(System.String value)
-    // Offset: 0x18712D4
+    // Offset: 0x1906358
     void set_disabledTrigger(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x18712DC
+    // Offset: 0x1906360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,19 +43,19 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
     ::System::Runtime::Remoting::Messaging::LogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1B8C6A0
+    // Offset: 0x1C83C68
     bool get_IsNull();
     // public System.Boolean get_HasInfo()
-    // Offset: 0x1B8C6B0
+    // Offset: 0x1C83C78
     bool get_HasInfo();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0x1B8C698
+    // Offset: 0x1C83C60
     // ABORTED: conflicts with another method.  Reader(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
-    // Offset: 0x1B8C6C0
+    // Offset: 0x1C83C88
     ::System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
-    // Offset: 0x1B88120
+    // Offset: 0x1C7F6E8
     ::Il2CppObject* GetData(::StringW name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

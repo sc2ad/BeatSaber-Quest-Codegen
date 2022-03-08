@@ -29,18 +29,10 @@ namespace System::Xml::Schema {
   class XmlSchemaSimpleType;
   // Forward declaring type: FacetsChecker
   class FacetsChecker;
-  // Forward declaring type: RestrictionFlags
-  struct RestrictionFlags;
   // Forward declaring type: XmlTypeCode
   struct XmlTypeCode;
   // Forward declaring type: XmlSchemaWhiteSpace
   struct XmlSchemaWhiteSpace;
-  // Forward declaring type: XmlSchemaObjectCollection
-  class XmlSchemaObjectCollection;
-  // Forward declaring type: XmlSchemaObjectTable
-  class XmlSchemaObjectTable;
-  // Forward declaring type: XmlSchemaObject
-  class XmlSchemaObject;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -62,8 +54,6 @@ namespace System::Xml {
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Exception
-  class Exception;
 }
 // Completed forward declares
 // Type namespace: System.Xml.Schema
@@ -154,14 +144,6 @@ namespace System::Xml::Schema {
     static ::System::Xml::Schema::XmlSchemaSimpleType* _get_dayTimeDurationType();
     // Set static field: static private System.Xml.Schema.XmlSchemaSimpleType dayTimeDurationType
     static void _set_dayTimeDurationType(::System::Xml::Schema::XmlSchemaSimpleType* value);
-    // Get static field: static private System.Xml.Schema.XmlSchemaSimpleType normalizedStringTypeV1Compat
-    static ::System::Xml::Schema::XmlSchemaSimpleType* _get_normalizedStringTypeV1Compat();
-    // Set static field: static private System.Xml.Schema.XmlSchemaSimpleType normalizedStringTypeV1Compat
-    static void _set_normalizedStringTypeV1Compat(::System::Xml::Schema::XmlSchemaSimpleType* value);
-    // Get static field: static private System.Xml.Schema.XmlSchemaSimpleType tokenTypeV1Compat
-    static ::System::Xml::Schema::XmlSchemaSimpleType* _get_tokenTypeV1Compat();
-    // Set static field: static private System.Xml.Schema.XmlSchemaSimpleType tokenTypeV1Compat
-    static void _set_tokenTypeV1Compat(::System::Xml::Schema::XmlSchemaSimpleType* value);
     // Get static field: static System.Xml.XmlQualifiedName QnAnySimpleType
     static ::System::Xml::XmlQualifiedName* _get_QnAnySimpleType();
     // Set static field: static System.Xml.XmlQualifiedName QnAnySimpleType
@@ -481,129 +463,89 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaType parentSchemaType
     ::System::Xml::Schema::XmlSchemaType*& dyn_parentSchemaType();
     // static System.Xml.Schema.XmlSchemaSimpleType get_AnySimpleType()
-    // Offset: 0x1D5E9C4
+    // Offset: 0x1AB1968
     static ::System::Xml::Schema::XmlSchemaSimpleType* get_AnySimpleType();
     // static System.Xml.Schema.XmlSchemaSimpleType get_UntypedAtomicType()
-    // Offset: 0x1D5EA2C
+    // Offset: 0x1AB19D0
     static ::System::Xml::Schema::XmlSchemaSimpleType* get_UntypedAtomicType();
-    // protected System.Xml.Schema.DatatypeImplementation get_Base()
-    // Offset: 0x1D5FF20
-    ::System::Xml::Schema::DatatypeImplementation* get_Base();
     // System.Type get_ListValueType()
     // Offset: 0xFFFFFFFF
     ::System::Type* get_ListValueType();
-    // System.Xml.Schema.RestrictionFlags get_ValidRestrictionFlags()
-    // Offset: 0xFFFFFFFF
-    ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
     // static private System.Void .cctor()
-    // Offset: 0x1D59F20
+    // Offset: 0x1AAE054
     static void _cctor();
     // static System.Xml.Schema.DatatypeImplementation FromXmlTokenizedType(System.Xml.XmlTokenizedType token)
-    // Offset: 0x1D5EA94
+    // Offset: 0x1AB1A38
     static ::System::Xml::Schema::DatatypeImplementation* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
-    // static System.Xml.Schema.DatatypeImplementation FromXmlTokenizedTypeXsd(System.Xml.XmlTokenizedType token)
-    // Offset: 0x1D5EB28
-    static ::System::Xml::Schema::DatatypeImplementation* FromXmlTokenizedTypeXsd(::System::Xml::XmlTokenizedType token);
-    // static System.Xml.Schema.DatatypeImplementation FromXdrName(System.String name)
-    // Offset: 0x1D5EBBC
-    static ::System::Xml::Schema::DatatypeImplementation* FromXdrName(::StringW name);
     // static private System.Xml.Schema.DatatypeImplementation FromTypeName(System.String name)
-    // Offset: 0x1D5EC9C
+    // Offset: 0x1AB1ACC
     static ::System::Xml::Schema::DatatypeImplementation* FromTypeName(::StringW name);
     // static System.Xml.Schema.XmlSchemaSimpleType StartBuiltinType(System.Xml.XmlQualifiedName qname, System.Xml.Schema.XmlSchemaDatatype dataType)
-    // Offset: 0x1D5ED7C
+    // Offset: 0x1AB1BAC
     static ::System::Xml::Schema::XmlSchemaSimpleType* StartBuiltinType(::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaDatatype* dataType);
     // static System.Void FinishBuiltinType(System.Xml.Schema.XmlSchemaSimpleType derivedType, System.Xml.Schema.XmlSchemaSimpleType baseType)
-    // Offset: 0x1D5EE48
+    // Offset: 0x1AB1C78
     static void FinishBuiltinType(::System::Xml::Schema::XmlSchemaSimpleType* derivedType, ::System::Xml::Schema::XmlSchemaSimpleType* baseType);
     // static System.Void CreateBuiltinTypes()
-    // Offset: 0x1D5E1A4
+    // Offset: 0x1AB1148
     static void CreateBuiltinTypes();
     // static System.Xml.Schema.XmlSchemaSimpleType GetSimpleTypeFromTypeCode(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x1D5F05C
+    // Offset: 0x1AB1E8C
     static ::System::Xml::Schema::XmlSchemaSimpleType* GetSimpleTypeFromTypeCode(::System::Xml::Schema::XmlTypeCode typeCode);
-    // static System.Xml.Schema.XmlSchemaSimpleType GetSimpleTypeFromXsdType(System.Xml.XmlQualifiedName qname)
-    // Offset: 0x1D5F0F0
-    static ::System::Xml::Schema::XmlSchemaSimpleType* GetSimpleTypeFromXsdType(::System::Xml::XmlQualifiedName* qname);
-    // static System.Xml.Schema.XmlSchemaSimpleType GetNormalizedStringTypeV1Compat()
-    // Offset: 0x1D5F1B4
-    static ::System::Xml::Schema::XmlSchemaSimpleType* GetNormalizedStringTypeV1Compat();
-    // static System.Xml.Schema.XmlSchemaSimpleType GetTokenTypeV1Compat()
-    // Offset: 0x1D5F334
-    static ::System::Xml::Schema::XmlSchemaSimpleType* GetTokenTypeV1Compat();
-    // static System.Xml.Schema.XmlSchemaSimpleType[] GetBuiltInTypes()
-    // Offset: 0x1D5F4B4
-    static ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> GetBuiltInTypes();
-    // static System.Xml.Schema.XmlTypeCode GetPrimitiveTypeCode(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x1D5F51C
-    static ::System::Xml::Schema::XmlTypeCode GetPrimitiveTypeCode(::System::Xml::Schema::XmlTypeCode typeCode);
     // System.Xml.Schema.XmlSchemaDatatype DeriveByList(System.Int32 minSize, System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D5D478
+    // Offset: 0x1AB0FD4
     ::System::Xml::Schema::XmlSchemaDatatype* DeriveByList(int minSize, ::System::Xml::Schema::XmlSchemaType* schemaType);
-    // static System.Xml.Schema.DatatypeImplementation DeriveByUnion(System.Xml.Schema.XmlSchemaSimpleType[] types, System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D5F888
-    static ::System::Xml::Schema::DatatypeImplementation* DeriveByUnion(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> types, ::System::Xml::Schema::XmlSchemaType* schemaType);
     // System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D5FD90
+    // Offset: 0x1AB1F44
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // System.String GetTypeName()
-    // Offset: 0x1D6012C
+    // Offset: 0x1AB2284
     ::StringW GetTypeName();
     // protected System.Int32 Compare(System.Byte[] value1, System.Byte[] value2)
-    // Offset: 0x1D60730
+    // Offset: 0x1AB22F4
     int Compare(::ArrayW<uint8_t> value1, ::ArrayW<uint8_t> value2);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D5FD98
+    // Offset: 0x1AB1F4C
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.FacetsChecker XmlSchemaDatatype::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // override System.Xml.Schema.XmlValueConverter get_ValueConverter()
-    // Offset: 0x1D5FE00
+    // Offset: 0x1AB1FB4
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlValueConverter XmlSchemaDatatype::get_ValueConverter()
     ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1D5FE40
+    // Offset: 0x1AB1FF4
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.XmlTokenizedType XmlSchemaDatatype::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D5FE48
+    // Offset: 0x1AB1FFC
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Type XmlSchemaDatatype::get_ValueType()
     ::System::Type* get_ValueType();
     // public override System.Xml.Schema.XmlSchemaDatatypeVariety get_Variety()
-    // Offset: 0x1D5FEB8
+    // Offset: 0x1AB206C
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlSchemaDatatypeVariety XmlSchemaDatatype::get_Variety()
     ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D5FEC0
+    // Offset: 0x1AB2074
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlTypeCode XmlSchemaDatatype::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // override System.Xml.Schema.RestrictionFacets get_Restriction()
-    // Offset: 0x1D5FEC8
+    // Offset: 0x1AB207C
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.RestrictionFacets XmlSchemaDatatype::get_Restriction()
     ::System::Xml::Schema::RestrictionFacets* get_Restriction();
-    // override System.Boolean get_HasLexicalFacets()
-    // Offset: 0x1D5FED0
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Boolean XmlSchemaDatatype::get_HasLexicalFacets()
-    bool get_HasLexicalFacets();
-    // override System.Boolean get_HasValueFacets()
-    // Offset: 0x1D5FEF8
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Boolean XmlSchemaDatatype::get_HasValueFacets()
-    bool get_HasValueFacets();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1D5FF28
+    // Offset: 0x1AB2084
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace XmlSchemaDatatype::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // protected System.Void .ctor()
-    // Offset: 0x1D607AC
+    // Offset: 0x1AB2370
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Void XmlSchemaDatatype::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -612,51 +554,16 @@ namespace System::Xml::Schema {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::DatatypeImplementation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DatatypeImplementation*, creationType>()));
     }
-    // override System.Xml.Schema.XmlSchemaDatatype DeriveByRestriction(System.Xml.Schema.XmlSchemaObjectCollection facets, System.Xml.XmlNameTable nameTable, System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D5F67C
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Xml.Schema.XmlSchemaDatatype XmlSchemaDatatype::DeriveByRestriction(System.Xml.Schema.XmlSchemaObjectCollection facets, System.Xml.XmlNameTable nameTable, System.Xml.Schema.XmlSchemaType schemaType)
-    ::System::Xml::Schema::XmlSchemaDatatype* DeriveByRestriction(::System::Xml::Schema::XmlSchemaObjectCollection* facets, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::XmlSchemaType* schemaType);
-    // override System.Xml.Schema.XmlSchemaDatatype DeriveByList(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D5F770
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Xml.Schema.XmlSchemaDatatype XmlSchemaDatatype::DeriveByList(System.Xml.Schema.XmlSchemaType schemaType)
-    ::System::Xml::Schema::XmlSchemaDatatype* DeriveByList(::System::Xml::Schema::XmlSchemaType* schemaType);
-    // override System.Void VerifySchemaValid(System.Xml.Schema.XmlSchemaObjectTable notations, System.Xml.Schema.XmlSchemaObject caller)
-    // Offset: 0x1D5F9B0
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Void XmlSchemaDatatype::VerifySchemaValid(System.Xml.Schema.XmlSchemaObjectTable notations, System.Xml.Schema.XmlSchemaObject caller)
-    void VerifySchemaValid(::System::Xml::Schema::XmlSchemaObjectTable* notations, ::System::Xml::Schema::XmlSchemaObject* caller);
-    // public override System.Boolean IsDerivedFrom(System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D5F9B4
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Boolean XmlSchemaDatatype::IsDerivedFrom(System.Xml.Schema.XmlSchemaDatatype datatype)
-    bool IsDerivedFrom(::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Boolean IsEqual(System.Object o1, System.Object o2)
-    // Offset: 0x1D5FC6C
+    // Offset: 0x1AB1F20
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Boolean XmlSchemaDatatype::IsEqual(System.Object o1, System.Object o2)
     bool IsEqual(::Il2CppObject* o1, ::Il2CppObject* o2);
-    // override System.Boolean IsComparable(System.Xml.Schema.XmlSchemaDatatype dtype)
-    // Offset: 0x1D5FC94
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Boolean XmlSchemaDatatype::IsComparable(System.Xml.Schema.XmlSchemaDatatype dtype)
-    bool IsComparable(::System::Xml::Schema::XmlSchemaDatatype* dtype);
     // public override System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
-    // Offset: 0x1D5FF30
+    // Offset: 0x1AB208C
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Object XmlSchemaDatatype::ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
-    // override System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, System.Boolean createAtomicValue)
-    // Offset: 0x1D6019C
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Object XmlSchemaDatatype::ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, System.Boolean createAtomicValue)
-    ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, bool createAtomicValue);
-    // override System.Exception TryParseValue(System.Object value, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver namespaceResolver, out System.Object typedValue)
-    // Offset: 0x1D60360
-    // Implemented from: System.Xml.Schema.XmlSchemaDatatype
-    // Base method: System.Exception XmlSchemaDatatype::TryParseValue(System.Object value, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver namespaceResolver, out System.Object typedValue)
-    ::System::Exception* TryParseValue(::Il2CppObject* value, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* namespaceResolver, ByRef<::Il2CppObject*> typedValue);
   }; // System.Xml.Schema.DatatypeImplementation
   #pragma pack(pop)
   static check_size<sizeof(DatatypeImplementation), 48 + sizeof(::System::Xml::Schema::XmlSchemaType*)> __System_Xml_Schema_DatatypeImplementationSizeCheck;
@@ -679,28 +586,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "get_UntypedAtomicType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::get_Base
-// Il2CppName: get_Base
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DatatypeImplementation* (System::Xml::Schema::DatatypeImplementation::*)()>(&System::Xml::Schema::DatatypeImplementation::get_Base)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "get_Base", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::get_ListValueType
 // Il2CppName: get_ListValueType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Xml::Schema::DatatypeImplementation::*)()>(&System::Xml::Schema::DatatypeImplementation::get_ListValueType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "get_ListValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::get_ValidRestrictionFlags
-// Il2CppName: get_ValidRestrictionFlags
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (System::Xml::Schema::DatatypeImplementation::*)()>(&System::Xml::Schema::DatatypeImplementation::get_ValidRestrictionFlags)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "get_ValidRestrictionFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::_cctor
@@ -718,24 +609,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlTokenizedType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "FromXmlTokenizedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::FromXmlTokenizedTypeXsd
-// Il2CppName: FromXmlTokenizedTypeXsd
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DatatypeImplementation* (*)(::System::Xml::XmlTokenizedType)>(&System::Xml::Schema::DatatypeImplementation::FromXmlTokenizedTypeXsd)> {
-  static const MethodInfo* get() {
-    static auto* token = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlTokenizedType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "FromXmlTokenizedTypeXsd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::FromXdrName
-// Il2CppName: FromXdrName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DatatypeImplementation* (*)(::StringW)>(&System::Xml::Schema::DatatypeImplementation::FromXdrName)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "FromXdrName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::FromTypeName
@@ -784,48 +657,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "GetSimpleTypeFromTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeCode});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::GetSimpleTypeFromXsdType
-// Il2CppName: GetSimpleTypeFromXsdType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::DatatypeImplementation::GetSimpleTypeFromXsdType)> {
-  static const MethodInfo* get() {
-    static auto* qname = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "GetSimpleTypeFromXsdType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qname});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::GetNormalizedStringTypeV1Compat
-// Il2CppName: GetNormalizedStringTypeV1Compat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (*)()>(&System::Xml::Schema::DatatypeImplementation::GetNormalizedStringTypeV1Compat)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "GetNormalizedStringTypeV1Compat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::GetTokenTypeV1Compat
-// Il2CppName: GetTokenTypeV1Compat
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (*)()>(&System::Xml::Schema::DatatypeImplementation::GetTokenTypeV1Compat)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "GetTokenTypeV1Compat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::GetBuiltInTypes
-// Il2CppName: GetBuiltInTypes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> (*)()>(&System::Xml::Schema::DatatypeImplementation::GetBuiltInTypes)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "GetBuiltInTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::GetPrimitiveTypeCode
-// Il2CppName: GetPrimitiveTypeCode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (*)(::System::Xml::Schema::XmlTypeCode)>(&System::Xml::Schema::DatatypeImplementation::GetPrimitiveTypeCode)> {
-  static const MethodInfo* get() {
-    static auto* typeCode = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlTypeCode")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "GetPrimitiveTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeCode});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::DeriveByList
 // Il2CppName: DeriveByList
 template<>
@@ -834,16 +665,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     static auto* minSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* schemaType = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "DeriveByList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{minSize, schemaType});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::DeriveByUnion
-// Il2CppName: DeriveByUnion
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DatatypeImplementation* (*)(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>, ::System::Xml::Schema::XmlSchemaType*)>(&System::Xml::Schema::DatatypeImplementation::DeriveByUnion)> {
-  static const MethodInfo* get() {
-    static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSimpleType"), 1)->byval_arg;
-    static auto* schemaType = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "DeriveByUnion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types, schemaType});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::CreateValueConverter
@@ -929,22 +750,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "get_Restriction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::get_HasLexicalFacets
-// Il2CppName: get_HasLexicalFacets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::DatatypeImplementation::*)()>(&System::Xml::Schema::DatatypeImplementation::get_HasLexicalFacets)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "get_HasLexicalFacets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::get_HasValueFacets
-// Il2CppName: get_HasValueFacets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::DatatypeImplementation::*)()>(&System::Xml::Schema::DatatypeImplementation::get_HasValueFacets)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "get_HasValueFacets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::get_BuiltInWhitespaceFacet
 // Il2CppName: get_BuiltInWhitespaceFacet
 template<>
@@ -957,45 +762,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::DeriveByRestriction
-// Il2CppName: DeriveByRestriction
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaDatatype* (System::Xml::Schema::DatatypeImplementation::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::XmlNameTable*, ::System::Xml::Schema::XmlSchemaType*)>(&System::Xml::Schema::DatatypeImplementation::DeriveByRestriction)> {
-  static const MethodInfo* get() {
-    static auto* facets = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectCollection")->byval_arg;
-    static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
-    static auto* schemaType = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "DeriveByRestriction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{facets, nameTable, schemaType});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::DeriveByList
-// Il2CppName: DeriveByList
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaDatatype* (System::Xml::Schema::DatatypeImplementation::*)(::System::Xml::Schema::XmlSchemaType*)>(&System::Xml::Schema::DatatypeImplementation::DeriveByList)> {
-  static const MethodInfo* get() {
-    static auto* schemaType = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "DeriveByList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schemaType});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::VerifySchemaValid
-// Il2CppName: VerifySchemaValid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::DatatypeImplementation::*)(::System::Xml::Schema::XmlSchemaObjectTable*, ::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::DatatypeImplementation::VerifySchemaValid)> {
-  static const MethodInfo* get() {
-    static auto* notations = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectTable")->byval_arg;
-    static auto* caller = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "VerifySchemaValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notations, caller});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::IsDerivedFrom
-// Il2CppName: IsDerivedFrom
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::DatatypeImplementation::*)(::System::Xml::Schema::XmlSchemaDatatype*)>(&System::Xml::Schema::DatatypeImplementation::IsDerivedFrom)> {
-  static const MethodInfo* get() {
-    static auto* datatype = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaDatatype")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "IsDerivedFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{datatype});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::IsEqual
 // Il2CppName: IsEqual
 template<>
@@ -1004,15 +770,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     static auto* o1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* o2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o1, o2});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::IsComparable
-// Il2CppName: IsComparable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::DatatypeImplementation::*)(::System::Xml::Schema::XmlSchemaDatatype*)>(&System::Xml::Schema::DatatypeImplementation::IsComparable)> {
-  static const MethodInfo* get() {
-    static auto* dtype = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaDatatype")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "IsComparable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dtype});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::ParseValue
@@ -1024,29 +781,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     static auto* nsmgr = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlNamespaceResolver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "ParseValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, nameTable, nsmgr});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::ParseValue
-// Il2CppName: ParseValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::DatatypeImplementation::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, bool)>(&System::Xml::Schema::DatatypeImplementation::ParseValue)> {
-  static const MethodInfo* get() {
-    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
-    static auto* nsmgr = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlNamespaceResolver")->byval_arg;
-    static auto* createAtomicValue = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "ParseValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, nameTable, nsmgr, createAtomicValue});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DatatypeImplementation::TryParseValue
-// Il2CppName: TryParseValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (System::Xml::Schema::DatatypeImplementation::*)(::Il2CppObject*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ByRef<::Il2CppObject*>)>(&System::Xml::Schema::DatatypeImplementation::TryParseValue)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
-    static auto* namespaceResolver = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlNamespaceResolver")->byval_arg;
-    static auto* typedValue = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DatatypeImplementation*), "TryParseValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, nameTable, namespaceResolver, typedValue});
   }
 };

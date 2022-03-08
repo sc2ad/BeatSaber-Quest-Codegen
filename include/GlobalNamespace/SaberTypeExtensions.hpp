@@ -38,14 +38,17 @@ namespace GlobalNamespace {
   class SaberTypeExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean MatchesColorType(SaberType saberType, ColorType colorType)
-    // Offset: 0x2974AC0
+    // Offset: 0x29F4474
     static bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType);
     // static public UnityEngine.XR.XRNode Node(SaberType saberType)
-    // Offset: 0x2977934
+    // Offset: 0x29F7470
     static ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType);
     // static public SaberType MainSaber(System.Boolean leftHanded)
-    // Offset: 0x2977944
+    // Offset: 0x29F7480
     static ::GlobalNamespace::SaberType MainSaber(bool leftHanded);
+    // static public SaberType ToSaberType(ColorType colorType)
+    // Offset: 0x29F748C
+    static ::GlobalNamespace::SaberType ToSaberType(::GlobalNamespace::ColorType colorType);
   }; // SaberTypeExtensions
   #pragma pack(pop)
 }
@@ -76,5 +79,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
   static const MethodInfo* get() {
     static auto* leftHanded = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "MainSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leftHanded});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::ToSaberType
+// Il2CppName: ToSaberType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberType (*)(::GlobalNamespace::ColorType)>(&GlobalNamespace::SaberTypeExtensions::ToSaberType)> {
+  static const MethodInfo* get() {
+    static auto* colorType = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "ToSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorType});
   }
 };

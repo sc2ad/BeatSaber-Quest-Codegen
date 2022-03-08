@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte[] clientPublicKey
     ::ArrayW<uint8_t>& dyn_clientPublicKey();
     // System.Byte[] <GetPreMasterSecretAsync>b__0()
-    // Offset: 0x2C3F6C8
+    // Offset: 0x164868C
     ::ArrayW<uint8_t> $GetPreMasterSecretAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x2C3F648
+    // Offset: 0x164860C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

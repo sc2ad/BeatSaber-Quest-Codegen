@@ -32,64 +32,67 @@ namespace GlobalNamespace {
   class TimeExtensions : public ::Il2CppObject {
     public:
     // static public System.String MinSecDurationText(System.Single duration)
-    // Offset: 0x299E608
+    // Offset: 0x2A0BF04
     static ::StringW MinSecDurationText(float duration);
     // static public System.String MinSecMillisecDurationText(System.Single duration)
-    // Offset: 0x299E830
+    // Offset: 0x2A0C12C
     static ::StringW MinSecMillisecDurationText(float duration);
     // static public System.Single OneBeatDuration(System.Single bpm)
-    // Offset: 0x299E950
+    // Offset: 0x2A0C24C
     static float OneBeatDuration(float bpm);
+    // static public System.Single TimeToBeat(System.Single time, System.Single bpm)
+    // Offset: 0x2A0C268
+    static float TimeToBeat(float time, float bpm);
     // static public System.Single SecondsToMinutes(System.Single seconds)
-    // Offset: 0x299E96C
+    // Offset: 0x2A0C27C
     static float SecondsToMinutes(float seconds);
     // static public System.Int32 SecondsToDays(System.Int32 time)
-    // Offset: 0x299E97C
+    // Offset: 0x2A0C28C
     static int SecondsToDays(int time);
     // static public System.Int32 SecondsToHours(System.Int32 time)
-    // Offset: 0x299E99C
+    // Offset: 0x2A0C2AC
     static int SecondsToHours(int time);
     // static public System.Int32 SecondsToMinutes(System.Int32 time)
-    // Offset: 0x299E9BC
+    // Offset: 0x2A0C2CC
     static int SecondsToMinutes(int time);
     // static public System.Int32 DaysToSeconds(System.Int32 days)
-    // Offset: 0x299E9DC
+    // Offset: 0x2A0C2EC
     static int DaysToSeconds(int days);
     // static public System.Int32 HoursToSeconds(System.Int32 hours)
-    // Offset: 0x299E9EC
+    // Offset: 0x2A0C2FC
     static int HoursToSeconds(int hours);
     // static public System.Int32 MinutesToSeconds(System.Int32 minutes)
-    // Offset: 0x299E9F8
+    // Offset: 0x2A0C308
     static int MinutesToSeconds(int minutes);
     // static public System.Int32 Hours(System.Single time)
-    // Offset: 0x299EA04
+    // Offset: 0x2A0C314
     static int Hours(float time);
     // static public System.Int32 Minutes(System.Single time)
-    // Offset: 0x299E77C
+    // Offset: 0x2A0C078
     static int Minutes(float time);
     // static public System.Int32 Seconds(System.Single time)
-    // Offset: 0x299E7F8
+    // Offset: 0x2A0C0F4
     static int Seconds(float time);
     // static public System.Int32 Milliseconds(System.Single time)
-    // Offset: 0x299E910
+    // Offset: 0x2A0C20C
     static int Milliseconds(float time);
     // static public System.Int32 TotalDays(System.Single time)
-    // Offset: 0x299EA84
+    // Offset: 0x2A0C394
     static int TotalDays(float time);
     // static public System.Int32 TotalHours(System.Single time)
-    // Offset: 0x299EAC0
+    // Offset: 0x2A0C3D0
     static int TotalHours(float time);
     // static public System.Int32 TotalMinutes(System.Single time)
-    // Offset: 0x299EAFC
+    // Offset: 0x2A0C40C
     static int TotalMinutes(float time);
     // static public System.Int32 TotalSeconds(System.Single time)
-    // Offset: 0x299EB38
+    // Offset: 0x2A0C448
     static int TotalSeconds(float time);
     // static public System.Int64 ToUnixTime(System.DateTime dateTime)
-    // Offset: 0x299EB58
+    // Offset: 0x2A0C468
     static int64_t ToUnixTime(::System::DateTime dateTime);
     // static public System.DateTime AsUnixTime(System.Int64 unixTime)
-    // Offset: 0x299EC38
+    // Offset: 0x2A0C548
     static ::System::DateTime AsUnixTime(int64_t unixTime);
   }; // TimeExtensions
   #pragma pack(pop)
@@ -120,6 +123,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
   static const MethodInfo* get() {
     static auto* bpm = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "OneBeatDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bpm});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::TimeToBeat
+// Il2CppName: TimeToBeat
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::TimeExtensions::TimeToBeat)> {
+  static const MethodInfo* get() {
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bpm = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TimeToBeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, bpm});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::SecondsToMinutes

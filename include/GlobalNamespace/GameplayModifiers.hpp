@@ -223,68 +223,58 @@ namespace GlobalNamespace {
     bool noFailOn0Energy;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // private System.Boolean _demoNoFail
-    // Size: 0x1
-    // Offset: 0x15
-    bool demoNoFail;
-    // Field size check
-    static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _instaFail
     // Size: 0x1
-    // Offset: 0x16
+    // Offset: 0x15
     bool instaFail;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _failOnSaberClash
     // Size: 0x1
-    // Offset: 0x17
+    // Offset: 0x16
     bool failOnSaberClash;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: failOnSaberClash and: enabledObstacleType
+    char __padding3[0x1] = {};
     // private GameplayModifiers/EnabledObstacleType _enabledObstacleType
     // Size: 0x4
     // Offset: 0x18
     ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstacleType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers::EnabledObstacleType) == 0x4);
-    // private System.Boolean _demoNoObstacles
-    // Size: 0x1
-    // Offset: 0x1C
-    bool demoNoObstacles;
-    // Field size check
-    static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _fastNotes
     // Size: 0x1
-    // Offset: 0x1D
+    // Offset: 0x1C
     bool fastNotes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _strictAngles
     // Size: 0x1
-    // Offset: 0x1E
+    // Offset: 0x1D
     bool strictAngles;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _disappearingArrows
     // Size: 0x1
-    // Offset: 0x1F
+    // Offset: 0x1E
     bool disappearingArrows;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _ghostNotes
     // Size: 0x1
-    // Offset: 0x20
+    // Offset: 0x1F
     bool ghostNotes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // private System.Boolean _noBombs
     // Size: 0x1
-    // Offset: 0x21
+    // Offset: 0x20
     bool noBombs;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noBombs and: songSpeed
-    char __padding11[0x2] = {};
+    char __padding9[0x3] = {};
     // private GameplayModifiers/SongSpeed _songSpeed
     // Size: 0x4
     // Offset: 0x24
@@ -320,20 +310,21 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(this);
     }
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1094970
+    // Get static field: static public readonly GameplayModifiers noModifiers
+    static ::GlobalNamespace::GameplayModifiers* _get_noModifiers();
+    // Set static field: static public readonly GameplayModifiers noModifiers
+    static void _set_noModifiers(::GlobalNamespace::GameplayModifiers* value);
     // Get instance field reference: private GameplayModifiers/EnergyType _energyType
     ::GlobalNamespace::GameplayModifiers::EnergyType& dyn__energyType();
     // Get instance field reference: private System.Boolean _noFailOn0Energy
     bool& dyn__noFailOn0Energy();
-    // Get instance field reference: private System.Boolean _demoNoFail
-    bool& dyn__demoNoFail();
     // Get instance field reference: private System.Boolean _instaFail
     bool& dyn__instaFail();
     // Get instance field reference: private System.Boolean _failOnSaberClash
     bool& dyn__failOnSaberClash();
     // Get instance field reference: private GameplayModifiers/EnabledObstacleType _enabledObstacleType
     ::GlobalNamespace::GameplayModifiers::EnabledObstacleType& dyn__enabledObstacleType();
-    // Get instance field reference: private System.Boolean _demoNoObstacles
-    bool& dyn__demoNoObstacles();
     // Get instance field reference: private System.Boolean _fastNotes
     bool& dyn__fastNotes();
     // Get instance field reference: private System.Boolean _strictAngles
@@ -355,89 +346,86 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _smallCubes
     bool& dyn__smallCubes();
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x2972C20
+    // Offset: 0x29F2654
     ::GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // public System.Boolean get_noFailOn0Energy()
-    // Offset: 0x2972C28
+    // Offset: 0x29F265C
     bool get_noFailOn0Energy();
-    // public System.Boolean get_demoNoFail()
-    // Offset: 0x2972C30
-    bool get_demoNoFail();
     // public System.Boolean get_instaFail()
-    // Offset: 0x2972C38
+    // Offset: 0x29F2664
     bool get_instaFail();
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x2972C40
+    // Offset: 0x29F266C
     bool get_failOnSaberClash();
     // public GameplayModifiers/EnabledObstacleType get_enabledObstacleType()
-    // Offset: 0x2972C48
+    // Offset: 0x29F2674
     ::GlobalNamespace::GameplayModifiers::EnabledObstacleType get_enabledObstacleType();
-    // public System.Boolean get_demoNoObstacles()
-    // Offset: 0x2972C50
-    bool get_demoNoObstacles();
     // public System.Boolean get_fastNotes()
-    // Offset: 0x2972C58
+    // Offset: 0x29F267C
     bool get_fastNotes();
     // public System.Boolean get_strictAngles()
-    // Offset: 0x2972C60
+    // Offset: 0x29F2684
     bool get_strictAngles();
     // public System.Boolean get_disappearingArrows()
-    // Offset: 0x2972C68
+    // Offset: 0x29F268C
     bool get_disappearingArrows();
     // public System.Boolean get_ghostNotes()
-    // Offset: 0x2972C70
+    // Offset: 0x29F2694
     bool get_ghostNotes();
     // public System.Boolean get_noBombs()
-    // Offset: 0x2972C78
+    // Offset: 0x29F269C
     bool get_noBombs();
     // public GameplayModifiers/SongSpeed get_songSpeed()
-    // Offset: 0x2972C80
+    // Offset: 0x29F26A4
     ::GlobalNamespace::GameplayModifiers::SongSpeed get_songSpeed();
     // public System.Boolean get_noArrows()
-    // Offset: 0x2972C88
+    // Offset: 0x29F26AC
     bool get_noArrows();
     // public System.Boolean get_proMode()
-    // Offset: 0x2972C90
+    // Offset: 0x29F26B4
     bool get_proMode();
     // public System.Boolean get_zenMode()
-    // Offset: 0x2972C98
+    // Offset: 0x29F26BC
     bool get_zenMode();
     // public System.Boolean get_smallCubes()
-    // Offset: 0x2972CA0
+    // Offset: 0x29F26C4
     bool get_smallCubes();
     // public System.Single get_songSpeedMul()
-    // Offset: 0x2972CA8
+    // Offset: 0x29F26CC
     float get_songSpeedMul();
     // public System.Single get_cutAngleTolerance()
-    // Offset: 0x2972CCC
+    // Offset: 0x29F26F0
     float get_cutAngleTolerance();
     // public System.Single get_notesUniformScale()
-    // Offset: 0x2972CE8
+    // Offset: 0x29F270C
     float get_notesUniformScale();
-    // public System.Void .ctor(System.Boolean demoNoFail, System.Boolean demoNoObstacles, GameplayModifiers/EnergyType energyType, System.Boolean noFailOn0Energy, System.Boolean instaFail, System.Boolean failOnSaberClash, GameplayModifiers/EnabledObstacleType enabledObstacleType, System.Boolean noBombs, System.Boolean fastNotes, System.Boolean strictAngles, System.Boolean disappearingArrows, GameplayModifiers/SongSpeed songSpeed, System.Boolean noArrows, System.Boolean ghostNotes, System.Boolean proMode, System.Boolean zenMode, System.Boolean smallCubes)
-    // Offset: 0x29729B4
+    // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFailOn0Energy, System.Boolean instaFail, System.Boolean failOnSaberClash, GameplayModifiers/EnabledObstacleType enabledObstacleType, System.Boolean noBombs, System.Boolean fastNotes, System.Boolean strictAngles, System.Boolean disappearingArrows, GameplayModifiers/SongSpeed songSpeed, System.Boolean noArrows, System.Boolean ghostNotes, System.Boolean proMode, System.Boolean zenMode, System.Boolean smallCubes)
+    // Offset: 0x29F2410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameplayModifiers* New_ctor(bool demoNoFail, bool demoNoObstacles, ::GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, ::GlobalNamespace::GameplayModifiers::SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes) {
+    static GameplayModifiers* New_ctor(::GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, ::GlobalNamespace::GameplayModifiers::SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiers::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiers*, creationType>(demoNoFail, demoNoObstacles, energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes)));
+      return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiers*, creationType>(energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes)));
     }
-    // public GameplayModifiers CopyWith(System.Nullable`1<System.Boolean> demoNoFail, System.Nullable`1<System.Boolean> demoNoObstacles, System.Nullable`1<GameplayModifiers/EnergyType> energyType, System.Nullable`1<System.Boolean> noFailOn0Energy, System.Nullable`1<System.Boolean> instaFail, System.Nullable`1<System.Boolean> failOnSaberClash, System.Nullable`1<GameplayModifiers/EnabledObstacleType> enabledObstacleType, System.Nullable`1<System.Boolean> noBombs, System.Nullable`1<System.Boolean> fastNotes, System.Nullable`1<System.Boolean> strictAngles, System.Nullable`1<System.Boolean> disappearingArrows, System.Nullable`1<GameplayModifiers/SongSpeed> songSpeed, System.Nullable`1<System.Boolean> noArrows, System.Nullable`1<System.Boolean> ghostNotes, System.Nullable`1<System.Boolean> proMode, System.Nullable`1<System.Boolean> zenMode, System.Nullable`1<System.Boolean> smallCubes)
-    // Offset: 0x2972D30
-    ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<bool> demoNoFail, ::System::Nullable_1<bool> demoNoObstacles, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy, ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs, ::System::Nullable_1<bool> fastNotes, ::System::Nullable_1<bool> strictAngles, ::System::Nullable_1<bool> disappearingArrows, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::SongSpeed> songSpeed, ::System::Nullable_1<bool> noArrows, ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode, ::System::Nullable_1<bool> smallCubes);
+    // static private System.Void .cctor()
+    // Offset: 0x29F2CB4
+    static void _cctor();
+    // public GameplayModifiers CopyWith(System.Nullable`1<GameplayModifiers/EnergyType> energyType, System.Nullable`1<System.Boolean> noFailOn0Energy, System.Nullable`1<System.Boolean> instaFail, System.Nullable`1<System.Boolean> failOnSaberClash, System.Nullable`1<GameplayModifiers/EnabledObstacleType> enabledObstacleType, System.Nullable`1<System.Boolean> noBombs, System.Nullable`1<System.Boolean> fastNotes, System.Nullable`1<System.Boolean> strictAngles, System.Nullable`1<System.Boolean> disappearingArrows, System.Nullable`1<GameplayModifiers/SongSpeed> songSpeed, System.Nullable`1<System.Boolean> noArrows, System.Nullable`1<System.Boolean> ghostNotes, System.Nullable`1<System.Boolean> proMode, System.Nullable`1<System.Boolean> zenMode, System.Nullable`1<System.Boolean> smallCubes)
+    // Offset: 0x29F2760
+    ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy, ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs, ::System::Nullable_1<bool> fastNotes, ::System::Nullable_1<bool> strictAngles, ::System::Nullable_1<bool> disappearingArrows, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::SongSpeed> songSpeed, ::System::Nullable_1<bool> noArrows, ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode, ::System::Nullable_1<bool> smallCubes);
     // public System.Boolean IsWithoutModifiers()
-    // Offset: 0x2972FB4
+    // Offset: 0x29F299C
     bool IsWithoutModifiers();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x297304C
+    // Offset: 0x29F2A24
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // private GameplayModifiers LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x297319C
+    // Offset: 0x29F2B4C
     ::GlobalNamespace::GameplayModifiers* LiteNetLib_Utils_INetImmutableSerializable$GameplayModifiers$_CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public GameplayModifiers CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29731A4
+    // Offset: 0x29F2BB0
     static ::GlobalNamespace::GameplayModifiers* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x2972D00
+    // Offset: 0x29F2724
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -473,14 +461,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), "get_noFailOn0Energy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::get_demoNoFail
-// Il2CppName: get_demoNoFail
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiers::*)()>(&GlobalNamespace::GameplayModifiers::get_demoNoFail)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), "get_demoNoFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::get_instaFail
 // Il2CppName: get_instaFail
 template<>
@@ -503,14 +483,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers::EnabledObstacleType (GlobalNamespace::GameplayModifiers::*)()>(&GlobalNamespace::GameplayModifiers::get_enabledObstacleType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), "get_enabledObstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::get_demoNoObstacles
-// Il2CppName: get_demoNoObstacles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiers::*)()>(&GlobalNamespace::GameplayModifiers::get_demoNoObstacles)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), "get_demoNoObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::get_fastNotes
@@ -621,13 +593,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::GameplayModifiers::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::CopyWith
 // Il2CppName: CopyWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (GlobalNamespace::GameplayModifiers::*)(::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnergyType>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnabledObstacleType>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::SongSpeed>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>)>(&GlobalNamespace::GameplayModifiers::CopyWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (GlobalNamespace::GameplayModifiers::*)(::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnergyType>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnabledObstacleType>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::SongSpeed>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>)>(&GlobalNamespace::GameplayModifiers::CopyWith)> {
   static const MethodInfo* get() {
-    static auto* demoNoFail = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
-    static auto* demoNoObstacles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     static auto* energyType = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifiers/EnergyType")})->byval_arg;
     static auto* noFailOn0Energy = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     static auto* instaFail = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
@@ -643,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     static auto* proMode = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     static auto* zenMode = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     static auto* smallCubes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{demoNoFail, demoNoObstacles, energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiers*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::IsWithoutModifiers

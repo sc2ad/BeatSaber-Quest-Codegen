@@ -87,19 +87,19 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolExpandBinder_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolExpandBinder_1<TContract>*, creationType>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo)));
     }
-    // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> ExpandByOneAtATime()
+    // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> ExpandByOneAtATime(System.Boolean showExpandWarning)
     // Offset: 0xFFFFFFFF
-    ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime() {
+    ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime(bool showExpandWarning) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolExpandBinder_1::ExpandByOneAtATime");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandByOneAtATime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method);
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandByOneAtATime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(showExpandWarning)})));
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method, showExpandWarning);
     }
-    // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> ExpandByDoubling()
+    // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> ExpandByDoubling(System.Boolean showExpandWarning)
     // Offset: 0xFFFFFFFF
-    ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling() {
+    ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling(bool showExpandWarning) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolExpandBinder_1::ExpandByDoubling");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandByDoubling", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method);
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandByDoubling", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(showExpandWarning)})));
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method, showExpandWarning);
     }
   }; // Zenject.MemoryPoolExpandBinder`1
   // Could not write size check! Type: Zenject.MemoryPoolExpandBinder`1 is generic, or has no fields that are valid for size checks!

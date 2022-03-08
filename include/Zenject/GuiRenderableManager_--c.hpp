@@ -59,22 +59,22 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.GuiRenderableManager/Zenject.RenderableInfo,System.Int32> <>9__1_0
     static void _set_$$9__1_0(::System::Func_2<::Zenject::GuiRenderableManager::RenderableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D39CA8
+    // Offset: 0x1E087F4
     static void _cctor();
     // System.Int32 <.ctor>b__1_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1D39D14
+    // Offset: 0x1E08860
     int $_ctor$b__1_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <.ctor>b__1_0(Zenject.GuiRenderableManager/Zenject.RenderableInfo x)
-    // Offset: 0x1D39D2C
+    // Offset: 0x1E08878
     int $_ctor$b__1_0(::Zenject::GuiRenderableManager::RenderableInfo* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D39D44
+    // Offset: 0x1E08890
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D39DA0
+    // Offset: 0x1E088EC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1D39D0C
+    // Offset: 0x1E08858
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

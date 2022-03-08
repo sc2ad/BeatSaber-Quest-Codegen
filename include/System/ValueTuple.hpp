@@ -73,38 +73,41 @@ namespace System {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
     // public System.Boolean Equals(System.ValueTuple other)
-    // Offset: 0x27D3FC8
+    // Offset: 0x29BB9E0
     bool Equals(::System::ValueTuple other);
     // private System.Boolean System.Collections.IStructuralEquatable.Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0x27D3FD0
+    // Offset: 0x29BB9E8
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, ::System::Collections::IEqualityComparer* comparer);
     // private System.Int32 System.IComparable.CompareTo(System.Object other)
-    // Offset: 0x27D4034
+    // Offset: 0x29BBA4C
     int System_IComparable_CompareTo(::Il2CppObject* other);
     // public System.Int32 CompareTo(System.ValueTuple other)
-    // Offset: 0x27D4148
+    // Offset: 0x29BBB60
     int CompareTo(::System::ValueTuple other);
     // private System.Int32 System.Collections.IStructuralComparable.CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0x27D4150
+    // Offset: 0x29BBB68
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, ::System::Collections::IComparer* comparer);
     // private System.Int32 System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0x27D426C
+    // Offset: 0x29BBC84
     int System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x27D42BC
+    // Offset: 0x29BBCD4
     static int CombineHashCodes(int h1, int h2);
+    // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3)
+    // Offset: 0x29BBD60
+    static int CombineHashCodes(int h1, int h2, int h3);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x27D3F64
+    // Offset: 0x29BB97C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x27D4264
+    // Offset: 0x29BBC7C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x27D4274
+    // Offset: 0x29BBC8C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -176,6 +179,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
     static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ValueTuple), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2});
+  }
+};
+// Writing MetadataGetter for method: System::ValueTuple::CombineHashCodes
+// Il2CppName: CombineHashCodes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&System::ValueTuple::CombineHashCodes)> {
+  static const MethodInfo* get() {
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ValueTuple), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3});
   }
 };
 // Writing MetadataGetter for method: System::ValueTuple::Equals

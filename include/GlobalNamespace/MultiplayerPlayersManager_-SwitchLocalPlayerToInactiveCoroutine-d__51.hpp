@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerPlayersManager <>4__this
     ::GlobalNamespace::MultiplayerPlayersManager*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2AA5ED8
+    // Offset: 0x13FF858
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2AA5F40
+    // Offset: 0x13FF8C0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2AA59B0
+    // Offset: 0x13FF330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2AA5AEC
+    // Offset: 0x13FF46C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2AA5AF0
+    // Offset: 0x13FF470
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2AA5EE0
+    // Offset: 0x13FF860
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerPlayersManager/<SwitchLocalPlayerToInactiveCoroutine>d__51
   #pragma pack(pop)

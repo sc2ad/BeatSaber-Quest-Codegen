@@ -38,7 +38,7 @@ namespace RootMotion {
     protected:
     #endif
     #endif
-    // [MultilineAttribute] Offset: 0x12636B0
+    // [MultilineAttribute] Offset: 0x10DA344
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
@@ -51,7 +51,7 @@ namespace RootMotion {
     // Get instance field reference: public System.String text
     ::StringW& dyn_text();
     // public System.Void .ctor()
-    // Offset: 0x2226E90
+    // Offset: 0x222AD04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

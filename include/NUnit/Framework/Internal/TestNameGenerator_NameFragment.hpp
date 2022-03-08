@@ -43,28 +43,28 @@ namespace NUnit::Framework::Internal {
   class TestNameGenerator::NameFragment : public ::Il2CppObject {
     public:
     // public System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x28BAD9C
+    // Offset: 0x29E7ED4
     ::StringW GetText(::NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
     // public System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
     // Offset: 0xFFFFFFFF
     ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
     // static protected System.Void AppendGenericTypeNames(System.Text.StringBuilder sb, System.Reflection.MethodInfo method)
-    // Offset: 0x28BABC0
+    // Offset: 0x29E7CF8
     static void AppendGenericTypeNames(::System::Text::StringBuilder* sb, ::System::Reflection::MethodInfo* method);
     // static protected System.String GetDisplayString(System.Object arg, System.Int32 stringMax)
-    // Offset: 0x28B9FF8
+    // Offset: 0x29E7130
     static ::StringW GetDisplayString(::Il2CppObject* arg, int stringMax);
     // static private System.String EscapeSingleChar(System.Char c)
-    // Offset: 0x28BAEE4
+    // Offset: 0x29E801C
     static ::StringW EscapeSingleChar(::Il2CppChar c);
     // static private System.String EscapeCharInString(System.Char c)
-    // Offset: 0x28BAE7C
+    // Offset: 0x29E7FB4
     static ::StringW EscapeCharInString(::Il2CppChar c);
     // static private System.String EscapeControlChar(System.Char c)
-    // Offset: 0x28BAF4C
+    // Offset: 0x29E8084
     static ::StringW EscapeControlChar(::Il2CppChar c);
     // protected System.Void .ctor()
-    // Offset: 0x28B9ECC
+    // Offset: 0x29E7004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

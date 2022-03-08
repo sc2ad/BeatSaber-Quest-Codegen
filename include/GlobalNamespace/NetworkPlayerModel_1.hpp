@@ -1357,7 +1357,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x123EC7C
+    // [InjectAttribute] Offset: 0x10B3690
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x0

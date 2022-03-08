@@ -38,9 +38,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class INoteMirrorable {
     public:
-    // public UnityEngine.Transform get_transform()
-    // Offset: 0xFFFFFFFF
-    ::UnityEngine::Transform* get_transform();
     // public UnityEngine.Transform get_noteTransform()
     // Offset: 0xFFFFFFFF
     ::UnityEngine::Transform* get_noteTransform();
@@ -54,14 +51,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_transform
-// Il2CppName: get_transform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_transform)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_noteTransform
 // Il2CppName: get_noteTransform
 template<>

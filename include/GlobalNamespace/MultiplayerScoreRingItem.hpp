@@ -18,6 +18,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: EaseType
+  struct EaseType;
 }
 // Forward declaring namespace: TMPro
 namespace TMPro {
@@ -31,8 +33,6 @@ namespace Tweening {
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
-  // Forward declaring type: EaseType
-  struct EaseType;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1245C84
+    // [InjectAttribute] Offset: 0x10BAFD0
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -112,31 +112,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
     ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__scoreColorTween();
     // protected System.Void Awake()
-    // Offset: 0x2AAA314
+    // Offset: 0x1403C88
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2AAA4DC
+    // Offset: 0x1403E50
     void OnDestroy();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x2AAA574
+    // Offset: 0x1403EE8
     void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-    // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x2AAA5F0
-    void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::Tweening::EaseType easeType);
+    // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
+    // Offset: 0x1403F64
+    void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetName(System.String text)
-    // Offset: 0x2AAA720
+    // Offset: 0x1404094
     void SetName(::StringW text);
     // public System.Void SetScore(System.String text)
-    // Offset: 0x2AAA73C
+    // Offset: 0x14040B0
     void SetScore(::StringW text);
     // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0x2AAA760
+    // Offset: 0x14040D4
     void $Awake$b__6_0(::UnityEngine::Color val);
     // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0x2AAA784
+    // Offset: 0x14040F8
     void $Awake$b__6_1(::UnityEngine::Color val);
     // public System.Void .ctor()
-    // Offset: 0x2AAA758
+    // Offset: 0x14040CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -183,12 +183,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::AnimateColors
 // Il2CppName: AnimateColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(::UnityEngine::Color, ::UnityEngine::Color, float, ::Tweening::EaseType)>(&GlobalNamespace::MultiplayerScoreRingItem::AnimateColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(::UnityEngine::Color, ::UnityEngine::Color, float, ::GlobalNamespace::EaseType)>(&GlobalNamespace::MultiplayerScoreRingItem::AnimateColors)> {
   static const MethodInfo* get() {
     static auto* nameColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* scoreColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
+    static auto* easeType = &::il2cpp_utils::GetClassFromName("", "EaseType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "AnimateColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameColor, scoreColor, duration, easeType});
   }
 };

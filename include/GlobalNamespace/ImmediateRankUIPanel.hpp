@@ -68,8 +68,8 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* relativeScoreText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242C2C
-    // private RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
+    // [InjectAttribute] Offset: 0x10B7EC8
+    // private readonly RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::RelativeScoreAndImmediateRankCounter* relativeScoreAndImmediateRankCounter;
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI*& dyn__rankText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _relativeScoreText
     ::TMPro::TextMeshProUGUI*& dyn__relativeScoreText();
-    // Get instance field reference: private RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
+    // Get instance field reference: private readonly RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
     ::GlobalNamespace::RelativeScoreAndImmediateRankCounter*& dyn__relativeScoreAndImmediateRankCounter();
     // Get instance field reference: private System.Text.StringBuilder _stringBuilder
     ::System::Text::StringBuilder*& dyn__stringBuilder();
@@ -109,16 +109,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private RankModel/Rank _prevImmediateRank
     ::GlobalNamespace::RankModel::Rank& dyn__prevImmediateRank();
     // protected System.Void Start()
-    // Offset: 0x13AD354
+    // Offset: 0x14A1338
     void Start();
-    // protected System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
-    // Offset: 0x13AD58C
+    // private System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
+    // Offset: 0x14A1570
     void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
     // private System.Void RefreshUI()
-    // Offset: 0x13AD40C
+    // Offset: 0x14A13F0
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0x13AD590
+    // Offset: 0x14A1574
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

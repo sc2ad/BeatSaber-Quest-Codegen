@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   class NetworkConstants : public ::Il2CppObject {
     public:
     // static field const value: static public System.UInt32 kProtocolVersion
-    static constexpr const uint kProtocolVersion = 7u;
+    static constexpr const uint kProtocolVersion = 8u;
     // Get static field: static public System.UInt32 kProtocolVersion
     static uint _get_kProtocolVersion();
     // Set static field: static public System.UInt32 kProtocolVersion

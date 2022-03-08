@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void SetupLightSource(float intensityMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x2E0A9C8
+    // Offset: 0x2A1B330
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

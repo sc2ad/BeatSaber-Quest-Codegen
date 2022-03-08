@@ -65,28 +65,28 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer <Container>k__BackingField
     ::Zenject::DiContainer*& dyn_$Container$k__BackingField();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1B0B864
+    // Offset: 0x1BF43B0
     ::Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x1B0B86C
+    // Offset: 0x1BF43B8
     void set_Container(::Zenject::DiContainer* value);
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x1B0B874
+    // Offset: 0x1BF43C0
     bool get_IsEnabled();
     // public System.Void Start()
-    // Offset: 0x1B0B87C
+    // Offset: 0x1BF43C8
     void Start();
     // public System.Void InstallBindings()
-    // Offset: 0x1B0B880
+    // Offset: 0x1BF43CC
     void InstallBindings();
     // static private System.Void __zenPropertySetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1B0B8E0
+    // Offset: 0x1BF442C
     static void __zenPropertySetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1B0B9B4
+    // Offset: 0x1BF4500
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1B0B728
+    // Offset: 0x1BF4274
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

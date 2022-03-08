@@ -54,13 +54,13 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> m_Options
     ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>*& dyn_m_Options();
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> get_options()
-    // Offset: 0x1D87244
+    // Offset: 0x1E3D8BC
     ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> value)
-    // Offset: 0x1D8724C
+    // Offset: 0x1E3D8C4
     void set_options(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1D87254
+    // Offset: 0x1E3D8CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

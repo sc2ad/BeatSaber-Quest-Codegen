@@ -179,16 +179,16 @@ namespace System {
     // Get instance field reference: System.String failureArgumentName
     ::StringW& dyn_failureArgumentName();
     // System.Void Init()
-    // Offset: 0x212AFDC
+    // Offset: 0x22593B4
     void Init();
     // System.Void SetDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x212DE14
+    // Offset: 0x225C0EC
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x212B3E0
+    // Offset: 0x22597B8
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0x212B3D0
+    // Offset: 0x22597A8
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName);
   }; // System.DateTimeResult
   #pragma pack(pop)

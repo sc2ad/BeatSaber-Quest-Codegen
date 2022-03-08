@@ -11,8 +11,8 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-// Including type: Tweening.EaseType
-#include "Tweening/EaseType.hpp"
+// Including type: EaseType
+#include "GlobalNamespace/EaseType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
     float delay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public Tweening.EaseType easeType
+    // public EaseType easeType
     // Size: 0x4
     // Offset: 0x30
-    ::Tweening::EaseType easeType;
+    ::GlobalNamespace::EaseType easeType;
     // Field size check
-    static_assert(sizeof(::Tweening::EaseType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
     // Padding between fields: easeType and: distanceCurve
     char __padding8[0x4] = {};
     // public UnityEngine.AnimationCurve distanceCurve
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: GhostEffectParams
-    constexpr GhostEffectParams(float startAlpha_ = {}, ::UnityEngine::Vector3 startPosition_ = {}, float startSize_ = {}, float endAlpha_ = {}, ::UnityEngine::Vector3 endPosition_ = {}, float endSize_ = {}, float duration_ = {}, float delay_ = {}, ::Tweening::EaseType easeType_ = {}, ::UnityEngine::AnimationCurve* distanceCurve_ = {}, float peakDistance_ = {}, bool lastPhase_ = {}) noexcept : startAlpha{startAlpha_}, startPosition{startPosition_}, startSize{startSize_}, endAlpha{endAlpha_}, endPosition{endPosition_}, endSize{endSize_}, duration{duration_}, delay{delay_}, easeType{easeType_}, distanceCurve{distanceCurve_}, peakDistance{peakDistance_}, lastPhase{lastPhase_} {}
+    constexpr GhostEffectParams(float startAlpha_ = {}, ::UnityEngine::Vector3 startPosition_ = {}, float startSize_ = {}, float endAlpha_ = {}, ::UnityEngine::Vector3 endPosition_ = {}, float endSize_ = {}, float duration_ = {}, float delay_ = {}, ::GlobalNamespace::EaseType easeType_ = {}, ::UnityEngine::AnimationCurve* distanceCurve_ = {}, float peakDistance_ = {}, bool lastPhase_ = {}) noexcept : startAlpha{startAlpha_}, startPosition{startPosition_}, startSize{startSize_}, endAlpha{endAlpha_}, endPosition{endPosition_}, endSize{endSize_}, duration{duration_}, delay{delay_}, easeType{easeType_}, distanceCurve{distanceCurve_}, peakDistance{peakDistance_}, lastPhase{lastPhase_} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
@@ -130,8 +130,8 @@ namespace GlobalNamespace {
     float& dyn_duration();
     // Get instance field reference: public System.Single delay
     float& dyn_delay();
-    // Get instance field reference: public Tweening.EaseType easeType
-    ::Tweening::EaseType& dyn_easeType();
+    // Get instance field reference: public EaseType easeType
+    ::GlobalNamespace::EaseType& dyn_easeType();
     // Get instance field reference: public UnityEngine.AnimationCurve distanceCurve
     ::UnityEngine::AnimationCurve*& dyn_distanceCurve();
     // Get instance field reference: public System.Single peakDistance

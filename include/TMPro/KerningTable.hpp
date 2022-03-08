@@ -72,25 +72,25 @@ namespace TMPro {
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
     ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& dyn_kerningPairs();
     // public System.Void AddKerningPair()
-    // Offset: 0x1404074
+    // Offset: 0x1425A6C
     void AddKerningPair();
     // public System.Int32 AddKerningPair(System.UInt32 first, System.UInt32 second, System.Single offset)
-    // Offset: 0x140419C
+    // Offset: 0x1425B94
     int AddKerningPair(uint first, uint second, float offset);
     // public System.Int32 AddGlyphPairAdjustmentRecord(System.UInt32 first, TMPro.GlyphValueRecord_Legacy firstAdjustments, System.UInt32 second, TMPro.GlyphValueRecord_Legacy secondAdjustments)
-    // Offset: 0x14042DC
+    // Offset: 0x1425CD4
     int AddGlyphPairAdjustmentRecord(uint first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
     // public System.Void RemoveKerningPair(System.Int32 left, System.Int32 right)
-    // Offset: 0x140445C
+    // Offset: 0x1425E54
     void RemoveKerningPair(int left, int right);
     // public System.Void RemoveKerningPair(System.Int32 index)
-    // Offset: 0x1404560
+    // Offset: 0x1425F58
     void RemoveKerningPair(int index);
     // public System.Void SortKerningPairs()
-    // Offset: 0x14045C8
+    // Offset: 0x1425FC0
     void SortKerningPairs();
     // public System.Void .ctor()
-    // Offset: 0x1404000
+    // Offset: 0x14259F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

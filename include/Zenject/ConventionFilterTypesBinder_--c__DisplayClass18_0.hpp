@@ -65,16 +65,16 @@ namespace Zenject {
     // Get instance field reference: public System.Text.RegularExpressions.Regex regex
     ::System::Text::RegularExpressions::Regex*& dyn_regex();
     // System.Boolean <MatchingRegex>b__0(System.Type t)
-    // Offset: 0x16E0DD8
+    // Offset: 0x174320C
     bool $MatchingRegex$b__0(::System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x16E0E20
+    // Offset: 0x1743254
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x16E0E7C
+    // Offset: 0x17432B0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x16E04A8
+    // Offset: 0x17428DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -13,7 +13,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::ComponentModel
@@ -22,15 +21,6 @@ namespace System::ComponentModel {
   class AttributeCollection;
   // Forward declaring type: TypeConverter
   class TypeConverter;
-  // Forward declaring type: PropertyDescriptorCollection
-  class PropertyDescriptorCollection;
-  // Forward declaring type: PropertyDescriptor
-  class PropertyDescriptor;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Attribute
-  class Attribute;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -75,27 +65,18 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _secondary
     ::System::ComponentModel::ICustomTypeDescriptor*& dyn__secondary();
     // System.Void .ctor(System.ComponentModel.ICustomTypeDescriptor primary, System.ComponentModel.ICustomTypeDescriptor secondary)
-    // Offset: 0x1ECEE0C
+    // Offset: 0x1CBFD34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::MergedTypeDescriptor* New_ctor(::System::ComponentModel::ICustomTypeDescriptor* primary, ::System::ComponentModel::ICustomTypeDescriptor* secondary) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::MergedTypeDescriptor*, creationType>(primary, secondary)));
     }
     // private System.ComponentModel.AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes()
-    // Offset: 0x1ED0B74
+    // Offset: 0x1CBFD6C
     ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
     // private System.ComponentModel.TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter()
-    // Offset: 0x1ED0CA8
+    // Offset: 0x1CBFEA0
     ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
-    // private System.ComponentModel.PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties()
-    // Offset: 0x1ED0DE4
-    ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties();
-    // private System.ComponentModel.PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(System.Attribute[] attributes)
-    // Offset: 0x1ED0F20
-    ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties(::ArrayW<::System::Attribute*> attributes);
-    // private System.Object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(System.ComponentModel.PropertyDescriptor pd)
-    // Offset: 0x1ED1068
-    ::Il2CppObject* System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.MergedTypeDescriptor
   #pragma pack(pop)
   static check_size<sizeof(TypeDescriptor::MergedTypeDescriptor), 24 + sizeof(::System::ComponentModel::ICustomTypeDescriptor*)> __System_ComponentModel_TypeDescriptor_MergedTypeDescriptorSizeCheck;
@@ -120,31 +101,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::*)()>(&System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::MergedTypeDescriptor*), "System.ComponentModel.ICustomTypeDescriptor.GetConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties
-// Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::*)()>(&System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::MergedTypeDescriptor*), "System.ComponentModel.ICustomTypeDescriptor.GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties
-// Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetProperties
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::*)(::ArrayW<::System::Attribute*>)>(&System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
-  static const MethodInfo* get() {
-    static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Attribute"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::MergedTypeDescriptor*), "System.ComponentModel.ICustomTypeDescriptor.GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
-  }
-};
-// Writing MetadataGetter for method: System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner
-// Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::*)(::System::ComponentModel::PropertyDescriptor*)>(&System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
-  static const MethodInfo* get() {
-    static auto* pd = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyDescriptor")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeDescriptor::MergedTypeDescriptor*), "System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pd});
   }
 };

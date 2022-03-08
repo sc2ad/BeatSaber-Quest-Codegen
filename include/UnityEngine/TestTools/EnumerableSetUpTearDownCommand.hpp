@@ -66,16 +66,16 @@ namespace UnityEngine::TestTools {
     // Nested type: ::UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c
     class $$c;
     // static private System.Reflection.MethodInfo[] GetMethodsWithAttributeFromFixture(System.Type fixtureType, System.Type setUpType)
-    // Offset: 0x18D71DC
+    // Offset: 0x1952DCC
     static ::ArrayW<::System::Reflection::MethodInfo*> GetMethodsWithAttributeFromFixture(::System::Type* fixtureType, ::System::Type* setUpType);
     // protected System.Collections.IEnumerator InvokeBefore(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x18D731C
+    // Offset: 0x1952F0C
     ::System::Collections::IEnumerator* InvokeBefore(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected System.Collections.IEnumerator InvokeAfter(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x18D73D0
+    // Offset: 0x1952FC0
     ::System::Collections::IEnumerator* InvokeAfter(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x18CDCA4
+    // Offset: 0x1949894
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,7 +84,7 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableSetUpTearDownCommand*, creationType>(innerCommand)));
     }
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x18D7484
+    // Offset: 0x1953074
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);

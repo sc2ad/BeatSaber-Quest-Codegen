@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
     ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn_scores();
     // public System.Void .ctor()
-    // Offset: 0x13B05A8
+    // Offset: 0x14A4590
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

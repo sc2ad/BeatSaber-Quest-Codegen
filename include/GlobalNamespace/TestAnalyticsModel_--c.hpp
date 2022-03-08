@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AE3278
+    // Offset: 0x13818F0
     static void _cctor();
     // System.String <LogEvent>b__3_0(System.Collections.Generic.KeyValuePair`2<System.String,System.String> kvp)
-    // Offset: 0x2AE32E4
+    // Offset: 0x138195C
     ::StringW $LogEvent$b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
     // public System.Void .ctor()
-    // Offset: 0x2AE32DC
+    // Offset: 0x1381954
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

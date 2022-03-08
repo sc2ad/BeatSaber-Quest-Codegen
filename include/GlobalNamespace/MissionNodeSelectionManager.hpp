@@ -91,28 +91,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodeVisualController _selectedNode
     ::GlobalNamespace::MissionNodeVisualController*& dyn__selectedNode();
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x2A70DAC
+    // Offset: 0x1334258
     void add_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x2A70E50
+    // Offset: 0x13342FC
     void remove_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x2A70EF4
+    // Offset: 0x13343A0
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0x2A70FAC
+    // Offset: 0x133445C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2A7122C
+    // Offset: 0x13346DC
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0x2A714D8
+    // Offset: 0x1334988
     void HandleNodeWasSelect(::GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0x2A7159C
+    // Offset: 0x1334A4C
     void HandleNodeWasDisplayed(::GlobalNamespace::MissionNodeVisualController* missionNode);
     // public System.Void .ctor()
-    // Offset: 0x2A7162C
+    // Offset: 0x1334ADC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

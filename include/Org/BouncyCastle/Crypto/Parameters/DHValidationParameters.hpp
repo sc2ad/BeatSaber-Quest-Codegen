@@ -54,22 +54,22 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Int32 counter
     int& dyn_counter();
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
-    // Offset: 0x1560AEC
+    // Offset: 0x15E0F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParameters* New_ctor(::ArrayW<uint8_t> seed, int counter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParameters*, creationType>(seed, counter)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters other)
-    // Offset: 0x1560C78
+    // Offset: 0x15E10D0
     bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1560BC8
+    // Offset: 0x15E1020
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1560D24
+    // Offset: 0x15E117C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

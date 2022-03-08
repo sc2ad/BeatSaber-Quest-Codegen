@@ -46,48 +46,43 @@ namespace Newtonsoft::Json::Utilities {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionUtils::$$c : public ::Il2CppObject {
     public:
-    // [NullableAttribute] Offset: 0x1205248
     // Get static field: static public readonly Newtonsoft.Json.Utilities.ReflectionUtils/Newtonsoft.Json.Utilities.<>c <>9
     static ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c* _get_$$9();
     // Set static field: static public readonly Newtonsoft.Json.Utilities.ReflectionUtils/Newtonsoft.Json.Utilities.<>c <>9
     static void _set_$$9(::Newtonsoft::Json::Utilities::ReflectionUtils::$$c* value);
-    // [NullableAttribute] Offset: 0x120525C
-    // Get static field: static public System.Func`2<System.Reflection.ConstructorInfo,System.Boolean> <>9__11_0
-    static ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* _get_$$9__11_0();
-    // Set static field: static public System.Func`2<System.Reflection.ConstructorInfo,System.Boolean> <>9__11_0
-    static void _set_$$9__11_0(::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* value);
-    // [NullableAttribute] Offset: 0x1205270
-    // Get static field: static public System.Func`2<System.Reflection.MemberInfo,System.String> <>9__31_0
-    static ::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* _get_$$9__31_0();
-    // Set static field: static public System.Func`2<System.Reflection.MemberInfo,System.String> <>9__31_0
-    static void _set_$$9__31_0(::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* value);
-    // [NullableAttribute] Offset: 0x1205284
-    // Get static field: static public System.Func`2<System.Reflection.ParameterInfo,System.Type> <>9__39_0
-    static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* _get_$$9__39_0();
-    // Set static field: static public System.Func`2<System.Reflection.ParameterInfo,System.Type> <>9__39_0
-    static void _set_$$9__39_0(::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* value);
-    // [NullableAttribute] Offset: 0x1205298
-    // Get static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__41_0
-    static ::System::Func_2<::System::Reflection::FieldInfo*, bool>* _get_$$9__41_0();
-    // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__41_0
-    static void _set_$$9__41_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
+    // Get static field: static public System.Func`2<System.Reflection.ConstructorInfo,System.Boolean> <>9__10_0
+    static ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* _get_$$9__10_0();
+    // Set static field: static public System.Func`2<System.Reflection.ConstructorInfo,System.Boolean> <>9__10_0
+    static void _set_$$9__10_0(::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* value);
+    // Get static field: static public System.Func`2<System.Reflection.MemberInfo,System.String> <>9__29_0
+    static ::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* _get_$$9__29_0();
+    // Set static field: static public System.Func`2<System.Reflection.MemberInfo,System.String> <>9__29_0
+    static void _set_$$9__29_0(::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* value);
+    // Get static field: static public System.Func`2<System.Reflection.ParameterInfo,System.Type> <>9__37_0
+    static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* _get_$$9__37_0();
+    // Set static field: static public System.Func`2<System.Reflection.ParameterInfo,System.Type> <>9__37_0
+    static void _set_$$9__37_0(::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* value);
+    // Get static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__39_0
+    static ::System::Func_2<::System::Reflection::FieldInfo*, bool>* _get_$$9__39_0();
+    // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__39_0
+    static void _set_$$9__39_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x29F7FE0
+    // Offset: 0x205FBE4
     static void _cctor();
-    // System.Boolean <GetDefaultConstructor>b__11_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x29F804C
-    bool $GetDefaultConstructor$b__11_0(::System::Reflection::ConstructorInfo* c);
-    // System.String <GetFieldsAndProperties>b__31_0(System.Reflection.MemberInfo m)
-    // Offset: 0x29F80C0
-    ::StringW $GetFieldsAndProperties$b__31_0(::System::Reflection::MemberInfo* m);
-    // System.Type <GetMemberInfoFromType>b__39_0(System.Reflection.ParameterInfo p)
-    // Offset: 0x29F80E0
-    ::System::Type* $GetMemberInfoFromType$b__39_0(::System::Reflection::ParameterInfo* p);
-    // System.Boolean <GetChildPrivateFields>b__41_0(System.Reflection.FieldInfo f)
-    // Offset: 0x29F8100
-    bool $GetChildPrivateFields$b__41_0(::System::Reflection::FieldInfo* f);
+    // System.Boolean <GetDefaultConstructor>b__10_0(System.Reflection.ConstructorInfo c)
+    // Offset: 0x205FC50
+    bool $GetDefaultConstructor$b__10_0(::System::Reflection::ConstructorInfo* c);
+    // System.String <GetFieldsAndProperties>b__29_0(System.Reflection.MemberInfo m)
+    // Offset: 0x205FCC4
+    ::StringW $GetFieldsAndProperties$b__29_0(::System::Reflection::MemberInfo* m);
+    // System.Type <GetMemberInfoFromType>b__37_0(System.Reflection.ParameterInfo p)
+    // Offset: 0x205FCE4
+    ::System::Type* $GetMemberInfoFromType$b__37_0(::System::Reflection::ParameterInfo* p);
+    // System.Boolean <GetChildPrivateFields>b__39_0(System.Reflection.FieldInfo f)
+    // Offset: 0x205FD04
+    bool $GetChildPrivateFields$b__39_0(::System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0x29F8044
+    // Offset: 0x205FC48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,40 +102,40 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetDefaultConstructor$b__11_0
-// Il2CppName: <GetDefaultConstructor>b__11_0
+// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetDefaultConstructor$b__10_0
+// Il2CppName: <GetDefaultConstructor>b__10_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::ConstructorInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetDefaultConstructor$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::ConstructorInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetDefaultConstructor$b__10_0)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Reflection", "ConstructorInfo")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetDefaultConstructor>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
+    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetDefaultConstructor>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetFieldsAndProperties$b__31_0
-// Il2CppName: <GetFieldsAndProperties>b__31_0
+// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetFieldsAndProperties$b__29_0
+// Il2CppName: <GetFieldsAndProperties>b__29_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetFieldsAndProperties$b__31_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetFieldsAndProperties$b__29_0)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetFieldsAndProperties>b__31_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
+    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetFieldsAndProperties>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetMemberInfoFromType$b__39_0
-// Il2CppName: <GetMemberInfoFromType>b__39_0
+// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetMemberInfoFromType$b__37_0
+// Il2CppName: <GetMemberInfoFromType>b__37_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::ParameterInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetMemberInfoFromType$b__39_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::ParameterInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetMemberInfoFromType$b__37_0)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetMemberInfoFromType>b__39_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
+    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetMemberInfoFromType>b__37_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetChildPrivateFields$b__41_0
-// Il2CppName: <GetChildPrivateFields>b__41_0
+// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetChildPrivateFields$b__39_0
+// Il2CppName: <GetChildPrivateFields>b__39_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::FieldInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetChildPrivateFields$b__41_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ReflectionUtils::$$c::*)(::System::Reflection::FieldInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c::$GetChildPrivateFields$b__39_0)> {
   static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetChildPrivateFields>b__41_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
+    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c*), "<GetChildPrivateFields>b__39_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
 };
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c::New_ctor

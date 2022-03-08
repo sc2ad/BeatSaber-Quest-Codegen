@@ -17,8 +17,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: MissionObjectiveCheckersManager
   class MissionObjectiveCheckersManager;
-  // Forward declaring type: BeatmapObjectCallbackController
-  class BeatmapObjectCallbackController;
+  // Forward declaring type: BeatmapCallbacksController
+  class BeatmapCallbacksController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -52,31 +52,31 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1241FF4
-    // private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0x10B72E0
+    // private BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
-    ::GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
-    // Get instance field reference: private BeatmapObjectCallbackController _beatmapObjectCallbackController
-    ::GlobalNamespace::BeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private BeatmapCallbacksController _beatmapCallbacksController
+    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // protected System.Void Awake()
-    // Offset: 0x2A6BE48
+    // Offset: 0x132EB78
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2A6BF74
+    // Offset: 0x132ECA4
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveWasCleared()
-    // Offset: 0x2A6C0A0
+    // Offset: 0x132EDD0
     void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
     // public System.Void .ctor()
-    // Offset: 0x2A6C120
+    // Offset: 0x132EE50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     }
   }; // MissionClearedEnvironmentEffect
   #pragma pack(pop)
-  static check_size<sizeof(MissionClearedEnvironmentEffect), 32 + sizeof(::GlobalNamespace::BeatmapObjectCallbackController*)> __GlobalNamespace_MissionClearedEnvironmentEffectSizeCheck;
+  static check_size<sizeof(MissionClearedEnvironmentEffect), 32 + sizeof(::GlobalNamespace::BeatmapCallbacksController*)> __GlobalNamespace_MissionClearedEnvironmentEffectSizeCheck;
   static_assert(sizeof(MissionClearedEnvironmentEffect) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -77,21 +77,21 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x124220C
+    // [InjectAttribute] Offset: 0x10B74F8
     // private SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0x124221C
+    // [InjectAttribute] Offset: 0x10B7508
     // private HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0x124222C
+    // [InjectAttribute] Offset: 0x10B7518
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -138,16 +138,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sabersAreClashing
     bool& dyn__sabersAreClashing();
     // protected System.Void Start()
-    // Offset: 0x2B55650
+    // Offset: 0x13D0180
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x2B55814
+    // Offset: 0x13D0344
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x2B55824
+    // Offset: 0x13D0354
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x2B55928
+    // Offset: 0x13D0458
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

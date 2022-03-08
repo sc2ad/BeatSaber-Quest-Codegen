@@ -99,10 +99,10 @@ namespace MasterServer {
     // Get instance field reference: public System.Action`1<ConnectionFailedReason> onConnectionFailed
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailed();
     // System.Threading.Tasks.Task <SendConnectToServerRequest>b__0()
-    // Offset: 0x2C9A60C
+    // Offset: 0x16FE880
     ::System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();
     // public System.Void .ctor()
-    // Offset: 0x2C9A3A8
+    // Offset: 0x16FE61C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

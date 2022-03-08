@@ -129,7 +129,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.MeshTopology _meshTopology
     ::UnityEngine::MeshTopology& dyn__meshTopology();
     // public System.Void .ctor()
-    // Offset: 0x178BBC0
+    // Offset: 0x1868250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

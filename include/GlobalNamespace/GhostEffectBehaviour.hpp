@@ -9,8 +9,8 @@
 #include "UnityEngine/Playables/PlayableBehaviour.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-// Including type: Tweening.EaseType
-#include "Tweening/EaseType.hpp"
+// Including type: EaseType
+#include "GlobalNamespace/EaseType.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -183,15 +183,15 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 distanceMultiplier;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x1250688
-    // [TooltipAttribute] Offset: 0x1250688
+    // [SpaceAttribute] Offset: 0x10C56A8
+    // [TooltipAttribute] Offset: 0x10C56A8
     // public System.Boolean _useStartTransform
     // Size: 0x1
     // Offset: 0x34
     bool useStartTransform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x12506D4
+    // [TooltipAttribute] Offset: 0x10C56F4
     // public System.Boolean _useEndTransform
     // Size: 0x1
     // Offset: 0x35
@@ -200,8 +200,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useEndTransform and: startLocalPosition
     char __padding5[0x2] = {};
-    // [SpaceAttribute] Offset: 0x125070C
-    // [DrawIfAttribute] Offset: 0x125070C
+    // [SpaceAttribute] Offset: 0x10C572C
+    // [DrawIfAttribute] Offset: 0x10C572C
     // public UnityEngine.Vector3 _startLocalPosition
     // Size: 0xC
     // Offset: 0x38
@@ -210,15 +210,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: startLocalPosition and: startTransform
     char __padding6[0x4] = {};
-    // [DrawIfAttribute] Offset: 0x12507B0
-    // [NullAllowed] Offset: 0x12507B0
+    // [DrawIfAttribute] Offset: 0x10C57D0
+    // [NullAllowed] Offset: 0x10C57D0
     // public UnityEngine.Transform _startTransform
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Transform* startTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x1250858
+    // [DrawIfAttribute] Offset: 0x10C5878
     // public UnityEngine.Vector3 _endLocalPosition
     // Size: 0xC
     // Offset: 0x50
@@ -227,21 +227,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: endLocalPosition and: endTransform
     char __padding8[0x4] = {};
-    // [DrawIfAttribute] Offset: 0x12508EC
-    // [NullAllowed] Offset: 0x12508EC
+    // [DrawIfAttribute] Offset: 0x10C590C
+    // [NullAllowed] Offset: 0x10C590C
     // public UnityEngine.Transform _endTransform
     // Size: 0x8
     // Offset: 0x60
     ::UnityEngine::Transform* endTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // public Tweening.EaseType _positionEasing
+    // public EaseType _positionEasing
     // Size: 0x4
     // Offset: 0x68
-    ::Tweening::EaseType positionEasing;
+    ::GlobalNamespace::EaseType positionEasing;
     // Field size check
-    static_assert(sizeof(::Tweening::EaseType) == 0x4);
-    // [SpaceAttribute] Offset: 0x1250994
+    static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
+    // [SpaceAttribute] Offset: 0x10C59B4
     // public GhostEffectBehaviour/EndBehavior _endBehavior
     // Size: 0x4
     // Offset: 0x6C
@@ -256,14 +256,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: progress and: textMeshPros
     char __padding12[0x4] = {};
-    // [NullAllowed] Offset: 0x12509A4
+    // [NullAllowed] Offset: 0x10C59C4
     // public TMPro.TextMeshPro[] textMeshPros
     // Size: 0x8
     // Offset: 0x78
     ::ArrayW<::TMPro::TextMeshPro*> textMeshPros;
     // Field size check
     static_assert(sizeof(::ArrayW<::TMPro::TextMeshPro*>) == 0x8);
-    // [NullAllowed] Offset: 0x12509DC
+    // [NullAllowed] Offset: 0x10C59FC
     // public UnityEngine.CanvasGroup[] _canvasGroups
     // Size: 0x8
     // Offset: 0x80
@@ -278,7 +278,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
     // Padding between fields: ghostEffectType and: ghostEffectTransform
     char __padding15[0x4] = {};
-    // [NullAllowed] Offset: 0x1250A24
+    // [NullAllowed] Offset: 0x10C5A44
     // public UnityEngine.Transform _ghostEffectTransform
     // Size: 0x8
     // Offset: 0x90
@@ -318,8 +318,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3& dyn__endLocalPosition();
     // Get instance field reference: public UnityEngine.Transform _endTransform
     ::UnityEngine::Transform*& dyn__endTransform();
-    // Get instance field reference: public Tweening.EaseType _positionEasing
-    ::Tweening::EaseType& dyn__positionEasing();
+    // Get instance field reference: public EaseType _positionEasing
+    ::GlobalNamespace::EaseType& dyn__positionEasing();
     // Get instance field reference: public GhostEffectBehaviour/EndBehavior _endBehavior
     ::GlobalNamespace::GhostEffectBehaviour::EndBehavior& dyn__endBehavior();
     // Get instance field reference: public System.Single progress
@@ -337,10 +337,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     bool& dyn__finished();
     // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x13A5CEC
+    // Offset: 0x1323424
     void EnableObjects(bool on);
     // public System.Void .ctor()
-    // Offset: 0x13A62B4
+    // Offset: 0x13239EC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -350,12 +350,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GhostEffectBehaviour*, creationType>()));
     }
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x13A5B90
+    // Offset: 0x13232C8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x13A5E14
+    // Offset: 0x132354C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);

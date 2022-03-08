@@ -43,14 +43,12 @@ namespace Newtonsoft::Json::Utilities {
     protected:
     #endif
     #endif
-    // [NullableAttribute] Offset: 0x1204E88
     // public System.Reflection.ConstructorInfo c
     // Size: 0x8
     // Offset: 0x10
     ::System::Reflection::ConstructorInfo* c;
     // Field size check
     static_assert(sizeof(::System::Reflection::ConstructorInfo*) == 0x8);
-    // [NullableAttribute] Offset: 0x1204E9C
     // public System.Reflection.MethodBase method
     // Size: 0x8
     // Offset: 0x18
@@ -63,13 +61,13 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public System.Reflection.MethodBase method
     ::System::Reflection::MethodBase*& dyn_method();
     // System.Object <CreateParameterizedConstructor>b__0(System.Object[] a)
-    // Offset: 0x29F1DB0
+    // Offset: 0x205B398
     ::Il2CppObject* $CreateParameterizedConstructor$b__0(::ArrayW<::Il2CppObject*> a);
     // System.Object <CreateParameterizedConstructor>b__1(System.Object[] a)
-    // Offset: 0x29F1DCC
+    // Offset: 0x205B3B4
     ::Il2CppObject* $CreateParameterizedConstructor$b__1(::ArrayW<::Il2CppObject*> a);
     // public System.Void .ctor()
-    // Offset: 0x29F1CB0
+    // Offset: 0x205B31C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

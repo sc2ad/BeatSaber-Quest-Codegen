@@ -82,10 +82,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerDataModel playerDataModel
     ::GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // System.Boolean <FilerBeatmapLevelPackCollectionAsync>b__0(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x14C1E00
+    // Offset: 0x1501378
     bool $FilerBeatmapLevelPackCollectionAsync$b__0(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x14C1DF8
+    // Offset: 0x1501370
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -68,13 +68,13 @@ namespace System::Text {
     // Get instance field reference: System.Boolean bIsMicrosoftBestFitFallback
     bool& dyn_bIsMicrosoftBestFitFallback();
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x200C6B0
+    // Offset: 0x20FE4C4
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.DecoderFallback get_ReplacementFallback()
-    // Offset: 0x20094D8
+    // Offset: 0x20FB2EC
     static ::System::Text::DecoderFallback* get_ReplacementFallback();
     // static public System.Text.DecoderFallback get_ExceptionFallback()
-    // Offset: 0x200C744
+    // Offset: 0x20FE558
     static ::System::Text::DecoderFallback* get_ExceptionFallback();
     // public System.Int32 get_MaxCharCount()
     // Offset: 0xFFFFFFFF
@@ -83,7 +83,7 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // protected System.Void .ctor()
-    // Offset: 0x200C33C
+    // Offset: 0x20FE150
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

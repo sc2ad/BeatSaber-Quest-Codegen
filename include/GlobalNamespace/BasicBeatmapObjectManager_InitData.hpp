@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single notesUniformScale
     float& dyn_notesUniformScale();
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single cutAngleTolerance, System.Single notesUniformScale)
-    // Offset: 0x2B3E5A4
+    // Offset: 0x136FD54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float cutAngleTolerance, float notesUniformScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicBeatmapObjectManager::InitData::.ctor");

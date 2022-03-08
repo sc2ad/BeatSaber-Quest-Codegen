@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     ::StringW directory;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x11FE6D8
+    // [NullAllowed] Offset: 0x108B738
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -274,34 +274,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _cameraRenderTexture
     ::UnityEngine::RenderTexture*& dyn__cameraRenderTexture();
     // public System.String get_directory()
-    // Offset: 0x299C0F8
+    // Offset: 0x2A099E4
     ::StringW get_directory();
     // public System.Void set_directory(System.String value)
-    // Offset: 0x299C100
+    // Offset: 0x2A099EC
     void set_directory(::StringW value);
     // protected System.Void OnEnable()
-    // Offset: 0x299C108
+    // Offset: 0x2A099F4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x299C28C
+    // Offset: 0x2A09B78
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x299C360
+    // Offset: 0x2A09C4C
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x299C4C4
+    // Offset: 0x2A09DB0
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x299C430
+    // Offset: 0x2A09D1C
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x299C600
+    // Offset: 0x2A09EEC
     void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x299C4DC
+    // Offset: 0x2A09DC8
     ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x299C710
+    // Offset: 0x2A09FFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -55,16 +55,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.AnimationCurve,HoudiniEngineUnity.Test_AnimationCurve> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19B58FC
+    // Offset: 0x19EC6AC
     static void _cctor();
     // HoudiniEngineUnity.Test_AnimationCurve <ToTestObject>b__1_0(UnityEngine.AnimationCurve lod)
-    // Offset: 0x19B5968
+    // Offset: 0x19EC718
     ::HoudiniEngineUnity::Test_AnimationCurve* $ToTestObject$b__1_0(::UnityEngine::AnimationCurve* lod);
     // HoudiniEngineUnity.Test_AnimationCurve <ToTestObject>b__2_0(UnityEngine.AnimationCurve lod)
-    // Offset: 0x19B59CC
+    // Offset: 0x19EC77C
     ::HoudiniEngineUnity::Test_AnimationCurve* $ToTestObject$b__2_0(::UnityEngine::AnimationCurve* lod);
     // public System.Void .ctor()
-    // Offset: 0x19B5960
+    // Offset: 0x19EC710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

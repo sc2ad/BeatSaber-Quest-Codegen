@@ -66,20 +66,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Void .ctor(IMultiplayerSessionManager msm)
-    // Offset: 0x2A21BD4
+    // Offset: 0x2A85490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockScoreSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockScoreSyncStateSender::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockScoreSyncStateSender*, creationType>(msm)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2A21D74
+    // Offset: 0x2A85630
     void Dispose();
-    // public System.Void SendScore(System.Int32 modifiedScore, System.Int32 rawScore, System.Int32 immediateMaxPossibleRawScore, System.Int32 combo, System.Int32 multiplier)
-    // Offset: 0x2A245B4
-    void SendScore(int modifiedScore, int rawScore, int immediateMaxPossibleRawScore, int combo, int multiplier);
+    // public System.Void SendScore(System.Int32 modifiedScore, System.Int32 multipliedScore, System.Int32 immediateMaxPossibleMultipliedScore, System.Int32 combo, System.Int32 multiplier)
+    // Offset: 0x2A87FB4
+    void SendScore(int modifiedScore, int multipliedScore, int immediateMaxPossibleMultipliedScore, int combo, int multiplier);
     // private System.Void HandleScoreSyncStateUpdate(StandardScoreSyncStateNetSerializable nodePose, IConnectedPlayer connectedPlayer)
-    // Offset: 0x2A2725C
+    // Offset: 0x2A8AEAC
     void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // MockScoreSyncStateSender
   #pragma pack(pop)
@@ -105,11 +105,11 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockScoreSyncStateSender::*)(int, int, int, int, int)>(&GlobalNamespace::MockScoreSyncStateSender::SendScore)> {
   static const MethodInfo* get() {
     static auto* modifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* immediateMaxPossibleRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* multipliedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* immediateMaxPossibleMultipliedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* combo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockScoreSyncStateSender*), "SendScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{modifiedScore, rawScore, immediateMaxPossibleRawScore, combo, multiplier});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockScoreSyncStateSender*), "SendScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{modifiedScore, multipliedScore, immediateMaxPossibleMultipliedScore, combo, multiplier});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockScoreSyncStateSender::HandleScoreSyncStateUpdate

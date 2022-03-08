@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::InvalidateLevelEntitlementStatusesRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2CA4D20
+    // Offset: 0x1709454
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

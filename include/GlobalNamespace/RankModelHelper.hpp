@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   class RankModelHelper : public ::Il2CppObject {
     public:
     // static public RankModel/Rank MaxRankForGameplayModifiers(GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
-    // Offset: 0x13ED7D8
+    // Offset: 0x13C74E4
     static ::GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
   }; // RankModelHelper
   #pragma pack(pop)

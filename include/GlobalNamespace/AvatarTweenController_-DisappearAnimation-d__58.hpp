@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public AvatarTweenController <>4__this
     ::GlobalNamespace::AvatarTweenController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1497938
+    // Offset: 0x14C7448
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14979A0
+    // Offset: 0x14C74B0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1497098
+    // Offset: 0x14C6BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarTweenController::$DisappearAnimation$d__58* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarTweenController::$DisappearAnimation$d__58*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x149761C
+    // Offset: 0x14C712C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1497620
+    // Offset: 0x14C7130
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1497940
+    // Offset: 0x14C7450
     void System_Collections_IEnumerator_Reset();
   }; // AvatarTweenController/<DisappearAnimation>d__58
   #pragma pack(pop)

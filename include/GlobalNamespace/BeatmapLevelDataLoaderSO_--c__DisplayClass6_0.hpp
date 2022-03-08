@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
+    // public UnityEngine.AssetBundleCreateRequest assetBundleCreateRequest
     // Size: 0x8
     // Offset: 0x10
-    ::UnityEngine::AssetBundleCreateRequest* asetBundleCreateRequest;
+    ::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest;
     // Field size check
     static_assert(sizeof(::UnityEngine::AssetBundleCreateRequest*) == 0x8);
     // public System.String levelDataAssetName
@@ -73,17 +73,17 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*) == 0x8);
     public:
-    // Get instance field reference: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
-    ::UnityEngine::AssetBundleCreateRequest*& dyn_asetBundleCreateRequest();
+    // Get instance field reference: public UnityEngine.AssetBundleCreateRequest assetBundleCreateRequest
+    ::UnityEngine::AssetBundleCreateRequest*& dyn_assetBundleCreateRequest();
     // Get instance field reference: public System.String levelDataAssetName
     ::StringW& dyn_levelDataAssetName();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
     ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
-    // System.Void <LoadBeatmalLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)
-    // Offset: 0x14BF64C
-    void $LoadBeatmalLevelDataAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation);
+    // System.Void <LoadBeatmapLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)
+    // Offset: 0x14FEDF0
+    void $LoadBeatmapLevelDataAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation);
     // public System.Void .ctor()
-    // Offset: 0x14BF644
+    // Offset: 0x14FEDE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,13 +97,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmalLevelDataAsync$b__0
-// Il2CppName: <LoadBeatmalLevelDataAsync>b__0
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmapLevelDataAsync$b__0
+// Il2CppName: <LoadBeatmapLevelDataAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::*)(::UnityEngine::AsyncOperation*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmalLevelDataAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::*)(::UnityEngine::AsyncOperation*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmapLevelDataAsync$b__0)> {
   static const MethodInfo* get() {
     static auto* asyncOperation = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*), "<LoadBeatmalLevelDataAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*), "<LoadBeatmapLevelDataAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::New_ctor

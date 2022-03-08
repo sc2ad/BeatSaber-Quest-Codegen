@@ -18,20 +18,6 @@
 namespace System::Xml::Schema {
   // Forward declaring type: SymbolsDictionary
   class SymbolsDictionary;
-  // Forward declaring type: ValidationState
-  class ValidationState;
-  // Forward declaring type: XmlSchemaSet
-  class XmlSchemaSet;
-}
-// Forward declaring namespace: System::Xml
-namespace System::Xml {
-  // Forward declaring type: XmlQualifiedName
-  class XmlQualifiedName;
-}
-// Forward declaring namespace: System::Collections
-namespace System::Collections {
-  // Forward declaring type: ArrayList
-  class ArrayList;
 }
 // Completed forward declares
 // Type namespace: System.Xml.Schema
@@ -79,37 +65,12 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.SymbolsDictionary symbols
     ::System::Xml::Schema::SymbolsDictionary*& dyn_symbols();
     // System.Void .ctor(System.Int32[][] transitionTable, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean isOpen, System.Boolean isEmptiable)
-    // Offset: 0x1D6A348
+    // Offset: 0x1C3C520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DfaContentValidator* New_ctor(::ArrayW<::ArrayW<int>> transitionTable, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::DfaContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DfaContentValidator*, creationType>(transitionTable, symbols, contentType, isOpen, isEmptiable)));
     }
-    // public override System.Void InitValidation(System.Xml.Schema.ValidationState context)
-    // Offset: 0x1D6A3F8
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Void ContentValidator::InitValidation(System.Xml.Schema.ValidationState context)
-    void InitValidation(::System::Xml::Schema::ValidationState* context);
-    // public override System.Object ValidateElement(System.Xml.XmlQualifiedName name, System.Xml.Schema.ValidationState context, out System.Int32 errorCode)
-    // Offset: 0x1D6A474
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Object ContentValidator::ValidateElement(System.Xml.XmlQualifiedName name, System.Xml.Schema.ValidationState context, out System.Int32 errorCode)
-    ::Il2CppObject* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int> errorCode);
-    // public override System.Boolean CompleteValidation(System.Xml.Schema.ValidationState context)
-    // Offset: 0x1D6A5B0
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Boolean ContentValidator::CompleteValidation(System.Xml.Schema.ValidationState context)
-    bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
-    // public override System.Collections.ArrayList ExpectedElements(System.Xml.Schema.ValidationState context, System.Boolean isRequiredOnly)
-    // Offset: 0x1D6A5C8
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Collections.ArrayList ContentValidator::ExpectedElements(System.Xml.Schema.ValidationState context, System.Boolean isRequiredOnly)
-    ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
-    // public override System.Collections.ArrayList ExpectedParticles(System.Xml.Schema.ValidationState context, System.Boolean isRequiredOnly, System.Xml.Schema.XmlSchemaSet schemaSet)
-    // Offset: 0x1D6A7A8
-    // Implemented from: System.Xml.Schema.ContentValidator
-    // Base method: System.Collections.ArrayList ContentValidator::ExpectedParticles(System.Xml.Schema.ValidationState context, System.Boolean isRequiredOnly, System.Xml.Schema.XmlSchemaSet schemaSet)
-    ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
   }; // System.Xml.Schema.DfaContentValidator
   #pragma pack(pop)
   static check_size<sizeof(DfaContentValidator), 32 + sizeof(::System::Xml::Schema::SymbolsDictionary*)> __System_Xml_Schema_DfaContentValidatorSizeCheck;
@@ -120,53 +81,3 @@ namespace System::Xml::Schema {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::DfaContentValidator::InitValidation
-// Il2CppName: InitValidation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(&System::Xml::Schema::DfaContentValidator::InitValidation)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DfaContentValidator*), "InitValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DfaContentValidator::ValidateElement
-// Il2CppName: ValidateElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::DfaContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int>)>(&System::Xml::Schema::DfaContentValidator::ValidateElement)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    static auto* errorCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DfaContentValidator*), "ValidateElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, context, errorCode});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DfaContentValidator::CompleteValidation
-// Il2CppName: CompleteValidation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(&System::Xml::Schema::DfaContentValidator::CompleteValidation)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DfaContentValidator*), "CompleteValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DfaContentValidator::ExpectedElements
-// Il2CppName: ExpectedElements
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(&System::Xml::Schema::DfaContentValidator::ExpectedElements)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    static auto* isRequiredOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DfaContentValidator*), "ExpectedElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, isRequiredOnly});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::DfaContentValidator::ExpectedParticles
-// Il2CppName: ExpectedParticles
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::Schema::DfaContentValidator::ExpectedParticles)> {
-  static const MethodInfo* get() {
-    static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
-    static auto* isRequiredOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* schemaSet = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::DfaContentValidator*), "ExpectedParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, isRequiredOnly, schemaSet});
-  }
-};

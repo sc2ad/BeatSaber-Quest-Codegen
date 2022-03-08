@@ -82,13 +82,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public System.Byte[] serverPublicKey
     ::ArrayW<uint8_t>& dyn_serverPublicKey();
     // System.Threading.Tasks.Task`1<BGNet.Core.Messages.HelloVerifyRequest> <AuthenticateWithServerAsyncInternal>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint ep, BGNet.Core.Messages.IUnconnectedReliableRequest request, System.Threading.CancellationToken ct)
-    // Offset: 0x2B80978
+    // Offset: 0x152A2B4
     ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::HelloVerifyRequest*>* $AuthenticateWithServerAsyncInternal$b__0(uint protocolVersion, ::System::Net::IPEndPoint* ep, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::System::Threading::CancellationToken ct);
     // System.Threading.Tasks.Task`1<System.Byte[]> <AuthenticateWithServerAsyncInternal>b__1(System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> result)
-    // Offset: 0x2B80A30
+    // Offset: 0x152A36C
     ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* $AuthenticateWithServerAsyncInternal$b__1(::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* result);
     // public System.Void .ctor()
-    // Offset: 0x2B80970
+    // Offset: 0x152A2AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

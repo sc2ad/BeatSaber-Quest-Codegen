@@ -83,14 +83,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SignalSenderAttribute] Offset: 0x124A8F0
+    // [SignalSenderAttribute] Offset: 0x10BF870
     // private Signal _missionToggleWasPressedSignal
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::Signal* missionToggleWasPressedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A928
+    // [SpaceAttribute] Offset: 0x10BF8A8
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20
@@ -121,14 +121,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* strokeImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A9A0
+    // [SpaceAttribute] Offset: 0x10BF920
     // private HMUI.Interactable _vrInteractable
     // Size: 0x8
     // Offset: 0x48
     ::HMUI::Interactable* vrInteractable;
     // Field size check
     static_assert(sizeof(::HMUI::Interactable*) == 0x8);
-    // [SpaceAttribute] Offset: 0x124A9D8
+    // [SpaceAttribute] Offset: 0x10BF958
     // private UnityEngine.Color _disabledColor
     // Size: 0x10
     // Offset: 0x50
@@ -235,58 +235,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _missionCleared
     bool& dyn__missionCleared();
     // public System.Void set_missionCleared(System.Boolean value)
-    // Offset: 0x1420C24
+    // Offset: 0x133988C
     void set_missionCleared(bool value);
     // public System.Boolean get_selected()
-    // Offset: 0x1420C30
+    // Offset: 0x1339898
     bool get_selected();
     // public System.Void set_selected(System.Boolean value)
-    // Offset: 0x1420C38
+    // Offset: 0x1334B14
     void set_selected(bool value);
     // public System.Boolean get_interactable()
-    // Offset: 0x1420D04
+    // Offset: 0x13398A0
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x1420D0C
+    // Offset: 0x1334CD0
     void set_interactable(bool value);
     // public System.Boolean get_highlighted()
-    // Offset: 0x1421008
+    // Offset: 0x1339B9C
     bool get_highlighted();
     // public System.Void add_selectionDidChangeEvent(System.Action`1<MissionToggle> value)
-    // Offset: 0x1420ADC
+    // Offset: 0x1334C2C
     void add_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value);
     // public System.Void remove_selectionDidChangeEvent(System.Action`1<MissionToggle> value)
-    // Offset: 0x1420B80
+    // Offset: 0x1334E14
     void remove_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value);
     // public System.Void ChangeSelection(System.Boolean value, System.Boolean callSelectionDidChange, System.Boolean ignoreCurrentValue)
-    // Offset: 0x1420C48
+    // Offset: 0x1334F4C
     void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
     // public System.Void ChangeHighlight(System.Boolean value, System.Boolean ignoreCurrentValue)
-    // Offset: 0x1421038
+    // Offset: 0x1339BCC
     void ChangeHighlight(bool value, bool ignoreCurrentValue);
     // public System.Void SetText(System.String text)
-    // Offset: 0x1421060
+    // Offset: 0x1334EB8
     void SetText(::StringW text);
     // private System.Void InternalToggle()
-    // Offset: 0x142107C
+    // Offset: 0x1339BF4
     void InternalToggle();
     // private System.Void RefreshUI()
-    // Offset: 0x1420D18
+    // Offset: 0x13398A8
     void RefreshUI();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x14210B8
+    // Offset: 0x1339C30
     void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x142117C
+    // Offset: 0x1339CF4
     void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1421224
+    // Offset: 0x1339D9C
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1421244
+    // Offset: 0x1339DBC
     void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x1421260
+    // Offset: 0x1339DD8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -300,7 +300,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionToggle*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x1421010
+    // Offset: 0x1339BA4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();

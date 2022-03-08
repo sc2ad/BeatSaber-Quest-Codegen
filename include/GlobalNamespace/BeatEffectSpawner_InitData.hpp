@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean hideNoteSpawnEffect
     bool& dyn_hideNoteSpawnEffect();
     // public System.Void .ctor(System.Boolean hideNoteSpawnEffect)
-    // Offset: 0x2B3F9B8
+    // Offset: 0x1371104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatEffectSpawner::InitData::.ctor");

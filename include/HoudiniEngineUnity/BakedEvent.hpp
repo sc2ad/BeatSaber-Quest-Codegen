@@ -46,7 +46,7 @@ namespace HoudiniEngineUnity {
   class BakedEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1632D90
+    // Offset: 0x16A08FC
     // Implemented from: UnityEngine.Events.UnityEvent`3
     // Base method: System.Void UnityEvent_3::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

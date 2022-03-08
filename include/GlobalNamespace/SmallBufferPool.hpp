@@ -128,13 +128,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
     ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMax();
     // public System.Byte[] GetBuffer(System.Int32 length)
-    // Offset: 0x2E04568
+    // Offset: 0x260DC30
     ::ArrayW<uint8_t> GetBuffer(int length);
     // public System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x2E04738
+    // Offset: 0x260DE00
     void ReleaseBuffer(::ArrayW<uint8_t> buffer);
     // public System.Void .ctor()
-    // Offset: 0x2E04878
+    // Offset: 0x260DF40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

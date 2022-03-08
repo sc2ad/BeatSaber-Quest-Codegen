@@ -54,14 +54,8 @@ namespace System::Xml::Schema {
     ::Il2CppObject*& dyn_particle1();
     // Get instance field reference: private System.Object particle2
     ::Il2CppObject*& dyn_particle2();
-    // public System.Object get_Particle1()
-    // Offset: 0x169D204
-    ::Il2CppObject* get_Particle1();
-    // public System.Object get_Particle2()
-    // Offset: 0x169D20C
-    ::Il2CppObject* get_Particle2();
     // public System.Void .ctor(System.Object particle1, System.Object particle2)
-    // Offset: 0x169D184
+    // Offset: 0x1C41F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UpaException* New_ctor(::Il2CppObject* particle1, ::Il2CppObject* particle2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::UpaException::.ctor");
@@ -73,22 +67,6 @@ namespace System::Xml::Schema {
   static_assert(sizeof(UpaException) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: System::Xml::Schema::UpaException::get_Particle1
-// Il2CppName: get_Particle1
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::UpaException::*)()>(&System::Xml::Schema::UpaException::get_Particle1)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::UpaException*), "get_Particle1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::UpaException::get_Particle2
-// Il2CppName: get_Particle2
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::UpaException::*)()>(&System::Xml::Schema::UpaException::get_Particle2)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::UpaException*), "get_Particle2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::UpaException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -105,23 +105,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set signerInfos
     ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_signerInfos();
     // public Org.BouncyCastle.Asn1.Asn1Set get_Certificates()
-    // Offset: 0x1BCF7CC
+    // Offset: 0x1CB0E34
     ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
     // public Org.BouncyCastle.Asn1.Asn1Set get_Crls()
-    // Offset: 0x1BCF7D4
+    // Offset: 0x1CB0E3C
     ::Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1BCF240
+    // Offset: 0x1CB08A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::SignedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignedData*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.SignedData GetInstance(System.Object obj)
-    // Offset: 0x1BCF19C
+    // Offset: 0x1CB0804
     static ::Org::BouncyCastle::Asn1::Pkcs::SignedData* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1BCF7DC
+    // Offset: 0x1CB0E44
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

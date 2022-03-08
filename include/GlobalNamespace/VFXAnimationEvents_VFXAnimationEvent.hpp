@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
     ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // public System.String get_name()
-    // Offset: 0x29A05DC
+    // Offset: 0x2A0DEF4
     ::StringW get_name();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x29A05E4
+    // Offset: 0x2A0DEFC
     ::ArrayW<::UnityEngine::ParticleSystem*> get_particleSystems();
     // public System.Void .ctor()
-    // Offset: 0x29A05EC
+    // Offset: 0x2A0DF04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

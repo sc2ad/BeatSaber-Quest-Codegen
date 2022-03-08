@@ -79,34 +79,34 @@ namespace Zenject {
     // Get instance field reference: private Zenject.IBindingFinalizer _bindingFinalizer
     ::Zenject::IBindingFinalizer*& dyn__bindingFinalizer();
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x16D85A4
+    // Offset: 0x173A9D8
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Boolean get_HasFinalizer()
-    // Offset: 0x16D86C4
+    // Offset: 0x173AAF8
     bool get_HasFinalizer();
     // public System.Void SetFinalizer(Zenject.IBindingFinalizer bindingFinalizer)
-    // Offset: 0x16D86D4
+    // Offset: 0x173AB08
     void SetFinalizer(::Zenject::IBindingFinalizer* bindingFinalizer);
     // private System.Void AssertHasFinalizer()
-    // Offset: 0x16D865C
+    // Offset: 0x173AA90
     void AssertHasFinalizer();
     // public System.Void AddDisposable(System.IDisposable disposable)
-    // Offset: 0x16D86DC
+    // Offset: 0x173AB10
     void AddDisposable(::System::IDisposable* disposable);
     // public Zenject.BindInfo SpawnBindInfo()
-    // Offset: 0x16D8744
+    // Offset: 0x173AB78
     ::Zenject::BindInfo* SpawnBindInfo();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x16D87C0
+    // Offset: 0x173ABF4
     void FinalizeBinding(::Zenject::DiContainer* container);
     // public System.Void Reset()
-    // Offset: 0x16D8498
+    // Offset: 0x173A8CC
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x16D888C
+    // Offset: 0x173ACC0
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x16D8420
+    // Offset: 0x173A854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

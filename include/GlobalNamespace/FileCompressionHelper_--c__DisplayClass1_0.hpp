@@ -78,13 +78,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<System.Boolean> finishCallback
     ::System::Action_1<bool>*& dyn_finishCallback();
     // System.Void <ExtractZipToDirectoryAsync>b__0()
-    // Offset: 0x2C1D1EC
+    // Offset: 0x15759B8
     void $ExtractZipToDirectoryAsync$b__0();
     // System.Void <ExtractZipToDirectoryAsync>b__1()
-    // Offset: 0x2C1D1F8
+    // Offset: 0x15759C4
     void $ExtractZipToDirectoryAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x2C1D02C
+    // Offset: 0x15757F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

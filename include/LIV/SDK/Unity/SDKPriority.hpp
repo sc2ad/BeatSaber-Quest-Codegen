@@ -98,10 +98,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.SByte reserved2
     int8_t& dyn_reserved2();
     // static public LIV.SDK.Unity.SDKPriority get_empty()
-    // Offset: 0x29B10C4
+    // Offset: 0x2A30DBC
     static ::LIV::SDK::Unity::SDKPriority get_empty();
     // public override System.String ToString()
-    // Offset: 0x29B21F4
+    // Offset: 0x2A31EEC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

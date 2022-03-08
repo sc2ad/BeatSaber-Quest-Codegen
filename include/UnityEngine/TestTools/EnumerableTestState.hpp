@@ -57,7 +57,7 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public System.Int32 Retry
     int& dyn_Retry();
     // public System.Void .ctor()
-    // Offset: 0x18D8804
+    // Offset: 0x19543F4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

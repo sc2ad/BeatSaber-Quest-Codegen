@@ -52,7 +52,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Value
     ::StringW& dyn_Value();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x29FAF40
+    // Offset: 0x2A56C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserProof* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::UserProof::.ctor");

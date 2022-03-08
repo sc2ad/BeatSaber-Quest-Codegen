@@ -65,22 +65,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _stackTrace
     ::StringW& dyn__stackTrace();
     // public System.String get_logString()
-    // Offset: 0x13C456C
+    // Offset: 0x1413CBC
     ::StringW get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x13C4574
+    // Offset: 0x1413CC4
     ::StringW get_stackTrace();
     // public System.Void StartCatchingExceptions()
-    // Offset: 0x13C457C
+    // Offset: 0x1413CCC
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0x13C45F0
+    // Offset: 0x1413D40
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x13C4664
+    // Offset: 0x1413DB4
     void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0x13C4708
+    // Offset: 0x1413E58
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

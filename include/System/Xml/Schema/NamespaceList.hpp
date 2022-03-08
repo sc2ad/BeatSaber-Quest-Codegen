@@ -134,47 +134,29 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String targetNamespace
     ::StringW& dyn_targetNamespace();
     // public System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType get_Type()
-    // Offset: 0x149B264
+    // Offset: 0x1C3DCD4
     ::System::Xml::Schema::NamespaceList::ListType get_Type();
     // public System.String get_Excluded()
-    // Offset: 0x149B26C
+    // Offset: 0x1C3DCDC
     ::StringW get_Excluded();
     // public System.Collections.ICollection get_Enumerate()
-    // Offset: 0x149B274
+    // Offset: 0x1C3DCE4
     ::System::Collections::ICollection* get_Enumerate();
     // public System.Void .ctor(System.String namespaces, System.String targetNamespace)
-    // Offset: 0x149AEF0
+    // Offset: 0x1C3DA60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>(namespaces, targetNamespace)));
     }
-    // public System.Xml.Schema.NamespaceList Clone()
-    // Offset: 0x149B164
-    ::System::Xml::Schema::NamespaceList* Clone();
     // public System.Boolean Allows(System.String ns)
-    // Offset: 0x149B308
+    // Offset: 0x1C3DD78
     bool Allows(::StringW ns);
     // public System.Boolean Allows(System.Xml.XmlQualifiedName qname)
-    // Offset: 0x149B398
+    // Offset: 0x1C3DE08
     bool Allows(::System::Xml::XmlQualifiedName* qname);
-    // static public System.Boolean IsSubset(System.Xml.Schema.NamespaceList sub, System.Xml.Schema.NamespaceList super)
-    // Offset: 0x149B7D0
-    static bool IsSubset(::System::Xml::Schema::NamespaceList* sub, ::System::Xml::Schema::NamespaceList* super);
-    // static public System.Xml.Schema.NamespaceList Union(System.Xml.Schema.NamespaceList o1, System.Xml.Schema.NamespaceList o2, System.Boolean v1Compat)
-    // Offset: 0x149BB5C
-    static ::System::Xml::Schema::NamespaceList* Union(::System::Xml::Schema::NamespaceList* o1, ::System::Xml::Schema::NamespaceList* o2, bool v1Compat);
-    // private System.Xml.Schema.NamespaceList CompareSetToOther(System.Xml.Schema.NamespaceList other)
-    // Offset: 0x149C054
-    ::System::Xml::Schema::NamespaceList* CompareSetToOther(::System::Xml::Schema::NamespaceList* other);
-    // static public System.Xml.Schema.NamespaceList Intersection(System.Xml.Schema.NamespaceList o1, System.Xml.Schema.NamespaceList o2, System.Boolean v1Compat)
-    // Offset: 0x149C178
-    static ::System::Xml::Schema::NamespaceList* Intersection(::System::Xml::Schema::NamespaceList* o1, ::System::Xml::Schema::NamespaceList* o2, bool v1Compat);
-    // private System.Void RemoveNamespace(System.String tns)
-    // Offset: 0x149C618
-    void RemoveNamespace(::StringW tns);
     // public System.Void .ctor()
-    // Offset: 0x149AEE8
+    // Offset: 0x1C3DA58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -183,7 +165,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x149B3B8
+    // Offset: 0x1C3DE28
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -223,14 +205,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::Clone
-// Il2CppName: Clone
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::NamespaceList* (System::Xml::Schema::NamespaceList::*)()>(&System::Xml::Schema::NamespaceList::Clone)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::Allows
 // Il2CppName: Allows
 template<>
@@ -247,56 +221,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
   static const MethodInfo* get() {
     static auto* qname = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "Allows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qname});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::IsSubset
-// Il2CppName: IsSubset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::Schema::NamespaceList*, ::System::Xml::Schema::NamespaceList*)>(&System::Xml::Schema::NamespaceList::IsSubset)> {
-  static const MethodInfo* get() {
-    static auto* sub = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
-    static auto* super = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "IsSubset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sub, super});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::Union
-// Il2CppName: Union
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::NamespaceList* (*)(::System::Xml::Schema::NamespaceList*, ::System::Xml::Schema::NamespaceList*, bool)>(&System::Xml::Schema::NamespaceList::Union)> {
-  static const MethodInfo* get() {
-    static auto* o1 = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
-    static auto* o2 = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
-    static auto* v1Compat = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "Union", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o1, o2, v1Compat});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::CompareSetToOther
-// Il2CppName: CompareSetToOther
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::NamespaceList* (System::Xml::Schema::NamespaceList::*)(::System::Xml::Schema::NamespaceList*)>(&System::Xml::Schema::NamespaceList::CompareSetToOther)> {
-  static const MethodInfo* get() {
-    static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "CompareSetToOther", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::Intersection
-// Il2CppName: Intersection
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::NamespaceList* (*)(::System::Xml::Schema::NamespaceList*, ::System::Xml::Schema::NamespaceList*, bool)>(&System::Xml::Schema::NamespaceList::Intersection)> {
-  static const MethodInfo* get() {
-    static auto* o1 = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
-    static auto* o2 = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
-    static auto* v1Compat = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "Intersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o1, o2, v1Compat});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::RemoveNamespace
-// Il2CppName: RemoveNamespace
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::NamespaceList::*)(::StringW)>(&System::Xml::Schema::NamespaceList::RemoveNamespace)> {
-  static const MethodInfo* get() {
-    static auto* tns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::NamespaceList*), "RemoveNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tns});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::NamespaceList::New_ctor

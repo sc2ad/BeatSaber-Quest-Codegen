@@ -53,16 +53,16 @@ namespace UnityEngine {
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystemDescriptor> s_StandaloneSubsystemDescriptors
     static void _set_s_StandaloneSubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptor*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A5CAD4
+    // Offset: 0x2AC5868
     static void _cctor();
     // static System.Boolean Internal_AddDescriptor(UnityEngine.SubsystemDescriptor descriptor)
-    // Offset: 0x2A5C614
+    // Offset: 0x2AC53A8
     static bool Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
     // static System.Void Internal_InitializeManagedDescriptor(System.IntPtr ptr, UnityEngine.ISubsystemDescriptorImpl desc)
-    // Offset: 0x2A5C814
+    // Offset: 0x2AC55A8
     static void Internal_InitializeManagedDescriptor(::System::IntPtr ptr, ::UnityEngine::ISubsystemDescriptorImpl* desc);
     // static System.Void Internal_ClearManagedDescriptors()
-    // Offset: 0x2A5C914
+    // Offset: 0x2AC56A8
     static void Internal_ClearManagedDescriptors();
   }; // UnityEngine.Internal_SubsystemDescriptors
   #pragma pack(pop)

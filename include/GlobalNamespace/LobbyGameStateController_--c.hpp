@@ -44,18 +44,18 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::LobbyGameStateController::$$c* _get_$$9();
     // Set static field: static public readonly LobbyGameStateController/<>c <>9
     static void _set_$$9(::GlobalNamespace::LobbyGameStateController::$$c* value);
-    // Get static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__95_0
-    static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* _get_$$9__95_0();
-    // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__95_0
-    static void _set_$$9__95_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* value);
+    // Get static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__99_0
+    static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* _get_$$9__99_0();
+    // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__99_0
+    static void _set_$$9__99_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B93D74
+    // Offset: 0x14D86CC
     static void _cctor();
-    // System.Boolean <PredictCountdownEndTime>b__95_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> pair)
-    // Offset: 0x2B93DE0
-    bool $PredictCountdownEndTime$b__95_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
+    // System.Boolean <PredictCountdownEndTime>b__99_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> pair)
+    // Offset: 0x14D8738
+    bool $PredictCountdownEndTime$b__99_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
     // public System.Void .ctor()
-    // Offset: 0x2B93DD8
+    // Offset: 0x14D8730
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,13 +75,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c::$PredictCountdownEndTime$b__95_0
-// Il2CppName: <PredictCountdownEndTime>b__95_0
+// Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c::$PredictCountdownEndTime$b__99_0
+// Il2CppName: <PredictCountdownEndTime>b__99_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LobbyGameStateController::$$c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>)>(&GlobalNamespace::LobbyGameStateController::$$c::$PredictCountdownEndTime$b__95_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LobbyGameStateController::$$c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>)>(&GlobalNamespace::LobbyGameStateController::$$c::$PredictCountdownEndTime$b__99_0)> {
   static const MethodInfo* get() {
     static auto* pair = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "ILobbyPlayerData")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController::$$c*), "<PredictCountdownEndTime>b__95_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pair});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController::$$c*), "<PredictCountdownEndTime>b__99_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pair});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c::New_ctor

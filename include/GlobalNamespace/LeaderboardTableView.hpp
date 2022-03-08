@@ -122,19 +122,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _specialScorePos
     int& dyn__specialScorePos();
     // public System.Single CellSize()
-    // Offset: 0x13B1258
+    // Offset: 0x14A5240
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x13B1260
+    // Offset: 0x14A5248
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13B12B4
+    // Offset: 0x14A529C
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
-    // Offset: 0x13B1490
+    // Offset: 0x14A5478
     void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
     // public System.Void .ctor()
-    // Offset: 0x13B14C0
+    // Offset: 0x14A54A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

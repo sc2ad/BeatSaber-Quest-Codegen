@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242B2C
+    // [InjectAttribute] Offset: 0x10B7DE8
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -104,13 +104,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
     ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x13C4114
+    // Offset: 0x141365C
     void set_alpha(float value);
     // protected System.Void Start()
-    // Offset: 0x13C4130
+    // Offset: 0x1413678
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x13C41DC
+    // Offset: 0x1413724
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

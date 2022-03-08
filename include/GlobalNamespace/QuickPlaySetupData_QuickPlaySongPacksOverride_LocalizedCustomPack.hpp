@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> packIds
     ::System::Collections::Generic::List_1<::StringW>*& dyn_packIds();
     // public System.Void .ctor()
-    // Offset: 0x13EB79C
+    // Offset: 0x13C5400
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

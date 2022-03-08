@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _image
     ::UnityEngine::UI::Image*& dyn__image();
     // public System.Single get_fillAmount()
-    // Offset: 0x13FFACC
+    // Offset: 0x12E020C
     float get_fillAmount();
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0x13F14C8
+    // Offset: 0x12E01BC
     void set_fillAmount(float value);
     // public System.Void .ctor()
-    // Offset: 0x13FFAE8
+    // Offset: 0x12E0228
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

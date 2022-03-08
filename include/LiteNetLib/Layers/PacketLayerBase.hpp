@@ -57,7 +57,7 @@ namespace LiteNetLib::Layers {
     // Get instance field reference: public readonly System.Int32 ExtraPacketSizeForLayer
     int& dyn_ExtraPacketSizeForLayer();
     // protected System.Void .ctor(System.Int32 extraPacketSizeForLayer)
-    // Offset: 0x20DE1C4
+    // Offset: 0x218BB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketLayerBase* New_ctor(int extraPacketSizeForLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Layers::PacketLayerBase::.ctor");

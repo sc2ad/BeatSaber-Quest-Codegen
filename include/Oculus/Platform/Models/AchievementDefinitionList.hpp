@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class AchievementDefinitionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementDefinition*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1962F34
+    // Offset: 0x19B3EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementDefinitionList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AchievementDefinitionList::.ctor");

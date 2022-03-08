@@ -66,19 +66,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentInfoSO[] _environmentInfos
     ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*>& dyn__environmentInfos();
     // public EnvironmentInfoSO[] get_environmentInfos()
-    // Offset: 0x13FBEBC
+    // Offset: 0x12DB258
     ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*> get_environmentInfos();
     // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentSerializedName)
-    // Offset: 0x13FBEC4
+    // Offset: 0x12DB260
     ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x13FA720
+    // Offset: 0x12D9B44
     ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetFirstEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x13FBF50
+    // Offset: 0x12DB2EC
     ::GlobalNamespace::EnvironmentInfoSO* GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
+    // public EnvironmentInfoSO GetLastEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
+    // Offset: 0x12DB364
+    ::GlobalNamespace::EnvironmentInfoSO* GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x13FBFC8
+    // Offset: 0x12DB3E0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -128,6 +131,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
   static const MethodInfo* get() {
     static auto* environmentType = &::il2cpp_utils::GetClassFromName("", "EnvironmentTypeSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "GetFirstEnvironmentInfoWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentType});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::GetLastEnvironmentInfoWithType
+// Il2CppName: GetLastEnvironmentInfoWithType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::EnvironmentsListSO::*)(::GlobalNamespace::EnvironmentTypeSO*)>(&GlobalNamespace::EnvironmentsListSO::GetLastEnvironmentInfoWithType)> {
+  static const MethodInfo* get() {
+    static auto* environmentType = &::il2cpp_utils::GetClassFromName("", "EnvironmentTypeSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "GetLastEnvironmentInfoWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::New_ctor

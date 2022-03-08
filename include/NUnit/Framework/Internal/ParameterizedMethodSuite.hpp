@@ -59,12 +59,12 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Boolean _isTheory
     bool& dyn__isTheory();
     // public override System.String get_TestType()
-    // Offset: 0x28B4BAC
+    // Offset: 0x29E1CDC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::StringW get_TestType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x28B4964
+    // Offset: 0x29E1A94
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.IMethodInfo method)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

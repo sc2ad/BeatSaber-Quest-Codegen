@@ -36,17 +36,12 @@ namespace System::Xml::Schema {
   class Datatype_normalizedStringV1Compat : public ::System::Xml::Schema::Datatype_string {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D6746C
+    // Offset: 0x1C39990
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_string::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
-    // override System.Boolean get_HasValueFacets()
-    // Offset: 0x1D67474
-    // Implemented from: System.Xml.Schema.DatatypeImplementation
-    // Base method: System.Boolean DatatypeImplementation::get_HasValueFacets()
-    bool get_HasValueFacets();
     // public System.Void .ctor()
-    // Offset: 0x1D5DFF4
+    // Offset: 0x1C39998
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Void Datatype_string::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
@@ -68,14 +63,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (System::Xml::Schema::Datatype_normalizedStringV1Compat::*)()>(&System::Xml::Schema::Datatype_normalizedStringV1Compat::get_TypeCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_normalizedStringV1Compat*), "get_TypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::Datatype_normalizedStringV1Compat::get_HasValueFacets
-// Il2CppName: get_HasValueFacets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::Datatype_normalizedStringV1Compat::*)()>(&System::Xml::Schema::Datatype_normalizedStringV1Compat::get_HasValueFacets)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Datatype_normalizedStringV1Compat*), "get_HasValueFacets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::Datatype_normalizedStringV1Compat::New_ctor

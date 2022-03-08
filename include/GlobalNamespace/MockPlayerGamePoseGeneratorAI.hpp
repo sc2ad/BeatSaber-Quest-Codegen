@@ -33,6 +33,8 @@ namespace GlobalNamespace {
   class NoteSpawnInfoNetSerializable;
   // Forward declaring type: ObstacleSpawnInfoNetSerializable
   class ObstacleSpawnInfoNetSerializable;
+  // Forward declaring type: SliderSpawnInfoNetSerializable
+  class SliderSpawnInfoNetSerializable;
   // Forward declaring type: MockBeatmapData
   class MockBeatmapData;
   // Forward declaring type: GameplayModifiers
@@ -117,48 +119,51 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeScale
     float& dyn__timeScale();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, IMockPlayerScoreCalculator scoreCalculator, System.Boolean leftHanded)
-    // Offset: 0x2A22138
+    // Offset: 0x2A859F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerGamePoseGeneratorAI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGeneratorAI*, creationType>(multiplayerSessionManager, gameplayRpcManager, scoreCalculator, leftHanded)));
     }
     // static private UnityEngine.Vector3 GetCutDirection(NoteCutDirection cutDirection)
-    // Offset: 0x2A2258C
+    // Offset: 0x2A85F8C
     static ::UnityEngine::Vector3 GetCutDirection(::GlobalNamespace::NoteCutDirection cutDirection);
     // static private UnityEngine.Vector3 GetNotePosition(System.Int32 lineCount, MockNoteData noteData)
-    // Offset: 0x2A22798
+    // Offset: 0x2A86198
     static ::UnityEngine::Vector3 GetNotePosition(int lineCount, ::GlobalNamespace::MockNoteData* noteData);
     // static private UnityEngine.Vector3 Blerp(UnityEngine.Vector3 prevStart, UnityEngine.Vector3 prevEnd, UnityEngine.Vector3 currStart, UnityEngine.Vector3 currEnd, System.Single t)
-    // Offset: 0x2A22828
+    // Offset: 0x2A86228
     static ::UnityEngine::Vector3 Blerp(::UnityEngine::Vector3 prevStart, ::UnityEngine::Vector3 prevEnd, ::UnityEngine::Vector3 currStart, ::UnityEngine::Vector3 currEnd, float t);
     // private UnityEngine.Pose ProcessNotes(MockNoteData[] notes, UnityEngine.Vector3 handDirection, ref System.Int32 noteIndex, ref System.Int32 prevHitScore, ref System.Int32 nextHitScore, MockNoteData[] bombs, ref System.Int32 bombIndex, System.Int32 lineCount, System.Single songTime, out System.Boolean wasHitOrMiss)
-    // Offset: 0x2A22A00
+    // Offset: 0x2A86400
     ::UnityEngine::Pose ProcessNotes(::ArrayW<::GlobalNamespace::MockNoteData*> notes, ::UnityEngine::Vector3 handDirection, ByRef<int> noteIndex, ByRef<int> prevHitScore, ByRef<int> nextHitScore, ::ArrayW<::GlobalNamespace::MockNoteData*> bombs, ByRef<int> bombIndex, int lineCount, float songTime, ByRef<bool> wasHitOrMiss);
     // private UnityEngine.Pose ProcessObstacles(MockObstacleData[] obstacles, ref System.Int32 obstacleIndex, System.Int32 lineCount, UnityEngine.Pose prevHeadPose, UnityEngine.Pose leftHandPose, UnityEngine.Pose rightHandPose, System.Single songTime)
-    // Offset: 0x2A23CE4
+    // Offset: 0x2A876E4
     ::UnityEngine::Pose ProcessObstacles(::ArrayW<::GlobalNamespace::MockObstacleData*> obstacles, ByRef<int> obstacleIndex, int lineCount, ::UnityEngine::Pose prevHeadPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose, float songTime);
     // private System.Void UpdateScore(ref System.Int32 currentScore, ref System.Int32 currentCombo, ref System.Int32 currentMultiplier, System.Int32 hitScore, System.Int32 lineCount, UnityEngine.Pose lastPose, UnityEngine.Pose currentPose, System.Single lastSongTime, System.Single songTime, MockNoteData noteData, MockNoteData nextNoteData)
-    // Offset: 0x2A24094
+    // Offset: 0x2A87A88
     void UpdateScore(ByRef<int> currentScore, ByRef<int> currentCombo, ByRef<int> currentMultiplier, int hitScore, int lineCount, ::UnityEngine::Pose lastPose, ::UnityEngine::Pose currentPose, float lastSongTime, float songTime, ::GlobalNamespace::MockNoteData* noteData, ::GlobalNamespace::MockNoteData* nextNoteData);
     // private System.Void HandleNoteWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, NoteSpawnInfoNetSerializable noteSpawnInfoNetSerializable)
-    // Offset: 0x2A24988
+    // Offset: 0x2A8838C
     void HandleNoteWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
     // private System.Void HandleObstacleWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, ObstacleSpawnInfoNetSerializable obstacleSpawnInfoNetSerializable)
-    // Offset: 0x2A24BE0
+    // Offset: 0x2A885E4
     void HandleObstacleWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
+    // private System.Void HandleSliderWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, SliderSpawnInfoNetSerializable sliderSpawnInfoNetSerializable)
+    // Offset: 0x2A8883C
+    void HandleSliderWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
     // public override System.Void Dispose()
-    // Offset: 0x2A222F8
+    // Offset: 0x2A85C54
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::Dispose()
     void Dispose();
     // public override System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
-    // Offset: 0x2A22498
+    // Offset: 0x2A85E98
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     void SendPoses(float introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Threading::CancellationToken cancellationToken, ::System::Action* onSongFinished);
     // public override System.Void SimulateFail()
-    // Offset: 0x2A247E0
+    // Offset: 0x2A881E0
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SimulateFail()
     void SimulateFail();
@@ -278,6 +283,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* obstacleSpawnInfoNetSerializable = &::il2cpp_utils::GetClassFromName("", "ObstacleSpawnInfoNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "HandleObstacleWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, syncTime, songTime, obstacleSpawnInfoNetSerializable});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::HandleSliderWasSpawned
+// Il2CppName: HandleSliderWasSpawned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::StringW, float, float, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::HandleSliderWasSpawned)> {
+  static const MethodInfo* get() {
+    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* syncTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sliderSpawnInfoNetSerializable = &::il2cpp_utils::GetClassFromName("", "SliderSpawnInfoNetSerializable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "HandleSliderWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, syncTime, songTime, sliderSpawnInfoNetSerializable});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::Dispose

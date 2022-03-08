@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IScoreController
-  class IScoreController;
+  // Forward declaring type: ComboController
+  class ComboController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -46,24 +46,24 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1243B54
-    // private IScoreController _scoreController
+    // [InjectAttribute] Offset: 0x10B8E80
+    // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x48
-    ::GlobalNamespace::IScoreController* scoreController;
+    ::GlobalNamespace::ComboController* comboController;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ComboController*) == 0x8);
     public:
-    // Get instance field reference: private IScoreController _scoreController
-    ::GlobalNamespace::IScoreController*& dyn__scoreController();
+    // Get instance field reference: private readonly ComboController _comboController
+    ::GlobalNamespace::ComboController*& dyn__comboController();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C2A30
+    // Offset: 0x1411EC8
     void OnDestroy();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x13C2B30
+    // Offset: 0x1411FA0
     void HandleComboDidChange(int combo);
     // public System.Void .ctor()
-    // Offset: 0x13C2B6C
+    // Offset: 0x1411FDC
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -78,13 +78,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ComboMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x13C2870
+    // Offset: 0x1411DD0
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
   }; // ComboMissionObjectiveChecker
   #pragma pack(pop)
-  static check_size<sizeof(ComboMissionObjectiveChecker), 72 + sizeof(::GlobalNamespace::IScoreController*)> __GlobalNamespace_ComboMissionObjectiveCheckerSizeCheck;
+  static check_size<sizeof(ComboMissionObjectiveChecker), 72 + sizeof(::GlobalNamespace::ComboController*)> __GlobalNamespace_ComboMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(ComboMissionObjectiveChecker) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

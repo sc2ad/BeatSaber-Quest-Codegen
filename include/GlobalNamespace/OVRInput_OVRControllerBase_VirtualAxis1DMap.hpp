@@ -76,10 +76,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawAxis1D SecondaryHandTrigger
     ::GlobalNamespace::OVRInput::RawAxis1D& dyn_SecondaryHandTrigger();
     // public OVRInput/RawAxis1D ToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x197C87C
+    // Offset: 0x19CD838
     ::GlobalNamespace::OVRInput::RawAxis1D ToRawMask(::GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x197BA94
+    // Offset: 0x19CCA50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

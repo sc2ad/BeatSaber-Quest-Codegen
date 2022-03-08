@@ -121,34 +121,34 @@ namespace System {
     // Get instance field reference: private System.Int64 m_CookieGenerator
     int64_t& dyn_m_CookieGenerator();
     // public System.LocalDataStoreHolder CreateLocalDataStore()
-    // Offset: 0x1A9326C
+    // Offset: 0x1BAEC8C
     ::System::LocalDataStoreHolder* CreateLocalDataStore();
     // public System.Void DeleteLocalDataStore(System.LocalDataStore store)
-    // Offset: 0x1A92AF0
+    // Offset: 0x1BAE510
     void DeleteLocalDataStore(::System::LocalDataStore* store);
     // public System.LocalDataStoreSlot AllocateDataSlot()
-    // Offset: 0x1A9338C
+    // Offset: 0x1BAEDAC
     ::System::LocalDataStoreSlot* AllocateDataSlot();
     // public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
-    // Offset: 0x1A935D0
+    // Offset: 0x1BAEFF0
     ::System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
     // public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
-    // Offset: 0x1A936BC
+    // Offset: 0x1BAF0DC
     ::System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x1A937A8
+    // Offset: 0x1BAF1C8
     void FreeNamedDataSlot(::StringW name);
     // System.Void FreeDataSlot(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x1A93878
+    // Offset: 0x1BAF298
     void FreeDataSlot(int slot, int64_t cookie);
     // public System.Void ValidateSlot(System.LocalDataStoreSlot slot)
-    // Offset: 0x1A92CC8
+    // Offset: 0x1BAE6E8
     void ValidateSlot(::System::LocalDataStoreSlot* slot);
     // System.Int32 GetSlotTableLength()
-    // Offset: 0x1A93168
+    // Offset: 0x1BAEB88
     int GetSlotTableLength();
     // public System.Void .ctor()
-    // Offset: 0x1A939E0
+    // Offset: 0x1BAF400
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

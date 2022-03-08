@@ -26,7 +26,7 @@ namespace System::ComponentModel {
   class TypeDescriptionProvider::EmptyCustomTypeDescriptor : public ::System::ComponentModel::CustomTypeDescriptor {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1EC95A8
+    // Offset: 0x1D86DF8
     // Implemented from: System.ComponentModel.CustomTypeDescriptor
     // Base method: System.Void CustomTypeDescriptor::.ctor()
     // Base method: System.Void Object::.ctor()

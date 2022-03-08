@@ -13,15 +13,15 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: FloatSO
-  class FloatSO;
-}
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: AnimationClip
   class AnimationClip;
+}
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: AudioTimeSyncController
+  class AudioTimeSyncController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -49,30 +49,31 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private FloatSO _songTime
-    // Size: 0x8
-    // Offset: 0x18
-    ::GlobalNamespace::FloatSO* songTime;
-    // Field size check
-    static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
     // private UnityEngine.AnimationClip _animationClip
     // Size: 0x8
-    // Offset: 0x20
+    // Offset: 0x18
     ::UnityEngine::AnimationClip* animationClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationClip*) == 0x8);
+    // [InjectAttribute] Offset: 0x10BC9FC
+    // private readonly AudioTimeSyncController _audioTimeSyncController
+    // Size: 0x8
+    // Offset: 0x20
+    ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
+    // Field size check
+    static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // Get instance field reference: private FloatSO _songTime
-    ::GlobalNamespace::FloatSO*& dyn__songTime();
     // Get instance field reference: private UnityEngine.AnimationClip _animationClip
     ::UnityEngine::AnimationClip*& dyn__animationClip();
+    // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
+    ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // protected System.Void Update()
-    // Offset: 0x13D49C8
+    // Offset: 0x13EE9C0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13D4A48
+    // Offset: 0x13EEA08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -86,7 +87,7 @@ namespace GlobalNamespace {
     }
   }; // SongTimeAnimationPlayer
   #pragma pack(pop)
-  static check_size<sizeof(SongTimeAnimationPlayer), 32 + sizeof(::UnityEngine::AnimationClip*)> __GlobalNamespace_SongTimeAnimationPlayerSizeCheck;
+  static check_size<sizeof(SongTimeAnimationPlayer), 32 + sizeof(::GlobalNamespace::AudioTimeSyncController*)> __GlobalNamespace_SongTimeAnimationPlayerSizeCheck;
   static_assert(sizeof(SongTimeAnimationPlayer) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

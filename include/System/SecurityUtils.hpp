@@ -15,12 +15,8 @@ namespace System {
 }
 // Forward declaring namespace: System::Reflection
 namespace System::Reflection {
-  // Forward declaring type: Assembly
-  class Assembly;
   // Forward declaring type: BindingFlags
   struct BindingFlags;
-  // Forward declaring type: MethodInfo
-  class MethodInfo;
 }
 // Completed forward declares
 // Type namespace: System
@@ -40,35 +36,23 @@ namespace System {
   class SecurityUtils : public ::Il2CppObject {
     public:
     // static private System.Void DemandReflectionAccess(System.Type type)
-    // Offset: 0x1E91FF0
+    // Offset: 0x1BDC320
     static void DemandReflectionAccess(::System::Type* type);
-    // static private System.Void DemandGrantSet(System.Reflection.Assembly assembly)
-    // Offset: 0x1E91FF4
-    static void DemandGrantSet(::System::Reflection::Assembly* assembly);
     // static private System.Boolean HasReflectionPermission(System.Type type)
-    // Offset: 0x1E91FF8
+    // Offset: 0x1BDC324
     static bool HasReflectionPermission(::System::Type* type);
     // static System.Object SecureCreateInstance(System.Type type)
-    // Offset: 0x1E92038
+    // Offset: 0x1BDC364
     static ::Il2CppObject* SecureCreateInstance(::System::Type* type);
     // static System.Object SecureCreateInstance(System.Type type, System.Object[] args, System.Boolean allowNonPublic)
-    // Offset: 0x1E92044
+    // Offset: 0x1BDC370
     static ::Il2CppObject* SecureCreateInstance(::System::Type* type, ::ArrayW<::Il2CppObject*> args, bool allowNonPublic);
-    // static System.Object SecureCreateInstance(System.Type type, System.Object[] args)
-    // Offset: 0x1E92168
-    static ::Il2CppObject* SecureCreateInstance(::System::Type* type, ::ArrayW<::Il2CppObject*> args);
     // static System.Object SecureConstructorInvoke(System.Type type, System.Type[] argTypes, System.Object[] args, System.Boolean allowNonPublic)
-    // Offset: 0x1E92170
+    // Offset: 0x1BDC494
     static ::Il2CppObject* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::Il2CppObject*> args, bool allowNonPublic);
     // static System.Object SecureConstructorInvoke(System.Type type, System.Type[] argTypes, System.Object[] args, System.Boolean allowNonPublic, System.Reflection.BindingFlags extraFlags)
-    // Offset: 0x1E9217C
+    // Offset: 0x1BDC4A0
     static ::Il2CppObject* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::Il2CppObject*> args, bool allowNonPublic, ::System::Reflection::BindingFlags extraFlags);
-    // static private System.Boolean GenericArgumentsAreVisible(System.Reflection.MethodInfo method)
-    // Offset: 0x1E9231C
-    static bool GenericArgumentsAreVisible(::System::Reflection::MethodInfo* method);
-    // static System.Object MethodInfoInvoke(System.Reflection.MethodInfo method, System.Object target, System.Object[] args)
-    // Offset: 0x1E923C8
-    static ::Il2CppObject* MethodInfoInvoke(::System::Reflection::MethodInfo* method, ::Il2CppObject* target, ::ArrayW<::Il2CppObject*> args);
   }; // System.SecurityUtils
   #pragma pack(pop)
 }
@@ -80,15 +64,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SecurityUtils*), "DemandReflectionAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
-  }
-};
-// Writing MetadataGetter for method: System::SecurityUtils::DemandGrantSet
-// Il2CppName: DemandGrantSet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::Assembly*)>(&System::SecurityUtils::DemandGrantSet)> {
-  static const MethodInfo* get() {
-    static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::SecurityUtils*), "DemandGrantSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }
 };
 // Writing MetadataGetter for method: System::SecurityUtils::HasReflectionPermission
@@ -120,16 +95,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(System::SecurityUtils*), "SecureCreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, args, allowNonPublic});
   }
 };
-// Writing MetadataGetter for method: System::SecurityUtils::SecureCreateInstance
-// Il2CppName: SecureCreateInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*, ::ArrayW<::Il2CppObject*>)>(&System::SecurityUtils::SecureCreateInstance)> {
-  static const MethodInfo* get() {
-    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::SecurityUtils*), "SecureCreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, args});
-  }
-};
 // Writing MetadataGetter for method: System::SecurityUtils::SecureConstructorInvoke
 // Il2CppName: SecureConstructorInvoke
 template<>
@@ -153,25 +118,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     static auto* allowNonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* extraFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SecurityUtils*), "SecureConstructorInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, argTypes, args, allowNonPublic, extraFlags});
-  }
-};
-// Writing MetadataGetter for method: System::SecurityUtils::GenericArgumentsAreVisible
-// Il2CppName: GenericArgumentsAreVisible
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MethodInfo*)>(&System::SecurityUtils::GenericArgumentsAreVisible)> {
-  static const MethodInfo* get() {
-    static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::SecurityUtils*), "GenericArgumentsAreVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
-  }
-};
-// Writing MetadataGetter for method: System::SecurityUtils::MethodInfoInvoke
-// Il2CppName: MethodInfoInvoke
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Reflection::MethodInfo*, ::Il2CppObject*, ::ArrayW<::Il2CppObject*>)>(&System::SecurityUtils::MethodInfoInvoke)> {
-  static const MethodInfo* get() {
-    static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
-    static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::SecurityUtils*), "MethodInfoInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, target, args});
   }
 };

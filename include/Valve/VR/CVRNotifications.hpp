@@ -67,17 +67,17 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRNotifications FnTable
     ::Valve::VR::IVRNotifications& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1AFA808
+    // Offset: 0x1BC509C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRNotifications* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRNotifications::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRNotifications*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
-    // Offset: 0x1AFA908
+    // Offset: 0x1BC519C
     ::Valve::VR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::Valve::VR::EVRNotificationType type, ::StringW pchText, ::Valve::VR::EVRNotificationStyle style, ByRef<::Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
     // public Valve.VR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)
-    // Offset: 0x1AFA92C
+    // Offset: 0x1BC51C0
     ::Valve::VR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // Valve.VR.CVRNotifications
   #pragma pack(pop)

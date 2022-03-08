@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores
     ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*& dyn__scores();
     // public System.Void .ctor()
-    // Offset: 0x2B9DA10
+    // Offset: 0x13D1680
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,31 +54,31 @@ namespace System::Globalization {
     // Set static field: static private System.UInt16[] s_pDigitValues
     static void _set_s_pDigitValues(::ArrayW<uint16_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x188D518
+    // Offset: 0x1922520
     static void _cctor();
     // static System.Int32 InternalConvertToUtf32(System.String s, System.Int32 index)
-    // Offset: 0x188D00C
+    // Offset: 0x1922014
     static int InternalConvertToUtf32(::StringW s, int index);
     // static System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
-    // Offset: 0x188D0E0
+    // Offset: 0x19220E8
     static bool IsWhiteSpace(::StringW s, int index);
     // static System.Boolean IsWhiteSpace(System.Char c)
-    // Offset: 0x188D25C
+    // Offset: 0x1922264
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char ch)
-    // Offset: 0x188D2D0
+    // Offset: 0x19222D8
     static ::System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
-    // Offset: 0x188D170
+    // Offset: 0x1922178
     static ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int index);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.Int32 ch)
-    // Offset: 0x188D334
+    // Offset: 0x192233C
     static ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
     // static System.Byte InternalGetCategoryValue(System.Int32 ch, System.Int32 offset)
-    // Offset: 0x188D424
+    // Offset: 0x192242C
     static uint8_t InternalGetCategoryValue(int ch, int offset);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.String value, System.Int32 index)
-    // Offset: 0x188D3A4
+    // Offset: 0x19223AC
     static ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int index);
   }; // System.Globalization.CharUnicodeInfo
   #pragma pack(pop)

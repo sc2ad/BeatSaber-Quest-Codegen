@@ -25,19 +25,19 @@ namespace GlobalNamespace {
   template<typename T>
   class ILazyCopyHashSet_1 {
     public:
-    // public System.Void Add(T listener)
+    // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
-    void Add(T listener) {
+    void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ILazyCopyHashSet_1::Add");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(listener)})));
-      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, listener);
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
-    // public System.Void Remove(T listener)
+    // public System.Void Remove(T item)
     // Offset: 0xFFFFFFFF
-    void Remove(T listener) {
+    void Remove(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ILazyCopyHashSet_1::Remove");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(listener)})));
-      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, listener);
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
   }; // ILazyCopyHashSet`1
   // Could not write size check! Type: ILazyCopyHashSet`1 is generic, or has no fields that are valid for size checks!

@@ -9,8 +9,8 @@
 #include "GlobalNamespace/BaseResultsEnvironmentController.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle
 #include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle.hpp"
-// Including type: BeatmapEventType
-#include "GlobalNamespace/BeatmapEventType.hpp"
+// Including type: BasicBeatmapEventType
+#include "GlobalNamespace/BasicBeatmapEventType.hpp"
 // Including type: BTSCharacterDataModel
 #include "GlobalNamespace/BTSCharacterDataModel.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,8 +22,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IDifficultyBeatmap
-  class IDifficultyBeatmap;
+  // Forward declaring type: IReadonlyBeatmapData
+  class IReadonlyBeatmapData;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123A20C
+    // [SpaceAttribute] Offset: 0x10AED04
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x30
@@ -109,12 +109,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // static field const value: static private BeatmapEventType kCharacterDisplayEventType
+    // static field const value: static private BasicBeatmapEventType kCharacterDisplayEventType
     static constexpr const int kCharacterDisplayEventType = 40;
-    // Get static field: static private BeatmapEventType kCharacterDisplayEventType
-    static ::GlobalNamespace::BeatmapEventType _get_kCharacterDisplayEventType();
-    // Set static field: static private BeatmapEventType kCharacterDisplayEventType
-    static void _set_kCharacterDisplayEventType(::GlobalNamespace::BeatmapEventType value);
+    // Get static field: static private BasicBeatmapEventType kCharacterDisplayEventType
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kCharacterDisplayEventType();
+    // Set static field: static private BasicBeatmapEventType kCharacterDisplayEventType
+    static void _set_kCharacterDisplayEventType(::GlobalNamespace::BasicBeatmapEventType value);
     // Get instance field reference: private UnityEngine.GameObject _btsCharacterAnimationWrapper
     ::UnityEngine::GameObject*& dyn__btsCharacterAnimationWrapper();
     // Get instance field reference: private BTSCharacterDataModel _btsCharacterDataModel
@@ -126,16 +126,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)
-    // Offset: 0x13B9004
+    // Offset: 0x135C900
     void SpawnBtsCharacters(::GlobalNamespace::BTSCharacterDataModel::PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
     // private System.Collections.IEnumerator DestroyCharactersDelayed()
-    // Offset: 0x13B95B0
+    // Offset: 0x135CEAC
     ::System::Collections::IEnumerator* DestroyCharactersDelayed();
     // private System.Void DestroyCharactersAndStopAnimations()
-    // Offset: 0x13B9520
+    // Offset: 0x135CE1C
     void DestroyCharactersAndStopAnimations();
     // public System.Void .ctor()
-    // Offset: 0x13B9754
+    // Offset: 0x135D050
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -148,18 +148,18 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BtsResultsEnvironmentController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController*, creationType>()));
     }
-    // public override System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x13B8BF8
+    // public override System.Void Setup(IReadonlyBeatmapData beatmapData)
+    // Offset: 0x135C4E8
     // Implemented from: BaseResultsEnvironmentController
-    // Base method: System.Void BaseResultsEnvironmentController::Setup(IDifficultyBeatmap difficultyBeatmap)
-    void Setup(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // Base method: System.Void BaseResultsEnvironmentController::Setup(IReadonlyBeatmapData beatmapData)
+    void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public override System.Void Activate(System.Boolean immediately)
-    // Offset: 0x13B92C8
+    // Offset: 0x135CBC4
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
     void Activate(bool immediately);
     // public override System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x13B9370
+    // Offset: 0x135CC6C
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
     void Deactivate(bool immediately);
@@ -202,10 +202,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::*)(::GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::BtsResultsEnvironmentController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BtsResultsEnvironmentController::Setup)> {
   static const MethodInfo* get() {
-    static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
+    static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::Activate

@@ -43,14 +43,14 @@ namespace UnityEngine::ResourceManagement::Util {
   struct ObjectInitializationData/*, public ::System::ValueType*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x122EBEC
+    // [FormerlySerializedAsAttribute] Offset: 0x10A3F84
     // private System.String m_Id
     // Size: 0x8
     // Offset: 0x0
     ::StringW m_Id;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x122EC38
+    // [FormerlySerializedAsAttribute] Offset: 0x10A3FD0
     // private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
     // Size: 0x19
     // Offset: 0x8
@@ -59,7 +59,7 @@ namespace UnityEngine::ResourceManagement::Util {
     static_assert(sizeof(::UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
     // Padding between fields: m_ObjectType and: m_Data
     char __padding1[0x7] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x122EC84
+    // [FormerlySerializedAsAttribute] Offset: 0x10A401C
     // private System.String m_Data
     // Size: 0x8
     // Offset: 0x28
@@ -80,13 +80,13 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.String m_Data
     ::StringW& dyn_m_Data();
     // public System.String get_Id()
-    // Offset: 0x1E2D680
+    // Offset: 0x1EBF2A0
     ::StringW get_Id();
     // public UnityEngine.ResourceManagement.Util.SerializedType get_ObjectType()
-    // Offset: 0x1E2D688
+    // Offset: 0x1EBF2A8
     ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
     // public System.String get_Data()
-    // Offset: 0x1E2D698
+    // Offset: 0x1EBF2B8
     ::StringW get_Data();
     // public TObject CreateInstance(System.String idOverride)
     // Offset: 0xFFFFFFFF
@@ -98,10 +98,10 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodRethrow<TObject, false>(this, ___generic__method, idOverride);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle GetAsyncInitHandle(UnityEngine.ResourceManagement.ResourceManager rm, System.String idOverride)
-    // Offset: 0x1E2D72C
+    // Offset: 0x1EBF34C
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
     // public override System.String ToString()
-    // Offset: 0x1E2D6A0
+    // Offset: 0x1EBF2C0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

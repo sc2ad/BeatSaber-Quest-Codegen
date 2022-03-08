@@ -5,10 +5,6 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml::Schema
@@ -60,18 +56,11 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Object typedValue
     ::Il2CppObject*& dyn_typedValue();
     // public System.Xml.Schema.XmlSchemaSimpleType get_XmlType()
-    // Offset: 0x1940A4C
+    // Offset: 0x202FDE8
     ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
     // public System.Object get_TypedValue()
-    // Offset: 0x1940A54
+    // Offset: 0x202FDF0
     ::Il2CppObject* get_TypedValue();
-    // public System.Void .ctor(System.Xml.Schema.XmlSchemaSimpleType st, System.Object value)
-    // Offset: 0x1940A14
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XsdSimpleValue* New_ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XsdSimpleValue::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<XsdSimpleValue*, creationType>(st, value)));
-    }
   }; // System.Xml.Schema.XsdSimpleValue
   #pragma pack(pop)
   static check_size<sizeof(XsdSimpleValue), 24 + sizeof(::Il2CppObject*)> __System_Xml_Schema_XsdSimpleValueSizeCheck;
@@ -94,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XsdSimpleValue*), "get_TypedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XsdSimpleValue::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

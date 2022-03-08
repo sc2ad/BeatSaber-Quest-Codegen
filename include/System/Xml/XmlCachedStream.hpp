@@ -58,7 +58,7 @@ namespace System::Xml {
     // Get instance field reference: private System.Uri uri
     ::System::Uri*& dyn_uri();
     // System.Void .ctor(System.Uri uri, System.IO.Stream stream)
-    // Offset: 0x1622D08
+    // Offset: 0x1B8E8B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlCachedStream::.ctor");

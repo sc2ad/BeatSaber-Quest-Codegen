@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0x2CB523C
+    // Offset: 0x1A8E634
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x2CB5264
+    // Offset: 0x1A8E65C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

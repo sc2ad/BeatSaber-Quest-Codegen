@@ -103,20 +103,20 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private System.Threading.Tasks.TaskContinuationOptions m_defaultContinuationOptions
     ::System::Threading::Tasks::TaskContinuationOptions& dyn_m_defaultContinuationOptions();
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x1CDB568
+    // Offset: 0x1D1004C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskFactory* New_ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskFactory*, creationType>(cancellationToken, creationOptions, continuationOptions, scheduler)));
     }
     // private System.Threading.Tasks.TaskScheduler GetDefaultScheduler(System.Threading.Tasks.Task currTask)
-    // Offset: 0x1CDB478
+    // Offset: 0x1D0FF5C
     ::System::Threading::Tasks::TaskScheduler* GetDefaultScheduler(::System::Threading::Tasks::Task* currTask);
     // static System.Void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions creationOptions)
-    // Offset: 0x1CDB6D0
+    // Offset: 0x1D101B4
     static void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions);
     // public System.Threading.Tasks.Task StartNew(System.Action action, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x1CDB758
+    // Offset: 0x1D1023C
     ::System::Threading::Tasks::Task* StartNew(::System::Action* action, ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
     // public System.Threading.Tasks.Task`1<TResult> StartNew(System.Func`2<System.Object,TResult> function, System.Object state)
     // Offset: 0xFFFFFFFF
@@ -127,26 +127,17 @@ namespace System::Threading::Tasks {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___generic__method, function, state);
     }
-    // public System.Threading.Tasks.Task`1<TResult> StartNew(System.Func`2<System.Object,TResult> function, System.Object state, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0xFFFFFFFF
-    template<class TResult>
-    ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_2<::Il2CppObject*, TResult>* function, ::Il2CppObject* state, ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskFactory::StartNew");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StartNew", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(function), ::il2cpp_utils::ExtractType(state), ::il2cpp_utils::ExtractType(cancellationToken), ::il2cpp_utils::ExtractType(creationOptions), ::il2cpp_utils::ExtractType(scheduler)})));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___generic__method, function, state, cancellationToken, creationOptions, scheduler);
-    }
     // static System.Void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions creationOptions, System.Boolean hasBeginMethod)
-    // Offset: 0x1CDB814
+    // Offset: 0x1D102F8
     static void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions, bool hasBeginMethod);
     // static System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0x1CDB918
+    // Offset: 0x1D103FC
     static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
     // static System.Void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions continuationOptions)
-    // Offset: 0x1CDB5C4
+    // Offset: 0x1D100A8
     static void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions continuationOptions);
     // public System.Void .ctor()
-    // Offset: 0x1CDB554
+    // Offset: 0x1D10038
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -194,9 +185,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskFactory*), "StartNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, cancellationToken, creationOptions, scheduler});
   }
 };
-// Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::StartNew
-// Il2CppName: StartNew
-// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::StartNew
 // Il2CppName: StartNew
 // Cannot write MetadataGetter for generic methods!

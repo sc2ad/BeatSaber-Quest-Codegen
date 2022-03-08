@@ -34,24 +34,22 @@ namespace Newtonsoft::Json::Serialization {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JsonTypeReflector::$$c : public ::Il2CppObject {
     public:
-    // [NullableAttribute] Offset: 0x1206CD8
     // Get static field: static public readonly Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c <>9
     static ::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c* _get_$$9();
     // Set static field: static public readonly Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c <>9
     static void _set_$$9(::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c* value);
-    // [NullableAttribute] Offset: 0x1206CEC
-    // Get static field: static public System.Func`2<System.Object,System.Type> <>9__22_1
-    static ::System::Func_2<::Il2CppObject*, ::System::Type*>* _get_$$9__22_1();
-    // Set static field: static public System.Func`2<System.Object,System.Type> <>9__22_1
-    static void _set_$$9__22_1(::System::Func_2<::Il2CppObject*, ::System::Type*>* value);
+    // Get static field: static public System.Func`2<System.Object,System.Type> <>9__18_1
+    static ::System::Func_2<::Il2CppObject*, ::System::Type*>* _get_$$9__18_1();
+    // Set static field: static public System.Func`2<System.Object,System.Type> <>9__18_1
+    static void _set_$$9__18_1(::System::Func_2<::Il2CppObject*, ::System::Type*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19D6230
+    // Offset: 0x204D738
     static void _cctor();
-    // System.Type <GetCreator>b__22_1(System.Object param)
-    // Offset: 0x19D629C
-    ::System::Type* $GetCreator$b__22_1(::Il2CppObject* param);
+    // System.Type <GetJsonConverterCreator>b__18_1(System.Object param)
+    // Offset: 0x204D7A4
+    ::System::Type* $GetJsonConverterCreator$b__18_1(::Il2CppObject* param);
     // public System.Void .ctor()
-    // Offset: 0x19D6294
+    // Offset: 0x204D79C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,13 +69,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetCreator$b__22_1
-// Il2CppName: <GetCreator>b__22_1
+// Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetJsonConverterCreator$b__18_1
+// Il2CppName: <GetJsonConverterCreator>b__18_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetCreator$b__22_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetJsonConverterCreator$b__18_1)> {
   static const MethodInfo* get() {
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*), "<GetCreator>b__22_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{param});
+    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*), "<GetJsonConverterCreator>b__18_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{param});
   }
 };
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::New_ctor

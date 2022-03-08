@@ -71,6 +71,18 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::ServiceEnvironment _get_Development();
     // Set static field: static public ServiceEnvironment Development
     static void _set_Development(::GlobalNamespace::ServiceEnvironment value);
+    // static field const value: static public ServiceEnvironment ProductionA
+    static constexpr const int ProductionA = 5;
+    // Get static field: static public ServiceEnvironment ProductionA
+    static ::GlobalNamespace::ServiceEnvironment _get_ProductionA();
+    // Set static field: static public ServiceEnvironment ProductionA
+    static void _set_ProductionA(::GlobalNamespace::ServiceEnvironment value);
+    // static field const value: static public ServiceEnvironment ProductionB
+    static constexpr const int ProductionB = 6;
+    // Get static field: static public ServiceEnvironment ProductionB
+    static ::GlobalNamespace::ServiceEnvironment _get_ProductionB();
+    // Set static field: static public ServiceEnvironment ProductionB
+    static void _set_ProductionB(::GlobalNamespace::ServiceEnvironment value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // ServiceEnvironment

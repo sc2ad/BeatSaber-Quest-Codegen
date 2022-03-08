@@ -82,17 +82,17 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private readonly System.String _footer2
     ::StringW& dyn__footer2();
     // System.Void .ctor(System.String type)
-    // Offset: 0x25A8490
+    // Offset: 0x25C5EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemParser* New_ctor(::StringW type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::PemParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemParser*, creationType>(type)));
     }
     // private System.String ReadLine(System.IO.Stream inStream)
-    // Offset: 0x25A8570
+    // Offset: 0x25C5FDC
     ::StringW ReadLine(::System::IO::Stream* inStream);
     // Org.BouncyCastle.Asn1.Asn1Sequence ReadPemObject(System.IO.Stream inStream)
-    // Offset: 0x25A8648
+    // Offset: 0x25C60B4
     ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
   #pragma pack(pop)

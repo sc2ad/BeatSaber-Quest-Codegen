@@ -56,7 +56,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String SocialContext
     ::StringW& dyn_SocialContext();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x196CFC8
+    // Offset: 0x19BDF84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalApplicationSuggestion* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CalApplicationSuggestion::.ctor");

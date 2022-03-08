@@ -20,6 +20,8 @@ namespace GlobalNamespace {
   class TubeBloomPrePassLight;
   // Forward declaring type: DirectionalLight
   class DirectionalLight;
+  // Forward declaring type: EaseType
+  struct EaseType;
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
@@ -27,8 +29,6 @@ namespace Tweening {
   class TimeTweeningManager;
   // Forward declaring type: ColorTween
   class ColorTween;
-  // Forward declaring type: EaseType
-  struct EaseType;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::DirectionalLight*>) == 0x8);
-    // [InjectAttribute] Offset: 0x124445C
+    // [InjectAttribute] Offset: 0x10B97C8
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -105,31 +105,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.ColorTween _tween
     ::Tweening::ColorTween*& dyn__tween();
     // protected System.Void Awake()
-    // Offset: 0x147F31C
+    // Offset: 0x14D254C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x147F440
+    // Offset: 0x14D2670
     void OnDestroy();
-    // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x147F4D8
-    void AnimateToColor(::UnityEngine::Color color, float duration, ::Tweening::EaseType easeType);
+    // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
+    // Offset: 0x14D2708
+    void AnimateToColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x147F5E8
+    // Offset: 0x14D2818
     void SetColor(::UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x147F64C
+    // Offset: 0x14D287C
     void SetLightsColor(::UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x147F754
+    // Offset: 0x14D2984
     void SetLightsWidth(float width);
     // public System.Void DisableDirectionalLights(System.Single delay)
-    // Offset: 0x147F7D0
+    // Offset: 0x14D2A00
     void DisableDirectionalLights(float delay);
     // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
-    // Offset: 0x147F810
+    // Offset: 0x14D2A40
     ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x147F8BC
+    // Offset: 0x14D2AEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -166,11 +166,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::AnimateToColor
 // Il2CppName: AnimateToColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color, float, ::Tweening::EaseType)>(&GlobalNamespace::LightsAnimator::AnimateToColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color, float, ::GlobalNamespace::EaseType)>(&GlobalNamespace::LightsAnimator::AnimateToColor)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
+    static auto* easeType = &::il2cpp_utils::GetClassFromName("", "EaseType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "AnimateToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, duration, easeType});
   }
 };

@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PreviewBeatmapLevelPackSO
-  class PreviewBeatmapLevelPackSO;
+  // Forward declaring type: BeatmapLevelPackSO
+  class BeatmapLevelPackSO;
   // Forward declaring type: BeatmapLevelSO
   class BeatmapLevelSO;
   // Forward declaring type: IBeatmapLevelPack
@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private PreviewBeatmapLevelPackSO _beatmapLevelPack
+    // private BeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x10
-    ::GlobalNamespace::PreviewBeatmapLevelPackSO* beatmapLevelPack;
+    ::GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x125258C
+    static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
+    // [NullAllowed] Offset: 0x10C74E4
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x18
@@ -70,23 +70,23 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
-    // Get instance field reference: private PreviewBeatmapLevelPackSO _beatmapLevelPack
-    ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__beatmapLevelPack();
+    // Get instance field reference: private BeatmapLevelPackSO _beatmapLevelPack
+    ::GlobalNamespace::BeatmapLevelPackSO*& dyn__beatmapLevelPack();
     // Get instance field reference: private BeatmapLevelSO _beatmapLevel
     ::GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
     // Get instance field reference: private UnityEngine.Sprite _bannerImage
     ::UnityEngine::Sprite*& dyn__bannerImage();
     // public IBeatmapLevelPack get_previewBeatmapLevelPack()
-    // Offset: 0x13F26B4
+    // Offset: 0x141CD80
     ::GlobalNamespace::IBeatmapLevelPack* get_previewBeatmapLevelPack();
     // public IPreviewBeatmapLevel get_previewBeatmapLevel()
-    // Offset: 0x13F26BC
+    // Offset: 0x141CD88
     ::GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
     // public UnityEngine.Sprite get_bannerImage()
-    // Offset: 0x13F26C4
+    // Offset: 0x141CD90
     ::UnityEngine::Sprite* get_bannerImage();
     // public System.Void .ctor()
-    // Offset: 0x13F26CC
+    // Offset: 0x141CD98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

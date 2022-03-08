@@ -77,28 +77,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // Padding between fields: bombColorEffect and: colorManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0x1240B30
+    // [InjectAttribute] Offset: 0x10B5ABC
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1240B40
+    // [InjectAttribute] Offset: 0x10B5ACC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1240B50
+    // [InjectAttribute] Offset: 0x10B5ADC
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1240B60
+    // [InjectAttribute] Offset: 0x10B5AEC
     // private readonly BeatEffectSpawner/InitData _initData
     // Size: 0x8
     // Offset: 0x48
@@ -141,25 +141,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private MemoryPoolContainer`1<BeatEffect> _beatEffectPoolContainer
     ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BeatEffect*>*& dyn__beatEffectPoolContainer();
     // private System.Void Init(BeatEffect/Pool beatEffectPool)
-    // Offset: 0x2B3F26C
+    // Offset: 0x13709C8
     void Init(::GlobalNamespace::BeatEffect::Pool* beatEffectPool);
     // protected System.Void Start()
-    // Offset: 0x2B3F2E4
+    // Offset: 0x1370A40
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B3F378
+    // Offset: 0x1370AD4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x2B3F418
+    // Offset: 0x1370B74
     void Update();
     // private System.Void HandleNoteDidStartJump(NoteController noteController)
-    // Offset: 0x2B3F538
+    // Offset: 0x1370C94
     void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
-    // Offset: 0x2B3F870
+    // Offset: 0x1370FBC
     void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
     // public System.Void .ctor()
-    // Offset: 0x2B3F954
+    // Offset: 0x13710A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -111,13 +111,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
     ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x1811F60
+    // Offset: 0x18C283C
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // System.Void Dump()
-    // Offset: 0x1812238
+    // Offset: 0x18C2B14
     void Dump();
     // public System.Void .ctor()
-    // Offset: 0x181223C
+    // Offset: 0x18C2B18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

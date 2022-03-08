@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // Padding between fields: color and: materialPropertyBlockController
     char __padding2[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1242678
+    // [SpaceAttribute] Offset: 0x10B7934
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
@@ -79,12 +79,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12426B0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B796C
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12426C0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B797C
     // Get static field: static private readonly System.Int32 _sizeParamsID
     static int _get__sizeParamsID();
     // Set static field: static private readonly System.Int32 _sizeParamsID
@@ -98,25 +98,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
     ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // public UnityEngine.Color get_color()
-    // Offset: 0x13ED928
+    // Offset: 0x13C7634
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13ED84C
+    // Offset: 0x13C7558
     void set_color(::UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x13ED934
+    // Offset: 0x13C7640
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x13ED9AC
+    // Offset: 0x13C76B8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13EDBAC
+    // Offset: 0x13C78B8
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x13EDA2C
+    // Offset: 0x13C7738
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x13EDC24
+    // Offset: 0x13C7930
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlow*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13EDC88
+    // Offset: 0x13C7994
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

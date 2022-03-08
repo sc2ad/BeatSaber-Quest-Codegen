@@ -22,8 +22,8 @@ namespace System::Threading::Tasks {
 namespace GlobalNamespace {
   // Forward declaring type: PlayersMissingEntitlementsNetSerializable
   class PlayersMissingEntitlementsNetSerializable;
-  // Forward declaring type: BeatmapIdentifierNetSerializable
-  class BeatmapIdentifierNetSerializable;
+  // Forward declaring type: ILevelGameplaySetupData
+  class ILevelGameplaySetupData;
   // Forward declaring type: MultiplayerLevelScenesTransitionSetupDataSO
   class MultiplayerLevelScenesTransitionSetupDataSO;
   // Forward declaring type: MultiplayerResultsData
@@ -36,14 +36,14 @@ namespace System::Threading {
 }
 // Forward declaring namespace: System
 namespace System {
+  // Forward declaring type: Action`1<T>
+  template<typename T>
+  class Action_1;
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
   class Action_2;
-  // Forward declaring type: Action`1<T>
-  template<typename T>
-  class Action_1;
 }
 // Completed forward declares
 // Type namespace: 
@@ -71,9 +71,9 @@ namespace GlobalNamespace {
     // public CannotStartGameReason get_cannotStartGameReason()
     // Offset: 0xFFFFFFFF
     ::GlobalNamespace::CannotStartGameReason get_cannotStartGameReason();
-    // public BeatmapIdentifierNetSerializable get_startedBeatmapId()
+    // public ILevelGameplaySetupData get_selectedLevelGameplaySetupData()
     // Offset: 0xFFFFFFFF
-    ::GlobalNamespace::BeatmapIdentifierNetSerializable* get_startedBeatmapId();
+    ::GlobalNamespace::ILevelGameplaySetupData* get_selectedLevelGameplaySetupData();
     // public System.Boolean get_countdownStarted()
     // Offset: 0xFFFFFFFF
     bool get_countdownStarted();
@@ -95,12 +95,18 @@ namespace GlobalNamespace {
     // public DisconnectedReason get_disconnectedReason()
     // Offset: 0xFFFFFFFF
     ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
-    // public System.Void add_gameStartedEvent(System.Action value)
+    // public System.Void add_selectedLevelGameplaySetupDataChangedEvent(System.Action`1<ILevelGameplaySetupData> value)
     // Offset: 0xFFFFFFFF
-    void add_gameStartedEvent(::System::Action* value);
-    // public System.Void remove_gameStartedEvent(System.Action value)
+    void add_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
+    // public System.Void remove_selectedLevelGameplaySetupDataChangedEvent(System.Action`1<ILevelGameplaySetupData> value)
     // Offset: 0xFFFFFFFF
-    void remove_gameStartedEvent(::System::Action* value);
+    void remove_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
+    // public System.Void add_gameStartedEvent(System.Action`1<ILevelGameplaySetupData> value)
+    // Offset: 0xFFFFFFFF
+    void add_gameStartedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
+    // public System.Void remove_gameStartedEvent(System.Action`1<ILevelGameplaySetupData> value)
+    // Offset: 0xFFFFFFFF
+    void remove_gameStartedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
     // public System.Void add_gameStartCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_gameStartCancelledEvent(::System::Action* value);
@@ -226,12 +232,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_cannotStartGameReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::get_startedBeatmapId
-// Il2CppName: get_startedBeatmapId
+// Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::get_selectedLevelGameplaySetupData
+// Il2CppName: get_selectedLevelGameplaySetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_startedBeatmapId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILevelGameplaySetupData* (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_selectedLevelGameplaySetupData)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_startedBeatmapId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_selectedLevelGameplaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::get_countdownStarted
@@ -290,21 +296,39 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_disconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_selectedLevelGameplaySetupDataChangedEvent
+// Il2CppName: add_selectedLevelGameplaySetupDataChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*)>(&GlobalNamespace::ILobbyGameStateController::add_selectedLevelGameplaySetupDataChangedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ILevelGameplaySetupData")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_selectedLevelGameplaySetupDataChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_selectedLevelGameplaySetupDataChangedEvent
+// Il2CppName: remove_selectedLevelGameplaySetupDataChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*)>(&GlobalNamespace::ILobbyGameStateController::remove_selectedLevelGameplaySetupDataChangedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ILevelGameplaySetupData")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_selectedLevelGameplaySetupDataChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_gameStartedEvent
 // Il2CppName: add_gameStartedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_gameStartedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*)>(&GlobalNamespace::ILobbyGameStateController::add_gameStartedEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ILevelGameplaySetupData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_gameStartedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_gameStartedEvent
 // Il2CppName: remove_gameStartedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_gameStartedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*)>(&GlobalNamespace::ILobbyGameStateController::remove_gameStartedEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ILevelGameplaySetupData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_gameStartedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

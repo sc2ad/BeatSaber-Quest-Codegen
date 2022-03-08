@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     ::StringW& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x2C9E884
+    // Offset: 0x1702AE0
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

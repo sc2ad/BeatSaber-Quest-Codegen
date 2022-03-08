@@ -65,27 +65,27 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D69238
+    // Offset: 0x1C3B284
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Xml.Schema.FacetsChecker Datatype_unsignedInt::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D692A0
+    // Offset: 0x1C3B2EC
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_unsignedInt::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D69344
+    // Offset: 0x1C3B390
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Type Datatype_unsignedInt::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1D693AC
+    // Offset: 0x1C3B3F8
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Type Datatype_unsignedInt::get_ListValueType()
     ::System::Type* get_ListValueType();
     // public System.Void .ctor()
-    // Offset: 0x1D5DE5C
+    // Offset: 0x1C3A72C
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Void Datatype_unsignedInt::.ctor()
     // Base method: System.Void Datatype_unsignedLong::.ctor()
@@ -102,7 +102,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_unsignedShort*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D69560
+    // Offset: 0x1C3B5AC
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Void Datatype_unsignedInt::.cctor()
     // Base method: System.Void Datatype_unsignedLong::.cctor()
@@ -112,12 +112,12 @@ namespace System::Xml::Schema {
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1D692A8
+    // Offset: 0x1C3B2F4
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Int32 Datatype_unsignedInt::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D69414
+    // Offset: 0x1C3B460
     // Implemented from: System.Xml.Schema.Datatype_unsignedInt
     // Base method: System.Exception Datatype_unsignedInt::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

@@ -550,15 +550,6 @@ namespace System::Linq {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
-    // static public TSource Single(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
-    template<class TSource>
-    static TSource Single(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Single");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "Single", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(predicate)})));
-      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
-    }
     // static public TSource SingleOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF
     template<class TSource>
@@ -587,10 +578,10 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, index);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Int32> Range(System.Int32 start, System.Int32 count)
-    // Offset: 0x15F4CD0
+    // Offset: 0x2A61F94
     static ::System::Collections::Generic::IEnumerable_1<int>* Range(int start, int count);
     // static private System.Collections.Generic.IEnumerable`1<System.Int32> RangeIterator(System.Int32 start, System.Int32 count)
-    // Offset: 0x15F4DC0
+    // Offset: 0x2A62084
     static ::System::Collections::Generic::IEnumerable_1<int>* RangeIterator(int start, int count);
     // static public System.Collections.Generic.IEnumerable`1<TResult> Repeat(TResult element, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -701,7 +692,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TAccumulate, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, seed, func);
     }
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x15F4E88
+    // Offset: 0x2A6214C
     static int Sum(::System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF
@@ -713,14 +704,41 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Single Min(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x15F517C
+    // Offset: 0x2A62440
     static float Min(::System::Collections::Generic::IEnumerable_1<float>* source);
+    // static public TSource Min(System.Collections.Generic.IEnumerable`1<TSource> source)
+    // Offset: 0xFFFFFFFF
+    template<class TSource>
+    static TSource Min(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Min");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "Min", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
+      return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
+    }
+    // static public TResult Min(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TResult> selector)
+    // Offset: 0xFFFFFFFF
+    template<class TSource, class TResult>
+    static TResult Min(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TResult>* selector) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Min");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "Min", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(selector)})));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()})));
+      return ::il2cpp_utils::RunMethodRethrow<TResult, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
+    }
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x15F54AC
+    // Offset: 0x2A62770
     static int Max(::System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Single Max(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x15F5748
+    // Offset: 0x2A62A0C
     static float Max(::System::Collections::Generic::IEnumerable_1<float>* source);
+    // static public TSource Max(System.Collections.Generic.IEnumerable`1<TSource> source)
+    // Offset: 0xFFFFFFFF
+    template<class TSource>
+    static TSource Max(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Max");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "Max", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
+      return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
+    }
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF
     template<class TSource>
@@ -729,6 +747,15 @@ namespace System::Linq {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "Max", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(selector)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
+    }
+    // static public TResult Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TResult> selector)
+    // Offset: 0xFFFFFFFF
+    template<class TSource, class TResult>
+    static TResult Max(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TResult>* selector) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Max");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "Max", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(selector)})));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()})));
+      return ::il2cpp_utils::RunMethodRethrow<TResult, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
   }; // System.Linq.Enumerable
   #pragma pack(pop)
@@ -872,9 +899,6 @@ namespace System::Linq {
 // Writing MetadataGetter for method: System::Linq::Enumerable::Single
 // Il2CppName: Single
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: System::Linq::Enumerable::Single
-// Il2CppName: Single
-// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::SingleOrDefault
 // Il2CppName: SingleOrDefault
 // Cannot write MetadataGetter for generic methods!
@@ -961,6 +985,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
 };
+// Writing MetadataGetter for method: System::Linq::Enumerable::Min
+// Il2CppName: Min
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: System::Linq::Enumerable::Min
+// Il2CppName: Min
+// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
 template<>
@@ -979,6 +1009,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
 };
+// Writing MetadataGetter for method: System::Linq::Enumerable::Max
+// Il2CppName: Max
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: System::Linq::Enumerable::Max
+// Il2CppName: Max
+// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
 // Cannot write MetadataGetter for generic methods!

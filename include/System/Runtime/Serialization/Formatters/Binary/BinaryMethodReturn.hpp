@@ -114,16 +114,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Type returnType
     ::System::Type*& dyn_returnType();
     // static private System.Void .cctor()
-    // Offset: 0x181224C
+    // Offset: 0x18C2B28
     static void _cctor();
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x1812304
+    // Offset: 0x18C2BE0
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Dump()
-    // Offset: 0x1812444
+    // Offset: 0x18C2D20
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x18122F4
+    // Offset: 0x18C2BD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

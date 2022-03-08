@@ -155,106 +155,106 @@ namespace GlobalNamespace {
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_30
     static void _set_$$9__4_30(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x15A8250
+    // Offset: 0x162954C
     static void _cctor();
     // System.Boolean <Start>b__4_0()
-    // Offset: 0x15A82BC
+    // Offset: 0x16295B8
     bool $Start$b__4_0();
     // System.Boolean <Start>b__4_1()
-    // Offset: 0x15A8324
+    // Offset: 0x1629620
     bool $Start$b__4_1();
     // System.Boolean <Start>b__4_2()
-    // Offset: 0x15A838C
+    // Offset: 0x1629688
     bool $Start$b__4_2();
     // System.Boolean <Start>b__4_3()
-    // Offset: 0x15A83F4
+    // Offset: 0x16296F0
     bool $Start$b__4_3();
     // System.Boolean <Start>b__4_4()
-    // Offset: 0x15A845C
+    // Offset: 0x1629758
     bool $Start$b__4_4();
     // System.Boolean <Start>b__4_5()
-    // Offset: 0x15A84C4
+    // Offset: 0x16297C0
     bool $Start$b__4_5();
     // System.Boolean <Start>b__4_6()
-    // Offset: 0x15A852C
+    // Offset: 0x1629828
     bool $Start$b__4_6();
     // System.Boolean <Start>b__4_7()
-    // Offset: 0x15A8594
+    // Offset: 0x1629890
     bool $Start$b__4_7();
     // System.Boolean <Start>b__4_8()
-    // Offset: 0x15A85FC
+    // Offset: 0x16298F8
     bool $Start$b__4_8();
     // System.Boolean <Start>b__4_9()
-    // Offset: 0x15A8664
+    // Offset: 0x1629960
     bool $Start$b__4_9();
     // System.Boolean <Start>b__4_10()
-    // Offset: 0x15A86CC
+    // Offset: 0x16299C8
     bool $Start$b__4_10();
     // System.Boolean <Start>b__4_11()
-    // Offset: 0x15A8734
+    // Offset: 0x1629A30
     bool $Start$b__4_11();
     // System.Boolean <Start>b__4_12()
-    // Offset: 0x15A879C
+    // Offset: 0x1629A98
     bool $Start$b__4_12();
     // System.Boolean <Start>b__4_13()
-    // Offset: 0x15A8804
+    // Offset: 0x1629B00
     bool $Start$b__4_13();
     // System.Boolean <Start>b__4_14()
-    // Offset: 0x15A886C
+    // Offset: 0x1629B68
     bool $Start$b__4_14();
     // System.Boolean <Start>b__4_15()
-    // Offset: 0x15A88D4
+    // Offset: 0x1629BD0
     bool $Start$b__4_15();
     // System.Boolean <Start>b__4_16()
-    // Offset: 0x15A893C
+    // Offset: 0x1629C38
     bool $Start$b__4_16();
     // System.Boolean <Start>b__4_17()
-    // Offset: 0x15A89A4
+    // Offset: 0x1629CA0
     bool $Start$b__4_17();
     // System.Boolean <Start>b__4_18()
-    // Offset: 0x15A8A0C
+    // Offset: 0x1629D08
     bool $Start$b__4_18();
     // System.Boolean <Start>b__4_19()
-    // Offset: 0x15A8A74
+    // Offset: 0x1629D70
     bool $Start$b__4_19();
     // System.Boolean <Start>b__4_20()
-    // Offset: 0x15A8ADC
+    // Offset: 0x1629DD8
     bool $Start$b__4_20();
     // System.Boolean <Start>b__4_21()
-    // Offset: 0x15A8B44
+    // Offset: 0x1629E40
     bool $Start$b__4_21();
     // System.Boolean <Start>b__4_22()
-    // Offset: 0x15A8BAC
+    // Offset: 0x1629EA8
     bool $Start$b__4_22();
     // System.Boolean <Start>b__4_23()
-    // Offset: 0x15A8C14
+    // Offset: 0x1629F10
     bool $Start$b__4_23();
     // System.Boolean <Start>b__4_24()
-    // Offset: 0x15A8C7C
+    // Offset: 0x1629F78
     bool $Start$b__4_24();
     // System.Boolean <Start>b__4_25()
-    // Offset: 0x15A8CE4
+    // Offset: 0x1629FE0
     bool $Start$b__4_25();
     // System.Boolean <Start>b__4_26()
-    // Offset: 0x15A8D4C
+    // Offset: 0x162A048
     bool $Start$b__4_26();
     // System.Boolean <Start>b__4_27()
-    // Offset: 0x15A8DB4
+    // Offset: 0x162A0B0
     bool $Start$b__4_27();
     // System.Boolean <Start>b__4_28()
-    // Offset: 0x15A8E1C
+    // Offset: 0x162A118
     bool $Start$b__4_28();
     // System.Boolean <Start>b__4_29()
-    // Offset: 0x15A8E84
+    // Offset: 0x162A180
     bool $Start$b__4_29();
     // System.Boolean <Start>b__4_30()
-    // Offset: 0x15A8EEC
+    // Offset: 0x162A1E8
     bool $Start$b__4_30();
     // System.Boolean <.cctor>b__9_0()
-    // Offset: 0x15A8F54
+    // Offset: 0x162A250
     bool $_cctor$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x15A82B4
+    // Offset: 0x16295B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

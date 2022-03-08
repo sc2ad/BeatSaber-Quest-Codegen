@@ -132,49 +132,49 @@ namespace System::Security::Claims {
     // Get instance field reference: private System.Security.Claims.ClaimsIdentity m_subject
     ::System::Security::Claims::ClaimsIdentity*& dyn_m_subject();
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
-    // Offset: 0x1AB7B20
+    // Offset: 0x1B72318
     ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
     // public System.Security.Claims.ClaimsIdentity get_Subject()
-    // Offset: 0x1AB7ECC
+    // Offset: 0x1B726C4
     ::System::Security::Claims::ClaimsIdentity* get_Subject();
     // System.Void set_Subject(System.Security.Claims.ClaimsIdentity value)
-    // Offset: 0x1AB7ED4
+    // Offset: 0x1B726CC
     void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
     // public System.String get_Type()
-    // Offset: 0x1AB7EDC
+    // Offset: 0x1B726D4
     ::StringW get_Type();
     // public System.String get_Value()
-    // Offset: 0x1AB7EE4
+    // Offset: 0x1B726DC
     ::StringW get_Value();
     // public System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1AB78D4
+    // Offset: 0x1B720CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject)));
     }
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
-    // Offset: 0x1AB78F8
+    // Offset: 0x1B720F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue)));
     }
     // protected System.Void .ctor(System.Security.Claims.Claim other, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1AB7C18
+    // Offset: 0x1B72410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(other, subject)));
     }
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1AB7E6C
+    // Offset: 0x1B72664
     void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
     // public System.Security.Claims.Claim Clone(System.Security.Claims.ClaimsIdentity identity)
-    // Offset: 0x1AB7EEC
+    // Offset: 0x1B726E4
     ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
     // public override System.String ToString()
-    // Offset: 0x1AB7F5C
+    // Offset: 0x1B72754
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

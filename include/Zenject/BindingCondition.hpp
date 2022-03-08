@@ -43,20 +43,20 @@ namespace Zenject {
   class BindingCondition : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16D88F4
+    // Offset: 0x173AD28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindingCondition* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindingCondition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindingCondition*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(Zenject.InjectContext c)
-    // Offset: 0x16D8904
+    // Offset: 0x173AD38
     bool Invoke(::Zenject::InjectContext* c);
     // public System.IAsyncResult BeginInvoke(Zenject.InjectContext c, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16D8CA4
+    // Offset: 0x173B0D8
     ::System::IAsyncResult* BeginInvoke(::Zenject::InjectContext* c, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16D8CC8
+    // Offset: 0x173B0FC
     bool EndInvoke(::System::IAsyncResult* result);
   }; // Zenject.BindingCondition
   #pragma pack(pop)

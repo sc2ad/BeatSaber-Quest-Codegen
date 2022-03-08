@@ -72,16 +72,16 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
     ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*& dyn_lookup();
     // public System.Void Add(System.Action rhs)
-    // Offset: 0x14037F8
+    // Offset: 0x14251F0
     void Add(::System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
-    // Offset: 0x14038B4
+    // Offset: 0x14252AC
     void Remove(::System::Action* rhs);
     // public System.Void Call()
-    // Offset: 0x1403964
+    // Offset: 0x142535C
     void Call();
     // public System.Void .ctor()
-    // Offset: 0x14039E4
+    // Offset: 0x14253DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

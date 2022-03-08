@@ -97,54 +97,54 @@ namespace System::Threading::Tasks {
     // Get instance field reference: protected readonly System.Action m_action
     ::System::Action*& dyn_m_action();
     // static System.Boolean get_IsValidLocationForInlining()
-    // Offset: 0x1C3483C
+    // Offset: 0x1DEC800
     static bool get_IsValidLocationForInlining();
     // System.Void .ctor(System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1C343E0
+    // Offset: 0x1DEC3A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AwaitTaskContinuation* New_ctor(::System::Action* action, bool flowExecutionContext, ByRef<::System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::AwaitTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AwaitTaskContinuation*, creationType>(action, flowExecutionContext, byref(stackMark))));
     }
     // System.Void .ctor(System.Action action, System.Boolean flowExecutionContext)
-    // Offset: 0x1C34470
+    // Offset: 0x1DEC434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AwaitTaskContinuation* New_ctor(::System::Action* action, bool flowExecutionContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::AwaitTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AwaitTaskContinuation*, creationType>(action, flowExecutionContext)));
     }
     // protected System.Threading.Tasks.Task CreateTask(System.Action`1<System.Object> action, System.Object state, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x1C344FC
+    // Offset: 0x1DEC4C0
     ::System::Threading::Tasks::Task* CreateTask(::System::Action_1<::Il2CppObject*>* action, ::Il2CppObject* state, ::System::Threading::Tasks::TaskScheduler* scheduler);
     // private System.Void ExecuteWorkItemHelper()
-    // Offset: 0x1C34B18
+    // Offset: 0x1DECADC
     void ExecuteWorkItemHelper();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1C34C70
+    // Offset: 0x1DECC34
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1C34C98
+    // Offset: 0x1DECC5C
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // static private System.Void InvokeAction(System.Object state)
-    // Offset: 0x1C34C9C
+    // Offset: 0x1DECC60
     static void InvokeAction(::Il2CppObject* state);
     // static protected System.Threading.ContextCallback GetInvokeActionCallback()
-    // Offset: 0x1C34D08
+    // Offset: 0x1DECCCC
     static ::System::Threading::ContextCallback* GetInvokeActionCallback();
     // protected System.Void RunCallback(System.Threading.ContextCallback callback, System.Object state, ref System.Threading.Tasks.Task currentTask)
-    // Offset: 0x1C3498C
+    // Offset: 0x1DEC950
     void RunCallback(::System::Threading::ContextCallback* callback, ::Il2CppObject* state, ByRef<::System::Threading::Tasks::Task*> currentTask);
     // static System.Void RunOrScheduleAction(System.Action action, System.Boolean allowInlining, ref System.Threading.Tasks.Task currentTask)
-    // Offset: 0x1C34EE0
+    // Offset: 0x1DECEA4
     static void RunOrScheduleAction(::System::Action* action, bool allowInlining, ByRef<::System::Threading::Tasks::Task*> currentTask);
     // static System.Void UnsafeScheduleAction(System.Action action, System.Threading.Tasks.Task task)
-    // Offset: 0x1C35054
+    // Offset: 0x1DED018
     static void UnsafeScheduleAction(::System::Action* action, ::System::Threading::Tasks::Task* task);
     // static protected System.Void ThrowAsyncIfNecessary(System.Exception exc)
-    // Offset: 0x1C34D90
+    // Offset: 0x1DECD54
     static void ThrowAsyncIfNecessary(::System::Exception* exc);
     // override System.Void Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
-    // Offset: 0x1C34718
+    // Offset: 0x1DEC6DC
     // Implemented from: System.Threading.Tasks.TaskContinuation
     // Base method: System.Void TaskContinuation::Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
     void Run(::System::Threading::Tasks::Task* task, bool canInlineContinuationTask);

@@ -5,17 +5,9 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-// Including type: BeatmapEventType
-#include "GlobalNamespace/BeatmapEventType.hpp"
+// Including type: BasicBeatmapEventType
+#include "GlobalNamespace/BasicBeatmapEventType.hpp"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: HashSet`1<T>
-  template<typename T>
-  class HashSet_1;
-}
-// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapEventTypeExtensions
@@ -33,168 +25,79 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BeatmapEventTypeExtensions : public ::Il2CppObject {
     public:
-    // static field const value: static public BeatmapEventType kEarlyRotationEvent
-    static constexpr const int kEarlyRotationEvent = 14;
-    // Get static field: static public BeatmapEventType kEarlyRotationEvent
-    static ::GlobalNamespace::BeatmapEventType _get_kEarlyRotationEvent();
-    // Set static field: static public BeatmapEventType kEarlyRotationEvent
-    static void _set_kEarlyRotationEvent(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kLateRotationEvent
-    static constexpr const int kLateRotationEvent = 15;
-    // Get static field: static public BeatmapEventType kLateRotationEvent
-    static ::GlobalNamespace::BeatmapEventType _get_kLateRotationEvent();
-    // Set static field: static public BeatmapEventType kLateRotationEvent
-    static void _set_kLateRotationEvent(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kLights1
+    // static field const value: static public BasicBeatmapEventType kLights1
     static constexpr const int kLights1 = 0;
-    // Get static field: static public BeatmapEventType kLights1
-    static ::GlobalNamespace::BeatmapEventType _get_kLights1();
-    // Set static field: static public BeatmapEventType kLights1
-    static void _set_kLights1(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kLights2
+    // Get static field: static public BasicBeatmapEventType kLights1
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kLights1();
+    // Set static field: static public BasicBeatmapEventType kLights1
+    static void _set_kLights1(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kLights2
     static constexpr const int kLights2 = 1;
-    // Get static field: static public BeatmapEventType kLights2
-    static ::GlobalNamespace::BeatmapEventType _get_kLights2();
-    // Set static field: static public BeatmapEventType kLights2
-    static void _set_kLights2(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kLights3
+    // Get static field: static public BasicBeatmapEventType kLights2
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kLights2();
+    // Set static field: static public BasicBeatmapEventType kLights2
+    static void _set_kLights2(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kLights3
     static constexpr const int kLights3 = 2;
-    // Get static field: static public BeatmapEventType kLights3
-    static ::GlobalNamespace::BeatmapEventType _get_kLights3();
-    // Set static field: static public BeatmapEventType kLights3
-    static void _set_kLights3(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kLights4
+    // Get static field: static public BasicBeatmapEventType kLights3
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kLights3();
+    // Set static field: static public BasicBeatmapEventType kLights3
+    static void _set_kLights3(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kLights4
     static constexpr const int kLights4 = 3;
-    // Get static field: static public BeatmapEventType kLights4
-    static ::GlobalNamespace::BeatmapEventType _get_kLights4();
-    // Set static field: static public BeatmapEventType kLights4
-    static void _set_kLights4(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kLights5
+    // Get static field: static public BasicBeatmapEventType kLights4
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kLights4();
+    // Set static field: static public BasicBeatmapEventType kLights4
+    static void _set_kLights4(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kLights5
     static constexpr const int kLights5 = 4;
-    // Get static field: static public BeatmapEventType kLights5
-    static ::GlobalNamespace::BeatmapEventType _get_kLights5();
-    // Set static field: static public BeatmapEventType kLights5
-    static void _set_kLights5(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kRotateRings
+    // Get static field: static public BasicBeatmapEventType kLights5
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kLights5();
+    // Set static field: static public BasicBeatmapEventType kLights5
+    static void _set_kLights5(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kColorBoost
+    static constexpr const int kColorBoost = 5;
+    // Get static field: static public BasicBeatmapEventType kColorBoost
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kColorBoost();
+    // Set static field: static public BasicBeatmapEventType kColorBoost
+    static void _set_kColorBoost(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kRotateRings
     static constexpr const int kRotateRings = 8;
-    // Get static field: static public BeatmapEventType kRotateRings
-    static ::GlobalNamespace::BeatmapEventType _get_kRotateRings();
-    // Set static field: static public BeatmapEventType kRotateRings
-    static void _set_kRotateRings(::GlobalNamespace::BeatmapEventType value);
-    // static field const value: static public BeatmapEventType kCompressExpand
+    // Get static field: static public BasicBeatmapEventType kRotateRings
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kRotateRings();
+    // Set static field: static public BasicBeatmapEventType kRotateRings
+    static void _set_kRotateRings(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kCompressExpand
     static constexpr const int kCompressExpand = 9;
-    // Get static field: static public BeatmapEventType kCompressExpand
-    static ::GlobalNamespace::BeatmapEventType _get_kCompressExpand();
-    // Set static field: static public BeatmapEventType kCompressExpand
-    static void _set_kCompressExpand(::GlobalNamespace::BeatmapEventType value);
-    // static public System.Collections.Generic.HashSet`1<BeatmapEventType> GetEventsValidForAllBeatmaps()
-    // Offset: 0x2A4A4B8
-    static ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventType>* GetEventsValidForAllBeatmaps();
-    // static public System.Boolean IsBPMChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A6AC
-    static bool IsBPMChangeEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
-    // static public System.Boolean IsRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A6B8
-    static bool IsRotationEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
-    // static public System.Boolean IsSpecialEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A6C8
-    static bool IsSpecialEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
-    // static public System.Boolean IsLightIntensityChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A6EC
-    static bool IsLightIntensityChangeEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
-    // static public System.Boolean IsEarlyRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A708
-    static bool IsEarlyRotationEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
-    // static public System.Boolean IsLateRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A714
-    static bool IsLateRotationEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
-    // static public System.Boolean IsEarlyEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A720
-    static bool IsEarlyEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
-    // static public System.Boolean IsSpawnAffectingEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x2A4A738
-    static bool IsSpawnAffectingEvent(::GlobalNamespace::BeatmapEventType beatmapEventType);
+    // Get static field: static public BasicBeatmapEventType kCompressExpand
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kCompressExpand();
+    // Set static field: static public BasicBeatmapEventType kCompressExpand
+    static void _set_kCompressExpand(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kLegacyEarlySpawnRotation
+    static constexpr const int kLegacyEarlySpawnRotation = 14;
+    // Get static field: static public BasicBeatmapEventType kLegacyEarlySpawnRotation
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kLegacyEarlySpawnRotation();
+    // Set static field: static public BasicBeatmapEventType kLegacyEarlySpawnRotation
+    static void _set_kLegacyEarlySpawnRotation(::GlobalNamespace::BasicBeatmapEventType value);
+    // static field const value: static public BasicBeatmapEventType kLegacyLateSpawnRotation
+    static constexpr const int kLegacyLateSpawnRotation = 15;
+    // Get static field: static public BasicBeatmapEventType kLegacyLateSpawnRotation
+    static ::GlobalNamespace::BasicBeatmapEventType _get_kLegacyLateSpawnRotation();
+    // Set static field: static public BasicBeatmapEventType kLegacyLateSpawnRotation
+    static void _set_kLegacyLateSpawnRotation(::GlobalNamespace::BasicBeatmapEventType value);
+    // static public System.Boolean IsCoreLightIntensityChangeEvent(BasicBeatmapEventType basicBeatmapEventType)
+    // Offset: 0x284706C
+    static bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
   }; // BeatmapEventTypeExtensions
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::GetEventsValidForAllBeatmaps
-// Il2CppName: GetEventsValidForAllBeatmaps
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsCoreLightIntensityChangeEvent
+// Il2CppName: IsCoreLightIntensityChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventType>* (*)()>(&GlobalNamespace::BeatmapEventTypeExtensions::GetEventsValidForAllBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BasicBeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsCoreLightIntensityChangeEvent)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "GetEventsValidForAllBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsBPMChangeEvent
-// Il2CppName: IsBPMChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsBPMChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsBPMChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsRotationEvent
-// Il2CppName: IsRotationEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsRotationEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsSpecialEvent
-// Il2CppName: IsSpecialEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsSpecialEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsSpecialEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsLightIntensityChangeEvent
-// Il2CppName: IsLightIntensityChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsLightIntensityChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsLightIntensityChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyRotationEvent
-// Il2CppName: IsEarlyRotationEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyRotationEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsEarlyRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsLateRotationEvent
-// Il2CppName: IsLateRotationEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsLateRotationEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsLateRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyEvent
-// Il2CppName: IsEarlyEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsSpawnAffectingEvent
-// Il2CppName: IsSpawnAffectingEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsSpawnAffectingEvent)> {
-  static const MethodInfo* get() {
-    static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsSpawnAffectingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
+    static auto* basicBeatmapEventType = &::il2cpp_utils::GetClassFromName("", "BasicBeatmapEventType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsCoreLightIntensityChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventType});
   }
 };

@@ -19,7 +19,6 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: AdditionalContentModel/EntitlementStatus
 #include "GlobalNamespace/AdditionalContentModel.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,6 +26,12 @@ namespace GlobalNamespace {
   // Skipping declaration: AdditionalContentModel because it is already included!
   // Forward declaring type: IPreviewBeatmapLevel
   class IPreviewBeatmapLevel;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
+  class IEnumerator_1;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -82,25 +87,19 @@ namespace GlobalNamespace {
     bool $error$5__4;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // private IPreviewBeatmapLevel[] <>7__wrap4
+    // private System.Collections.Generic.IEnumerator`1<IPreviewBeatmapLevel> <>7__wrap4
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*> $$7__wrap4;
+    ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>* $$7__wrap4;
     // Field size check
-    static_assert(sizeof(::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>) == 0x8);
-    // private System.Int32 <>7__wrap5
-    // Size: 0x4
-    // Offset: 0x50
-    int $$7__wrap5;
-    // Field size check
-    static_assert(sizeof(int) == 0x4);
+    static_assert(sizeof(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     // Size: 0xFFFFFFFF
-    // Offset: 0x58
+    // Offset: 0x50
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1;
     public:
     // Creating value type constructor for type: $RefreshAvailabilityAsync$d__23
-    constexpr $RefreshAvailabilityAsync$d__23(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* $$4__this_ = {}, ::GlobalNamespace::AdditionalContentModel* contentModel_ = {}, ::System::Threading::CancellationToken $cancellationToken$5__2_ = {}, int $numberOfOwnedLevels$5__3_ = {}, bool $error$5__4_ = {}, ::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*> $$7__wrap4_ = ::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>(static_cast<void*>(nullptr)), int $$7__wrap5_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, contentModel{contentModel_}, $cancellationToken$5__2{$cancellationToken$5__2_}, $numberOfOwnedLevels$5__3{$numberOfOwnedLevels$5__3_}, $error$5__4{$error$5__4_}, $$7__wrap4{$$7__wrap4_}, $$7__wrap5{$$7__wrap5_}, $$u__1{$$u__1_} {}
+    constexpr $RefreshAvailabilityAsync$d__23(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* $$4__this_ = {}, ::GlobalNamespace::AdditionalContentModel* contentModel_ = {}, ::System::Threading::CancellationToken $cancellationToken$5__2_ = {}, int $numberOfOwnedLevels$5__3_ = {}, bool $error$5__4_ = {}, ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>* $$7__wrap4_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, contentModel{contentModel_}, $cancellationToken$5__2{$cancellationToken$5__2_}, $numberOfOwnedLevels$5__3{$numberOfOwnedLevels$5__3_}, $error$5__4{$error$5__4_}, $$7__wrap4{$$7__wrap4_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
@@ -123,17 +122,15 @@ namespace GlobalNamespace {
     int& dyn_$numberOfOwnedLevels$5__3();
     // Get instance field reference: private System.Boolean <error>5__4
     bool& dyn_$error$5__4();
-    // Get instance field reference: private IPreviewBeatmapLevel[] <>7__wrap4
-    ::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>& dyn_$$7__wrap4();
-    // Get instance field reference: private System.Int32 <>7__wrap5
-    int& dyn_$$7__wrap5();
+    // Get instance field reference: private System.Collections.Generic.IEnumerator`1<IPreviewBeatmapLevel> <>7__wrap4
+    ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_$$7__wrap4();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1488A28
+    // Offset: 0x14B8C00
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1489370
+    // Offset: 0x14B98B4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AnnotatedBeatmapLevelCollectionCell/<RefreshAvailabilityAsync>d__23
   // WARNING Not writing size check since size may be invalid!

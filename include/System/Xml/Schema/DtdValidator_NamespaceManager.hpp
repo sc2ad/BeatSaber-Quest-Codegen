@@ -27,7 +27,7 @@ namespace System::Xml::Schema {
   class DtdValidator::NamespaceManager : public ::System::Xml::XmlNamespaceManager {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D6D05C
+    // Offset: 0x1C3CA70
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -37,7 +37,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<DtdValidator::NamespaceManager*, creationType>()));
     }
     // public override System.String LookupNamespace(System.String prefix)
-    // Offset: 0x1D6D064
+    // Offset: 0x1C3CA78
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.String XmlNamespaceManager::LookupNamespace(System.String prefix)
     ::StringW LookupNamespace(::StringW prefix);

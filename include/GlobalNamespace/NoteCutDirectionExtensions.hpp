@@ -38,25 +38,28 @@ namespace GlobalNamespace {
   class NoteCutDirectionExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0x2A4B458
+    // Offset: 0x2848CC4
     static ::UnityEngine::Vector2 Direction(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0x2A4B53C
+    // Offset: 0x284D964
     static float RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection);
+    // static public NoteCutDirection OppositeDirection(NoteCutDirection cutDirection)
+    // Offset: 0x284D984
+    static ::GlobalNamespace::NoteCutDirection OppositeDirection(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection, System.Single offset)
-    // Offset: 0x2A4B55C
+    // Offset: 0x284D9A0
     static ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float offset);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0x2A4B5F0
+    // Offset: 0x2849784
     static bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection MainNoteCutDirectionFromCutDirAngle(System.Single angle)
-    // Offset: 0x2A4B5FC
+    // Offset: 0x284DA34
     static ::GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float angle);
     // static public NoteCutDirection Mirrored(NoteCutDirection cutDirection)
-    // Offset: 0x2A4B680
+    // Offset: 0x284DAB8
     static ::GlobalNamespace::NoteCutDirection Mirrored(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Boolean IsOnSamePlane(NoteCutDirection noteCutDirection1, NoteCutDirection noteCutDirection2)
-    // Offset: 0x2A4B69C
+    // Offset: 0x284DAD4
     static bool IsOnSamePlane(::GlobalNamespace::NoteCutDirection noteCutDirection1, ::GlobalNamespace::NoteCutDirection noteCutDirection2);
   }; // NoteCutDirectionExtensions
   #pragma pack(pop)
@@ -78,6 +81,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
   static const MethodInfo* get() {
     static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "RotationAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::OppositeDirection
+// Il2CppName: OppositeDirection
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::NoteCutDirectionExtensions::OppositeDirection)> {
+  static const MethodInfo* get() {
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "OppositeDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::Rotation

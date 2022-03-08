@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: grayscaleFactor and: shader
     char __padding2[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1228A24
+    // [SpaceAttribute] Offset: 0x109CA64
     // private UnityEngine.Shader _shader
     // Size: 0x8
     // Offset: 0x30
@@ -86,17 +86,17 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1228A5C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109CA9C
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1228A6C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109CAAC
     // Get static field: static private UnityEngine.Material _material
     static ::UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(::UnityEngine::Material* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1228A7C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109CABC
     // Get static field: static private System.Boolean _initialized
     static bool _get__initialized();
     // Set static field: static private System.Boolean _initialized
@@ -112,19 +112,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()
-    // Offset: 0x208441C
+    // Offset: 0x1F0F490
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x2084428
+    // Offset: 0x1F0F49C
     void set_color(::UnityEngine::Color value);
     // private UnityEngine.Color get_bgColor()
-    // Offset: 0x2084434
+    // Offset: 0x1F0F4A8
     ::UnityEngine::Color get_bgColor();
     // private System.Void InitIfNeeded()
-    // Offset: 0x20844C0
+    // Offset: 0x1F0F534
     void InitIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x2084764
+    // Offset: 0x1F0F7D8
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -138,13 +138,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColor*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x20847E8
+    // Offset: 0x1F0F85C
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x208467C
+    // Offset: 0x1F0F6F0
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);

@@ -56,10 +56,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32 delCount
     int& dyn_delCount();
     // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x19B76EC
+    // Offset: 0x19EE49C
     ::UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(::UnityEngine::ProBuilder::EdgeLookup x);
     // public System.Void .ctor()
-    // Offset: 0x19B76E4
+    // Offset: 0x19EE494
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

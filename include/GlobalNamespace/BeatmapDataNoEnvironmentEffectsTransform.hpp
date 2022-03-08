@@ -31,8 +31,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataNoEnvironmentEffectsTransform : public ::Il2CppObject {
     public:
+    // Nested type: ::GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::$$c
+    class $$c;
     // static public BeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x2B496AC
+    // Offset: 0x137AA14
     static ::GlobalNamespace::BeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoEnvironmentEffectsTransform
   #pragma pack(pop)

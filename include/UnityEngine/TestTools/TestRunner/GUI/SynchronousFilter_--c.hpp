@@ -50,16 +50,16 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_1
     static void _set_$$9__2_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18DED08
+    // Offset: 0x195A8F8
     static void _cctor();
     // System.Boolean <Pass>b__2_0(System.Reflection.MethodInfo mi)
-    // Offset: 0x18DED74
+    // Offset: 0x195A964
     bool $Pass$b__2_0(::System::Reflection::MethodInfo* mi);
     // System.Boolean <Pass>b__2_1(System.Reflection.MethodInfo mi)
-    // Offset: 0x18DEE1C
+    // Offset: 0x195AA0C
     bool $Pass$b__2_1(::System::Reflection::MethodInfo* mi);
     // public System.Void .ctor()
-    // Offset: 0x18DED6C
+    // Offset: 0x195A95C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

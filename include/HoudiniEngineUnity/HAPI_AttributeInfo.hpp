@@ -106,7 +106,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeTypeInfo typeInfo
     ::HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
     // public System.Void .ctor(System.String ignored)
-    // Offset: 0x1633430
+    // Offset: 0x16A0F9C
     HAPI_AttributeInfo(::StringW ignored);
   }; // HoudiniEngineUnity.HAPI_AttributeInfo
   #pragma pack(pop)

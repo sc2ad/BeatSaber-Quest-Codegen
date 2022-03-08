@@ -39,7 +39,6 @@ namespace Newtonsoft::Json::Utilities {
     protected:
     #endif
     #endif
-    // [NullableAttribute] Offset: 0x1204F3C
     // public System.Reflection.PropertyInfo propertyInfo
     // Size: 0x8
     // Offset: 0x0

@@ -64,19 +64,19 @@ namespace VRUIControls {
     // Get instance field reference: private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
     ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*& dyn__trackedButtons();
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x29B7B14
+    // Offset: 0x2A3780C
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x29B7BC8
+    // Offset: 0x2A378C0
     bool AnyReleasesThisFrame();
     // public VRUIControls.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button)
-    // Offset: 0x29B7C7C
+    // Offset: 0x2A37974
     ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button, UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x29B7DB8
+    // Offset: 0x2A37AB0
     void SetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button, ::UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, ::UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0x29B7DFC
+    // Offset: 0x2A37AF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -48,10 +48,10 @@ namespace System::Xml {
     // Get instance field reference: System.Int32 linePos
     int& dyn_linePos();
     // public System.Void .ctor(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x16EEC20
+    // Offset: 0x1A9E29C
     // ABORTED: conflicts with another method.  LineInfo(int lineNo, int linePos);
     // public System.Void Set(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x16EEC28
+    // Offset: 0x1AA77A4
     void Set(int lineNo, int linePos);
   }; // System.Xml.LineInfo
   #pragma pack(pop)

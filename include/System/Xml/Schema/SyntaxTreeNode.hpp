@@ -44,7 +44,7 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFF
     bool get_IsNullable();
     // public System.Boolean get_IsRangeNode()
-    // Offset: 0x169C700
+    // Offset: 0x1C44B48
     bool get_IsRangeNode();
     // public System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     // Offset: 0xFFFFFFFF
@@ -53,7 +53,7 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFF
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
     // protected System.Void .ctor()
-    // Offset: 0x169C708
+    // Offset: 0x1C3D6B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ColorType colorType
     ::GlobalNamespace::ColorType& dyn_colorType();
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteCutDirection cutDirection, ColorType colorType)
-    // Offset: 0x2AEDF48
+    // Offset: 0x138D290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialBasicNoteSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteCutDirection cutDirection, ::GlobalNamespace::ColorType colorType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData::.ctor");

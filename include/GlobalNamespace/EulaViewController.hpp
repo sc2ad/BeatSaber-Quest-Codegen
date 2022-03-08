@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [HeaderAttribute] Offset: 0x124B960
+    // [HeaderAttribute] Offset: 0x10C08E0
     // private UnityEngine.UI.Button _agreeButton
     // Size: 0x8
     // Offset: 0x70
@@ -149,7 +149,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: disabledButtonDelay and: textPageScrollView
     char __padding3[0x4] = {};
-    // [HeaderAttribute] Offset: 0x124B9DC
+    // [HeaderAttribute] Offset: 0x10C095C
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x90
@@ -162,7 +162,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalizedTextAsset*) == 0x8);
-    // [InjectAttribute] Offset: 0x124BA38
+    // [InjectAttribute] Offset: 0x10C09B8
     // private readonly EulaViewController/InitData _initData
     // Size: 0x8
     // Offset: 0xA0
@@ -201,22 +201,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _buttonsCoroutine
     ::UnityEngine::Coroutine*& dyn__buttonsCoroutine();
     // public System.Void add_didFinishEvent(System.Action`1<EulaViewController/ButtonType> value)
-    // Offset: 0x13FC02C
+    // Offset: 0x12DB444
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<EulaViewController/ButtonType> value)
-    // Offset: 0x13FC0D0
+    // Offset: 0x12DB4E8
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>* value);
     // private System.Collections.IEnumerator EnableButtonsCoroutine(System.Single delay)
-    // Offset: 0x13FC338
+    // Offset: 0x12DB750
     ::System::Collections::IEnumerator* EnableButtonsCoroutine(float delay);
     // private System.Void <DidActivate>b__13_0()
-    // Offset: 0x13FC4C0
+    // Offset: 0x12DB8D8
     void $DidActivate$b__13_0();
     // private System.Void <DidActivate>b__13_1()
-    // Offset: 0x13FC524
+    // Offset: 0x12DB93C
     void $DidActivate$b__13_1();
     // public System.Void .ctor()
-    // Offset: 0x13FC4B0
+    // Offset: 0x12DB8C8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -230,12 +230,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EulaViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13FC174
+    // Offset: 0x12DB58C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13FC3B8
+    // Offset: 0x12DB7D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

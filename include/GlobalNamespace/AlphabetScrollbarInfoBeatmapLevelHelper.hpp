@@ -9,7 +9,6 @@
 #include "System/Char.hpp"
 // Including type: AlphabetScrollInfo
 #include "GlobalNamespace/AlphabetScrollInfo.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
@@ -22,6 +21,12 @@ namespace GlobalNamespace {
 namespace System {
   // Forward declaring type: String
   class String;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
+  class IReadOnlyList_1;
 }
 // Completed forward declares
 // Type namespace: 
@@ -60,9 +65,9 @@ namespace GlobalNamespace {
     static int _get_kMaxCharactersCount();
     // Set static field: static private System.Int32 kMaxCharactersCount
     static void _set_kMaxCharactersCount(int value);
-    // static public AlphabetScrollInfo/Data[] CreateData(IPreviewBeatmapLevel[] previewBeatmapLevels, out IPreviewBeatmapLevel[] sortedPreviewBeatmapLevels)
-    // Offset: 0x1487638
-    static ::ArrayW<::GlobalNamespace::AlphabetScrollInfo::Data*> CreateData(::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, ByRef<::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>> sortedPreviewBeatmapLevels);
+    // static public System.Collections.Generic.IReadOnlyList`1<AlphabetScrollInfo/Data> CreateData(System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> previewBeatmapLevels, out System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> sortedPreviewBeatmapLevels)
+    // Offset: 0x14B73D8
+    static ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::AlphabetScrollInfo::Data*>* CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*> sortedPreviewBeatmapLevels);
   }; // AlphabetScrollbarInfoBeatmapLevelHelper
   #pragma pack(pop)
 }
@@ -70,10 +75,10 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData
 // Il2CppName: CreateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::AlphabetScrollInfo::Data*> (*)(::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>, ByRef<::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>>)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::AlphabetScrollInfo::Data*>* (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*, ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*>)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   static const MethodInfo* get() {
-    static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->byval_arg;
-    static auto* sortedPreviewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->this_arg;
+    static auto* previewBeatmapLevels = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")})->byval_arg;
+    static auto* sortedPreviewBeatmapLevels = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")})->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*), "CreateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevels, sortedPreviewBeatmapLevels});
   }
 };

@@ -21,10 +21,10 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: CustomBeatmapLevelCollection
-  class CustomBeatmapLevelCollection;
   // Forward declaring type: IBeatmapLevelCollection
   class IBeatmapLevelCollection;
+  // Forward declaring type: CustomBeatmapLevelCollection
+  class CustomBeatmapLevelCollection;
 }
 // Completed forward declares
 // Type namespace: 
@@ -52,93 +52,93 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private System.String _packID
+    // private readonly System.String <packID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::StringW packID;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // private System.String _packName
+    // private readonly System.String <packName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::StringW packName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // private System.String _shortPackName
+    // private readonly System.String <shortPackName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::StringW shortPackName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // private UnityEngine.Sprite _coverImage
+    // private readonly UnityEngine.Sprite <coverImage>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Sprite* coverImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // private UnityEngine.Sprite _smallCoverImage
+    // private readonly UnityEngine.Sprite <smallCoverImage>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::Sprite* smallCoverImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // private CustomBeatmapLevelCollection _customBeatmapLevelCollection
+    // private readonly IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     // Size: 0x8
     // Offset: 0x38
-    ::GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection;
+    ::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::CustomBeatmapLevelCollection*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IBeatmapLevelCollection*) == 0x8);
     public:
     // Creating interface conversion operator: operator ::GlobalNamespace::IBeatmapLevelPack
     operator ::GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelPack*>(this);
     }
-    // Get instance field reference: private System.String _packID
-    ::StringW& dyn__packID();
-    // Get instance field reference: private System.String _packName
-    ::StringW& dyn__packName();
-    // Get instance field reference: private System.String _shortPackName
-    ::StringW& dyn__shortPackName();
-    // Get instance field reference: private UnityEngine.Sprite _coverImage
-    ::UnityEngine::Sprite*& dyn__coverImage();
-    // Get instance field reference: private UnityEngine.Sprite _smallCoverImage
-    ::UnityEngine::Sprite*& dyn__smallCoverImage();
-    // Get instance field reference: private CustomBeatmapLevelCollection _customBeatmapLevelCollection
-    ::GlobalNamespace::CustomBeatmapLevelCollection*& dyn__customBeatmapLevelCollection();
+    // Get instance field reference: private readonly System.String <packID>k__BackingField
+    ::StringW& dyn_$packID$k__BackingField();
+    // Get instance field reference: private readonly System.String <packName>k__BackingField
+    ::StringW& dyn_$packName$k__BackingField();
+    // Get instance field reference: private readonly System.String <shortPackName>k__BackingField
+    ::StringW& dyn_$shortPackName$k__BackingField();
+    // Get instance field reference: private readonly UnityEngine.Sprite <coverImage>k__BackingField
+    ::UnityEngine::Sprite*& dyn_$coverImage$k__BackingField();
+    // Get instance field reference: private readonly UnityEngine.Sprite <smallCoverImage>k__BackingField
+    ::UnityEngine::Sprite*& dyn_$smallCoverImage$k__BackingField();
+    // Get instance field reference: private readonly IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
+    ::GlobalNamespace::IBeatmapLevelCollection*& dyn_$beatmapLevelCollection$k__BackingField();
     // public System.String get_packID()
-    // Offset: 0x13C7040
+    // Offset: 0x1416788
     ::StringW get_packID();
     // public System.String get_packName()
-    // Offset: 0x13C7048
+    // Offset: 0x1416790
     ::StringW get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x13C7050
+    // Offset: 0x1416798
     ::StringW get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x13C7058
+    // Offset: 0x14167A0
     ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x13C7060
+    // Offset: 0x14167A8
     ::UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0x13C7068
+    // Offset: 0x14167B0
     ::UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x13C7070
+    // Offset: 0x14167B8
     ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Boolean get_isPackAlwaysOwned()
-    // Offset: 0x13C7078
+    // Offset: 0x14167C0
     bool get_isPackAlwaysOwned();
-    // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, UnityEngine.Sprite smallCoverImage, CustomBeatmapLevelCollection customBeatmapLevelCollection)
-    // Offset: 0x13C7080
+    // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, UnityEngine.Sprite smallCoverImage, CustomBeatmapLevelCollection beatmapLevelCollection)
+    // Offset: 0x14167C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CustomBeatmapLevelPack* New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage, ::GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection) {
+    static CustomBeatmapLevelPack* New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage, ::GlobalNamespace::CustomBeatmapLevelCollection* beatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomBeatmapLevelPack::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevelPack*, creationType>(packID, packName, shortPackName, coverImage, smallCoverImage, customBeatmapLevelCollection)));
+      return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevelPack*, creationType>(packID, packName, shortPackName, coverImage, smallCoverImage, beatmapLevelCollection)));
     }
   }; // CustomBeatmapLevelPack
   #pragma pack(pop)
-  static check_size<sizeof(CustomBeatmapLevelPack), 56 + sizeof(::GlobalNamespace::CustomBeatmapLevelCollection*)> __GlobalNamespace_CustomBeatmapLevelPackSizeCheck;
+  static check_size<sizeof(CustomBeatmapLevelPack), 56 + sizeof(::GlobalNamespace::IBeatmapLevelCollection*)> __GlobalNamespace_CustomBeatmapLevelPackSizeCheck;
   static_assert(sizeof(CustomBeatmapLevelPack) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

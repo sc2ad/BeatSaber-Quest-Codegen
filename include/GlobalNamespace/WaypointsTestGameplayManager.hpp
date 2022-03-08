@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     float outerCapsuleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x1243174
+    // [SpaceAttribute] Offset: 0x10B8450
     // private UnityEngine.Vector3 _innerSphereOffset
     // Size: 0xC
     // Offset: 0x34
@@ -89,35 +89,35 @@ namespace GlobalNamespace {
     float innerSphereRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x12431BC
+    // [SpaceAttribute] Offset: 0x10B8498
     // private UnityEngine.LayerMask _layersToColliderWith
     // Size: 0x4
     // Offset: 0x44
     ::UnityEngine::LayerMask layersToColliderWith;
     // Field size check
     static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
-    // [InjectAttribute] Offset: 0x12431F4
+    // [InjectAttribute] Offset: 0x10B84D0
     // private readonly BTSCharacterSpawnController _characterSpawnController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BTSCharacterSpawnController* characterSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1243204
+    // [InjectAttribute] Offset: 0x10B84E0
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x1243214
+    // [InjectAttribute] Offset: 0x10B84F0
     // private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1243224
+    // [InjectAttribute] Offset: 0x10B8500
     // private readonly GameplayCoreSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x60
@@ -222,22 +222,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _biggestAccelerationSongTime
     float& dyn__biggestAccelerationSongTime();
     // protected System.Void Start()
-    // Offset: 0x2CBCBD8
+    // Offset: 0x1A97084
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x2CBCC18
+    // Offset: 0x1A970C4
     void LateUpdate();
     // protected System.Void OnDestroy()
-    // Offset: 0x2CBE170
+    // Offset: 0x1A9861C
     void OnDestroy();
     // private System.String GetBar(System.Single songTime)
-    // Offset: 0x2CBDF68
+    // Offset: 0x1A98414
     ::StringW GetBar(float songTime);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x2CBE6B4
+    // Offset: 0x1A98B60
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x2CBE9A0
+    // Offset: 0x1A98E4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

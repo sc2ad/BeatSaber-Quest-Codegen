@@ -152,19 +152,19 @@ namespace HMUI {
     // Get instance field reference: private System.Single _contentMinY
     float& dyn__contentMinY();
     // protected System.Void Start()
-    // Offset: 0x16AC3E0
+    // Offset: 0x169384C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x16ACA70
+    // Offset: 0x1693EDC
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x16AC8B8
+    // Offset: 0x1693D24
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x16ACB60
+    // Offset: 0x1693FCC
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
     // public System.Void .ctor()
-    // Offset: 0x16ACD04
+    // Offset: 0x1694170
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

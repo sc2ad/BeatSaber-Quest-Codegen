@@ -33,6 +33,9 @@ namespace Tweening {
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
+}
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
   // Forward declaring type: EaseType
   struct EaseType;
 }
@@ -62,7 +65,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x1244C24
+    // [SpaceAttribute] Offset: 0x10B9FA0
     // private TMPro.TextMeshPro _text
     // Size: 0x8
     // Offset: 0x18
@@ -75,7 +78,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* scalingTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1244C6C
+    // [InjectAttribute] Offset: 0x10B9FE8
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -132,46 +135,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _offsetTween
     ::Tweening::Tween_1<::UnityEngine::Vector3>*& dyn__offsetTween();
     // protected System.Void Awake()
-    // Offset: 0x142CA0C
+    // Offset: 0x1447B5C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x142CD9C
+    // Offset: 0x1447EEC
     void OnDestroy();
-    // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x142CE34
-    void AnimateTextColor(::UnityEngine::Color color, float duration, ::Tweening::EaseType easeType);
-    // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x142CEE4
-    void AnimateFontSize(float fontSize, float duration, ::Tweening::EaseType easeType);
-    // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x142CF48
-    void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float duration, ::Tweening::EaseType easeType);
-    // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x142CFEC
-    void AnimateEnabled(bool isEnabled, float duration, ::Tweening::EaseType easeType);
+    // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
+    // Offset: 0x1447F84
+    void AnimateTextColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, EaseType easeType)
+    // Offset: 0x1448034
+    void AnimateFontSize(float fontSize, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, EaseType easeType)
+    // Offset: 0x1448098
+    void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float duration, ::GlobalNamespace::EaseType easeType);
+    // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, EaseType easeType)
+    // Offset: 0x144813C
+    void AnimateEnabled(bool isEnabled, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetText(System.String text)
-    // Offset: 0x142D168
+    // Offset: 0x14482B8
     void SetText(::StringW text);
     // private System.Void <Awake>b__8_0(System.Single val)
-    // Offset: 0x142D18C
+    // Offset: 0x14482DC
     void $Awake$b__8_0(float val);
     // private System.Void <Awake>b__8_1(System.Single val)
-    // Offset: 0x142D220
+    // Offset: 0x1448370
     void $Awake$b__8_1(float val);
     // private System.Void <Awake>b__8_5()
-    // Offset: 0x142D2B4
+    // Offset: 0x1448404
     void $Awake$b__8_5();
     // private System.Void <Awake>b__8_2(System.Single val)
-    // Offset: 0x142D2E4
+    // Offset: 0x1448434
     void $Awake$b__8_2(float val);
     // private System.Void <Awake>b__8_3(UnityEngine.Color val)
-    // Offset: 0x142D300
+    // Offset: 0x1448450
     void $Awake$b__8_3(::UnityEngine::Color val);
     // private System.Void <Awake>b__8_4(UnityEngine.Vector3 val)
-    // Offset: 0x142D324
+    // Offset: 0x1448474
     void $Awake$b__8_4(::UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0x142D184
+    // Offset: 0x14482D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -208,44 +211,44 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor
 // Il2CppName: AnimateTextColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Color, float, ::Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Color, float, ::GlobalNamespace::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
+    static auto* easeType = &::il2cpp_utils::GetClassFromName("", "EaseType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimateTextColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, duration, easeType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize
 // Il2CppName: AnimateFontSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(float, float, ::Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(float, float, ::GlobalNamespace::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize)> {
   static const MethodInfo* get() {
     static auto* fontSize = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
+    static auto* easeType = &::il2cpp_utils::GetClassFromName("", "EaseType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimateFontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fontSize, duration, easeType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize
 // Il2CppName: AnimatePositionOffsetSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Vector3, float, ::Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Vector3, float, ::GlobalNamespace::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize)> {
   static const MethodInfo* get() {
     static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
+    static auto* easeType = &::il2cpp_utils::GetClassFromName("", "EaseType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimatePositionOffsetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset, duration, easeType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled
 // Il2CppName: AnimateEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(bool, float, ::Tweening::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterTextAnimator::*)(bool, float, ::GlobalNamespace::EaseType)>(&GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled)> {
   static const MethodInfo* get() {
     static auto* isEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
+    static auto* easeType = &::il2cpp_utils::GetClassFromName("", "EaseType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterTextAnimator*), "AnimateEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isEnabled, duration, easeType});
   }
 };

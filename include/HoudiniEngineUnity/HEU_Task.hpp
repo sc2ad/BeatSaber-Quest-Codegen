@@ -211,13 +211,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskCallback _taskCompletedDelegate
     ::HoudiniEngineUnity::HEU_Task::TaskCallback*& dyn__taskCompletedDelegate();
     // public System.Guid get_TaskGuid()
-    // Offset: 0x1A640EC
+    // Offset: 0x1AEC8E8
     ::System::Guid get_TaskGuid();
     // public System.Void DoTask()
     // Offset: 0xFFFFFFFF
     void DoTask();
     // public System.Void UpdateTask()
-    // Offset: 0x1A64170
+    // Offset: 0x1AEC96C
     void UpdateTask();
     // public System.Void KillTask()
     // Offset: 0xFFFFFFFF
@@ -226,7 +226,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     void CompleteTask(::HoudiniEngineUnity::HEU_Task::TaskResult result);
     // public System.Void .ctor()
-    // Offset: 0x1A640F8
+    // Offset: 0x1AEC8F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public TutorialController <>4__this
     ::GlobalNamespace::TutorialController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2AEBCC0
+    // Offset: 0x138ADB8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2AEBD28
+    // Offset: 0x138AE20
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2AEBA60
+    // Offset: 0x138AB58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialController::$OutroCoroutine$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialController::$OutroCoroutine$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialController::$OutroCoroutine$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2AEBB34
+    // Offset: 0x138AC2C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2AEBB38
+    // Offset: 0x138AC30
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2AEBCC8
+    // Offset: 0x138ADC0
     void System_Collections_IEnumerator_Reset();
   }; // TutorialController/<OutroCoroutine>d__13
   #pragma pack(pop)

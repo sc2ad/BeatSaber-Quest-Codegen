@@ -100,35 +100,35 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X9.DHValidationParms validationParms
     ::Org::BouncyCastle::Asn1::X9::DHValidationParms*& dyn_validationParms();
     // public Org.BouncyCastle.Asn1.DerInteger get_P()
-    // Offset: 0x1E3C59C
+    // Offset: 0x1EEBA28
     ::Org::BouncyCastle::Asn1::DerInteger* get_P();
     // public Org.BouncyCastle.Asn1.DerInteger get_G()
-    // Offset: 0x1E3C5A4
+    // Offset: 0x1EEBA30
     ::Org::BouncyCastle::Asn1::DerInteger* get_G();
     // public Org.BouncyCastle.Asn1.DerInteger get_Q()
-    // Offset: 0x1E3C5AC
+    // Offset: 0x1EEBA38
     ::Org::BouncyCastle::Asn1::DerInteger* get_Q();
     // public Org.BouncyCastle.Asn1.DerInteger get_J()
-    // Offset: 0x1E3C5B4
+    // Offset: 0x1EEBA40
     ::Org::BouncyCastle::Asn1::DerInteger* get_J();
     // public Org.BouncyCastle.Asn1.X9.DHValidationParms get_ValidationParms()
-    // Offset: 0x1E3C5BC
+    // Offset: 0x1EEBA48
     ::Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1E3C0E0
+    // Offset: 0x1EEB56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::DHDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHDomainParameters*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X9.DHDomainParameters GetInstance(System.Object obj)
-    // Offset: 0x1E3BF60
+    // Offset: 0x1EEB3EC
     static ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Il2CppObject* obj);
     // static private Org.BouncyCastle.Asn1.Asn1Encodable GetNext(System.Collections.IEnumerator e)
-    // Offset: 0x1E3C2C0
+    // Offset: 0x1EEB74C
     static ::Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(::System::Collections::IEnumerator* e);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1E3C5C4
+    // Offset: 0x1EEBA50
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

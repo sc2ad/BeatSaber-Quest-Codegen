@@ -206,19 +206,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_WorkItemTally _workItemTally
     ::HoudiniEngineUnity::HEU_WorkItemTally*& dyn__workItemTally();
     // public System.Void Reset()
-    // Offset: 0x1A63F44
+    // Offset: 0x1AEC740
     void Reset();
     // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x1A63F68
+    // Offset: 0x1AEC764
     bool AreAllWorkItemsComplete();
     // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x1A63F84
+    // Offset: 0x1AEC780
     bool AnyWorkItemsFailed();
     // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x1A63FA0
+    // Offset: 0x1AEC79C
     bool AnyWorkItemsPending();
     // public System.Void .ctor()
-    // Offset: 0x1A63FBC
+    // Offset: 0x1AEC7B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

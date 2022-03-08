@@ -71,31 +71,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerGameState _gameState
     ::GlobalNamespace::MultiplayerGameState& dyn__gameState();
     // public MultiplayerGameState get_gameState()
-    // Offset: 0x2B94440
+    // Offset: 0x14D8D88
     ::GlobalNamespace::MultiplayerGameState get_gameState();
     // public System.Void add_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x2B94448
+    // Offset: 0x14D8D90
     void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x2B944EC
+    // Offset: 0x14D8E34
     void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void add_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x2B94590
+    // Offset: 0x14D8ED8
     void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x2B94634
+    // Offset: 0x14D8F7C
     void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void SetGameState(MultiplayerGameState newGameState)
-    // Offset: 0x2B94164
+    // Offset: 0x14D81D0
     void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
     // public System.Void SetGameStateWithoutNotification(MultiplayerGameState newGameState)
-    // Offset: 0x2B94780
+    // Offset: 0x14D6248
     void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
     // private System.Void SetGameState(MultiplayerGameState newGameState, System.Boolean sendNotification)
-    // Offset: 0x2B946D8
+    // Offset: 0x14D9020
     void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
     // public System.Void .ctor()
-    // Offset: 0x2B94788
+    // Offset: 0x14D90C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

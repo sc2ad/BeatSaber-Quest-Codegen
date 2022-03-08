@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   class FloatUnityEvent : public ::UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2C1E4C0
+    // Offset: 0x1576E90
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

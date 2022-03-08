@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class GaussianSeparableBlurRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x20887A8
+    // Offset: 0x1F137F8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

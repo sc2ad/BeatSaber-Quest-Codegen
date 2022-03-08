@@ -139,49 +139,49 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _letterBtnTexts
     ::System::Collections::Generic::List_1<::TMPro::TextMeshProUGUI*>*& dyn__letterBtnTexts();
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16B6554
+    // Offset: 0x2A15778
     void add_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16B65F8
+    // Offset: 0x2A1581C
     void remove_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x16A44FC
+    // Offset: 0x2A158C0
     void add_keyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x16A482C
+    // Offset: 0x2A15964
     void remove_keyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16A45A0
+    // Offset: 0x2A15A08
     void add_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16A48D0
+    // Offset: 0x2A15AAC
     void remove_deleteButtonWasPressedEvent(::System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x16B669C
+    // Offset: 0x2A15B50
     void Awake();
     // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x16B6910
+    // Offset: 0x2A15DC4
     void HandleKeyPress(::UnityEngine::KeyCode keyCode);
     // private System.Void HandleCapsLockPressed()
-    // Offset: 0x16B6A0C
+    // Offset: 0x2A15EC0
     void HandleCapsLockPressed();
     // private System.Void SetKeyboardCapitalization(System.Boolean capitalize)
-    // Offset: 0x16B6A24
+    // Offset: 0x2A15ED8
     void SetKeyboardCapitalization(bool capitalize);
     // private System.Boolean HasFontStyle(TMPro.TextMeshProUGUI text, TMPro.FontStyles style)
-    // Offset: 0x16B6B54
+    // Offset: 0x2A16008
     bool HasFontStyle(::TMPro::TextMeshProUGUI* text, ::TMPro::FontStyles style);
     // private System.Void OnEnable()
-    // Offset: 0x16B6B74
+    // Offset: 0x2A16028
     void OnEnable();
     // private System.Void <Awake>b__13_0()
-    // Offset: 0x16B6BE8
+    // Offset: 0x2A1609C
     void $Awake$b__13_0();
     // private System.Void <Awake>b__13_1()
-    // Offset: 0x16B6BFC
+    // Offset: 0x2A160B0
     void $Awake$b__13_1();
     // public System.Void .ctor()
-    // Offset: 0x16B6B80
+    // Offset: 0x2A16034
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

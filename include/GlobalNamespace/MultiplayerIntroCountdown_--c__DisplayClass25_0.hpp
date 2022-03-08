@@ -63,22 +63,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerIntroCountdown <>4__this
     ::GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
     // System.Void <PhaseRoutine>b__0(System.Single val)
-    // Offset: 0x143BE94
+    // Offset: 0x1455F40
     void $PhaseRoutine$b__0(float val);
     // System.Void <PhaseRoutine>b__1(System.Single val)
-    // Offset: 0x143BF28
+    // Offset: 0x1455F5C
     void $PhaseRoutine$b__1(float val);
     // System.Void <PhaseRoutine>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x143C01C
+    // Offset: 0x1455F78
     void $PhaseRoutine$b__2(::UnityEngine::Vector3 pos);
     // System.Void <PhaseRoutine>b__3(System.Single f)
-    // Offset: 0x143C070
+    // Offset: 0x1455FCC
     void $PhaseRoutine$b__3(float f);
     // System.Void <PhaseRoutine>b__4(System.Single val)
-    // Offset: 0x143C164
+    // Offset: 0x1455FFC
     void $PhaseRoutine$b__4(float val);
     // public System.Void .ctor()
-    // Offset: 0x143BE8C
+    // Offset: 0x1455F38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

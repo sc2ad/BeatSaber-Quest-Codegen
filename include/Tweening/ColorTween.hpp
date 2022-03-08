@@ -27,11 +27,6 @@ namespace System {
   template<typename T>
   class Action_1;
 }
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: AnimationCurve
-  class AnimationCurve;
-}
 // Completed forward declares
 // Type namespace: Tweening
 namespace Tweening {
@@ -48,33 +43,26 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTween : public ::Tweening::Tween_1<::UnityEngine::Color> {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1251550
-    // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,Tweening.EaseType,System.Single,Tweening.ColorTween> Pool
-    static ::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float, ::Tweening::EaseType, float, ::Tweening::ColorTween*>* _get_Pool();
-    // Set static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,Tweening.EaseType,System.Single,Tweening.ColorTween> Pool
-    static void _set_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float, ::Tweening::EaseType, float, ::Tweening::ColorTween*>* value);
-    // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0x2AEEA14
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C65A8
+    // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,EaseType,System.Single,Tweening.ColorTween> Pool
+    static ::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::ColorTween*>* _get_Pool();
+    // Set static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,EaseType,System.Single,Tweening.ColorTween> Pool
+    static void _set_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::ColorTween*>* value);
+    // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
+    // Offset: 0x138DCE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float duration, ::Tweening::EaseType easeType, float delay) {
+    static ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float duration, ::GlobalNamespace::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
-    // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0x2AEEAEC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float duration, ::UnityEngine::AnimationCurve* animationCurve, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::ColorTween::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
-    }
     // static private System.Void .cctor()
-    // Offset: 0x2AEED90
+    // Offset: 0x138DE84
     static void _cctor();
     // public UnityEngine.Color GetValue(System.Single t)
-    // Offset: 0x2AEEBC4
+    // Offset: 0x138DDB8
     ::UnityEngine::Color GetValue(float t);
     // public System.Void .ctor()
-    // Offset: 0x2AEE9C4
+    // Offset: 0x138DC90
     // Implemented from: Tweening.Tween`1
     // Base method: System.Void Tween_1::.ctor()
     // Base method: System.Void Tween::.ctor()
@@ -87,10 +75,6 @@ namespace Tweening {
   }; // Tweening.ColorTween
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Tweening::ColorTween::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Tweening::ColorTween::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

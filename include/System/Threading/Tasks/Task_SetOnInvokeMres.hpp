@@ -32,10 +32,10 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1CD96B8
+    // Offset: 0x1D0E19C
     void Invoke(::System::Threading::Tasks::Task* completingTask);
     // System.Void .ctor()
-    // Offset: 0x1CD9648
+    // Offset: 0x1D0E12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -24,16 +24,9 @@ namespace System::Xml {
   class XmlDocument;
   // Forward declaring type: XmlAttribute
   class XmlAttribute;
-  // Forward declaring type: XmlWriter
-  class XmlWriter;
   // Forward declaring type: XmlNodeType
   struct XmlNodeType;
   // Skipping declaration: XmlNode because it is already included!
-}
-// Forward declaring namespace: System::Xml::Schema
-namespace System::Xml::Schema {
-  // Forward declaring type: IXmlSchemaInfo
-  class IXmlSchemaInfo;
 }
 // Completed forward declares
 // Type namespace: System.Xml
@@ -87,190 +80,140 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlLinkedNode lastChild
     ::System::Xml::XmlLinkedNode*& dyn_lastChild();
     // System.Xml.XmlName get_XmlName()
-    // Offset: 0x1A14F74
+    // Offset: 0x1B9A14C
     ::System::Xml::XmlName* get_XmlName();
     // System.Void set_XmlName(System.Xml.XmlName value)
-    // Offset: 0x1A14F7C
+    // Offset: 0x1B9A154
     void set_XmlName(::System::Xml::XmlName* value);
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x1A15468
+    // Offset: 0x1B9A640
     bool get_IsEmpty();
     // public System.Void set_IsEmpty(System.Boolean value)
-    // Offset: 0x1A15478
+    // Offset: 0x1B9A650
     void set_IsEmpty(bool value);
     // public System.Boolean get_HasAttributes()
-    // Offset: 0x1A15A6C
+    // Offset: 0x1B9AA10
     bool get_HasAttributes();
     // System.Void .ctor(System.Xml.XmlName name, System.Boolean empty, System.Xml.XmlDocument doc)
-    // Offset: 0x1A14DFC
+    // Offset: 0x1B9820C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlElement* New_ctor(::System::Xml::XmlName* name, bool empty, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlElement*, creationType>(name, empty, doc)));
     }
     // protected internal System.Void .ctor(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.XmlDocument doc)
-    // Offset: 0x1A14F2C
+    // Offset: 0x1B9A100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlElement* New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlElement*, creationType>(prefix, localName, namespaceURI, doc)));
     }
-    // public System.String GetAttribute(System.String name)
-    // Offset: 0x1A15A98
-    ::StringW GetAttribute(::StringW name);
-    // public System.Void SetAttribute(System.String name, System.String value)
-    // Offset: 0x1A15B2C
-    void SetAttribute(::StringW name, ::StringW value);
-    // public System.Xml.XmlAttribute GetAttributeNode(System.String name)
-    // Offset: 0x1A15BE8
-    ::System::Xml::XmlAttribute* GetAttributeNode(::StringW name);
     // public System.Xml.XmlAttribute SetAttributeNode(System.Xml.XmlAttribute newAttr)
-    // Offset: 0x1A15C54
+    // Offset: 0x1B9AA3C
     ::System::Xml::XmlAttribute* SetAttributeNode(::System::Xml::XmlAttribute* newAttr);
-    // public System.String GetAttribute(System.String localName, System.String namespaceURI)
-    // Offset: 0x1A15D74
-    ::StringW GetAttribute(::StringW localName, ::StringW namespaceURI);
-    // public System.String SetAttribute(System.String localName, System.String namespaceURI, System.String value)
-    // Offset: 0x1A15E10
-    ::StringW SetAttribute(::StringW localName, ::StringW namespaceURI, ::StringW value);
-    // public System.Xml.XmlAttribute GetAttributeNode(System.String localName, System.String namespaceURI)
-    // Offset: 0x1A15F28
-    ::System::Xml::XmlAttribute* GetAttributeNode(::StringW localName, ::StringW namespaceURI);
-    // public System.Xml.XmlAttribute SetAttributeNode(System.String localName, System.String namespaceURI)
-    // Offset: 0x1A15FA8
-    ::System::Xml::XmlAttribute* SetAttributeNode(::StringW localName, ::StringW namespaceURI);
-    // public System.Boolean HasAttribute(System.String name)
-    // Offset: 0x1A16090
-    bool HasAttribute(::StringW name);
-    // static private System.Void WriteElementTo(System.Xml.XmlWriter writer, System.Xml.XmlElement e)
-    // Offset: 0x1A161D0
-    static void WriteElementTo(::System::Xml::XmlWriter* writer, ::System::Xml::XmlElement* e);
-    // private System.Void WriteStartElement(System.Xml.XmlWriter w)
-    // Offset: 0x1A163B4
-    void WriteStartElement(::System::Xml::XmlWriter* w);
     // public System.Void RemoveAllAttributes()
-    // Offset: 0x1A16540
+    // Offset: 0x1B9AB5C
     void RemoveAllAttributes();
     // System.Void RemoveAllChildren()
-    // Offset: 0x1A1591C
+    // Offset: 0x1B9A8BC
     void RemoveAllChildren();
     // public override System.String get_Name()
-    // Offset: 0x1A154BC
+    // Offset: 0x1B9A698
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x1A15660
+    // Offset: 0x1B9A6B4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_NamespaceURI()
-    // Offset: 0x1A1567C
+    // Offset: 0x1B9A6D0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_NamespaceURI()
     ::StringW get_NamespaceURI();
     // public override System.String get_Prefix()
-    // Offset: 0x1A15698
+    // Offset: 0x1B9A6EC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Prefix()
     ::StringW get_Prefix();
-    // public override System.Void set_Prefix(System.String value)
-    // Offset: 0x1A156B4
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Void XmlNode::set_Prefix(System.String value)
-    void set_Prefix(::StringW value);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1A15758
+    // Offset: 0x1B9A708
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode get_ParentNode()
-    // Offset: 0x1A15760
+    // Offset: 0x1B9A710
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_ParentNode()
     ::System::Xml::XmlNode* get_ParentNode();
     // public override System.Xml.XmlDocument get_OwnerDocument()
-    // Offset: 0x1A15768
+    // Offset: 0x1B9A718
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlDocument XmlNode::get_OwnerDocument()
     ::System::Xml::XmlDocument* get_OwnerDocument();
     // override System.Boolean get_IsContainer()
-    // Offset: 0x1A15784
+    // Offset: 0x1B9A734
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsContainer()
     bool get_IsContainer();
     // override System.Xml.XmlLinkedNode get_LastNode()
-    // Offset: 0x1A15920
+    // Offset: 0x1B9A8C4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlLinkedNode XmlNode::get_LastNode()
     ::System::Xml::XmlLinkedNode* get_LastNode();
     // override System.Void set_LastNode(System.Xml.XmlLinkedNode value)
-    // Offset: 0x1A15930
+    // Offset: 0x1B9A8D4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_LastNode(System.Xml.XmlLinkedNode value)
     void set_LastNode(::System::Xml::XmlLinkedNode* value);
     // public override System.Xml.XmlAttributeCollection get_Attributes()
-    // Offset: 0x1A1595C
+    // Offset: 0x1B9A900
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlAttributeCollection XmlNode::get_Attributes()
     ::System::Xml::XmlAttributeCollection* get_Attributes();
-    // public override System.Xml.Schema.IXmlSchemaInfo get_SchemaInfo()
-    // Offset: 0x1A16630
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Xml.Schema.IXmlSchemaInfo XmlNode::get_SchemaInfo()
-    ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
     // public override System.Void set_InnerXml(System.String value)
-    // Offset: 0x1A16638
+    // Offset: 0x1B9ABD8
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerXml(System.String value)
     void set_InnerXml(::StringW value);
     // public override System.String get_InnerText()
-    // Offset: 0x1A16740
+    // Offset: 0x1B9AC64
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_InnerText()
     ::StringW get_InnerText();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x1A16848
+    // Offset: 0x1B9AC6C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // public override System.Xml.XmlNode get_NextSibling()
-    // Offset: 0x1A1690C
+    // Offset: 0x1B9AD34
     // Implemented from: System.Xml.XmlLinkedNode
     // Base method: System.Xml.XmlNode XmlLinkedNode::get_NextSibling()
     ::System::Xml::XmlNode* get_NextSibling();
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1A14F84
+    // Offset: 0x1B9A15C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // override System.Xml.XmlNode AppendChildForLoad(System.Xml.XmlNode newChild, System.Xml.XmlDocument doc)
-    // Offset: 0x1A1578C
+    // Offset: 0x1B9A73C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::AppendChildForLoad(System.Xml.XmlNode newChild, System.Xml.XmlDocument doc)
     ::System::Xml::XmlNode* AppendChildForLoad(::System::Xml::XmlNode* newChild, ::System::Xml::XmlDocument* doc);
     // override System.Boolean IsValidChildType(System.Xml.XmlNodeType type)
-    // Offset: 0x1A15938
+    // Offset: 0x1B9A8DC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::IsValidChildType(System.Xml.XmlNodeType type)
     bool IsValidChildType(::System::Xml::XmlNodeType type);
-    // public override System.Void WriteTo(System.Xml.XmlWriter w)
-    // Offset: 0x1A160B8
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Void XmlNode::WriteTo(System.Xml.XmlWriter w)
-    void WriteTo(::System::Xml::XmlWriter* w);
-    // public override System.Void WriteContentTo(System.Xml.XmlWriter w)
-    // Offset: 0x1A164D4
-    // Implemented from: System.Xml.XmlNode
-    // Base method: System.Void XmlNode::WriteContentTo(System.Xml.XmlWriter w)
-    void WriteContentTo(::System::Xml::XmlWriter* w);
     // public override System.Void RemoveAll()
-    // Offset: 0x1A1658C
+    // Offset: 0x1B9ABA4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::RemoveAll()
     void RemoveAll();
     // override System.Void SetParent(System.Xml.XmlNode node)
-    // Offset: 0x1A16954
+    // Offset: 0x1B9AD7C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::SetParent(System.Xml.XmlNode node)
     void SetParent(::System::Xml::XmlNode* node);
@@ -330,34 +273,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: System::Xml::XmlElement::GetAttribute
-// Il2CppName: GetAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlElement::*)(::StringW)>(&System::Xml::XmlElement::GetAttribute)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "GetAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::SetAttribute
-// Il2CppName: SetAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlElement::*)(::StringW, ::StringW)>(&System::Xml::XmlElement::SetAttribute)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "SetAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, value});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::GetAttributeNode
-// Il2CppName: GetAttributeNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttribute* (System::Xml::XmlElement::*)(::StringW)>(&System::Xml::XmlElement::GetAttributeNode)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "GetAttributeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::XmlElement::SetAttributeNode
 // Il2CppName: SetAttributeNode
 template<>
@@ -365,75 +280,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
   static const MethodInfo* get() {
     static auto* newAttr = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "SetAttributeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newAttr});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::GetAttribute
-// Il2CppName: GetAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlElement::*)(::StringW, ::StringW)>(&System::Xml::XmlElement::GetAttribute)> {
-  static const MethodInfo* get() {
-    static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* namespaceURI = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "GetAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localName, namespaceURI});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::SetAttribute
-// Il2CppName: SetAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlElement::*)(::StringW, ::StringW, ::StringW)>(&System::Xml::XmlElement::SetAttribute)> {
-  static const MethodInfo* get() {
-    static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* namespaceURI = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "SetAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localName, namespaceURI, value});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::GetAttributeNode
-// Il2CppName: GetAttributeNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttribute* (System::Xml::XmlElement::*)(::StringW, ::StringW)>(&System::Xml::XmlElement::GetAttributeNode)> {
-  static const MethodInfo* get() {
-    static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* namespaceURI = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "GetAttributeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localName, namespaceURI});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::SetAttributeNode
-// Il2CppName: SetAttributeNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttribute* (System::Xml::XmlElement::*)(::StringW, ::StringW)>(&System::Xml::XmlElement::SetAttributeNode)> {
-  static const MethodInfo* get() {
-    static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* namespaceURI = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "SetAttributeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localName, namespaceURI});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::HasAttribute
-// Il2CppName: HasAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlElement::*)(::StringW)>(&System::Xml::XmlElement::HasAttribute)> {
-  static const MethodInfo* get() {
-    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "HasAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::WriteElementTo
-// Il2CppName: WriteElementTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::XmlWriter*, ::System::Xml::XmlElement*)>(&System::Xml::XmlElement::WriteElementTo)> {
-  static const MethodInfo* get() {
-    static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlElement")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "WriteElementTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, e});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::WriteStartElement
-// Il2CppName: WriteStartElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlElement::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlElement::WriteStartElement)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlElement::RemoveAllAttributes
@@ -482,15 +328,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlElement::*)()>(&System::Xml::XmlElement::get_Prefix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "get_Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::set_Prefix
-// Il2CppName: set_Prefix
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlElement::*)(::StringW)>(&System::Xml::XmlElement::set_Prefix)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "set_Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlElement::get_NodeType
@@ -548,14 +385,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttributeCollection* (System::Xml::XmlElement::*)()>(&System::Xml::XmlElement::get_Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::get_SchemaInfo
-// Il2CppName: get_SchemaInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (System::Xml::XmlElement::*)()>(&System::Xml::XmlElement::get_SchemaInfo)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "get_SchemaInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlElement::set_InnerXml
@@ -618,24 +447,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "IsValidChildType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::WriteTo
-// Il2CppName: WriteTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlElement::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlElement::WriteTo)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlElement::WriteContentTo
-// Il2CppName: WriteContentTo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlElement::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlElement::WriteContentTo)> {
-  static const MethodInfo* get() {
-    static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlElement*), "WriteContentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlElement::RemoveAll

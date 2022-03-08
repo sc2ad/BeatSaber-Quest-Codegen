@@ -85,7 +85,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x12324D8
+    // [ObsoleteAttribute] Offset: 0x10A7844
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -104,7 +104,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* ParticipantsOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1232510
+    // [ObsoleteAttribute] Offset: 0x10A787C
     // public readonly Oculus.Platform.Models.UserList Participants
     // Size: 0x8
     // Offset: 0x50
@@ -155,7 +155,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.ChallengeVisibility Visibility
     ::Oculus::Platform::ChallengeVisibility& dyn_Visibility();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1964944
+    // Offset: 0x19B5900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Challenge* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Challenge::.ctor");

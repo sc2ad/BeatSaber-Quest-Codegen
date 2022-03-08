@@ -160,41 +160,41 @@ namespace System::Net {
     // Get instance field reference: System.Boolean InGet
     bool& dyn_InGet();
     // public System.Object get_AsyncState()
-    // Offset: 0x17A6AD8
+    // Offset: 0x1A849E4
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x17A6AEC
+    // Offset: 0x1A7696C
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x17A6BF0
+    // Offset: 0x1A849F8
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x17A6C04
+    // Offset: 0x1A768C0
     bool get_IsCompleted();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x17A6128
+    // Offset: 0x1A75F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ListenerAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17A6CB0
+    // Offset: 0x1A84A0C
     static void _cctor();
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x17A61A8
+    // Offset: 0x1A75B60
     void Complete(::System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x17A6348
+    // Offset: 0x1A84890
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x17A649C
+    // Offset: 0x1A76E60
     void Complete(::System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x17A64A4
+    // Offset: 0x1A760CC
     void Complete(::System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x17A6A64
+    // Offset: 0x1A76A70
     ::System::Net::HttpListenerContext* GetContext();
   }; // System.Net.ListenerAsyncResult
   #pragma pack(pop)

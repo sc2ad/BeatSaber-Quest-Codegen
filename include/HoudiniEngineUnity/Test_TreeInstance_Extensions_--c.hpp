@@ -52,16 +52,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.TreeInstance,HoudiniEngineUnity.Test_TreeInstance> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A113C4
+    // Offset: 0x2A765A8
     static void _cctor();
     // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__1_0(UnityEngine.TreeInstance lod)
-    // Offset: 0x2A11430
+    // Offset: 0x2A76614
     ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__1_0(::UnityEngine::TreeInstance lod);
     // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__2_0(UnityEngine.TreeInstance lod)
-    // Offset: 0x2A114B8
+    // Offset: 0x2A7669C
     ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__2_0(::UnityEngine::TreeInstance lod);
     // public System.Void .ctor()
-    // Offset: 0x2A11428
+    // Offset: 0x2A7660C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

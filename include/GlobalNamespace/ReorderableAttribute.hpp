@@ -64,32 +64,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ElementSingleLine>k__BackingField
     bool& dyn_$ElementSingleLine$k__BackingField();
     // public System.String get_ElementHeader()
-    // Offset: 0x299B690
+    // Offset: 0x2A08978
     ::StringW get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
-    // Offset: 0x299B698
+    // Offset: 0x2A08980
     void set_ElementHeader(::StringW value);
     // public System.Boolean get_HeaderZeroIndex()
-    // Offset: 0x299B6A0
+    // Offset: 0x2A08988
     bool get_HeaderZeroIndex();
     // protected System.Void set_HeaderZeroIndex(System.Boolean value)
-    // Offset: 0x299B6A8
+    // Offset: 0x2A08990
     void set_HeaderZeroIndex(bool value);
     // public System.Boolean get_ElementSingleLine()
-    // Offset: 0x299B6B4
+    // Offset: 0x2A0899C
     bool get_ElementSingleLine();
     // protected System.Void set_ElementSingleLine(System.Boolean value)
-    // Offset: 0x299B6BC
+    // Offset: 0x2A089A4
     void set_ElementSingleLine(bool value);
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
-    // Offset: 0x299B730
+    // Offset: 0x2A08A18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReorderableAttribute* New_ctor(::StringW headerString, bool isZeroIndex, bool isSingleLine) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReorderableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>(headerString, isZeroIndex, isSingleLine)));
     }
     // public System.Void .ctor()
-    // Offset: 0x299B6C8
+    // Offset: 0x2A089B0
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

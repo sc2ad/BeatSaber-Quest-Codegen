@@ -98,6 +98,13 @@ namespace System::Collections::Generic {
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "item"))->offset;
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
+    // public System.Collections.Generic.LinkedList`1<T> get_List()
+    // Offset: 0xFFFFFFFF
+    ::System::Collections::Generic::LinkedList_1<T>* get_List() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::LinkedListNode_1::get_List");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_List", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedList_1<T>*, false>(this, ___internal__method);
+    }
     // public System.Collections.Generic.LinkedListNode`1<T> get_Next()
     // Offset: 0xFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<T>* get_Next() {

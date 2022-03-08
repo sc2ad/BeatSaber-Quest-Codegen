@@ -140,70 +140,70 @@ namespace LIV::SDK::Unity {
     // Set static field: static private System.Boolean _injection_DisableCreateFrame
     static void _set__injection_DisableCreateFrame(bool value);
     // static public System.Boolean get_IsActive()
-    // Offset: 0x29AEA7C
+    // Offset: 0x2A2E750
     static bool get_IsActive();
     // static private System.Void .cctor()
-    // Offset: 0x29B0988
+    // Offset: 0x2A30680
     static void _cctor();
     // static public System.Int32 AddStringToChannel(System.Int32 slot, System.IntPtr str, System.Int32 length, System.UInt64 tag)
-    // Offset: 0x29AFA60
+    // Offset: 0x2A2F758
     static int AddStringToChannel(int slot, ::System::IntPtr str, int length, uint64_t tag);
     // static public System.Int32 addtexture(System.IntPtr sourcetexture, System.UInt64 tag)
-    // Offset: 0x29AFA68
+    // Offset: 0x2A2F760
     static int addtexture(::System::IntPtr sourcetexture, uint64_t tag);
     // static public System.UInt64 GetObjectTimeStamp(System.IntPtr obj)
-    // Offset: 0x29AFA70
+    // Offset: 0x2A2F768
     static uint64_t GetObjectTimeStamp(::System::IntPtr obj);
     // static public System.UInt64 GetCurrentTimeTicks()
-    // Offset: 0x29AFA78
+    // Offset: 0x2A2F770
     static uint64_t GetCurrentTimeTicks();
     // static private System.Boolean GetIsCaptureActive()
-    // Offset: 0x29AFA80
+    // Offset: 0x2A2F778
     static bool GetIsCaptureActive();
     // static public System.IntPtr GetRenderEventFunc()
-    // Offset: 0x29AFA88
+    // Offset: 0x2A2F780
     static ::System::IntPtr GetRenderEventFunc();
     // static public System.IntPtr GetCompositorChannelObject(System.Int32 slot, System.UInt64 tag, System.UInt64 timestamp)
-    // Offset: 0x29AFAC8
+    // Offset: 0x2A2F7C0
     static ::System::IntPtr GetCompositorChannelObject(int slot, uint64_t tag, uint64_t timestamp);
     // static public System.Int32 AddObjectToCompositorChannel(System.Int32 slot, System.IntPtr obj, System.Int32 objectsize, System.UInt64 tag)
-    // Offset: 0x29AFB08
+    // Offset: 0x2A2F800
     static int AddObjectToCompositorChannel(int slot, ::System::IntPtr obj, int objectsize, uint64_t tag);
     // static public System.Int32 AddObjectToFrame(System.IntPtr obj, System.Int32 objectsize, System.UInt64 tag)
-    // Offset: 0x29AFB10
+    // Offset: 0x2A2F808
     static int AddObjectToFrame(::System::IntPtr obj, int objectsize, uint64_t tag);
     // static public System.IntPtr updatinputframe(System.IntPtr InputFrame)
-    // Offset: 0x29AFB18
+    // Offset: 0x2A2F810
     static ::System::IntPtr updatinputframe(::System::IntPtr InputFrame);
     // static public System.IntPtr GetViewportTexture()
-    // Offset: 0x29AFB58
+    // Offset: 0x2A2F850
     static ::System::IntPtr GetViewportTexture();
     // static public System.IntPtr GetChannelObject(System.Int32 slot, System.UInt64 tag, System.UInt64 timestamp)
-    // Offset: 0x29AFB98
+    // Offset: 0x2A2F890
     static ::System::IntPtr GetChannelObject(int slot, uint64_t tag, uint64_t timestamp);
     // static public System.Int32 AddObjectToChannel(System.Int32 slot, System.IntPtr obj, System.Int32 objectsize, System.UInt64 tag)
-    // Offset: 0x29AFBD8
+    // Offset: 0x2A2F8D0
     static int AddObjectToChannel(int slot, ::System::IntPtr obj, int objectsize, uint64_t tag);
     // static public System.UInt64 Tag(System.String str)
-    // Offset: 0x29AFBE0
+    // Offset: 0x2A2F8D8
     static uint64_t Tag(::StringW str);
     // static public System.Void AddString(System.String tag, System.String value, System.Int32 slot)
-    // Offset: 0x29AFC68
+    // Offset: 0x2A2F960
     static void AddString(::StringW tag, ::StringW value, int slot);
     // static public System.Void AddTexture(LIV.SDK.Unity.SDKTexture texture, System.UInt64 tag)
-    // Offset: 0x29AFD64
+    // Offset: 0x2A2FA5C
     static void AddTexture(::LIV::SDK::Unity::SDKTexture texture, uint64_t tag);
     // static public System.UInt64 GetObjectTime(System.IntPtr objectptr)
-    // Offset: 0x29AFE20
+    // Offset: 0x2A2FB18
     static uint64_t GetObjectTime(::System::IntPtr objectptr);
     // static public System.UInt64 GetCurrentTime()
-    // Offset: 0x29AFE8C
+    // Offset: 0x2A2FB84
     static uint64_t GetCurrentTime();
     // static public System.Void IssuePluginEvent()
-    // Offset: 0x29AFEF8
+    // Offset: 0x2A2FBF0
     static void IssuePluginEvent();
     // static public System.Void SubmitApplicationOutput(LIV.SDK.Unity.SDKApplicationOutput applicationOutput)
-    // Offset: 0x29AF2D0
+    // Offset: 0x2A2EFC8
     static void SubmitApplicationOutput(::LIV::SDK::Unity::SDKApplicationOutput applicationOutput);
     // static public System.Boolean GetStructFromGlobalChannel(ref T mystruct, System.Int32 channel, System.UInt64 tag)
     // Offset: 0xFFFFFFFF
@@ -251,22 +251,22 @@ namespace LIV::SDK::Unity {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(mystruct), tag);
     }
     // static public System.Boolean UpdateInputFrame(ref LIV.SDK.Unity.SDKInputFrame setframe)
-    // Offset: 0x29AFFB4
+    // Offset: 0x2A2FCAC
     static bool UpdateInputFrame(ByRef<::LIV::SDK::Unity::SDKInputFrame> setframe);
     // static public LIV.SDK.Unity.SDKTexture GetViewfinderTexture()
-    // Offset: 0x29B036C
+    // Offset: 0x2A30064
     static ::LIV::SDK::Unity::SDKTexture GetViewfinderTexture();
     // static public System.Void AddTexture(LIV.SDK.Unity.SDKTexture texture)
-    // Offset: 0x29B0554
+    // Offset: 0x2A3024C
     static void AddTexture(::LIV::SDK::Unity::SDKTexture texture);
     // static public System.Void CreateFrame(LIV.SDK.Unity.SDKOutputFrame frame)
-    // Offset: 0x29B066C
+    // Offset: 0x2A30364
     static void CreateFrame(::LIV::SDK::Unity::SDKOutputFrame frame);
     // static public System.Void SetGroundPlane(LIV.SDK.Unity.SDKPlane groundPlane)
-    // Offset: 0x29B07BC
+    // Offset: 0x2A304B4
     static void SetGroundPlane(::LIV::SDK::Unity::SDKPlane groundPlane);
     // static public System.Boolean GetResolution(ref LIV.SDK.Unity.SDKResolution sdkResolution)
-    // Offset: 0x29B0854
+    // Offset: 0x2A3054C
     static bool GetResolution(ByRef<::LIV::SDK::Unity::SDKResolution> sdkResolution);
   }; // LIV.SDK.Unity.SDKBridge
   #pragma pack(pop)

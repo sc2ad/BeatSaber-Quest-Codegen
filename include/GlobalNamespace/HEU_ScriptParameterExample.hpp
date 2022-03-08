@@ -85,13 +85,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single _scale
     float& dyn__scale();
     // public System.Void Start()
-    // Offset: 0x1632A2C
+    // Offset: 0x16A0598
     void Start();
     // private System.Void UpdateGravity()
-    // Offset: 0x1632C4C
+    // Offset: 0x16A07B8
     void UpdateGravity();
     // public System.Void .ctor()
-    // Offset: 0x1632D7C
+    // Offset: 0x16A08E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

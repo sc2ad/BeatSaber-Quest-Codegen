@@ -126,71 +126,38 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaContentType contentType
     ::System::Xml::Schema::XmlSchemaContentType& dyn_contentType();
     // public System.Xml.Schema.XmlSchemaValidity get_Validity()
-    // Offset: 0x18BD528
+    // Offset: 0x2023E58
     ::System::Xml::Schema::XmlSchemaValidity get_Validity();
-    // public System.Void set_Validity(System.Xml.Schema.XmlSchemaValidity value)
-    // Offset: 0x18BD530
-    void set_Validity(::System::Xml::Schema::XmlSchemaValidity value);
     // public System.Boolean get_IsDefault()
-    // Offset: 0x18BD538
+    // Offset: 0x2023E60
     bool get_IsDefault();
-    // public System.Void set_IsDefault(System.Boolean value)
-    // Offset: 0x18BD540
-    void set_IsDefault(bool value);
     // public System.Boolean get_IsNil()
-    // Offset: 0x18BD54C
+    // Offset: 0x2023E68
     bool get_IsNil();
-    // public System.Void set_IsNil(System.Boolean value)
-    // Offset: 0x18BD554
-    void set_IsNil(bool value);
     // public System.Xml.Schema.XmlSchemaSimpleType get_MemberType()
-    // Offset: 0x18BD560
+    // Offset: 0x2023E70
     ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
-    // public System.Void set_MemberType(System.Xml.Schema.XmlSchemaSimpleType value)
-    // Offset: 0x18BD568
-    void set_MemberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
     // public System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0x18BD570
+    // Offset: 0x2023E78
     ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
-    // public System.Void set_SchemaType(System.Xml.Schema.XmlSchemaType value)
-    // Offset: 0x18BD578
-    void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
     // public System.Xml.Schema.XmlSchemaElement get_SchemaElement()
-    // Offset: 0x18BD594
+    // Offset: 0x2023E80
     ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
-    // public System.Void set_SchemaElement(System.Xml.Schema.XmlSchemaElement value)
-    // Offset: 0x18BD59C
-    void set_SchemaElement(::System::Xml::Schema::XmlSchemaElement* value);
     // public System.Xml.Schema.XmlSchemaAttribute get_SchemaAttribute()
-    // Offset: 0x18BD5AC
+    // Offset: 0x2023E88
     ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
-    // public System.Void set_SchemaAttribute(System.Xml.Schema.XmlSchemaAttribute value)
-    // Offset: 0x18BD5B4
-    void set_SchemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value);
-    // public System.Xml.Schema.XmlSchemaContentType get_ContentType()
-    // Offset: 0x18BD5C4
-    ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
-    // System.Xml.Schema.XmlSchemaType get_XmlType()
-    // Offset: 0x18BD5CC
-    ::System::Xml::Schema::XmlSchemaType* get_XmlType();
-    // System.Boolean get_HasDefaultValue()
-    // Offset: 0x18BD5E4
-    bool get_HasDefaultValue();
-    // System.Boolean get_IsUnionType()
-    // Offset: 0x18BD618
-    bool get_IsUnionType();
     // System.Void .ctor(System.Xml.Schema.XmlSchemaValidity validity)
-    // Offset: 0x18BD4EC
+    // Offset: 0x2023E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaInfo* New_ctor(::System::Xml::Schema::XmlSchemaValidity validity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaInfo*, creationType>(validity)));
     }
     // System.Void Clear()
-    // Offset: 0x18BD4D4
+    // Offset: 0x2023E04
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x18BD49C
+    // Offset: 0x2023DCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -212,30 +179,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_Validity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::set_Validity
-// Il2CppName: set_Validity
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaInfo::*)(::System::Xml::Schema::XmlSchemaValidity)>(&System::Xml::Schema::XmlSchemaInfo::set_Validity)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaValidity")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "set_Validity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_IsDefault
 // Il2CppName: get_IsDefault
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::XmlSchemaInfo::*)()>(&System::Xml::Schema::XmlSchemaInfo::get_IsDefault)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_IsDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::set_IsDefault
-// Il2CppName: set_IsDefault
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaInfo::*)(bool)>(&System::Xml::Schema::XmlSchemaInfo::set_IsDefault)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "set_IsDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_IsNil
@@ -246,30 +195,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_IsNil", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::set_IsNil
-// Il2CppName: set_IsNil
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaInfo::*)(bool)>(&System::Xml::Schema::XmlSchemaInfo::set_IsNil)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "set_IsNil", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_MemberType
 // Il2CppName: get_MemberType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (System::Xml::Schema::XmlSchemaInfo::*)()>(&System::Xml::Schema::XmlSchemaInfo::get_MemberType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::set_MemberType
-// Il2CppName: set_MemberType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaInfo::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(&System::Xml::Schema::XmlSchemaInfo::set_MemberType)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSimpleType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "set_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_SchemaType
@@ -280,15 +211,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_SchemaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::set_SchemaType
-// Il2CppName: set_SchemaType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaInfo::*)(::System::Xml::Schema::XmlSchemaType*)>(&System::Xml::Schema::XmlSchemaInfo::set_SchemaType)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "set_SchemaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_SchemaElement
 // Il2CppName: get_SchemaElement
 template<>
@@ -297,62 +219,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::X
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_SchemaElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::set_SchemaElement
-// Il2CppName: set_SchemaElement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaInfo::*)(::System::Xml::Schema::XmlSchemaElement*)>(&System::Xml::Schema::XmlSchemaInfo::set_SchemaElement)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaElement")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "set_SchemaElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_SchemaAttribute
 // Il2CppName: get_SchemaAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (System::Xml::Schema::XmlSchemaInfo::*)()>(&System::Xml::Schema::XmlSchemaInfo::get_SchemaAttribute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_SchemaAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::set_SchemaAttribute
-// Il2CppName: set_SchemaAttribute
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaInfo::*)(::System::Xml::Schema::XmlSchemaAttribute*)>(&System::Xml::Schema::XmlSchemaInfo::set_SchemaAttribute)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaAttribute")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "set_SchemaAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_ContentType
-// Il2CppName: get_ContentType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaContentType (System::Xml::Schema::XmlSchemaInfo::*)()>(&System::Xml::Schema::XmlSchemaInfo::get_ContentType)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_XmlType
-// Il2CppName: get_XmlType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (System::Xml::Schema::XmlSchemaInfo::*)()>(&System::Xml::Schema::XmlSchemaInfo::get_XmlType)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_XmlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_HasDefaultValue
-// Il2CppName: get_HasDefaultValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::XmlSchemaInfo::*)()>(&System::Xml::Schema::XmlSchemaInfo::get_HasDefaultValue)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_HasDefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::get_IsUnionType
-// Il2CppName: get_IsUnionType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::XmlSchemaInfo::*)()>(&System::Xml::Schema::XmlSchemaInfo::get_IsUnionType)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaInfo*), "get_IsUnionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaInfo::New_ctor

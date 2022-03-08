@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::NoteMovement* noteMovement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteMovement*) == 0x8);
-    // [InjectAttribute] Offset: 0x1242034
+    // [InjectAttribute] Offset: 0x10B7320
     // private NoteTrailParticleSystem _noteTrailParticleSystem
     // Size: 0x8
     // Offset: 0x28
@@ -83,22 +83,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteTrailParticleSystem _noteTrailParticleSystem
     ::GlobalNamespace::NoteTrailParticleSystem*& dyn__noteTrailParticleSystem();
     // protected System.Void Awake()
-    // Offset: 0x2B31540
+    // Offset: 0x14E96F0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B31620
+    // Offset: 0x14E97D0
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x2B31728
+    // Offset: 0x14E98D8
     void Update();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0x2B318E4
+    // Offset: 0x14E9A94
     void HandleNoteMovementDidInit();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0x2B318F0
+    // Offset: 0x14E9AA0
     void HandleNoteDidStartJump();
     // public System.Void .ctor()
-    // Offset: 0x2B318FC
+    // Offset: 0x14E9AAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

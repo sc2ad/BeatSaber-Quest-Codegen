@@ -157,43 +157,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private ServiceEnvironment _serviceEnvironment
     ::GlobalNamespace::ServiceEnvironment& dyn__serviceEnvironment();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x2B23B20
+    // Offset: 0x1409BE8
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x2B23B28
+    // Offset: 0x1409BF0
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x2B23B30
+    // Offset: 0x1409BF8
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x2B23B38
+    // Offset: 0x1409C00
     int get_multiplayerPort();
     // public DnsEndPoint get_masterServerEndPoint()
-    // Offset: 0x2B23B40
+    // Offset: 0x1409C08
     ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
     // public System.String get_multiplayerStatusUrl()
-    // Offset: 0x2B23BB8
+    // Offset: 0x1409C80
     ::StringW get_multiplayerStatusUrl();
     // public System.String get_quickPlaySetupUrl()
-    // Offset: 0x2B23BC0
+    // Offset: 0x1409C88
     ::StringW get_quickPlaySetupUrl();
     // public System.String get_graphUrl()
-    // Offset: 0x2B23BC8
+    // Offset: 0x1409C90
     ::StringW get_graphUrl();
     // public System.String get_graphAccessToken()
-    // Offset: 0x2B23BD0
+    // Offset: 0x1409C98
     ::StringW get_graphAccessToken();
     // public System.Boolean get_forceGameLift()
-    // Offset: 0x2B23C64
+    // Offset: 0x1409D2C
     bool get_forceGameLift();
     // public ServiceEnvironment get_serviceEnvironment()
-    // Offset: 0x2B23C6C
+    // Offset: 0x1409D34
     ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
     // private System.String GetAppId()
-    // Offset: 0x2B23C34
+    // Offset: 0x1409CFC
     ::StringW GetAppId();
     // public System.Void .ctor()
-    // Offset: 0x2B23C74
+    // Offset: 0x1409D3C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -85,10 +85,10 @@ namespace GlobalNamespace {
     // Get instance field reference: protected UnityEngine.Color _color
     ::UnityEngine::Color& dyn__color();
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
-    // Offset: 0x2AC7034
+    // Offset: 0x12E603C
     void InitAndPresent(::StringW text, float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float fontSize, bool shake);
     // public System.Void .ctor()
-    // Offset: 0x2AC7124
+    // Offset: 0x12E6120
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x2AC70A8
+    // Offset: 0x12E60B0
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

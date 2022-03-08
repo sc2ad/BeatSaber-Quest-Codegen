@@ -93,10 +93,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // System.Void <LoadContentCatalogInternal>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> op)
-    // Offset: 0x17E79D8
+    // Offset: 0x189A188
     void $LoadContentCatalogInternal$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op);
     // public System.Void .ctor()
-    // Offset: 0x17E75AC
+    // Offset: 0x1899D5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

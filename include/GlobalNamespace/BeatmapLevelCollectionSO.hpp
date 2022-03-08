@@ -23,6 +23,12 @@ namespace GlobalNamespace {
   // Forward declaring type: IPreviewBeatmapLevel
   class IPreviewBeatmapLevel;
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
+  class IReadOnlyList_1;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -64,11 +70,11 @@ namespace GlobalNamespace {
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO[] _beatmapLevels
     ::ArrayW<::GlobalNamespace::BeatmapLevelSO*>& dyn__beatmapLevels();
-    // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x14BEA8C
-    ::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();
+    // public System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> get_beatmapLevels()
+    // Offset: 0x14FDD68
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x14BEA94
+    // Offset: 0x14FDD70
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -88,7 +94,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelCollectionSO::get_beatmapLevels
 // Il2CppName: get_beatmapLevels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*> (GlobalNamespace::BeatmapLevelCollectionSO::*)()>(&GlobalNamespace::BeatmapLevelCollectionSO::get_beatmapLevels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* (GlobalNamespace::BeatmapLevelCollectionSO::*)()>(&GlobalNamespace::BeatmapLevelCollectionSO::get_beatmapLevels)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelCollectionSO*), "get_beatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -76,16 +76,16 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> scales
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_scales();
     // System.Void <UpdateCurveInputForCustomAttributes>b__0(HoudiniEngineUnity.CurveNodeData data)
-    // Offset: 0x16B7FB0
+    // Offset: 0x1750C80
     void $UpdateCurveInputForCustomAttributes$b__0(::HoudiniEngineUnity::CurveNodeData* data);
     // System.Void <UpdateCurveInputForCustomAttributes>b__1(System.Int32 nIndex1, System.Int32 nIndex2, System.Single fCoeff, System.Int32 nInsertIndex)
-    // Offset: 0x16B8060
+    // Offset: 0x1750D30
     void $UpdateCurveInputForCustomAttributes$b__1(int nIndex1, int nIndex2, float fCoeff, int nInsertIndex);
     // System.Void <UpdateCurveInputForCustomAttributes>b__2(System.Int32 nIndex, System.Int32 nInsertIndex)
-    // Offset: 0x16B83F4
+    // Offset: 0x17510C4
     void $UpdateCurveInputForCustomAttributes$b__2(int nIndex, int nInsertIndex);
     // public System.Void .ctor()
-    // Offset: 0x16B7FA8
+    // Offset: 0x1750C78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

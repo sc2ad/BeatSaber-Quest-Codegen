@@ -75,13 +75,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public readonly ByteArrayNetSerializable cookie
     ::GlobalNamespace::ByteArrayNetSerializable*& dyn_cookie();
     // static public PacketPool`1<BGNet.Core.Messages.HelloVerifyRequest> get_pool()
-    // Offset: 0x2B7F988
+    // Offset: 0x15293D8
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::HelloVerifyRequest*>* get_pool();
     // public BGNet.Core.Messages.HelloVerifyRequest Init(System.Byte[] cookie)
-    // Offset: 0x2B84D7C
+    // Offset: 0x152E6CC
     ::BGNet::Core::Messages::HelloVerifyRequest* Init(::ArrayW<uint8_t> cookie);
     // public System.Void .ctor()
-    // Offset: 0x2B8837C
+    // Offset: 0x1531B98
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -91,17 +91,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<HelloVerifyRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2B882AC
+    // Offset: 0x1531AC8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2B882E0
+    // Offset: 0x1531AFC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x2B88314
+    // Offset: 0x1531B30
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

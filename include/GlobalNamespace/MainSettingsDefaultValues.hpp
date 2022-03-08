@@ -111,11 +111,10 @@ namespace GlobalNamespace {
     static int _get_kDefaultWindowResolutionHeight();
     // Set static field: static public System.Int32 kDefaultWindowResolutionHeight
     static void _set_kDefaultWindowResolutionHeight(int value);
-    // static field const value: static public System.Int32 kDefaultMirrorGraphicsSettings
-    static constexpr const int kDefaultMirrorGraphicsSettings = 1;
-    // Get static field: static public System.Int32 kDefaultMirrorGraphicsSettings
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B28A8
+    // Get static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
     static int _get_kDefaultMirrorGraphicsSettings();
-    // Set static field: static public System.Int32 kDefaultMirrorGraphicsSettings
+    // Set static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
     static void _set_kDefaultMirrorGraphicsSettings(int value);
     // static field const value: static public System.Int32 kDefaultMainEffectGraphicsSettings
     static constexpr const int kDefaultMainEffectGraphicsSettings = 0;
@@ -207,11 +206,14 @@ namespace GlobalNamespace {
     static int _get_kDefaultPauseButtonPressDurationLevel();
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
+    // static private System.Void .cctor()
+    // Offset: 0x13DE0BC
+    static void _cctor();
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x2BA9C0C
+    // Offset: 0x13DDF70
     static void SetFixedDefaultValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x2BA9D50
+    // Offset: 0x13DE0B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -223,6 +225,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MainSettingsDefaultValues::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues
 // Il2CppName: SetFixedDefaultValues
 template<>

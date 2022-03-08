@@ -63,16 +63,16 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x155DE20
+    // Offset: 0x15DE278
     void Init(::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x155DEA0
+    // Offset: 0x15DE2F8
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x155DF70
+    // Offset: 0x15DE3C8
     int PadCount(::ArrayW<uint8_t> input);
     // public System.Void .ctor()
-    // Offset: 0x155E020
+    // Offset: 0x15DE478
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

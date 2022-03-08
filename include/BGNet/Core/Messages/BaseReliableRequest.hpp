@@ -64,25 +64,25 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 <requestId>k__BackingField
     uint& dyn_$requestId$k__BackingField();
     // public System.UInt32 get_requestId()
-    // Offset: 0x2B83ADC
+    // Offset: 0x152D428
     uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x2B83AE4
+    // Offset: 0x152D430
     void set_requestId(uint value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2B838B4
+    // Offset: 0x152D200
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2B83A40
+    // Offset: 0x152D38C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();
     // private BGNet.Core.Messages.IUnconnectedReliableRequest BGNet.Core.Messages.IUnconnectedReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x2B83AEC
+    // Offset: 0x152D438
     ::BGNet::Core::Messages::IUnconnectedReliableRequest* BGNet_Core_Messages_IUnconnectedReliableRequest_WithRequestId(uint requestId);
     // protected System.Void .ctor()
-    // Offset: 0x2B83AD4
+    // Offset: 0x152D420
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

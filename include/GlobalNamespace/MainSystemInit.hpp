@@ -257,14 +257,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B034
+    // [SpaceAttribute] Offset: 0x10AFA9C
     // private AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B06C
+    // [SpaceAttribute] Offset: 0x10AFAD4
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x90
@@ -283,7 +283,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B0C4
+    // [SpaceAttribute] Offset: 0x10AFB2C
     // private TimeHelper _timeHelperPrefab
     // Size: 0x8
     // Offset: 0xA8
@@ -380,21 +380,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BloomPrePassLightsUpdateSystem* lightsUpdateSystemPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassLightsUpdateSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B1EC
+    // [SpaceAttribute] Offset: 0x10AFC54
     // private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B224
+    // [SpaceAttribute] Offset: 0x10AFC8C
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AlwaysOwnedContentContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B25C
+    // [SpaceAttribute] Offset: 0x10AFCC4
     // private PSVRHelper _psVRHelperPrefab
     // Size: 0x8
     // Offset: 0x138
@@ -419,7 +419,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DevicelessVRHelper*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B2C4
+    // [SpaceAttribute] Offset: 0x10AFD2C
     // private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
     // Size: 0x8
     // Offset: 0x158
@@ -444,7 +444,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SteamPlatformAdditionalContentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B32C
+    // [SpaceAttribute] Offset: 0x10AFD94
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
     // Offset: 0x178
@@ -487,7 +487,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B3C4
+    // [SpaceAttribute] Offset: 0x10AFE2C
     // private NetworkConfigSO _networkConfig
     // Size: 0x8
     // Offset: 0x1B0
@@ -512,14 +512,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PS4NetworkPlayerModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B42C
+    // [SpaceAttribute] Offset: 0x10AFE94
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x1D0
     ::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x123B464
+    // [SpaceAttribute] Offset: 0x10AFECC
     // private LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x1D8
@@ -668,28 +668,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MockPlayersModel _mockPlayersModel
     ::GlobalNamespace::MockPlayersModel*& dyn__mockPlayersModel();
     // public System.Void Init()
-    // Offset: 0x2A64124
+    // Offset: 0x13DF4C0
     void Init();
     // public System.Void PreInstall(MockPlayersModel mockPlayersModel)
-    // Offset: 0x2A644E0
+    // Offset: 0x13DF878
     void PreInstall(::GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x2A644E8
+    // Offset: 0x13DF880
     void InstallBindings(::Zenject::DiContainer* container);
     // private System.Void InstallRichPresence(Zenject.DiContainer container)
-    // Offset: 0x2A656B8
+    // Offset: 0x13E0A50
     void InstallRichPresence(::Zenject::DiContainer* container);
     // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
-    // Offset: 0x2A655DC
+    // Offset: 0x13E0974
     void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
     // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
-    // Offset: 0x2A65778
+    // Offset: 0x13E0B10
     void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container);
     // private System.Boolean IsRunningFromNUnit()
-    // Offset: 0x2A655D4
+    // Offset: 0x13E096C
     bool IsRunningFromNUnit();
     // public System.Void .ctor()
-    // Offset: 0x2A658BC
+    // Offset: 0x13E0C54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

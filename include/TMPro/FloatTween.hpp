@@ -91,43 +91,43 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x1403A7C
+    // Offset: 0x1425474
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x1403A84
+    // Offset: 0x142547C
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x1403A8C
+    // Offset: 0x1425484
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x1403A94
+    // Offset: 0x142548C
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x1403A9C
+    // Offset: 0x1425494
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x1403AA4
+    // Offset: 0x142549C
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x1403AAC
+    // Offset: 0x14254A4
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x1403AB4
+    // Offset: 0x14254AC
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x1403AC0
+    // Offset: 0x14254B8
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x1403B90
+    // Offset: 0x1425588
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x1403C6C
+    // Offset: 0x1425664
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x1403C74
+    // Offset: 0x142566C
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x1403B80
+    // Offset: 0x1425578
     bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)

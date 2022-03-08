@@ -63,24 +63,19 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlNode container
     ::System::Xml::XmlNode*& dyn_container();
     // public System.Void .ctor(System.Xml.XmlNode container)
-    // Offset: 0x16239F0
+    // Offset: 0x1B8F5A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlChildNodes* New_ctor(::System::Xml::XmlNode* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlChildNodes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlChildNodes*, creationType>(container)));
     }
     // public override System.Int32 get_Count()
-    // Offset: 0x1623A84
+    // Offset: 0x1B8F5CC
     // Implemented from: System.Xml.XmlNodeList
     // Base method: System.Int32 XmlNodeList::get_Count()
     int get_Count();
-    // public override System.Xml.XmlNode Item(System.Int32 i)
-    // Offset: 0x1623A1C
-    // Implemented from: System.Xml.XmlNodeList
-    // Base method: System.Xml.XmlNode XmlNodeList::Item(System.Int32 i)
-    ::System::Xml::XmlNode* Item(int i);
     // public override System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1623ADC
+    // Offset: 0x1B8F624
     // Implemented from: System.Xml.XmlNodeList
     // Base method: System.Collections.IEnumerator XmlNodeList::GetEnumerator()
     ::System::Collections::IEnumerator* GetEnumerator();
@@ -100,15 +95,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlChildNodes::*)()>(&System::Xml::XmlChildNodes::get_Count)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlChildNodes*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: System::Xml::XmlChildNodes::Item
-// Il2CppName: Item
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlChildNodes::*)(int)>(&System::Xml::XmlChildNodes::Item)> {
-  static const MethodInfo* get() {
-    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlChildNodes*), "Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlChildNodes::GetEnumerator

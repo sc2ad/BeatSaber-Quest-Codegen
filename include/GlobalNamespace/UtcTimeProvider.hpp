@@ -46,22 +46,22 @@ namespace GlobalNamespace {
     operator ::BGNet::Core::ITimeProvider() noexcept {
       return *reinterpret_cast<::BGNet::Core::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1222458
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1097334
     // Get static field: static private readonly System.DateTime _epoch
     static ::System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(::System::DateTime value);
     // static private System.Void .cctor()
-    // Offset: 0x2E07854
+    // Offset: 0x2610F1C
     static void _cctor();
     // public System.Int64 GetTimeMs()
-    // Offset: 0x2E076FC
+    // Offset: 0x2610DC4
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2E077D4
+    // Offset: 0x2610E9C
     ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x2E0784C
+    // Offset: 0x2610F14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public QuickPlaySetupData[] data
     ::ArrayW<::GlobalNamespace::QuickPlaySetupData*>& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x13EC2C0
+    // Offset: 0x13C5F24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

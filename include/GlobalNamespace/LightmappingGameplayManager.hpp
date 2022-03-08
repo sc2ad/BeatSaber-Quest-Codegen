@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IBeatmapObjectCallbackController
-  class IBeatmapObjectCallbackController;
+  // Forward declaring type: BeatmapCallbacksController
+  class BeatmapCallbacksController;
 }
 // Completed forward declares
 // Type namespace: 
@@ -44,23 +44,23 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1242FE4
-    // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    // [InjectAttribute] Offset: 0x10B82C0
+    // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x18
-    ::GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
+    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
-    ::GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
+    // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
+    ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // protected System.Void Start()
-    // Offset: 0x147E760
+    // Offset: 0x14D1728
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x147EAA4
+    // Offset: 0x14D18A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     }
   }; // LightmappingGameplayManager
   #pragma pack(pop)
-  static check_size<sizeof(LightmappingGameplayManager), 24 + sizeof(::GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_LightmappingGameplayManagerSizeCheck;
+  static check_size<sizeof(LightmappingGameplayManager), 24 + sizeof(::GlobalNamespace::BeatmapCallbacksController*)> __GlobalNamespace_LightmappingGameplayManagerSizeCheck;
   static_assert(sizeof(LightmappingGameplayManager) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -57,14 +57,14 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x1266454
+    // [TooltipAttribute] Offset: 0x10DD0E8
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
     ::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector*> effectorHitPoints;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x126648C
+    // [TooltipAttribute] Offset: 0x10DD120
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
@@ -77,13 +77,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     ::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointBone*>& dyn_boneHitPoints();
     // public System.Boolean get_inProgress()
-    // Offset: 0x21C9574
+    // Offset: 0x21FDA70
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x21C9864
+    // Offset: 0x21FDD60
     void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x21C9BD0
+    // Offset: 0x21FE0CC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -97,7 +97,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x21C9644
+    // Offset: 0x21FDB40
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

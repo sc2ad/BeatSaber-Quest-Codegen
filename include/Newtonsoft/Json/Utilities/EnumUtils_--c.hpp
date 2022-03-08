@@ -25,6 +25,11 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: EnumMemberAttribute
   class EnumMemberAttribute;
 }
+// Forward declaring namespace: System::Reflection
+namespace System::Reflection {
+  // Forward declaring type: FieldInfo
+  class FieldInfo;
+}
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::EnumUtils::$$c);
@@ -38,24 +43,29 @@ namespace Newtonsoft::Json::Utilities {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EnumUtils::$$c : public ::Il2CppObject {
     public:
-    // [NullableAttribute] Offset: 0x1204870
     // Get static field: static public readonly Newtonsoft.Json.Utilities.EnumUtils/Newtonsoft.Json.Utilities.<>c <>9
     static ::Newtonsoft::Json::Utilities::EnumUtils::$$c* _get_$$9();
     // Set static field: static public readonly Newtonsoft.Json.Utilities.EnumUtils/Newtonsoft.Json.Utilities.<>c <>9
     static void _set_$$9(::Newtonsoft::Json::Utilities::EnumUtils::$$c* value);
-    // [NullableAttribute] Offset: 0x1204884
-    // Get static field: static public System.Func`2<System.Runtime.Serialization.EnumMemberAttribute,System.String> <>9__3_0
-    static ::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* _get_$$9__3_0();
-    // Set static field: static public System.Func`2<System.Runtime.Serialization.EnumMemberAttribute,System.String> <>9__3_0
-    static void _set_$$9__3_0(::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* value);
+    // Get static field: static public System.Func`2<System.Runtime.Serialization.EnumMemberAttribute,System.String> <>9__1_0
+    static ::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* _get_$$9__1_0();
+    // Set static field: static public System.Func`2<System.Runtime.Serialization.EnumMemberAttribute,System.String> <>9__1_0
+    static void _set_$$9__1_0(::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::StringW>* value);
+    // Get static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__5_0
+    static ::System::Func_2<::System::Reflection::FieldInfo*, bool>* _get_$$9__5_0();
+    // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__5_0
+    static void _set_$$9__5_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19E44E0
+    // Offset: 0x2059D64
     static void _cctor();
-    // System.String <InitializeValuesAndNames>b__3_0(System.Runtime.Serialization.EnumMemberAttribute a)
-    // Offset: 0x19E454C
-    ::StringW $InitializeValuesAndNames$b__3_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
+    // System.String <InitializeEnumType>b__1_0(System.Runtime.Serialization.EnumMemberAttribute a)
+    // Offset: 0x2059DD0
+    ::StringW $InitializeEnumType$b__1_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
+    // System.Boolean <GetValues>b__5_0(System.Reflection.FieldInfo f)
+    // Offset: 0x2059DE8
+    bool $GetValues$b__5_0(::System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0x19E4544
+    // Offset: 0x2059DC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,13 +85,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::EnumUtils::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::$$c::$InitializeValuesAndNames$b__3_0
-// Il2CppName: <InitializeValuesAndNames>b__3_0
+// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::$$c::$InitializeEnumType$b__1_0
+// Il2CppName: <InitializeEnumType>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Utilities::EnumUtils::$$c::*)(::System::Runtime::Serialization::EnumMemberAttribute*)>(&Newtonsoft::Json::Utilities::EnumUtils::$$c::$InitializeValuesAndNames$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Utilities::EnumUtils::$$c::*)(::System::Runtime::Serialization::EnumMemberAttribute*)>(&Newtonsoft::Json::Utilities::EnumUtils::$$c::$InitializeEnumType$b__1_0)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "EnumMemberAttribute")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::EnumUtils::$$c*), "<InitializeValuesAndNames>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
+    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::EnumUtils::$$c*), "<InitializeEnumType>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
+  }
+};
+// Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::$$c::$GetValues$b__5_0
+// Il2CppName: <GetValues>b__5_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::EnumUtils::$$c::*)(::System::Reflection::FieldInfo*)>(&Newtonsoft::Json::Utilities::EnumUtils::$$c::$GetValues$b__5_0)> {
+  static const MethodInfo* get() {
+    static auto* f = &::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::EnumUtils::$$c*), "<GetValues>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
 };
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::$$c::New_ctor

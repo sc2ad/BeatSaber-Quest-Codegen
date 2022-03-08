@@ -44,14 +44,12 @@ namespace Newtonsoft::Json::Utilities {
     protected:
     #endif
     #endif
-    // [NullableAttribute] Offset: 0x1204ED8
     // public System.Type type
     // Size: 0x8
     // Offset: 0x0
     ::System::Type* type;
     // Field size check
     static_assert(sizeof(::System::Type*) == 0x8);
-    // [NullableAttribute] Offset: 0x1204EEC
     // public System.Reflection.ConstructorInfo constructorInfo
     // Size: 0x8
     // Offset: 0x0

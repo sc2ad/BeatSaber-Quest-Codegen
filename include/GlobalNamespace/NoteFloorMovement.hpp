@@ -62,15 +62,15 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x12403C0
-    // private PlayerTransforms _playerTransforms
+    // [InjectAttribute] Offset: 0x10B4EDC
+    // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x12403D0
-    // private IAudioTimeSource _audioTimeSyncController
+    // [InjectAttribute] Offset: 0x10B4EEC
+    // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
@@ -129,9 +129,9 @@ namespace GlobalNamespace {
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _rotatedObject
     ::UnityEngine::Transform*& dyn__rotatedObject();
-    // Get instance field reference: private PlayerTransforms _playerTransforms
+    // Get instance field reference: private readonly PlayerTransforms _playerTransforms
     ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
-    // Get instance field reference: private IAudioTimeSource _audioTimeSyncController
+    // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController
     ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action floorMovementDidFinishEvent
     ::System::Action*& dyn_floorMovementDidFinishEvent();
@@ -150,46 +150,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
     ::UnityEngine::Vector3& dyn__localPosition();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x2B2E528
+    // Offset: 0x14E5E08
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0x2B2E614
+    // Offset: 0x14E5EF4
     ::UnityEngine::Vector3 get_startPos();
     // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0x2B2E620
+    // Offset: 0x14E5F00
     ::UnityEngine::Vector3 get_endPos();
     // public System.Single get_startTime()
-    // Offset: 0x2B2E62C
+    // Offset: 0x14E5F0C
     float get_startTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x2B2E634
+    // Offset: 0x14E5F14
     float get_moveDuration();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x2B2E63C
+    // Offset: 0x14E5F1C
     ::UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x2B2E648
+    // Offset: 0x14E5F28
     ::UnityEngine::Quaternion get_inverseWorldRotation();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x2B2E654
+    // Offset: 0x14E5F34
     ::UnityEngine::Vector3 get_localPosition();
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x2B2E3E0
+    // Offset: 0x14E5CC0
     void add_floorMovementDidFinishEvent(::System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x2B2E484
+    // Offset: 0x14E5D64
     void remove_floorMovementDidFinishEvent(::System::Action* value);
     // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0x2B2E660
+    // Offset: 0x14E5F40
     void Init(float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float moveDuration, float startTime);
     // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0x2B2E758
+    // Offset: 0x14E6038
     ::UnityEngine::Vector3 SetToStart();
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x2B2E888
+    // Offset: 0x14E6168
     ::UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x2B2EA6C
+    // Offset: 0x14E634C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

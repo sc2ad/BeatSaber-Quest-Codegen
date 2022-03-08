@@ -79,14 +79,14 @@ namespace GlobalNamespace {
     ::UnityEngine::BoxCollider* boxCollider;
     // Field size check
     static_assert(sizeof(::UnityEngine::BoxCollider*) == 0x8);
-    // [InjectAttribute] Offset: 0x12417E4
+    // [InjectAttribute] Offset: 0x10B68D0
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x12417F4
+    // [InjectAttribute] Offset: 0x10B68E0
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
@@ -163,25 +163,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
     ::UnityEngine::ParticleSystem::EmitParams& dyn__sparklesEmitParams();
     // protected System.Void Start()
-    // Offset: 0x2B540D4
+    // Offset: 0x13CEC68
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B5455C
+    // Offset: 0x13CF0F0
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x2B54668
+    // Offset: 0x13CF1FC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2B54758
+    // Offset: 0x13CF2EC
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x2B54848
+    // Offset: 0x13CF3DC
     bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0x2B54AE0
+    // Offset: 0x13CF674
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x2B54F90
+    // Offset: 0x13CFB24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

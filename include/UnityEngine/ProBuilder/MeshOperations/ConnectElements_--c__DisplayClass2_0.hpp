@@ -64,13 +64,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // System.Int32 <Connect>b__0(System.Int32 x)
-    // Offset: 0x19C1A40
+    // Offset: 0x19F87F0
     int $Connect$b__0(int x);
     // System.Int32 <Connect>b__3(System.Int32 x)
-    // Offset: 0x19C1AA8
+    // Offset: 0x19F8858
     int $Connect$b__3(int x);
     // public System.Void .ctor()
-    // Offset: 0x19BF6E8
+    // Offset: 0x19F6498
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

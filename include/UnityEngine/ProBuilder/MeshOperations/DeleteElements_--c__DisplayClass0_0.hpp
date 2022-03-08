@@ -63,19 +63,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32[] offset
     ::ArrayW<int>& dyn_offset();
     // System.Boolean <DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x19C2784
+    // Offset: 0x19F9534
     bool $DeleteVertices$b__0(::System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x19C27F4
+    // Offset: 0x19F95A4
     ::System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__1(::System::Collections::Generic::KeyValuePair_2<int, int> y);
     // System.Boolean <DeleteVertices>b__2(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x19C2894
+    // Offset: 0x19F9644
     bool $DeleteVertices$b__2(::System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__3(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x19C2904
+    // Offset: 0x19F96B4
     ::System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__3(::System::Collections::Generic::KeyValuePair_2<int, int> y);
     // public System.Void .ctor()
-    // Offset: 0x19C1FD0
+    // Offset: 0x19F8D80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

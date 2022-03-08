@@ -31,10 +31,10 @@ namespace Mono::Net {
   class CFNumber : public ::Mono::Net::CFObject {
     public:
     // static private System.Boolean CFNumberGetValue(System.IntPtr handle, System.IntPtr type, out System.Int32 value)
-    // Offset: 0x1A2DB60
+    // Offset: 0x1AB735C
     static bool CFNumberGetValue(::System::IntPtr handle, ::System::IntPtr type, ByRef<int> value);
     // static public System.Int32 AsInt32(System.IntPtr handle)
-    // Offset: 0x1A2DC00
+    // Offset: 0x1AB73FC
     static int AsInt32(::System::IntPtr handle);
   }; // Mono.Net.CFNumber
   #pragma pack(pop)

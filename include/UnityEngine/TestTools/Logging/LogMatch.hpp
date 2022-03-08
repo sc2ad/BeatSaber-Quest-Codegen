@@ -92,19 +92,19 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.String m_LogType
     ::StringW& dyn_m_LogType();
     // public System.String get_Message()
-    // Offset: 0x18D8CC4
+    // Offset: 0x19548B4
     ::StringW get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
-    // Offset: 0x18D8CCC
+    // Offset: 0x19548BC
     ::System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
-    // Offset: 0x18D8D44
+    // Offset: 0x1954934
     ::System::Nullable_1<::UnityEngine::LogType> get_LogType();
     // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x18D8E60
+    // Offset: 0x1954A50
     bool Matches(::UnityEngine::TestTools::Logging::LogEvent* log);
     // public System.Void .ctor()
-    // Offset: 0x18D9000
+    // Offset: 0x1954BF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -113,7 +113,7 @@ namespace UnityEngine::TestTools::Logging {
       return THROW_UNLESS((::il2cpp_utils::New<LogMatch*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x18D8F38
+    // Offset: 0x1954B28
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

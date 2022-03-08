@@ -35,10 +35,10 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static void _set_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()
-    // Offset: 0x22C8F74
+    // Offset: 0x2321DF4
     static ::System::Security::Cryptography::RandomNumberGenerator* get_Rng();
     // static public System.Byte[] Key(System.Int32 size)
-    // Offset: 0x22C7FE4
+    // Offset: 0x2320E64
     static ::ArrayW<uint8_t> Key(int size);
   }; // Mono.Security.Cryptography.KeyBuilder
   #pragma pack(pop)

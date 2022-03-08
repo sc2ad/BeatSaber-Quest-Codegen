@@ -55,16 +55,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Mesh,HoudiniEngineUnity.Test_Mesh> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A0ED54
+    // Offset: 0x2A73F38
     static void _cctor();
     // HoudiniEngineUnity.Test_Mesh <ToTestObject>b__1_0(UnityEngine.Mesh lod)
-    // Offset: 0x2A0EDC0
+    // Offset: 0x2A73FA4
     ::HoudiniEngineUnity::Test_Mesh* $ToTestObject$b__1_0(::UnityEngine::Mesh* lod);
     // HoudiniEngineUnity.Test_Mesh <ToTestObject>b__2_0(UnityEngine.Mesh lod)
-    // Offset: 0x2A0EE24
+    // Offset: 0x2A74008
     ::HoudiniEngineUnity::Test_Mesh* $ToTestObject$b__2_0(::UnityEngine::Mesh* lod);
     // public System.Void .ctor()
-    // Offset: 0x2A0EDB8
+    // Offset: 0x2A73F9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

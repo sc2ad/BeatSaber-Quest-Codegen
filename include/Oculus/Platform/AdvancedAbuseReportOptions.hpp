@@ -61,19 +61,19 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     ::System::IntPtr& dyn_Handle();
     // public System.Void SetObjectType(System.String value)
-    // Offset: 0x1FD0748
+    // Offset: 0x20642D4
     void SetObjectType(::StringW value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1FD086C
+    // Offset: 0x20643F8
     void SetReportType(::Oculus::Platform::AbuseReportType value);
     // public System.Void SetVideoMode(Oculus.Platform.AbuseReportVideoMode value)
-    // Offset: 0x1FD0974
+    // Offset: 0x2064500
     void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.AdvancedAbuseReportOptions options)
-    // Offset: 0x1FD0A7C
+    // Offset: 0x2064608
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1FD0660
+    // Offset: 0x20641EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,7 +82,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<AdvancedAbuseReportOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1FD0ACC
+    // Offset: 0x2064658
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

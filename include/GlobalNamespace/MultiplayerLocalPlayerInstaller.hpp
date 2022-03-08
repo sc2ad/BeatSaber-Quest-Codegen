@@ -48,21 +48,21 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1247C14
+    // [InjectAttribute] Offset: 0x10BCE94
     // private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerLevelSceneSetupData* levelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1247C24
+    // [InjectAttribute] Offset: 0x10BCEA4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1247C34
+    // [InjectAttribute] Offset: 0x10BCEB4
     // private readonly MultiplayerPlayerStartState _startState
     // Size: 0x4
     // Offset: 0x30
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerPlayerStartState _startState
     ::GlobalNamespace::MultiplayerPlayerStartState& dyn__startState();
     // public System.Void .ctor()
-    // Offset: 0x144D0D4
+    // Offset: 0x13A2D74
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x144CEEC
+    // Offset: 0x13A2B8C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

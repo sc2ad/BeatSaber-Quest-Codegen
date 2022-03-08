@@ -59,10 +59,10 @@ namespace System::Xml {
     // Get instance field reference: public System.Uri uri
     ::System::Uri*& dyn_uri();
     // System.IO.Stream <GetStreamAsync>b__0()
-    // Offset: 0x1A1466C
+    // Offset: 0x1B99974
     ::System::IO::Stream* $GetStreamAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1A14524
+    // Offset: 0x1B9982C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

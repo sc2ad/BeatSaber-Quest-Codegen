@@ -73,22 +73,22 @@ namespace UnityEngine::TestRunner::Utils {
     // Set static field: static public System.Func`2<UnityEngine.TestRunner.TestRunCallbackAttribute,UnityEngine.TestRunner.ITestRunCallback> <>9__2_2
     static void _set_$$9__2_2(::System::Func_2<::UnityEngine::TestRunner::TestRunCallbackAttribute*, ::UnityEngine::TestRunner::ITestRunCallback*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18D51EC
+    // Offset: 0x1950DDC
     static void _cctor();
     // System.Boolean <GetAllCallbacks>b__2_0(System.Reflection.Assembly x)
-    // Offset: 0x18D5258
+    // Offset: 0x1950E48
     bool $GetAllCallbacks$b__2_0(::System::Reflection::Assembly* x);
     // System.Boolean <GetAllCallbacks>b__2_3(System.Reflection.AssemblyName z)
-    // Offset: 0x18D536C
+    // Offset: 0x1950F5C
     bool $GetAllCallbacks$b__2_3(::System::Reflection::AssemblyName* z);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute> <GetAllCallbacks>b__2_1(System.Reflection.Assembly assembly)
-    // Offset: 0x18D53C8
+    // Offset: 0x1950FB8
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>* $GetAllCallbacks$b__2_1(::System::Reflection::Assembly* assembly);
     // UnityEngine.TestRunner.ITestRunCallback <GetAllCallbacks>b__2_2(UnityEngine.TestRunner.TestRunCallbackAttribute attribute)
-    // Offset: 0x18D5470
+    // Offset: 0x1951060
     ::UnityEngine::TestRunner::ITestRunCallback* $GetAllCallbacks$b__2_2(::UnityEngine::TestRunner::TestRunCallbackAttribute* attribute);
     // public System.Void .ctor()
-    // Offset: 0x18D5250
+    // Offset: 0x1950E40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

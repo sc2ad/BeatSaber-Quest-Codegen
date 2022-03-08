@@ -25,12 +25,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IPreviewBeatmapLevel
-  class IPreviewBeatmapLevel;
-  // Forward declaring type: BeatmapCharacteristicSO
-  class BeatmapCharacteristicSO;
-  // Forward declaring type: BeatmapDifficulty
-  struct BeatmapDifficulty;
+  // Forward declaring type: PreviewDifficultyBeatmap
+  class PreviewDifficultyBeatmap;
 }
 // Completed forward declares
 // Type namespace: 
@@ -58,7 +54,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x124E4A4
+    // [SpaceAttribute] Offset: 0x10C333C
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x28
@@ -101,31 +97,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <showClearButton>k__BackingField
     bool& dyn_$showClearButton$k__BackingField();
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x13F8638
+    // Offset: 0x1422D04
     ::UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x13F8640
+    // Offset: 0x1422D0C
     ::UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x13F8648
+    // Offset: 0x1422D14
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x13F8650
+    // Offset: 0x1422D1C
     void set_interactable(bool value);
     // public System.Boolean get_showClearButton()
-    // Offset: 0x13F86BC
+    // Offset: 0x1422D88
     bool get_showClearButton();
     // public System.Void set_showClearButton(System.Boolean value)
-    // Offset: 0x13F86C4
+    // Offset: 0x1422D90
     void set_showClearButton(bool value);
     // public System.Void SetVisibility(System.Boolean visible)
-    // Offset: 0x13F86D0
+    // Offset: 0x1422D9C
     void SetVisibility(bool visible);
     // public System.Void Setup(System.Boolean showClearButton)
-    // Offset: 0x13F8704
+    // Offset: 0x1422DD0
     void Setup(bool showClearButton);
     // public System.Void .ctor()
-    // Offset: 0x13F876C
+    // Offset: 0x1422E4C
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -138,11 +134,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditableBeatmapSelectionView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditableBeatmapSelectionView*, creationType>()));
     }
-    // public override System.Void SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x13F8710
+    // public override System.Void SetBeatmap(PreviewDifficultyBeatmap beatmapLevel)
+    // Offset: 0x1422DDC
     // Implemented from: BeatmapSelectionView
-    // Base method: System.Void BeatmapSelectionView::SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    void SetBeatmap(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
+    // Base method: System.Void BeatmapSelectionView::SetBeatmap(PreviewDifficultyBeatmap beatmapLevel)
+    void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
   }; // EditableBeatmapSelectionView
   #pragma pack(pop)
   static check_size<sizeof(EditableBeatmapSelectionView), 65 + sizeof(bool)> __GlobalNamespace_EditableBeatmapSelectionViewSizeCheck;
@@ -224,11 +220,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EditableBeatmapSelectionView::SetBeatmap
 // Il2CppName: SetBeatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditableBeatmapSelectionView::*)(::GlobalNamespace::IPreviewBeatmapLevel*, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::EditableBeatmapSelectionView::SetBeatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditableBeatmapSelectionView::*)(::GlobalNamespace::PreviewDifficultyBeatmap*)>(&GlobalNamespace::EditableBeatmapSelectionView::SetBeatmap)> {
   static const MethodInfo* get() {
-    static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
-    static auto* beatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
-    static auto* beatmapDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableBeatmapSelectionView*), "SetBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel, beatmapCharacteristic, beatmapDifficulty});
+    static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmap")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableBeatmapSelectionView*), "SetBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
   }
 };

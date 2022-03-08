@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 pos
     ::UnityEngine::Vector3& dyn_pos();
     // public System.Void .ctor()
-    // Offset: 0x2B2C748
+    // Offset: 0x14E3254
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/Vector4f[] BlendWeights
     ::ArrayW<::GlobalNamespace::OVRPlugin::Vector4f>& dyn_BlendWeights();
     // public System.Void .ctor()
-    // Offset: 0x1A6F11C
+    // Offset: 0x1AF7918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

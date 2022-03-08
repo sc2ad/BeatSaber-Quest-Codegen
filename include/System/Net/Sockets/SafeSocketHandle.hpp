@@ -102,16 +102,16 @@ namespace System::Net::Sockets {
     // Get instance field reference: private System.Boolean in_cleanup
     bool& dyn_in_cleanup();
     // static private System.Void .cctor()
-    // Offset: 0x1CA79E0
+    // Offset: 0x1B55014
     static void _cctor();
     // public System.Void RegisterForBlockingSyscall()
-    // Offset: 0x1CA7598
+    // Offset: 0x1B54C40
     void RegisterForBlockingSyscall();
     // public System.Void UnRegisterForBlockingSyscall()
-    // Offset: 0x1CA7848
+    // Offset: 0x1B54E7C
     void UnRegisterForBlockingSyscall();
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0x1CA700C
+    // Offset: 0x1B546B4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -120,7 +120,7 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SafeSocketHandle*, creationType>(preexistingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1CA70C8
+    // Offset: 0x1B54770
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

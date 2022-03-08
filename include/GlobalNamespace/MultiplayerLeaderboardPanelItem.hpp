@@ -164,13 +164,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevNumberOfPlayers
     int& dyn__prevNumberOfPlayers();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x143D45C
+    // Offset: 0x1392D24
     void set_hide(bool value);
     // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
-    // Offset: 0x143D714
+    // Offset: 0x1392FDC
     void SetData(int position, ::StringW playerName, int score, bool failed, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x143DA30
+    // Offset: 0x13932F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
