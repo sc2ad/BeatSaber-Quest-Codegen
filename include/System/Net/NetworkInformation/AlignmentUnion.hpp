@@ -52,7 +52,8 @@ namespace System::Net::NetworkInformation {
     };
     public:
     // Creating value type constructor for type: AlignmentUnion
-    constexpr AlignmentUnion(uint64_t Alignment_ = {}, int IfIndex_ = {}) noexcept : Alignment{Alignment_}, IfIndex{IfIndex_} {}
+    constexpr AlignmentUnion(uint64_t Alignment_ = {}) noexcept : Alignment{Alignment_} {}
+    constexpr AlignmentUnion(int Length, int IfIndex) noexcept : data{__InternalUnionData{Length, IfIndex}} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
