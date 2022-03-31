@@ -29,6 +29,8 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapData;
   // Forward declaring type: EnvironmentInfoSO
   class EnvironmentInfoSO;
+  // Forward declaring type: PlayerSpecificSettings
+  class PlayerSpecificSettings;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
@@ -128,34 +130,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapData _beatmapData
     ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1423370
+    // Offset: 0x1416528
     ::GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x1423378
+    // Offset: 0x1416530
     ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1423380
+    // Offset: 0x1416538
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1423388
+    // Offset: 0x1416540
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1423390
+    // Offset: 0x1416548
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1423398
+    // Offset: 0x1416550
     float get_noteJumpStartBeatOffset();
     // public IBeatmapDataBasicInfo get_beatmapDataBasicInfo()
-    // Offset: 0x14233A0
+    // Offset: 0x1416558
     ::GlobalNamespace::IBeatmapDataBasicInfo* get_beatmapDataBasicInfo();
     // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x14233A8
+    // Offset: 0x1416560
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
-    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo)
-    // Offset: 0x14234A8
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
+    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x1416660
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void .ctor()
-    // Offset: 0x14235A8
+    // Offset: 0x1416760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -236,10 +238,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
 // Writing MetadataGetter for method: GlobalNamespace::EmptyDifficultyBeatmap::GetBeatmapDataAsync
 // Il2CppName: GetBeatmapDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (GlobalNamespace::EmptyDifficultyBeatmap::*)(::GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::EmptyDifficultyBeatmap::GetBeatmapDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (GlobalNamespace::EmptyDifficultyBeatmap::*)(::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::EmptyDifficultyBeatmap::GetBeatmapDataAsync)> {
   static const MethodInfo* get() {
     static auto* environmentInfo = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyDifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo});
+    static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyDifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo, playerSpecificSettings});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EmptyDifficultyBeatmap::New_ctor

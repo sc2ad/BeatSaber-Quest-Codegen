@@ -88,61 +88,61 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean forEncryption
     bool& dyn_forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23F0004
+    // Offset: 0x23C5DE8
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23F004C
+    // Offset: 0x23C5E30
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x23F053C
+    // Offset: 0x23C6320
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23EFD88
+    // Offset: 0x23C5B6C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x23F0054
+    // Offset: 0x23C5E38
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x23F005C
+    // Offset: 0x23C5E40
     int ProcessBlock(::ArrayW<uint8_t> inBuf, int inOff, ::ArrayW<uint8_t> outBuf, int outOff);
     // public System.Void Reset()
-    // Offset: 0x23F03A4
+    // Offset: 0x23C6188
     void Reset();
     // private System.Int32[] createWorkingKey(System.Byte[] inKey)
-    // Offset: 0x23EFE40
+    // Offset: 0x23C5C24
     ::ArrayW<int> createWorkingKey(::ArrayW<uint8_t> inKey);
     // private System.Int32 extractW1(System.Int64 lVal)
-    // Offset: 0x23F03B0
+    // Offset: 0x23C6194
     int extractW1(int64_t lVal);
     // private System.Int32 extractW0(System.Int64 lVal)
-    // Offset: 0x23F03A8
+    // Offset: 0x23C618C
     int extractW0(int64_t lVal);
     // private System.Int64 rotateLeft8(System.Int64 x)
-    // Offset: 0x23F04C4
+    // Offset: 0x23C62A8
     int64_t rotateLeft8(int64_t x);
     // private System.Int64 rotateRight8(System.Int64 x)
-    // Offset: 0x23F04BC
+    // Offset: 0x23C62A0
     int64_t rotateRight8(int64_t x);
     // private System.Int64 bytesToLong(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x23F0258
+    // Offset: 0x23C603C
     int64_t bytesToLong(::ArrayW<uint8_t> src, int srcOff);
     // private System.Void longToBytes(System.Byte[] dest, System.Int32 destOff, System.Int64 value)
-    // Offset: 0x23F0334
+    // Offset: 0x23C6118
     void longToBytes(::ArrayW<uint8_t> dest, int destOff, int64_t value);
     // private System.Int32 G(System.Int32 x)
-    // Offset: 0x23F03B8
+    // Offset: 0x23C619C
     int G(int x);
     // private System.Int64 F(System.Int32 ki0, System.Int32 ki1, System.Int64 r)
-    // Offset: 0x23F02C4
+    // Offset: 0x23C60A8
     int64_t F(int ki0, int ki1, int64_t r);
     // private System.Int32 phaseCalc1(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x23F0510
+    // Offset: 0x23C62F4
     int phaseCalc1(int r0, int ki0, int r1, int ki1);
     // private System.Int32 phaseCalc2(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x23F04CC
+    // Offset: 0x23C62B0
     int phaseCalc2(int r0, int ki0, int r1, int ki1);
     // public System.Void .ctor()
-    // Offset: 0x23F0680
+    // Offset: 0x23C6464
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

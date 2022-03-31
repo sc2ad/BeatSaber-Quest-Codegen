@@ -63,31 +63,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <lastFrameDeltaSongTime>k__BackingField
     float& dyn_$lastFrameDeltaSongTime$k__BackingField();
     // public System.Single get_songTime()
-    // Offset: 0x1339E48
+    // Offset: 0x13C3CD8
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x1339E50
+    // Offset: 0x13C3CE0
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x1339E58
+    // Offset: 0x13C3CE8
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x1339E60
+    // Offset: 0x13C3CF0
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x1339E68
+    // Offset: 0x13C3CF8
     float get_songEndTime();
     // public System.Single get_songLength()
-    // Offset: 0x1339E74
+    // Offset: 0x13C3D04
     float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0x1339E80
+    // Offset: 0x13C3D10
     bool get_isReady();
     // protected System.Void Update()
-    // Offset: 0x1339E88
+    // Offset: 0x13C3D18
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1339ECC
+    // Offset: 0x13C3D5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

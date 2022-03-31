@@ -195,34 +195,34 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> _buttonBindings
     ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>*& dyn__buttonBindings();
     // public System.Boolean get_enabled()
-    // Offset: 0x168D918
+    // Offset: 0x16847F8
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x168D920
+    // Offset: 0x1684800
     void set_enabled(bool value);
     // private System.Void Init()
-    // Offset: 0x168D954
+    // Offset: 0x1684834
     void Init();
     // public System.Void AddScrollBindings(System.Collections.Generic.List`1<System.Action`1<System.Single>> bindingData)
-    // Offset: 0x168D9EC
+    // Offset: 0x16848CC
     void AddScrollBindings(::System::Collections::Generic::List_1<::System::Action_1<float>*>* bindingData);
     // public System.Void AddScrollBinding(System.Action`1<System.Single> action)
-    // Offset: 0x168DAE4
+    // Offset: 0x16849C4
     void AddScrollBinding(::System::Action_1<float>* action);
     // public System.Void AddButtonBindings(System.Collections.Generic.List`1<System.Tuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> bindingData)
-    // Offset: 0x168DB84
+    // Offset: 0x1684A64
     void AddButtonBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>* bindingData);
     // public System.Void AddButtonBinding(HMUI.MouseBinder/HMUI.ButtonType buttonType, HMUI.MouseBinder/HMUI.MouseEventType keyBindingType, UnityEngine.Events.UnityAction action)
-    // Offset: 0x168DC90
+    // Offset: 0x1684B70
     void AddButtonBinding(::HMUI::MouseBinder::ButtonType buttonType, ::HMUI::MouseBinder::MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
     // public System.Void ClearBindings()
-    // Offset: 0x168DD68
+    // Offset: 0x1684C48
     void ClearBindings();
     // public System.Void ManualUpdate()
-    // Offset: 0x168DDC8
+    // Offset: 0x1684CA8
     void ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x168D92C
+    // Offset: 0x168480C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -51,25 +51,25 @@ namespace System::ComponentModel {
   class BaseNumberConverter : public ::System::ComponentModel::TypeConverter {
     public:
     // System.Boolean get_AllowHex()
-    // Offset: 0x1D76228
+    // Offset: 0x1D596F8
     bool get_AllowHex();
     // System.Type get_TargetType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_TargetType();
     // System.Object FromString(System.String value, System.Int32 radix)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* FromString(::StringW value, int radix);
     // System.Object FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // System.Exception FromStringError(System.String failedText, System.Exception innerException)
-    // Offset: 0x1D76230
+    // Offset: 0x1D59700
     ::System::Exception* FromStringError(::StringW failedText, ::System::Exception* innerException);
     // System.String ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::Il2CppObject* value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // protected System.Void .ctor()
-    // Offset: 0x1D76DE8
+    // Offset: 0x1D5A2B8
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -79,22 +79,22 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<BaseNumberConverter*, creationType>()));
     }
     // public override System.Boolean CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
-    // Offset: 0x1D76370
+    // Offset: 0x1D59840
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
     bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
     // public override System.Object ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
-    // Offset: 0x1D76494
+    // Offset: 0x1D59964
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
     ::Il2CppObject* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
     // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
-    // Offset: 0x1D76884
+    // Offset: 0x1D59D54
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
     // public override System.Boolean CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type t)
-    // Offset: 0x1D76D20
+    // Offset: 0x1D5A1F0
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type t)
     bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* t);

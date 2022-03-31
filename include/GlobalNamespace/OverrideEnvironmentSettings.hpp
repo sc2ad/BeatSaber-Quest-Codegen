@@ -70,13 +70,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<EnvironmentTypeSO,EnvironmentInfoSO> _data
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentTypeSO*, ::GlobalNamespace::EnvironmentInfoSO*>*& dyn__data();
     // public System.Void SetEnvironmentInfoForType(EnvironmentTypeSO environmentType, EnvironmentInfoSO environmentInfo)
-    // Offset: 0x134FA94
+    // Offset: 0x12E92E8
     void SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
     // public EnvironmentInfoSO GetOverrideEnvironmentInfoForType(EnvironmentTypeSO environmentType)
-    // Offset: 0x134FB04
+    // Offset: 0x12E9358
     ::GlobalNamespace::EnvironmentInfoSO* GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x134FB84
+    // Offset: 0x12E93D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

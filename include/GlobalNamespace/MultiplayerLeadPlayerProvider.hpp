@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     float timeToLooseLead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10BA674
+    // [InjectAttribute] Offset: 0x1254BE8
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA684
+    // [InjectAttribute] Offset: 0x1254BF8
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x28
@@ -122,34 +122,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer _currentlyLeadingUser
     ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyLeadingUser();
     // public System.Void add_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x13925FC
+    // Offset: 0x13F2414
     void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x13926A0
+    // Offset: 0x13F2370
     void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
     // protected System.Void Start()
-    // Offset: 0x1392744
+    // Offset: 0x13F5574
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1392814
+    // Offset: 0x13F5640
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x139296C
+    // Offset: 0x13F5794
     void Update();
     // private System.Void StopProviding()
-    // Offset: 0x1392A2C
+    // Offset: 0x13F5854
     void StopProviding();
     // private System.Void StartProviding()
-    // Offset: 0x1392AD0
+    // Offset: 0x13F58F8
     void StartProviding();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x1392804
+    // Offset: 0x13F5630
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer firstPlayer)
-    // Offset: 0x1392B78
+    // Offset: 0x13F59A0
     void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* firstPlayer);
     // public System.Void .ctor()
-    // Offset: 0x1392CA4
+    // Offset: 0x13F5ACC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

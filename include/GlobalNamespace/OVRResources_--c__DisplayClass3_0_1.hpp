@@ -60,14 +60,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::StringW*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool $Load$b__0(::StringW s) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1::<Load>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Load>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, s);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

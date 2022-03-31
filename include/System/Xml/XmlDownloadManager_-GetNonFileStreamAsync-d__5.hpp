@@ -135,10 +135,10 @@ namespace System::Xml {
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.WebResponse> <>u__1
     typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::Net::WebResponse*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1B99A08
+    // Offset: 0x1B7FED8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1B9A0A0
+    // Offset: 0x1B80570
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Xml.XmlDownloadManager/System.Xml.<GetNonFileStreamAsync>d__5
   // WARNING Not writing size check since size may be invalid!

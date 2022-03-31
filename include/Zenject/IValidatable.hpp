@@ -22,7 +22,7 @@ namespace Zenject {
   class IValidatable {
     public:
     // public System.Void Validate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Validate();
   }; // Zenject.IValidatable
   #pragma pack(pop)

@@ -82,29 +82,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,LobbyPlayerData> <>7__wrap1
     typename ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>::Enumerator& dyn_$$7__wrap1();
     // private System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ILobbyPlayerData>>.get_Current()
-    // Offset: 0x14DD250
+    // Offset: 0x152335C
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> System_Collections_Generic_IEnumerator$System_Collections_Generic_KeyValuePair$System_String_ILobbyPlayerData$$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14DD2BC
+    // Offset: 0x15233C8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x14DCC58
+    // Offset: 0x1522D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyPlayersDataModel::$GetEnumerator$d__60* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyPlayersDataModel::$GetEnumerator$d__60::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayersDataModel::$GetEnumerator$d__60*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14DD064
+    // Offset: 0x1523170
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14DD0D8
+    // Offset: 0x15231E4
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x14DD080
+    // Offset: 0x152318C
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14DD25C
+    // Offset: 0x1523368
     void System_Collections_IEnumerator_Reset();
   }; // LobbyPlayersDataModel/<GetEnumerator>d__60
   // WARNING Not writing size check since size may be invalid!

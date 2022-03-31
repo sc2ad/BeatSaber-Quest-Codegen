@@ -173,7 +173,7 @@ namespace UnityEngine {
     // Get instance field reference: System.Object value
     ::Il2CppObject*& dyn_value();
     // System.Void .ctor(UnityEngine.GUILayoutOption/UnityEngine.Type type, System.Object value)
-    // Offset: 0x1FDAC88
+    // Offset: 0x1FACFA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutOption* New_ctor(::UnityEngine::GUILayoutOption::Type type, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutOption::.ctor");

@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8E40
+    // [InjectAttribute] Offset: 0x12533B4
     // private PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
@@ -73,10 +73,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults
     ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // public System.Void ReturnToMenu()
-    // Offset: 0x13F870C
+    // Offset: 0x13359C4
     void ReturnToMenu();
     // public System.Void .ctor()
-    // Offset: 0x13F8754
+    // Offset: 0x1335A0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

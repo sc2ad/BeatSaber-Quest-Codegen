@@ -57,7 +57,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.Vector2 scale
     ::UnityEngine::Vector2& dyn_scale();
     // public override System.String ToString()
-    // Offset: 0x1C28ECC
+    // Offset: 0x1C0F39C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -36,7 +36,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeArrayUnsafeUtility : public ::Il2CppObject {
     public:
     // static public Unity.Collections.NativeArray`1<T> ConvertExistingDataToNativeArray(System.Void* dataPointer, System.Int32 length, Unity.Collections.Allocator allocator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(void* dataPointer, int length, ::Unity::Collections::Allocator allocator) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);
@@ -46,7 +46,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
       return ::il2cpp_utils::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dataPointer, length, allocator);
     }
     // static public System.Void* GetUnsafeReadOnlyPtr(Unity.Collections.NativeArray`1<T> nativeArray)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeArray_1<T> nativeArray) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);

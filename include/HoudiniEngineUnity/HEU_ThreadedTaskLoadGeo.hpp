@@ -253,7 +253,7 @@ namespace HoudiniEngineUnity {
       // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_LoadBufferBase> _idBuffersMap
       ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_LoadBufferBase*>*& dyn__idBuffersMap();
       // public System.Void .ctor()
-      // Offset: 0x19DA4D0
+      // Offset: 0x19D03BC
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -336,97 +336,97 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallback _loadCallback
     ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*& dyn__loadCallback();
     // public System.Void SetupLoad(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.LoadType loadType, System.Int32 cookNodeID, System.String name, System.String filePath)
-    // Offset: 0x19DA3DC
+    // Offset: 0x19D02C8
     void SetupLoad(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType loadType, int cookNodeID, ::StringW name, ::StringW filePath);
     // public System.Void SetupLoadNode(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, System.Int32 cookNodeID, System.String name)
-    // Offset: 0x19DA4D8
+    // Offset: 0x19D03C4
     void SetupLoadNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, int cookNodeID, ::StringW name);
     // public System.Void SetupLoadFile(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, System.Int32 cookNodeID, System.String filePath)
-    // Offset: 0x19DA4EC
+    // Offset: 0x19D03D8
     void SetupLoadFile(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, int cookNodeID, ::StringW filePath);
     // public System.Void SetupLoadAsset(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, System.String assetPath, System.String name)
-    // Offset: 0x19DA500
+    // Offset: 0x19D03EC
     void SetupLoadAsset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::StringW assetPath, ::StringW name);
     // public System.Void SetLoadCallback(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallback loadCallback)
-    // Offset: 0x19DA514
+    // Offset: 0x19D0400
     void SetLoadCallback(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback* loadCallback);
     // protected System.Boolean CookNode(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 cookNodeID)
-    // Offset: 0x19DAD30
+    // Offset: 0x19D0C1C
     bool CookNode(::HoudiniEngineUnity::HEU_SessionBase* session, int cookNodeID);
     // protected System.Boolean LoadObjectBuffers(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_ObjectInfo objectInfo)
-    // Offset: 0x19DAF08
+    // Offset: 0x19D0DF4
     bool LoadObjectBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo);
     // protected System.Boolean LoadNodeBuffer(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadObject loadObject)
-    // Offset: 0x19DB088
+    // Offset: 0x19D0F74
     bool LoadNodeBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadObject* loadObject);
     // protected System.Void BuildBufferIDsMap(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData)
-    // Offset: 0x19DD148
+    // Offset: 0x19D3034
     void BuildBufferIDsMap(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData);
     // public System.Boolean DoFileLoad()
-    // Offset: 0x19DD55C
+    // Offset: 0x19D3448
     bool DoFileLoad();
     // public System.Boolean DoAssetLoad()
-    // Offset: 0x19DD9E0
+    // Offset: 0x19D38CC
     bool DoAssetLoad();
     // private System.Boolean QueryParts(System.Int32 nodeID, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> meshParts, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> volumeParts, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> instancerParts, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> curveParts, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> scatterInstancerParts)
-    // Offset: 0x19DB368
+    // Offset: 0x19D1254
     bool QueryParts(int nodeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> meshParts, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> volumeParts, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> instancerParts, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> curveParts, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> scatterInstancerParts);
     // private System.String CreateLogString(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus status, System.String logStr)
-    // Offset: 0x19DDE84
+    // Offset: 0x19D3D70
     ::StringW CreateLogString(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::StringW logStr);
     // private System.Void AppendLog(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus status, System.String logStr)
-    // Offset: 0x19DA830
+    // Offset: 0x19D071C
     void AppendLog(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::StringW logStr);
     // private System.Void SetLog(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus status, System.String logStr)
-    // Offset: 0x19DDF34
+    // Offset: 0x19D3E20
     void SetLog(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::StringW logStr);
     // private System.Boolean CreateFileNode(out System.Int32 fileNodeID)
-    // Offset: 0x19DD830
+    // Offset: 0x19D371C
     bool CreateFileNode(ByRef<int> fileNodeID);
     // public System.Int32 GetCookNodeID()
-    // Offset: 0x19DE054
+    // Offset: 0x19D3F40
     int GetCookNodeID();
     // private System.Int32 GetDisplayNodeID(System.Int32 objNodeID)
-    // Offset: 0x19DD8C0
+    // Offset: 0x19D37AC
     int GetDisplayNodeID(int objNodeID);
     // private System.Boolean SetFileParm(System.Int32 fileNodeID, System.String filePath)
-    // Offset: 0x19DD918
+    // Offset: 0x19D3804
     bool SetFileParm(int fileNodeID, ::StringW filePath);
     // private System.Void Sleep()
-    // Offset: 0x19DAEFC
+    // Offset: 0x19D0DE8
     void Sleep();
     // public System.Boolean GenerateTerrainBuffers(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> volumeParts, System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> scatterInstancerParts, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferVolume> volumeBuffers)
-    // Offset: 0x19DBAF0
+    // Offset: 0x19D19DC
     bool GenerateTerrainBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* volumeParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* scatterInstancerParts, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*> volumeBuffers);
     // private System.Void LoadStringFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref System.String strValue)
-    // Offset: 0x19DE070
+    // Offset: 0x19D3F5C
     void LoadStringFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::StringW> strValue);
     // private System.Void LoadFloatFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref System.Single floatValue)
-    // Offset: 0x19DE104
+    // Offset: 0x19D3FF0
     void LoadFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<float> floatValue);
     // private System.Void LoadLayerColorFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Color colorValue)
-    // Offset: 0x19DE224
+    // Offset: 0x19D4110
     void LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::UnityEngine::Color> colorValue);
     // private System.Void LoadLayerVector2FromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Vector2 vectorValue)
-    // Offset: 0x19DE3E8
+    // Offset: 0x19D42D4
     void LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::UnityEngine::Vector2> vectorValue);
     // public System.Boolean GenerateMeshBuffers(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> meshParts, System.Boolean bSplitPoints, System.Boolean bUseLODGroups, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferMesh> meshBuffers)
-    // Offset: 0x19DB6EC
+    // Offset: 0x19D15D8
     bool GenerateMeshBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* meshParts, bool bSplitPoints, bool bUseLODGroups, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*> meshBuffers);
     // public System.Boolean GenerateInstancerBuffers(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> instancerParts, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferInstancer> instancerBuffers)
-    // Offset: 0x19DCE28
+    // Offset: 0x19D2D14
     bool GenerateInstancerBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* instancerParts, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*> instancerBuffers);
     // private HoudiniEngineUnity.HEU_LoadBufferInstancer GeneratePartsInstancerBuffer(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String partName, HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x19DE664
+    // Offset: 0x19D4550
     ::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePartsInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW partName, ::HoudiniEngineUnity::HAPI_PartInfo partInfo);
     // private HoudiniEngineUnity.HEU_LoadBufferInstancer GeneratePointAttributeInstancerBuffer(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String partName, HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x19DE8DC
+    // Offset: 0x19D47C8
     ::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePointAttributeInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW partName, ::HoudiniEngineUnity::HAPI_PartInfo partInfo);
     // static public HoudiniEngineUnity.HEU_LoadBufferVolume GetLoadBufferVolumeFromTileIndex(System.Int32 tileIndex, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferVolume> buffers)
-    // Offset: 0x19DE550
+    // Offset: 0x19D443C
     static ::HoudiniEngineUnity::HEU_LoadBufferVolume* GetLoadBufferVolumeFromTileIndex(int tileIndex, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* buffers);
     // public System.Void .ctor()
-    // Offset: 0x19DEC5C
+    // Offset: 0x19D4B48
     // Implemented from: HoudiniEngineUnity.HEU_ThreadedTask
     // Base method: System.Void HEU_ThreadedTask::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -436,22 +436,22 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadedTaskLoadGeo*, creationType>()));
     }
     // protected override System.Void DoWork()
-    // Offset: 0x19DA51C
+    // Offset: 0x19D0408
     // Implemented from: HoudiniEngineUnity.HEU_ThreadedTask
     // Base method: System.Void HEU_ThreadedTask::DoWork()
     void DoWork();
     // protected override System.Void OnComplete()
-    // Offset: 0x19DDD40
+    // Offset: 0x19D3C2C
     // Implemented from: HoudiniEngineUnity.HEU_ThreadedTask
     // Base method: System.Void HEU_ThreadedTask::OnComplete()
     void OnComplete();
     // protected override System.Void OnStopped()
-    // Offset: 0x19DDDE0
+    // Offset: 0x19D3CCC
     // Implemented from: HoudiniEngineUnity.HEU_ThreadedTask
     // Base method: System.Void HEU_ThreadedTask::OnStopped()
     void OnStopped();
     // protected override System.Void CleanUp()
-    // Offset: 0x19DDE78
+    // Offset: 0x19D3D64
     // Implemented from: HoudiniEngineUnity.HEU_ThreadedTask
     // Base method: System.Void HEU_ThreadedTask::CleanUp()
     void CleanUp();

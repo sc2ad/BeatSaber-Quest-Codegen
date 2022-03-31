@@ -49,7 +49,7 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void .ctor(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Shared_1<T>* New_ctor(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::Shared_1::.ctor");

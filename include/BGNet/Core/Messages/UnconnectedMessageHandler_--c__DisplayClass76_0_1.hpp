@@ -205,14 +205,14 @@ namespace BGNet::Core::Messages {
         return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private System.Void MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass76_0_1::$$WrapOnSendFailedAwaitResponse$b__0$d::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass76_0_1::$$WrapOnSendFailedAwaitResponse$b__0$d::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
@@ -259,14 +259,14 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<T>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Threading.Tasks.Task <WrapOnSendFailedAwaitResponse>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task* $WrapOnSendFailedAwaitResponse$b__0(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass76_0_1::<WrapOnSendFailedAwaitResponse>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WrapOnSendFailedAwaitResponse>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(cancellationToken)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -32,37 +32,37 @@ namespace GlobalNamespace {
   class INetworkConfig {
     public:
     // public System.Int32 get_maxPartySize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_multiplayerPort();
     // public DnsEndPoint get_masterServerEndPoint()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
     // public System.String get_multiplayerStatusUrl()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_multiplayerStatusUrl();
     // public System.String get_quickPlaySetupUrl()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_quickPlaySetupUrl();
     // public System.String get_graphUrl()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_graphUrl();
     // public System.String get_graphAccessToken()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_graphAccessToken();
     // public System.Boolean get_forceGameLift()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_forceGameLift();
     // public ServiceEnvironment get_serviceEnvironment()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
   }; // INetworkConfig
   #pragma pack(pop)

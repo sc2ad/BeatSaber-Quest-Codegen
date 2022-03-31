@@ -55,8 +55,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestColor and: testColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x109E660
-    // [ColorUsageAttribute] Offset: 0x109E660
+    // [DrawIfAttribute] Offset: 0x1239574
+    // [ColorUsageAttribute] Offset: 0x1239574
     // private UnityEngine.Color _testColor
     // Size: 0x10
     // Offset: 0x1C
@@ -77,14 +77,20 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // private System.Boolean _multiplyWithAlpha
+    // private System.Boolean _inverseAlpha
     // Size: 0x1
     // Offset: 0x40
+    bool inverseAlpha;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // private System.Boolean _multiplyWithAlpha
+    // Size: 0x1
+    // Offset: 0x41
     bool multiplyWithAlpha;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: multiplyWithAlpha and: propertyId
-    char __padding4[0x3] = {};
+    char __padding5[0x2] = {};
     // private System.Int32 _propertyId
     // Size: 0x4
     // Offset: 0x44
@@ -108,6 +114,8 @@ namespace GlobalNamespace {
     ::StringW& dyn__property();
     // Get instance field reference: protected MaterialPropertyBlockController _materialPropertyBlockController
     ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    // Get instance field reference: private System.Boolean _inverseAlpha
+    bool& dyn__inverseAlpha();
     // Get instance field reference: private System.Boolean _multiplyWithAlpha
     bool& dyn__multiplyWithAlpha();
     // Get instance field reference: private System.Int32 _propertyId
@@ -115,28 +123,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1F19668
+    // Offset: 0x2AD5888
     ::UnityEngine::Color get_color();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x1F196A0
+    // Offset: 0x2AD58C0
     ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1F196A8
+    // Offset: 0x2AD58C8
     void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
     // protected System.Void Awake()
-    // Offset: 0x1F196B0
+    // Offset: 0x2AD58D0
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1F196F0
+    // Offset: 0x2AD5910
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1F19730
+    // Offset: 0x2AD5950
     void SetColor(::UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0x1F197D8
+    // Offset: 0x2AD5A08
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1F19828
+    // Offset: 0x2AD5A58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

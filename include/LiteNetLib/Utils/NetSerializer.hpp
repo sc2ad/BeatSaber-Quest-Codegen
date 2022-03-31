@@ -177,14 +177,14 @@ namespace LiteNetLib::Utils {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::NetSerializer::CustomType*>*& dyn__registeredTypes();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x2ABA320
+    // Offset: 0x2A884D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer*, creationType>(maxStringLength)));
     }
     // public System.Void RegisterNestedType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void RegisterNestedType() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable> && std::is_convertible_v<T, ::System::ValueType*>);
@@ -194,7 +194,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public System.Void RegisterNestedType(System.Func`1<T> constructor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void RegisterNestedType(::System::Func_1<T>* constructor) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
@@ -204,7 +204,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, constructor);
     }
     // public System.Void RegisterNestedType(System.Action`2<LiteNetLib.Utils.NetDataWriter,T> writer, System.Func`2<LiteNetLib.Utils.NetDataReader,T> reader)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void RegisterNestedType(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, T>* writer, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, T>* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::RegisterNestedType");
@@ -213,7 +213,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, writer, reader);
     }
     // private LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.ClassInfo`1<T> RegisterInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::LiteNetLib::Utils::NetSerializer::ClassInfo_1<T>* RegisterInternal() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::RegisterInternal");
@@ -222,7 +222,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer::ClassInfo_1<T>*, false>(this, ___generic__method);
     }
     // public System.Void Register()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void Register() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::Register");
@@ -231,7 +231,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public T Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T Deserialize(::LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::Deserialize");
@@ -240,7 +240,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, reader);
     }
     // public System.Boolean Deserialize(LiteNetLib.Utils.NetDataReader reader, T target)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     bool Deserialize(::LiteNetLib::Utils::NetDataReader* reader, T target) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::Deserialize");
@@ -249,7 +249,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, reader, target);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::Serialize");
@@ -258,7 +258,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, writer, obj);
     }
     // public System.Byte[] Serialize(T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::ArrayW<uint8_t> Serialize(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::Serialize");
@@ -267,7 +267,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, obj);
     }
     // public System.Void .ctor()
-    // Offset: 0x2ABA258
+    // Offset: 0x2A88408
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

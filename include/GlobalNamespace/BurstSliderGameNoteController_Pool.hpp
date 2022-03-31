@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class BurstSliderGameNoteController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BurstSliderGameNoteController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x135E260
+    // Offset: 0x134FEFC
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

@@ -33,10 +33,10 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x19EC2C0
+    // Offset: 0x19E21AC
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x19EC340
+    // Offset: 0x19E222C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

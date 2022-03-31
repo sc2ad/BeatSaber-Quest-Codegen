@@ -40,10 +40,10 @@ namespace GlobalNamespace {
   class IBeatmapLevelData {
     public:
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::AudioClip* get_audioClip();
     // public System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmapSet> get_difficultyBeatmapSets()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
   }; // IBeatmapLevelData
   #pragma pack(pop)

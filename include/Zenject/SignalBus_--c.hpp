@@ -62,25 +62,25 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.SignalSubscription,System.String> <>9__12_0
     static void _set_$$9__12_0(::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CFB50C
+    // Offset: 0x1CDF9DC
     static void _cctor();
     // Zenject.BindingId <.ctor>b__7_0(Zenject.SignalDeclaration x)
-    // Offset: 0x1CFB578
+    // Offset: 0x1CDFA48
     ::Zenject::BindingId $_ctor$b__7_0(::Zenject::SignalDeclaration* x);
     // Zenject.SignalDeclaration <.ctor>b__7_1(Zenject.SignalDeclaration x)
-    // Offset: 0x1CFB590
+    // Offset: 0x1CDFA60
     ::Zenject::SignalDeclaration* $_ctor$b__7_1(::Zenject::SignalDeclaration* x);
     // System.String <LateDispose>b__12_0(Zenject.SignalSubscription x)
-    // Offset: 0x1CFB598
+    // Offset: 0x1CDFA68
     ::StringW $LateDispose$b__12_0(::Zenject::SignalSubscription* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CFB5D0
+    // Offset: 0x1CDFAA0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CFB62C
+    // Offset: 0x1CDFAFC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1CFB570
+    // Offset: 0x1CDFA40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

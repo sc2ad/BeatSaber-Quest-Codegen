@@ -40,24 +40,24 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   class SecT163K1Point : public ::Org::BouncyCastle::Math::EC::AbstractF2mPoint {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x241A2B4
+    // Offset: 0x23F0098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecT163K1Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163K1Point::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecT163K1Point*, creationType>(curve, x, y)));
     }
     // public override Org.BouncyCastle.Math.EC.ECFieldElement get_YCoord()
-    // Offset: 0x241ABD4
+    // Offset: 0x23F09B8
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECPoint::get_YCoord()
     ::Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord();
     // protected internal override System.Boolean get_CompressionYTilde()
-    // Offset: 0x241ACBC
+    // Offset: 0x23F0AA0
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Boolean ECPoint::get_CompressionYTilde()
     bool get_CompressionYTilde();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x241A474
+    // Offset: 0x23F0258
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractF2mPoint
     // Base method: System.Void AbstractF2mPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
@@ -68,7 +68,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
       return THROW_UNLESS((::il2cpp_utils::New<SecT163K1Point*, creationType>(curve, x, y, withCompression)));
     }
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x241A5D8
+    // Offset: 0x23F03BC
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractF2mPoint
     // Base method: System.Void AbstractF2mPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
@@ -79,22 +79,22 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
       return THROW_UNLESS((::il2cpp_utils::New<SecT163K1Point*, creationType>(curve, x, y, zs, withCompression)));
     }
     // public override Org.BouncyCastle.Math.EC.ECPoint Add(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x241AD3C
+    // Offset: 0x23F0B20
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Add(Org.BouncyCastle.Math.EC.ECPoint b)
     ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
     // public override Org.BouncyCastle.Math.EC.ECPoint Twice()
-    // Offset: 0x241B3E8
+    // Offset: 0x23F11CC
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Twice()
     ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
     // public override Org.BouncyCastle.Math.EC.ECPoint TwicePlus(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x241B720
+    // Offset: 0x23F1504
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::TwicePlus(Org.BouncyCastle.Math.EC.ECPoint b)
     ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
     // public override Org.BouncyCastle.Math.EC.ECPoint Negate()
-    // Offset: 0x241BBD8
+    // Offset: 0x23F19BC
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Negate()
     ::Org::BouncyCastle::Math::EC::ECPoint* Negate();

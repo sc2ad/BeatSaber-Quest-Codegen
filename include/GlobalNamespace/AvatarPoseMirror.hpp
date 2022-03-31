@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B08D0
+    // [InjectAttribute] Offset: 0x124AD54
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
@@ -62,22 +62,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
     ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // protected System.Void Start()
-    // Offset: 0x14C4D40
+    // Offset: 0x14BE6F8
     void Start();
     // static private System.Void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition)
-    // Offset: 0x14C4DEC
+    // Offset: 0x14BE7A4
     static void HandleAvatarPoseControllerPositionsWillBeSet(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
     // static private System.Void HandleAvatarPoseControllerRotationsWillBeSet(UnityEngine.Quaternion headRotation, UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation, out UnityEngine.Quaternion newHeadRotation, out UnityEngine.Quaternion newLeftHandRotation, out UnityEngine.Quaternion newRightHandRotation)
-    // Offset: 0x14C4EB8
+    // Offset: 0x14BE870
     static void HandleAvatarPoseControllerRotationsWillBeSet(::UnityEngine::Quaternion headRotation, ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation, ByRef<::UnityEngine::Quaternion> newHeadRotation, ByRef<::UnityEngine::Quaternion> newLeftHandRotation, ByRef<::UnityEngine::Quaternion> newRightHandRotation);
     // static private UnityEngine.Quaternion MirrorRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x14C4F60
+    // Offset: 0x14BE918
     static ::UnityEngine::Quaternion MirrorRotation(::UnityEngine::Quaternion rotation);
     // static private UnityEngine.Vector3 MirrorPosition(UnityEngine.Vector3 position)
-    // Offset: 0x14C4E80
+    // Offset: 0x14BE838
     static ::UnityEngine::Vector3 MirrorPosition(::UnityEngine::Vector3 position);
     // public System.Void .ctor()
-    // Offset: 0x14C4F98
+    // Offset: 0x14BE950
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

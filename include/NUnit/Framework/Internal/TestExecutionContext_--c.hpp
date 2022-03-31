@@ -41,13 +41,13 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public NUnit.Framework.Constraints.ValueFormatter <>9__9_0
     static void _set_$$9__9_0(::NUnit::Framework::Constraints::ValueFormatter* value);
     // static private System.Void .cctor()
-    // Offset: 0x29E5448
+    // Offset: 0x29B15C0
     static void _cctor();
     // System.String <.ctor>b__9_0(System.Object val)
-    // Offset: 0x29E54B4
+    // Offset: 0x29B162C
     ::StringW $_ctor$b__9_0(::Il2CppObject* val);
     // public System.Void .ctor()
-    // Offset: 0x29E54AC
+    // Offset: 0x29B1624
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

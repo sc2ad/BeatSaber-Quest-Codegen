@@ -89,28 +89,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<BeatmapCharacteristicSO> didSelectCellWithIdxEvent
     ::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didSelectCellWithIdxEvent();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x1374484
+    // Offset: 0x1366180
     void add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x1374528
+    // Offset: 0x1366224
     void remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // protected System.Void Start()
-    // Offset: 0x13745CC
+    // Offset: 0x13662C8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1374770
+    // Offset: 0x136646C
     void OnDestroy();
     // public BeatmapCharacteristicSO GetSelectedBeatmapCharacteristic()
-    // Offset: 0x137484C
+    // Offset: 0x1366548
     ::GlobalNamespace::BeatmapCharacteristicSO* GetSelectedBeatmapCharacteristic();
     // public System.Void SelectCellWithBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x13748B0
+    // Offset: 0x13665AC
     void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1374970
+    // Offset: 0x136666C
     void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x1374A28
+    // Offset: 0x1366724
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

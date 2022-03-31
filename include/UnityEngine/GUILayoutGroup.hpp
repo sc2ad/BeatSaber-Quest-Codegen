@@ -223,36 +223,36 @@ namespace UnityEngine {
     // Get instance field reference: protected System.Int32 m_MarginBottom
     int& dyn_m_MarginBottom();
     // public System.Void ResetCursor()
-    // Offset: 0x1FDBE08
+    // Offset: 0x1FAE124
     void ResetCursor();
     // public UnityEngine.GUILayoutEntry GetNext()
-    // Offset: 0x1FDBE10
+    // Offset: 0x1FAE12C
     ::UnityEngine::GUILayoutEntry* GetNext();
     // public System.Void Add(UnityEngine.GUILayoutEntry e)
-    // Offset: 0x1FDC09C
+    // Offset: 0x1FAE3B8
     void Add(::UnityEngine::GUILayoutEntry* e);
     // public override System.Int32 get_marginLeft()
-    // Offset: 0x1FDBB48
+    // Offset: 0x1FADE64
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginLeft()
     int get_marginLeft();
     // public override System.Int32 get_marginRight()
-    // Offset: 0x1FDBB50
+    // Offset: 0x1FADE6C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginRight()
     int get_marginRight();
     // public override System.Int32 get_marginTop()
-    // Offset: 0x1FDBB58
+    // Offset: 0x1FADE74
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginTop()
     int get_marginTop();
     // public override System.Int32 get_marginBottom()
-    // Offset: 0x1FDBB60
+    // Offset: 0x1FADE7C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginBottom()
     int get_marginBottom();
     // public System.Void .ctor()
-    // Offset: 0x1FDBB68
+    // Offset: 0x1FADE84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -261,37 +261,37 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutGroup*, creationType>()));
     }
     // public override System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1FDBC60
+    // Offset: 0x1FADF7C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyOptions(UnityEngine.GUILayoutOption[] options)
     void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*> options);
     // protected override System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x1FDBD90
+    // Offset: 0x1FAE0AC
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyStyleSettings(UnityEngine.GUIStyle style)
     void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
     // public override System.Void CalcWidth()
-    // Offset: 0x1FDC104
+    // Offset: 0x1FAE420
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1FDC8C8
+    // Offset: 0x1FAEBE4
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x1FDD1D0
+    // Offset: 0x1FAF4EC
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1FDD878
+    // Offset: 0x1FAFB94
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
     // public override System.String ToString()
-    // Offset: 0x1FDE17C
+    // Offset: 0x1FB0498
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.String GUILayoutEntry::ToString()
     ::StringW ToString();

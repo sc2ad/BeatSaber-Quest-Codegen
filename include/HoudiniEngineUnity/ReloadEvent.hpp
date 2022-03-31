@@ -46,7 +46,7 @@ namespace HoudiniEngineUnity {
   class ReloadEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19EC270
+    // Offset: 0x19E215C
     // Implemented from: UnityEngine.Events.UnityEvent`3
     // Base method: System.Void UnityEvent_3::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

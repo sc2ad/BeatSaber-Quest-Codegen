@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C09E8
+    // [SpaceAttribute] Offset: 0x125AF7C
     // private UnityEngine.UI.Button _yIncButton
     // Size: 0x8
     // Offset: 0x78
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* playerHeightText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C0A40
+    // [InjectAttribute] Offset: 0x125AFD4
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x90
@@ -126,16 +126,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _playerHeight
     float& dyn__playerHeight();
     // protected System.Void Update()
-    // Offset: 0x12E3E4C
+    // Offset: 0x138FE50
     void Update();
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x12E406C
+    // Offset: 0x1390070
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x12E40E4
+    // Offset: 0x13900E8
     void $DidActivate$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x12E4064
+    // Offset: 0x1390068
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -149,7 +149,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FloorAdjustViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12E3D50
+    // Offset: 0x138FD54
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

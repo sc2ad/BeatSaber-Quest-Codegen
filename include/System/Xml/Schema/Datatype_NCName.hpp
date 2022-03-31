@@ -49,12 +49,12 @@ namespace System::Xml::Schema {
   class Datatype_NCName : public ::System::Xml::Schema::Datatype_Name {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C32FA4
+    // Offset: 0x1C19474
     // Implemented from: System.Xml.Schema.Datatype_Name
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_Name::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C3222C
+    // Offset: 0x1C186FC
     // Implemented from: System.Xml.Schema.Datatype_Name
     // Base method: System.Void Datatype_Name::.ctor()
     // Base method: System.Void Datatype_token::.ctor()
@@ -70,7 +70,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_NCName*, creationType>()));
     }
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1C32FAC
+    // Offset: 0x1C1947C
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Exception Datatype_string::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

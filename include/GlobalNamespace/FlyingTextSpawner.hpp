@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingTextEffectPool
     char __padding6[0x3] = {};
-    // [InjectAttribute] Offset: 0x10B5C1C
+    // [InjectAttribute] Offset: 0x12500A0
     // private readonly FlyingTextEffect/Pool _flyingTextEffectPool
     // Size: 0x8
     // Offset: 0x40
@@ -130,13 +130,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly FlyingTextEffect/Pool _flyingTextEffectPool
     ::GlobalNamespace::FlyingTextEffect::Pool*& dyn__flyingTextEffectPool();
     // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
-    // Offset: 0x12E61AC
+    // Offset: 0x13921B0
     void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x12E63E4
+    // Offset: 0x13923E8
     void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0x12E6500
+    // Offset: 0x1392504
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

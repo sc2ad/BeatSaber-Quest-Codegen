@@ -87,47 +87,47 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString[] octs
     ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*>& dyn_octs();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1OctetString[] octs)
-    // Offset: 0x1C04734
+    // Offset: 0x1BEAC04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*> octs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(octs)));
     }
     // public System.Void .ctor(System.Byte[] str, System.Int32 chunkSize)
-    // Offset: 0x1C0B7B4
+    // Offset: 0x1BF1C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString* New_ctor(::ArrayW<uint8_t> str, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(str, chunkSize)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1OctetString[] octs, System.Int32 chunkSize)
-    // Offset: 0x1C0B7E0
+    // Offset: 0x1BF1CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*> octs, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(octs, chunkSize)));
     }
     // private System.Void .ctor(System.Byte[] str, Org.BouncyCastle.Asn1.Asn1OctetString[] octs, System.Int32 chunkSize)
-    // Offset: 0x1C0B86C
+    // Offset: 0x1BF1D3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString* New_ctor(::ArrayW<uint8_t> str, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*> octs, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(str, octs, chunkSize)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C0BCC8
+    // Offset: 0x1BF2198
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.BerOctetString FromSequence(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C07E14
+    // Offset: 0x1BEE2E4
     static ::Org::BouncyCastle::Asn1::BerOctetString* FromSequence(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static private System.Byte[] ToBytes(Org.BouncyCastle.Asn1.Asn1OctetString[] octs)
-    // Offset: 0x1C0B634
+    // Offset: 0x1BF1B04
     static ::ArrayW<uint8_t> ToBytes(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*> octs);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1C0B8A4
+    // Offset: 0x1BF1D74
     ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1C0B728
+    // Offset: 0x1BF1BF8
     // Implemented from: Org.BouncyCastle.Asn1.DerOctetString
     // Base method: System.Void DerOctetString::.ctor(System.Byte[] str)
     // Base method: System.Void Asn1OctetString::.ctor(System.Byte[] str)
@@ -137,7 +137,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(str)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1C0B984
+    // Offset: 0x1BF1E54
     // Implemented from: Org.BouncyCastle.Asn1.DerOctetString
     // Base method: System.Void DerOctetString::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);

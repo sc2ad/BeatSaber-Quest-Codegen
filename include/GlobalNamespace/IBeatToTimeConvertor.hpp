@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IBeatToTimeConvertor {
     public:
     // public System.Single ConvertBeatToTime(System.Single beat)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float ConvertBeatToTime(float beat);
   }; // IBeatToTimeConvertor
   #pragma pack(pop)

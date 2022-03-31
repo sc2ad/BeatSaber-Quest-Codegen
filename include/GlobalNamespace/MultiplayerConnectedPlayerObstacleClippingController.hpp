@@ -58,12 +58,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B9778
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1253CEC
     // Get static field: static private readonly System.Int32 _clippingPlanePositionID
     static int _get__clippingPlanePositionID();
     // Set static field: static private readonly System.Int32 _clippingPlanePositionID
     static void _set__clippingPlanePositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B9788
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1253CFC
     // Get static field: static private readonly System.Int32 _clippingPlaneNormalID
     static int _get__clippingPlaneNormalID();
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
@@ -71,10 +71,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
-    // Offset: 0x144DAA8
+    // Offset: 0x13D55BC
     void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
     // public System.Void .ctor()
-    // Offset: 0x144DC54
+    // Offset: 0x13D5768
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleClippingController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x144DC5C
+    // Offset: 0x13D5770
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

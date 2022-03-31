@@ -67,16 +67,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _animationLength
     float& dyn__animationLength();
     // public System.Int32 get_id()
-    // Offset: 0x136B900
+    // Offset: 0x135D59C
     int get_id();
     // public UnityEngine.Sprite get_starTextSprite()
-    // Offset: 0x136B908
+    // Offset: 0x135D5A4
     ::UnityEngine::Sprite* get_starTextSprite();
     // public System.Single get_animationLength()
-    // Offset: 0x136B910
+    // Offset: 0x135D5AC
     float get_animationLength();
     // public System.Void .ctor()
-    // Offset: 0x136B918
+    // Offset: 0x135D5B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

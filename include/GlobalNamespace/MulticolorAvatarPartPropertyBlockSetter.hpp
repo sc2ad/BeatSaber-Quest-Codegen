@@ -65,14 +65,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*> colorDataList;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10B0F44
+    // [SpaceAttribute] Offset: 0x124B3C8
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::Renderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10B0F7C
+    // [SpaceAttribute] Offset: 0x124B400
     // private System.Boolean _editInPlayMode
     // Size: 0x1
     // Offset: 0x28
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B0FB4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124B438
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -138,19 +138,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _uvSegment
     int& dyn__uvSegment();
     // protected System.Void OnValidate()
-    // Offset: 0x1442D60
+    // Offset: 0x13CADC4
     void OnValidate();
     // public System.Void SetColors(params UnityEngine.Color[] colors)
-    // Offset: 0x1442ED8
+    // Offset: 0x13CAF3C
     void SetColors(::ArrayW<::UnityEngine::Color> colors);
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x1443264
+    // Offset: 0x13CB2C8
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x14430F8
+    // Offset: 0x13CB15C
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0x1443274
+    // Offset: 0x13CB2D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

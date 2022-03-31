@@ -82,13 +82,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
     ::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
     // System.Void <GetContentOfDirectory>b__0()
-    // Offset: 0x12DF9DC
+    // Offset: 0x138B6B4
     void $GetContentOfDirectory$b__0();
     // System.Void <GetContentOfDirectory>b__1()
-    // Offset: 0x12DFA08
+    // Offset: 0x138B6E0
     void $GetContentOfDirectory$b__1();
     // public System.Void .ctor()
-    // Offset: 0x12DF544
+    // Offset: 0x138B21C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* localPlayerBackgroundImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10BD7EC
+    // [HeaderAttribute] Offset: 0x1257D80
     // private HMUI.CurvedTextMeshPro _suggestedLevelText
     // Size: 0x8
     // Offset: 0x70
@@ -140,7 +140,7 @@ namespace GlobalNamespace {
     ::HMUI::CurvedTextMeshPro* emptySuggestedLevelText;
     // Field size check
     static_assert(sizeof(::HMUI::CurvedTextMeshPro*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10BD868
+    // [HeaderAttribute] Offset: 0x1257DFC
     // private GameplayModifierInfoListItemsList _suggestedModifiersList
     // Size: 0x8
     // Offset: 0x90
@@ -153,7 +153,7 @@ namespace GlobalNamespace {
     ::HMUI::CurvedTextMeshPro* emptySuggestedModifiersText;
     // Field size check
     static_assert(sizeof(::HMUI::CurvedTextMeshPro*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10BD8C4
+    // [HeaderAttribute] Offset: 0x1257E58
     // private UnityEngine.UI.Button _mutePlayerButton
     // Size: 0x8
     // Offset: 0xA0
@@ -184,7 +184,7 @@ namespace GlobalNamespace {
     ::HMUI::HoverHint* useBeatmapButtonHoverHint;
     // Field size check
     static_assert(sizeof(::HMUI::HoverHint*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10BD950
+    // [HeaderAttribute] Offset: 0x1257EE4
     // private HMUI.ButtonSpriteSwapToggle _muteToggle
     // Size: 0x8
     // Offset: 0xC8
@@ -215,7 +215,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* hostIcon;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10BD9DC
+    // [HeaderAttribute] Offset: 0x1257F70
     // private GameplayModifiersModelSO _gameplayModifiers
     // Size: 0x8
     // Offset: 0xF0
@@ -302,43 +302,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _getLevelEntitlementCancellationTokenSource
     ::System::Threading::CancellationTokenSource*& dyn__getLevelEntitlementCancellationTokenSource();
     // public System.Void add_kickPlayerEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1318014
+    // Offset: 0x13DECDC
     void add_kickPlayerEvent(::System::Action_1<int>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13180B8
+    // Offset: 0x13DED80
     void remove_kickPlayerEvent(::System::Action_1<int>* value);
     // public System.Void add_useBeatmapEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x131815C
+    // Offset: 0x13DEE24
     void add_useBeatmapEvent(::System::Action_1<int>* value);
     // public System.Void remove_useBeatmapEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1318204
+    // Offset: 0x13DEECC
     void remove_useBeatmapEvent(::System::Action_1<int>* value);
     // public System.Void add_useModifiersEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13182AC
+    // Offset: 0x13DEF74
     void add_useModifiersEvent(::System::Action_1<int>* value);
     // public System.Void remove_useModifiersEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1318354
+    // Offset: 0x13DF01C
     void remove_useModifiersEvent(::System::Action_1<int>* value);
     // public System.Void SetData(IConnectedPlayer connectedPlayer, ILobbyPlayerData playerData, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
-    // Offset: 0x13183FC
+    // Offset: 0x13DF0C4
     void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection, ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
     // protected System.Void Awake()
-    // Offset: 0x13191C8
+    // Offset: 0x13DFE90
     void Awake();
     // private System.Void HandleKickPlayerButtonPressed()
-    // Offset: 0x13192EC
+    // Offset: 0x13DFFB4
     void HandleKickPlayerButtonPressed();
     // private System.Void HandleUseBeatmapButtonPressed()
-    // Offset: 0x1319350
+    // Offset: 0x13E0018
     void HandleUseBeatmapButtonPressed();
     // private System.Void HandleUseModifiersButtonPressed()
-    // Offset: 0x13193B4
+    // Offset: 0x13E007C
     void HandleUseModifiersButtonPressed();
     // private System.Void SetBeatmapUseButtonEnabledAsync(System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> getLevelEntitlementTask)
-    // Offset: 0x1319104
+    // Offset: 0x13DFDCC
     void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* getLevelEntitlementTask);
     // public System.Void .ctor()
-    // Offset: 0x1319418
+    // Offset: 0x13E00E0
     // Implemented from: TableCellWithSeparator
     // Base method: System.Void TableCellWithSeparator::.ctor()
     // Base method: System.Void TableCell::.ctor()

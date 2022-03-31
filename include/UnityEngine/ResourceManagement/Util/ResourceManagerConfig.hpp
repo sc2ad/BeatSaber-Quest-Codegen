@@ -48,19 +48,19 @@ namespace UnityEngine::ResourceManagement::Util {
   class ResourceManagerConfig : public ::Il2CppObject {
     public:
     // static System.Boolean ExtractKeyAndSubKey(System.Object keyObj, out System.String mainKey, out System.String subKey)
-    // Offset: 0x1EB9950
+    // Offset: 0x1E9DE20
     static bool ExtractKeyAndSubKey(::Il2CppObject* keyObj, ByRef<::StringW> mainKey, ByRef<::StringW> subKey);
     // static public System.Boolean IsPathRemote(System.String path)
-    // Offset: 0x1EB7E50
+    // Offset: 0x1E9C320
     static bool IsPathRemote(::StringW path);
     // static public System.Boolean ShouldPathUseWebRequest(System.String path)
-    // Offset: 0x1EB8CBC
+    // Offset: 0x1E9D18C
     static bool ShouldPathUseWebRequest(::StringW path);
     // static public System.Array CreateArrayResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x1EBA728
+    // Offset: 0x1E9EBF8
     static ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
     // static public TObject CreateArrayResult(UnityEngine.Object[] allAssets)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     static TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*> allAssets) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult");
@@ -69,10 +69,10 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodRethrow<TObject, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, allAssets);
     }
     // static public System.Collections.IList CreateListResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x1EBA8F8
+    // Offset: 0x1E9EDC8
     static ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
     // static public TObject CreateListResult(UnityEngine.Object[] allAssets)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     static TObject CreateListResult(::ArrayW<::UnityEngine::Object*> allAssets) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult");
@@ -81,7 +81,7 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodRethrow<TObject, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, allAssets);
     }
     // static public System.Boolean IsInstance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T1, class T2>
     static bool IsInstance() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsInstance");

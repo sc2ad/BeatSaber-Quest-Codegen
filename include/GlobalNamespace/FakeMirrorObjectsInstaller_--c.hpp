@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<Zenject.BindingId,System.Boolean> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::Zenject::BindingId, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12DF2D4
+    // Offset: 0x138AFAC
     static void _cctor();
     // System.Boolean <InstallBindings>b__11_0(Zenject.BindingId t)
-    // Offset: 0x12DF340
+    // Offset: 0x138B018
     bool $InstallBindings$b__11_0(::Zenject::BindingId t);
     // public System.Void .ctor()
-    // Offset: 0x12DF338
+    // Offset: 0x138B010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

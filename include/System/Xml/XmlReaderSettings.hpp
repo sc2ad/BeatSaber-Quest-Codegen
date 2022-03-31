@@ -224,73 +224,73 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean <IsXmlResolverSet>k__BackingField
     bool& dyn_$IsXmlResolverSet$k__BackingField();
     // public System.Void set_NameTable(System.Xml.XmlNameTable value)
-    // Offset: 0x15B045C
+    // Offset: 0x15A71F4
     void set_NameTable(::System::Xml::XmlNameTable* value);
     // System.Void set_IsXmlResolverSet(System.Boolean value)
-    // Offset: 0x15B0594
+    // Offset: 0x15A732C
     void set_IsXmlResolverSet(bool value);
     // public System.Void set_XmlResolver(System.Xml.XmlResolver value)
-    // Offset: 0x15B05A0
+    // Offset: 0x15A7338
     void set_XmlResolver(::System::Xml::XmlResolver* value);
     // public System.Void set_LineNumberOffset(System.Int32 value)
-    // Offset: 0x15B0614
+    // Offset: 0x15A73AC
     void set_LineNumberOffset(int value);
     // public System.Void set_LinePositionOffset(System.Int32 value)
-    // Offset: 0x15B0678
+    // Offset: 0x15A7410
     void set_LinePositionOffset(int value);
     // public System.Void set_ConformanceLevel(System.Xml.ConformanceLevel value)
-    // Offset: 0x15B06DC
+    // Offset: 0x15A7474
     void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
     // public System.Void set_CheckCharacters(System.Boolean value)
-    // Offset: 0x15B0784
+    // Offset: 0x15A751C
     void set_CheckCharacters(bool value);
     // public System.Void set_MaxCharactersInDocument(System.Int64 value)
-    // Offset: 0x15B07EC
+    // Offset: 0x15A7584
     void set_MaxCharactersInDocument(int64_t value);
     // public System.Void set_MaxCharactersFromEntities(System.Int64 value)
-    // Offset: 0x15B0890
+    // Offset: 0x15A7628
     void set_MaxCharactersFromEntities(int64_t value);
     // public System.Void set_IgnoreWhitespace(System.Boolean value)
-    // Offset: 0x15B0934
+    // Offset: 0x15A76CC
     void set_IgnoreWhitespace(bool value);
     // public System.Void set_IgnoreProcessingInstructions(System.Boolean value)
-    // Offset: 0x15B099C
+    // Offset: 0x15A7734
     void set_IgnoreProcessingInstructions(bool value);
     // public System.Void set_IgnoreComments(System.Boolean value)
-    // Offset: 0x15B0A04
+    // Offset: 0x15A779C
     void set_IgnoreComments(bool value);
     // public System.Void set_DtdProcessing(System.Xml.DtdProcessing value)
-    // Offset: 0x15B0A6C
+    // Offset: 0x15A7804
     void set_DtdProcessing(::System::Xml::DtdProcessing value);
     // public System.Xml.ValidationType get_ValidationType()
-    // Offset: 0x15B0B14
+    // Offset: 0x15A78AC
     ::System::Xml::ValidationType get_ValidationType();
     // public System.Xml.Schema.XmlSchemaSet get_Schemas()
-    // Offset: 0x15A5A84
+    // Offset: 0x159C81C
     ::System::Xml::Schema::XmlSchemaSet* get_Schemas();
     // System.Void set_ReadOnly(System.Boolean value)
-    // Offset: 0x15B0B1C
+    // Offset: 0x15A78B4
     void set_ReadOnly(bool value);
     // System.Xml.XmlResolver GetXmlResolver()
-    // Offset: 0x15B060C
+    // Offset: 0x15A73A4
     ::System::Xml::XmlResolver* GetXmlResolver();
     // private System.Void CheckReadOnly(System.String propertyName)
-    // Offset: 0x15B04C0
+    // Offset: 0x15A7258
     void CheckReadOnly(::StringW propertyName);
     // private System.Void Initialize()
-    // Offset: 0x15B0454
+    // Offset: 0x15A71EC
     void Initialize();
     // private System.Void Initialize(System.Xml.XmlResolver resolver)
-    // Offset: 0x15B0B28
+    // Offset: 0x15A78C0
     void Initialize(::System::Xml::XmlResolver* resolver);
     // static private System.Xml.XmlResolver CreateDefaultResolver()
-    // Offset: 0x15B0B98
+    // Offset: 0x15A7930
     static ::System::Xml::XmlResolver* CreateDefaultResolver();
     // static System.Boolean EnableLegacyXmlSettings()
-    // Offset: 0x15B0BF4
+    // Offset: 0x15A798C
     static bool EnableLegacyXmlSettings();
     // public System.Void .ctor()
-    // Offset: 0x15B0428
+    // Offset: 0x15A71C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

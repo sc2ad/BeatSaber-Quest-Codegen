@@ -41,10 +41,10 @@ namespace Polyglot {
     // Nested type: ::Polyglot::CsvReader::ParsingMode
     struct ParsingMode;
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x2A10950
+    // Offset: 0x29DCB2C
     static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
     // public System.Void .ctor()
-    // Offset: 0x2A10E8C
+    // Offset: 0x29DD068
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

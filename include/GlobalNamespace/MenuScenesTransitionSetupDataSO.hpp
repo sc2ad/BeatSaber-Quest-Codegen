@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13E3420
+    // Offset: 0x12FF570
     // Implemented from: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()

@@ -55,10 +55,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Func`1<System.Boolean> m_CallBack
     ::System::Func_1<bool>*& dyn_m_CallBack();
     // public System.Void Init(System.Func`1<System.Boolean> callback)
-    // Offset: 0x1EBBCC8
+    // Offset: 0x1EA0198
     void Init(::System::Func_1<bool>* callback);
     // public System.Void .ctor()
-    // Offset: 0x1EBBC44
+    // Offset: 0x1EA0114
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -68,12 +68,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase::BaseInitAsyncOp*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x1EBBCD0
+    // Offset: 0x1EA01A0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x1EBBD48
+    // Offset: 0x1EA0218
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

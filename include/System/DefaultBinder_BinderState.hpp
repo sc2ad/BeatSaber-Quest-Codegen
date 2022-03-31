@@ -59,7 +59,7 @@ namespace System {
     // Get instance field reference: System.Boolean m_isParamArray
     bool& dyn_m_isParamArray();
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
-    // Offset: 0x1912434
+    // Offset: 0x191B97C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultBinder::BinderState* New_ctor(::ArrayW<int> argsMap, int originalSize, bool isParamArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::DefaultBinder::BinderState::.ctor");

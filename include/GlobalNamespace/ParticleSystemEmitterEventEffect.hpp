@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10B7370
+    // [InjectAttribute] Offset: 0x12517B4
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
@@ -95,19 +95,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Start()
-    // Offset: 0x1352420
+    // Offset: 0x12EBCBC
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1352538
+    // Offset: 0x12EBDD4
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1352554
+    // Offset: 0x12EBDF0
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void ToggleEmitting(System.Boolean isBoostOn)
-    // Offset: 0x1352574
+    // Offset: 0x12EBE10
     void ToggleEmitting(bool isBoostOn);
     // public System.Void .ctor()
-    // Offset: 0x1352634
+    // Offset: 0x12EBED0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

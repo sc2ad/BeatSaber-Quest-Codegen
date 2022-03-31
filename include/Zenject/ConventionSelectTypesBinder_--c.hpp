@@ -61,28 +61,28 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__7_0
     static void _set_$$9__7_0(::System::Func_2<::System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1744200
+    // Offset: 0x173C0F0
     static void _cctor();
     // System.Boolean <AllClasses>b__4_0(System.Type t)
-    // Offset: 0x174426C
+    // Offset: 0x173C15C
     bool $AllClasses$b__4_0(::System::Type* t);
     // System.Boolean <AllNonAbstractClasses>b__5_0(System.Type t)
-    // Offset: 0x1744288
+    // Offset: 0x173C178
     bool $AllNonAbstractClasses$b__5_0(::System::Type* t);
     // System.Boolean <AllAbstractClasses>b__6_0(System.Type t)
-    // Offset: 0x17442D8
+    // Offset: 0x173C1C8
     bool $AllAbstractClasses$b__6_0(::System::Type* t);
     // System.Boolean <AllInterfaces>b__7_0(System.Type t)
-    // Offset: 0x1744324
+    // Offset: 0x173C214
     bool $AllInterfaces$b__7_0(::System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1744340
+    // Offset: 0x173C230
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x174439C
+    // Offset: 0x173C28C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1744264
+    // Offset: 0x173C154
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,10 +60,10 @@ namespace HMUI {
     // Get instance field reference: public System.Action action
     ::System::Action*& dyn_action();
     // System.Void <AddBinding>b__0(System.Boolean b)
-    // Offset: 0x2A15474
+    // Offset: 0x29E1650
     void $AddBinding$b__0(bool b);
     // public System.Void .ctor()
-    // Offset: 0x2A1546C
+    // Offset: 0x29E1648
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

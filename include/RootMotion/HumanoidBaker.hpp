@@ -58,7 +58,7 @@ namespace RootMotion {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10DA260
+    // [TooltipAttribute] Offset: 0x1272B38
     // public System.Boolean bakeHandIK
     // Size: 0x1
     // Offset: 0x74
@@ -67,16 +67,16 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bakeHandIK and: IKKeyReductionError
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10DA298
-    // [RangeAttribute] Offset: 0x10DA298
+    // [TooltipAttribute] Offset: 0x1272B70
+    // [RangeAttribute] Offset: 0x1272B70
     // public System.Single IKKeyReductionError
     // Size: 0x4
     // Offset: 0x78
     float IKKeyReductionError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DA2F0
-    // [RangeAttribute] Offset: 0x10DA2F0
+    // [TooltipAttribute] Offset: 0x1272BC8
+    // [RangeAttribute] Offset: 0x1272BC8
     // public System.Int32 muscleFrameRateDiv
     // Size: 0x4
     // Offset: 0x7C
@@ -195,13 +195,13 @@ namespace RootMotion {
     // Get instance field reference: private UnityEngine.Quaternion lastBodyRotation
     ::UnityEngine::Quaternion& dyn_lastBodyRotation();
     // private System.Void Awake()
-    // Offset: 0x1FACFA8
+    // Offset: 0x1F7F2C4
     void Awake();
     // private System.Void UpdateHumanPose()
-    // Offset: 0x1FADAE4
+    // Offset: 0x1F7FE00
     void UpdateHumanPose();
     // public System.Void .ctor()
-    // Offset: 0x1FADBC0
+    // Offset: 0x1F7FEDC
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -215,27 +215,27 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<HumanoidBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x1FAD3D4
+    // Offset: 0x1F7F6F0
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     ::UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x1FAD3F0
+    // Offset: 0x1F7F70C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x1FAD510
+    // Offset: 0x1F7F82C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1FAD5EC
+    // Offset: 0x1F7F908
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x1FAD7BC
+    // Offset: 0x1F7FAD8
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);

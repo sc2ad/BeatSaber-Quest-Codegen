@@ -29,7 +29,7 @@ namespace UnityEngine::Playables {
   class IPlayableOutput {
     public:
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Playables.IPlayableOutput
   #pragma pack(pop)

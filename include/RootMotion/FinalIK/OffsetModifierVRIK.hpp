@@ -51,7 +51,7 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10DD584
+    // [TooltipAttribute] Offset: 0x1275E5C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x10DD5BC
+    // [TooltipAttribute] Offset: 0x1275E94
     // public RootMotion.FinalIK.VRIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -83,25 +83,25 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single lastTime
     float& dyn_lastTime();
     // protected System.Single get_deltaTime()
-    // Offset: 0x1F9E034
+    // Offset: 0x1F70350
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x1F9E060
+    // Offset: 0x1F7037C
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x1F9E08C
+    // Offset: 0x1F703A8
     ::System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x1F9E128
+    // Offset: 0x1F70444
     void ModifyOffset();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F9E234
+    // Offset: 0x1F70550
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1F9E32C
+    // Offset: 0x1F70648
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

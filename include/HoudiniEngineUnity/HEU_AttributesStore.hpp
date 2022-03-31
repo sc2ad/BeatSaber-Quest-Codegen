@@ -235,157 +235,157 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _outputMeshColliderInitiallyEnabled
     bool& dyn__outputMeshColliderInitiallyEnabled();
     // public System.Int32 get_GeoID()
-    // Offset: 0x16A58CC
+    // Offset: 0x16AEAA0
     int get_GeoID();
     // public System.Int32 get_PartID()
-    // Offset: 0x16A58D4
+    // Offset: 0x16AEAA8
     int get_PartID();
     // public System.String get_GeoName()
-    // Offset: 0x16A58DC
+    // Offset: 0x16AEAB0
     ::StringW get_GeoName();
     // public UnityEngine.Transform get_OutputTransform()
-    // Offset: 0x16A58EC
+    // Offset: 0x16AEAC0
     ::UnityEngine::Transform* get_OutputTransform();
     // public UnityEngine.Mesh get_OutputMesh()
-    // Offset: 0x16A58F4
+    // Offset: 0x16AEAC8
     ::UnityEngine::Mesh* get_OutputMesh();
     // public System.Boolean HasColorAttribute()
-    // Offset: 0x16A58E4
+    // Offset: 0x16AEAB8
     bool HasColorAttribute();
     // public System.Void DestroyAllData(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x16A58FC
+    // Offset: 0x16AEAD0
     void DestroyAllData(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // public System.Void SyncAllAttributesFrom(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Int32 geoID, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, UnityEngine.GameObject outputGameObject)
-    // Offset: 0x16A59B8
+    // Offset: 0x16AEB8C
     void SyncAllAttributesFrom(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* asset, int geoID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, ::UnityEngine::GameObject* outputGameObject);
     // public System.Void SetupMeshAndMaterials(HoudiniEngineUnity.HEU_HoudiniAsset asset, HoudiniEngineUnity.HAPI_PartType partType, UnityEngine.GameObject outputGameObject)
-    // Offset: 0x16A68AC
+    // Offset: 0x16AFA80
     void SetupMeshAndMaterials(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HAPI_PartType partType, ::UnityEngine::GameObject* outputGameObject);
     // public System.Boolean HasDirtyAttributes()
-    // Offset: 0x16A6CBC
+    // Offset: 0x16AFE90
     bool HasDirtyAttributes();
     // public System.Void SyncDirtyAttributesToHoudini(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x16A6DD4
+    // Offset: 0x16AFFA8
     void SyncDirtyAttributesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void PopulateAttributeData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HEU_AttributeData attributeData, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo)
-    // Offset: 0x16A619C
+    // Offset: 0x16AF370
     void PopulateAttributeData(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::HoudiniEngineUnity::HEU_AttributeData* attributeData, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
     // private System.Void GetAttributesList(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_AttributeData> attributesList, HoudiniEngineUnity.HAPI_AttributeOwner ownerType, System.Int32 attributeCount)
-    // Offset: 0x16A730C
+    // Offset: 0x16B04E0
     void GetAttributesList(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* attributesList, ::HoudiniEngineUnity::HAPI_AttributeOwner ownerType, int attributeCount);
     // private System.Void UpdateAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HEU_AttributeData attributeData)
-    // Offset: 0x16A7504
+    // Offset: 0x16B06D8
     void UpdateAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::HoudiniEngineUnity::HEU_AttributeData* attributeData);
     // private System.Void UpdateAttributeList(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_AttributeData> attributeDataList)
-    // Offset: 0x16A796C
+    // Offset: 0x16B0B40
     void UpdateAttributeList(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* attributeDataList);
     // public System.Void RefreshUpstreamInputs(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x16A7A7C
+    // Offset: 0x16B0C50
     void RefreshUpstreamInputs(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Boolean UploadAttributeViaMeshInput(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x16A6E54
+    // Offset: 0x16B0028
     bool UploadAttributeViaMeshInput(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static private System.Void SetAttributeDataSyncd(HoudiniEngineUnity.HEU_AttributeData attributeData)
-    // Offset: 0x16A72F0
+    // Offset: 0x16B04C4
     static void SetAttributeDataSyncd(::HoudiniEngineUnity::HEU_AttributeData* attributeData);
     // static public System.Void SetAttributeDataDirty(HoudiniEngineUnity.HEU_AttributeData attributeData)
-    // Offset: 0x16A7B04
+    // Offset: 0x16B0CD8
     static void SetAttributeDataDirty(::HoudiniEngineUnity::HEU_AttributeData* attributeData);
     // public HoudiniEngineUnity.HEU_AttributeData CreateAttribute(System.String attributeName, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo)
-    // Offset: 0x16A60E0
+    // Offset: 0x16AF2B4
     ::HoudiniEngineUnity::HEU_AttributeData* CreateAttribute(::StringW attributeName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
     // public HoudiniEngineUnity.HEU_AttributeData GetAttributeData(System.String name)
-    // Offset: 0x16A5FB4
+    // Offset: 0x16AF188
     ::HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(::StringW name);
     // public HoudiniEngineUnity.HEU_AttributeData GetAttributeData(System.Int32 index)
-    // Offset: 0x16A7B20
+    // Offset: 0x16B0CF4
     ::HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(int index);
     // public System.Collections.Generic.List`1<System.String> GetAttributeNames()
-    // Offset: 0x16A7BA8
+    // Offset: 0x16B0D7C
     ::System::Collections::Generic::List_1<::StringW>* GetAttributeNames();
     // public System.Void EnablePaintCollider()
-    // Offset: 0x16A7CEC
+    // Offset: 0x16B0EC0
     void EnablePaintCollider();
     // public System.Void DisablePaintCollider()
-    // Offset: 0x16A7EA4
+    // Offset: 0x16B1078
     void DisablePaintCollider();
     // public System.Void ShowPaintMesh()
-    // Offset: 0x16A7FD0
+    // Offset: 0x16B11A4
     void ShowPaintMesh();
     // public System.Void HidePaintMesh()
-    // Offset: 0x16A8114
+    // Offset: 0x16B12E8
     void HidePaintMesh();
     // public System.Boolean HasMeshForPainting()
-    // Offset: 0x16A8210
+    // Offset: 0x16B13E4
     bool HasMeshForPainting();
     // public UnityEngine.MeshCollider GetPaintMeshCollider()
-    // Offset: 0x16A8280
+    // Offset: 0x16B1454
     ::UnityEngine::MeshCollider* GetPaintMeshCollider();
     // public System.Void PaintAttribute(HoudiniEngineUnity.HEU_AttributeData attributeData, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 attributeIndex, System.Single paintFactor, HoudiniEngineUnity.HEU_AttributesStore/HoudiniEngineUnity.SetAttributeValueFunc setAttrFunc)
-    // Offset: 0x16A8308
+    // Offset: 0x16B14DC
     void PaintAttribute(::HoudiniEngineUnity::HEU_AttributeData* attributeData, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int attributeIndex, float paintFactor, ::HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc* setAttrFunc);
     // static public System.Void SetAttributeEditValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 startIndex, System.Int32[] values)
-    // Offset: 0x16A87E8
+    // Offset: 0x16B19BC
     static void SetAttributeEditValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<int> values);
     // static public System.Void SetAttributeEditValueFloat(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 startIndex, System.Single[] values)
-    // Offset: 0x16A887C
+    // Offset: 0x16B1A50
     static void SetAttributeEditValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<float> values);
     // static public System.Void SetAttributeEditValueString(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 startIndex, System.String[] values)
-    // Offset: 0x16A8910
+    // Offset: 0x16B1AE4
     static void SetAttributeEditValueString(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<::StringW> values);
     // static public System.Void ReplaceAttributeValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A89F8
+    // Offset: 0x16B1BCC
     static void ReplaceAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void AddAttributeValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A8B80
+    // Offset: 0x16B1D54
     static void AddAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void SubtractAttributeValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A8CC4
+    // Offset: 0x16B1E98
     static void SubtractAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void MultiplyAttributeValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A8E08
+    // Offset: 0x16B1FDC
     static void MultiplyAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void ReplaceAttributeValueFloat(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A8F94
+    // Offset: 0x16B2168
     static void ReplaceAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void AddAttributeValueFloat(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A9050
+    // Offset: 0x16B2224
     static void AddAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void SubtractAttributeValueFloat(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A9100
+    // Offset: 0x16B22D4
     static void SubtractAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void MultiplyAttributeValueFloat(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A91B0
+    // Offset: 0x16B2384
     static void MultiplyAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // static public System.Void SetAttributeValueString(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x16A9328
+    // Offset: 0x16B24FC
     static void SetAttributeValueString(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // public System.Void FillAttribute(HoudiniEngineUnity.HEU_AttributeData attributeData, HoudiniEngineUnity.HEU_ToolsInfo sourceTools)
-    // Offset: 0x16A9420
+    // Offset: 0x16B25F4
     void FillAttribute(::HoudiniEngineUnity::HEU_AttributeData* attributeData, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools);
     // public System.Boolean AreAttributesDirty()
-    // Offset: 0x16A9670
+    // Offset: 0x16B2844
     bool AreAttributesDirty();
     // public System.Void GetPositionAttributeValues(out UnityEngine.Vector3[] positionArray)
-    // Offset: 0x16A9774
+    // Offset: 0x16B2948
     void GetPositionAttributeValues(ByRef<::ArrayW<::UnityEngine::Vector3>> positionArray);
     // public System.Void GetVertexIndices(out System.Int32[] indices)
-    // Offset: 0x16A9780
+    // Offset: 0x16B2954
     void GetVertexIndices(ByRef<::ArrayW<int>> indices);
     // static public HoudiniEngineUnity.HEU_AttributesStore/HoudiniEngineUnity.SetAttributeValueFunc GetAttributeSetValueFunction(HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType attrType, HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMergeMode paintMergeMode)
-    // Offset: 0x16A94BC
+    // Offset: 0x16B2690
     static ::HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc* GetAttributeSetValueFunction(::HoudiniEngineUnity::HEU_AttributeData::AttributeType attrType, ::HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode paintMergeMode);
     // public System.Void CopyAttributeValuesTo(HoudiniEngineUnity.HEU_AttributesStore destAttrStore)
-    // Offset: 0x16A979C
+    // Offset: 0x16B2970
     void CopyAttributeValuesTo(::HoudiniEngineUnity::HEU_AttributesStore* destAttrStore);
     // public System.Boolean IsValidStore(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x16A992C
+    // Offset: 0x16B2B00
     bool IsValidStore(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AttributesStore other)
-    // Offset: 0x16A999C
+    // Offset: 0x16B2B70
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributesStore* other);
     // public System.Void .ctor()
-    // Offset: 0x16A9DF4
+    // Offset: 0x16B2FC8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

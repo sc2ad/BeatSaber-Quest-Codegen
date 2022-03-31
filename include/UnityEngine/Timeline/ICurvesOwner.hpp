@@ -37,28 +37,28 @@ namespace UnityEngine::Timeline {
   class ICurvesOwner {
     public:
     // public UnityEngine.AnimationClip get_curves()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::AnimationClip* get_curves();
     // public System.Boolean get_hasCurves()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_hasCurves();
     // public System.Double get_duration()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double get_duration();
     // public System.String get_defaultCurvesName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_defaultCurvesName();
     // public UnityEngine.Object get_asset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Object* get_asset();
     // public UnityEngine.Object get_assetOwner()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Object* get_assetOwner();
     // public UnityEngine.Timeline.TrackAsset get_targetTrack()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Timeline::TrackAsset* get_targetTrack();
     // public System.Void CreateCurves(System.String curvesClipName)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void CreateCurves(::StringW curvesClipName);
   }; // UnityEngine.Timeline.ICurvesOwner
   #pragma pack(pop)

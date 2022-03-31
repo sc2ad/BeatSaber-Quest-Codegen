@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class BloomPrePassLightsUpdateSystem : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void LateUpdate()
-    // Offset: 0x1F10F14
+    // Offset: 0x2ACDA98
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1F111C0
+    // Offset: 0x2ACDD44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

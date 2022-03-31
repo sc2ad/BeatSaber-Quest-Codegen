@@ -22,7 +22,7 @@ namespace Zenject {
   class ILateDisposable {
     public:
     // public System.Void LateDispose()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LateDispose();
   }; // Zenject.ILateDisposable
   #pragma pack(pop)

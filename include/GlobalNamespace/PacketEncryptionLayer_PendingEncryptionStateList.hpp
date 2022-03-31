@@ -72,28 +72,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,EncryptionUtility/IEncryptionState> _pendingStatesByPort
     ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>*& dyn__pendingStatesByPort();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x2606BA8
+    // Offset: 0x25E7068
     bool get_isEmpty();
     // public System.Void Dispose()
-    // Offset: 0x2606C0C
+    // Offset: 0x25E70CC
     void Dispose();
     // public EncryptionUtility/IEncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x2606D98
+    // Offset: 0x25E7258
     ::ArrayW<::GlobalNamespace::EncryptionUtility::IEncryptionState*> GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x2606F24
+    // Offset: 0x25E73E4
     bool TryGetEncryptionState(int port, ByRef<::GlobalNamespace::EncryptionUtility::IEncryptionState*> encryptionState);
     // public System.Void Add(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x2606964
+    // Offset: 0x25E6E24
     void Add(int port, ::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x26070A8
+    // Offset: 0x25E7568
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x2607110
+    // Offset: 0x25E75D0
     bool Remove(int port, ::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void .ctor()
-    // Offset: 0x26068F4
+    // Offset: 0x25E6DB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

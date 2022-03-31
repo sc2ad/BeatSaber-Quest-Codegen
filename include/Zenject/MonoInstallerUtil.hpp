@@ -37,7 +37,7 @@ namespace Zenject {
   class MonoInstallerUtil : public ::Il2CppObject {
     public:
     // static public System.String GetDefaultResourcePath()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     static ::StringW GetDefaultResourcePath() {
       static_assert(std::is_convertible_v<TInstaller, ::Zenject::MonoInstallerBase*>);
@@ -47,7 +47,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public TInstaller CreateInstaller(System.String resourcePath, Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     static TInstaller CreateInstaller(::StringW resourcePath, ::Zenject::DiContainer* container) {
       static_assert(std::is_convertible_v<TInstaller, ::Zenject::MonoInstallerBase*>);

@@ -44,16 +44,16 @@ namespace System::IO {
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(::System::IO::IFileWatcher* value);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1CD2F38
+    // Offset: 0x1CB7408
     void StartDispatching(::System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1CD2F3C
+    // Offset: 0x1CB740C
     void StopDispatching(::System::IO::FileSystemWatcher* fsw);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x1CD253C
+    // Offset: 0x1CB6A0C
     static bool GetInstance(ByRef<::System::IO::IFileWatcher*> watcher);
     // public System.Void .ctor()
-    // Offset: 0x1CD2F40
+    // Offset: 0x1CB7410
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

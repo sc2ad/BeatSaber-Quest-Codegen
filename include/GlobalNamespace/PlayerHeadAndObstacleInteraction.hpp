@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10BB434
+    // [InjectAttribute] Offset: 0x12559A8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB444
+    // [InjectAttribute] Offset: 0x12559B8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -130,28 +130,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevFrameNumberOfIntersectingObstaclesCount
     int& dyn__prevFrameNumberOfIntersectingObstaclesCount();
     // public System.Boolean get_playerHeadIsInObstacle()
-    // Offset: 0x1486AEC
+    // Offset: 0x136F960
     bool get_playerHeadIsInObstacle();
     // public System.Void add_headDidEnterObstaclesEvent(System.Action value)
-    // Offset: 0x148685C
+    // Offset: 0x136F6D0
     void add_headDidEnterObstaclesEvent(::System::Action* value);
     // public System.Void remove_headDidEnterObstaclesEvent(System.Action value)
-    // Offset: 0x1486900
+    // Offset: 0x136F774
     void remove_headDidEnterObstaclesEvent(::System::Action* value);
     // public System.Void add_headDidEnterObstacleEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14869A4
+    // Offset: 0x136F818
     void add_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_headDidEnterObstacleEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x1486A48
+    // Offset: 0x136F8BC
     void remove_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // private System.Void RefreshIntersectingObstacles(UnityEngine.Vector3 worldPos)
-    // Offset: 0x1486B44
+    // Offset: 0x136F9B8
     void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
     // protected System.Void Update()
-    // Offset: 0x1486DD0
+    // Offset: 0x136FC58
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1486E5C
+    // Offset: 0x136FCE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

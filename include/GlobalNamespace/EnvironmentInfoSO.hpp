@@ -150,37 +150,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private DefaultEnvironmentEvents _defaultEnvironmentEvents
     ::GlobalNamespace::DefaultEnvironmentEvents*& dyn__defaultEnvironmentEvents();
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x12D9570
+    // Offset: 0x1383B2C
     ::GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x12D9578
+    // Offset: 0x1383B34
     ::StringW get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x12D9580
+    // Offset: 0x1383B3C
     ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x12D9588
+    // Offset: 0x1383B44
     ::StringW get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x12D9590
+    // Offset: 0x1383B4C
     ::GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x12D9598
+    // Offset: 0x1383B54
     ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public EnvironmentIntensityReductionOptions get_environmentIntensityReductionOptions()
-    // Offset: 0x12D95A0
+    // Offset: 0x1383B5C
     ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x12D95A8
+    // Offset: 0x1383B64
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public EnvironmentLightGroups get_lightGroups()
-    // Offset: 0x12D95B0
+    // Offset: 0x1383B6C
     ::GlobalNamespace::EnvironmentLightGroups* get_lightGroups();
     // public DefaultEnvironmentEvents get_defaultEnvironmentEvents()
-    // Offset: 0x12D95B8
+    // Offset: 0x1383B74
     ::GlobalNamespace::DefaultEnvironmentEvents* get_defaultEnvironmentEvents();
     // public System.Void .ctor()
-    // Offset: 0x12D95C0
+    // Offset: 0x1383B7C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

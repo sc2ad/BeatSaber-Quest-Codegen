@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*> items;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8020
+    // [InjectAttribute] Offset: 0x1252534
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
@@ -68,13 +68,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
     ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // protected System.Void Start()
-    // Offset: 0x1392CB8
+    // Offset: 0x13F5AE0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1392D5C
+    // Offset: 0x13F5B84
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13932F0
+    // Offset: 0x13F6118
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

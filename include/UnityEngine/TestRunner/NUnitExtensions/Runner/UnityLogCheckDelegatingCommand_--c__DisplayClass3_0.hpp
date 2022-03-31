@@ -63,7 +63,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext context
     ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
     // public System.Void .ctor()
-    // Offset: 0x194ACC0
+    // Offset: 0x1941BAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

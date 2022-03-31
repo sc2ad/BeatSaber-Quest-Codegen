@@ -70,31 +70,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <syncTime>k__BackingField
     float& dyn_$syncTime$k__BackingField();
     // public System.Single get_syncTime()
-    // Offset: 0x260B430
+    // Offset: 0x25EB8F0
     float get_syncTime();
     // protected System.Void set_syncTime(System.Single value)
-    // Offset: 0x260B438
+    // Offset: 0x25EB8F8
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 protocolVersion)
-    // Offset: 0x260B440
+    // Offset: 0x25EB900
     void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint protocolVersion);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader, System.UInt32 protocolVersion)
-    // Offset: 0x260B444
+    // Offset: 0x25EB904
     void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint protocolVersion);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x260B448
+    // Offset: 0x25EB908
     void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x260B494
+    // Offset: 0x25EB954
     void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x260B4E0
+    // Offset: 0x25EB9A0
     void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x260B600
+    // Offset: 0x25EBAC0
     ::GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x260B608
+    // Offset: 0x25EBAC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -205,134 +205,134 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& dyn_collection();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Roots()
-    // Offset: 0x1BD6AE0
+    // Offset: 0x1BBCFB0
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Roots();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_CertificateAuthorities()
-    // Offset: 0x1BD6E1C
+    // Offset: 0x1BBD2EC
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateAuthorities();
     // private System.Security.Cryptography.X509Certificates.X509Store get_LMRootStore()
-    // Offset: 0x1BD6BAC
+    // Offset: 0x1BBD07C
     ::System::Security::Cryptography::X509Certificates::X509Store* get_LMRootStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_UserRootStore()
-    // Offset: 0x1BD6CA0
+    // Offset: 0x1BBD170
     ::System::Security::Cryptography::X509Certificates::X509Store* get_UserRootStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_LMCAStore()
-    // Offset: 0x1BD6EE8
+    // Offset: 0x1BBD3B8
     ::System::Security::Cryptography::X509Certificates::X509Store* get_LMCAStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_UserCAStore()
-    // Offset: 0x1BD6FDC
+    // Offset: 0x1BBD4AC
     ::System::Security::Cryptography::X509Certificates::X509Store* get_UserCAStore();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_CertificateCollection()
-    // Offset: 0x1BD7520
+    // Offset: 0x1BBD9F0
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateCollection();
     // public System.Void .ctor(System.Boolean useMachineContext)
-    // Offset: 0x1BD609C
+    // Offset: 0x1BBC56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainImplMono* New_ctor(bool useMachineContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainImplMono*, creationType>(useMachineContext)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BD9630
+    // Offset: 0x1BBFB00
     static void _cctor();
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags BuildChainFrom(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BD6780
+    // Offset: 0x1BBCC50
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags BuildChainFrom(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 SelectBestFromCollection(System.Security.Cryptography.X509Certificates.X509Certificate2 child, System.Security.Cryptography.X509Certificates.X509Certificate2Collection c)
-    // Offset: 0x1BD7998
+    // Offset: 0x1BBDE68
     ::System::Security::Cryptography::X509Certificates::X509Certificate2* SelectBestFromCollection(::System::Security::Cryptography::X509Certificates::X509Certificate2* child, ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* c);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 FindParent(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BD779C
+    // Offset: 0x1BBDC6C
     ::System::Security::Cryptography::X509Certificates::X509Certificate2* FindParent(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Boolean IsChainComplete(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BD78C0
+    // Offset: 0x1BBDD90
     bool IsChainComplete(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Boolean IsSelfIssued(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BD7C70
+    // Offset: 0x1BBE140
     bool IsSelfIssued(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Void ValidateChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1BD686C
+    // Offset: 0x1BBCD3C
     void ValidateChain(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // private System.Void Process(System.Int32 n)
-    // Offset: 0x1BD7CBC
+    // Offset: 0x1BBE18C
     void Process(int n);
     // private System.Void PrepareForNextCertificate(System.Int32 n)
-    // Offset: 0x1BD7F84
+    // Offset: 0x1BBE454
     void PrepareForNextCertificate(int n);
     // private System.Void WrapUp()
-    // Offset: 0x1BD8380
+    // Offset: 0x1BBE850
     void WrapUp();
     // private System.Void ProcessCertificateExtensions(System.Security.Cryptography.X509Certificates.X509ChainElement element)
-    // Offset: 0x1BD845C
+    // Offset: 0x1BBE92C
     void ProcessCertificateExtensions(::System::Security::Cryptography::X509Certificates::X509ChainElement* element);
     // private System.Boolean IsSignedWith(System.Security.Cryptography.X509Certificates.X509Certificate2 signed, System.Security.Cryptography.AsymmetricAlgorithm pubkey)
-    // Offset: 0x1BD8410
+    // Offset: 0x1BBE8E0
     bool IsSignedWith(::System::Security::Cryptography::X509Certificates::X509Certificate2* _signed, ::System::Security::Cryptography::AsymmetricAlgorithm* pubkey);
     // private System.String GetSubjectKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BD7BD0
+    // Offset: 0x1BBE0A0
     ::StringW GetSubjectKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static private System.String GetAuthorityKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BD7B34
+    // Offset: 0x1BBE004
     static ::StringW GetAuthorityKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static private System.String GetAuthorityKeyIdentifier(Mono.Security.X509.X509Crl crl)
-    // Offset: 0x1BD88A0
+    // Offset: 0x1BBED70
     static ::StringW GetAuthorityKeyIdentifier(::Mono::Security::X509::X509Crl* crl);
     // static private System.String GetAuthorityKeyIdentifier(Mono.Security.X509.X509Extension ext)
-    // Offset: 0x1BD8750
+    // Offset: 0x1BBEC20
     static ::StringW GetAuthorityKeyIdentifier(::Mono::Security::X509::X509Extension* ext);
     // private System.Void CheckRevocationOnChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1BD8168
+    // Offset: 0x1BBE638
     void CheckRevocationOnChain(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Int32 ca, System.Boolean online)
-    // Offset: 0x1BD8930
+    // Offset: 0x1BBEE00
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, int ca, bool online);
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Security.Cryptography.X509Certificates.X509Certificate2 ca_cert, System.Boolean online)
-    // Offset: 0x1BD8A0C
+    // Offset: 0x1BBEEDC
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::System::Security::Cryptography::X509Certificates::X509Certificate2* ca_cert, bool online);
     // static private Mono.Security.X509.X509Crl CheckCrls(System.String subject, System.String ski, Mono.Security.X509.X509Store store)
-    // Offset: 0x1BD9304
+    // Offset: 0x1BBF7D4
     static ::Mono::Security::X509::X509Crl* CheckCrls(::StringW subject, ::StringW ski, ::Mono::Security::X509::X509Store* store);
     // private Mono.Security.X509.X509Crl FindCrl(System.Security.Cryptography.X509Certificates.X509Certificate2 caCertificate)
-    // Offset: 0x1BD8BE4
+    // Offset: 0x1BBF0B4
     ::Mono::Security::X509::X509Crl* FindCrl(::System::Security::Cryptography::X509Certificates::X509Certificate2* caCertificate);
     // private System.Boolean ProcessCrlExtensions(Mono.Security.X509.X509Crl crl)
-    // Offset: 0x1BD9030
+    // Offset: 0x1BBF500
     bool ProcessCrlExtensions(::Mono::Security::X509::X509Crl* crl);
     // private System.Boolean ProcessCrlEntryExtensions(Mono.Security.X509.X509Crl/Mono.Security.X509.X509CrlEntry entry)
-    // Offset: 0x1BD8D88
+    // Offset: 0x1BBF258
     bool ProcessCrlEntryExtensions(::Mono::Security::X509::X509Crl::X509CrlEntry* entry);
     // public override System.Boolean get_IsValid()
-    // Offset: 0x1BD6178
+    // Offset: 0x1BBC648
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Boolean X509ChainImpl::get_IsValid()
     bool get_IsValid();
     // public override System.Security.Cryptography.X509Certificates.X509ChainElementCollection get_ChainElements()
-    // Offset: 0x1BD6180
+    // Offset: 0x1BBC650
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainElementCollection X509ChainImpl::get_ChainElements()
     ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
     // public override System.Security.Cryptography.X509Certificates.X509ChainPolicy get_ChainPolicy()
-    // Offset: 0x1BD6188
+    // Offset: 0x1BBC658
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainPolicy X509ChainImpl::get_ChainPolicy()
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
     // public override System.Void set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
-    // Offset: 0x1BD6190
+    // Offset: 0x1BBC660
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Void X509ChainImpl::set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
     void set_ChainPolicy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public override System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
-    // Offset: 0x1BD6198
+    // Offset: 0x1BBC668
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainStatus[] X509ChainImpl::get_ChainStatus()
     ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // public override System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1BD620C
+    // Offset: 0x1BBC6DC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Boolean X509ChainImpl::Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // public override System.Void Reset()
-    // Offset: 0x1BD69BC
+    // Offset: 0x1BBCE8C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Void X509ChainImpl::Reset()
     void Reset();

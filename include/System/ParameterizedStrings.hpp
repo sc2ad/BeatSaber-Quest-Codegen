@@ -72,19 +72,19 @@ namespace System {
       // Get instance field reference: private readonly System.String _string
       ::StringW& dyn__string();
       // public System.Int32 get_Int32()
-      // Offset: 0x21E3FCC
+      // Offset: 0x21B9DB0
       int get_Int32();
       // public System.String get_String()
-      // Offset: 0x21E3828
+      // Offset: 0x21B960C
       ::StringW get_String();
       // public System.Object get_Object()
-      // Offset: 0x21E3884
+      // Offset: 0x21B9668
       ::Il2CppObject* get_Object();
       // public System.Void .ctor(System.Int32 value)
-      // Offset: 0x21E3FB4
+      // Offset: 0x21B9D98
       FormatParam(int value);
       // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
-      // Offset: 0x21E3FC0
+      // Offset: 0x21B9DA4
       // ABORTED: conflicts with another method.  FormatParam(int intValue, ::StringW stringValue);
     }; // System.ParameterizedStrings/System.FormatParam
     #pragma pack(pop)
@@ -95,31 +95,31 @@ namespace System {
     // Set static field: static private System.ParameterizedStrings/System.LowLevelStack _cachedStack
     static void _set__cachedStack(::System::ParameterizedStrings::LowLevelStack* value);
     // static public System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
-    // Offset: 0x21E2CFC
+    // Offset: 0x21B8AE0
     static ::StringW Evaluate(::StringW format, ::ArrayW<::System::ParameterizedStrings::FormatParam> args);
     // static private System.String EvaluateInternal(System.String format, ref System.Int32 pos, System.ParameterizedStrings/System.FormatParam[] args, System.ParameterizedStrings/System.LowLevelStack stack, ref System.ParameterizedStrings/System.FormatParam[] dynamicVars, ref System.ParameterizedStrings/System.FormatParam[] staticVars)
-    // Offset: 0x21E2EC0
+    // Offset: 0x21B8CA4
     static ::StringW EvaluateInternal(::StringW format, ByRef<int> pos, ::ArrayW<::System::ParameterizedStrings::FormatParam> args, ::System::ParameterizedStrings::LowLevelStack* stack, ByRef<::ArrayW<::System::ParameterizedStrings::FormatParam>> dynamicVars, ByRef<::ArrayW<::System::ParameterizedStrings::FormatParam>> staticVars);
     // static private System.Boolean AsBool(System.Int32 i)
-    // Offset: 0x21E3D10
+    // Offset: 0x21B9AF4
     static bool AsBool(int i);
     // static private System.Int32 AsInt(System.Boolean b)
-    // Offset: 0x21E3D08
+    // Offset: 0x21B9AEC
     static int AsInt(bool b);
     // static private System.String StringFromAsciiBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x21E3D1C
+    // Offset: 0x21B9B00
     static ::StringW StringFromAsciiBytes(::ArrayW<uint8_t> buffer, int offset, int length);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.String arg1)
-    // Offset: 0x21E3E18
+    // Offset: 0x21B9BFC
     static int snprintf(uint8_t* str, ::System::IntPtr size, ::StringW format, ::StringW arg1);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.Int32 arg1)
-    // Offset: 0x21E3EF0
+    // Offset: 0x21B9CD4
     static int snprintf(uint8_t* str, ::System::IntPtr size, ::StringW format, int arg1);
     // static private System.String FormatPrintF(System.String format, System.Object arg)
-    // Offset: 0x21E38F0
+    // Offset: 0x21B96D4
     static ::StringW FormatPrintF(::StringW format, ::Il2CppObject* arg);
     // static private System.ParameterizedStrings/System.FormatParam[] GetDynamicOrStaticVariables(System.Char c, ref System.ParameterizedStrings/System.FormatParam[] dynamicVars, ref System.ParameterizedStrings/System.FormatParam[] staticVars, out System.Int32 index)
-    // Offset: 0x21E3BF8
+    // Offset: 0x21B99DC
     static ::ArrayW<::System::ParameterizedStrings::FormatParam> GetDynamicOrStaticVariables(::Il2CppChar c, ByRef<::ArrayW<::System::ParameterizedStrings::FormatParam>> dynamicVars, ByRef<::ArrayW<::System::ParameterizedStrings::FormatParam>> staticVars, ByRef<int> index);
   }; // System.ParameterizedStrings
   #pragma pack(pop)

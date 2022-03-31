@@ -91,38 +91,38 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Get instance field reference: private System.Byte[] seed
     ::ArrayW<uint8_t>& dyn_seed();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x15E72A8
+    // Offset: 0x15C5314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestRandomGenerator*, creationType>(digest)));
     }
     // public System.Void AddSeedMaterial(System.Byte[] inSeed)
-    // Offset: 0x15E741C
+    // Offset: 0x15C5488
     void AddSeedMaterial(::ArrayW<uint8_t> inSeed);
     // public System.Void AddSeedMaterial(System.Int64 rSeed)
-    // Offset: 0x15E7654
+    // Offset: 0x15C56C0
     void AddSeedMaterial(int64_t rSeed);
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x15E77F8
+    // Offset: 0x15C5864
     void NextBytes(::ArrayW<uint8_t> bytes);
     // public System.Void NextBytes(System.Byte[] bytes, System.Int32 start, System.Int32 len)
-    // Offset: 0x15E7814
+    // Offset: 0x15C5880
     void NextBytes(::ArrayW<uint8_t> bytes, int start, int len);
     // private System.Void CycleSeed()
-    // Offset: 0x15E79F4
+    // Offset: 0x15C5A60
     void CycleSeed();
     // private System.Void GenerateState()
-    // Offset: 0x15E7970
+    // Offset: 0x15C59DC
     void GenerateState();
     // private System.Void DigestAddCounter(System.Int64 seedVal)
-    // Offset: 0x15E76F0
+    // Offset: 0x15C575C
     void DigestAddCounter(int64_t seedVal);
     // private System.Void DigestUpdate(System.Byte[] inSeed)
-    // Offset: 0x15E74B8
+    // Offset: 0x15C5524
     void DigestUpdate(::ArrayW<uint8_t> inSeed);
     // private System.Void DigestDoFinal(System.Byte[] result)
-    // Offset: 0x15E758C
+    // Offset: 0x15C55F8
     void DigestDoFinal(::ArrayW<uint8_t> result);
   }; // Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator
   #pragma pack(pop)

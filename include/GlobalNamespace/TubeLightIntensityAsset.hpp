@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public TubeLightIntensityBehaviour _template
     ::GlobalNamespace::TubeLightIntensityBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x138974C
+    // Offset: 0x1341FD0
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x13897F4
+    // Offset: 0x1342078
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightIntensityAsset*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1389754
+    // Offset: 0x1341FD8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);

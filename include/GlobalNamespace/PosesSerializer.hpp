@@ -64,40 +64,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDataFileName
     static void _set_kDataFileName(::StringW value);
     // static private System.Void SaveToBinaryFileByBinaryFormatterLegacy(System.String filePath, PosesRecordingData data)
-    // Offset: 0x13C0054
+    // Offset: 0x1375610
     static void SaveToBinaryFileByBinaryFormatterLegacy(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
     // static private PosesRecordingSaveData LoadSaveDataFromBinaryFileByBinaryFormatterLegacy(System.String filePath)
-    // Offset: 0x13C04B4
+    // Offset: 0x1375A70
     static ::GlobalNamespace::PosesRecordingSaveData* LoadSaveDataFromBinaryFileByBinaryFormatterLegacy(::StringW filePath);
     // static private PosesRecordingData LoadFromBinaryFileByBinaryFormatterLegacy(System.String filePath)
-    // Offset: 0x13C069C
+    // Offset: 0x1375C58
     static ::GlobalNamespace::PosesRecordingData* LoadFromBinaryFileByBinaryFormatterLegacy(::StringW filePath);
     // static private System.Void SaveInfoFile(System.String filePath, PosesRecordingData data)
-    // Offset: 0x13C0A1C
+    // Offset: 0x1375FD8
     static void SaveInfoFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
     // static private System.Void SaveDataFile(System.String filePath, PosesRecordingData data)
-    // Offset: 0x13C0B08
+    // Offset: 0x13760C4
     static void SaveDataFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
     // static private System.Void SaveRecordingIntoDirectory(System.String path, PosesRecordingData data)
-    // Offset: 0x13C0E1C
+    // Offset: 0x13763D8
     static void SaveRecordingIntoDirectory(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
     // static private PosesRecordingInfoSaveData LoadInfoFile(System.String filePath)
-    // Offset: 0x13C0F70
+    // Offset: 0x137652C
     static ::GlobalNamespace::PosesRecordingInfoSaveData* LoadInfoFile(::StringW filePath);
     // static private System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> LoadDataFile(System.String filePath)
-    // Offset: 0x13C10C4
+    // Offset: 0x1376680
     static ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* LoadDataFile(::StringW filePath);
     // static private PosesRecordingData LoadRecordingFromDirectory(System.String path)
-    // Offset: 0x13C15A4
+    // Offset: 0x1376B60
     static ::GlobalNamespace::PosesRecordingData* LoadRecordingFromDirectory(::StringW path);
     // static public System.Void SaveRecording(System.String path, PosesRecordingData data)
-    // Offset: 0x13C17F8
+    // Offset: 0x1376DB4
     static void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
     // static public PosesRecordingData LoadRecording(System.String path)
-    // Offset: 0x13C17FC
+    // Offset: 0x1376DB8
     static ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
     // public System.Void .ctor()
-    // Offset: 0x13C18D8
+    // Offset: 0x1376E94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

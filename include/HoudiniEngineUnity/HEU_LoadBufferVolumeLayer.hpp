@@ -287,7 +287,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HFLayerType _layerType
     ::HoudiniEngineUnity::HFLayerType& dyn__layerType();
     // public System.Void .ctor()
-    // Offset: 0x18642AC
+    // Offset: 0x185B1A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

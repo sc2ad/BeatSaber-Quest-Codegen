@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   class DifficultyBeatmapSetExtensions : public ::Il2CppObject {
     public:
     // static public System.Collections.Generic.IReadOnlyList`1<T> GetDifficultyBeatmapSetsWithout360Movement(System.Collections.Generic.IReadOnlyList`1<T> difficultyBeatmapSets)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::IReadOnlyList_1<T>* GetDifficultyBeatmapSetsWithout360Movement(::System::Collections::Generic::IReadOnlyList_1<T>* difficultyBeatmapSets) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IDifficultyBeatmapSet>);
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
     }
     // static public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> GetPreviewDifficultyBeatmapSets(System.Collections.Generic.IReadOnlyList`1<T> difficultyBeatmapSets)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* GetPreviewDifficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<T>* difficultyBeatmapSets) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IDifficultyBeatmapSet>);

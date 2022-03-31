@@ -86,16 +86,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ImageView _highlightImage
     ::HMUI::ImageView*& dyn__highlightImage();
     // public System.String get_text()
-    // Offset: 0x1385828
+    // Offset: 0x133E0AC
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1385844
+    // Offset: 0x133E0C8
     void set_text(::StringW value);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1385864
+    // Offset: 0x133E0E8
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x1385930
+    // Offset: 0x133E1B4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -111,12 +111,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TextOnlyTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1385860
+    // Offset: 0x133E0E4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x138592C
+    // Offset: 0x133E1B0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

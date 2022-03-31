@@ -62,7 +62,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _hasLOD
     bool& dyn__hasLOD();
     // public System.Void .ctor()
-    // Offset: 0x1859AA8
+    // Offset: 0x185099C
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
     // Base method: System.Void Object::.ctor()

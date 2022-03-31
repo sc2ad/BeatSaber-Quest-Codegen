@@ -62,24 +62,24 @@ namespace System::Collections::Generic {
       return *reinterpret_cast<TValue*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public TKey get_Key()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TKey get_Key() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::KeyValuePair_2::get_Key");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Key", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method);
     }
     // public TValue get_Value()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::KeyValuePair_2::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method);
     }
     // public System.Void .ctor(TKey key, TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // ABORTED: conflicts with another method.  KeyValuePair_2(TKey key, TValue value)
     // public override System.String ToString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString() {

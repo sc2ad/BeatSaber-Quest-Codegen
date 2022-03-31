@@ -40,7 +40,7 @@ namespace System::Linq {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EmptyEnumerable_1<TElement>*>::get(), "Instance", value));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::EmptyEnumerable_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EmptyEnumerable_1<TElement>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

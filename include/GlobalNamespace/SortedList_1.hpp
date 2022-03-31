@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   class SortedList_1 : public ::GlobalNamespace::SortedList_2<TBase, TBase> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SortedList_1<TBase>*, creationType>()));
     }
     // public System.Void .ctor(ISortedListItemProcessor`1<TBase> sortedListDataProcessor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: SortedList`2
     // Base method: System.Void SortedList_2::.ctor(ISortedListItemProcessor`1<TBase> sortedListDataProcessor)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

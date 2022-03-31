@@ -34,16 +34,16 @@ namespace System::Xml {
     // Set static field: static private System.Collections.Generic.IComparer`1<System.Object> s_instance
     static void _set_s_instance(::System::Collections::Generic::IComparer_1<::Il2CppObject*>* value);
     // static System.Collections.Generic.IComparer`1<System.Object> get_Instance()
-    // Offset: 0x26EBEB4
+    // Offset: 0x26BB02C
     static ::System::Collections::Generic::IComparer_1<::Il2CppObject*>* get_Instance();
     // static private System.Void .cctor()
-    // Offset: 0x26EC268
+    // Offset: 0x26BB3E0
     static void _cctor();
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x26EBF1C
+    // Offset: 0x26BB094
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x26EC260
+    // Offset: 0x26BB3D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

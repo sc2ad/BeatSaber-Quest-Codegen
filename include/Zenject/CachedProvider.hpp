@@ -88,29 +88,29 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _isCreatingInstance
     bool& dyn__isCreatingInstance();
     // public System.Boolean get_IsCached()
-    // Offset: 0x173E17C
+    // Offset: 0x173606C
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x173E184
+    // Offset: 0x1736074
     bool get_TypeVariesBasedOnMemberType();
     // public System.Int32 get_NumInstances()
-    // Offset: 0x173DF6C
+    // Offset: 0x1735E5C
     int get_NumInstances();
     // public System.Void .ctor(Zenject.IProvider creator)
-    // Offset: 0x173D874
+    // Offset: 0x1735764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedProvider* New_ctor(::Zenject::IProvider* creator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedProvider*, creationType>(creator)));
     }
     // public System.Void ClearCache()
-    // Offset: 0x173E1C8
+    // Offset: 0x17360B8
     void ClearCache();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x173E1D0
+    // Offset: 0x17360C0
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x173DC48
+    // Offset: 0x1735B38
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.CachedProvider
   #pragma pack(pop)

@@ -62,24 +62,24 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: UnityEngine.AsyncOperation m_Operation
     ::UnityEngine::AsyncOperation*& dyn_m_Operation();
     // public UnityEngine.SceneManagement.Scene get_Scene()
-    // Offset: 0x1EBBDDC
+    // Offset: 0x1EA02AC
     ::UnityEngine::SceneManagement::Scene get_Scene();
     // System.Void set_Scene(UnityEngine.SceneManagement.Scene value)
-    // Offset: 0x1EBBDE4
+    // Offset: 0x1EA02B4
     void set_Scene(::UnityEngine::SceneManagement::Scene value);
     // public System.Void Activate()
-    // Offset: 0x1EBBDEC
+    // Offset: 0x1EA02BC
     void Activate();
     // public UnityEngine.AsyncOperation ActivateAsync()
-    // Offset: 0x1EBBE0C
+    // Offset: 0x1EA02DC
     ::UnityEngine::AsyncOperation* ActivateAsync();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1EBBE44
+    // Offset: 0x1EA0314
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1EBBE70
+    // Offset: 0x1EA0340
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

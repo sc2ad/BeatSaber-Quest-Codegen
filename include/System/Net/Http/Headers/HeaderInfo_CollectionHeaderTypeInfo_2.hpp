@@ -88,14 +88,14 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::Net::Http::Headers::TryParseListDelegate_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.String name, System.Net.Http.Headers.TryParseListDelegate`1<T> parser, System.Net.Http.Headers.HttpHeaderKind headerKind, System.Int32 minimalCount, System.String separator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo::CollectionHeaderTypeInfo_2<T, U>* New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, int minimalCount, ::StringW separator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo::CollectionHeaderTypeInfo_2<T, U>*, creationType>(name, parser, headerKind, minimalCount, separator)));
     }
     // public override System.String get_Separator()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.String HeaderInfo::get_Separator()
     ::StringW get_Separator() {
@@ -104,7 +104,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public override System.Boolean TryParse(System.String value, out System.Object result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo/System.Net.Http.Headers.HeaderTypeInfo`2
     // Base method: System.Boolean HeaderTypeInfo_2::TryParse(System.String value, out System.Object result)
     bool TryParse(::StringW value, ByRef<::Il2CppObject*> result) {

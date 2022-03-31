@@ -63,19 +63,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IPlatformUserModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x1384580
+    // Offset: 0x133CE04
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x1384680
+    // Offset: 0x133CF04
     ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<PlatformUserAuthTokenData> GetUserAuthToken()
-    // Offset: 0x1384780
+    // Offset: 0x133D004
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x1384880
+    // Offset: 0x133D104
     ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
     // public System.Void .ctor()
-    // Offset: 0x1384980
+    // Offset: 0x133D204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

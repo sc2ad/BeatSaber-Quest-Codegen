@@ -74,23 +74,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString iv
     ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_iv();
     // public Org.BouncyCastle.Math.BigInteger get_Iterations()
-    // Offset: 0x1CAD4FC
+    // Offset: 0x1C919CC
     ::Org::BouncyCastle::Math::BigInteger* get_Iterations();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1CAD27C
+    // Offset: 0x1C9174C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pkcs12PbeParams* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs12PbeParams*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.Pkcs12PbeParams GetInstance(System.Object obj)
-    // Offset: 0x1CAD37C
+    // Offset: 0x1C9184C
     static ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetIV()
-    // Offset: 0x1CAD518
+    // Offset: 0x1C919E8
     ::ArrayW<uint8_t> GetIV();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1CAD538
+    // Offset: 0x1C91A08
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

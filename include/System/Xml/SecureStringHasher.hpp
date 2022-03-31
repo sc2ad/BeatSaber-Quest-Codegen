@@ -67,19 +67,19 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 hashCodeRandomizer
     int& dyn_hashCodeRandomizer();
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x202FE28
+    // Offset: 0x201D7FC
     bool Equals(::StringW x, ::StringW y);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x202FE40
+    // Offset: 0x201D814
     int GetHashCode(::StringW key);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x2030440
+    // Offset: 0x201DE14
     static int GetHashCodeOfString(::StringW key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/System.Xml.HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x202FED8
+    // Offset: 0x201D8AC
     static ::System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // public System.Void .ctor()
-    // Offset: 0x202FDF8
+    // Offset: 0x201D7CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

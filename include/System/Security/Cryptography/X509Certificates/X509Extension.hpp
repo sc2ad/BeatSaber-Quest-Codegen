@@ -53,23 +53,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Boolean _critical
     bool& dyn__critical();
     // public System.Boolean get_Critical()
-    // Offset: 0x1BDA15C
+    // Offset: 0x1BC062C
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x1BDA164
+    // Offset: 0x1BC0634
     void set_Critical(bool value);
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
-    // Offset: 0x1BDA12C
+    // Offset: 0x1BC05FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x1BCE2C4
+    // Offset: 0x1BB4794
     ::StringW FormatUnkownData(::ArrayW<uint8_t> data);
     // protected System.Void .ctor()
-    // Offset: 0x1BCD82C
+    // Offset: 0x1BB3CFC
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -79,7 +79,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1BDA170
+    // Offset: 0x1BC0640
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);

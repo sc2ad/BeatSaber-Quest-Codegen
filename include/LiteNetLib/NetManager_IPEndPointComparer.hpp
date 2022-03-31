@@ -37,13 +37,13 @@ namespace LiteNetLib {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*>(this);
     }
     // public System.Boolean Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
-    // Offset: 0x2194508
+    // Offset: 0x216B2EC
     bool Equals(::System::Net::IPEndPoint* x, ::System::Net::IPEndPoint* y);
     // public System.Int32 GetHashCode(System.Net.IPEndPoint obj)
-    // Offset: 0x2194568
+    // Offset: 0x216B34C
     int GetHashCode(::System::Net::IPEndPoint* obj);
     // public System.Void .ctor()
-    // Offset: 0x218EE88
+    // Offset: 0x2165C6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

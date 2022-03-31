@@ -77,49 +77,49 @@ namespace Priority_Queue {
       return *reinterpret_cast<int64_t*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public TPriority get_Priority()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TPriority get_Priority() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::GenericPriorityQueueNode_1::get_Priority");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Priority", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TPriority, false>(this, ___internal__method);
     }
     // protected internal System.Void set_Priority(TPriority value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_Priority(TPriority value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::GenericPriorityQueueNode_1::set_Priority");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Priority", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Int32 get_QueueIndex()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_QueueIndex() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::GenericPriorityQueueNode_1::get_QueueIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_QueueIndex", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // System.Void set_QueueIndex(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_QueueIndex(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::GenericPriorityQueueNode_1::set_QueueIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_QueueIndex", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Int64 get_InsertionIndex()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_InsertionIndex() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::GenericPriorityQueueNode_1::get_InsertionIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_InsertionIndex", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int64_t, false>(this, ___internal__method);
     }
     // System.Void set_InsertionIndex(System.Int64 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_InsertionIndex(int64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::GenericPriorityQueueNode_1::set_InsertionIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_InsertionIndex", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

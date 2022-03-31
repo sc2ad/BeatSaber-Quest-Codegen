@@ -48,40 +48,40 @@ namespace NUnit::Framework::Interfaces {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);
     }
     // public System.String get_Id()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Id();
     // public System.String get_Name()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Name();
     // public System.String get_FullName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_FullName();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // public NUnit.Framework.Interfaces.IMethodInfo get_Method()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::IMethodInfo* get_Method();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Int32 get_TestCaseCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_TestCaseCount();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // public NUnit.Framework.Interfaces.ITest get_Parent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ITest* get_Parent();
     // public System.Boolean get_IsSuite()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsSuite();
     // public System.Boolean get_HasChildren()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_HasChildren();
     // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> get_Tests()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IList_1<::NUnit::Framework::Interfaces::ITest*>* get_Tests();
   }; // NUnit.Framework.Interfaces.ITest
   #pragma pack(pop)

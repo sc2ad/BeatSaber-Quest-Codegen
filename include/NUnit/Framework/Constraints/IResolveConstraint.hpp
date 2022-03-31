@@ -29,7 +29,7 @@ namespace NUnit::Framework::Constraints {
   class IResolveConstraint {
     public:
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.IResolveConstraint
   #pragma pack(pop)

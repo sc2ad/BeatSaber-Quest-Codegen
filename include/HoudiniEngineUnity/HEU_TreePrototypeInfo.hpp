@@ -60,10 +60,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _bendfactor
     float& dyn__bendfactor();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_TreePrototypeInfo other)
-    // Offset: 0x19DF32C
+    // Offset: 0x19D5218
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
     // public System.Void .ctor()
-    // Offset: 0x19DF440
+    // Offset: 0x19D532C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

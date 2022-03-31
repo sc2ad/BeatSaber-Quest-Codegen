@@ -61,54 +61,54 @@ namespace Org::BouncyCastle::Crypto {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IStreamCipher cipher
     ::Org::BouncyCastle::Crypto::IStreamCipher*& dyn_cipher();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IStreamCipher cipher)
-    // Offset: 0x226B31C
+    // Offset: 0x2242100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedStreamCipher* New_ctor(::Org::BouncyCastle::Crypto::IStreamCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::BufferedStreamCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedStreamCipher*, creationType>(cipher)));
     }
     // public override System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x226B3D8
+    // Offset: 0x22421BC
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Void BufferedCipherBase::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public override System.Int32 GetBlockSize()
-    // Offset: 0x226B4DC
+    // Offset: 0x22422C0
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Int32 BufferedCipherBase::GetBlockSize()
     int GetBlockSize();
     // public override System.Int32 GetOutputSize(System.Int32 inputLen)
-    // Offset: 0x226B4E4
+    // Offset: 0x22422C8
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Int32 BufferedCipherBase::GetOutputSize(System.Int32 inputLen)
     int GetOutputSize(int inputLen);
     // public override System.Int32 GetUpdateOutputSize(System.Int32 inputLen)
-    // Offset: 0x226B4EC
+    // Offset: 0x22422D0
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Int32 BufferedCipherBase::GetUpdateOutputSize(System.Int32 inputLen)
     int GetUpdateOutputSize(int inputLen);
     // public override System.Byte[] ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x226B4F4
+    // Offset: 0x22422D8
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Byte[] BufferedCipherBase::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length);
     // public override System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x226B608
+    // Offset: 0x22423EC
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Int32 BufferedCipherBase::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
     int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length, ::ArrayW<uint8_t> output, int outOff);
     // public override System.Byte[] DoFinal()
-    // Offset: 0x226B714
+    // Offset: 0x22424F8
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Byte[] BufferedCipherBase::DoFinal()
     ::ArrayW<uint8_t> DoFinal();
     // public override System.Byte[] DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x226B794
+    // Offset: 0x2242578
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Byte[] BufferedCipherBase::DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input, int inOff, int length);
     // public override System.Void Reset()
-    // Offset: 0x226B860
+    // Offset: 0x2242644
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();

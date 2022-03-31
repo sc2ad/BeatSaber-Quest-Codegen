@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class ScoringElement::Pool_1 : public ::Zenject::MemoryPool_1<T> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()
@@ -36,7 +36,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScoringElement::Pool_1<T>*, creationType>()));
     }
     // protected override System.Void Reinitialize(T scoringElement)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::Reinitialize(T scoringElement)
     void Reinitialize(T scoringElement) {

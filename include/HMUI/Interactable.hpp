@@ -67,19 +67,19 @@ namespace HMUI {
     // Get instance field reference: private System.Action`2<HMUI.Interactable,System.Boolean> interactableChangeEvent
     ::System::Action_2<::HMUI::Interactable*, bool>*& dyn_interactableChangeEvent();
     // public System.Boolean get_interactable()
-    // Offset: 0x168C034
+    // Offset: 0x1682F14
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x168C03C
+    // Offset: 0x1682F1C
     void set_interactable(bool value);
     // public System.Void add_interactableChangeEvent(System.Action`2<HMUI.Interactable,System.Boolean> value)
-    // Offset: 0x168BEEC
+    // Offset: 0x1682DCC
     void add_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
     // public System.Void remove_interactableChangeEvent(System.Action`2<HMUI.Interactable,System.Boolean> value)
-    // Offset: 0x168BF90
+    // Offset: 0x1682E70
     void remove_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x168C0CC
+    // Offset: 0x1682FAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

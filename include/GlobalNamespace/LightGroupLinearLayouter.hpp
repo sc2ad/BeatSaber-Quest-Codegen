@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x10B6D84
+    // [SpaceAttribute] Offset: 0x1251218
     // private UnityEngine.Vector3 _movementStep
     // Size: 0xC
     // Offset: 0x20
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _startFromCenter
     bool& dyn__startFromCenter();
     // public System.Void .ctor()
-    // Offset: 0x14CDAE8
+    // Offset: 0x148CB6C
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

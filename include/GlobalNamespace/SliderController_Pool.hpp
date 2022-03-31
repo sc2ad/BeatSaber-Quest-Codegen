@@ -93,17 +93,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SliderController/Pool/Long _longPool
     ::GlobalNamespace::SliderController::Pool::Long*& dyn__longPool();
     // public System.Void .ctor(SliderController/Pool/Short shortPool, SliderController/Pool/Medium mediumPool, SliderController/Pool/Long longPool)
-    // Offset: 0x13BB5CC
+    // Offset: 0x2AA03E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderController::Pool* New_ctor(::GlobalNamespace::SliderController::Pool::Short* shortPool, ::GlobalNamespace::SliderController::Pool::Medium* mediumPool, ::GlobalNamespace::SliderController::Pool::Long* longPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderController::Pool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderController::Pool*, creationType>(shortPool, mediumPool, longPool)));
     }
     // public Zenject.MonoMemoryPool`1<SliderController> GetPool(SliderController/LengthType lengthType)
-    // Offset: 0x13BB60C
+    // Offset: 0x2AA0424
     ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*>* GetPool(::GlobalNamespace::SliderController::LengthType lengthType);
     // static public SliderController/LengthType GetLengthFromSliderData(SliderData sliderNoteData, BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData)
-    // Offset: 0x13BB6B4
+    // Offset: 0x2AA04CC
     static ::GlobalNamespace::SliderController::LengthType GetLengthFromSliderData(::GlobalNamespace::SliderData* sliderNoteData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData sliderSpawnData);
   }; // SliderController/Pool
   #pragma pack(pop)

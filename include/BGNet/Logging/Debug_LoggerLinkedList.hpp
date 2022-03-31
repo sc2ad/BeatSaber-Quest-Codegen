@@ -50,7 +50,7 @@ namespace BGNet::Logging {
     // Get instance field reference: public BGNet.Logging.Debug/BGNet.Logging.LoggerLinkedList next
     ::BGNet::Logging::Debug::LoggerLinkedList*& dyn_next();
     // public System.Void .ctor(BGNet.Logging.Debug/BGNet.Logging.ILogger logger)
-    // Offset: 0x2AC7F08
+    // Offset: 0x2A96AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Debug::LoggerLinkedList* New_ctor(::BGNet::Logging::Debug::ILogger* logger) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Logging::Debug::LoggerLinkedList::.ctor");

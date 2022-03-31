@@ -64,14 +64,14 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
     ::Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_scale();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x22C79F0
+    // Offset: 0x229C7D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScaleXPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::ScaleXPointMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScaleXPointMap*, creationType>(scale)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x22C7A1C
+    // Offset: 0x229C800
     ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ScaleXPointMap
   #pragma pack(pop)

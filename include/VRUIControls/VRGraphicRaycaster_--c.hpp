@@ -41,13 +41,13 @@ namespace VRUIControls {
     // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> <>9__12_0
     static void _set_$$9__12_0(::System::Comparison_1<::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A393C8
+    // Offset: 0x2A05578
     static void _cctor();
     // System.Int32 <RaycastCanvas>b__12_0(VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g2)
-    // Offset: 0x2A39434
+    // Offset: 0x2A055E4
     int $RaycastCanvas$b__12_0(::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, ::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
     // public System.Void .ctor()
-    // Offset: 0x2A3942C
+    // Offset: 0x2A055DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

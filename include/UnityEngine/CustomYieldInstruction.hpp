@@ -33,19 +33,19 @@ namespace UnityEngine {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // public System.Boolean get_keepWaiting()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_keepWaiting();
     // public System.Object get_Current()
-    // Offset: 0x1F5C634
+    // Offset: 0x1F2E950
     ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x1F5C63C
+    // Offset: 0x1F2E958
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1F5C648
+    // Offset: 0x1F2E964
     void Reset();
     // protected System.Void .ctor()
-    // Offset: 0x1F5C64C
+    // Offset: 0x1F2E968
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

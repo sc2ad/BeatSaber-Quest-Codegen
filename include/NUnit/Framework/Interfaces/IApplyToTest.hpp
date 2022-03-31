@@ -29,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
   class IApplyToTest {
     public:
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ApplyToTest(::NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.Interfaces.IApplyToTest
   #pragma pack(pop)

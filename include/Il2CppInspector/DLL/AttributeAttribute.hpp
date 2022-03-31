@@ -62,7 +62,7 @@ namespace Il2CppInspector::DLL {
     // Get instance field reference: public System.String Offset
     ::StringW& dyn_Offset();
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -74,7 +74,7 @@ namespace LiteNetLib {
     // Get instance field reference: public System.Byte ChannelId
     uint8_t& dyn_ChannelId();
     // public System.Void .ctor()
-    // Offset: 0x2195FD0
+    // Offset: 0x216CDB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

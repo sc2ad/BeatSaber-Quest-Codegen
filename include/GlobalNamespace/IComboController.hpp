@@ -32,16 +32,16 @@ namespace GlobalNamespace {
   class IComboController {
     public:
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_comboBreakingEventHappenedEvent(::System::Action* value);
   }; // IComboController
   #pragma pack(pop)

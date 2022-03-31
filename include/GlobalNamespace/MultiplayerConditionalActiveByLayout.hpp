@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerPlayerLayout layout;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
-    // [InjectAttribute] Offset: 0x10BA018
+    // [InjectAttribute] Offset: 0x125458C
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -119,13 +119,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
     ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // private System.Void Start()
-    // Offset: 0x1448490
+    // Offset: 0x13D04F4
     void Start();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 playersCount)
-    // Offset: 0x1448540
+    // Offset: 0x13D05A4
     void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int playersCount);
     // public System.Void .ctor()
-    // Offset: 0x14485A4
+    // Offset: 0x13D0608
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -32,7 +32,7 @@ namespace System {
   class IServiceProvider {
     public:
     // public System.Object GetService(System.Type serviceType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* GetService(::System::Type* serviceType);
   }; // System.IServiceProvider
   #pragma pack(pop)

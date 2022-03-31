@@ -140,28 +140,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _cursorIsLocked
     bool& dyn__cursorIsLocked();
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x1441D34
+    // Offset: 0x13C9D98
     void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
     // public System.Void SetRotations(UnityEngine.Quaternion characterRotation, UnityEngine.Quaternion cameraRotation)
-    // Offset: 0x1441DCC
+    // Offset: 0x13C9E30
     void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x1441DE0
+    // Offset: 0x13C9E44
     void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0x1442190
+    // Offset: 0x13CA1F4
     void SetCursorLock(bool value);
     // public System.Void UpdateCursorLock()
-    // Offset: 0x1442180
+    // Offset: 0x13CA1E4
     void UpdateCursorLock();
     // private System.Void InternalLockUpdate()
-    // Offset: 0x14421C4
+    // Offset: 0x13CA228
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0x14420B8
+    // Offset: 0x13CA11C
     ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
     // public System.Void .ctor()
-    // Offset: 0x1442240
+    // Offset: 0x13CA2A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

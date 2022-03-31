@@ -52,13 +52,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19F94AC
+    // Offset: 0x19EF398
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <DeleteFaces>b__3_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x19F9518
+    // Offset: 0x19EF404
     ::System::Collections::Generic::IEnumerable_1<int>* $DeleteFaces$b__3_0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x19F9510
+    // Offset: 0x19EF3FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

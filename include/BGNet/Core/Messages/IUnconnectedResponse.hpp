@@ -30,16 +30,16 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMessage*>(this);
     }
     // public System.UInt32 get_responseId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     uint get_responseId();
     // public System.Byte get_resultCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_resultCodeString();
     // public BGNet.Core.Messages.IUnconnectedResponse WithResponseId(System.UInt32 responseId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::BGNet::Core::Messages::IUnconnectedResponse* WithResponseId(uint responseId);
   }; // BGNet.Core.Messages.IUnconnectedResponse
   #pragma pack(pop)

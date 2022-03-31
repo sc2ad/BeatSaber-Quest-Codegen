@@ -100,82 +100,82 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean preserveWhitespace
     bool& dyn_preserveWhitespace();
     // System.Void Load(System.Xml.XmlDocument doc, System.Xml.XmlReader reader, System.Boolean preserveWhitespace)
-    // Offset: 0x15A585C
+    // Offset: 0x159C5F4
     void Load(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader, bool preserveWhitespace);
     // private System.Void LoadDocSequence(System.Xml.XmlDocument parentDoc)
-    // Offset: 0x15A5AF0
+    // Offset: 0x159C888
     void LoadDocSequence(::System::Xml::XmlDocument* parentDoc);
     // private System.Xml.XmlNode LoadNode(System.Boolean skipOverWhitespace)
-    // Offset: 0x15A5B60
+    // Offset: 0x159C8F8
     ::System::Xml::XmlNode* LoadNode(bool skipOverWhitespace);
     // private System.Xml.XmlAttribute LoadAttributeNode()
-    // Offset: 0x15A60E8
+    // Offset: 0x159CE80
     ::System::Xml::XmlAttribute* LoadAttributeNode();
     // private System.Xml.XmlAttribute LoadDefaultAttribute()
-    // Offset: 0x15A6A80
+    // Offset: 0x159D818
     ::System::Xml::XmlAttribute* LoadDefaultAttribute();
     // private System.Void LoadAttributeValue(System.Xml.XmlNode parent, System.Boolean direct)
-    // Offset: 0x15A6C24
+    // Offset: 0x159D9BC
     void LoadAttributeValue(::System::Xml::XmlNode* parent, bool direct);
     // private System.Xml.XmlEntityReference LoadEntityReferenceNode(System.Boolean direct)
-    // Offset: 0x15A6420
+    // Offset: 0x159D1B8
     ::System::Xml::XmlEntityReference* LoadEntityReferenceNode(bool direct);
     // private System.Xml.XmlDeclaration LoadDeclarationNode()
-    // Offset: 0x15A6610
+    // Offset: 0x159D3A8
     ::System::Xml::XmlDeclaration* LoadDeclarationNode();
     // private System.Xml.XmlDocumentType LoadDocumentTypeNode()
-    // Offset: 0x15A67BC
+    // Offset: 0x159D554
     ::System::Xml::XmlDocumentType* LoadDocumentTypeNode();
     // private System.Xml.XmlNode LoadNodeDirect()
-    // Offset: 0x15A6F2C
+    // Offset: 0x159DCC4
     ::System::Xml::XmlNode* LoadNodeDirect();
     // private System.Xml.XmlAttribute LoadAttributeNodeDirect()
-    // Offset: 0x15A7F3C
+    // Offset: 0x159ECD4
     ::System::Xml::XmlAttribute* LoadAttributeNodeDirect();
     // System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode)
-    // Offset: 0x15A7ED0
+    // Offset: 0x159EC68
     void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode);
     // private System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode, System.Boolean bUseResolver, System.Xml.XmlResolver resolver)
-    // Offset: 0x15A8198
+    // Offset: 0x159EF30
     void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode, bool bUseResolver, ::System::Xml::XmlResolver* resolver);
     // private System.Void LoadDocumentType(System.Xml.IDtdInfo dtdInfo, System.Xml.XmlDocumentType dtNode)
-    // Offset: 0x15A74DC
+    // Offset: 0x159E274
     void LoadDocumentType(::System::Xml::IDtdInfo* dtdInfo, ::System::Xml::XmlDocumentType* dtNode);
     // private System.Xml.XmlParserContext GetContext(System.Xml.XmlNode node)
-    // Offset: 0x15A89C8
+    // Offset: 0x159F760
     ::System::Xml::XmlParserContext* GetContext(::System::Xml::XmlNode* node);
     // System.Xml.XmlNamespaceManager ParsePartialContent(System.Xml.XmlNode parentNode, System.String innerxmltext, System.Xml.XmlNodeType nt)
-    // Offset: 0x15A91FC
+    // Offset: 0x159FF94
     ::System::Xml::XmlNamespaceManager* ParsePartialContent(::System::Xml::XmlNode* parentNode, ::StringW innerxmltext, ::System::Xml::XmlNodeType nt);
     // System.Void LoadInnerXmlElement(System.Xml.XmlElement node, System.String innerxmltext)
-    // Offset: 0x15A9614
+    // Offset: 0x15A03AC
     void LoadInnerXmlElement(::System::Xml::XmlElement* node, ::StringW innerxmltext);
     // System.Void LoadInnerXmlAttribute(System.Xml.XmlAttribute node, System.String innerxmltext)
-    // Offset: 0x15A9938
+    // Offset: 0x15A06D0
     void LoadInnerXmlAttribute(::System::Xml::XmlAttribute* node, ::StringW innerxmltext);
     // private System.Void RemoveDuplicateNamespace(System.Xml.XmlElement elem, System.Xml.XmlNamespaceManager mgr, System.Boolean fCheckElemAttrs)
-    // Offset: 0x15A9698
+    // Offset: 0x15A0430
     void RemoveDuplicateNamespace(::System::Xml::XmlElement* elem, ::System::Xml::XmlNamespaceManager* mgr, bool fCheckElemAttrs);
     // private System.String EntitizeName(System.String name)
-    // Offset: 0x15A9940
+    // Offset: 0x15A06D8
     ::StringW EntitizeName(::StringW name);
     // System.Void ExpandEntity(System.Xml.XmlEntity ent)
-    // Offset: 0x15A275C
+    // Offset: 0x15994F4
     void ExpandEntity(::System::Xml::XmlEntity* ent);
     // System.Void ExpandEntityReference(System.Xml.XmlEntityReference eref)
-    // Offset: 0x15A2BE0
+    // Offset: 0x1599978
     void ExpandEntityReference(::System::Xml::XmlEntityReference* eref);
     // private System.Xml.XmlReader CreateInnerXmlReader(System.String xmlFragment, System.Xml.XmlNodeType nt, System.Xml.XmlParserContext context, System.Xml.XmlDocument doc)
-    // Offset: 0x15A93C0
+    // Offset: 0x15A0158
     ::System::Xml::XmlReader* CreateInnerXmlReader(::StringW xmlFragment, ::System::Xml::XmlNodeType nt, ::System::Xml::XmlParserContext* context, ::System::Xml::XmlDocument* doc);
     // static System.Void ParseXmlDeclarationValue(System.String strValue, out System.String version, out System.String encoding, out System.String standalone)
-    // Offset: 0x15A7328
+    // Offset: 0x159E0C0
     static void ParseXmlDeclarationValue(::StringW strValue, ByRef<::StringW> version, ByRef<::StringW> encoding, ByRef<::StringW> standalone);
     // static System.Exception UnexpectedNodeType(System.Xml.XmlNodeType nodetype)
-    // Offset: 0x15A6964
+    // Offset: 0x159D6FC
     static ::System::Exception* UnexpectedNodeType(::System::Xml::XmlNodeType nodetype);
     // public System.Void .ctor()
-    // Offset: 0x15A2754
+    // Offset: 0x15994EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class INoteControllerNoteWasMissedEvent {
     public:
     // public System.Void HandleNoteControllerNoteWasMissed(NoteController noteController)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleNoteControllerNoteWasMissed(::GlobalNamespace::NoteController* noteController);
   }; // INoteControllerNoteWasMissedEvent
   #pragma pack(pop)

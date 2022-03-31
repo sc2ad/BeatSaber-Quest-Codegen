@@ -51,7 +51,7 @@ namespace SFB {
     // Get instance field reference: public readonly System.String[] _extensions
     ::ArrayW<::StringW>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0x13CBFF4
+    // Offset: 0x1417F14
     // ABORTED: conflicts with another method.  ExtensionFilter(::StringW filterName, ::ArrayW<::StringW> filterExtensions);
   }; // SFB.ExtensionFilter
   #pragma pack(pop)

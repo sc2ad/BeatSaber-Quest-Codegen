@@ -77,57 +77,57 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers
     ::ArrayW<::ArrayW<uint8_t>>& dyn_tmpBuffers();
     // System.Int32 get_Limit()
-    // Offset: 0x1C0601C
+    // Offset: 0x1BEC4EC
     int get_Limit();
     // public System.Void .ctor(System.IO.Stream inputStream, System.Int32 limit)
-    // Offset: 0x1C03B1C
+    // Offset: 0x1BE9FEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1InputStream* New_ctor(::System::IO::Stream* inputStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1InputStream*, creationType>(inputStream, limit)));
     }
     // public System.Void .ctor(System.Byte[] input)
-    // Offset: 0x1C03B98
+    // Offset: 0x1BEA068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1InputStream* New_ctor(::ArrayW<uint8_t> input) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1InputStream*, creationType>(input)));
     }
     // static System.Int32 FindLimit(System.IO.Stream input)
-    // Offset: 0x1C039C8
+    // Offset: 0x1BE9E98
     static int FindLimit(::System::IO::Stream* input);
     // private Org.BouncyCastle.Asn1.Asn1Object BuildObject(System.Int32 tag, System.Int32 tagNo, System.Int32 length)
-    // Offset: 0x1C03C1C
+    // Offset: 0x1BEA0EC
     ::Org::BouncyCastle::Asn1::Asn1Object* BuildObject(int tag, int tagNo, int length);
     // Org.BouncyCastle.Asn1.Asn1EncodableVector ReadVector(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x1C04ED8
+    // Offset: 0x1BEB3A8
     ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // Org.BouncyCastle.Asn1.DerSequence CreateDerSequence(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x1C053BC
+    // Offset: 0x1BEB88C
     ::Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // Org.BouncyCastle.Asn1.DerSet CreateDerSet(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x1C054E4
+    // Offset: 0x1BEB9B4
     ::Org::BouncyCastle::Asn1::DerSet* CreateDerSet(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // public Org.BouncyCastle.Asn1.Asn1Object ReadObject()
-    // Offset: 0x1C04FC8
+    // Offset: 0x1BEB498
     ::Org::BouncyCastle::Asn1::Asn1Object* ReadObject();
     // static System.Int32 ReadTagNumber(System.IO.Stream s, System.Int32 tag)
-    // Offset: 0x1C05628
+    // Offset: 0x1BEBAF8
     static int ReadTagNumber(::System::IO::Stream* s, int tag);
     // static System.Int32 ReadLength(System.IO.Stream s, System.Int32 limit, System.Boolean isParsing)
-    // Offset: 0x1C05740
+    // Offset: 0x1BEBC10
     static int ReadLength(::System::IO::Stream* s, int limit, bool isParsing);
     // static private System.Byte[] GetBuffer(Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn, System.Byte[][] tmpBuffers)
-    // Offset: 0x1C06024
+    // Offset: 0x1BEC4F4
     static ::ArrayW<uint8_t> GetBuffer(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayW<::ArrayW<uint8_t>> tmpBuffers);
     // static private System.Char[] GetBmpCharBuffer(Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn)
-    // Offset: 0x1C06494
+    // Offset: 0x1BEC964
     static ::ArrayW<::Il2CppChar> GetBmpCharBuffer(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn);
     // static Org.BouncyCastle.Asn1.Asn1Object CreatePrimitiveDerObject(System.Int32 tagNo, Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn, System.Byte[][] tmpBuffers)
-    // Offset: 0x1C04A2C
+    // Offset: 0x1BEAEFC
     static ::Org::BouncyCastle::Asn1::Asn1Object* CreatePrimitiveDerObject(int tagNo, ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayW<::ArrayW<uint8_t>> tmpBuffers);
     // public System.Void .ctor(System.IO.Stream inputStream)
-    // Offset: 0x1C03AE8
+    // Offset: 0x1BE9FB8
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream inputStream)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

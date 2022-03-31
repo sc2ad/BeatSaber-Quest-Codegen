@@ -37,7 +37,7 @@ namespace Newtonsoft::Json::Converters {
   class DateTimeConverterBase : public ::Newtonsoft::Json::JsonConverter {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1783C84
+    // Offset: 0x177AB74
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -47,7 +47,7 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeConverterBase*, creationType>()));
     }
     // public override System.Boolean CanConvert(System.Type objectType)
-    // Offset: 0x1783B4C
+    // Offset: 0x177AA3C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
     bool CanConvert(::System::Type* objectType);

@@ -86,26 +86,26 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _hasInitialized
     bool& dyn__hasInitialized();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IInitializable> initializables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1E09BA4
+    // Offset: 0x1DEE074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager*, creationType>(initializables, priorities)));
     }
     // public System.Void Add(Zenject.IInitializable initializable)
-    // Offset: 0x1E09E90
+    // Offset: 0x1DEE360
     void Add(::Zenject::IInitializable* initializable);
     // public System.Void Add(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1E09E98
+    // Offset: 0x1DEE368
     void Add(::Zenject::IInitializable* initializable, int priority);
     // public System.Void Initialize()
-    // Offset: 0x1E09F40
+    // Offset: 0x1DEE410
     void Initialize();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E0A2FC
+    // Offset: 0x1DEE7CC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E0A414
+    // Offset: 0x1DEE8E4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InitializableManager
   #pragma pack(pop)

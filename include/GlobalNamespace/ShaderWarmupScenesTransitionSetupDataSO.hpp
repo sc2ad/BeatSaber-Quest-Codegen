@@ -36,10 +36,10 @@ namespace GlobalNamespace {
   class ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void Init(ShaderWarmupSceneSetupData shaderWarmupSceneSetupData)
-    // Offset: 0x13B600C
+    // Offset: 0x142B0DC
     void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0x13B6014
+    // Offset: 0x142B0E4
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

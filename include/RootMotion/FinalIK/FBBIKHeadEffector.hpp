@@ -56,39 +56,39 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10DB418
+    // [TooltipAttribute] Offset: 0x1273CF0
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x18
     ::RootMotion::FinalIK::FullBodyBipedIK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
-    // [LargeHeader] Offset: 0x10DB450
-    // [TooltipAttribute] Offset: 0x10DB450
-    // [RangeAttribute] Offset: 0x10DB450
+    // [LargeHeader] Offset: 0x1273D28
+    // [TooltipAttribute] Offset: 0x1273D28
+    // [RangeAttribute] Offset: 0x1273D28
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x20
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB4C8
-    // [RangeAttribute] Offset: 0x10DB4C8
+    // [TooltipAttribute] Offset: 0x1273DA0
+    // [RangeAttribute] Offset: 0x1273DA0
     // public System.Single bodyWeight
     // Size: 0x4
     // Offset: 0x24
     float bodyWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB51C
-    // [RangeAttribute] Offset: 0x10DB51C
+    // [TooltipAttribute] Offset: 0x1273DF4
+    // [RangeAttribute] Offset: 0x1273DF4
     // public System.Single thighWeight
     // Size: 0x4
     // Offset: 0x28
     float thighWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB570
+    // [TooltipAttribute] Offset: 0x1273E48
     // public System.Boolean handsPullBody
     // Size: 0x1
     // Offset: 0x2C
@@ -97,65 +97,65 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: handsPullBody and: rotationWeight
     char __padding4[0x3] = {};
-    // [LargeHeader] Offset: 0x10DB5A8
-    // [TooltipAttribute] Offset: 0x10DB5A8
-    // [RangeAttribute] Offset: 0x10DB5A8
+    // [LargeHeader] Offset: 0x1273E80
+    // [TooltipAttribute] Offset: 0x1273E80
+    // [RangeAttribute] Offset: 0x1273E80
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x30
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB620
-    // [RangeAttribute] Offset: 0x10DB620
+    // [TooltipAttribute] Offset: 0x1273EF8
+    // [RangeAttribute] Offset: 0x1273EF8
     // public System.Single bodyClampWeight
     // Size: 0x4
     // Offset: 0x34
     float bodyClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB674
-    // [RangeAttribute] Offset: 0x10DB674
+    // [TooltipAttribute] Offset: 0x1273F4C
+    // [RangeAttribute] Offset: 0x1273F4C
     // public System.Single headClampWeight
     // Size: 0x4
     // Offset: 0x38
     float headClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB6C8
-    // [RangeAttribute] Offset: 0x10DB6C8
+    // [TooltipAttribute] Offset: 0x1273FA0
+    // [RangeAttribute] Offset: 0x1273FA0
     // public System.Single bendWeight
     // Size: 0x4
     // Offset: 0x3C
     float bendWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB71C
+    // [TooltipAttribute] Offset: 0x1273FF4
     // public RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone[] bendBones
     // Size: 0x8
     // Offset: 0x40
     ::ArrayW<::RootMotion::FinalIK::FBBIKHeadEffector::BendBone*> bendBones;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>) == 0x8);
-    // [LargeHeader] Offset: 0x10DB754
-    // [TooltipAttribute] Offset: 0x10DB754
-    // [RangeAttribute] Offset: 0x10DB754
+    // [LargeHeader] Offset: 0x127402C
+    // [TooltipAttribute] Offset: 0x127402C
+    // [RangeAttribute] Offset: 0x127402C
     // public System.Single CCDWeight
     // Size: 0x4
     // Offset: 0x48
     float CCDWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB7CC
-    // [RangeAttribute] Offset: 0x10DB7CC
+    // [TooltipAttribute] Offset: 0x12740A4
+    // [RangeAttribute] Offset: 0x12740A4
     // public System.Single roll
     // Size: 0x4
     // Offset: 0x4C
     float roll;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB820
-    // [RangeAttribute] Offset: 0x10DB820
+    // [TooltipAttribute] Offset: 0x12740F8
+    // [RangeAttribute] Offset: 0x12740F8
     // public System.Single damper
     // Size: 0x4
     // Offset: 0x50
@@ -164,37 +164,37 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: damper and: CCDBones
     char __padding12[0x4] = {};
-    // [TooltipAttribute] Offset: 0x10DB878
+    // [TooltipAttribute] Offset: 0x1274150
     // public UnityEngine.Transform[] CCDBones
     // Size: 0x8
     // Offset: 0x58
     ::ArrayW<::UnityEngine::Transform*> CCDBones;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [LargeHeader] Offset: 0x10DB8B0
-    // [TooltipAttribute] Offset: 0x10DB8B0
-    // [RangeAttribute] Offset: 0x10DB8B0
+    // [LargeHeader] Offset: 0x1274188
+    // [TooltipAttribute] Offset: 0x1274188
+    // [RangeAttribute] Offset: 0x1274188
     // public System.Single postStretchWeight
     // Size: 0x4
     // Offset: 0x60
     float postStretchWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB928
+    // [TooltipAttribute] Offset: 0x1274200
     // public System.Single maxStretch
     // Size: 0x4
     // Offset: 0x64
     float maxStretch;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB960
+    // [TooltipAttribute] Offset: 0x1274238
     // public System.Single stretchDamper
     // Size: 0x4
     // Offset: 0x68
     float stretchDamper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB998
+    // [TooltipAttribute] Offset: 0x1274270
     // public System.Boolean fixHead
     // Size: 0x1
     // Offset: 0x6C
@@ -203,21 +203,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixHead and: stretchBones
     char __padding17[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10DB9D0
+    // [TooltipAttribute] Offset: 0x12742A8
     // public UnityEngine.Transform[] stretchBones
     // Size: 0x8
     // Offset: 0x70
     ::ArrayW<::UnityEngine::Transform*> stretchBones;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [LargeHeader] Offset: 0x10DBA08
+    // [LargeHeader] Offset: 0x12742E0
     // public UnityEngine.Vector3 chestDirection
     // Size: 0xC
     // Offset: 0x78
     ::UnityEngine::Vector3 chestDirection;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x10DBA40
+    // [RangeAttribute] Offset: 0x1274318
     // public System.Single chestDirectionWeight
     // Size: 0x4
     // Offset: 0x84
@@ -472,46 +472,46 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32 chestBonesCount
     int& dyn_chestBonesCount();
     // private System.Void Start()
-    // Offset: 0x2230B28
+    // Offset: 0x220690C
     void Start();
     // private System.Void OnStoreDefaultLocalState()
-    // Offset: 0x2230E58
+    // Offset: 0x2206C3C
     void OnStoreDefaultLocalState();
     // private System.Void OnFixTransforms()
-    // Offset: 0x2231318
+    // Offset: 0x22070FC
     void OnFixTransforms();
     // private System.Void OnPreRead()
-    // Offset: 0x223170C
+    // Offset: 0x22074F0
     void OnPreRead();
     // private System.Void SpineBend()
-    // Offset: 0x2232084
+    // Offset: 0x2207E68
     void SpineBend();
     // private System.Void CCDPass()
-    // Offset: 0x22323D0
+    // Offset: 0x22081B4
     void CCDPass();
     // private System.Void Iterate(System.Int32 iteration)
-    // Offset: 0x223276C
+    // Offset: 0x2208550
     void Iterate(int iteration);
     // private System.Void OnPostUpdate()
-    // Offset: 0x22331D8
+    // Offset: 0x2208FBC
     void OnPostUpdate();
     // private System.Void ChestDirection()
-    // Offset: 0x2231DB0
+    // Offset: 0x2207B94
     void ChestDirection();
     // private System.Void PostStretching()
-    // Offset: 0x22333E8
+    // Offset: 0x22091CC
     void PostStretching();
     // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
-    // Offset: 0x2233094
+    // Offset: 0x2208E78
     void LerpSolverPosition(::RootMotion::FinalIK::IKEffector* effector, ::UnityEngine::Vector3 position, float weight, ::UnityEngine::Vector3 offset);
     // private System.Void Solve(ref UnityEngine.Vector3 pos1, ref UnityEngine.Vector3 pos2, System.Single nominalDistance)
-    // Offset: 0x2232EF8
+    // Offset: 0x2208CDC
     void Solve(ByRef<::UnityEngine::Vector3> pos1, ByRef<::UnityEngine::Vector3> pos2, float nominalDistance);
     // private System.Void OnDestroy()
-    // Offset: 0x2233754
+    // Offset: 0x2209538
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x22339D4
+    // Offset: 0x22097B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

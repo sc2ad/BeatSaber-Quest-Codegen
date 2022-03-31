@@ -68,21 +68,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T0>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public T0 get_value0()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T0 get_value0() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RemoteProcedureCall_1::get_value0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_value0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T0, false>(this, ___internal__method);
     }
     // public IRemoteProcedureCall Init(System.Single syncTime, T0 value0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IRemoteProcedureCall* Init(float syncTime, T0 value0) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RemoteProcedureCall_1::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(syncTime), ::il2cpp_utils::ExtractType(value0)})));
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::IRemoteProcedureCall*, false>(this, ___internal__method, syncTime, value0);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RemoteProcedureCall_1<T0>*, creationType>()));
     }
     // protected override System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 protocolVersion)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::SerializeData(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 protocolVersion)
     void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint protocolVersion) {
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer, protocolVersion);
     }
     // protected override System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader, System.UInt32 protocolVersion)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::DeserializeData(LiteNetLib.Utils.NetDataReader reader, System.UInt32 protocolVersion)
     void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint protocolVersion) {

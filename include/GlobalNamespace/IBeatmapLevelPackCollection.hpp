@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class IBeatmapLevelPackCollection {
     public:
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
   }; // IBeatmapLevelPackCollection
   #pragma pack(pop)

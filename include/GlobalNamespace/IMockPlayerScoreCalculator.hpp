@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class IMockPlayerScoreCalculator {
     public:
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
   }; // IMockPlayerScoreCalculator
   #pragma pack(pop)

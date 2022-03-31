@@ -29,7 +29,7 @@ namespace System::Xml::Schema {
   class XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x202232C
+    // Offset: 0x200FD00
     // Implemented from: System.Xml.Schema.XmlSchemaObject
     // Base method: System.Void XmlSchemaObject::.ctor()
     // Base method: System.Void Object::.ctor()

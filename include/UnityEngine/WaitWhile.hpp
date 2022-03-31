@@ -59,14 +59,14 @@ namespace UnityEngine {
     // Get instance field reference: private System.Func`1<System.Boolean> m_Predicate
     ::System::Func_1<bool>*& dyn_m_Predicate();
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
-    // Offset: 0x27ACD6C
+    // Offset: 0x277CEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitWhile* New_ctor(::System::Func_1<bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::WaitWhile::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitWhile*, creationType>(predicate)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x27ACD14
+    // Offset: 0x277CE8C
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

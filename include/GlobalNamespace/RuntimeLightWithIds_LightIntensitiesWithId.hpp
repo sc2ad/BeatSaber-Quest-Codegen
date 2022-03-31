@@ -48,20 +48,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // public System.Single get_intensity()
-    // Offset: 0x1F1D2DC
+    // Offset: 0x2AD9760
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1F1D2E4
+    // Offset: 0x2AD9768
     void set_intensity(float value);
-    // public System.Void .ctor()
-    // Offset: 0x1F1D2EC
-    // Implemented from: LightWithIds/LightWithId
-    // Base method: System.Void LightWithId::.ctor()
-    // Base method: System.Void Object::.ctor()
+    // public System.Void .ctor(System.Int32 lightId, System.Single lightIntensity)
+    // Offset: 0x2AD9770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RuntimeLightWithIds::LightIntensitiesWithId* New_ctor() {
+    static RuntimeLightWithIds::LightIntensitiesWithId* New_ctor(int lightId, float lightIntensity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds::LightIntensitiesWithId*, creationType>()));
+      return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds::LightIntensitiesWithId*, creationType>(lightId, lightIntensity)));
     }
   }; // RuntimeLightWithIds/LightIntensitiesWithId
   #pragma pack(pop)

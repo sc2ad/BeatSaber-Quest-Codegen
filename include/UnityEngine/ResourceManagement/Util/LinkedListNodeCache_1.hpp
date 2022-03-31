@@ -76,35 +76,35 @@ namespace UnityEngine::ResourceManagement::Util {
       return *reinterpret_cast<::System::Collections::Generic::LinkedList_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Int32 get_CreatedNodeCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_CreatedNodeCount() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1::get_CreatedNodeCount");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_CreatedNodeCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // System.Int32 get_CachedNodeCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_CachedNodeCount() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1::get_CachedNodeCount");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_CachedNodeCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> Acquire(T val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1::Acquire");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Acquire", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(val)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method, val);
     }
     // public System.Void Release(System.Collections.Generic.LinkedListNode`1<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Release(::System::Collections::Generic::LinkedListNode_1<T>* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

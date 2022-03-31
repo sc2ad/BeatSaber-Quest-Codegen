@@ -36,10 +36,10 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Xml::IDtdParserAdapter*>(this);
     }
     // public System.Boolean get_DtdValidation()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_DtdValidation();
     // public System.Xml.IValidationEventHandling get_ValidationEventHandling()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::IValidationEventHandling* get_ValidationEventHandling();
   }; // System.Xml.IDtdParserAdapterWithValidation
   #pragma pack(pop)

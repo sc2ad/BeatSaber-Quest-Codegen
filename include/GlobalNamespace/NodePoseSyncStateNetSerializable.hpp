@@ -98,37 +98,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // static public PacketPool`1<NodePoseSyncStateNetSerializable> get_pool()
-    // Offset: 0x170FF88
+    // Offset: 0x1706E78
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x170FFD0
+    // Offset: 0x1706EC0
     ::GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x170FFD8
+    // Offset: 0x1706EC8
     void set_id(::GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x170FFE0
+    // Offset: 0x1706ED0
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x170FFE8
+    // Offset: 0x1706ED8
     void set_time(float value);
     // public NodePoseSyncState get_state()
-    // Offset: 0x170FFF0
+    // Offset: 0x1706EE0
     ::GlobalNamespace::NodePoseSyncState get_state();
     // public System.Void set_state(NodePoseSyncState value)
-    // Offset: 0x1710000
+    // Offset: 0x1706EF0
     void set_state(::GlobalNamespace::NodePoseSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x171001C
+    // Offset: 0x1706F0C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x171007C
+    // Offset: 0x1706F6C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x17100CC
+    // Offset: 0x1706FBC
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1710128
+    // Offset: 0x1707018
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

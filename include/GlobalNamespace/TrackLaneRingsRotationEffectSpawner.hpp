@@ -108,14 +108,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TrackLaneRingsRotationEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10B7CA8
+    // [SpaceAttribute] Offset: 0x12521BC
     // private BasicBeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     ::GlobalNamespace::BasicBeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x10B7CE0
+    // [SpaceAttribute] Offset: 0x12521F4
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x24
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     float rotationFlexySpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10B7D58
+    // [InjectAttribute] Offset: 0x125226C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x38
@@ -181,16 +181,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Start()
-    // Offset: 0x1386B94
+    // Offset: 0x133F418
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1386CAC
+    // Offset: 0x133F530
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1386CC8
+    // Offset: 0x133F54C
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1386D9C
+    // Offset: 0x133F620
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

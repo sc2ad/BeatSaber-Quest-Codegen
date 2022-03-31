@@ -51,21 +51,21 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [HeaderAttribute] Offset: 0x10BC68C
+    // [HeaderAttribute] Offset: 0x1256C20
     // private UnityEngine.Material _material0
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10BC6D8
+    // [HeaderAttribute] Offset: 0x1256C6C
     // private UnityEngine.Material _material1
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BC724
+    // [SpaceAttribute] Offset: 0x1256CB8
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x28
@@ -90,10 +90,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Renderer _renderer
     ::UnityEngine::Renderer*& dyn__renderer();
     // public System.Void Awake()
-    // Offset: 0x141267C
+    // Offset: 0x140503C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x14126F8
+    // Offset: 0x14050B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

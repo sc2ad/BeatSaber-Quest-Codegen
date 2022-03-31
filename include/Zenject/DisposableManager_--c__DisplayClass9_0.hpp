@@ -60,16 +60,16 @@ namespace Zenject {
     // Get instance field reference: public System.IDisposable disposable
     ::System::IDisposable*& dyn_disposable();
     // System.Boolean <Remove>b__0(Zenject.DisposableManager/Zenject.DisposableInfo x)
-    // Offset: 0x1DF8064
+    // Offset: 0x1DDC534
     bool $Remove$b__0(::Zenject::DisposableManager::DisposableInfo x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DF8074
+    // Offset: 0x1DDC544
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DF80D0
+    // Offset: 0x1DDC5A0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1DF6BE8
+    // Offset: 0x1DDB0B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -36,10 +36,10 @@ namespace GlobalNamespace {
   class ColorSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     // public UnityEngine.Color get_color()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Color get_color();
     // protected System.Void .ctor()
-    // Offset: 0x2AC9488
+    // Offset: 0x2A98044
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

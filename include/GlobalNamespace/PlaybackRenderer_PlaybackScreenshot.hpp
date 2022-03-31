@@ -134,32 +134,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _path
     ::StringW& dyn__path();
     // public System.String get_name()
-    // Offset: 0x148136C
+    // Offset: 0x12F5A54
     ::StringW get_name();
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x1481374
+    // Offset: 0x12F5A5C
     ::UnityEngine::RenderTexture* get_texture();
     // public UnityEngine.LayerMask get_layerMask()
-    // Offset: 0x148137C
+    // Offset: 0x12F5A64
     ::UnityEngine::LayerMask get_layerMask();
     // public PlaybackRenderer/PlaybackScreenshot/Type get_type()
-    // Offset: 0x1481384
+    // Offset: 0x12F5A6C
     ::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type get_type();
     // public System.String get_path()
-    // Offset: 0x148138C
+    // Offset: 0x12F5A74
     ::StringW get_path();
     // public System.Void set_path(System.String value)
-    // Offset: 0x1481394
+    // Offset: 0x12F5A7C
     void set_path(::StringW value);
     // public System.Void .ctor(System.String name, UnityEngine.LayerMask layerMask, PlaybackRenderer/PlaybackScreenshot/Type type)
-    // Offset: 0x148139C
+    // Offset: 0x12F5A84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaybackRenderer::PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaybackRenderer::PlaybackScreenshot*, creationType>(name, layerMask, type)));
     }
     // public System.Void CreateTexture(System.Int32 width, System.Int32 height)
-    // Offset: 0x1480B6C
+    // Offset: 0x12F5254
     void CreateTexture(int width, int height);
   }; // PlaybackRenderer/PlaybackScreenshot
   #pragma pack(pop)

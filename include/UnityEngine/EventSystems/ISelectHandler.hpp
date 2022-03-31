@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(this);
     }
     // public System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.ISelectHandler
   #pragma pack(pop)

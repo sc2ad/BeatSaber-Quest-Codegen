@@ -34,10 +34,10 @@ namespace System::Diagnostics {
   class TraceFilter : public ::Il2CppObject {
     public:
     // public System.Boolean ShouldTrace(System.Diagnostics.TraceEventCache cache, System.String source, System.Diagnostics.TraceEventType eventType, System.Int32 id, System.String formatOrMessage, System.Object[] args, System.Object data1, System.Object[] data)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int id, ::StringW formatOrMessage, ::ArrayW<::Il2CppObject*> args, ::Il2CppObject* data1, ::ArrayW<::Il2CppObject*> data);
     // System.Boolean ShouldTrace(System.Diagnostics.TraceEventCache cache, System.String source, System.Diagnostics.TraceEventType eventType, System.Int32 id, System.String formatOrMessage)
-    // Offset: 0x1CC911C
+    // Offset: 0x1CAD5EC
     bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int id, ::StringW formatOrMessage);
   }; // System.Diagnostics.TraceFilter
   #pragma pack(pop)

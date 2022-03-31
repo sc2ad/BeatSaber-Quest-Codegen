@@ -56,10 +56,10 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public System.Func`1<System.Object> ctor
     ::System::Func_1<::Il2CppObject*>*& dyn_ctor();
     // System.Object <Create>b__0(System.Object[] args)
-    // Offset: 0x205D134
+    // Offset: 0x204AB08
     ::Il2CppObject* $Create$b__0(::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
-    // Offset: 0x205CC7C
+    // Offset: 0x204A650
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

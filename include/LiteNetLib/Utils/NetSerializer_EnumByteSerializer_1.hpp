@@ -84,14 +84,14 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Reflection.PropertyInfo property, System.Type propertyType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::EnumByteSerializer_1<T>* New_ctor(::System::Reflection::PropertyInfo* property, ::System::Type* propertyType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::EnumByteSerializer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::EnumByteSerializer_1<T>*, creationType>(property, propertyType)));
     }
     // public override System.Void Read(T inf, LiteNetLib.Utils.NetDataReader r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::Read(T inf, LiteNetLib.Utils.NetDataReader r)
     void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r) {
@@ -100,7 +100,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void Write(T inf, LiteNetLib.Utils.NetDataWriter w)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::Write(T inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w) {

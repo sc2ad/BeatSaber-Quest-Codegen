@@ -47,13 +47,13 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   class IResourceLocator {
     public:
     // public System.String get_LocatorId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_LocatorId();
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Locate(::Il2CppObject* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
   }; // UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator
   #pragma pack(pop)

@@ -113,10 +113,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14DD320
+    // Offset: 0x152342C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14DD978
+    // Offset: 0x1523A84
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LobbyPlayersDataModel/<SetOwnedSongPacks>d__43
   // WARNING Not writing size check since size may be invalid!

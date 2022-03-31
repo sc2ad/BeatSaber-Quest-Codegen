@@ -74,22 +74,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String secret
     ::StringW& dyn_secret();
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
-    // Offset: 0x2607510
+    // Offset: 0x25E79D0
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();
     // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.String secret)
-    // Offset: 0x2607754
+    // Offset: 0x25E7C14
     ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(::StringW secret);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2607BCC
+    // Offset: 0x25E808C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2607BF0
+    // Offset: 0x25E80B0
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2607B30
+    // Offset: 0x25E7FF0
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x2607C24
+    // Offset: 0x25E80E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

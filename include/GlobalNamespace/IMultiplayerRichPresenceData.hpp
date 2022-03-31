@@ -29,25 +29,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
     }
     // public System.String get_multiplayerSecret()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_multiplayerSecret();
     // public System.Void set_multiplayerSecret(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_multiplayerSecret(::StringW value);
     // public System.Boolean get_atMaxPartySize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_atMaxPartySize();
     // public System.Void set_atMaxPartySize(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_atMaxPartySize(bool value);
     // public System.Boolean get_canInvite()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_canInvite();
     // public System.Void set_canInvite(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_canInvite(bool value);
     // public System.Boolean get_isJoinable()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isJoinable();
   }; // IMultiplayerRichPresenceData
   #pragma pack(pop)

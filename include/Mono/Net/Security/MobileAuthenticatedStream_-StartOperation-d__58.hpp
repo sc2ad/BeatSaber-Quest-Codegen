@@ -104,10 +104,10 @@ namespace Mono::Net::Security {
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1
     typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1ABDB94
+    // Offset: 0x1AA11CC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1ABE248
+    // Offset: 0x1AA1880
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.<StartOperation>d__58
   // WARNING Not writing size check since size may be invalid!

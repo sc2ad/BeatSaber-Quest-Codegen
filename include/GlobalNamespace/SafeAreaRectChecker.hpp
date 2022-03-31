@@ -102,14 +102,14 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::Vector3> corners;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
-    // [InjectAttribute] Offset: 0x10BDE80
+    // [InjectAttribute] Offset: 0x1258414
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainCamera*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BDE90
+    // [InjectAttribute] Offset: 0x1258424
     // private readonly SafeAreaRectChecker/InitData _initData
     // Size: 0x8
     // Offset: 0x50
@@ -140,13 +140,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SafeAreaRectChecker/InitData _initData
     ::GlobalNamespace::SafeAreaRectChecker::InitData*& dyn__initData();
     // public System.Void Start()
-    // Offset: 0x13AB79C
+    // Offset: 0x1420964
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13AB810
+    // Offset: 0x14209D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13ABA4C
+    // Offset: 0x1420C14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

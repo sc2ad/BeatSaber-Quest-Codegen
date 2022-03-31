@@ -66,10 +66,10 @@ namespace Mono::Http {
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.MessageBase message
     ::Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1AB3D1C
+    // Offset: 0x1A97354
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x1AB42E8
+    // Offset: 0x1A97920
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

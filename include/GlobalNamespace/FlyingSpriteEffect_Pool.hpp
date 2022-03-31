@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class FlyingSpriteEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingSpriteEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12E5C04
+    // Offset: 0x1391C08
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

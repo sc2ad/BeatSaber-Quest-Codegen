@@ -83,10 +83,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.AudioClip> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x15046F8
+    // Offset: 0x14D1558
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15048F0
+    // Offset: 0x14D1750
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelSO/<GetPreviewAudioClipAsync>d__65
   // WARNING Not writing size check since size may be invalid!

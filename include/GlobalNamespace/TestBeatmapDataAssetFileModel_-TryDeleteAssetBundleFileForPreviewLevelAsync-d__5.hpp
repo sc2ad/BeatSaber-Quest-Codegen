@@ -59,10 +59,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1382418
+    // Offset: 0x133AC9C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13825EC
+    // Offset: 0x133AE70
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__5
   // WARNING Not writing size check since size may be invalid!

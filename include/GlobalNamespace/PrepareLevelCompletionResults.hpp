@@ -68,56 +68,56 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModelSO;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB484
+    // [InjectAttribute] Offset: 0x12559F8
     // private readonly SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::SaberActivityCounter* saberActivityCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberActivityCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB494
+    // [InjectAttribute] Offset: 0x1255A08
     // private readonly BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB4A4
+    // [InjectAttribute] Offset: 0x1255A18
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB4B4
+    // [InjectAttribute] Offset: 0x1255A28
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB4C4
+    // [InjectAttribute] Offset: 0x1255A38
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB4D4
+    // [InjectAttribute] Offset: 0x1255A48
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB4E4
+    // [InjectAttribute] Offset: 0x1255A58
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB4F4
+    // [InjectAttribute] Offset: 0x1255A68
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x58
@@ -146,10 +146,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ComboController _comboController
     ::GlobalNamespace::ComboController*& dyn__comboController();
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0x13C2CF4
+    // Offset: 0x13782B0
     ::GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(::GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, ::GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
     // public System.Void .ctor()
-    // Offset: 0x13C2F84
+    // Offset: 0x1378504
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

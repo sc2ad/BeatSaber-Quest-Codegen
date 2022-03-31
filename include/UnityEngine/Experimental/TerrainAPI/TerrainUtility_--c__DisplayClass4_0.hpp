@@ -47,7 +47,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public System.Boolean onlyAutoConnectedTerrains
     bool& dyn_onlyAutoConnectedTerrains();
     // public System.Void .ctor()
-    // Offset: 0x2A938D0
+    // Offset: 0x2A5FA80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

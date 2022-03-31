@@ -92,19 +92,19 @@ namespace System::Globalization {
     // Get instance field reference: System.String m_failureArgumentName
     ::StringW& dyn_m_failureArgumentName();
     // System.Void Init(System.Globalization.TimeSpanParse/System.Globalization.TimeSpanThrowStyle canThrow)
-    // Offset: 0x2110E34
+    // Offset: 0x20FCF14
     void Init(::System::Globalization::TimeSpanParse::TimeSpanThrowStyle canThrow);
     // System.Void SetFailure(System.Globalization.TimeSpanParse/System.Globalization.ParseFailureKind failure, System.String failureMessageID)
-    // Offset: 0x211125C
+    // Offset: 0x20FD33C
     void SetFailure(::System::Globalization::TimeSpanParse::ParseFailureKind failure, ::StringW failureMessageID);
     // System.Void SetFailure(System.Globalization.TimeSpanParse/System.Globalization.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x21152CC
+    // Offset: 0x21013AC
     void SetFailure(::System::Globalization::TimeSpanParse::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Globalization.TimeSpanParse/System.Globalization.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0x21111D0
+    // Offset: 0x20FD2B0
     void SetFailure(::System::Globalization::TimeSpanParse::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName);
     // System.Exception GetTimeSpanParseException()
-    // Offset: 0x211102C
+    // Offset: 0x20FD10C
     ::System::Exception* GetTimeSpanParseException();
   }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult
   #pragma pack(pop)

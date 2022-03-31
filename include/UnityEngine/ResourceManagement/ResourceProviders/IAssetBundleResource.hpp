@@ -29,7 +29,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   class IAssetBundleResource {
     public:
     // public UnityEngine.AssetBundle GetAssetBundle()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::AssetBundle* GetAssetBundle();
   }; // UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource
   #pragma pack(pop)

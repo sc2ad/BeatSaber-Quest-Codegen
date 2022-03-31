@@ -107,77 +107,77 @@ namespace TMPro {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(T[] tagStack)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TMP_RichTextTagStack_1(::ArrayW<T> tagStack) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tagStack)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tagStack);
     }
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TMP_RichTextTagStack_1(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, capacity);
     }
     // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void SetDefault(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetDefault(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::SetDefault");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetDefault", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void Add(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public T Remove()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Remove() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void Push(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Push(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::Push");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Push", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public T Pop()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Pop() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::Pop");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Pop", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public T Peek()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Peek() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::Peek");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Peek", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public T CurrentItem()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T CurrentItem() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::CurrentItem");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "CurrentItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public T PreviousItem()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T PreviousItem() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_RichTextTagStack_1::PreviousItem");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "PreviousItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

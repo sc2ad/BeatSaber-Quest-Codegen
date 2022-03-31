@@ -111,32 +111,32 @@ namespace System::Collections {
     // Get instance field reference: private System.Object currentValue
     ::Il2CppObject*& dyn_currentValue();
     // public System.Object get_Key()
-    // Offset: 0x1CDD56C
+    // Offset: 0x1CC1A3C
     ::Il2CppObject* get_Key();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1CDD750
+    // Offset: 0x1CC1C20
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x1CDD808
+    // Offset: 0x1CC1CD8
     ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x1CDD8FC
+    // Offset: 0x1CC1DCC
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Collections.Hashtable hashtable, System.Int32 getObjRetType)
-    // Offset: 0x1CDC198
+    // Offset: 0x1CC0668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::HashtableEnumerator* New_ctor(::System::Collections::Hashtable* hashtable, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Hashtable::HashtableEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::HashtableEnumerator*, creationType>(hashtable, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x1CDD564
+    // Offset: 0x1CC1A34
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1CDD608
+    // Offset: 0x1CC1AD8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CDD998
+    // Offset: 0x1CC1E68
     void Reset();
   }; // System.Collections.Hashtable/System.Collections.HashtableEnumerator
   #pragma pack(pop)

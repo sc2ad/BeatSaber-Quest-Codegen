@@ -103,34 +103,34 @@ namespace Tweening {
     // Get instance field reference: private System.Single _prevTime
     float& dyn__prevTime();
     // protected System.Void Start()
-    // Offset: 0x138E400
+    // Offset: 0x2AB41A8
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x138E46C
+    // Offset: 0x2AB4214
     void LateUpdate();
     // protected System.Single GetTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float GetTime();
     // public Tweening.Tween AddTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x138E624
+    // Offset: 0x2AB43CC
     ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // public Tweening.Tween RestartTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x138E74C
+    // Offset: 0x2AB44F4
     ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // public Tweening.Tween ResumeTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x138E7AC
+    // Offset: 0x2AB4554
     ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // public System.Void KillAllTweens(System.Object owner)
-    // Offset: 0x138E7DC
+    // Offset: 0x2AB4584
     void KillAllTweens(::Il2CppObject* owner);
     // private System.Boolean AddTweenToDataStructures(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x138E670
+    // Offset: 0x2AB4418
     bool AddTweenToDataStructures(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x138E950
+    // Offset: 0x2AB46F8
     void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // protected System.Void .ctor()
-    // Offset: 0x138E22C
+    // Offset: 0x2AB3FC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

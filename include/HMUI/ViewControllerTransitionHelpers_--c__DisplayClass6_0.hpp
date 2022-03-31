@@ -74,10 +74,10 @@ namespace HMUI {
     // Get instance field reference: public HMUI.ViewController toDismissViewController
     ::HMUI::ViewController*& dyn_toDismissViewController();
     // System.Void <DoVerticalTransition>b__0(System.Single t)
-    // Offset: 0x2A1889C
+    // Offset: 0x29E4A78
     void $DoVerticalTransition$b__0(float t);
     // public System.Void .ctor()
-    // Offset: 0x2A18894
+    // Offset: 0x29E4A70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

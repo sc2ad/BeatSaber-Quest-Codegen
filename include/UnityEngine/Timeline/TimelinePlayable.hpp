@@ -141,40 +141,40 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<UnityEngine.Timeline.TrackAsset,UnityEngine.Playables.Playable> m_PlayableCache
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Playables::Playable>*& dyn_m_PlayableCache();
     // static private System.Void .cctor()
-    // Offset: 0x29FF7F8
+    // Offset: 0x29CC970
     static void _cctor();
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimelinePlayable> Create(UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> tracks, UnityEngine.GameObject go, System.Boolean autoRebalance, System.Boolean createOutputs)
-    // Offset: 0x29FD864
+    // Offset: 0x29CA9DC
     static ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimelinePlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
     // public System.Void Compile(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable timelinePlayable, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> tracks, UnityEngine.GameObject go, System.Boolean autoRebalance, System.Boolean createOutputs)
-    // Offset: 0x29FDA30
+    // Offset: 0x29CABA8
     void Compile(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
     // private System.Void CompileTrackList(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable timelinePlayable, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> tracks, UnityEngine.GameObject go, System.Boolean createOutputs)
-    // Offset: 0x29FDC3C
+    // Offset: 0x29CADB4
     void CompileTrackList(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
     // private System.Void CreateTrackOutput(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Timeline.TrackAsset track, UnityEngine.GameObject go, UnityEngine.Playables.Playable playable, System.Int32 port)
-    // Offset: 0x29FE810
+    // Offset: 0x29CB988
     void CreateTrackOutput(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable playable, int port);
     // private System.Void EvaluateWeightsForAnimationPlayableOutput(UnityEngine.Timeline.TrackAsset track, UnityEngine.Animations.AnimationPlayableOutput animOutput)
-    // Offset: 0x29FED98
+    // Offset: 0x29CBF10
     void EvaluateWeightsForAnimationPlayableOutput(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
     // private System.Void EvaluateAnimationPreviewUpdateCallback(UnityEngine.Timeline.TrackAsset track, UnityEngine.Animations.AnimationPlayableOutput animOutput)
-    // Offset: 0x29FEE2C
+    // Offset: 0x29CBFA4
     void EvaluateAnimationPreviewUpdateCallback(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
     // private UnityEngine.Playables.Playable CreateTrackPlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable timelinePlayable, UnityEngine.Timeline.TrackAsset track, UnityEngine.GameObject go, System.Boolean createOutputs)
-    // Offset: 0x29FE3DC
+    // Offset: 0x29CB554
     ::UnityEngine::Playables::Playable CreateTrackPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, bool createOutputs);
     // private System.Void Evaluate(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x29FF224
+    // Offset: 0x29CC39C
     void Evaluate(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData frameData);
     // private System.Void CacheTrack(UnityEngine.Timeline.TrackAsset track, UnityEngine.Playables.Playable playable, System.Int32 port, UnityEngine.Playables.Playable parent)
-    // Offset: 0x29FF174
+    // Offset: 0x29CC2EC
     void CacheTrack(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Playables::Playable playable, int port, ::UnityEngine::Playables::Playable parent);
     // static private System.Void ForAOTCompilationOnly()
-    // Offset: 0x29FF6B8
+    // Offset: 0x29CC830
     static void ForAOTCompilationOnly();
     // public System.Void .ctor()
-    // Offset: 0x29FF710
+    // Offset: 0x29CC888
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -184,7 +184,7 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimelinePlayable*, creationType>()));
     }
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x29FF1F4
+    // Offset: 0x29CC36C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);

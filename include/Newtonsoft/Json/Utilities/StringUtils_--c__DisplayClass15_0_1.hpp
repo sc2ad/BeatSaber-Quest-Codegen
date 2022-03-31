@@ -71,21 +71,21 @@ namespace Newtonsoft::Json::Utilities {
       return *reinterpret_cast<::StringW*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Boolean <ForgivingCaseSensitiveFind>b__0(TSource s)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool $ForgivingCaseSensitiveFind$b__0(TSource s) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::StringUtils::$$c__DisplayClass15_0_1::<ForgivingCaseSensitiveFind>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ForgivingCaseSensitiveFind>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, s);
     }
     // System.Boolean <ForgivingCaseSensitiveFind>b__1(TSource s)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool $ForgivingCaseSensitiveFind$b__1(TSource s) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::StringUtils::$$c__DisplayClass15_0_1::<ForgivingCaseSensitiveFind>b__1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ForgivingCaseSensitiveFind>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, s);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

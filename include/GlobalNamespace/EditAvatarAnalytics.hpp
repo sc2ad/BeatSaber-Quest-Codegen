@@ -64,21 +64,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EditAvatarFlowCoordinator* editAvatarFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10AF87C
+    // [InjectAttribute] Offset: 0x1249BC0
     // private readonly EditAvatarViewController _editAvatarViewController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::EditAvatarViewController* editAvatarViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10AF88C
+    // [InjectAttribute] Offset: 0x1249BD0
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10AF89C
+    // [InjectAttribute] Offset: 0x1249BE0
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x30
@@ -105,25 +105,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private EditAvatarFlowCoordinator/EditAvatarType _lastEditAvatarType
     ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType& dyn__lastEditAvatarType();
     // protected System.Void Awake()
-    // Offset: 0x141E9D8
+    // Offset: 0x1411B90
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x141ECE4
+    // Offset: 0x1411E9C
     void OnDestroy();
     // private System.Void HandleEditAvatarFlowCoordinatorWasSetup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x141F068
+    // Offset: 0x1412220
     void HandleEditAvatarFlowCoordinatorWasSetup(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
     // private System.Void HandleEditAvatarViewControllerDidFinish(EditAvatarViewController/FinishAction finishAction)
-    // Offset: 0x141F348
+    // Offset: 0x1412500
     void HandleEditAvatarViewControllerDidFinish(::GlobalNamespace::EditAvatarViewController::FinishAction finishAction);
     // private System.Void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed()
-    // Offset: 0x141F438
+    // Offset: 0x14125F0
     void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed();
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> CreateEditAvatarEventData()
-    // Offset: 0x141F14C
+    // Offset: 0x1412304
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
     // public System.Void .ctor()
-    // Offset: 0x141F514
+    // Offset: 0x14126CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

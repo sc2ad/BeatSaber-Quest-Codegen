@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class IBeatmapLevelCollection {
     public:
     // public System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> get_beatmapLevels()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
   }; // IBeatmapLevelCollection
   #pragma pack(pop)

@@ -23,10 +23,10 @@ namespace Org::BouncyCastle::Math::Field {
   class IPolynomial {
     public:
     // public System.Int32 get_Degree()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Degree();
     // public System.Int32[] GetExponentsPresent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<int> GetExponentsPresent();
   }; // Org.BouncyCastle.Math.Field.IPolynomial
   #pragma pack(pop)

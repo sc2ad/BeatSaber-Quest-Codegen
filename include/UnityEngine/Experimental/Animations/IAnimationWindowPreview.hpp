@@ -29,7 +29,7 @@ namespace UnityEngine::Experimental::Animations {
   class IAnimationWindowPreview {
     public:
     // public System.Void UpdatePreviewGraph(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdatePreviewGraph(::UnityEngine::Playables::PlayableGraph graph);
   }; // UnityEngine.Experimental.Animations.IAnimationWindowPreview
   #pragma pack(pop)

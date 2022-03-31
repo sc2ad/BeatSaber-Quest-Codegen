@@ -55,16 +55,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.TerrainData,HoudiniEngineUnity.Test_TerrainData> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::TerrainData*, ::HoudiniEngineUnity::Test_TerrainData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A74BEC
+    // Offset: 0x2A3FD9C
     static void _cctor();
     // HoudiniEngineUnity.Test_TerrainData <ToTestObject>b__1_0(UnityEngine.TerrainData lod)
-    // Offset: 0x2A74C58
+    // Offset: 0x2A3FE08
     ::HoudiniEngineUnity::Test_TerrainData* $ToTestObject$b__1_0(::UnityEngine::TerrainData* lod);
     // HoudiniEngineUnity.Test_TerrainData <ToTestObject>b__2_0(UnityEngine.TerrainData lod)
-    // Offset: 0x2A74CBC
+    // Offset: 0x2A3FE6C
     ::HoudiniEngineUnity::Test_TerrainData* $ToTestObject$b__2_0(::UnityEngine::TerrainData* lod);
     // public System.Void .ctor()
-    // Offset: 0x2A74C50
+    // Offset: 0x2A3FE00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -129,34 +129,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _uploading
     bool& dyn__uploading();
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x14A3FD8
+    // Offset: 0x13B68F8
     void add_allScoresDidUploadEvent(::System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x14A407C
+    // Offset: 0x13B699C
     void remove_allScoresDidUploadEvent(::System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0x14A4120
+    // Offset: 0x13B6A40
     void Init(::GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::StringW playerId);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x14A41CC
+    // Offset: 0x13B6AEC
     void OnApplicationQuit();
     // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0x14A415C
+    // Offset: 0x13B6A7C
     ::System::Collections::IEnumerator* UploadScoresCoroutine();
     // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0x14A41FC
+    // Offset: 0x13B6B1C
     void LoadScoresToUploadFromFile();
     // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0x14A448C
+    // Offset: 0x13B6DAC
     void SaveScoresToUploadToFile();
     // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0x14A4598
+    // Offset: 0x13B6EB8
     void AddScore(::GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
     // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0x14A46FC
+    // Offset: 0x13B701C
     bool $UploadScoresCoroutine$b__14_1();
     // public System.Void .ctor()
-    // Offset: 0x14A466C
+    // Offset: 0x13B6F8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -72,10 +72,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: public System.String providerSuffix
     ::StringW& dyn_providerSuffix();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <LoadContentCatalog>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> res)
-    // Offset: 0x189A150
+    // Offset: 0x1892044
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> $LoadContentCatalog$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);
     // public System.Void .ctor()
-    // Offset: 0x1899D4C
+    // Offset: 0x1891C40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

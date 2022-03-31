@@ -55,14 +55,14 @@ namespace NUnit::Framework::Internal {
     protected:
     #endif
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x10AA990
+    // [DebuggerBrowsableAttribute] Offset: 0x124494C
     // private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::NUnit::Framework::Interfaces::IMethodInfo* Method;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Interfaces::IMethodInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x10AA9CC
+    // [DebuggerBrowsableAttribute] Offset: 0x1244988
     // private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -79,29 +79,29 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
     ::System::Reflection::ParameterInfo*& dyn_$ParameterInfo$k__BackingField();
     // public System.Boolean get_IsOptional()
-    // Offset: 0x29E177C
+    // Offset: 0x29AD8F4
     bool get_IsOptional();
     // private System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x29E1798
+    // Offset: 0x29AD910
     void set_Method(::NUnit::Framework::Interfaces::IMethodInfo* value);
     // public System.Reflection.ParameterInfo get_ParameterInfo()
-    // Offset: 0x29E17A0
+    // Offset: 0x29AD918
     ::System::Reflection::ParameterInfo* get_ParameterInfo();
     // private System.Void set_ParameterInfo(System.Reflection.ParameterInfo value)
-    // Offset: 0x29E17A8
+    // Offset: 0x29AD920
     void set_ParameterInfo(::System::Reflection::ParameterInfo* value);
     // public System.Type get_ParameterType()
-    // Offset: 0x29E17B0
+    // Offset: 0x29AD928
     ::System::Type* get_ParameterType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, System.Reflection.ParameterInfo parameterInfo)
-    // Offset: 0x29E1148
+    // Offset: 0x29AD2C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterWrapper* New_ctor(::NUnit::Framework::Interfaces::IMethodInfo* method, ::System::Reflection::ParameterInfo* parameterInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::ParameterWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterWrapper*, creationType>(method, parameterInfo)));
     }
     // public T[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::ArrayW<T> GetCustomAttributes(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::ParameterWrapper::GetCustomAttributes");
@@ -110,7 +110,7 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     bool IsDefined(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::ParameterWrapper::IsDefined");

@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BE730
+    // [SpaceAttribute] Offset: 0x1258CC4
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x30
@@ -103,14 +103,14 @@ namespace GlobalNamespace {
     ::HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(::HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BE778
+    // [SpaceAttribute] Offset: 0x1258D0C
     // private EnvironmentsListSO _allEnvironments
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::EnvironmentsListSO* allEnvironments;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentsListSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BE7B0
+    // [InjectAttribute] Offset: 0x1258D44
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x48
@@ -155,28 +155,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x12D98D0
+    // Offset: 0x1383E8C
     ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x12D98D8
+    // Offset: 0x1383E94
     void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x12D9C68
+    // Offset: 0x1384224
     void OnDestroy();
     // public System.Void Refresh()
-    // Offset: 0x12D9DF0
+    // Offset: 0x13843AC
     void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x12D9F58
+    // Offset: 0x1384514
     void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x12DA1BC
+    // Offset: 0x1384778
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0x12DA3A8
+    // Offset: 0x1384964
     void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
     // public System.Void .ctor()
-    // Offset: 0x12DA3A0
+    // Offset: 0x138495C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

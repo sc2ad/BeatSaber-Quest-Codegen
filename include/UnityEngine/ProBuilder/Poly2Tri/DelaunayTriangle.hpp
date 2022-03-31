@@ -84,92 +84,92 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: private System.Boolean <IsInterior>k__BackingField
     bool& dyn_$IsInterior$k__BackingField();
     // public System.Boolean get_IsInterior()
-    // Offset: 0x2A702BC
+    // Offset: 0x2A3B46C
     bool get_IsInterior();
     // public System.Void set_IsInterior(System.Boolean value)
-    // Offset: 0x2A702C4
+    // Offset: 0x2A3B474
     void set_IsInterior(bool value);
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p3)
-    // Offset: 0x2A6D274
+    // Offset: 0x2A38424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelaunayTriangle* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelaunayTriangle*, creationType>(p1, p2, p3)));
     }
     // public System.Int32 IndexOf(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6F4E0
+    // Offset: 0x2A3A690
     int IndexOf(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // public System.Int32 IndexCCWFrom(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A702D0
+    // Offset: 0x2A3B480
     int IndexCCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // public System.Boolean Contains(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6C2BC
+    // Offset: 0x2A3746C
     bool Contains(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // private System.Void MarkNeighbor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x2A70308
+    // Offset: 0x2A3B4B8
     void MarkNeighbor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public System.Void MarkNeighbor(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x2A6D320
+    // Offset: 0x2A384D0
     void MarkNeighbor(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint OppositePoint(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6C398
+    // Offset: 0x2A37548
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* OppositePoint(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle NeighborCWFrom(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A6CB90
+    // Offset: 0x2A37D40
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* NeighborCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle NeighborCCWFrom(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A6CA64
+    // Offset: 0x2A37C14
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* NeighborCCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle NeighborAcrossFrom(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A6C31C
+    // Offset: 0x2A374CC
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* NeighborAcrossFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint PointCCWFrom(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A6C9D4
+    // Offset: 0x2A37B84
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* PointCCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint PointCWFrom(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A6CB00
+    // Offset: 0x2A37CB0
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* PointCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // private System.Void RotateCW()
-    // Offset: 0x2A703D0
+    // Offset: 0x2A3B580
     void RotateCW();
     // public System.Void Legalize(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint oPoint, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint nPoint)
-    // Offset: 0x2A6F728
+    // Offset: 0x2A3A8D8
     void Legalize(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* oPoint, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* nPoint);
     // public System.Void MarkConstrainedEdge(System.Int32 index)
-    // Offset: 0x2A6E530
+    // Offset: 0x2A396E0
     void MarkConstrainedEdge(int index);
     // public System.Void MarkConstrainedEdge(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint q)
-    // Offset: 0x2A6E53C
+    // Offset: 0x2A396EC
     void MarkConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* q);
     // public System.Int32 EdgeIndex(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
-    // Offset: 0x2A6E440
+    // Offset: 0x2A395F0
     int EdgeIndex(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
     // public System.Boolean GetConstrainedEdgeCCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6F650
+    // Offset: 0x2A3A800
     bool GetConstrainedEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // public System.Boolean GetConstrainedEdgeCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6CF98
+    // Offset: 0x2A38148
     bool GetConstrainedEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // public System.Void SetConstrainedEdgeCCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p, System.Boolean ce)
-    // Offset: 0x2A6F868
+    // Offset: 0x2A3AA18
     void SetConstrainedEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
     // public System.Void SetConstrainedEdgeCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p, System.Boolean ce)
-    // Offset: 0x2A6F8B8
+    // Offset: 0x2A3AA68
     void SetConstrainedEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
     // public System.Boolean GetDelaunayEdgeCCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6F698
+    // Offset: 0x2A3A848
     bool GetDelaunayEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // public System.Boolean GetDelaunayEdgeCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6F6E0
+    // Offset: 0x2A3A890
     bool GetDelaunayEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // public System.Void SetDelaunayEdgeCCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p, System.Boolean ce)
-    // Offset: 0x2A6F7C8
+    // Offset: 0x2A3A978
     void SetDelaunayEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
     // public System.Void SetDelaunayEdgeCW(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p, System.Boolean ce)
-    // Offset: 0x2A6F818
+    // Offset: 0x2A3A9C8
     void SetDelaunayEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
     // public override System.String ToString()
-    // Offset: 0x2A70498
+    // Offset: 0x2A3B648
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

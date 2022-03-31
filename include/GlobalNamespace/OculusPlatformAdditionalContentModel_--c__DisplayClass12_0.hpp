@@ -88,13 +88,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PurchaseList> <>9__1
     typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>::Callback*& dyn_$$9__1();
     // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x1343040
+    // Offset: 0x15146C0
     void $CheckForNewEntitlementsAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // System.Void <CheckForNewEntitlementsAsync>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.PurchaseList> getPurchasesMsg)
-    // Offset: 0x134347C
+    // Offset: 0x1514AF8
     void $CheckForNewEntitlementsAsync$b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
     // public System.Void .ctor()
-    // Offset: 0x1343038
+    // Offset: 0x15146B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

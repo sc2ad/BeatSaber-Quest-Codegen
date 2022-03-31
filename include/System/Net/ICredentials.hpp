@@ -35,7 +35,7 @@ namespace System::Net {
   class ICredentials {
     public:
     // public System.Net.NetworkCredential GetCredential(System.Uri uri, System.String authType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Net::NetworkCredential* GetCredential(::System::Uri* uri, ::StringW authType);
   }; // System.Net.ICredentials
   #pragma pack(pop)

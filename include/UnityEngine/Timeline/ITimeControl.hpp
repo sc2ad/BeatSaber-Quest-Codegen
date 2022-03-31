@@ -22,13 +22,13 @@ namespace UnityEngine::Timeline {
   class ITimeControl {
     public:
     // public System.Void SetTime(System.Double time)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetTime(double time);
     // public System.Void OnControlTimeStart()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnControlTimeStart();
     // public System.Void OnControlTimeStop()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnControlTimeStop();
   }; // UnityEngine.Timeline.ITimeControl
   #pragma pack(pop)

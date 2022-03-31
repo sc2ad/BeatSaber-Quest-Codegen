@@ -72,7 +72,7 @@ namespace Zenject {
       return *reinterpret_cast<::UnityEngine::Transform**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()
@@ -83,7 +83,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<MonoMemoryPool_1<TValue>*, creationType>()));
     }
     // protected override System.Void OnCreated(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnCreated(TValue item)
     void OnCreated(TValue item) {
@@ -92,7 +92,7 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void OnDestroyed(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnDestroyed(TValue item)
     void OnDestroyed(TValue item) {
@@ -101,7 +101,7 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void OnSpawned(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnSpawned(TValue item)
     void OnSpawned(TValue item) {
@@ -110,7 +110,7 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void OnDespawned(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
@@ -119,7 +119,7 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Object MemoryPool_1::__zenCreate(System.Object[] P_0)
     // Base method: System.Object MemoryPoolBase_1::__zenCreate(System.Object[] P_0)
@@ -129,7 +129,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: Zenject.InjectTypeInfo MemoryPool_1::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo MemoryPoolBase_1::__zenCreateInjectTypeInfo()

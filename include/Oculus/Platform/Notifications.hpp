@@ -38,13 +38,13 @@ namespace Oculus::Platform {
   class Notifications : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomInviteNotificationList> GetRoomInviteNotifications()
-    // Offset: 0x2A57D6C
+    // Offset: 0x2A23F1C
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>* GetRoomInviteNotifications();
     // static public Oculus.Platform.Request MarkAsRead(System.UInt64 notificationID)
-    // Offset: 0x2A57E78
+    // Offset: 0x2A24028
     static ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomInviteNotificationList> GetNextRoomInviteNotificationListPage(Oculus.Platform.Models.RoomInviteNotificationList list)
-    // Offset: 0x2A57FB8
+    // Offset: 0x2A24168
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>* GetNextRoomInviteNotificationListPage(::Oculus::Platform::Models::RoomInviteNotificationList* list);
   }; // Oculus.Platform.Notifications
   #pragma pack(pop)

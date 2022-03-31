@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingScoreSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B5D34
+    // [InjectAttribute] Offset: 0x12501B8
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
@@ -69,16 +69,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IScoreController _scoreController
     ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // protected System.Void Start()
-    // Offset: 0x14E18A8
+    // Offset: 0x1476224
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14E199C
+    // Offset: 0x1476318
     void OnDestroy();
     // private System.Void HandleScoringForNoteStarted(ScoringElement scoringElement)
-    // Offset: 0x14E1A9C
+    // Offset: 0x1476418
     void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement* scoringElement);
     // public System.Void .ctor()
-    // Offset: 0x14E1B78
+    // Offset: 0x14764F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

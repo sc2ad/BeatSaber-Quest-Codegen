@@ -124,14 +124,14 @@ namespace System::Linq {
       return *reinterpret_cast<::ArrayW<TKey>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void .ctor(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending, System.Linq.EnumerableSorter`1<TElement> next)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableSorter_2<TElement, TKey>* New_ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending, ::System::Linq::EnumerableSorter_1<TElement>* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::EnumerableSorter_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableSorter_2<TElement, TKey>*, creationType>(keySelector, comparer, descending, next)));
     }
     // override System.Void ComputeKeys(TElement[] elements, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Linq.EnumerableSorter`1
     // Base method: System.Void EnumerableSorter_1::ComputeKeys(TElement[] elements, System.Int32 count)
     void ComputeKeys(::ArrayW<TElement> elements, int count) {
@@ -140,7 +140,7 @@ namespace System::Linq {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, elements, count);
     }
     // override System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Linq.EnumerableSorter`1
     // Base method: System.Int32 EnumerableSorter_1::CompareKeys(System.Int32 index1, System.Int32 index2)
     int CompareKeys(int index1, int index2) {

@@ -40,100 +40,100 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class DTSweep : public ::Il2CppObject {
     public:
     // static public System.Void Triangulate(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx)
-    // Offset: 0x2A6B600
+    // Offset: 0x2A367B0
     static void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
     // static private System.Void Sweep(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx)
-    // Offset: 0x2A6B830
+    // Offset: 0x2A369E0
     static void Sweep(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
     // static private System.Void FinalizationConvexHull(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx)
-    // Offset: 0x2A6BABC
+    // Offset: 0x2A36C6C
     static void FinalizationConvexHull(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
     // static private System.Void TurnAdvancingFrontConvex(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode b, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode c)
-    // Offset: 0x2A6C138
+    // Offset: 0x2A372E8
     static void TurnAdvancingFrontConvex(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* b, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* c);
     // static private System.Void FinalizationPolygon(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx)
-    // Offset: 0x2A6BA08
+    // Offset: 0x2A36BB8
     static void FinalizationPolygon(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
     // static private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode PointEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A6BD58
+    // Offset: 0x2A36F08
     static ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* PointEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // static private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode NewFrontTriangle(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6D008
+    // Offset: 0x2A381B8
     static ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* NewFrontTriangle(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void EdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6BF6C
+    // Offset: 0x2A3711C
     static void EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6D870
+    // Offset: 0x2A38A20
     static void FillEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillRightConcaveEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6DCD4
+    // Offset: 0x2A38E84
     static void FillRightConcaveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillRightConvexEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6DDF8
+    // Offset: 0x2A38FA8
     static void FillRightConvexEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillRightBelowEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6DF44
+    // Offset: 0x2A390F4
     static void FillRightBelowEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillRightAboveEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6DA90
+    // Offset: 0x2A38C40
     static void FillRightAboveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillLeftConvexEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6E094
+    // Offset: 0x2A39244
     static void FillLeftConvexEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillLeftConcaveEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6E1D8
+    // Offset: 0x2A39388
     static void FillLeftConcaveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillLeftBelowEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6E2F4
+    // Offset: 0x2A394A4
     static void FillLeftBelowEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillLeftAboveEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint edge, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6DBB4
+    // Offset: 0x2A38D64
     static void FillLeftAboveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Boolean IsEdgeSideOfTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle triangle, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint ep, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint eq)
-    // Offset: 0x2A6D7A8
+    // Offset: 0x2A38958
     static bool IsEdgeSideOfTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq);
     // static private System.Void EdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint ep, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint eq, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle triangle, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A6D8A0
+    // Offset: 0x2A38A50
     static void EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // static private System.Void FlipEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint ep, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint eq, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6E5BC
+    // Offset: 0x2A3976C
     static void FlipEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // static private UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint NextFlipPoint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint ep, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint eq, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle ot, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint op)
-    // Offset: 0x2A6EAF4
+    // Offset: 0x2A39CA4
     static ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* NextFlipPoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ot, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* op);
     // static private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle NextFlipTriangle(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.Orientation o, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle ot, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint op)
-    // Offset: 0x2A6EA40
+    // Offset: 0x2A39BF0
     static ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* NextFlipTriangle(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::Orientation o, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ot, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* op);
     // static private System.Void FlipScanEdgeEvent(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint ep, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint eq, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle flipTriangle, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p)
-    // Offset: 0x2A6EC44
+    // Offset: 0x2A39DF4
     static void FlipScanEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* flipTriangle, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
     // static private System.Void FillAdvancingFront(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode n)
-    // Offset: 0x2A6D16C
+    // Offset: 0x2A3831C
     static void FillAdvancingFront(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* n);
     // static private System.Void FillBasin(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6F030
+    // Offset: 0x2A3A1E0
     static void FillBasin(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void FillBasinReq(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6F234
+    // Offset: 0x2A3A3E4
     static void FillBasinReq(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Boolean IsShallow(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6F3C0
+    // Offset: 0x2A3A570
     static bool IsShallow(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Double HoleAngle(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6EEB0
+    // Offset: 0x2A3A060
     static double HoleAngle(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Double BasinAngle(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6EF84
+    // Offset: 0x2A3A134
     static double BasinAngle(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Void Fill(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x2A6CE64
+    // Offset: 0x2A38014
     static void Fill(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // static private System.Boolean Legalize(UnityEngine.ProBuilder.Poly2Tri.DTSweepContext tcx, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x2A6D4F0
+    // Offset: 0x2A386A0
     static bool Legalize(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // static private System.Void RotateTrianglePair(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p, UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle ot, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint op)
-    // Offset: 0x2A6C3D0
+    // Offset: 0x2A37580
     static void RotateTrianglePair(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ot, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* op);
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweep
   #pragma pack(pop)

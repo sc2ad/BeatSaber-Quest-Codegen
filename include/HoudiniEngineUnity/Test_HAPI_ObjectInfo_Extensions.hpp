@@ -33,7 +33,7 @@ namespace HoudiniEngineUnity {
   class Test_HAPI_ObjectInfo_Extensions : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.Test_HAPI_ObjectInfo ToTestObject(HoudiniEngineUnity.HAPI_ObjectInfo self)
-    // Offset: 0x19EDD4C
+    // Offset: 0x19E3C38
     static ::HoudiniEngineUnity::Test_HAPI_ObjectInfo* ToTestObject(::HoudiniEngineUnity::HAPI_ObjectInfo self);
   }; // HoudiniEngineUnity.Test_HAPI_ObjectInfo_Extensions
   #pragma pack(pop)

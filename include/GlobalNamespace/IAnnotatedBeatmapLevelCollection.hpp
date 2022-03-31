@@ -35,16 +35,16 @@ namespace GlobalNamespace {
   class IAnnotatedBeatmapLevelCollection {
     public:
     // public System.String get_collectionName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
   }; // IAnnotatedBeatmapLevelCollection
   #pragma pack(pop)

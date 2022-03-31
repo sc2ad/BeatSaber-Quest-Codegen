@@ -56,28 +56,28 @@ namespace System::Xml::Linq {
       static constexpr std::string_view NESTED_NAME = "ExtractKeyDelegate";
       static constexpr bool IS_VALUE_TYPE = false;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename XHashtable_1<TValue>::ExtractKeyDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::ExtractKeyDelegate::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename XHashtable_1<TValue>::ExtractKeyDelegate*, creationType>(object, method)));
       }
       // public System.String Invoke(TValue value)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW Invoke(TValue value) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::ExtractKeyDelegate::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method, value);
       }
       // public System.IAsyncResult BeginInvoke(TValue value, System.AsyncCallback callback, System.Object object)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::IAsyncResult* BeginInvoke(TValue value, ::System::AsyncCallback* callback, ::Il2CppObject* object) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::ExtractKeyDelegate::BeginInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
         return ::il2cpp_utils::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal__method, value, callback, object);
       }
       // public System.String EndInvoke(System.IAsyncResult result)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW EndInvoke(::System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::ExtractKeyDelegate::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
@@ -221,42 +221,42 @@ namespace System::Xml::Linq {
         return *reinterpret_cast<typename ::System::Xml::Linq::XHashtable_1<TValue>::ExtractKeyDelegate**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // public System.Void .ctor(System.Xml.Linq.XHashtable`1/System.Xml.Linq.ExtractKeyDelegate<TValue> extractKey, System.Int32 capacity)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename XHashtable_1<TValue>::XHashtableState* New_ctor(typename ::System::Xml::Linq::XHashtable_1<TValue>::ExtractKeyDelegate* extractKey, int capacity) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::XHashtableState::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename XHashtable_1<TValue>::XHashtableState*, creationType>(extractKey, capacity)));
       }
       // public System.Xml.Linq.XHashtable`1/System.Xml.Linq.XHashtableState<TValue> Resize()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       typename ::System::Xml::Linq::XHashtable_1<TValue>::XHashtableState* Resize() {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::XHashtableState::Resize");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<typename ::System::Xml::Linq::XHashtable_1<TValue>::XHashtableState*, false>(this, ___internal__method);
       }
       // public System.Boolean TryGetValue(System.String key, System.Int32 index, System.Int32 count, out TValue value)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool TryGetValue(::StringW key, int index, int count, ByRef<TValue> value) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::XHashtableState::TryGetValue");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key, index, count, byref(value));
       }
       // public System.Boolean TryAdd(TValue value, out TValue newValue)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool TryAdd(TValue value, ByRef<TValue> newValue) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::XHashtableState::TryAdd");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryAdd", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, value, byref(newValue));
       }
       // private System.Boolean FindEntry(System.Int32 hashCode, System.String key, System.Int32 index, System.Int32 count, ref System.Int32 entryIndex)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool FindEntry(int hashCode, ::StringW key, int index, int count, ByRef<int> entryIndex) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::XHashtableState::FindEntry");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FindEntry", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hashCode), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(entryIndex)})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, hashCode, key, index, count, byref(entryIndex));
       }
       // static private System.Int32 ComputeHashCode(System.String key, System.Int32 index, System.Int32 count)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static int ComputeHashCode(::StringW key, int index, int count) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::XHashtableState::ComputeHashCode");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename XHashtable_1<TValue>::XHashtableState*>::get(), "ComputeHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(count)})));
@@ -293,21 +293,21 @@ namespace System::Xml::Linq {
       return *reinterpret_cast<typename ::System::Xml::Linq::XHashtable_1<TValue>::XHashtableState**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Xml.Linq.XHashtable`1/System.Xml.Linq.ExtractKeyDelegate<TValue> extractKey, System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XHashtable_1<TValue>* New_ctor(typename ::System::Xml::Linq::XHashtable_1<TValue>::ExtractKeyDelegate* extractKey, int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XHashtable_1<TValue>*, creationType>(extractKey, capacity)));
     }
     // public System.Boolean TryGetValue(System.String key, System.Int32 index, System.Int32 count, out TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryGetValue(::StringW key, int index, int count, ByRef<TValue> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::TryGetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key, index, count, byref(value));
     }
     // public TValue Add(TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Add(TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XHashtable_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));

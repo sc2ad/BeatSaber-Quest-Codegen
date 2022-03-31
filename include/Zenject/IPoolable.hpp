@@ -22,10 +22,10 @@ namespace Zenject {
   class IPoolable {
     public:
     // public System.Void OnDespawned()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnDespawned();
     // public System.Void OnSpawned()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnSpawned();
   }; // Zenject.IPoolable
   #pragma pack(pop)

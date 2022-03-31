@@ -67,7 +67,7 @@ namespace System::Net {
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
     ::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*& dyn_serviceNameCollection();
     // public System.Void .ctor()
-    // Offset: 0x1B4DDA4
+    // Offset: 0x1B32274
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

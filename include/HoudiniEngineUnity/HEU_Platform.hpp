@@ -49,100 +49,100 @@ namespace HoudiniEngineUnity {
     // Set static field: static private System.Boolean _pathSet
     static void _set__pathSet(bool value);
     // static public System.String get_LibPath()
-    // Offset: 0x1ADC93C
+    // Offset: 0x1AC0F74
     static ::StringW get_LibPath();
     // static public System.Boolean get_IsPathSet()
-    // Offset: 0x1ADC9A4
+    // Offset: 0x1AC0FDC
     static bool get_IsPathSet();
     // static public System.Char get_DirectorySeparator()
-    // Offset: 0x1ADD148
+    // Offset: 0x1AC1780
     static ::Il2CppChar get_DirectorySeparator();
     // static public System.String get_DirectorySeparatorStr()
-    // Offset: 0x1ADAAB4
+    // Offset: 0x1ABF0EC
     static ::StringW get_DirectorySeparatorStr();
     // static private System.Void .cctor()
-    // Offset: 0x1ADCA0C
+    // Offset: 0x1AC1044
     static void _cctor();
     // static public System.String GetHoudiniEnginePath()
-    // Offset: 0x1ADCA6C
+    // Offset: 0x1AC10A4
     static ::StringW GetHoudiniEnginePath();
     // static public System.String GetHoudiniEngineDefaultPath()
-    // Offset: 0x1ADCAD0
+    // Offset: 0x1AC1108
     static ::StringW GetHoudiniEngineDefaultPath();
     // static public System.String GetSavedHoudiniPath()
-    // Offset: 0x1ADCB48
+    // Offset: 0x1AC1180
     static ::StringW GetSavedHoudiniPath();
     // static public System.Void SetHapiClientName()
-    // Offset: 0x1ADCA10
+    // Offset: 0x1AC1048
     static void SetHapiClientName();
     // static public System.Void SetHoudiniEnginePath()
-    // Offset: 0x1ADCA68
+    // Offset: 0x1AC10A0
     static void SetHoudiniEnginePath();
     // static public System.String GetAllFoldersInPath(System.String path)
-    // Offset: 0x1ADCCE0
+    // Offset: 0x1AC1318
     static ::StringW GetAllFoldersInPath(::StringW path);
     // static private System.Void GetAllFoldersInPathHelper(System.String inPath, System.Text.StringBuilder pathBuilder)
-    // Offset: 0x1ADCDA4
+    // Offset: 0x1AC13DC
     static void GetAllFoldersInPathHelper(::StringW inPath, ::System::Text::StringBuilder* pathBuilder);
     // static public System.String[] GetFilesInFolder(System.String folderPath, System.String searchPattern, System.Boolean bRecursive)
-    // Offset: 0x1ADCF00
+    // Offset: 0x1AC1538
     static ::ArrayW<::StringW> GetFilesInFolder(::StringW folderPath, ::StringW searchPattern, bool bRecursive);
     // static public System.String GetFileName(System.String path)
-    // Offset: 0x1ADD078
+    // Offset: 0x1AC16B0
     static ::StringW GetFileName(::StringW path);
     // static public System.String GetFileNameWithoutExtension(System.String path)
-    // Offset: 0x1ADD0E0
+    // Offset: 0x1AC1718
     static ::StringW GetFileNameWithoutExtension(::StringW path);
     // static public System.String GetFolderPath(System.String path, System.Boolean bRemoveDirectorySeparatorAtEnd)
-    // Offset: 0x1ADBFFC
+    // Offset: 0x1AC0634
     static ::StringW GetFolderPath(::StringW path, bool bRemoveDirectorySeparatorAtEnd);
     // static public System.String BuildPath(System.String folder1, System.String folder2, params System.Object[] args)
-    // Offset: 0x1ACA34C
+    // Offset: 0x1AAE984
     static ::StringW BuildPath(::StringW folder1, ::StringW folder2, ::ArrayW<::Il2CppObject*> args);
     // static public System.String TrimLastDirectorySeparator(System.String inPath)
-    // Offset: 0x1ADD150
+    // Offset: 0x1AC1788
     static ::StringW TrimLastDirectorySeparator(::StringW inPath);
     // static public System.Boolean DoesPathExist(System.String inPath)
-    // Offset: 0x1ADD200
+    // Offset: 0x1AC1838
     static bool DoesPathExist(::StringW inPath);
     // static public System.Boolean DoesFileExist(System.String inPath)
-    // Offset: 0x1ADD240
+    // Offset: 0x1AC1878
     static bool DoesFileExist(::StringW inPath);
     // static public System.Boolean DoesDirectoryExist(System.String inPath)
-    // Offset: 0x1ADD248
+    // Offset: 0x1AC1880
     static bool DoesDirectoryExist(::StringW inPath);
     // static public System.Boolean CreateDirectory(System.String inPath)
-    // Offset: 0x1ADD250
+    // Offset: 0x1AC1888
     static bool CreateDirectory(::StringW inPath);
     // static public System.String GetParentDirectory(System.String inPath)
-    // Offset: 0x1ADD27C
+    // Offset: 0x1AC18B4
     static ::StringW GetParentDirectory(::StringW inPath);
     // static public System.String GetFullPath(System.String inPath)
-    // Offset: 0x1ADD2A4
+    // Offset: 0x1AC18DC
     static ::StringW GetFullPath(::StringW inPath);
     // static public System.Boolean IsPathRooted(System.String inPath)
-    // Offset: 0x1ADD30C
+    // Offset: 0x1AC1944
     static bool IsPathRooted(::StringW inPath);
     // static public System.Void WriteBytes(System.String path, System.Byte[] bytes)
-    // Offset: 0x1ADD374
+    // Offset: 0x1AC19AC
     static void WriteBytes(::StringW path, ::ArrayW<uint8_t> bytes);
     // static public System.Boolean WriteAllText(System.String path, System.String text)
-    // Offset: 0x1ADD37C
+    // Offset: 0x1AC19B4
     static bool WriteAllText(::StringW path, ::StringW text);
     // static public System.String ReadAllText(System.String path)
-    // Offset: 0x1ADD504
+    // Offset: 0x1AC1B3C
     static ::StringW ReadAllText(::StringW path);
     // static public System.String GetEnvironmentValue(System.String key)
-    // Offset: 0x1ADD69C
+    // Offset: 0x1AC1CD4
     static ::StringW GetEnvironmentValue(::StringW key);
     // static public System.String GetHoudiniEngineEnvironmentFilePathFull()
-    // Offset: 0x1ADD714
+    // Offset: 0x1AC1D4C
     static ::StringW GetHoudiniEngineEnvironmentFilePathFull();
     // static public System.Boolean LoadFileIntoMemory(System.String path, out System.Byte[] buffer)
-    // Offset: 0x1ADD7D4
+    // Offset: 0x1AC1E0C
     static bool LoadFileIntoMemory(::StringW path, ByRef<::ArrayW<uint8_t>> buffer);
     // public System.Void .ctor()
-    // Offset: 0x1ADD9F8
+    // Offset: 0x1AC2030
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

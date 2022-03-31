@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class INoteMovementProvider {
     public:
     // public NoteMovement get_noteMovement()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteMovement* get_noteMovement();
   }; // INoteMovementProvider
   #pragma pack(pop)

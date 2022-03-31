@@ -53,19 +53,19 @@ namespace Zenject {
   class IPrefabInstantiator {
     public:
     // public System.Type get_ArgumentTarget()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_ArgumentTarget();
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Object* GetPrefab();
   }; // Zenject.IPrefabInstantiator
   #pragma pack(pop)

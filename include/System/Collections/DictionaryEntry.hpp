@@ -51,13 +51,13 @@ namespace System::Collections {
     // Get instance field reference: private System.Object _value
     ::Il2CppObject*& dyn__value();
     // public System.Object get_Key()
-    // Offset: 0x1E96E0C
+    // Offset: 0x1E7A2DC
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1E96E14
+    // Offset: 0x1E7A2E4
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0x1E96E04
+    // Offset: 0x1E7A2D4
     // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.DictionaryEntry
   #pragma pack(pop)

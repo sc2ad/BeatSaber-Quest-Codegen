@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B0A48
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124AECC
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -132,25 +132,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _highlighted
     bool& dyn__highlighted();
     // protected System.Void Awake()
-    // Offset: 0x14C56A4
+    // Offset: 0x14BF05C
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x14C56DC
+    // Offset: 0x14BF094
     void OnValidate();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x14C57AC
+    // Offset: 0x14BF164
     void SetColor(::UnityEngine::Color color);
     // private System.Void SetColors(UnityEngine.Color mainColor, UnityEngine.Color rimLightColor)
-    // Offset: 0x14C584C
+    // Offset: 0x14BF204
     void SetColors(::UnityEngine::Color mainColor, ::UnityEngine::Color rimLightColor);
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x14C59C4
+    // Offset: 0x14BF37C
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x14C5860
+    // Offset: 0x14BF218
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0x14C59D0
+    // Offset: 0x14BF388
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

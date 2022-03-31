@@ -58,40 +58,40 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.Sprite m_Image
     ::UnityEngine::Sprite*& dyn_m_Image();
     // public System.String get_text()
-    // Offset: 0x142EBE8
+    // Offset: 0x14384D4
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x142EBF0
+    // Offset: 0x14384DC
     void set_text(::StringW value);
     // public UnityEngine.Sprite get_image()
-    // Offset: 0x142EBF8
+    // Offset: 0x14384E4
     ::UnityEngine::Sprite* get_image();
     // public System.Void set_image(UnityEngine.Sprite value)
-    // Offset: 0x142EC00
+    // Offset: 0x14384EC
     void set_image(::UnityEngine::Sprite* value);
     // public System.Void .ctor(System.String text)
-    // Offset: 0x142C940
+    // Offset: 0x143622C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::OptionData* New_ctor(::StringW text) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionData*, creationType>(text)));
     }
     // public System.Void .ctor(UnityEngine.Sprite image)
-    // Offset: 0x142CA58
+    // Offset: 0x1436344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::OptionData* New_ctor(::UnityEngine::Sprite* image) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionData*, creationType>(image)));
     }
     // public System.Void .ctor(System.String text, UnityEngine.Sprite image)
-    // Offset: 0x142EC08
+    // Offset: 0x14384F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::OptionData* New_ctor(::StringW text, ::UnityEngine::Sprite* image) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionData*, creationType>(text, image)));
     }
     // public System.Void .ctor()
-    // Offset: 0x142BDB8
+    // Offset: 0x14356A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

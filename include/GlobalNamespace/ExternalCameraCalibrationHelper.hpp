@@ -36,10 +36,10 @@ namespace GlobalNamespace {
   class ExternalCameraCalibrationHelper : public ::Il2CppObject {
     public:
     // static public PosesRecordingData/ExternalCameraCalibration GetCameraCalibration(UnityEngine.Camera camera)
-    // Offset: 0x12DE3A4
+    // Offset: 0x138A07C
     static ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* GetCameraCalibration(::UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x12DE460
+    // Offset: 0x138A138
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

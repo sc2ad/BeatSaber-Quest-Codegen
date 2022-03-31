@@ -152,19 +152,19 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
     ::System::Collections::Generic::List_1<::Zenject::DisposeBlock::SpawnedObjectPoolPair>*& dyn__objectPoolPairs();
     // static private System.Void .cctor()
-    // Offset: 0x1DF8AF0
+    // Offset: 0x1DDCFC0
     static void _cctor();
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0x1DF85B0
+    // Offset: 0x1DDCA80
     static void OnSpawned(::Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0x1DF85E8
+    // Offset: 0x1DDCAB8
     static void OnDespawned(::Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0x1DF884C
+    // Offset: 0x1DDCD1C
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void AddRange(::System::Collections::Generic::IList_1<T>* disposables) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IDisposable>);
@@ -174,13 +174,13 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, disposables);
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0x1DF88E0
+    // Offset: 0x1DDCDB0
     void Add(::System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0x1DF897C
+    // Offset: 0x1DDCE4C
     void Remove(::System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void StoreSpawnedObject(T obj, ::Zenject::IDespawnableMemoryPool_1<T>* pool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::StoreSpawnedObject");
@@ -189,7 +189,7 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, obj, pool);
     }
     // public T Spawn(Zenject.IMemoryPool`1<T> pool)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T Spawn(::Zenject::IMemoryPool_1<T>* pool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -198,7 +198,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, pool);
     }
     // public TValue Spawn(Zenject.IMemoryPool`2<TParam1,TValue> pool, TParam1 p1)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TValue, class TParam1>
     TValue Spawn(::Zenject::IMemoryPool_2<TParam1, TValue>* pool, TParam1 p1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -207,7 +207,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___generic__method, pool, p1);
     }
     // public TValue Spawn(Zenject.IMemoryPool`3<TParam1,TParam2,TValue> pool, TParam1 p1, TParam2 p2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TValue, class TParam1, class TParam2>
     TValue Spawn(::Zenject::IMemoryPool_3<TParam1, TParam2, TValue>* pool, TParam1 p1, TParam2 p2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -216,7 +216,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___generic__method, pool, p1, p2);
     }
     // public TValue Spawn(Zenject.IMemoryPool`4<TParam1,TParam2,TParam3,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3>
     TValue Spawn(::Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -225,7 +225,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___generic__method, pool, p1, p2, p3);
     }
     // public TValue Spawn(Zenject.IMemoryPool`5<TParam1,TParam2,TParam3,TParam4,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4>
     TValue Spawn(::Zenject::IMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -234,7 +234,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___generic__method, pool, p1, p2, p3, p4);
     }
     // public TValue Spawn(Zenject.IMemoryPool`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     TValue Spawn(::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -243,7 +243,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___generic__method, pool, p1, p2, p3, p4, p5);
     }
     // public TValue Spawn(Zenject.IMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     TValue Spawn(::Zenject::IMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -252,7 +252,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___generic__method, pool, p1, p2, p3, p4, p5, p6);
     }
     // public TValue Spawn(Zenject.IMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7>
     TValue Spawn(::Zenject::IMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
@@ -261,7 +261,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___generic__method, pool, p1, p2, p3, p4, p5, p6, p7);
     }
     // public System.Collections.Generic.List`1<T> SpawnList(System.Collections.Generic.IEnumerable`1<T> elements)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::System::Collections::Generic::List_1<T>* SpawnList(::System::Collections::Generic::IEnumerable_1<T>* elements) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::SpawnList");
@@ -270,7 +270,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(this, ___generic__method, elements);
     }
     // public System.Collections.Generic.List`1<T> SpawnList()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::System::Collections::Generic::List_1<T>* SpawnList() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::SpawnList");
@@ -279,13 +279,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(this, ___generic__method);
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0x1DF89E8
+    // Offset: 0x1DDCEB8
     static ::Zenject::DisposeBlock* Spawn();
     // public System.Void Dispose()
-    // Offset: 0x1DF8A64
+    // Offset: 0x1DDCF34
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1DF8AE8
+    // Offset: 0x1DDCFB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

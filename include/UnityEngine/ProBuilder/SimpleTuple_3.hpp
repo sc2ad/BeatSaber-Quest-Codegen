@@ -74,52 +74,52 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<T3*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public T1 get_item1()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T1 get_item1() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SimpleTuple_3::get_item1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_item1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T1, false>(this, ___internal__method);
     }
     // public System.Void set_item1(T1 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_item1(T1 value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SimpleTuple_3::set_item1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_item1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public T2 get_item2()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T2 get_item2() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SimpleTuple_3::get_item2");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_item2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T2, false>(this, ___internal__method);
     }
     // public System.Void set_item2(T2 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_item2(T2 value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SimpleTuple_3::set_item2");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_item2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public T3 get_item3()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T3 get_item3() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SimpleTuple_3::get_item3");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_item3", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T3, false>(this, ___internal__method);
     }
     // public System.Void set_item3(T3 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_item3(T3 value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SimpleTuple_3::set_item3");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_item3", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor(T1 item1, T2 item2, T3 item3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // ABORTED: conflicts with another method.  SimpleTuple_3(T1 item1, T2 item2, T3 item3)
     // public override System.String ToString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString() {

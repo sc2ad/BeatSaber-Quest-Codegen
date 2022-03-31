@@ -39,31 +39,31 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
   class IResourceLocation {
     public:
     // public System.String get_InternalId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_InternalId();
     // public System.String get_ProviderId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
     // public System.Int32 get_DependencyHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_DependencyHashCode();
     // public System.Boolean get_HasDependencies()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_HasDependencies();
     // public System.Object get_Data()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_Data();
     // public System.String get_PrimaryKey()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_PrimaryKey();
     // public System.Type get_ResourceType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_ResourceType();
     // public System.Int32 Hash(System.Type resultType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int Hash(::System::Type* resultType);
   }; // UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation
   #pragma pack(pop)

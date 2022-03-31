@@ -69,16 +69,16 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings settings
     ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& dyn_settings();
     // public System.Void Initialize(HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings settings)
-    // Offset: 0x185BC9C
+    // Offset: 0x1852B90
     void Initialize(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings);
     // private System.Boolean UploadData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 inputNodeID, HoudiniEngineUnity.HEU_InputData inputData)
-    // Offset: 0x185BFA8
+    // Offset: 0x1852E9C
     bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
     // public HoudiniEngineUnity.HEU_InputInterfaceTilemap/HoudiniEngineUnity.HEU_InputDataTilemap GenerateTilemapDataFromGameObject(UnityEngine.GameObject inputObject)
-    // Offset: 0x185BED0
+    // Offset: 0x1852DC4
     ::HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputDataTilemap* GenerateTilemapDataFromGameObject(::UnityEngine::GameObject* inputObject);
     // private System.Void .ctor()
-    // Offset: 0x185BC70
+    // Offset: 0x1852B64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,12 +87,12 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterfaceTilemap*, creationType>()));
     }
     // public override System.Boolean CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
-    // Offset: 0x185BD24
+    // Offset: 0x1852C18
     // Implemented from: HoudiniEngineUnity.HEU_InputInterface
     // Base method: System.Boolean HEU_InputInterface::CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
     bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int> inputNodeID);
     // public override System.Boolean IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
-    // Offset: 0x185D594
+    // Offset: 0x1854488
     // Implemented from: HoudiniEngineUnity.HEU_InputInterface
     // Base method: System.Boolean HEU_InputInterface::IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
     bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);

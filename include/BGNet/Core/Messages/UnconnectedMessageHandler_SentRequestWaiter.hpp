@@ -69,26 +69,26 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
     ::System::Threading::CancellationTokenRegistration& dyn__requestCancellationTokenRegistration();
     // public System.Threading.Tasks.Task get_task()
-    // Offset: 0x1535234
+    // Offset: 0x1501ED4
     ::System::Threading::Tasks::Task* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x1535284
+    // Offset: 0x1501F24
     bool get_isWaiting();
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x1535118
+    // Offset: 0x1501DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::SentRequestWaiter* New_ctor(::System::Threading::CancellationToken disposedCancellationToken, ::System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::SentRequestWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::SentRequestWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(System.Boolean handled)
-    // Offset: 0x1532F30
+    // Offset: 0x14FFBD0
     void Complete(bool handled);
     // public System.Void Cancel()
-    // Offset: 0x15352F4
+    // Offset: 0x1501F94
     void Cancel();
     // public override System.Void Dispose()
-    // Offset: 0x15367F8
+    // Offset: 0x1503498
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

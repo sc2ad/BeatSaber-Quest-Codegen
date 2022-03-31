@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Action startCallback
     ::System::Action*& dyn_startCallback();
     // public System.Void .ctor(EaseType easeType, System.Single startIntensity, System.Single endIntensity, System.Action startCallback)
-    // Offset: 0x13E5700
+    // Offset: 0x2AA0B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderIntensityEffect::FadeElement* New_ctor(::GlobalNamespace::EaseType easeType, float startIntensity, float endIntensity, ::System::Action* startCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderIntensityEffect::FadeElement::.ctor");

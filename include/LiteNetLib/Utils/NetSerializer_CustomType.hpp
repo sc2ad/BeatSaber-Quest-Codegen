@@ -24,7 +24,7 @@ namespace LiteNetLib::Utils {
   class NetSerializer::CustomType : public ::Il2CppObject {
     public:
     // public LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> Get()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::LiteNetLib::Utils::NetSerializer::FastCall_1<T>* Get() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CustomType::Get");
@@ -33,7 +33,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___generic__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0x2ABAA08
+    // Offset: 0x2A88BB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

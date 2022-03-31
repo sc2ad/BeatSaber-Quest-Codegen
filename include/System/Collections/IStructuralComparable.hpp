@@ -32,7 +32,7 @@ namespace System::Collections {
   class IStructuralComparable {
     public:
     // public System.Int32 CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int CompareTo(::Il2CppObject* other, ::System::Collections::IComparer* comparer);
   }; // System.Collections.IStructuralComparable
   #pragma pack(pop)

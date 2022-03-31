@@ -46,7 +46,7 @@ namespace System::Linq {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(this);
     }
     // public System.Linq.IOrderedEnumerable`1<TElement> CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TKey>
     ::System::Linq::IOrderedEnumerable_1<TElement>* CreateOrderedEnumerable(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::IOrderedEnumerable_1::CreateOrderedEnumerable");

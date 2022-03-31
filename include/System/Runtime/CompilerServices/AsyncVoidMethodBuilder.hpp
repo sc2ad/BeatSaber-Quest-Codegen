@@ -86,13 +86,13 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private System.Threading.Tasks.Task m_task
     ::System::Threading::Tasks::Task*& dyn_m_task();
     // private System.Threading.Tasks.Task get_Task()
-    // Offset: 0x1D65914
+    // Offset: 0x1D48DE4
     ::System::Threading::Tasks::Task* get_Task();
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
-    // Offset: 0x1D6585C
+    // Offset: 0x1D48D2C
     static ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TStateMachine>
     void Start(ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TStateMachine>, ::System::Runtime::CompilerServices::IAsyncStateMachine>);
@@ -102,10 +102,10 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1D658A0
+    // Offset: 0x1D48D70
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TAwaiter>, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion>);
@@ -116,13 +116,13 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult()
-    // Offset: 0x1D658A8
+    // Offset: 0x1D48D78
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0x1D65A58
+    // Offset: 0x1D48F28
     void SetException(::System::Exception* exception);
     // private System.Void NotifySynchronizationContextOfCompletion()
-    // Offset: 0x1D65980
+    // Offset: 0x1D48E50
     void NotifySynchronizationContextOfCompletion();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
   #pragma pack(pop)

@@ -55,10 +55,10 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> shouldSerializeCall
     ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_shouldSerializeCall();
     // System.Boolean <CreateShouldSerializeTest>b__0(System.Object o)
-    // Offset: 0x1D3E054
+    // Offset: 0x1D21524
     bool $CreateShouldSerializeTest$b__0(::Il2CppObject* o);
     // public System.Void .ctor()
-    // Offset: 0x1D3E04C
+    // Offset: 0x1D2151C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

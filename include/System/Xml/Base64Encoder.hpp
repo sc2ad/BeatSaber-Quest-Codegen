@@ -64,16 +64,16 @@ namespace System::Xml {
     // Get instance field reference: private System.Char[] charsLine
     ::ArrayW<::Il2CppChar>& dyn_charsLine();
     // System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteChars(::ArrayW<::Il2CppChar> chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1A9C020
+    // Offset: 0x1A7F658
     void Encode(::ArrayW<uint8_t> buffer, int index, int count);
     // System.Void Flush()
-    // Offset: 0x1A9C354
+    // Offset: 0x1A7F98C
     void Flush();
     // System.Void .ctor()
-    // Offset: 0x1A9BFBC
+    // Offset: 0x1A7F5F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

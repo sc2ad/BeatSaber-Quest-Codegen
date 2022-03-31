@@ -76,27 +76,27 @@ namespace GlobalNamespace {
     static int _get_kMaxNumberOfLights();
     // Set static field: static private System.Int32 kMaxNumberOfLights
     static void _set_kMaxNumberOfLights(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109E5A8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12394BC
     // Get static field: static private readonly System.Int32 _activeLineLightsCountID
     static int _get__activeLineLightsCountID();
     // Set static field: static private readonly System.Int32 _activeLineLightsCountID
     static void _set__activeLineLightsCountID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109E5B8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12394CC
     // Get static field: static private readonly System.Int32 _lineLightPointsID
     static int _get__lineLightPointsID();
     // Set static field: static private readonly System.Int32 _lineLightPointsID
     static void _set__lineLightPointsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109E5C8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12394DC
     // Get static field: static private readonly System.Int32 _lineLightDirsID
     static int _get__lineLightDirsID();
     // Set static field: static private readonly System.Int32 _lineLightDirsID
     static void _set__lineLightDirsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109E5D8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12394EC
     // Get static field: static private readonly System.Int32 _lineLightDirLengthsID
     static int _get__lineLightDirLengthsID();
     // Set static field: static private readonly System.Int32 _lineLightDirLengthsID
     static void _set__lineLightDirLengthsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109E5E8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12394FC
     // Get static field: static private readonly System.Int32 _lineLightColorsID
     static int _get__lineLightColorsID();
     // Set static field: static private readonly System.Int32 _lineLightColorsID
@@ -110,10 +110,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.Vector4[] _colors
     ::ArrayW<::UnityEngine::Vector4>& dyn__colors();
     // protected System.Void Update()
-    // Offset: 0x1F186B8
+    // Offset: 0x2AD48D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1F18A94
+    // Offset: 0x2AD4CB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LineLightManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F18B2C
+    // Offset: 0x2AD4D4C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

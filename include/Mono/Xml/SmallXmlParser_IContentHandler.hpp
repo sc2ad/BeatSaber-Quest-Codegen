@@ -21,25 +21,25 @@ namespace Mono::Xml {
   class SmallXmlParser::IContentHandler {
     public:
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/Mono.Xml.IAttrList attrs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnEndElement(::StringW name);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnProcessingInstruction(::StringW name, ::StringW text);
     // public System.Void OnChars(System.String text)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnChars(::StringW text);
     // public System.Void OnIgnorableWhitespace(System.String text)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnIgnorableWhitespace(::StringW text);
   }; // Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler
   #pragma pack(pop)

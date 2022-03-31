@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Rendering.CameraEvent _cameraEvent
     ::UnityEngine::Rendering::CameraEvent& dyn__cameraEvent();
     // public System.Void .ctor()
-    // Offset: 0x2A1C2D8
+    // Offset: 0x29E74B4
     // Implemented from: CommandBufferGOCore
     // Base method: System.Void CommandBufferGOCore::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -100,22 +100,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferGrabPass*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A1C338
+    // Offset: 0x29E7514
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override UnityEngine.Rendering.CommandBuffer CreateCommandBuffer(UnityEngine.Camera camera)
-    // Offset: 0x2A1C08C
+    // Offset: 0x29E7268
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CommandBuffer CommandBufferGOCore::CreateCommandBuffer(UnityEngine.Camera camera)
     ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
     // protected override System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CamerasDict()
-    // Offset: 0x2A1C268
+    // Offset: 0x29E7444
     // Implemented from: CommandBufferGOCore
     // Base method: System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CommandBufferGOCore::CamerasDict()
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected override UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
-    // Offset: 0x2A1C2D0
+    // Offset: 0x29E74AC
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CameraEvent CommandBufferGOCore::CommandBufferCameraEvent()
     ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();

@@ -53,7 +53,7 @@ namespace Ice {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10E3358
+    // [InjectAttribute] Offset: 0x127BC30
     // private readonly Ice.FloorLightTile/Ice.Pool _floorLightTileMemoryPool
     // Size: 0x8
     // Offset: 0x18
@@ -114,25 +114,25 @@ namespace Ice {
     // Get instance field reference: private System.Int32 _ySize
     int& dyn__ySize();
     // public System.Int32 get_ySize()
-    // Offset: 0x2AA30FC
+    // Offset: 0x2A702AC
     int get_ySize();
     // public System.Void Init(UnityEngine.Vector3 anchorPoint, System.Int32 xSize, System.Int32 ySize, System.Single tileWidth, System.Single tileHeight)
-    // Offset: 0x2AA2120
+    // Offset: 0x2A6F2D0
     void Init(::UnityEngine::Vector3 anchorPoint, int xSize, int ySize, float tileWidth, float tileHeight);
     // public System.Void HighlightTile(System.Int32 x, System.Int32 y, System.Single fadeInDuration, System.Single fadeOutDuration, UnityEngine.Color color)
-    // Offset: 0x2AA2678
+    // Offset: 0x2A6F828
     void HighlightTile(int x, int y, float fadeInDuration, float fadeOutDuration, ::UnityEngine::Color color);
     // public System.Void DespawnAllTiles()
-    // Offset: 0x2AA3104
+    // Offset: 0x2A702B4
     void DespawnAllTiles();
     // private System.Void HandleFloorLightTileDidFinish(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x2AA3234
+    // Offset: 0x2A703E4
     void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
     // private System.Void DespawnTile(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x2AA31C4
+    // Offset: 0x2A70374
     void DespawnTile(::Ice::FloorLightTile* floorLightTile);
     // public System.Void .ctor()
-    // Offset: 0x2AA3238
+    // Offset: 0x2A703E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

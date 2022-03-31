@@ -58,38 +58,38 @@ namespace System::Security {
     // Get instance field reference: System.Byte[] m_data
     ::ArrayW<uint8_t>& dyn_m_data();
     // public System.Void .ctor(System.Int32 numData)
-    // Offset: 0x209EEA8
+    // Offset: 0x208C87C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityDocument* New_ctor(int numData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::SecurityDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityDocument*, creationType>(numData)));
     }
     // public System.Void GuaranteeSize(System.Int32 size)
-    // Offset: 0x209EF18
+    // Offset: 0x208C8EC
     void GuaranteeSize(int size);
     // public System.Void AddString(System.String str, ref System.Int32 position)
-    // Offset: 0x209EFCC
+    // Offset: 0x208C9A0
     void AddString(::StringW str, ByRef<int> position);
     // public System.Void AppendString(System.String str, ref System.Int32 position)
-    // Offset: 0x209F12C
+    // Offset: 0x208CB00
     void AppendString(::StringW str, ByRef<int> position);
     // static public System.Int32 EncodedStringSize(System.String str)
-    // Offset: 0x209F210
+    // Offset: 0x208CBE4
     static int EncodedStringSize(::StringW str);
     // public System.String GetString(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x209F230
+    // Offset: 0x208CC04
     ::StringW GetString(ByRef<int> position, bool bCreate);
     // public System.Void AddToken(System.Byte b, ref System.Int32 position)
-    // Offset: 0x209F558
+    // Offset: 0x208CF2C
     void AddToken(uint8_t b, ByRef<int> position);
     // public System.Security.SecurityElement GetRootElement()
-    // Offset: 0x209F5C8
+    // Offset: 0x208CF9C
     ::System::Security::SecurityElement* GetRootElement();
     // public System.Security.SecurityElement GetElement(System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x209F5F0
+    // Offset: 0x208CFC4
     ::System::Security::SecurityElement* GetElement(int position, bool bCreate);
     // System.Security.SecurityElement InternalGetElement(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x209F618
+    // Offset: 0x208CFEC
     ::System::Security::SecurityElement* InternalGetElement(ByRef<int> position, bool bCreate);
   }; // System.Security.SecurityDocument
   #pragma pack(pop)

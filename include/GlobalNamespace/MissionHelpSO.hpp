@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _missionHelpId
     ::StringW& dyn__missionHelpId();
     // public System.String get_missionHelpId()
-    // Offset: 0x132FBE0
+    // Offset: 0x13053C0
     ::StringW get_missionHelpId();
     // public System.Void .ctor()
-    // Offset: 0x132FBE8
+    // Offset: 0x13053C8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

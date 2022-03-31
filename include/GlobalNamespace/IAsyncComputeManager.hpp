@@ -48,10 +48,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public System.Void BeginOperation(AsyncComputeOperation asyncComputeOperation)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void BeginOperation(::GlobalNamespace::AsyncComputeOperation* asyncComputeOperation);
     // public System.Threading.Tasks.Task`1<T> BeginOperation(AsyncComputeOperation`1<T> asyncComputeOperation)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* asyncComputeOperation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IAsyncComputeManager::BeginOperation");

@@ -85,28 +85,28 @@ namespace TMPro {
       return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void Add(System.Action`1<A> rhs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(::System::Action_1<A>* rhs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FastAction_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rhs)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Remove(System.Action`1<A> rhs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Remove(::System::Action_1<A>* rhs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FastAction_1::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rhs)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Call(A a)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Call(A a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FastAction_1::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, a);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,7 +44,7 @@ namespace LiteNetLib::Utils {
   class NetSerializer::EnumIntSerializer_1 : public ::LiteNetLib::Utils::NetSerializer::EnumByteSerializer_1<T> {
     public:
     // public System.Void .ctor(System.Reflection.PropertyInfo property, System.Type propertyType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.EnumByteSerializer`1
     // Base method: System.Void EnumByteSerializer_1::.ctor(System.Reflection.PropertyInfo property, System.Type propertyType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -53,7 +53,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::EnumIntSerializer_1<T>*, creationType>(property, propertyType)));
     }
     // public override System.Void Read(T inf, LiteNetLib.Utils.NetDataReader r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.EnumByteSerializer`1
     // Base method: System.Void EnumByteSerializer_1::Read(T inf, LiteNetLib.Utils.NetDataReader r)
     void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r) {
@@ -62,7 +62,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void Write(T inf, LiteNetLib.Utils.NetDataWriter w)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.EnumByteSerializer`1
     // Base method: System.Void EnumByteSerializer_1::Write(T inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w) {

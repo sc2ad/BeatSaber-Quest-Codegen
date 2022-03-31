@@ -84,16 +84,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // public System.Void Initialize()
-    // Offset: 0x14B5850
+    // Offset: 0x14AF208
     void Initialize();
     // public System.Void UnlockAchievement(AchievementSO achievement)
-    // Offset: 0x14B67C8
+    // Offset: 0x14B0180
     void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
-    // Offset: 0x14B694C
+    // Offset: 0x14B0304
     void $Initialize$b__3_0(::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayW<::StringW> achievementIds);
     // public System.Void .ctor()
-    // Offset: 0x14B68DC
+    // Offset: 0x14B0294
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

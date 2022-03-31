@@ -27,7 +27,7 @@ namespace TMPro {
   class ColorTween::ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1424E84
+    // Offset: 0x142E770
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

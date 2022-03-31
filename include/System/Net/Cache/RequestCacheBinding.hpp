@@ -58,10 +58,10 @@ namespace System::Net::Cache {
     // Get instance field reference: private System.Net.Cache.RequestCacheValidator m_CacheValidator
     ::System::Net::Cache::RequestCacheValidator*& dyn_m_CacheValidator();
     // System.Net.Cache.RequestCache get_Cache()
-    // Offset: 0x1CD83AC
+    // Offset: 0x1CBC87C
     ::System::Net::Cache::RequestCache* get_Cache();
     // System.Net.Cache.RequestCacheValidator get_Validator()
-    // Offset: 0x1CD83B4
+    // Offset: 0x1CBC884
     ::System::Net::Cache::RequestCacheValidator* get_Validator();
   }; // System.Net.Cache.RequestCacheBinding
   #pragma pack(pop)

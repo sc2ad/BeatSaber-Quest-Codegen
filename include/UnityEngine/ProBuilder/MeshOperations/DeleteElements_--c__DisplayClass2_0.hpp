@@ -56,10 +56,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // System.Int32 <DeleteFaces>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x19F9754
+    // Offset: 0x19EF640
     int $DeleteFaces$b__0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x19F8E38
+    // Offset: 0x19EED24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

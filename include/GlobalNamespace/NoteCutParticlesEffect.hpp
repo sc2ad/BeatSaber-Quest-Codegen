@@ -168,13 +168,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
     ::UnityEngine::ParticleSystem::ShapeModule& dyn__explosionPrePassBloomPSShapeModule();
     // protected System.Void Awake()
-    // Offset: 0x1410534
+    // Offset: 0x14760C8
     void Awake();
     // public System.Void SpawnParticles(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, System.Single saberSpeed, UnityEngine.Vector3 noteMovementVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier)
-    // Offset: 0x141003C
+    // Offset: 0x14752C0
     void SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float saberSpeed, ::UnityEngine::Vector3 noteMovementVec, ::UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier);
     // public System.Void .ctor()
-    // Offset: 0x1410688
+    // Offset: 0x147621C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

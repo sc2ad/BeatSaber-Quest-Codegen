@@ -28,7 +28,7 @@ namespace System::Net::Cache {
     // Set static field: static readonly System.Char[] LineSplits
     static void _set_LineSplits(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x1CD8314
+    // Offset: 0x1CBC7E4
     static void _cctor();
   }; // System.Net.Cache.RequestCache
   #pragma pack(pop)

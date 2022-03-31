@@ -35,20 +35,20 @@ namespace RootMotion::FinalIK {
   class IKSolver::IterationDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x22087B8
+    // Offset: 0x21DE59C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::IterationDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::IterationDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::IterationDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 i)
-    // Offset: 0x22087C8
+    // Offset: 0x21DE5AC
     void Invoke(int i);
     // public System.IAsyncResult BeginInvoke(System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2208A28
+    // Offset: 0x21DE80C
     ::System::IAsyncResult* BeginInvoke(int i, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2208AB4
+    // Offset: 0x21DE898
     void EndInvoke(::System::IAsyncResult* result);
   }; // RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate
   #pragma pack(pop)

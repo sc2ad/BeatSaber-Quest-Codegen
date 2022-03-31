@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: moveSensitivity and: transform
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x10C45F0
+    // [NullAllowed] Offset: 0x125EB84
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [NullAllowed] Offset: 0x10C4628
+    // [NullAllowed] Offset: 0x125EBBC
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x28
@@ -93,35 +93,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cameraFov and: centerAdjust
     char __padding3[0x4] = {};
-    // [NullAllowed] Offset: 0x10C4670
+    // [NullAllowed] Offset: 0x125EC04
     // private VRCenterAdjust _centerAdjust
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::VRCenterAdjust* centerAdjust;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRCenterAdjust*) == 0x8);
-    // [NullAllowed] Offset: 0x10C46A8
+    // [NullAllowed] Offset: 0x125EC3C
     // private VRController _controller0
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::VRController* controller0;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRController*) == 0x8);
-    // [NullAllowed] Offset: 0x10C46E0
+    // [NullAllowed] Offset: 0x125EC74
     // private VRController _controller1
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::VRController* controller1;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRController*) == 0x8);
-    // [NullAllowed] Offset: 0x10C4718
+    // [NullAllowed] Offset: 0x125ECAC
     // private VRUIControls.VRInputModule _vrInputModule
     // Size: 0x8
     // Offset: 0x50
     ::VRUIControls::VRInputModule* vrInputModule;
     // Field size check
     static_assert(sizeof(::VRUIControls::VRInputModule*) == 0x8);
-    // [NullAllowed] Offset: 0x10C4750
+    // [NullAllowed] Offset: 0x125ECE4
     // private UnityEngine.GameObject[] _controllerModels
     // Size: 0x8
     // Offset: 0x58
@@ -176,25 +176,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _cameraTransform
     ::UnityEngine::Transform*& dyn__cameraTransform();
     // protected System.Void Awake()
-    // Offset: 0x12E2F40
+    // Offset: 0x138EF44
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x12E2F4C
+    // Offset: 0x138EF50
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x12E3150
+    // Offset: 0x138F154
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12E31EC
+    // Offset: 0x138F1F0
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x12E3284
+    // Offset: 0x138F288
     void Update();
     // public System.Void Inject(UnityEngine.Camera camera, VRCenterAdjust centerAdjust, VRController controller0, VRController controller1, VRUIControls.VRInputModule vrInputModule, System.Boolean shouldBeEnabled)
-    // Offset: 0x12E3730
+    // Offset: 0x138F734
     void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1, ::VRUIControls::VRInputModule* vrInputModule, bool shouldBeEnabled);
     // public System.Void .ctor()
-    // Offset: 0x12E3878
+    // Offset: 0x138F87C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x109E7D0
+    // [SpaceAttribute] Offset: 0x123978C
     // private UnityEngine.Vector4 _vector
     // Size: 0x10
     // Offset: 0x30
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector4 _vector
     ::UnityEngine::Vector4& dyn__vector();
     // public System.Void .ctor()
-    // Offset: 0x1F19A10
+    // Offset: 0x2AD5F70
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockVectorAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1F199D0
+    // Offset: 0x2AD5F30
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

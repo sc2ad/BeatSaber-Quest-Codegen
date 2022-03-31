@@ -36,22 +36,22 @@ namespace GlobalNamespace {
   class IBloomPrePassParams {
     public:
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_linesWidth();
     // public ToneMapping get_toneMapping()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ToneMapping get_toneMapping();
   }; // IBloomPrePassParams
   #pragma pack(pop)

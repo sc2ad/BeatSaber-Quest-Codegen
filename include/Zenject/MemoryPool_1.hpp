@@ -49,28 +49,28 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IMemoryPool_1<TValue>*>(this);
     }
     // public TValue Spawn()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Spawn() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPool_1::Spawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method);
     }
     // protected System.Void Reinitialize(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Reinitialize(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPool_1::Reinitialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // private TValue Zenject.IFactory<TValue>.Create()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Zenject_IFactory$TValue$_Create() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPool_1::Zenject.IFactory<TValue>.Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IFactory<TValue>.Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -80,7 +80,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPool_1<TValue>*, creationType>()));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Object MemoryPoolBase_1::__zenCreate(System.Object[] P_0)
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
@@ -89,7 +89,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: Zenject.InjectTypeInfo MemoryPoolBase_1::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {

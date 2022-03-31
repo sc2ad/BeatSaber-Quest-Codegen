@@ -118,14 +118,14 @@ namespace System::Linq {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source, System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrderedEnumerable_2<TElement, TKey>* New_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::OrderedEnumerable_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrderedEnumerable_2<TElement, TKey>*, creationType>(source, keySelector, comparer, descending)));
     }
     // override System.Linq.EnumerableSorter`1<TElement> GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Linq.OrderedEnumerable`1
     // Base method: System.Linq.EnumerableSorter`1<TElement> OrderedEnumerable_1::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
     ::System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next) {

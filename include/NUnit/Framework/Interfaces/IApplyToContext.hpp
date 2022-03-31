@@ -29,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
   class IApplyToContext {
     public:
     // public System.Void ApplyToContext(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ApplyToContext(::NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Interfaces.IApplyToContext
   #pragma pack(pop)

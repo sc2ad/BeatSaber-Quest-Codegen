@@ -36,7 +36,7 @@ namespace UnityEngine::Timeline {
   class ILayerable {
     public:
     // public UnityEngine.Playables.Playable CreateLayerMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Playables::Playable CreateLayerMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int inputCount);
   }; // UnityEngine.Timeline.ILayerable
   #pragma pack(pop)

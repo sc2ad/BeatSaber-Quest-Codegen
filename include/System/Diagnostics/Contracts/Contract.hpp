@@ -41,7 +41,7 @@ namespace System::Diagnostics::Contracts {
   class Contract : public ::Il2CppObject {
     public:
     // static public System.Boolean ForAll(System.Collections.Generic.IEnumerable`1<T> collection, System.Predicate`1<T> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool ForAll(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Predicate_1<T>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Contracts::Contract::ForAll");

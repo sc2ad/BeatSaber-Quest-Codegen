@@ -77,28 +77,28 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IMemoryPool_2<TParam1, TValue>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(Zenject.IMemoryPool`2<TParam1,TValue> pool)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolWrapperFactory_2<TParam1, TValue>* New_ctor(::Zenject::IMemoryPool_2<TParam1, TValue>* pool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolWrapperFactory_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolWrapperFactory_2<TParam1, TValue>*, creationType>(pool)));
     }
     // public TValue Create(TParam1 arg)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Create(TParam1 arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolWrapperFactory_2::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg)})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method, arg);
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolWrapperFactory_2::__zenCreate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolWrapperFactory_2<TParam1, TValue>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolWrapperFactory_2::__zenCreateInjectTypeInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolWrapperFactory_2<TParam1, TValue>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

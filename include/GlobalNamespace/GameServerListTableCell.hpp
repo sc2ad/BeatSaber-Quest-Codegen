@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* passwordProtected;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BD7BC
+    // [InjectAttribute] Offset: 0x1257D50
     // private readonly SongPackMasksModel _songPackMasksModel
     // Size: 0x8
     // Offset: 0x80
@@ -107,10 +107,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SongPackMasksModel _songPackMasksModel
     ::GlobalNamespace::SongPackMasksModel*& dyn__songPackMasksModel();
     // public System.Void SetData(INetworkPlayer player)
-    // Offset: 0x12EBA64
+    // Offset: 0x13D7778
     void SetData(::GlobalNamespace::INetworkPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x12EBDE4
+    // Offset: 0x13D7AF8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

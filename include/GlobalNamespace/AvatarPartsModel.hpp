@@ -135,44 +135,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
     ::System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__indexById();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_headTopCollection()
-    // Offset: 0x14C37D0
+    // Offset: 0x14BD188
     ::GlobalNamespace::AvatarPartCollection_1<::GlobalNamespace::AvatarMeshPartSO*>* get_headTopCollection();
     // public AvatarPartCollection`1<AvatarSpritePartSO> get_eyesCollection()
-    // Offset: 0x14C37D8
+    // Offset: 0x14BD190
     ::GlobalNamespace::AvatarPartCollection_1<::GlobalNamespace::AvatarSpritePartSO*>* get_eyesCollection();
     // public AvatarPartCollection`1<AvatarSpritePartSO> get_mouthCollection()
-    // Offset: 0x14C37E0
+    // Offset: 0x14BD198
     ::GlobalNamespace::AvatarPartCollection_1<::GlobalNamespace::AvatarSpritePartSO*>* get_mouthCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_glassesCollection()
-    // Offset: 0x14C37E8
+    // Offset: 0x14BD1A0
     ::GlobalNamespace::AvatarPartCollection_1<::GlobalNamespace::AvatarMeshPartSO*>* get_glassesCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_facialHairCollection()
-    // Offset: 0x14C37F0
+    // Offset: 0x14BD1A8
     ::GlobalNamespace::AvatarPartCollection_1<::GlobalNamespace::AvatarMeshPartSO*>* get_facialHairCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_handsCollection()
-    // Offset: 0x14C37F8
+    // Offset: 0x14BD1B0
     ::GlobalNamespace::AvatarPartCollection_1<::GlobalNamespace::AvatarMeshPartSO*>* get_handsCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_clothesCollection()
-    // Offset: 0x14C3800
+    // Offset: 0x14BD1B8
     ::GlobalNamespace::AvatarPartCollection_1<::GlobalNamespace::AvatarMeshPartSO*>* get_clothesCollection();
     // public SkinColorSO[] get_skinColors()
-    // Offset: 0x14C3808
+    // Offset: 0x14BD1C0
     ::ArrayW<::GlobalNamespace::SkinColorSO*> get_skinColors();
     // public System.Void .ctor(AvatarPartsModelSO avatarPartData, SkinColorSetSO skinColorSet)
-    // Offset: 0x14C3810
+    // Offset: 0x14BD1C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPartsModel* New_ctor(::GlobalNamespace::AvatarPartsModelSO* avatarPartData, ::GlobalNamespace::SkinColorSetSO* skinColorSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPartsModel*, creationType>(avatarPartData, skinColorSet)));
     }
     // public System.Int32 GetColorIndexById(System.String id)
-    // Offset: 0x14C3A20
+    // Offset: 0x14BD3D8
     int GetColorIndexById(::StringW id);
     // public SkinColorSO GetSkinColorById(System.String id)
-    // Offset: 0x14C3AAC
+    // Offset: 0x14BD464
     ::GlobalNamespace::SkinColorSO* GetSkinColorById(::StringW id);
     // public SkinColorSO GetRandomColor()
-    // Offset: 0x14C2B84
+    // Offset: 0x14BC53C
     ::GlobalNamespace::SkinColorSO* GetRandomColor();
   }; // AvatarPartsModel
   #pragma pack(pop)

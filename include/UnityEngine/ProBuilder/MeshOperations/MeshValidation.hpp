@@ -59,40 +59,40 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: ::UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0
     class $$c__DisplayClass10_0;
     // static public System.Boolean ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1C1EF50
+    // Offset: 0x1C05420
     static bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Boolean ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1C1EF68
+    // Offset: 0x1C05438
     static bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Boolean ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x1C1F3B8
+    // Offset: 0x1C05888
     static bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
     // static public System.Boolean ContainsNonContiguousTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x1C1F540
+    // Offset: 0x1C05A10
     static bool ContainsNonContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> EnsureFacesAreComposedOfContiguousTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1C1F690
+    // Offset: 0x1C05B60
     static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* EnsureFacesAreComposedOfContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Triangle>> CollectFaceGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x1C1FC18
+    // Offset: 0x1C060E8
     static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Triangle>*>* CollectFaceGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
     // static public System.Boolean RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.List`1<System.Int32> removed)
-    // Offset: 0x1C1FEA0
+    // Offset: 0x1C06370
     static bool RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int>* removed);
     // static public System.Boolean RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.List`1<System.Int32> removed)
-    // Offset: 0x1C1C1EC
+    // Offset: 0x1C026BC
     static bool RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int>* removed);
     // static System.Collections.Generic.List`1<System.Int32> RebuildIndexes(System.Collections.Generic.IEnumerable`1<System.Int32> indices, System.Collections.Generic.List`1<System.Int32> removed)
-    // Offset: 0x1C20644
+    // Offset: 0x1C06B14
     static ::System::Collections::Generic::List_1<int>* RebuildIndexes(::System::Collections::Generic::IEnumerable_1<int>* indices, ::System::Collections::Generic::List_1<int>* removed);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> RebuildEdges(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, System.Collections.Generic.List`1<System.Int32> removed)
-    // Offset: 0x1C20958
+    // Offset: 0x1C06E28
     static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* RebuildEdges(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::List_1<int>* removed);
     // static System.Void RebuildSelectionIndexes(UnityEngine.ProBuilder.ProBuilderMesh mesh, ref UnityEngine.ProBuilder.Face[] faces, ref UnityEngine.ProBuilder.Edge[] edges, ref System.Int32[] indices, System.Collections.Generic.IEnumerable`1<System.Int32> removed)
-    // Offset: 0x1C20CF0
+    // Offset: 0x1C071C0
     static void RebuildSelectionIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*>> faces, ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge>> edges, ByRef<::ArrayW<int>> indices, ::System::Collections::Generic::IEnumerable_1<int>* removed);
     // static System.Boolean EnsureMeshIsValid(UnityEngine.ProBuilder.ProBuilderMesh mesh, out System.Int32 removedVertices)
-    // Offset: 0x1C20E84
+    // Offset: 0x1C07354
     static bool EnsureMeshIsValid(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<int> removedVertices);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation
   #pragma pack(pop)

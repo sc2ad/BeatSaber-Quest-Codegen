@@ -156,7 +156,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/Sizei MotionVectorTextureSize
     ::GlobalNamespace::OVRPlugin::Sizei& dyn_MotionVectorTextureSize();
     // public override System.String ToString()
-    // Offset: 0x1AF4398
+    // Offset: 0x1AD79D0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -53,37 +53,37 @@ namespace NUnit::Framework::Interfaces {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IReflectionInfo*>(this);
     }
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // public System.Reflection.MethodInfo get_MethodInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Reflection::MethodInfo* get_MethodInfo();
     // public System.String get_Name()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Name();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsAbstract();
     // public System.Boolean get_IsPublic()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsPublic();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsGenericMethodDefinition();
     // public NUnit.Framework.Interfaces.ITypeInfo get_ReturnType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::NUnit::Framework::Interfaces::IParameterInfo*> GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::ArrayW<::System::Type*> typeArguments);
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::ArrayW<::Il2CppObject*> args);
   }; // NUnit.Framework.Interfaces.IMethodInfo
   #pragma pack(pop)

@@ -36,10 +36,10 @@ namespace UnityEngine::ResourceManagement::Util {
   class IInitializableObject {
     public:
     // public System.Boolean Initialize(System.String id, System.String data)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Initialize(::StringW id, ::StringW data);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
   }; // UnityEngine.ResourceManagement.Util.IInitializableObject
   #pragma pack(pop)

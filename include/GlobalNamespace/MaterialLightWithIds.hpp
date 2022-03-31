@@ -40,8 +40,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    char ___base_padding[0x7] = {};
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -63,14 +61,14 @@ namespace GlobalNamespace {
     bool setAlphaOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0x109DE5C
+    // [DrawIfAttribute] Offset: 0x1238D50
     // private System.Boolean _alphaIntoColor
     // Size: 0x1
     // Offset: 0x51
     bool alphaIntoColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0x109DF00
+    // [DrawIfAttribute] Offset: 0x1238DF4
     // private System.Boolean _setColorOnly
     // Size: 0x1
     // Offset: 0x52
@@ -104,7 +102,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109DFB4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1238EA8
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -126,7 +124,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _propertyId
     int& dyn__propertyId();
     // public System.Void .ctor()
-    // Offset: 0x1F19180
+    // Offset: 0x2AD53A0
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -141,17 +139,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialLightWithIds*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F191E8
+    // Offset: 0x2AD5408
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void Awake()
-    // Offset: 0x1F18F10
+    // Offset: 0x2AD5130
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::Awake()
     void Awake();
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1F18FDC
+    // Offset: 0x2AD51FC
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

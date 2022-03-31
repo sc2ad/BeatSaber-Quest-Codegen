@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public IPreviewBeatmapLevel level
     ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
     // System.Void <SongPlayerCrossfadeToLevelAsync>b__0()
-    // Offset: 0x1338934
+    // Offset: 0x13C2288
     void $SongPlayerCrossfadeToLevelAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x133892C
+    // Offset: 0x13C2280
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

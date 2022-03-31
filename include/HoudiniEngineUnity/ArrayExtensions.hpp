@@ -37,7 +37,7 @@ namespace HoudiniEngineUnity {
   class ArrayExtensions : public ::Il2CppObject {
     public:
     // static public System.Void Init(T[] array, T defaultValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Init(::ArrayW<T> array, T defaultValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::Init");
@@ -46,7 +46,7 @@ namespace HoudiniEngineUnity {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue);
     }
     // static public System.Void Init(System.Collections.Generic.List`1<T> array, T defaultValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Init(::System::Collections::Generic::List_1<T>* array, T defaultValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::Init");
@@ -55,7 +55,7 @@ namespace HoudiniEngineUnity {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue);
     }
     // static public System.Void CopyToWithResize(T[] srcArray, ref T[] destArray)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void CopyToWithResize(::ArrayW<T> srcArray, ByRef<::ArrayW<T>> destArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::CopyToWithResize");
@@ -64,7 +64,7 @@ namespace HoudiniEngineUnity {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, srcArray, byref(destArray));
     }
     // static public System.Boolean IsEquivalentArray(T[] arr, T[] other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool IsEquivalentArray(::ArrayW<T> arr, ::ArrayW<T> other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::IsEquivalentArray");
@@ -73,7 +73,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, other);
     }
     // static public System.Boolean IsNull(T[] arr)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool IsNull(::ArrayW<T> arr) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::IsNull");

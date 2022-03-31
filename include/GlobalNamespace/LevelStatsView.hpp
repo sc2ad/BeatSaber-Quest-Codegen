@@ -79,13 +79,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _maxRankText
     ::TMPro::TextMeshProUGUI*& dyn__maxRankText();
     // public System.Void Hide()
-    // Offset: 0x14CB8A4
+    // Offset: 0x148A90C
     void Hide();
     // public System.Void ShowStats(IDifficultyBeatmap difficultyBeatmap, PlayerData playerData)
-    // Offset: 0x14CB8CC
+    // Offset: 0x148A934
     void ShowStats(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::PlayerData* playerData);
     // public System.Void .ctor()
-    // Offset: 0x14CBC70
+    // Offset: 0x148ACD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

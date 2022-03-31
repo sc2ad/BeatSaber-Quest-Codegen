@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _conditionText
     ::TMPro::TextMeshProUGUI*& dyn__conditionText();
     // public System.Void set_title(System.String value)
-    // Offset: 0x14E9AD8
+    // Offset: 0x147D2D8
     void set_title(::StringW value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0x14E9AF4
+    // Offset: 0x147D2F4
     void set_conditionText(::StringW value);
     // public System.Void set_hideCondition(System.Boolean value)
-    // Offset: 0x14E9B10
+    // Offset: 0x147D310
     void set_hideCondition(bool value);
     // public System.Void .ctor()
-    // Offset: 0x14E9B50
+    // Offset: 0x147D350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

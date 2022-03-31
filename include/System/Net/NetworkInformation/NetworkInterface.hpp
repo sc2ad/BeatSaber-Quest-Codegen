@@ -40,22 +40,22 @@ namespace System::Net::NetworkInformation {
   class NetworkInterface : public ::Il2CppObject {
     public:
     // public System.String get_Name()
-    // Offset: 0x1B46500
+    // Offset: 0x1B2A9D0
     ::StringW get_Name();
     // public System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1B465C0
+    // Offset: 0x1B2AA90
     ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x1B46620
+    // Offset: 0x1B2AAF0
     ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // static public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x1B4639C
+    // Offset: 0x1B2A86C
     static ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
     // public System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1B46560
+    // Offset: 0x1B2AA30
     ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // protected System.Void .ctor()
-    // Offset: 0x1B46680
+    // Offset: 0x1B2AB50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -53,37 +53,37 @@ namespace Oculus::Platform {
   class GroupPresence : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request Clear()
-    // Offset: 0x19AB340
+    // Offset: 0x19A122C
     static ::Oculus::Platform::Request* Clear();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.InvitePanelResultInfo> LaunchInvitePanel(Oculus.Platform.InviteOptions options)
-    // Offset: 0x19AB444
+    // Offset: 0x19A1330
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::InvitePanelResultInfo*>* LaunchInvitePanel(::Oculus::Platform::InviteOptions* options);
     // static public Oculus.Platform.Request LaunchRosterPanel(Oculus.Platform.RosterOptions options)
-    // Offset: 0x19AB5DC
+    // Offset: 0x19A14C8
     static ::Oculus::Platform::Request* LaunchRosterPanel(::Oculus::Platform::RosterOptions* options);
     // static public Oculus.Platform.Request Set(Oculus.Platform.GroupPresenceOptions groupPresenceOptions)
-    // Offset: 0x19AB704
+    // Offset: 0x19A15F0
     static ::Oculus::Platform::Request* Set(::Oculus::Platform::GroupPresenceOptions* groupPresenceOptions);
     // static public Oculus.Platform.Request SetDestination(System.String api_name)
-    // Offset: 0x19AB894
+    // Offset: 0x19A1780
     static ::Oculus::Platform::Request* SetDestination(::StringW api_name);
     // static public Oculus.Platform.Request SetIsJoinable(System.Boolean is_joinable)
-    // Offset: 0x19AB9A8
+    // Offset: 0x19A1894
     static ::Oculus::Platform::Request* SetIsJoinable(bool is_joinable);
     // static public Oculus.Platform.Request SetLobbySession(System.String id)
-    // Offset: 0x19ABABC
+    // Offset: 0x19A19A8
     static ::Oculus::Platform::Request* SetLobbySession(::StringW id);
     // static public Oculus.Platform.Request SetMatchSession(System.String id)
-    // Offset: 0x19ABBD0
+    // Offset: 0x19A1ABC
     static ::Oculus::Platform::Request* SetMatchSession(::StringW id);
     // static public System.Void SetInvitationsSentNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.LaunchInvitePanelFlowResult> callback)
-    // Offset: 0x19ABCE4
+    // Offset: 0x19A1BD0
     static void SetInvitationsSentNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*>::Callback* callback);
     // static public System.Void SetJoinIntentReceivedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.GroupPresenceJoinIntent> callback)
-    // Offset: 0x19ABD5C
+    // Offset: 0x19A1C48
     static void SetJoinIntentReceivedNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>::Callback* callback);
     // static public System.Void SetLeaveIntentReceivedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.GroupPresenceLeaveIntent> callback)
-    // Offset: 0x19ABDD4
+    // Offset: 0x19A1CC0
     static void SetLeaveIntentReceivedNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceLeaveIntent*>::Callback* callback);
   }; // Oculus.Platform.GroupPresence
   #pragma pack(pop)

@@ -42,10 +42,10 @@ namespace NUnit::Framework {
   class ResultStateException : public ::System::Exception {
     public:
     // public NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x29EDE24
+    // Offset: 0x29B9F9C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,7 +54,7 @@ namespace NUnit::Framework {
       return THROW_UNLESS((::il2cpp_utils::New<ResultStateException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x29EDE9C
+    // Offset: 0x29BA014
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

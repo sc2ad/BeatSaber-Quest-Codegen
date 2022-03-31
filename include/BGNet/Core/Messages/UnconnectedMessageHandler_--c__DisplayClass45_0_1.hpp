@@ -60,14 +60,14 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Func_2<uint, T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // T <ObtainVersioned>b__0(BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T $ObtainVersioned$b__0(::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass45_0_1::<ObtainVersioned>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ObtainVersioned>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(origin)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, origin);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

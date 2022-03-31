@@ -41,16 +41,16 @@ namespace BGNet::Core {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public System.Void PollUpdate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PollUpdate();
     // public System.Void UpdateState(MetricIdentifier metricIdentifier, System.Int64 state, BGNet.Core.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdateState(::GlobalNamespace::MetricIdentifier metricIdentifier, int64_t state, ::BGNet::Core::AnalyticsMetricUnit unit, bool alarmMetric);
     // public System.Void UpdateAverage(MetricIdentifier metricIdentifier, System.Double value, BGNet.Core.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdateAverage(::GlobalNamespace::MetricIdentifier metricIdentifier, double value, ::BGNet::Core::AnalyticsMetricUnit unit, bool alarmMetric);
     // public System.Void IncrementCounter(MetricIdentifier metricIdentifier, System.Int64 incrementAmount, BGNet.Core.AnalyticsMetricUnit unit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void IncrementCounter(::GlobalNamespace::MetricIdentifier metricIdentifier, int64_t incrementAmount, ::BGNet::Core::AnalyticsMetricUnit unit);
   }; // BGNet.Core.IAnalyticsManager
   #pragma pack(pop)

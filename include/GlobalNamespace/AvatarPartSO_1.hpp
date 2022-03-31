@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     ::StringW id;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10B4060
+    // [LocalizationKeyAttribute] Offset: 0x124E4E4
     // private System.String _localizationKey
     // Size: 0x8
     // Offset: 0x0
     ::StringW localizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x10B4098
+    // [NullAllowed] Offset: 0x124E51C
     // private T _partAsset
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -90,35 +90,35 @@ namespace GlobalNamespace {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public T get_partAsset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T get_partAsset() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartSO_1::get_partAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_partAsset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.String get_id()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_id() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartSO_1::get_id");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_id", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public System.String get_localizationKey()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_localizationKey() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartSO_1::get_localizationKey");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localizationKey", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public System.String get_localizedName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_localizedName() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartSO_1::get_localizedName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localizedName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

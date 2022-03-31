@@ -113,38 +113,38 @@ namespace Mono::Net {
     // Get instance field reference: private Mono.Net.CFDictionary settings
     ::Mono::Net::CFDictionary*& dyn_settings();
     // public System.IntPtr get_AutoConfigurationJavaScript()
-    // Offset: 0x1AB70C4
+    // Offset: 0x1A9A6FC
     ::System::IntPtr get_AutoConfigurationJavaScript();
     // public System.IntPtr get_AutoConfigurationUrl()
-    // Offset: 0x1AB7184
+    // Offset: 0x1A9A7BC
     ::System::IntPtr get_AutoConfigurationUrl();
     // public System.String get_HostName()
-    // Offset: 0x1AB6A28
+    // Offset: 0x1A9A060
     ::StringW get_HostName();
     // public System.String get_Password()
-    // Offset: 0x1AB6964
+    // Offset: 0x1A99F9C
     ::StringW get_Password();
     // public System.Int32 get_Port()
-    // Offset: 0x1AB6AEC
+    // Offset: 0x1A9A124
     int get_Port();
     // public Mono.Net.CFProxyType get_ProxyType()
-    // Offset: 0x1AB67DC
+    // Offset: 0x1A99E14
     ::Mono::Net::CFProxyType get_ProxyType();
     // public System.String get_Username()
-    // Offset: 0x1AB68A0
+    // Offset: 0x1A99ED8
     ::StringW get_Username();
     // static private System.Void .cctor()
-    // Offset: 0x1AB77C8
+    // Offset: 0x1A9AE00
     static void _cctor();
     // System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x1AB549C
+    // Offset: 0x1A98AD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxy* New_ctor(::Mono::Net::CFDictionary* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::CFProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFProxy*, creationType>(settings)));
     }
     // static private Mono.Net.CFProxyType CFProxyTypeToEnum(System.IntPtr type)
-    // Offset: 0x1AB79C4
+    // Offset: 0x1A9AFFC
     static ::Mono::Net::CFProxyType CFProxyTypeToEnum(::System::IntPtr type);
   }; // Mono.Net.CFProxy
   #pragma pack(pop)

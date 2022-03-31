@@ -79,16 +79,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public IDifficultyBeatmap difficultyBeatmap
     ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
-    // Offset: 0x133AC04
+    // Offset: 0x13C4A94
     bool $GetBeatmapData$b__0(::GlobalNamespace::IDifficultyBeatmapSet* bds);
     // System.Boolean <GetBeatmapData>b__2(IDifficultyBeatmap dbm)
-    // Offset: 0x133ACD8
+    // Offset: 0x13C4B68
     bool $GetBeatmapData$b__2(::GlobalNamespace::IDifficultyBeatmap* dbm);
     // System.Threading.Tasks.Task <GetBeatmapData>b__3()
-    // Offset: 0x133ADAC
+    // Offset: 0x13C4C3C
     ::System::Threading::Tasks::Task* $GetBeatmapData$b__3();
     // public System.Void .ctor()
-    // Offset: 0x133ABFC
+    // Offset: 0x13C4A8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

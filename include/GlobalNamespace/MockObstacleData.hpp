@@ -79,37 +79,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <width>k__BackingField
     int& dyn_$width$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x2A85330
+    // Offset: 0x2A514E0
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2A85338
+    // Offset: 0x2A514E8
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A85340
+    // Offset: 0x2A514F0
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x2A85348
+    // Offset: 0x2A514F8
     void set_lineIndex(int value);
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x2A85350
+    // Offset: 0x2A51500
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // public System.Void set_lineLayer(NoteLineLayer value)
-    // Offset: 0x2A85358
+    // Offset: 0x2A51508
     void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x2A85360
+    // Offset: 0x2A51510
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2A85368
+    // Offset: 0x2A51518
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x2A85370
+    // Offset: 0x2A51520
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x2A85378
+    // Offset: 0x2A51528
     void set_width(int value);
     // public System.Void .ctor()
-    // Offset: 0x2A85380
+    // Offset: 0x2A51530
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

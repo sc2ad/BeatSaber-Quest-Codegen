@@ -83,34 +83,34 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.SynchronizationContextProperties _props
     ::System::Threading::SynchronizationContextProperties& dyn__props();
     // static public System.Threading.SynchronizationContext get_Current()
-    // Offset: 0x1DE23C0
+    // Offset: 0x1DC6890
     static ::System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
-    // Offset: 0x1DEC274
+    // Offset: 0x1DD0744
     static ::System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1DEC134
+    // Offset: 0x1DD0604
     void Send(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1DEC150
+    // Offset: 0x1DD0620
     void Post(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void OperationStarted()
-    // Offset: 0x1DEC1D4
+    // Offset: 0x1DD06A4
     void OperationStarted();
     // public System.Void OperationCompleted()
-    // Offset: 0x1DEC1D8
+    // Offset: 0x1DD06A8
     void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
-    // Offset: 0x1DEC1DC
+    // Offset: 0x1DD06AC
     static void SetSynchronizationContext(::System::Threading::SynchronizationContext* syncContext);
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
-    // Offset: 0x1DEC218
+    // Offset: 0x1DD06E8
     static ::System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x1DEC2B0
+    // Offset: 0x1DD0780
     ::System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x1DE7D7C
+    // Offset: 0x1DCC24C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

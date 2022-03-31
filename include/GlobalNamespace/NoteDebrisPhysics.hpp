@@ -35,16 +35,16 @@ namespace GlobalNamespace {
   class NoteDebrisPhysics : public ::UnityEngine::MonoBehaviour {
     public:
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Vector3 get_position();
     // public System.Void Init(UnityEngine.Vector3 force, UnityEngine.Vector3 torque)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
     // public System.Void AddVelocity(UnityEngine.Vector3 force)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddVelocity(::UnityEngine::Vector3 force);
     // protected System.Void .ctor()
-    // Offset: 0x14E4800
+    // Offset: 0x147917C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

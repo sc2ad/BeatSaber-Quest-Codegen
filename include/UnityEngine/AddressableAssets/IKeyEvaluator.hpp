@@ -25,10 +25,10 @@ namespace UnityEngine::AddressableAssets {
   class IKeyEvaluator {
     public:
     // public System.Object get_RuntimeKey()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_RuntimeKey();
     // public System.Boolean RuntimeKeyIsValid()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool RuntimeKeyIsValid();
   }; // UnityEngine.AddressableAssets.IKeyEvaluator
   #pragma pack(pop)

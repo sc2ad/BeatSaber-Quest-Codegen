@@ -54,19 +54,19 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: private UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData m_EventData
     ::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*& dyn_m_EventData();
     // public UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData get_eventData()
-    // Offset: 0x1902E38
+    // Offset: 0x18F9D2C
     ::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData value)
-    // Offset: 0x1902E40
+    // Offset: 0x18F9D34
     void set_eventData(::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton get_button()
-    // Offset: 0x1902E48
+    // Offset: 0x18F9D3C
     ::UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton value)
-    // Offset: 0x1902E50
+    // Offset: 0x18F9D44
     void set_button(::UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Void .ctor()
-    // Offset: 0x1902E58
+    // Offset: 0x18F9D4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -46,13 +46,13 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Comparison`1<UnityEngine.UI.Graphic> <>9__24_0
     static void _set_$$9__24_0(::System::Comparison_1<::UnityEngine::UI::Graphic*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E42970
+    // Offset: 0x1E25E40
     static void _cctor();
     // System.Int32 <Raycast>b__24_0(UnityEngine.UI.Graphic g1, UnityEngine.UI.Graphic g2)
-    // Offset: 0x1E429DC
+    // Offset: 0x1E25EAC
     int $Raycast$b__24_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
     // public System.Void .ctor()
-    // Offset: 0x1E429D4
+    // Offset: 0x1E25EA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

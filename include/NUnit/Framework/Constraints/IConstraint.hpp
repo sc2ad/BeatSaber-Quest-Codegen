@@ -41,13 +41,13 @@ namespace NUnit::Framework::Constraints {
       return *reinterpret_cast<::NUnit::Framework::Constraints::IResolveConstraint*>(this);
     }
     // public System.String get_Description()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Description();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_Builder(::NUnit::Framework::Constraints::ConstraintBuilder* value);
     // public NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
   }; // NUnit.Framework.Constraints.IConstraint
   #pragma pack(pop)

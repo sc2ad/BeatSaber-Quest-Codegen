@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* centerObjectTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BFC0C
+    // [SpaceAttribute] Offset: 0x125A1A0
     // private CenterStageScreenController _centerStageScreenController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::CenterStageScreenController* centerStageScreenController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CenterStageScreenController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BFC44
+    // [InjectAttribute] Offset: 0x125A1D8
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x28
@@ -97,19 +97,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minOuterCircleRadius
     float& dyn__minOuterCircleRadius();
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x1398D04
+    // Offset: 0x13FB8F8
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateCenterStageManager()
-    // Offset: 0x1398D0C
+    // Offset: 0x13FB900
     void ActivateCenterStageManager();
     // public System.Void DeactivateCenterStageManager()
-    // Offset: 0x1398E98
+    // Offset: 0x13FBA8C
     void DeactivateCenterStageManager();
     // private System.Void RecalculateCenterPosition()
-    // Offset: 0x1398D3C
+    // Offset: 0x13FB930
     void RecalculateCenterPosition();
     // public System.Void .ctor()
-    // Offset: 0x1398EC8
+    // Offset: 0x13FBABC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

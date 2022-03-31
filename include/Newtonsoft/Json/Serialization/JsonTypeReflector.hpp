@@ -100,16 +100,16 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static private Newtonsoft.Json.Utilities.ReflectionObject _metadataTypeAttributeReflectionObject
     static void _set__metadataTypeAttributeReflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
     // static public System.Boolean get_FullyTrusted()
-    // Offset: 0x204D458
+    // Offset: 0x203AE2C
     static bool get_FullyTrusted();
     // static public Newtonsoft.Json.Utilities.ReflectionDelegateFactory get_ReflectionDelegateFactory()
-    // Offset: 0x204CAFC
+    // Offset: 0x203A4D0
     static ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_ReflectionDelegateFactory();
     // static private System.Void .cctor()
-    // Offset: 0x204D61C
+    // Offset: 0x203AFF0
     static void _cctor();
     // static public T GetCachedAttribute(System.Object attributeProvider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T GetCachedAttribute(::Il2CppObject* attributeProvider) {
       static_assert(std::is_convertible_v<T, ::System::Attribute*>);
@@ -119,34 +119,34 @@ namespace Newtonsoft::Json::Serialization {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, attributeProvider);
     }
     // static public System.Runtime.Serialization.DataContractAttribute GetDataContractAttribute(System.Type type)
-    // Offset: 0x204C080
+    // Offset: 0x2039A54
     static ::System::Runtime::Serialization::DataContractAttribute* GetDataContractAttribute(::System::Type* type);
     // static public System.Runtime.Serialization.DataMemberAttribute GetDataMemberAttribute(System.Reflection.MemberInfo memberInfo)
-    // Offset: 0x204C148
+    // Offset: 0x2039B1C
     static ::System::Runtime::Serialization::DataMemberAttribute* GetDataMemberAttribute(::System::Reflection::MemberInfo* memberInfo);
     // static public Newtonsoft.Json.MemberSerialization GetObjectMemberSerialization(System.Type objectType, System.Boolean ignoreSerializableAttribute)
-    // Offset: 0x204C684
+    // Offset: 0x203A058
     static ::Newtonsoft::Json::MemberSerialization GetObjectMemberSerialization(::System::Type* objectType, bool ignoreSerializableAttribute);
     // static public Newtonsoft.Json.JsonConverter GetJsonConverter(System.Object attributeProvider)
-    // Offset: 0x204C77C
+    // Offset: 0x203A150
     static ::Newtonsoft::Json::JsonConverter* GetJsonConverter(::Il2CppObject* attributeProvider);
     // static public Newtonsoft.Json.JsonConverter CreateJsonConverterInstance(System.Type converterType, System.Object[] converterArgs)
-    // Offset: 0x204C850
+    // Offset: 0x203A224
     static ::Newtonsoft::Json::JsonConverter* CreateJsonConverterInstance(::System::Type* converterType, ::ArrayW<::Il2CppObject*> converterArgs);
     // static private System.Func`2<System.Object[],Newtonsoft.Json.JsonConverter> GetJsonConverterCreator(System.Type converterType)
-    // Offset: 0x204C8F8
+    // Offset: 0x203A2CC
     static ::System::Func_2<::ArrayW<::Il2CppObject*>, ::Newtonsoft::Json::JsonConverter*>* GetJsonConverterCreator(::System::Type* converterType);
     // static public System.ComponentModel.TypeConverter GetTypeConverter(System.Type type)
-    // Offset: 0x204CBA0
+    // Offset: 0x203A574
     static ::System::ComponentModel::TypeConverter* GetTypeConverter(::System::Type* type);
     // static private System.Type GetAssociatedMetadataType(System.Type type)
-    // Offset: 0x204CC08
+    // Offset: 0x203A5DC
     static ::System::Type* GetAssociatedMetadataType(::System::Type* type);
     // static private System.Type GetAssociateMetadataTypeFromAttribute(System.Type type)
-    // Offset: 0x204CC8C
+    // Offset: 0x203A660
     static ::System::Type* GetAssociateMetadataTypeFromAttribute(::System::Type* type);
     // static private T GetAttribute(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T GetAttribute(::System::Type* type) {
       static_assert(std::is_convertible_v<T, ::System::Attribute*>);
@@ -156,7 +156,7 @@ namespace Newtonsoft::Json::Serialization {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, type);
     }
     // static private T GetAttribute(System.Reflection.MemberInfo memberInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T GetAttribute(::System::Reflection::MemberInfo* memberInfo) {
       static_assert(std::is_convertible_v<T, ::System::Attribute*>);
@@ -166,7 +166,7 @@ namespace Newtonsoft::Json::Serialization {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, memberInfo);
     }
     // static public T GetAttribute(System.Object provider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T GetAttribute(::Il2CppObject* provider) {
       static_assert(std::is_convertible_v<T, ::System::Attribute*>);

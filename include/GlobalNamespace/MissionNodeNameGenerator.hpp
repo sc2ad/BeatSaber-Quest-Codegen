@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodesManager _missionNodesManager
     ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
     // public System.Void .ctor()
-    // Offset: 0x1334250
+    // Offset: 0x1309640
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

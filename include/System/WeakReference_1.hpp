@@ -82,42 +82,42 @@ namespace System {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(T target)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakReference_1<T>* New_ctor(T target) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::WeakReference_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakReference_1<T>*, creationType>(target)));
     }
     // public System.Void .ctor(T target, System.Boolean trackResurrection)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakReference_1<T>* New_ctor(T target, bool trackResurrection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::WeakReference_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakReference_1<T>*, creationType>(target, trackResurrection)));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakReference_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::WeakReference_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakReference_1<T>*, creationType>(info, context)));
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::WeakReference_1::GetObjectData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetObjectData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, info, context);
     }
     // public System.Boolean TryGetTarget(out T target)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryGetTarget(ByRef<T> target) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::WeakReference_1::TryGetTarget");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetTarget", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(target));
     }
     // protected override System.Void Finalize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize() {

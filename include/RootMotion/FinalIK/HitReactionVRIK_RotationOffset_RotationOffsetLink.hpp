@@ -43,15 +43,15 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10E0B68
+    // [TooltipAttribute] Offset: 0x1279440
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::RotationOffset) == 0x4);
-    // [TooltipAttribute] Offset: 0x10E0BA0
-    // [RangeAttribute] Offset: 0x10E0BA0
+    // [TooltipAttribute] Offset: 0x1279478
+    // [RangeAttribute] Offset: 0x1279478
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -80,13 +80,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion current
     ::UnityEngine::Quaternion& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x21FFC14
+    // Offset: 0x21D59F8
     void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x21FF8FC
+    // Offset: 0x21D56E0
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x21FFD50
+    // Offset: 0x21D5B34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

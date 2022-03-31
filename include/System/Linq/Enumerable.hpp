@@ -137,7 +137,7 @@ namespace System::Linq {
     template<typename TResult>
     class $RepeatIterator$d__117_1;
     // static public System.Collections.Generic.IEnumerable`1<TSource> Where(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Where(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Where");
@@ -146,7 +146,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public System.Collections.Generic.IEnumerable`1<TResult> Select(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TResult> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* Select(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TResult>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Select");
@@ -155,7 +155,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static private System.Func`2<TSource,System.Boolean> CombinePredicates(System.Func`2<TSource,System.Boolean> predicate1, System.Func`2<TSource,System.Boolean> predicate2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Func_2<TSource, bool>* CombinePredicates(::System::Func_2<TSource, bool>* predicate1, ::System::Func_2<TSource, bool>* predicate2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::CombinePredicates");
@@ -164,7 +164,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Func_2<TSource, bool>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, predicate1, predicate2);
     }
     // static private System.Func`2<TSource,TResult> CombineSelectors(System.Func`2<TSource,TMiddle> selector1, System.Func`2<TMiddle,TResult> selector2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TMiddle, class TResult>
     static ::System::Func_2<TSource, TResult>* CombineSelectors(::System::Func_2<TSource, TMiddle>* selector1, ::System::Func_2<TMiddle, TResult>* selector2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::CombineSelectors");
@@ -173,7 +173,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Func_2<TSource, TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, selector1, selector2);
     }
     // static public System.Collections.Generic.IEnumerable`1<TResult> SelectMany(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TResult>> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* SelectMany(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::SelectMany");
@@ -182,7 +182,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static private System.Collections.Generic.IEnumerable`1<TResult> SelectManyIterator(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TResult>> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* SelectManyIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::SelectManyIterator");
@@ -191,7 +191,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Take(System.Collections.Generic.IEnumerable`1<TSource> source, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Take(::System::Collections::Generic::IEnumerable_1<TSource>* source, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Take");
@@ -200,7 +200,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, count);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> TakeIterator(System.Collections.Generic.IEnumerable`1<TSource> source, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* TakeIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::TakeIterator");
@@ -209,7 +209,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, count);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Skip(System.Collections.Generic.IEnumerable`1<TSource> source, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Skip(::System::Collections::Generic::IEnumerable_1<TSource>* source, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Skip");
@@ -218,7 +218,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, count);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> SkipIterator(System.Collections.Generic.IEnumerable`1<TSource> source, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* SkipIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::SkipIterator");
@@ -227,7 +227,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, count);
     }
     // static public System.Linq.IOrderedEnumerable`1<TSource> OrderBy(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TKey>
     static ::System::Linq::IOrderedEnumerable_1<TSource>* OrderBy(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::OrderBy");
@@ -236,7 +236,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Linq::IOrderedEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector);
     }
     // static public System.Linq.IOrderedEnumerable`1<TSource> OrderByDescending(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TKey>
     static ::System::Linq::IOrderedEnumerable_1<TSource>* OrderByDescending(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::OrderByDescending");
@@ -245,7 +245,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Linq::IOrderedEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector);
     }
     // static public System.Linq.IOrderedEnumerable`1<TSource> ThenBy(System.Linq.IOrderedEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TKey>
     static ::System::Linq::IOrderedEnumerable_1<TSource>* ThenBy(::System::Linq::IOrderedEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ThenBy");
@@ -254,7 +254,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Linq::IOrderedEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Linq.IGrouping`2<TKey,TSource>> GroupBy(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TKey>
     static ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TSource>*>* GroupBy(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::GroupBy");
@@ -263,7 +263,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TSource>*>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Concat(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Concat(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Concat");
@@ -272,7 +272,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> ConcatIterator(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* ConcatIterator(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ConcatIterator");
@@ -281,7 +281,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Append(System.Collections.Generic.IEnumerable`1<TSource> source, TSource element)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Append(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource element) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Append");
@@ -290,7 +290,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, element);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> AppendIterator(System.Collections.Generic.IEnumerable`1<TSource> source, TSource element)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* AppendIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource element) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::AppendIterator");
@@ -299,7 +299,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, element);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Distinct(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Distinct(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Distinct");
@@ -308,7 +308,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> DistinctIterator(System.Collections.Generic.IEnumerable`1<TSource> source, System.Collections.Generic.IEqualityComparer`1<TSource> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* DistinctIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::DistinctIterator");
@@ -317,7 +317,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, comparer);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Union(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Union(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Union");
@@ -326,7 +326,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> UnionIterator(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second, System.Collections.Generic.IEqualityComparer`1<TSource> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* UnionIterator(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::UnionIterator");
@@ -335,7 +335,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second, comparer);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Except(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Except(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Except");
@@ -344,7 +344,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> ExceptIterator(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second, System.Collections.Generic.IEqualityComparer`1<TSource> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* ExceptIterator(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ExceptIterator");
@@ -353,7 +353,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second, comparer);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> Reverse(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* Reverse(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Reverse");
@@ -362,7 +362,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> ReverseIterator(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* ReverseIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ReverseIterator");
@@ -371,7 +371,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public System.Boolean SequenceEqual(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool SequenceEqual(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::SequenceEqual");
@@ -380,7 +380,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static public System.Boolean SequenceEqual(System.Collections.Generic.IEnumerable`1<TSource> first, System.Collections.Generic.IEnumerable`1<TSource> second, System.Collections.Generic.IEqualityComparer`1<TSource> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool SequenceEqual(::System::Collections::Generic::IEnumerable_1<TSource>* first, ::System::Collections::Generic::IEnumerable_1<TSource>* second, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::SequenceEqual");
@@ -389,7 +389,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second, comparer);
     }
     // static public TSource[] ToArray(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::ArrayW<TSource> ToArray(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ToArray");
@@ -398,7 +398,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<TSource>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public System.Collections.Generic.List`1<TSource> ToList(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::List_1<TSource>* ToList(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ToList");
@@ -407,7 +407,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public System.Collections.Generic.Dictionary`2<TKey,TElement> ToDictionary(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector, System.Func`2<TSource,TElement> elementSelector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TKey, class TElement>
     static ::System::Collections::Generic::Dictionary_2<TKey, TElement>* ToDictionary(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector, ::System::Func_2<TSource, TElement>* elementSelector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ToDictionary");
@@ -416,7 +416,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey, TElement>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector, elementSelector);
     }
     // static public System.Collections.Generic.Dictionary`2<TKey,TElement> ToDictionary(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector, System.Func`2<TSource,TElement> elementSelector, System.Collections.Generic.IEqualityComparer`1<TKey> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TKey, class TElement>
     static ::System::Collections::Generic::Dictionary_2<TKey, TElement>* ToDictionary(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector, ::System::Func_2<TSource, TElement>* elementSelector, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ToDictionary");
@@ -425,7 +425,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey, TElement>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector, elementSelector, comparer);
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> DefaultIfEmpty(System.Collections.Generic.IEnumerable`1<TSource> source, TSource defaultValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* DefaultIfEmpty(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource defaultValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::DefaultIfEmpty");
@@ -434,7 +434,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, defaultValue);
     }
     // static private System.Collections.Generic.IEnumerable`1<TSource> DefaultIfEmptyIterator(System.Collections.Generic.IEnumerable`1<TSource> source, TSource defaultValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static ::System::Collections::Generic::IEnumerable_1<TSource>* DefaultIfEmptyIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource defaultValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::DefaultIfEmptyIterator");
@@ -443,7 +443,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, defaultValue);
     }
     // static public System.Collections.Generic.IEnumerable`1<TResult> OfType(System.Collections.IEnumerable source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* OfType(::System::Collections::IEnumerable* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::OfType");
@@ -452,7 +452,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static private System.Collections.Generic.IEnumerable`1<TResult> OfTypeIterator(System.Collections.IEnumerable source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* OfTypeIterator(::System::Collections::IEnumerable* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::OfTypeIterator");
@@ -461,7 +461,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public System.Collections.Generic.IEnumerable`1<TResult> Cast(System.Collections.IEnumerable source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* Cast(::System::Collections::IEnumerable* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Cast");
@@ -470,7 +470,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static private System.Collections.Generic.IEnumerable`1<TResult> CastIterator(System.Collections.IEnumerable source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* CastIterator(::System::Collections::IEnumerable* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::CastIterator");
@@ -479,7 +479,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TSource First(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource First(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::First");
@@ -488,7 +488,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TSource First(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource First(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::First");
@@ -497,7 +497,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public TSource FirstOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource FirstOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::FirstOrDefault");
@@ -506,7 +506,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TSource FirstOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource FirstOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::FirstOrDefault");
@@ -515,7 +515,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public TSource Last(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource Last(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Last");
@@ -524,7 +524,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TSource LastOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource LastOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::LastOrDefault");
@@ -533,7 +533,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TSource LastOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource LastOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::LastOrDefault");
@@ -542,7 +542,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public TSource Single(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource Single(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Single");
@@ -551,7 +551,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TSource SingleOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource SingleOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::SingleOrDefault");
@@ -560,7 +560,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TSource SingleOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource SingleOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::SingleOrDefault");
@@ -569,7 +569,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public TSource ElementAt(System.Collections.Generic.IEnumerable`1<TSource> source, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource ElementAt(::System::Collections::Generic::IEnumerable_1<TSource>* source, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::ElementAt");
@@ -578,13 +578,13 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, index);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Int32> Range(System.Int32 start, System.Int32 count)
-    // Offset: 0x2A61F94
+    // Offset: 0x2A2E144
     static ::System::Collections::Generic::IEnumerable_1<int>* Range(int start, int count);
     // static private System.Collections.Generic.IEnumerable`1<System.Int32> RangeIterator(System.Int32 start, System.Int32 count)
-    // Offset: 0x2A62084
+    // Offset: 0x2A2E234
     static ::System::Collections::Generic::IEnumerable_1<int>* RangeIterator(int start, int count);
     // static public System.Collections.Generic.IEnumerable`1<TResult> Repeat(TResult element, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* Repeat(TResult element, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Repeat");
@@ -593,7 +593,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, element, count);
     }
     // static private System.Collections.Generic.IEnumerable`1<TResult> RepeatIterator(TResult element, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* RepeatIterator(TResult element, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::RepeatIterator");
@@ -602,7 +602,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, element, count);
     }
     // static public System.Collections.Generic.IEnumerable`1<TResult> Empty()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Collections::Generic::IEnumerable_1<TResult>* Empty() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Empty");
@@ -611,7 +611,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Boolean Any(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool Any(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Any");
@@ -620,7 +620,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public System.Boolean Any(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool Any(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Any");
@@ -629,7 +629,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public System.Boolean All(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool All(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::All");
@@ -638,7 +638,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public System.Int32 Count(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static int Count(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Count");
@@ -647,7 +647,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public System.Int32 Count(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static int Count(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Count");
@@ -656,7 +656,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, predicate);
     }
     // static public System.Boolean Contains(System.Collections.Generic.IEnumerable`1<TSource> source, TSource value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool Contains(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Contains");
@@ -665,7 +665,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, value);
     }
     // static public System.Boolean Contains(System.Collections.Generic.IEnumerable`1<TSource> source, TSource value, System.Collections.Generic.IEqualityComparer`1<TSource> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool Contains(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource value, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Contains");
@@ -674,7 +674,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, value, comparer);
     }
     // static public TSource Aggregate(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`3<TSource,TSource,TSource> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource Aggregate(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_3<TSource, TSource, TSource>* func) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Aggregate");
@@ -683,7 +683,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, func);
     }
     // static public TAccumulate Aggregate(System.Collections.Generic.IEnumerable`1<TSource> source, TAccumulate seed, System.Func`3<TAccumulate,TSource,TAccumulate> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TAccumulate>
     static TAccumulate Aggregate(::System::Collections::Generic::IEnumerable_1<TSource>* source, TAccumulate seed, ::System::Func_3<TAccumulate, TSource, TAccumulate>* func) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Aggregate");
@@ -692,10 +692,10 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TAccumulate, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, seed, func);
     }
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x2A6214C
+    // Offset: 0x2A2E2FC
     static int Sum(::System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static int Sum(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Sum");
@@ -704,10 +704,10 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Single Min(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x2A62440
+    // Offset: 0x2A2E5F0
     static float Min(::System::Collections::Generic::IEnumerable_1<float>* source);
     // static public TSource Min(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource Min(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Min");
@@ -716,7 +716,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public TResult Min(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TResult> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TResult>
     static TResult Min(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TResult>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Min");
@@ -725,13 +725,13 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TResult, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x2A62770
+    // Offset: 0x2A2E920
     static int Max(::System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Single Max(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x2A62A0C
+    // Offset: 0x2A2EBBC
     static float Max(::System::Collections::Generic::IEnumerable_1<float>* source);
     // static public TSource Max(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static TSource Max(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Max");
@@ -740,7 +740,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
     }
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static int Max(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Max");
@@ -749,7 +749,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static public TResult Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TResult> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource, class TResult>
     static TResult Max(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TResult>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::Max");

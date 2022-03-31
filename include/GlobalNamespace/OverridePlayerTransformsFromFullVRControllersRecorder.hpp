@@ -58,21 +58,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FullVRControllersRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C4F60
+    // [InjectAttribute] Offset: 0x125F4F4
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C4F70
+    // [InjectAttribute] Offset: 0x125F504
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C4F80
+    // [InjectAttribute] Offset: 0x125F514
     // private readonly PlayerVRControllersManager _playerVRControllersManager
     // Size: 0x8
     // Offset: 0x30
@@ -91,16 +91,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayerVRControllersManager _playerVRControllersManager
     ::GlobalNamespace::PlayerVRControllersManager*& dyn__playerVRControllersManager();
     // protected System.Void Start()
-    // Offset: 0x134FBF4
+    // Offset: 0x12E9448
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x134FC98
+    // Offset: 0x12E94EC
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0x134FD74
+    // Offset: 0x12E95C8
     void HandleFullVRControllersRecorderDidSetControllerTransform(::GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0x134FE8C
+    // Offset: 0x12E96E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

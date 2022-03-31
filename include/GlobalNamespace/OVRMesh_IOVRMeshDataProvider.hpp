@@ -20,7 +20,7 @@ namespace GlobalNamespace {
   class OVRMesh::IOVRMeshDataProvider {
     public:
     // public OVRMesh/MeshType GetMeshType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::OVRMesh::MeshType GetMeshType();
   }; // OVRMesh/IOVRMeshDataProvider
   #pragma pack(pop)

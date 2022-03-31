@@ -22,22 +22,22 @@ namespace Mono::Xml {
   class SmallXmlParser::IAttrList {
     public:
     // public System.Int32 get_Length()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Length();
     // public System.String[] get_Names()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::StringW> get_Names();
     // public System.String[] get_Values()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::StringW> get_Values();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetValue(::StringW name);
   }; // Mono.Xml.SmallXmlParser/Mono.Xml.IAttrList
   #pragma pack(pop)

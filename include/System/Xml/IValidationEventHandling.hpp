@@ -34,7 +34,7 @@ namespace System::Xml {
   class IValidationEventHandling {
     public:
     // public System.Void SendEvent(System.Exception exception, System.Xml.Schema.XmlSeverityType severity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SendEvent(::System::Exception* exception, ::System::Xml::Schema::XmlSeverityType severity);
   }; // System.Xml.IValidationEventHandling
   #pragma pack(pop)

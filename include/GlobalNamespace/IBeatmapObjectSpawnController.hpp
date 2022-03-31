@@ -41,46 +41,46 @@ namespace GlobalNamespace {
   class IBeatmapObjectSpawnController {
     public:
     // public System.Int32 get_noteLinesCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_noteLinesCount();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_jumpOffsetY();
     // public System.Single get_moveDuration()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_jumpDuration();
     // public System.Single get_jumpDistance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_jumpDistance();
     // public System.Single get_verticalLayerDistance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_verticalLayerDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_noteLinesDistance();
     // public BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
     // public System.Boolean get_isInitialized()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isInitialized();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didInitEvent(::System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didInitEvent(::System::Action* value);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
   }; // IBeatmapObjectSpawnController
   #pragma pack(pop)

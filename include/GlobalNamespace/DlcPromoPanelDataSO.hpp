@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _minNumberOfNotOwnedPacks
     int& dyn__minNumberOfNotOwnedPacks();
     // public System.Int32 get_cutOffTest()
-    // Offset: 0x141CD18
+    // Offset: 0x140FED0
     int get_cutOffTest();
     // public System.Int32 get_minNumberOfNotOwnedPacks()
-    // Offset: 0x141CD20
+    // Offset: 0x140FED8
     int get_minNumberOfNotOwnedPacks();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x141CD28
+    // Offset: 0x140FEE0
     ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> get_musicPackPromoInfos();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo get_defaultMusicPackPromo()
-    // Offset: 0x141CD30
+    // Offset: 0x140FEE8
     ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* get_defaultMusicPackPromo();
     // public System.Void .ctor()
-    // Offset: 0x141CD70
+    // Offset: 0x140FF28
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -29,10 +29,10 @@ namespace System::Threading {
   class IThreadPoolWorkItem {
     public:
     // public System.Void ExecuteWorkItem()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void MarkAborted(::System::Threading::ThreadAbortException* tae);
   }; // System.Threading.IThreadPoolWorkItem
   #pragma pack(pop)

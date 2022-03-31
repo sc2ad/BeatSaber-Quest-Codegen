@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Action`1<UnityEngine.AudioClip> <>9__19_0
     static void _set_$$9__19_0(::System::Action_1<::UnityEngine::AudioClip*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14BE844
+    // Offset: 0x14B81FC
     static void _cctor();
     // System.Void <Unload>b__19_0(UnityEngine.AudioClip loadedAudioClip)
-    // Offset: 0x14BE8B0
+    // Offset: 0x14B8268
     void $Unload$b__19_0(::UnityEngine::AudioClip* loadedAudioClip);
     // public System.Void .ctor()
-    // Offset: 0x14BE8A8
+    // Offset: 0x14B8260
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

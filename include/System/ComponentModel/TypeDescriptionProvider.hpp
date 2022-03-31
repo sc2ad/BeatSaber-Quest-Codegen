@@ -72,28 +72,28 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.ComponentModel.TypeDescriptionProvider/System.ComponentModel.EmptyCustomTypeDescriptor _emptyDescriptor
     ::System::ComponentModel::TypeDescriptionProvider::EmptyCustomTypeDescriptor*& dyn__emptyDescriptor();
     // public System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1D86D44
+    // Offset: 0x1D6A214
     ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // public System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1D86D5C
+    // Offset: 0x1D6A22C
     ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
     // public System.Type GetReflectionType(System.Type objectType)
-    // Offset: 0x1D86E00
+    // Offset: 0x1D6A2D0
     ::System::Type* GetReflectionType(::System::Type* objectType);
     // public System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1D86E10
+    // Offset: 0x1D6A2E0
     ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
     // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType)
-    // Offset: 0x1D86E2C
+    // Offset: 0x1D6A2FC
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType);
     // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Object instance)
-    // Offset: 0x1D86E3C
+    // Offset: 0x1D6A30C
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::Il2CppObject* instance);
     // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1D86EE8
+    // Offset: 0x1D6A3B8
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);
     // protected System.Void .ctor()
-    // Offset: 0x1D78BFC
+    // Offset: 0x1D5C0CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

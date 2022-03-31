@@ -65,21 +65,21 @@ namespace HMUI {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InputFieldDataBinder::$$c__3_1<T>*>::get(), "<>9__3_0", value)));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::$$c__3_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InputFieldDataBinder::$$c__3_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // System.String <AddStringBindings>b__3_0(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW $AddStringBindings$b__3_0(::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::$$c__3_1::<AddStringBindings>b__3_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddStringBindings>b__3_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

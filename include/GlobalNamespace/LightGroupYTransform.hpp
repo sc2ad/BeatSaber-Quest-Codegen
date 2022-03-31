@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class LightGroupYTransform : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14CDB74
+    // Offset: 0x148CBF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

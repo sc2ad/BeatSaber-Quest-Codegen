@@ -100,58 +100,58 @@ namespace GlobalNamespace {
     // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_15
     static void _set_$$9__18_15(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
     // static private System.Void .cctor()
-    // Offset: 0x1320D30
+    // Offset: 0x13E79F4
     static void _cctor();
     // System.Boolean <OnEnable>b__18_0(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320D9C
+    // Offset: 0x13E7A60
     bool $OnEnable$b__18_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_1(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320DBC
+    // Offset: 0x13E7A80
     bool $OnEnable$b__18_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_2(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320DD4
+    // Offset: 0x13E7A98
     bool $OnEnable$b__18_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_3(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320DEC
+    // Offset: 0x13E7AB0
     bool $OnEnable$b__18_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_4(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320E0C
+    // Offset: 0x13E7AD0
     bool $OnEnable$b__18_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_5(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320E24
+    // Offset: 0x13E7AE8
     bool $OnEnable$b__18_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_6(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320E3C
+    // Offset: 0x13E7B00
     bool $OnEnable$b__18_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_7(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320E54
+    // Offset: 0x13E7B18
     bool $OnEnable$b__18_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_8(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320E6C
+    // Offset: 0x13E7B30
     bool $OnEnable$b__18_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_9(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320E8C
+    // Offset: 0x13E7B50
     bool $OnEnable$b__18_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_10(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320EAC
+    // Offset: 0x13E7B70
     bool $OnEnable$b__18_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_11(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320ECC
+    // Offset: 0x13E7B90
     bool $OnEnable$b__18_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_12(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320EE4
+    // Offset: 0x13E7BA8
     bool $OnEnable$b__18_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_13(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320EFC
+    // Offset: 0x13E7BC0
     bool $OnEnable$b__18_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_14(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320F14
+    // Offset: 0x13E7BD8
     bool $OnEnable$b__18_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_15(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1320F2C
+    // Offset: 0x13E7BF0
     bool $OnEnable$b__18_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x1320D94
+    // Offset: 0x13E7A58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

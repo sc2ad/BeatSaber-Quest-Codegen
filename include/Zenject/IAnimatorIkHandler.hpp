@@ -22,7 +22,7 @@ namespace Zenject {
   class IAnimatorIkHandler {
     public:
     // public System.Void OnAnimatorIk()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnAnimatorIk();
   }; // Zenject.IAnimatorIkHandler
   #pragma pack(pop)

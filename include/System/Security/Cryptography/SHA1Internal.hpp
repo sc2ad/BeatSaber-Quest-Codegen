@@ -80,31 +80,31 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.UInt32[] buff
     ::ArrayW<uint>& dyn_buff();
     // public System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x20922E0
+    // Offset: 0x207FCB4
     void HashCore(::ArrayW<uint8_t> rgb, int ibStart, int cbSize);
     // public System.Byte[] HashFinal()
-    // Offset: 0x2092404
+    // Offset: 0x207FDD8
     ::ArrayW<uint8_t> HashFinal();
     // public System.Void Initialize()
-    // Offset: 0x2092510
+    // Offset: 0x207FEE4
     void Initialize();
     // private System.Void ProcessBlock(System.Byte[] inputBuffer, System.UInt32 inputOffset)
-    // Offset: 0x20925D4
+    // Offset: 0x207FFA8
     void ProcessBlock(::ArrayW<uint8_t> inputBuffer, uint inputOffset);
     // static private System.Void InitialiseBuff(System.UInt32[] buff, System.Byte[] input, System.UInt32 inputOffset)
-    // Offset: 0x2092CB0
+    // Offset: 0x2080684
     static void InitialiseBuff(::ArrayW<uint> buff, ::ArrayW<uint8_t> input, uint inputOffset);
     // static private System.Void FillBuff(System.UInt32[] buff)
-    // Offset: 0x2093398
+    // Offset: 0x2080D6C
     static void FillBuff(::ArrayW<uint> buff);
     // private System.Void ProcessFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x2092AF8
+    // Offset: 0x20804CC
     void ProcessFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // System.Void AddLength(System.UInt64 length, System.Byte[] buffer, System.Int32 position)
-    // Offset: 0x20935D8
+    // Offset: 0x2080FAC
     void AddLength(uint64_t length, ::ArrayW<uint8_t> buffer, int position);
     // public System.Void .ctor()
-    // Offset: 0x20921A8
+    // Offset: 0x207FB7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

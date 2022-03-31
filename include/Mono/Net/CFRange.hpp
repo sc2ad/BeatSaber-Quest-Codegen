@@ -50,7 +50,7 @@ namespace Mono::Net {
     // Get instance field reference: public System.IntPtr Length
     ::System::IntPtr& dyn_Length();
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
-    // Offset: 0x1AB7E2C
+    // Offset: 0x1A9B464
     CFRange(int loc, int len);
   }; // Mono.Net.CFRange
   #pragma pack(pop)

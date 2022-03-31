@@ -40,14 +40,14 @@ namespace System::Collections::Generic {
   class NullableComparer_1 : public ::System::Collections::Generic::Comparer_1<::System::Nullable_1<T>> {
     public:
     // public System.Int32 Compare(System.Nullable`1<T> x, System.Nullable`1<T> y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int Compare(::System::Nullable_1<T> x, ::System::Nullable_1<T> y) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::NullableComparer_1::Compare");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x, y);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.Comparer`1
     // Base method: System.Void Comparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -57,7 +57,7 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<NullableComparer_1<T>*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
@@ -66,7 +66,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {

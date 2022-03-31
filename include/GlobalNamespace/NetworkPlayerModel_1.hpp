@@ -178,196 +178,196 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::GlobalNamespace::IConnectedPlayer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // public System.String get_userId()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW get_userId() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_userId");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_userId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
       }
       // public System.String get_userName()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW get_userName() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_userName");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_userName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
       }
       // public System.Boolean get_isMe()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isMe() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_isMe");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isMe", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Int32 get_sortIndex()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       int get_sortIndex() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_sortIndex");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_sortIndex", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
       }
       // public System.Int32 get_currentPartySize()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       int get_currentPartySize() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_currentPartySize");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_currentPartySize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
       }
       // public BeatmapLevelSelectionMask get_selectionMask()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_selectionMask");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_selectionMask", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::BeatmapLevelSelectionMask, false>(this, ___internal__method);
       }
       // public GameplayServerConfiguration get_configuration()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::GameplayServerConfiguration get_configuration() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_configuration");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_configuration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::GameplayServerConfiguration, false>(this, ___internal__method);
       }
       // public System.Boolean get_isMyPartyOwner()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isMyPartyOwner() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_isMyPartyOwner");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isMyPartyOwner", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public IConnectedPlayer get_connectedPlayer()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_connectedPlayer");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_connectedPlayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal__method);
       }
       // public System.Boolean get_canJoin()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canJoin() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_canJoin");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canJoin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_requiresPassword()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_requiresPassword() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_requiresPassword");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_requiresPassword", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_isWaitingOnJoin()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isWaitingOnJoin() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_isWaitingOnJoin");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isWaitingOnJoin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canInvite()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canInvite() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_canInvite");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canInvite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_isWaitingOnInvite()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isWaitingOnInvite() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_isWaitingOnInvite");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isWaitingOnInvite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canKick()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canKick() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_canKick");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canKick", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canLeave()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canLeave() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_canLeave");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canLeave", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canBlock()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canBlock() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_canBlock");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canBlock", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canUnblock()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canUnblock() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::get_canUnblock");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canUnblock", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Void .ctor(NetworkPlayerModel`1<T> playerModel, IConnectedPlayer connectedPlayer)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename NetworkPlayerModel_1<T>::NetworkPlayer* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename NetworkPlayerModel_1<T>::NetworkPlayer*, creationType>(playerModel, connectedPlayer)));
       }
       // public System.Void Join()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Join() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::Join");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Join", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Join(System.String password)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Join(::StringW password) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::Join");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Join", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(password)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, password);
       }
       // public System.Void Invite()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Invite() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::Invite");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Kick()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Kick() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::Kick");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Kick", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Leave()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Leave() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::Leave");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Leave", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Block()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Block() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::Block");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Block", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Unblock()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Unblock() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::Unblock");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Unblock", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void SendJoinResponse(System.Boolean accept)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SendJoinResponse(bool accept) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::SendJoinResponse");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendJoinResponse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(accept)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, accept);
       }
       // public System.Void SendInviteResponse(System.Boolean accept)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SendInviteResponse(bool accept) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkPlayer::SendInviteResponse");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendInviteResponse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(accept)})));
@@ -426,7 +426,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::StringW*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: BaseNetworkPlayerModel/PartyConfig
       // Base method: System.Void PartyConfig::.ctor()
       // Base method: System.Void Object::.ctor()
@@ -450,7 +450,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(this);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: BaseNetworkPlayerModel/PartyConfig
       // Base method: System.Void PartyConfig::.ctor()
       // Base method: System.Void Object::.ctor()
@@ -568,217 +568,217 @@ namespace GlobalNamespace {
         return *reinterpret_cast<float*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private System.String INetworkPlayer.get_userId()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW INetworkPlayer_get_userId() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::INetworkPlayer.get_userId");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "INetworkPlayer.get_userId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
       }
       // public System.String get_code()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW get_code() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_code");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_code", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
       }
       // private System.String INetworkPlayer.get_userName()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW INetworkPlayer_get_userName() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::INetworkPlayer.get_userName");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "INetworkPlayer.get_userName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
       }
       // public System.String get_serverName()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW get_serverName() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_serverName");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_serverName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
       }
       // public System.Boolean get_isMe()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isMe() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_isMe");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isMe", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Int32 get_currentPartySize()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       int get_currentPartySize() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_currentPartySize");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_currentPartySize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
       }
       // public BeatmapLevelSelectionMask get_selectionMask()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_selectionMask");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_selectionMask", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::BeatmapLevelSelectionMask, false>(this, ___internal__method);
       }
       // public GameplayServerConfiguration get_configuration()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::GameplayServerConfiguration get_configuration() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_configuration");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_configuration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::GameplayServerConfiguration, false>(this, ___internal__method);
       }
       // public IConnectedPlayer get_connectedPlayer()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_connectedPlayer");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_connectedPlayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal__method);
       }
       // public System.Boolean get_isMyPartyOwner()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isMyPartyOwner() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_isMyPartyOwner");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isMyPartyOwner", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_hasTimedOut()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_hasTimedOut() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_hasTimedOut");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_hasTimedOut", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canJoin()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canJoin() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_canJoin");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canJoin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_requiresPassword()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_requiresPassword() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_requiresPassword");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_requiresPassword", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_isWaitingOnJoin()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isWaitingOnJoin() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_isWaitingOnJoin");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isWaitingOnJoin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canInvite()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canInvite() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_canInvite");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canInvite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_isWaitingOnInvite()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_isWaitingOnInvite() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_isWaitingOnInvite");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_isWaitingOnInvite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canKick()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canKick() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_canKick");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canKick", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canLeave()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canLeave() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_canLeave");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canLeave", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canBlock()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canBlock() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_canBlock");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canBlock", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Boolean get_canUnblock()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_canUnblock() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::get_canUnblock");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_canUnblock", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Void .ctor(NetworkPlayerModel`1<T> playerModel, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename NetworkPlayerModel_1<T>::NetworkServer* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::StringW code, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename NetworkPlayerModel_1<T>::NetworkServer*, creationType>(playerModel, code, selectionMask, configuration)));
       }
       // public System.Void Update(System.Int32 currentPlayerCount)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Update(int currentPlayerCount) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Update");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentPlayerCount)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, currentPlayerCount);
       }
       // public System.Void Join()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Join() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Join");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Join", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Join(System.String password)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Join(::StringW password) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Join");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Join", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(password)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, password);
       }
       // public System.Void Invite()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Invite() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Invite");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Kick()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Kick() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Kick");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Kick", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Leave()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Leave() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Leave");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Leave", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Block()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Block() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Block");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Block", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void Unblock()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Unblock() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::Unblock");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Unblock", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void SendJoinResponse(System.Boolean accept)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SendJoinResponse(bool accept) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::SendJoinResponse");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendJoinResponse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(accept)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, accept);
       }
       // public System.Void SendInviteResponse(System.Boolean accept)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SendInviteResponse(bool accept) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::NetworkServer::SendInviteResponse");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendInviteResponse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(accept)})));
@@ -860,14 +860,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private System.Void MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$InitAuthenticationTokenProvider$d__53::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$InitAuthenticationTokenProvider$d__53::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
@@ -973,56 +973,56 @@ namespace GlobalNamespace {
         return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private INetworkPlayer System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::INetworkPlayer*, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::System.Collections.IEnumerator.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // public System.Void .ctor(System.Int32 <>1__state)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename NetworkPlayerModel_1<T>::$GetPartyPlayers$d__54* New_ctor(int $$1__state) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename NetworkPlayerModel_1<T>::$GetPartyPlayers$d__54*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Boolean MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Collections.Generic.IEnumerator`1<INetworkPlayer> System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable$INetworkPlayer$_GetEnumerator() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal__method);
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetPartyPlayers$d__54::System.Collections.IEnumerable.GetEnumerator");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
@@ -1126,63 +1126,63 @@ namespace GlobalNamespace {
         return *reinterpret_cast<typename ::System::Collections::Generic::List_1<typename ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkServer*>::Enumerator*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private INetworkPlayer System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::INetworkPlayer*, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::System.Collections.IEnumerator.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // public System.Void .ctor(System.Int32 <>1__state)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename NetworkPlayerModel_1<T>::$GetOtherPlayers$d__55* New_ctor(int $$1__state) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename NetworkPlayerModel_1<T>::$GetOtherPlayers$d__55*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Boolean MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // private System.Void <>m__Finally1()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $$m__Finally1() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::<>m__Finally1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<>m__Finally1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Collections.Generic.IEnumerator`1<INetworkPlayer> System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable$INetworkPlayer$_GetEnumerator() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal__method);
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$GetOtherPlayers$d__55::System.Collections.IEnumerable.GetEnumerator");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
@@ -1266,21 +1266,21 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::GlobalNamespace::GameplayServerConfiguration*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <Refresh>b__0(System.Collections.Generic.IReadOnlyList`1<PublicServerInfo> servers)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $Refresh$b__0(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>* servers) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$$c__DisplayClass56_0::<Refresh>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Refresh>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(servers)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, servers);
       }
       // System.Void <Refresh>b__1(ConnectionFailedReason reason)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $Refresh$b__1(::GlobalNamespace::ConnectionFailedReason reason) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$$c__DisplayClass56_0::<Refresh>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Refresh>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reason)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reason);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -1324,21 +1324,21 @@ namespace GlobalNamespace {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename NetworkPlayerModel_1<T>::$$c*>::get(), "<>9__68_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename NetworkPlayerModel_1<T>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // System.Int32 <PlayerOrderChanged>b__68_0(NetworkPlayerModel`1/NetworkPlayer<T> a, NetworkPlayerModel`1/NetworkPlayer<T> b)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       int $PlayerOrderChanged$b__68_0(typename ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkPlayer* a, typename ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkPlayer* b) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::$$c::<PlayerOrderChanged>b__68_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<PlayerOrderChanged>b__68_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
         return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, a, b);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -1357,7 +1357,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B3690
+    // [InjectAttribute] Offset: 0x124DB14
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x0
@@ -1608,140 +1608,140 @@ namespace GlobalNamespace {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.String get_secret()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_secret() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::get_secret");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_secret", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public System.String get_code()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_code() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::get_code");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_code", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public System.String get_partyOwnerId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_partyOwnerId() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::get_partyOwnerId");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_partyOwnerId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_publicServers()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_publicServers() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::get_publicServers");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_publicServers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal__method);
     }
     // protected T get_connectionManager()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T get_connectionManager() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::get_connectionManager");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_connectionManager", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void add_partyRefreshingEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_partyRefreshingEvent(::System::Action* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::add_partyRefreshingEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_partyRefreshingEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_partyRefreshingEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_partyRefreshingEvent(::System::Action* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::remove_partyRefreshingEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_partyRefreshingEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // protected IConnectionInitParams`1<T> GetConnectToServerParams(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IConnectionInitParams_1<T>* GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::GetConnectToServerParams");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetConnectToServerParams", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(selectionMask), ::il2cpp_utils::ExtractType(configuration), ::il2cpp_utils::ExtractType(secret), ::il2cpp_utils::ExtractType(code)})));
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::IConnectionInitParams_1<T>*, false>(this, ___internal__method, selectionMask, configuration, secret, code);
     }
     // protected IConnectionInitParams`1<T> GetStartClientParams(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IConnectionInitParams_1<T>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::GetStartClientParams");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetStartClientParams", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(selectionMask), ::il2cpp_utils::ExtractType(configuration)})));
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::IConnectionInitParams_1<T>*, false>(this, ___internal__method, selectionMask, configuration);
     }
     // protected System.Void RefreshPublicServers(BeatmapLevelSelectionMask localSelectionMask, GameplayServerConfiguration localConfiguration, System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::RefreshPublicServers");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RefreshPublicServers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(localSelectionMask), ::il2cpp_utils::ExtractType(localConfiguration), ::il2cpp_utils::ExtractType(onSuccess), ::il2cpp_utils::ExtractType(onFailure)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, localSelectionMask, localConfiguration, onSuccess, onFailure);
     }
     // private System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> InitAuthenticationTokenProvider()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* InitAuthenticationTokenProvider() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::InitAuthenticationTokenProvider");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InitAuthenticationTokenProvider", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*, false>(this, ___internal__method);
     }
     // private System.Void Refresh()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Refresh() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::Refresh");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Refresh", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void HandlePlayersChanged()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandlePlayersChanged() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::HandlePlayersChanged");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandlePlayersChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void HandleInviteRequested(INetworkPlayer player)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleInviteRequested(::GlobalNamespace::INetworkPlayer* player) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::HandleInviteRequested");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleInviteRequested", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player);
     }
     // private System.Void HandleJoinRequested(INetworkPlayer player)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleJoinRequested(::GlobalNamespace::INetworkPlayer* player) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::HandleJoinRequested");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleJoinRequested", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player);
     }
     // private System.Void HandlePartyChanged(INetworkPlayerModel playerModel)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::HandlePartyChanged");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandlePartyChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playerModel)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, playerModel);
     }
     // public System.Void ResetMasterServerReachability()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ResetMasterServerReachability() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::ResetMasterServerReachability");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResetMasterServerReachability", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private NetworkPlayerModel`1/NetworkPlayer<T> GetPlayer(System.String userId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     typename ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkPlayer* GetPlayer(::StringW userId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::GetPlayer");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetPlayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(userId)})));
       return ::il2cpp_utils::RunMethodRethrow<typename ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkPlayer*, false>(this, ___internal__method, userId);
     }
     // private NetworkPlayerModel`1/NetworkServer<T> GetServer(System.String code)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     typename ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkServer* GetServer(::StringW code) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerModel_1::GetServer");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetServer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(code)})));
       return ::il2cpp_utils::RunMethodRethrow<typename ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkServer*, false>(this, ___internal__method, code);
     }
     // public override System.Boolean get_localPlayerIsPartyOwner()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Boolean BaseNetworkPlayerModel::get_localPlayerIsPartyOwner()
     bool get_localPlayerIsPartyOwner() {
@@ -1750,7 +1750,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // public override System.Boolean get_hasNetworkingFailed()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Boolean BaseNetworkPlayerModel::get_hasNetworkingFailed()
     bool get_hasNetworkingFailed() {
@@ -1759,7 +1759,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // public override System.Int32 get_currentPartySize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Int32 BaseNetworkPlayerModel::get_currentPartySize()
     int get_currentPartySize() {
@@ -1768,7 +1768,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public override System.Void add_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void add_partySizeChangedEvent(::System::Action_1<int>* value) {
@@ -1777,7 +1777,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public override System.Void remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void remove_partySizeChangedEvent(::System::Action_1<int>* value) {
@@ -1786,7 +1786,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public override System.Void add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void add_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value) {
@@ -1795,7 +1795,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public override System.Void remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void remove_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value) {
@@ -1804,7 +1804,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public override System.Void add_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
     void add_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
@@ -1813,7 +1813,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public override System.Void remove_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
     void remove_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
@@ -1822,7 +1822,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public override System.Void add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void add_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
@@ -1831,7 +1831,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public override System.Void remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void remove_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
@@ -1840,7 +1840,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
     // Base method: System.Void StandaloneMonobehavior::.ctor()
@@ -1855,7 +1855,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerModel_1<T>*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::Start()
     void Start() {
@@ -1864,7 +1864,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected override System.Void Update()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::Update()
     void Update() {
@@ -1873,7 +1873,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public override System.Boolean CreatePartyConnection(INetworkPlayerModelPartyConfig`1<T2> config)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Boolean BaseNetworkPlayerModel::CreatePartyConnection(INetworkPlayerModelPartyConfig`1<T2> config)
     template<class T2>
@@ -1885,7 +1885,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, config);
     }
     // protected override System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetPartyPlayers()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> BaseNetworkPlayerModel::GetPartyPlayers()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetPartyPlayers() {
@@ -1894,7 +1894,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal__method);
     }
     // protected override System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetOtherPlayers()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> BaseNetworkPlayerModel::GetOtherPlayers()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetOtherPlayers() {
@@ -1903,7 +1903,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal__method);
     }
     // protected override System.Void Connected()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::Connected()
     void Connected() {
@@ -1912,7 +1912,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected override System.Void Disconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::Disconnected(DisconnectedReason disconnectedReason)
     void Disconnected(::GlobalNamespace::DisconnectedReason disconnectedReason) {
@@ -1921,7 +1921,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, disconnectedReason);
     }
     // protected override System.Void ConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::ConnectionFailed(ConnectionFailedReason reason)
     void ConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason) {
@@ -1930,7 +1930,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reason);
     }
     // protected override System.Void PlayerConnected(IConnectedPlayer player)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerConnected(IConnectedPlayer player)
     void PlayerConnected(::GlobalNamespace::IConnectedPlayer* player) {
@@ -1939,7 +1939,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player);
     }
     // protected override System.Void PlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerDisconnected(IConnectedPlayer player)
     void PlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player) {
@@ -1948,7 +1948,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player);
     }
     // protected override System.Void PlayerStateChanged(IConnectedPlayer connectedPlayer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerStateChanged(IConnectedPlayer connectedPlayer)
     void PlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer) {
@@ -1957,7 +1957,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, connectedPlayer);
     }
     // protected override System.Void PlayerOrderChanged(IConnectedPlayer connectedPlayer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::PlayerOrderChanged(IConnectedPlayer connectedPlayer)
     void PlayerOrderChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer) {

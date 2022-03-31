@@ -51,10 +51,10 @@ namespace Zenject {
     // Nested type: ::Zenject::InjectUtil::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgList(System.Collections.Generic.IEnumerable`1<System.Object> args)
-    // Offset: 0x1BEB304
+    // Offset: 0x1BD17D4
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgList(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* args);
     // static public Zenject.TypeValuePair CreateTypePair(T param)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::Zenject::TypeValuePair CreateTypePair(T param) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectUtil::CreateTypePair");
@@ -63,7 +63,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::TypeValuePair, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param);
     }
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgListExplicit(T param)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgListExplicit(T param) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectUtil::CreateArgListExplicit");
@@ -72,7 +72,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param);
     }
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgListExplicit(TParam1 param1, TParam2 param2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2>
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectUtil::CreateArgListExplicit");
@@ -81,7 +81,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param1, param2);
     }
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3>
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectUtil::CreateArgListExplicit");
@@ -90,7 +90,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param1, param2, param3);
     }
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4>
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectUtil::CreateArgListExplicit");
@@ -99,7 +99,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param1, param2, param3, param4);
     }
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectUtil::CreateArgListExplicit");
@@ -108,7 +108,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param1, param2, param3, param4, param5);
     }
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgListExplicit(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectUtil::CreateArgListExplicit");
@@ -117,7 +117,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // static public System.Boolean PopValueWithType(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgMap, System.Type injectedFieldType, out System.Object value)
-    // Offset: 0x1BEB434
+    // Offset: 0x1BD1904
     static bool PopValueWithType(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgMap, ::System::Type* injectedFieldType, ByRef<::Il2CppObject*> value);
   }; // Zenject.InjectUtil
   #pragma pack(pop)

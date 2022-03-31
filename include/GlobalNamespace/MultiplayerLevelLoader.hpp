@@ -122,14 +122,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10BFDA4
+    // [InjectAttribute] Offset: 0x125A338
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BFDB4
+    // [InjectAttribute] Offset: 0x125A348
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x18
@@ -220,31 +220,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _stillDownloadingCalled
     bool& dyn__stillDownloadingCalled();
     // public System.Void add_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x1394900
+    // Offset: 0x13F75E0
     void add_stillDownloadingSongEvent(::System::Action* value);
     // public System.Void remove_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x13949A4
+    // Offset: 0x13F7684
     void remove_stillDownloadingSongEvent(::System::Action* value);
     // public System.Void add_countdownFinishedEvent(System.Action`2<ILevelGameplaySetupData,IDifficultyBeatmap> value)
-    // Offset: 0x1394A48
+    // Offset: 0x13F7728
     void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_countdownFinishedEvent(System.Action`2<ILevelGameplaySetupData,IDifficultyBeatmap> value)
-    // Offset: 0x1394AEC
+    // Offset: 0x13F77CC
     void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void LoadLevel(ILevelGameplaySetupData gameplaySetupData, System.Single initialStartTime)
-    // Offset: 0x1394B90
+    // Offset: 0x13F7870
     void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, float initialStartTime);
     // public System.Void SetNewStartTime(System.Single newStartTime)
-    // Offset: 0x1394D3C
+    // Offset: 0x13F7A1C
     void SetNewStartTime(float newStartTime);
     // public System.Void ClearLoading()
-    // Offset: 0x1394D44
+    // Offset: 0x13F7A24
     void ClearLoading();
     // public System.Void Tick()
-    // Offset: 0x1394D84
+    // Offset: 0x13F7A64
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x1395080
+    // Offset: 0x13F7D60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

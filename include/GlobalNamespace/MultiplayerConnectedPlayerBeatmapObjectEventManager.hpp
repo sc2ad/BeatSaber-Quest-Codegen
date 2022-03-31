@@ -106,7 +106,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly LiteNetLib.Utils.INetSerializable beatmapObjectEventData
       ::LiteNetLib::Utils::INetSerializable*& dyn_beatmapObjectEventData();
       // public System.Void .ctor(System.Single time, LiteNetLib.Utils.INetSerializable beatmapObjectEventData)
-      // Offset: 0x144961C
+      // Offset: 0x13D1680
       // ABORTED: conflicts with another method.  TimestampedBeatmapObjectEventData(float time, ::LiteNetLib::Utils::INetSerializable* beatmapObjectEventData);
     }; // MultiplayerConnectedPlayerBeatmapObjectEventManager/TimestampedBeatmapObjectEventData
     #pragma pack(pop)
@@ -121,21 +121,21 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B920C
+    // [InjectAttribute] Offset: 0x1253780
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B921C
+    // [InjectAttribute] Offset: 0x1253790
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B922C
+    // [InjectAttribute] Offset: 0x12537A0
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeController
     // Size: 0x8
     // Offset: 0x28
@@ -212,52 +212,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _paused
     bool& dyn__paused();
     // public System.Void add_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
-    // Offset: 0x14485AC
+    // Offset: 0x13D0610
     void add_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
-    // Offset: 0x1448650
+    // Offset: 0x13D06B4
     void remove_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
-    // Offset: 0x14486F4
+    // Offset: 0x13D0758
     void add_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
-    // Offset: 0x1448798
+    // Offset: 0x13D07FC
     void remove_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerSliderWasSpawnedEvent(System.Action`1<SliderSpawnInfoNetSerializable> value)
-    // Offset: 0x144883C
+    // Offset: 0x13D08A0
     void add_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerSliderWasSpawnedEvent(System.Action`1<SliderSpawnInfoNetSerializable> value)
-    // Offset: 0x14488E0
+    // Offset: 0x13D0944
     void remove_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0x1448984
+    // Offset: 0x13D09E8
     void add_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0x1448A28
+    // Offset: 0x13D0A8C
     void remove_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0x1448ACC
+    // Offset: 0x13D0B30
     void add_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0x1448B70
+    // Offset: 0x13D0BD4
     void remove_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // protected System.Void Start()
-    // Offset: 0x1448C14
+    // Offset: 0x13D0C78
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1448F98
+    // Offset: 0x13D0FFC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x144932C
+    // Offset: 0x13D1390
     void Update();
     // public System.Void Pause()
-    // Offset: 0x1449598
+    // Offset: 0x13D15FC
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x14495A4
+    // Offset: 0x13D1608
     void Resume();
     // private System.Void HandleBeatmapObjectEventData(System.String userId, System.Single syncTime, System.Single songTime, T beatmapObjectEventData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void HandleBeatmapObjectEventData(::StringW userId, float syncTime, float songTime, T beatmapObjectEventData) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
@@ -267,10 +267,10 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, userId, syncTime, songTime, beatmapObjectEventData);
     }
     // private System.Void InvokeCallback(LiteNetLib.Utils.INetSerializable noteEventData)
-    // Offset: 0x14493E4
+    // Offset: 0x13D1448
     void InvokeCallback(::LiteNetLib::Utils::INetSerializable* noteEventData);
     // public System.Void .ctor()
-    // Offset: 0x14495AC
+    // Offset: 0x13D1610
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

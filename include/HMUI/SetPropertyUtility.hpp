@@ -39,10 +39,10 @@ namespace HMUI {
   class SetPropertyUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0x1696ECC
+    // Offset: 0x168DDAC
     static bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
     // static public System.Boolean SetStruct(ref T currentValue, T newValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool SetStruct(ByRef<T> currentValue, T newValue) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);
@@ -52,7 +52,7 @@ namespace HMUI {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(currentValue), newValue);
     }
     // static public System.Boolean SetClass(ref T currentValue, T newValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool SetClass(ByRef<T> currentValue, T newValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SetPropertyUtility::SetClass");

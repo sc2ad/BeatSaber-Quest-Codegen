@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B1564
+    // [InjectAttribute] Offset: 0x124B9E8
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
     // Offset: 0x28
@@ -124,25 +124,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isDataValid
     bool& dyn__isDataValid();
     // private System.Threading.Tasks.Task`1<System.Boolean> DataIsValidAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x137DBD8
+    // Offset: 0x133645C
     ::System::Threading::Tasks::Task_1<bool>* DataIsValidAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Void OpenProductStore(System.UInt32 appId)
-    // Offset: 0x137DF2C
+    // Offset: 0x13367B0
     void OpenProductStore(uint appId);
     // private System.Void OpenBundleUrl(System.UInt32 bundleId)
-    // Offset: 0x137DF34
+    // Offset: 0x13367B8
     void OpenBundleUrl(uint bundleId);
     // private System.Threading.Tasks.Task`1<AdditionalContentModel/UpdateEntitlementsResult> CheckForNewEntitlementsAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x137DFA8
+    // Offset: 0x133682C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>* CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Boolean HasLevelEntitlement(System.String levelId)
-    // Offset: 0x137E0A8
+    // Offset: 0x133692C
     bool HasLevelEntitlement(::StringW levelId);
     // private System.Boolean HasLevelPackEntitlement(System.String levelPackId)
-    // Offset: 0x137E138
+    // Offset: 0x13369BC
     bool HasLevelPackEntitlement(::StringW levelPackId);
     // public System.Void .ctor()
-    // Offset: 0x137E210
+    // Offset: 0x1336A94
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -156,32 +156,32 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamPlatformAdditionalContentModel*, creationType>()));
     }
     // protected override System.Void InvalidateDataInternal()
-    // Offset: 0x137D9A8
+    // Offset: 0x133622C
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::InvalidateDataInternal()
     void InvalidateDataInternal();
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x137D9B0
+    // Offset: 0x1336234
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken cancellationToken)
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusInternalAsync(System.String packId, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x137DAC4
+    // Offset: 0x1336348
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetPackEntitlementStatusInternalAsync(System.String packId, System.Threading.CancellationToken cancellationToken)
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x137DCE4
+    // Offset: 0x1336568
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x137DE08
+    // Offset: 0x133668C
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x137DF3C
+    // Offset: 0x13367C0
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> AdditionalContentModel::IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);

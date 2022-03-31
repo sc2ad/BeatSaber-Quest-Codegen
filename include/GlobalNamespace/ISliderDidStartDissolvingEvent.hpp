@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class ISliderDidStartDissolvingEvent {
     public:
     // public System.Void HandleSliderDidStartDissolving(SliderController sliderController, System.Single duration)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float duration);
   }; // ISliderDidStartDissolvingEvent
   #pragma pack(pop)

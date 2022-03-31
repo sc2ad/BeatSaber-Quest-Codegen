@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::DirectionalLight*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10B97C8
+    // [InjectAttribute] Offset: 0x1253D3C
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -105,31 +105,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.ColorTween _tween
     ::Tweening::ColorTween*& dyn__tween();
     // protected System.Void Awake()
-    // Offset: 0x14D254C
+    // Offset: 0x14916D0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14D2670
+    // Offset: 0x14917F4
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
-    // Offset: 0x14D2708
+    // Offset: 0x149188C
     void AnimateToColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x14D2818
+    // Offset: 0x149199C
     void SetColor(::UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x14D287C
+    // Offset: 0x1491A00
     void SetLightsColor(::UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x14D2984
+    // Offset: 0x1491B08
     void SetLightsWidth(float width);
     // public System.Void DisableDirectionalLights(System.Single delay)
-    // Offset: 0x14D2A00
+    // Offset: 0x1491B84
     void DisableDirectionalLights(float delay);
     // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
-    // Offset: 0x14D2A40
+    // Offset: 0x1491BC4
     ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x14D2AEC
+    // Offset: 0x1491C70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

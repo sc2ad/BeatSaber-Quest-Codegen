@@ -71,32 +71,32 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1C36758
+    // Offset: 0x1C1CC28
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.FacetsChecker Datatype_anySimpleType::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C367C0
+    // Offset: 0x1C1CC90
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_anySimpleType::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Type get_ValueType()
-    // Offset: 0x1C367C8
+    // Offset: 0x1C1CC98
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1C36830
+    // Offset: 0x1C1CD00
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ListValueType()
     ::System::Type* get_ListValueType();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1C36898
+    // Offset: 0x1C1CD68
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_anySimpleType::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // public System.Void .ctor()
-    // Offset: 0x1C36A90
+    // Offset: 0x1C1CF60
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
@@ -108,23 +108,23 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_decimal*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C36AF4
+    // Offset: 0x1C1CFC4
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1C3674C
+    // Offset: 0x1C1CC1C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlValueConverter Datatype_anySimpleType::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1C368A0
+    // Offset: 0x1C1CD70
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Int32 Datatype_anySimpleType::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1C36944
+    // Offset: 0x1C1CE14
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Exception Datatype_anySimpleType::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

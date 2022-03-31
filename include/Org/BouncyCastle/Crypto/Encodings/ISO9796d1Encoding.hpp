@@ -116,32 +116,32 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger modulus
     ::Org::BouncyCastle::Math::BigInteger*& dyn_modulus();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x1E36C0C
+    // Offset: 0x1E1B0DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9796d1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9796d1Encoding*, creationType>(cipher)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E377DC
+    // Offset: 0x1E1BCAC
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E36C3C
+    // Offset: 0x1E1B10C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1E36DEC
+    // Offset: 0x1E1B2BC
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1E36EC0
+    // Offset: 0x1E1B390
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1E36F94
+    // Offset: 0x1E1B464
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Byte[] EncodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1E36FA4
+    // Offset: 0x1E1B474
     ::ArrayW<uint8_t> EncodeBlock(::ArrayW<uint8_t> input, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1E37308
+    // Offset: 0x1E1B7D8
     ::ArrayW<uint8_t> DecodeBlock(::ArrayW<uint8_t> input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Encodings.ISO9796d1Encoding
   #pragma pack(pop)

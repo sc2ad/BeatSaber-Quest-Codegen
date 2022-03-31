@@ -39,13 +39,13 @@ namespace GlobalNamespace {
   class INoteMirrorable {
     public:
     // public UnityEngine.Transform get_noteTransform()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Transform* get_noteTransform();
     // public NoteData get_noteData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteData* get_noteData();
     // public ILazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
   }; // INoteMirrorable
   #pragma pack(pop)

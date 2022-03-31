@@ -81,63 +81,63 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10BEA80
+    // [InjectAttribute] Offset: 0x1259014
     // private readonly HelpMenuViewController _helpMenuViewController
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::HelpMenuViewController* helpMenuViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HelpMenuViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEA90
+    // [InjectAttribute] Offset: 0x1259024
     // private readonly HelpNavigationController _helpNavigationController
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::HelpNavigationController* helpNavigationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HelpNavigationController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEAA0
+    // [InjectAttribute] Offset: 0x1259034
     // private readonly HowToPlayViewController _howToPlayViewController
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::HowToPlayViewController* howToPlayViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HowToPlayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEAB0
+    // [InjectAttribute] Offset: 0x1259044
     // private readonly HealthWarningDisplayViewController _healthWarningDisplayViewController
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::HealthWarningDisplayViewController* healthWarningDisplayViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HealthWarningDisplayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEAC0
+    // [InjectAttribute] Offset: 0x1259054
     // private readonly PrivacyPolicyDisplayViewController _privacyPolicyDisplayViewController
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::PrivacyPolicyDisplayViewController* privacyPolicyDisplayViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrivacyPolicyDisplayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEAD0
+    // [InjectAttribute] Offset: 0x1259064
     // private readonly EulaDisplayViewController _eulaDisplayViewController
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::EulaDisplayViewController* eulaDisplayViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EulaDisplayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEAE0
+    // [InjectAttribute] Offset: 0x1259074
     // private readonly PlayerStatisticsViewController _playerStatisticsViewController
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::PlayerStatisticsViewController* playerStatisticsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerStatisticsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEAF0
+    // [InjectAttribute] Offset: 0x1259084
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BEB00
+    // [InjectAttribute] Offset: 0x1259094
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0xE8
@@ -150,7 +150,7 @@ namespace GlobalNamespace {
     ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x10BEB60
+    // [TupleElementNamesAttribute] Offset: 0x12590F4
     // private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     // Size: 0x8
     // Offset: 0xF8
@@ -158,28 +158,28 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*) == 0x8);
     public:
-    // [LocalizationKeyAttribute] Offset: 0x10BEB10
+    // [LocalizationKeyAttribute] Offset: 0x12590A4
     // static field const value: static private System.String kHowToPlayMenu
     static constexpr const char* kHowToPlayMenu = "LABEL_HOW_TO_PLAY";
     // Get static field: static private System.String kHowToPlayMenu
     static ::StringW _get_kHowToPlayMenu();
     // Set static field: static private System.String kHowToPlayMenu
     static void _set_kHowToPlayMenu(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x10BEB20
+    // [LocalizationKeyAttribute] Offset: 0x12590B4
     // static field const value: static private System.String kPrivacyPolicyMenu
     static constexpr const char* kPrivacyPolicyMenu = "PRIVACY_POLICY_MENU";
     // Get static field: static private System.String kPrivacyPolicyMenu
     static ::StringW _get_kPrivacyPolicyMenu();
     // Set static field: static private System.String kPrivacyPolicyMenu
     static void _set_kPrivacyPolicyMenu(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x10BEB30
+    // [LocalizationKeyAttribute] Offset: 0x12590C4
     // static field const value: static private System.String kEulaMenu
     static constexpr const char* kEulaMenu = "EULA_MENU";
     // Get static field: static private System.String kEulaMenu
     static ::StringW _get_kEulaMenu();
     // Set static field: static private System.String kEulaMenu
     static void _set_kEulaMenu(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x10BEB40
+    // [LocalizationKeyAttribute] Offset: 0x12590D4
     // static field const value: static private System.String kHealthWarningMenu
     static constexpr const char* kHealthWarningMenu = "HEALTH_AND_SAFETY_MENU";
     // Get static field: static private System.String kHealthWarningMenu
@@ -209,22 +209,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*& dyn__viewControllers();
     // public System.Void add_didFinishEvent(System.Action`1<HelpFlowCoordinator> value)
-    // Offset: 0x1328A94
+    // Offset: 0x13B1B7C
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HelpFlowCoordinator> value)
-    // Offset: 0x1328B38
+    // Offset: 0x13B1C20
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value);
     // private System.Void HandleDidSelectHelpSubMenu(System.Int32 idx)
-    // Offset: 0x1329240
+    // Offset: 0x13B2328
     void HandleDidSelectHelpSubMenu(int idx);
     // private System.Void ReplaceViewController(HMUI.ViewController viewController)
-    // Offset: 0x13292BC
+    // Offset: 0x13B23A4
     void ReplaceViewController(::HMUI::ViewController* viewController);
     // private System.Void HandleHowToPlayViewControllerDidFinish(HowToPlayViewController/HowToPlayOptions howToPlayOptions)
-    // Offset: 0x13293CC
+    // Offset: 0x13B24B4
     void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::HowToPlayViewController::HowToPlayOptions howToPlayOptions);
     // public System.Void .ctor()
-    // Offset: 0x13294BC
+    // Offset: 0x13B25A4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -238,17 +238,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HelpFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1328BDC
+    // Offset: 0x13B1CC4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1329008
+    // Offset: 0x13B20F0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x1329458
+    // Offset: 0x13B2540
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(::HMUI::ViewController* topViewController);

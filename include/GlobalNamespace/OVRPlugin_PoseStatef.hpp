@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Double Time
     double& dyn_Time();
     // static private System.Void .cctor()
-    // Offset: 0x1AFFCA0
+    // Offset: 0x1AE32D8
     static void _cctor();
   }; // OVRPlugin/PoseStatef
   #pragma pack(pop)

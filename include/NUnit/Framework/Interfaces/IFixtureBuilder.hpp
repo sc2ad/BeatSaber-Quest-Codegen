@@ -40,7 +40,7 @@ namespace NUnit::Framework::Interfaces {
   class IFixtureBuilder {
     public:
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.Interfaces.IFixtureBuilder
   #pragma pack(pop)

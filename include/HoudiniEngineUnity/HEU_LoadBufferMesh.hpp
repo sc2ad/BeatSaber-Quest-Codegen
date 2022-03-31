@@ -110,7 +110,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _bPartInstanced
     bool& dyn__bPartInstanced();
     // public System.Void .ctor()
-    // Offset: 0x18641E4
+    // Offset: 0x185B0D8
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     // Base method: System.Void Object::.ctor()

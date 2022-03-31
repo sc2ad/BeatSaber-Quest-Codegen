@@ -146,64 +146,64 @@ namespace Tweening {
     // Get instance field reference: protected EaseType _easeType
     ::GlobalNamespace::EaseType& dyn__easeType();
     // public System.Boolean get_isStarted()
-    // Offset: 0x138E328
+    // Offset: 0x2AB40C4
     bool get_isStarted();
     // public System.Boolean get_isActive()
-    // Offset: 0x138E330
+    // Offset: 0x2AB40CC
     bool get_isActive();
     // public System.Boolean get_isComplete()
-    // Offset: 0x138E354
+    // Offset: 0x2AB40FC
     bool get_isComplete();
     // public System.Boolean get_isKilled()
-    // Offset: 0x138E368
+    // Offset: 0x2AB4110
     bool get_isKilled();
     // public System.Single get_progress()
-    // Offset: 0x138E370
+    // Offset: 0x2AB4118
     float get_progress();
     // public System.Single get_startTime()
-    // Offset: 0x138E378
+    // Offset: 0x2AB4120
     float get_startTime();
     // public System.Single get_duration()
-    // Offset: 0x138E380
+    // Offset: 0x2AB4128
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x138E388
+    // Offset: 0x2AB4130
     void set_duration(float value);
     // public System.Boolean get_loop()
-    // Offset: 0x138E390
+    // Offset: 0x2AB4138
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x138E398
+    // Offset: 0x2AB4140
     void set_loop(bool value);
     // public System.Single get_delay()
-    // Offset: 0x138E3A4
+    // Offset: 0x2AB414C
     float get_delay();
     // public System.Void set_delay(System.Single value)
-    // Offset: 0x138E3AC
+    // Offset: 0x2AB4154
     void set_delay(float value);
     // public EaseType get_easeType()
-    // Offset: 0x138E3B4
+    // Offset: 0x2AB415C
     ::GlobalNamespace::EaseType get_easeType();
     // public System.Void set_easeType(EaseType value)
-    // Offset: 0x138E3BC
+    // Offset: 0x2AB4164
     void set_easeType(::GlobalNamespace::EaseType value);
     // public System.Void Kill()
-    // Offset: 0x138E3C4
+    // Offset: 0x2AB416C
     void Kill();
     // public System.Void Restart(System.Single startTime)
-    // Offset: 0x138E3D0
+    // Offset: 0x2AB4178
     void Restart(float startTime);
     // public System.Void Resume()
-    // Offset: 0x138E3DC
+    // Offset: 0x2AB4184
     void Resume();
     // public System.Void SetStartTimeAndEndTime(System.Single startTime, System.Single endTime)
-    // Offset: 0x138E3E4
+    // Offset: 0x2AB418C
     void SetStartTimeAndEndTime(float startTime, float endTime);
     // public System.Void Update(System.Single currentTime)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Update(float currentTime);
     // protected System.Void .ctor()
-    // Offset: 0x138E3F0
+    // Offset: 0x2AB4198
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

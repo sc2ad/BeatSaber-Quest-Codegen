@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9B50
+    // [InjectAttribute] Offset: 0x12540C4
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9B60
+    // [InjectAttribute] Offset: 0x12540D4
     // private readonly PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* beatmapLoudnessModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9B70
+    // [InjectAttribute] Offset: 0x12540E4
     // private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     // Size: 0x8
     // Offset: 0x38
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& dyn__relativeSfxVolumePerLevelModel();
     // public System.Void .ctor()
-    // Offset: 0x13A1DD4
+    // Offset: 0x13990D8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13A1828
+    // Offset: 0x1398B2C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

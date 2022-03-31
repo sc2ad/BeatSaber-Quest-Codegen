@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class ECMultiplier {
     public:
     // public Org.BouncyCastle.Math.EC.ECPoint Multiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier
   #pragma pack(pop)

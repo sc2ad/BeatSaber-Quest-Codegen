@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean noBombs
     bool& dyn_noBombs();
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x137AF20
+    // Offset: 0x136CA1C
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // public System.Void .ctor()
-    // Offset: 0x137AE14
+    // Offset: 0x136C910
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

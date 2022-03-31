@@ -23,25 +23,25 @@ namespace System::Xml {
   class IDtdAttributeInfo {
     public:
     // public System.String get_Prefix()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Prefix();
     // public System.String get_LocalName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_LocalName();
     // public System.Int32 get_LineNumber()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_LineNumber();
     // public System.Int32 get_LinePosition()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_LinePosition();
     // public System.Boolean get_IsNonCDataType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsNonCDataType();
     // public System.Boolean get_IsDeclaredInExternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsDeclaredInExternal();
     // public System.Boolean get_IsXmlAttribute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsXmlAttribute();
   }; // System.Xml.IDtdAttributeInfo
   #pragma pack(pop)

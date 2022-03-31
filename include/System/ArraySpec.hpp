@@ -72,20 +72,20 @@ namespace System {
     // Get instance field reference: private System.Boolean bound
     bool& dyn_bound();
     // System.Void .ctor(System.Int32 dimensions, System.Boolean bound)
-    // Offset: 0x1E87AE4
+    // Offset: 0x1E6AFB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArraySpec* New_ctor(int dimensions, bool bound) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ArraySpec::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArraySpec*, creationType>(dimensions, bound)));
     }
     // public System.Type Resolve(System.Type type)
-    // Offset: 0x1E87B24
+    // Offset: 0x1E6AFF4
     ::System::Type* Resolve(::System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
-    // Offset: 0x1E87B98
+    // Offset: 0x1E6B068
     ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
     // public override System.String ToString()
-    // Offset: 0x1E87C4C
+    // Offset: 0x1E6B11C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

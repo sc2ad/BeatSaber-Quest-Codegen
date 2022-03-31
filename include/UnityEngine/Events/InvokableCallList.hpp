@@ -87,22 +87,22 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Boolean m_NeedsUpdate
     bool& dyn_m_NeedsUpdate();
     // public System.Void AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x1F5F308
+    // Offset: 0x1F31624
     void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void AddListener(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x1F5F37C
+    // Offset: 0x1F31698
     void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void RemoveListener(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x1F5F3F0
+    // Offset: 0x1F3170C
     void RemoveListener(::Il2CppObject* targetObj, ::System::Reflection::MethodInfo* method);
     // public System.Void ClearPersistent()
-    // Offset: 0x1F5F568
+    // Offset: 0x1F31884
     void ClearPersistent();
     // public System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> PrepareInvoke()
-    // Offset: 0x1F5F5CC
+    // Offset: 0x1F318E8
     ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
     // public System.Void .ctor()
-    // Offset: 0x1F5F668
+    // Offset: 0x1F31984
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

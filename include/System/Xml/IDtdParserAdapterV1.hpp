@@ -29,13 +29,13 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Xml::IDtdParserAdapterWithValidation*>(this);
     }
     // public System.Boolean get_V1CompatibilityMode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_V1CompatibilityMode();
     // public System.Boolean get_Normalization()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_Normalization();
     // public System.Boolean get_Namespaces()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_Namespaces();
   }; // System.Xml.IDtdParserAdapterV1
   #pragma pack(pop)

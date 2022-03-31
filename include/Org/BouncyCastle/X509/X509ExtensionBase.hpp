@@ -41,13 +41,13 @@ namespace Org::BouncyCastle::X509 {
   class X509ExtensionBase : public ::Il2CppObject {
     public:
     // protected Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x25CAF70
+    // Offset: 0x25AB430
     ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // protected System.Void .ctor()
-    // Offset: 0x25C67B0
+    // Offset: 0x25A6C70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

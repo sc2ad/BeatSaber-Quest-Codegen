@@ -66,10 +66,10 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color bottomRight
     ::UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x21AC388
+    // Offset: 0x218316C
     VertexGradient(::UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x21AC3AC
+    // Offset: 0x2183190
     // ABORTED: conflicts with another method.  VertexGradient(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
   }; // TMPro.VertexGradient
   #pragma pack(pop)

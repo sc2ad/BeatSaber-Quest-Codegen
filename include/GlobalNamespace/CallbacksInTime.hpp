@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatmapEventData* beatmapEventDataForCallbacksAfterNodeRemoval;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapEventData*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x10B4620
+    // [TupleElementNamesAttribute] Offset: 0x124EAA4
     // private readonly System.Collections.Generic.Dictionary`2<System.ValueTuple`2<System.Type,System.Int32>,System.Collections.Generic.List`1<BeatmapDataCallbackWrapper>> _callbacksWithSubtypeIdentifier
     // Size: 0x8
     // Offset: 0x28
@@ -110,26 +110,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<BeatmapDataCallbackWrapper>> _callbacks
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*& dyn__callbacks();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x135F2A4
+    // Offset: 0x1350F40
     bool get_isEmpty();
     // public System.Void .ctor(System.Single aheadTime)
-    // Offset: 0x135F32C
+    // Offset: 0x1350FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbacksInTime* New_ctor(float aheadTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CallbacksInTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbacksInTime*, creationType>(aheadTime)));
     }
     // public System.Void AddCallback(BeatmapDataCallbackWrapper callbackWrapper)
-    // Offset: 0x135F3D8
+    // Offset: 0x1351074
     void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
     // public System.Void RemoveCallback(BeatmapDataCallbackWrapper callbackWrapper)
-    // Offset: 0x135F624
+    // Offset: 0x13512C0
     void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
     // public System.Void CallCallbacks(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x135F7E0
+    // Offset: 0x135147C
     void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // private System.Void CallCallbacks(System.Type beatmapEventDataType, BeatmapDataItem beatmapDataItem)
-    // Offset: 0x135F8C4
+    // Offset: 0x1351560
     void CallCallbacks(::System::Type* beatmapEventDataType, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // CallbacksInTime
   #pragma pack(pop)

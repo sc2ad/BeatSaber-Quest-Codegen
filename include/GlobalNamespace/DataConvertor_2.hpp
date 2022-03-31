@@ -74,21 +74,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public T ProcessItem(System.Object item, TParam param)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T ProcessItem(::Il2CppObject* item, TParam param) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataConvertor_2::ProcessItem");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(param)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, item, param);
     }
     // public System.Void AddConvertor(DataItemConvertor`2<T,TParam> dataItemConvertor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddConvertor(::GlobalNamespace::DataItemConvertor_2<T, TParam>* dataItemConvertor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataConvertor_2::AddConvertor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddConvertor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dataItemConvertor)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, dataItemConvertor);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

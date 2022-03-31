@@ -71,10 +71,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14B1F88
+    // Offset: 0x1486DE0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14B2368
+    // Offset: 0x14871C0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelPackDetailViewController/<RefreshAvailabilityAsync>d__19
   // WARNING Not writing size check since size may be invalid!

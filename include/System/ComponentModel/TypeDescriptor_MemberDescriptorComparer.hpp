@@ -34,13 +34,13 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.TypeDescriptor/System.ComponentModel.MemberDescriptorComparer Instance
     static void _set_Instance(::System::ComponentModel::TypeDescriptor::MemberDescriptorComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CBFCD0
+    // Offset: 0x1CA41A0
     static void _cctor();
     // public System.Int32 Compare(System.Object left, System.Object right)
-    // Offset: 0x1CBFB50
+    // Offset: 0x1CA4020
     int Compare(::Il2CppObject* left, ::Il2CppObject* right);
     // public System.Void .ctor()
-    // Offset: 0x1CBFCC8
+    // Offset: 0x1CA4198
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

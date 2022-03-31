@@ -91,10 +91,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Int32 priority
     int& dyn_priority();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> <LoadSceneWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x18935B4
+    // Offset: 0x188B4A8
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> $LoadSceneWithChain$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x18919AC
+    // Offset: 0x18898A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

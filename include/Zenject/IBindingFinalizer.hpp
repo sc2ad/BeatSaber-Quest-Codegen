@@ -31,10 +31,10 @@ namespace Zenject {
   class IBindingFinalizer {
     public:
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void FinalizeBinding(::Zenject::DiContainer* container);
   }; // Zenject.IBindingFinalizer
   #pragma pack(pop)

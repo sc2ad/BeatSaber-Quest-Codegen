@@ -152,7 +152,7 @@ namespace HMUI {
     ::TMPro::TextMeshProUGUI* textView;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [NullAllowed] Offset: 0x10A1A90
+    // [NullAllowed] Offset: 0x123BA4C
     // private UnityEngine.CanvasGroup _textViewCanvasGroup
     // Size: 0x8
     // Offset: 0x100
@@ -177,7 +177,7 @@ namespace HMUI {
     ::UnityEngine::UI::Button* clearSearchButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10A1AF8
+    // [HeaderAttribute] Offset: 0x123BAB4
     // private System.Boolean _useGlobalKeyboard
     // Size: 0x1
     // Offset: 0x120
@@ -192,7 +192,7 @@ namespace HMUI {
     ::UnityEngine::Vector3 keyboardPositionOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x10A1B54
+    // [HeaderAttribute] Offset: 0x123BB10
     // private System.Boolean _useUppercase
     // Size: 0x1
     // Offset: 0x130
@@ -303,67 +303,67 @@ namespace HMUI {
     // Get instance field reference: private readonly UnityEngine.YieldInstruction _blinkWaitYieldInstruction
     ::UnityEngine::YieldInstruction*& dyn__blinkWaitYieldInstruction();
     // public HMUI.InputFieldView/HMUI.SelectionState get_selectionState()
-    // Offset: 0x168A6F4
+    // Offset: 0x16815D4
     ::HMUI::InputFieldView::SelectionState get_selectionState();
     // public UnityEngine.Vector3 get_keyboardPositionOffset()
-    // Offset: 0x168A6FC
+    // Offset: 0x16815DC
     ::UnityEngine::Vector3 get_keyboardPositionOffset();
     // public HMUI.InputFieldView/HMUI.InputFieldChanged get_onValueChanged()
-    // Offset: 0x168A85C
+    // Offset: 0x168173C
     ::HMUI::InputFieldView::InputFieldChanged* get_onValueChanged();
     // public System.Void set_onValueChanged(HMUI.InputFieldView/HMUI.InputFieldChanged value)
-    // Offset: 0x168A864
+    // Offset: 0x1681744
     void set_onValueChanged(::HMUI::InputFieldView::InputFieldChanged* value);
     // public System.Boolean get_useGlobalKeyboard()
-    // Offset: 0x168A86C
+    // Offset: 0x168174C
     bool get_useGlobalKeyboard();
     // public System.String get_text()
-    // Offset: 0x168A874
+    // Offset: 0x1681754
     ::StringW get_text();
     // private System.Void set_text(System.String value)
-    // Offset: 0x168A87C
+    // Offset: 0x168175C
     void set_text(::StringW value);
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> value)
-    // Offset: 0x168A70C
+    // Offset: 0x16815EC
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> value)
-    // Offset: 0x168A7B4
+    // Offset: 0x1681694
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView::SelectionState>* value);
     // public System.Void ActivateKeyboard(HMUI.UIKeyboard keyboard)
-    // Offset: 0x168ABAC
+    // Offset: 0x1681A8C
     void ActivateKeyboard(::HMUI::UIKeyboard* keyboard);
     // public System.Void DeactivateKeyboard(HMUI.UIKeyboard keyboard)
-    // Offset: 0x168ADC8
+    // Offset: 0x1681CA8
     void DeactivateKeyboard(::HMUI::UIKeyboard* keyboard);
     // public System.Void SetText(System.String value)
-    // Offset: 0x168AF88
+    // Offset: 0x1681E68
     void SetText(::StringW value);
     // public System.Void ClearInput()
-    // Offset: 0x168AFAC
+    // Offset: 0x1681E8C
     void ClearInput();
     // private System.Void KeyboardKeyPressed(System.Char letter)
-    // Offset: 0x168B004
+    // Offset: 0x1681EE4
     void KeyboardKeyPressed(::Il2CppChar letter);
     // private System.Void KeyboardDeletePressed()
-    // Offset: 0x168B130
+    // Offset: 0x1682010
     void KeyboardDeletePressed();
     // private System.Collections.IEnumerator BlinkingCaretCoroutine()
-    // Offset: 0x168AD58
+    // Offset: 0x1681C38
     ::System::Collections::IEnumerator* BlinkingCaretCoroutine();
     // private System.Void UpdateCaretPosition()
-    // Offset: 0x168A8D8
+    // Offset: 0x16817B8
     void UpdateCaretPosition();
     // private System.Void UpdatePlaceholder()
-    // Offset: 0x168A9E8
+    // Offset: 0x16818C8
     void UpdatePlaceholder();
     // private System.Void UpdateClearButton()
-    // Offset: 0x168AF48
+    // Offset: 0x1681E28
     void UpdateClearButton();
     // private System.Void <Awake>b__34_0()
-    // Offset: 0x168B388
+    // Offset: 0x1682268
     void $Awake$b__34_0();
     // public System.Void .ctor()
-    // Offset: 0x168B234
+    // Offset: 0x1682114
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -378,17 +378,17 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldView*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x168AA24
+    // Offset: 0x1681904
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x168AAFC
+    // Offset: 0x16819DC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x168AB10
+    // Offset: 0x16819F0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

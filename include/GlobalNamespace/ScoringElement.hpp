@@ -87,55 +87,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isFinished>k__BackingField
     bool& dyn_$isFinished$k__BackingField();
     // public NoteData get_noteData()
-    // Offset: 0x13B10A8
+    // Offset: 0x1426190
     ::GlobalNamespace::NoteData* get_noteData();
     // protected System.Void set_noteData(NoteData value)
-    // Offset: 0x13B10B0
+    // Offset: 0x1426198
     void set_noteData(::GlobalNamespace::NoteData* value);
     // public System.Int32 get_maxPossibleCutScore()
-    // Offset: 0x13AE64C
+    // Offset: 0x1423820
     int get_maxPossibleCutScore();
     // public System.Single get_time()
-    // Offset: 0x13AE578
+    // Offset: 0x142374C
     float get_time();
     // public System.Int32 get_multiplier()
-    // Offset: 0x13B10B8
+    // Offset: 0x14261A0
     int get_multiplier();
     // private System.Void set_multiplier(System.Int32 value)
-    // Offset: 0x13B10C0
+    // Offset: 0x14261A8
     void set_multiplier(int value);
     // public System.Int32 get_maxMultiplier()
-    // Offset: 0x13B10C8
+    // Offset: 0x14261B0
     int get_maxMultiplier();
     // private System.Void set_maxMultiplier(System.Int32 value)
-    // Offset: 0x13B10D0
+    // Offset: 0x14261B8
     void set_maxMultiplier(int value);
     // public System.Int32 get_cutScore()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_cutScore();
+    // public ScoreMultiplierCounter/MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
     // public ScoreMultiplierCounter/MultiplierEventType get_multiplierEventType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_multiplierEventType();
     // public System.Boolean get_isFinished()
-    // Offset: 0x13B10D8
+    // Offset: 0x14261C0
     bool get_isFinished();
     // protected System.Void set_isFinished(System.Boolean value)
-    // Offset: 0x13B10E0
+    // Offset: 0x14261C8
     void set_isFinished(bool value);
     // protected System.Int32 get_executionOrder()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_executionOrder();
     // public System.Int32 CompareTo(ScoringElement other)
-    // Offset: 0x13B10EC
+    // Offset: 0x14261D4
     int CompareTo(::GlobalNamespace::ScoringElement* other);
     // public System.Void SetMultipliers(System.Int32 multiplier, System.Int32 maxMultiplier)
-    // Offset: 0x13AE630
+    // Offset: 0x1423804
     void SetMultipliers(int multiplier, int maxMultiplier);
     // protected System.Void Reinitialize()
-    // Offset: 0x13B1180
+    // Offset: 0x1426268
     void Reinitialize();
     // protected System.Void .ctor()
-    // Offset: 0x13B1184
+    // Offset: 0x142626C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -222,6 +225,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoringElement::*)()>(&GlobalNamespace::ScoringElement::get_cutScore)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoringElement*), "get_cutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType
+// Il2CppName: get_wouldBeCorrectCutBestPossibleMultiplierEventType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType (GlobalNamespace::ScoringElement::*)()>(&GlobalNamespace::ScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoringElement*), "get_wouldBeCorrectCutBestPossibleMultiplierEventType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoringElement::get_multiplierEventType

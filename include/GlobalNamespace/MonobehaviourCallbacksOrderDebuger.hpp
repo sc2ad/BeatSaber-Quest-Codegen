@@ -29,16 +29,16 @@ namespace GlobalNamespace {
   class MonobehaviourCallbacksOrderDebuger : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0x157DED4
+    // Offset: 0x1574BE0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x157DF7C
+    // Offset: 0x1574C88
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x157E024
+    // Offset: 0x1574D30
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x157E0CC
+    // Offset: 0x1574DD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

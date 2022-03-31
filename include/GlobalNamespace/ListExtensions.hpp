@@ -49,16 +49,16 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ListExtensions : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C4C70
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125F204
     // Get static field: static private readonly System.Random _random
     static ::System::Random* _get__random();
     // Set static field: static private readonly System.Random _random
     static void _set__random(::System::Random* value);
     // static private System.Void .cctor()
-    // Offset: 0x14D2E20
+    // Offset: 0x1491FA4
     static void _cctor();
     // static public System.Int32 IndexOf(System.Collections.Generic.IReadOnlyList`1<T> self, T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static int IndexOf(::System::Collections::Generic::IReadOnlyList_1<T>* self, T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ListExtensions::IndexOf");
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self, item);
     }
     // static public System.Void ShuffleInPlace(System.Collections.Generic.IList`1<T> list)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void ShuffleInPlace(::System::Collections::Generic::IList_1<T>* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ListExtensions::ShuffleInPlace");
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list);
     }
     // static public System.Void InsertIntoSortedListFromEnd(System.Collections.Generic.List`1<T> sortedList, T newItem)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void InsertIntoSortedListFromEnd(::System::Collections::Generic::List_1<T>* sortedList, T newItem) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IComparable_1<T>>);

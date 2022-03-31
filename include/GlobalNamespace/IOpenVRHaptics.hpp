@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class IOpenVRHaptics {
     public:
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void Destroy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Destroy();
   }; // IOpenVRHaptics
   #pragma pack(pop)

@@ -62,10 +62,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> previousTransformValues
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& dyn_previousTransformValues();
     // System.Void <BakeToExistingPrefab>b__0(UnityEngine.Transform trans)
-    // Offset: 0x1855DD0
+    // Offset: 0x184CCC4
     void $BakeToExistingPrefab$b__0(::UnityEngine::Transform* trans);
     // public System.Void .ctor()
-    // Offset: 0x1855DC8
+    // Offset: 0x184CCBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

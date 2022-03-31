@@ -419,123 +419,123 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean <AssertOnNewGameObjects>k__BackingField
     bool& dyn_$AssertOnNewGameObjects$k__BackingField();
     // public Zenject.ZenjectSettings get_Settings()
-    // Offset: 0x17461B4
+    // Offset: 0x173E0A4
     ::Zenject::ZenjectSettings* get_Settings();
     // public System.Void set_Settings(Zenject.ZenjectSettings value)
-    // Offset: 0x17461BC
+    // Offset: 0x173E0AC
     void set_Settings(::Zenject::ZenjectSettings* value);
     // Zenject.Internal.SingletonMarkRegistry get_SingletonMarkRegistry()
-    // Offset: 0x1746238
+    // Offset: 0x173E128
     ::Zenject::Internal::SingletonMarkRegistry* get_SingletonMarkRegistry();
     // public System.Collections.Generic.IEnumerable`1<Zenject.IProvider> get_AllProviders()
-    // Offset: 0x1746240
+    // Offset: 0x173E130
     ::System::Collections::Generic::IEnumerable_1<::Zenject::IProvider*>* get_AllProviders();
     // private UnityEngine.Transform get_ContextTransform()
-    // Offset: 0x1746784
+    // Offset: 0x173E674
     ::UnityEngine::Transform* get_ContextTransform();
     // public System.Boolean get_AssertOnNewGameObjects()
-    // Offset: 0x1746840
+    // Offset: 0x173E730
     bool get_AssertOnNewGameObjects();
     // public System.Void set_AssertOnNewGameObjects(System.Boolean value)
-    // Offset: 0x1746848
+    // Offset: 0x173E738
     void set_AssertOnNewGameObjects(bool value);
     // public UnityEngine.Transform get_InheritedDefaultParent()
-    // Offset: 0x1746854
+    // Offset: 0x173E744
     ::UnityEngine::Transform* get_InheritedDefaultParent();
     // public UnityEngine.Transform get_DefaultParent()
-    // Offset: 0x174685C
+    // Offset: 0x173E74C
     ::UnityEngine::Transform* get_DefaultParent();
     // public System.Void set_DefaultParent(UnityEngine.Transform value)
-    // Offset: 0x1744ACC
+    // Offset: 0x173C9BC
     void set_DefaultParent(::UnityEngine::Transform* value);
     // public Zenject.DiContainer[] get_ParentContainers()
-    // Offset: 0x174674C
+    // Offset: 0x173E63C
     ::ArrayW<::Zenject::DiContainer*> get_ParentContainers();
     // public Zenject.DiContainer[] get_AncestorContainers()
-    // Offset: 0x1746864
+    // Offset: 0x173E754
     ::ArrayW<::Zenject::DiContainer*> get_AncestorContainers();
     // public System.Boolean get_ChecksForCircularDependencies()
-    // Offset: 0x174689C
+    // Offset: 0x173E78C
     bool get_ChecksForCircularDependencies();
     // public System.Boolean get_IsValidating()
-    // Offset: 0x17468A4
+    // Offset: 0x173E794
     bool get_IsValidating();
     // public System.Boolean get_IsInstalling()
-    // Offset: 0x17468AC
+    // Offset: 0x173E79C
     bool get_IsInstalling();
     // public System.Void set_IsInstalling(System.Boolean value)
-    // Offset: 0x17468B4
+    // Offset: 0x173E7A4
     void set_IsInstalling(bool value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.BindingId> get_AllContracts()
-    // Offset: 0x17468C0
+    // Offset: 0x173E7B0
     ::System::Collections::Generic::IEnumerable_1<::Zenject::BindingId>* get_AllContracts();
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parentContainersEnumerable, System.Boolean isValidating)
-    // Offset: 0x174511C
+    // Offset: 0x173D00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parentContainersEnumerable, bool isValidating) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainersEnumerable, isValidating)));
     }
     // public System.Void .ctor(System.Boolean isValidating)
-    // Offset: 0x1745E84
+    // Offset: 0x173DD74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(bool isValidating) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(isValidating)));
     }
     // public System.Void .ctor(Zenject.DiContainer parentContainer, System.Boolean isValidating)
-    // Offset: 0x1746040
+    // Offset: 0x173DF30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(::Zenject::DiContainer* parentContainer, bool isValidating) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainer, isValidating)));
     }
     // public System.Void .ctor(Zenject.DiContainer parentContainer)
-    // Offset: 0x17460F8
+    // Offset: 0x173DFE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(::Zenject::DiContainer* parentContainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainer)));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parentContainers)
-    // Offset: 0x17461AC
+    // Offset: 0x173E09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer* New_ctor(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parentContainers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer*, creationType>(parentContainers)));
     }
     // private System.Void InstallDefaultBindings()
-    // Offset: 0x17458F4
+    // Offset: 0x173D7E4
     void InstallDefaultBindings();
     // private System.Object CreateLazyBinding(Zenject.InjectContext context)
-    // Offset: 0x1746410
+    // Offset: 0x173E300
     ::Il2CppObject* CreateLazyBinding(::Zenject::InjectContext* context);
     // public System.Void QueueForValidate(Zenject.IValidatable validatable)
-    // Offset: 0x1746678
+    // Offset: 0x173E568
     void QueueForValidate(::Zenject::IValidatable* validatable);
     // private System.Boolean ShouldInheritBinding(Zenject.BindStatement binding, Zenject.DiContainer ancestorContainer)
-    // Offset: 0x1745D58
+    // Offset: 0x173DC48
     bool ShouldInheritBinding(::Zenject::BindStatement* binding, ::Zenject::DiContainer* ancestorContainer);
     // public System.Void ResolveRoots()
-    // Offset: 0x1746920
+    // Offset: 0x173E810
     void ResolveRoots();
     // private System.Void ResolveDependencyRoots()
-    // Offset: 0x1746998
+    // Offset: 0x173E888
     void ResolveDependencyRoots();
     // private System.Void ValidateFullResolve()
-    // Offset: 0x174744C
+    // Offset: 0x173F33C
     void ValidateFullResolve();
     // private System.Void FlushValidationQueue()
-    // Offset: 0x1746F68
+    // Offset: 0x173EE58
     void FlushValidationQueue();
     // public Zenject.DiContainer CreateSubContainer()
-    // Offset: 0x174784C
+    // Offset: 0x173F73C
     ::Zenject::DiContainer* CreateSubContainer();
     // public System.Void QueueForInject(System.Object instance)
-    // Offset: 0x1747920
+    // Offset: 0x173F810
     void QueueForInject(::Il2CppObject* instance);
     // public T LazyInject(T instance)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T LazyInject(T instance) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::LazyInject");
@@ -544,28 +544,28 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, instance);
     }
     // private Zenject.DiContainer CreateSubContainer(System.Boolean isValidating)
-    // Offset: 0x1747854
+    // Offset: 0x173F744
     ::Zenject::DiContainer* CreateSubContainer(bool isValidating);
     // public System.Void RegisterProvider(Zenject.BindingId bindingId, Zenject.BindingCondition condition, Zenject.IProvider provider, System.Boolean nonLazy)
-    // Offset: 0x174793C
+    // Offset: 0x173F82C
     void RegisterProvider(::Zenject::BindingId bindingId, ::Zenject::BindingCondition* condition, ::Zenject::IProvider* provider, bool nonLazy);
     // private System.Void GetProviderMatches(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo> buffer)
-    // Offset: 0x1747A6C
+    // Offset: 0x173F95C
     void GetProviderMatches(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* buffer);
     // private Zenject.DiContainer/Zenject.ProviderInfo TryGetUniqueProvider(Zenject.InjectContext context)
-    // Offset: 0x1747D04
+    // Offset: 0x173FBF4
     ::Zenject::DiContainer::ProviderInfo* TryGetUniqueProvider(::Zenject::InjectContext* context);
     // private System.Collections.Generic.List`1<Zenject.DiContainer> FlattenInheritanceChain()
-    // Offset: 0x1745BC8
+    // Offset: 0x173DAB8
     ::System::Collections::Generic::List_1<::Zenject::DiContainer*>* FlattenInheritanceChain();
     // private System.Void GetLocalProviders(Zenject.BindingId bindingId, System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo> buffer)
-    // Offset: 0x17482A8
+    // Offset: 0x1740198
     void GetLocalProviders(::Zenject::BindingId bindingId, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* buffer);
     // private System.Void GetProvidersForContract(Zenject.BindingId bindingId, Zenject.InjectSources sourceType, System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo> buffer)
-    // Offset: 0x1747C28
+    // Offset: 0x173FB18
     void GetProvidersForContract(::Zenject::BindingId bindingId, ::Zenject::InjectSources sourceType, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* buffer);
     // public System.Void Install()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     void Install() {
       static_assert(std::is_convertible_v<TInstaller, ::Zenject::Installer*>);
@@ -575,7 +575,7 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public System.Void Install(System.Object[] extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     void Install(::ArrayW<::Il2CppObject*> extraArgs) {
       static_assert(std::is_convertible_v<TInstaller, ::Zenject::Installer*>);
@@ -585,16 +585,16 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, extraArgs);
     }
     // public System.Collections.IList ResolveAll(Zenject.InjectContext context)
-    // Offset: 0x174772C
+    // Offset: 0x173F61C
     ::System::Collections::IList* ResolveAll(::Zenject::InjectContext* context);
     // public System.Void ResolveAll(Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x17483C4
+    // Offset: 0x17402B4
     void ResolveAll(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private System.Void CheckForInstallWarning(Zenject.InjectContext context)
-    // Offset: 0x174896C
+    // Offset: 0x174085C
     void CheckForInstallWarning(::Zenject::InjectContext* context);
     // public System.Type ResolveType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::System::Type* ResolveType() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveType");
@@ -603,31 +603,31 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___generic__method);
     }
     // public System.Type ResolveType(System.Type type)
-    // Offset: 0x1748994
+    // Offset: 0x1740884
     ::System::Type* ResolveType(::System::Type* type);
     // public System.Type ResolveType(Zenject.InjectContext context)
-    // Offset: 0x1748ACC
+    // Offset: 0x17409BC
     ::System::Type* ResolveType(::Zenject::InjectContext* context);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypeAll(System.Type type)
-    // Offset: 0x1748D60
+    // Offset: 0x1740C50
     ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypeAll(::System::Type* type);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypeAll(System.Type type, System.Object identifier)
-    // Offset: 0x1748D68
+    // Offset: 0x1740C58
     ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypeAll(::System::Type* type, ::Il2CppObject* identifier);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypeAll(Zenject.InjectContext context)
-    // Offset: 0x1748EBC
+    // Offset: 0x1740DAC
     ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypeAll(::Zenject::InjectContext* context);
     // public System.Object Resolve(Zenject.BindingId id)
-    // Offset: 0x1749158
+    // Offset: 0x1741048
     ::Il2CppObject* Resolve(::Zenject::BindingId id);
     // public System.Object Resolve(Zenject.InjectContext context)
-    // Offset: 0x17492AC
+    // Offset: 0x174119C
     ::Il2CppObject* Resolve(::Zenject::InjectContext* context);
     // private System.Void SafeGetInstances(Zenject.DiContainer/Zenject.ProviderInfo providerInfo, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x1747110
+    // Offset: 0x173F000
     void SafeGetInstances(::Zenject::DiContainer::ProviderInfo* providerInfo, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // public Zenject.DecoratorToChoiceFromBinder`1<TContract> Decorate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* Decorate() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Decorate");
@@ -636,19 +636,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::DecoratorToChoiceFromBinder_1<TContract>*, false>(this, ___generic__method);
     }
     // private System.Void GetDecoratedInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1749EB8
+    // Offset: 0x1741DA8
     void GetDecoratedInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private Zenject.Internal.IDecoratorProvider TryGetDecoratorProvider(System.Type contractType)
-    // Offset: 0x1749FE4
+    // Offset: 0x1741ED4
     ::Zenject::Internal::IDecoratorProvider* TryGetDecoratorProvider(::System::Type* contractType);
     // private System.Int32 GetContainerHeirarchyDistance(Zenject.DiContainer container)
-    // Offset: 0x1748234
+    // Offset: 0x1740124
     int GetContainerHeirarchyDistance(::Zenject::DiContainer* container);
     // private System.Nullable`1<System.Int32> GetContainerHeirarchyDistance(Zenject.DiContainer container, System.Int32 depth)
-    // Offset: 0x174A0DC
+    // Offset: 0x1741FCC
     ::System::Nullable_1<int> GetContainerHeirarchyDistance(::Zenject::DiContainer* container, int depth);
     // public System.Collections.Generic.IEnumerable`1<System.Type> GetDependencyContracts()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetDependencyContracts() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetDependencyContracts");
@@ -657,49 +657,49 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(this, ___generic__method);
     }
     // public System.Collections.Generic.IEnumerable`1<System.Type> GetDependencyContracts(System.Type contract)
-    // Offset: 0x174A224
+    // Offset: 0x1742114
     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetDependencyContracts(::System::Type* contract);
     // private System.Object InstantiateInternal(System.Type concreteType, System.Boolean autoInject, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier)
-    // Offset: 0x174A2A4
+    // Offset: 0x1742194
     ::Il2CppObject* InstantiateInternal(::System::Type* concreteType, bool autoInject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier);
     // public System.Void InjectExplicit(System.Object injectable, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x174AC70
+    // Offset: 0x1742B60
     void InjectExplicit(::Il2CppObject* injectable, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
     // public System.Void InjectExplicit(System.Object injectable, System.Type injectableType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier)
-    // Offset: 0x17387CC
+    // Offset: 0x17306BC
     void InjectExplicit(::Il2CppObject* injectable, ::System::Type* injectableType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier);
     // private System.Void CallInjectMethodsTopDown(System.Object injectable, System.Type injectableType, Zenject.InjectTypeInfo typeInfo, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier, System.Boolean isDryRun)
-    // Offset: 0x174B188
+    // Offset: 0x1743078
     void CallInjectMethodsTopDown(::Il2CppObject* injectable, ::System::Type* injectableType, ::Zenject::InjectTypeInfo* typeInfo, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, bool isDryRun);
     // private System.Void InjectMembersTopDown(System.Object injectable, System.Type injectableType, Zenject.InjectTypeInfo typeInfo, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier, System.Boolean isDryRun)
-    // Offset: 0x174B6B0
+    // Offset: 0x17435A0
     void InjectMembersTopDown(::Il2CppObject* injectable, ::System::Type* injectableType, ::Zenject::InjectTypeInfo* typeInfo, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, bool isDryRun);
     // private System.Void InjectExplicitInternal(System.Object injectable, System.Type injectableType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier)
-    // Offset: 0x174AD5C
+    // Offset: 0x1742C4C
     void InjectExplicitInternal(::Il2CppObject* injectable, ::System::Type* injectableType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier);
     // UnityEngine.GameObject CreateAndParentPrefabResource(System.String resourcePath, Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context, out System.Boolean shouldMakeActive)
-    // Offset: 0x174B96C
+    // Offset: 0x174385C
     ::UnityEngine::GameObject* CreateAndParentPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context, ByRef<bool> shouldMakeActive);
     // private UnityEngine.GameObject GetPrefabAsGameObject(UnityEngine.Object prefab)
-    // Offset: 0x174BEAC
+    // Offset: 0x1743D9C
     ::UnityEngine::GameObject* GetPrefabAsGameObject(::UnityEngine::Object* prefab);
     // UnityEngine.GameObject CreateAndParentPrefab(UnityEngine.Object prefab, Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context, out System.Boolean shouldMakeActive)
-    // Offset: 0x174BA98
+    // Offset: 0x1743988
     ::UnityEngine::GameObject* CreateAndParentPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context, ByRef<bool> shouldMakeActive);
     // public UnityEngine.GameObject CreateEmptyGameObject(System.String name)
-    // Offset: 0x174C448
+    // Offset: 0x1744338
     ::UnityEngine::GameObject* CreateEmptyGameObject(::StringW name);
     // public UnityEngine.GameObject CreateEmptyGameObject(Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context)
-    // Offset: 0x1739384
+    // Offset: 0x1731274
     ::UnityEngine::GameObject* CreateEmptyGameObject(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
     // private UnityEngine.Transform GetTransformGroup(Zenject.GameObjectCreationParameters gameObjectBindInfo, Zenject.InjectContext context)
-    // Offset: 0x174BFB4
+    // Offset: 0x1743EA4
     ::UnityEngine::Transform* GetTransformGroup(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
     // private UnityEngine.GameObject CreateTransformGroup(System.String groupName)
-    // Offset: 0x174C4C8
+    // Offset: 0x17443B8
     ::UnityEngine::GameObject* CreateTransformGroup(::StringW groupName);
     // public T Instantiate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T Instantiate() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Instantiate");
@@ -708,7 +708,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method);
     }
     // public T Instantiate(System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T Instantiate(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Instantiate");
@@ -717,13 +717,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, extraArgs);
     }
     // public System.Object Instantiate(System.Type concreteType)
-    // Offset: 0x173FE28
+    // Offset: 0x1737D18
     ::Il2CppObject* Instantiate(::System::Type* concreteType);
     // public System.Object Instantiate(System.Type concreteType, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0x174C590
+    // Offset: 0x1744480
     ::Il2CppObject* Instantiate(::System::Type* concreteType, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
     // public TContract InstantiateComponent(UnityEngine.GameObject gameObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     TContract InstantiateComponent(::UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<TContract, ::UnityEngine::Component*>);
@@ -733,7 +733,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TContract, false>(this, ___generic__method, gameObject);
     }
     // public TContract InstantiateComponent(UnityEngine.GameObject gameObject, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     TContract InstantiateComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<TContract, ::UnityEngine::Component*>);
@@ -743,13 +743,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TContract, false>(this, ___generic__method, gameObject, extraArgs);
     }
     // public UnityEngine.Component InstantiateComponent(System.Type componentType, UnityEngine.GameObject gameObject)
-    // Offset: 0x174C6BC
+    // Offset: 0x17445AC
     ::UnityEngine::Component* InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject);
     // public UnityEngine.Component InstantiateComponent(System.Type componentType, UnityEngine.GameObject gameObject, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0x174C738
+    // Offset: 0x1744628
     ::UnityEngine::Component* InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
     // public T InstantiateComponentOnNewGameObject()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiateComponentOnNewGameObject() {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -759,7 +759,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method);
     }
     // public T InstantiateComponentOnNewGameObject(System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiateComponentOnNewGameObject(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -769,7 +769,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, extraArgs);
     }
     // public T InstantiateComponentOnNewGameObject(System.String gameObjectName)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiateComponentOnNewGameObject(::StringW gameObjectName) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -779,7 +779,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, gameObjectName);
     }
     // public T InstantiateComponentOnNewGameObject(System.String gameObjectName, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -789,31 +789,31 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, gameObjectName, extraArgs);
     }
     // public UnityEngine.GameObject InstantiatePrefab(UnityEngine.Object prefab)
-    // Offset: 0x174C850
+    // Offset: 0x1744740
     ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab);
     // public UnityEngine.GameObject InstantiatePrefab(UnityEngine.Object prefab, UnityEngine.Transform parentTransform)
-    // Offset: 0x174C958
+    // Offset: 0x1744848
     ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform);
     // public UnityEngine.GameObject InstantiatePrefab(UnityEngine.Object prefab, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform)
-    // Offset: 0x174C9DC
+    // Offset: 0x17448CC
     ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform);
     // public UnityEngine.GameObject InstantiatePrefab(UnityEngine.Object prefab, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x174C8D0
+    // Offset: 0x17447C0
     ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
     // public UnityEngine.GameObject InstantiatePrefabResource(System.String resourcePath)
-    // Offset: 0x174CC64
+    // Offset: 0x1744B54
     ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath);
     // public UnityEngine.GameObject InstantiatePrefabResource(System.String resourcePath, UnityEngine.Transform parentTransform)
-    // Offset: 0x174CDF8
+    // Offset: 0x1744CE8
     ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Transform* parentTransform);
     // public UnityEngine.GameObject InstantiatePrefabResource(System.String resourcePath, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform)
-    // Offset: 0x174CE7C
+    // Offset: 0x1744D6C
     ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform);
     // public UnityEngine.GameObject InstantiatePrefabResource(System.String resourcePath, Zenject.GameObjectCreationParameters creationInfo)
-    // Offset: 0x174CCE4
+    // Offset: 0x1744BD4
     ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* creationInfo);
     // public T InstantiatePrefabForComponent(UnityEngine.Object prefab)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(::UnityEngine::Object* prefab) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
@@ -822,7 +822,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab);
     }
     // public T InstantiatePrefabForComponent(UnityEngine.Object prefab, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(::UnityEngine::Object* prefab, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
@@ -831,7 +831,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab, extraArgs);
     }
     // public T InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Transform parentTransform)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
@@ -840,7 +840,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab, parentTransform);
     }
     // public T InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
@@ -849,7 +849,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab, parentTransform, extraArgs);
     }
     // public T InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
@@ -858,7 +858,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab, position, rotation, parentTransform);
     }
     // public T InstantiatePrefabForComponent(UnityEngine.Object prefab, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabForComponent(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
@@ -867,13 +867,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab, position, rotation, parentTransform, extraArgs);
     }
     // public System.Object InstantiatePrefabForComponent(System.Type concreteType, UnityEngine.Object prefab, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0x174CFB0
+    // Offset: 0x1744EA0
     ::Il2CppObject* InstantiatePrefabForComponent(::System::Type* concreteType, ::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
     // public System.Object InstantiatePrefabForComponent(System.Type concreteType, UnityEngine.Object prefab, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs, Zenject.GameObjectCreationParameters creationInfo)
-    // Offset: 0x174D058
+    // Offset: 0x1744F48
     ::Il2CppObject* InstantiatePrefabForComponent(::System::Type* concreteType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs, ::Zenject::GameObjectCreationParameters* creationInfo);
     // public T InstantiatePrefabResourceForComponent(System.String resourcePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::StringW resourcePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponent");
@@ -882,7 +882,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath);
     }
     // public T InstantiatePrefabResourceForComponent(System.String resourcePath, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponent");
@@ -891,7 +891,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath, extraArgs);
     }
     // public T InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Transform parentTransform)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::StringW resourcePath, ::UnityEngine::Transform* parentTransform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponent");
@@ -900,7 +900,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath, parentTransform);
     }
     // public T InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::StringW resourcePath, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponent");
@@ -909,7 +909,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath, parentTransform, extraArgs);
     }
     // public T InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponent");
@@ -918,7 +918,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath, position, rotation, parentTransform);
     }
     // public T InstantiatePrefabResourceForComponent(System.String resourcePath, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiatePrefabResourceForComponent(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponent");
@@ -927,10 +927,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath, position, rotation, parentTransform, extraArgs);
     }
     // public System.Object InstantiatePrefabResourceForComponent(System.Type concreteType, System.String resourcePath, UnityEngine.Transform parentTransform, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0x174D14C
+    // Offset: 0x174503C
     ::Il2CppObject* InstantiatePrefabResourceForComponent(::System::Type* concreteType, ::StringW resourcePath, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
     // public T InstantiateScriptableObjectResource(System.String resourcePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiateScriptableObjectResource(::StringW resourcePath) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::ScriptableObject*>);
@@ -940,7 +940,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath);
     }
     // public T InstantiateScriptableObjectResource(System.String resourcePath, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::ScriptableObject*>);
@@ -950,16 +950,16 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, resourcePath, extraArgs);
     }
     // public System.Object InstantiateScriptableObjectResource(System.Type scriptableObjectType, System.String resourcePath)
-    // Offset: 0x174D2D4
+    // Offset: 0x17451C4
     ::Il2CppObject* InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath);
     // public System.Object InstantiateScriptableObjectResource(System.Type scriptableObjectType, System.String resourcePath, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0x174D348
+    // Offset: 0x1745238
     ::Il2CppObject* InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
     // public System.Void InjectGameObject(UnityEngine.GameObject gameObject)
-    // Offset: 0x174CB10
+    // Offset: 0x1744A00
     void InjectGameObject(::UnityEngine::GameObject* gameObject);
     // public T InjectGameObjectForComponent(UnityEngine.GameObject gameObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -969,7 +969,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, gameObject);
     }
     // public T InjectGameObjectForComponent(UnityEngine.GameObject gameObject, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -979,19 +979,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, gameObject, extraArgs);
     }
     // public System.Object InjectGameObjectForComponent(UnityEngine.GameObject gameObject, System.Type componentType, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0x174D4F4
+    // Offset: 0x17453E4
     ::Il2CppObject* InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
     // public UnityEngine.Component InjectGameObjectForComponentExplicit(UnityEngine.GameObject gameObject, System.Type componentType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier)
-    // Offset: 0x174D5A4
+    // Offset: 0x1745494
     ::UnityEngine::Component* InjectGameObjectForComponentExplicit(::UnityEngine::GameObject* gameObject, ::System::Type* componentType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier);
     // public System.Void Inject(System.Object injectable)
-    // Offset: 0x173FE94
+    // Offset: 0x1737D84
     void Inject(::Il2CppObject* injectable);
     // public System.Void Inject(System.Object injectable, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
-    // Offset: 0x174D8C8
+    // Offset: 0x17457B8
     void Inject(::Il2CppObject* injectable, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
     // public TContract Resolve()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     TContract Resolve() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Resolve");
@@ -1000,10 +1000,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TContract, false>(this, ___generic__method);
     }
     // public System.Object Resolve(System.Type contractType)
-    // Offset: 0x174D900
+    // Offset: 0x17457F0
     ::Il2CppObject* Resolve(::System::Type* contractType);
     // public TContract ResolveId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     TContract ResolveId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveId");
@@ -1012,10 +1012,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TContract, false>(this, ___generic__method, identifier);
     }
     // public System.Object ResolveId(System.Type contractType, System.Object identifier)
-    // Offset: 0x174D908
+    // Offset: 0x17457F8
     ::Il2CppObject* ResolveId(::System::Type* contractType, ::Il2CppObject* identifier);
     // public TContract TryResolve()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     TContract TryResolve() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::TryResolve");
@@ -1024,10 +1024,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TContract, false>(this, ___generic__method);
     }
     // public System.Object TryResolve(System.Type contractType)
-    // Offset: 0x174DA5C
+    // Offset: 0x174594C
     ::Il2CppObject* TryResolve(::System::Type* contractType);
     // public TContract TryResolveId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     TContract TryResolveId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::TryResolveId");
@@ -1036,10 +1036,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<TContract, false>(this, ___generic__method, identifier);
     }
     // public System.Object TryResolveId(System.Type contractType, System.Object identifier)
-    // Offset: 0x174DA64
+    // Offset: 0x1745954
     ::Il2CppObject* TryResolveId(::System::Type* contractType, ::Il2CppObject* identifier);
     // public System.Collections.Generic.List`1<TContract> ResolveAll()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::System::Collections::Generic::List_1<TContract>* ResolveAll() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveAll");
@@ -1048,10 +1048,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<TContract>*, false>(this, ___generic__method);
     }
     // public System.Collections.IList ResolveAll(System.Type contractType)
-    // Offset: 0x174DBC0
+    // Offset: 0x1745AB0
     ::System::Collections::IList* ResolveAll(::System::Type* contractType);
     // public System.Collections.Generic.List`1<TContract> ResolveIdAll(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::System::Collections::Generic::List_1<TContract>* ResolveIdAll(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveIdAll");
@@ -1060,13 +1060,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<TContract>*, false>(this, ___generic__method, identifier);
     }
     // public System.Collections.IList ResolveIdAll(System.Type contractType, System.Object identifier)
-    // Offset: 0x174DBC8
+    // Offset: 0x1745AB8
     ::System::Collections::IList* ResolveIdAll(::System::Type* contractType, ::Il2CppObject* identifier);
     // public System.Void UnbindAll()
-    // Offset: 0x174DD24
+    // Offset: 0x1745C14
     void UnbindAll();
     // public System.Boolean Unbind()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     bool Unbind() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Unbind");
@@ -1075,10 +1075,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method);
     }
     // public System.Boolean Unbind(System.Type contractType)
-    // Offset: 0x174DD84
+    // Offset: 0x1745C74
     bool Unbind(::System::Type* contractType);
     // public System.Boolean UnbindId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     bool UnbindId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::UnbindId");
@@ -1087,10 +1087,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, identifier);
     }
     // public System.Boolean UnbindId(System.Type contractType, System.Object identifier)
-    // Offset: 0x174DD8C
+    // Offset: 0x1745C7C
     bool UnbindId(::System::Type* contractType, ::Il2CppObject* identifier);
     // public System.Void UnbindInterfacesTo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TConcrete>
     void UnbindInterfacesTo() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::UnbindInterfacesTo");
@@ -1099,10 +1099,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public System.Void UnbindInterfacesTo(System.Type concreteType)
-    // Offset: 0x174DE04
+    // Offset: 0x1745CF4
     void UnbindInterfacesTo(::System::Type* concreteType);
     // public System.Boolean Unbind()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract, class TConcrete>
     bool Unbind() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Unbind");
@@ -1111,10 +1111,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method);
     }
     // public System.Boolean Unbind(System.Type contractType, System.Type concreteType)
-    // Offset: 0x174DEDC
+    // Offset: 0x1745DCC
     bool Unbind(::System::Type* contractType, ::System::Type* concreteType);
     // public System.Boolean UnbindId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract, class TConcrete>
     bool UnbindId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::UnbindId");
@@ -1123,10 +1123,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, identifier);
     }
     // public System.Boolean UnbindId(System.Type contractType, System.Type concreteType, System.Object identifier)
-    // Offset: 0x174DEE4
+    // Offset: 0x1745DD4
     bool UnbindId(::System::Type* contractType, ::System::Type* concreteType, ::Il2CppObject* identifier);
     // public System.Boolean HasBinding()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     bool HasBinding() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::HasBinding");
@@ -1135,10 +1135,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method);
     }
     // public System.Boolean HasBinding(System.Type contractType)
-    // Offset: 0x174E0D4
+    // Offset: 0x1745FC4
     bool HasBinding(::System::Type* contractType);
     // public System.Boolean HasBindingId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     bool HasBindingId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::HasBindingId");
@@ -1147,25 +1147,25 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, identifier);
     }
     // public System.Boolean HasBindingId(System.Type contractType, System.Object identifier)
-    // Offset: 0x174E0E0
+    // Offset: 0x1745FD0
     bool HasBindingId(::System::Type* contractType, ::Il2CppObject* identifier);
     // public System.Boolean HasBindingId(System.Type contractType, System.Object identifier, Zenject.InjectSources sourceType)
-    // Offset: 0x174E0E8
+    // Offset: 0x1745FD8
     bool HasBindingId(::System::Type* contractType, ::Il2CppObject* identifier, ::Zenject::InjectSources sourceType);
     // public System.Boolean HasBinding(Zenject.InjectContext context)
-    // Offset: 0x174E24C
+    // Offset: 0x174613C
     bool HasBinding(::Zenject::InjectContext* context);
     // public System.Void FlushBindings()
-    // Offset: 0x1745AEC
+    // Offset: 0x173D9DC
     void FlushBindings();
     // private System.Void FinalizeBinding(Zenject.BindStatement binding)
-    // Offset: 0x1745E1C
+    // Offset: 0x173DD0C
     void FinalizeBinding(::Zenject::BindStatement* binding);
     // public Zenject.BindStatement StartBinding(System.Boolean flush)
-    // Offset: 0x174E368
+    // Offset: 0x1746258
     ::Zenject::BindStatement* StartBinding(bool flush);
     // public Zenject.ConcreteBinderGeneric`1<TContract> Rebind()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::ConcreteBinderGeneric_1<TContract>* Rebind() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Rebind");
@@ -1174,7 +1174,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteBinderGeneric_1<TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.ConcreteBinderGeneric`1<TContract> RebindId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::ConcreteBinderGeneric_1<TContract>* RebindId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::RebindId");
@@ -1183,13 +1183,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteBinderGeneric_1<TContract>*, false>(this, ___generic__method, identifier);
     }
     // public Zenject.ConcreteBinderNonGeneric Rebind(System.Type contractType)
-    // Offset: 0x174E430
+    // Offset: 0x1746320
     ::Zenject::ConcreteBinderNonGeneric* Rebind(::System::Type* contractType);
     // public Zenject.ConcreteBinderNonGeneric RebindId(System.Type contractType, System.Object identifier)
-    // Offset: 0x174E438
+    // Offset: 0x1746328
     ::Zenject::ConcreteBinderNonGeneric* RebindId(::System::Type* contractType, ::Il2CppObject* identifier);
     // public Zenject.ConcreteIdBinderGeneric`1<TContract> Bind()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::ConcreteIdBinderGeneric_1<TContract>* Bind() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Bind");
@@ -1198,7 +1198,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteIdBinderGeneric_1<TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.ConcreteIdBinderGeneric`1<TContract> BindNoFlush()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::ConcreteIdBinderGeneric_1<TContract>* BindNoFlush() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindNoFlush");
@@ -1207,7 +1207,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteIdBinderGeneric_1<TContract>*, false>(this, ___generic__method);
     }
     // private Zenject.ConcreteIdBinderGeneric`1<TContract> Bind(Zenject.BindStatement bindStatement)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::ConcreteIdBinderGeneric_1<TContract>* Bind(::Zenject::BindStatement* bindStatement) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Bind");
@@ -1216,19 +1216,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteIdBinderGeneric_1<TContract>*, false>(this, ___generic__method, bindStatement);
     }
     // public Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
-    // Offset: 0x1740A9C
+    // Offset: 0x173898C
     ::Zenject::ConcreteIdBinderNonGeneric* Bind(::ArrayW<::System::Type*> contractTypes);
     // public Zenject.ConcreteIdBinderNonGeneric Bind(System.Collections.Generic.IEnumerable`1<System.Type> contractTypes)
-    // Offset: 0x174E66C
+    // Offset: 0x174655C
     ::Zenject::ConcreteIdBinderNonGeneric* Bind(::System::Collections::Generic::IEnumerable_1<::System::Type*>* contractTypes);
     // private Zenject.ConcreteIdBinderNonGeneric BindInternal(Zenject.BindInfo bindInfo, Zenject.BindStatement bindingFinalizer)
-    // Offset: 0x174E510
+    // Offset: 0x1746400
     ::Zenject::ConcreteIdBinderNonGeneric* BindInternal(::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindingFinalizer);
     // public Zenject.ConcreteIdBinderNonGeneric Bind(System.Action`1<Zenject.ConventionSelectTypesBinder> generator)
-    // Offset: 0x174E704
+    // Offset: 0x17465F4
     ::Zenject::ConcreteIdBinderNonGeneric* Bind(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator);
     // public Zenject.FromBinderNonGeneric BindInterfacesTo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::FromBinderNonGeneric* BindInterfacesTo() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInterfacesTo");
@@ -1237,10 +1237,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FromBinderNonGeneric*, false>(this, ___generic__method);
     }
     // public Zenject.FromBinderNonGeneric BindInterfacesTo(System.Type type)
-    // Offset: 0x174E8F8
+    // Offset: 0x17467E8
     ::Zenject::FromBinderNonGeneric* BindInterfacesTo(::System::Type* type);
     // public Zenject.FromBinderNonGeneric BindInterfacesAndSelfTo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::FromBinderNonGeneric* BindInterfacesAndSelfTo() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInterfacesAndSelfTo");
@@ -1249,10 +1249,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FromBinderNonGeneric*, false>(this, ___generic__method);
     }
     // public Zenject.FromBinderNonGeneric BindInterfacesAndSelfTo(System.Type type)
-    // Offset: 0x174EA9C
+    // Offset: 0x174698C
     ::Zenject::FromBinderNonGeneric* BindInterfacesAndSelfTo(::System::Type* type);
     // public Zenject.IdScopeConcreteIdArgConditionCopyNonLazyBinder BindInstance(TContract instance)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder* BindInstance(TContract instance) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInstance");
@@ -1261,10 +1261,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___generic__method, instance);
     }
     // public System.Void BindInstances(params System.Object[] instances)
-    // Offset: 0x174EBF8
+    // Offset: 0x1746AE8
     void BindInstances(::ArrayW<::Il2CppObject*> instances);
     // private Zenject.FactoryToChoiceIdBinder`1<TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1275,7 +1275,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`1<TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1284,7 +1284,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`1<TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_1<TContract>*>);
@@ -1294,7 +1294,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`1<TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_1<TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_1<TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1305,7 +1305,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_1<TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1<TItemContract> BindMemoryPool()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TItemContract>
     ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPool() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindMemoryPool");
@@ -1314,7 +1314,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___generic__method);
     }
     // public Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1<TItemContract> BindMemoryPool()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TItemContract, class TPool>
     ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPool() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TPool>, ::Zenject::IMemoryPool>);
@@ -1324,7 +1324,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___generic__method);
     }
     // public Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1<TItemContract> BindMemoryPoolCustomInterface(System.Boolean includeConcreteType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TItemContract, class TPoolConcrete, class TPoolContract>
     ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterface(bool includeConcreteType) {
       static_assert(std::is_convertible_v<TPoolConcrete, TPoolContract> && std::is_convertible_v<std::remove_pointer_t<TPoolConcrete>, ::Zenject::IMemoryPool>);
@@ -1335,7 +1335,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___generic__method, includeConcreteType);
     }
     // Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1<TItemContract> BindMemoryPoolCustomInterfaceNoFlush(System.Boolean includeConcreteType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TItemContract, class TPoolConcrete, class TPoolContract>
     ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterfaceNoFlush(bool includeConcreteType) {
       static_assert(std::is_convertible_v<TPoolConcrete, TPoolContract> && std::is_convertible_v<std::remove_pointer_t<TPoolConcrete>, ::Zenject::IMemoryPool>);
@@ -1346,7 +1346,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___generic__method, includeConcreteType);
     }
     // private Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1<TItemContract> BindMemoryPoolCustomInterfaceInternal(System.Boolean includeConcreteType, Zenject.BindStatement statement)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TItemContract, class TPoolConcrete, class TPoolContract>
     ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* BindMemoryPoolCustomInterfaceInternal(bool includeConcreteType, ::Zenject::BindStatement* statement) {
       static_assert(std::is_convertible_v<TPoolConcrete, TPoolContract> && std::is_convertible_v<std::remove_pointer_t<TPoolConcrete>, ::Zenject::IMemoryPool>);
@@ -1357,7 +1357,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*, false>(this, ___generic__method, includeConcreteType, statement);
     }
     // private Zenject.FactoryToChoiceIdBinder`2<TParam1,TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1368,7 +1368,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`2<TParam1,TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TContract>
     ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1377,7 +1377,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`2<TParam1,TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_2<TParam1, TContract>*>);
@@ -1387,7 +1387,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`2<TParam1,TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_2<TParam1, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1398,7 +1398,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*, false>(this, ___generic__method);
     }
     // private Zenject.FactoryToChoiceIdBinder`3<TParam1,TParam2,TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1409,7 +1409,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`3<TParam1,TParam2,TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TContract>
     ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1418,7 +1418,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`3<TParam1,TParam2,TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*>);
@@ -1428,7 +1428,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`3<TParam1,TParam2,TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1439,7 +1439,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*, false>(this, ___generic__method);
     }
     // private Zenject.FactoryToChoiceIdBinder`4<TParam1,TParam2,TParam3,TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1450,7 +1450,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`4<TParam1,TParam2,TParam3,TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TContract>
     ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1459,7 +1459,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`4<TParam1,TParam2,TParam3,TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*>);
@@ -1469,7 +1469,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`4<TParam1,TParam2,TParam3,TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1480,7 +1480,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method);
     }
     // private Zenject.FactoryToChoiceIdBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1491,7 +1491,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TContract>
     ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1500,7 +1500,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*>);
@@ -1510,7 +1510,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1521,7 +1521,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___generic__method);
     }
     // private Zenject.FactoryToChoiceIdBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1532,7 +1532,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TContract>
     ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1541,7 +1541,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>);
@@ -1551,7 +1551,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1562,7 +1562,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___generic__method);
     }
     // private Zenject.FactoryToChoiceIdBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1573,7 +1573,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract>
     ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1582,7 +1582,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>);
@@ -1592,7 +1592,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1603,7 +1603,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, false>(this, ___generic__method);
     }
     // private Zenject.FactoryToChoiceIdBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> BindFactoryInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7, class TParam8, class TParam9, class TParam10, class TContract, class TFactoryContract, class TFactoryConcrete>
     ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactoryInternal() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TFactoryContract>, ::Zenject::IFactory>);
@@ -1614,7 +1614,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> BindIFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7, class TParam8, class TParam9, class TParam10, class TContract>
     ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindIFactory() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindIFactory");
@@ -1623,7 +1623,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> BindFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7, class TParam8, class TParam9, class TParam10, class TContract, class TFactory>
     ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactory() {
       static_assert(std::is_convertible_v<TFactory, ::Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>);
@@ -1633,7 +1633,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___generic__method);
     }
     // public Zenject.FactoryToChoiceIdBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> BindFactoryCustomInterface()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7, class TParam8, class TParam9, class TParam10, class TContract, class TFactoryConcrete, class TFactoryContract>
     ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* BindFactoryCustomInterface() {
       static_assert(std::is_convertible_v<TFactoryConcrete, ::Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*> && std::is_convertible_v<TFactoryConcrete, TFactoryContract>);
@@ -1644,7 +1644,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*, false>(this, ___generic__method);
     }
     // public T InstantiateExplicit(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T InstantiateExplicit(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateExplicit");
@@ -1653,34 +1653,34 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, extraArgs);
     }
     // public System.Object InstantiateExplicit(System.Type concreteType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x174C62C
+    // Offset: 0x174451C
     ::Il2CppObject* InstantiateExplicit(::System::Type* concreteType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
     // public System.Object InstantiateExplicit(System.Type concreteType, System.Boolean autoInject, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier)
-    // Offset: 0x174ED38
+    // Offset: 0x1746C28
     ::Il2CppObject* InstantiateExplicit(::System::Type* concreteType, bool autoInject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier);
     // public UnityEngine.Component InstantiateComponentExplicit(System.Type componentType, UnityEngine.GameObject gameObject, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x174C780
+    // Offset: 0x1744670
     ::UnityEngine::Component* InstantiateComponentExplicit(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
     // public System.Object InstantiateScriptableObjectResourceExplicit(System.Type scriptableObjectType, System.String resourcePath, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x174D3D4
+    // Offset: 0x17452C4
     ::Il2CppObject* InstantiateScriptableObjectResourceExplicit(::System::Type* scriptableObjectType, ::StringW resourcePath, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
     // public System.Object InstantiatePrefabResourceForComponentExplicit(System.Type componentType, System.String resourcePath, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.GameObjectCreationParameters creationInfo)
-    // Offset: 0x174D230
+    // Offset: 0x1745120
     ::Il2CppObject* InstantiatePrefabResourceForComponentExplicit(::System::Type* componentType, ::StringW resourcePath, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::GameObjectCreationParameters* creationInfo);
     // public System.Object InstantiatePrefabResourceForComponentExplicit(System.Type componentType, System.String resourcePath, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier, Zenject.GameObjectCreationParameters creationInfo)
-    // Offset: 0x174EEB4
+    // Offset: 0x1746DA4
     ::Il2CppObject* InstantiatePrefabResourceForComponentExplicit(::System::Type* componentType, ::StringW resourcePath, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, ::Zenject::GameObjectCreationParameters* creationInfo);
     // public System.Object InstantiatePrefabForComponentExplicit(System.Type componentType, UnityEngine.Object prefab, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x174F180
+    // Offset: 0x1747070
     ::Il2CppObject* InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
     // public System.Object InstantiatePrefabForComponentExplicit(System.Type componentType, UnityEngine.Object prefab, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x174D0A8
+    // Offset: 0x1744F98
     ::Il2CppObject* InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
     // public System.Object InstantiatePrefabForComponentExplicit(System.Type componentType, UnityEngine.Object prefab, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs, Zenject.InjectContext context, System.Object concreteIdentifier, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0x174EFF8
+    // Offset: 0x1746EE8
     ::Il2CppObject* InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
     // public System.Void BindExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void BindExecutionOrder(int order) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindExecutionOrder");
@@ -1689,10 +1689,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, order);
     }
     // public System.Void BindExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174F218
+    // Offset: 0x1747108
     void BindExecutionOrder(::System::Type* type, int order);
     // public Zenject.CopyNonLazyBinder BindTickableExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(int order) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::Zenject::ITickable>);
@@ -1702,10 +1702,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method, order);
     }
     // public Zenject.CopyNonLazyBinder BindTickableExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174F5AC
+    // Offset: 0x174749C
     ::Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(::System::Type* type, int order);
     // public Zenject.CopyNonLazyBinder BindInitializableExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(int order) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::Zenject::IInitializable>);
@@ -1715,10 +1715,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method, order);
     }
     // public Zenject.CopyNonLazyBinder BindInitializableExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174F68C
+    // Offset: 0x174757C
     ::Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(::System::Type* type, int order);
     // public Zenject.CopyNonLazyBinder BindDisposableExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(int order) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IDisposable>);
@@ -1728,7 +1728,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method, order);
     }
     // public Zenject.CopyNonLazyBinder BindLateDisposableExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(int order) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::Zenject::ILateDisposable>);
@@ -1738,13 +1738,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method, order);
     }
     // public Zenject.CopyNonLazyBinder BindDisposableExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174F76C
+    // Offset: 0x174765C
     ::Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(::System::Type* type, int order);
     // public Zenject.CopyNonLazyBinder BindLateDisposableExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174F84C
+    // Offset: 0x174773C
     ::Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(::System::Type* type, int order);
     // public Zenject.CopyNonLazyBinder BindFixedTickableExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(int order) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::Zenject::IFixedTickable>);
@@ -1754,10 +1754,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method, order);
     }
     // public Zenject.CopyNonLazyBinder BindFixedTickableExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174F944
+    // Offset: 0x1747834
     ::Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(::System::Type* type, int order);
     // public Zenject.CopyNonLazyBinder BindLateTickableExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(int order) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::Zenject::ILateTickable>);
@@ -1767,10 +1767,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method, order);
     }
     // public Zenject.CopyNonLazyBinder BindLateTickableExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174FA60
+    // Offset: 0x1747950
     ::Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(::System::Type* type, int order);
     // public Zenject.CopyNonLazyBinder BindPoolableExecutionOrder(System.Int32 order)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(int order) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::Zenject::IPoolable>);
@@ -1780,10 +1780,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method, order);
     }
     // public Zenject.CopyNonLazyBinder BindPoolableExecutionOrder(System.Type type, System.Int32 order)
-    // Offset: 0x174FB7C
+    // Offset: 0x1747A6C
     ::Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(::System::Type* type, int order);
     // public System.Void .ctor()
-    // Offset: 0x1745F64
+    // Offset: 0x173DE54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

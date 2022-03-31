@@ -23,10 +23,10 @@ namespace GlobalNamespace {
   class IRichPresenceData {
     public:
     // public System.String get_apiName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_localizedDescription();
   }; // IRichPresenceData
   #pragma pack(pop)

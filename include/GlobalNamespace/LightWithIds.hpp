@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x109D910
+    // [InjectAttribute] Offset: 0x1238804
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x18
@@ -90,34 +90,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _childrenColorWasSet
     bool& dyn__childrenColorWasSet();
     // protected System.Void Start()
-    // Offset: 0x1F17308
+    // Offset: 0x2AD3528
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1F17620
+    // Offset: 0x2AD3840
     void OnEnable();
     // private System.Void MarkChildrenColorAsSet()
-    // Offset: 0x1F17624
+    // Offset: 0x2AD3844
     void MarkChildrenColorAsSet();
     // protected System.Void SetNewLightsWithIds(System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> lightsWithIds)
-    // Offset: 0x1F17630
+    // Offset: 0x2AD3850
     void SetNewLightsWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* lightsWithIds);
     // private System.Void RegisterForColorChanges()
-    // Offset: 0x1F1730C
+    // Offset: 0x2AD352C
     void RegisterForColorChanges();
     // private System.Void UnregisterFromColorChanges()
-    // Offset: 0x1F1765C
+    // Offset: 0x2AD387C
     void UnregisterFromColorChanges();
     // protected System.Void OnDisable()
-    // Offset: 0x1F17944
+    // Offset: 0x2AD3B64
     void OnDisable();
     // private System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1F17948
+    // Offset: 0x2AD3B68
     void HandleLightManagerDidChangeSomeColorsThisFrame();
     // protected System.Void ProcessNewColorData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessNewColorData();
     // protected System.Void .ctor()
-    // Offset: 0x1F17964
+    // Offset: 0x2AD3B84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

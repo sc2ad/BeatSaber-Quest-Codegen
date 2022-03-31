@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayCoreSceneSetupData <gameplayCoreSceneSetupData>k__BackingField
     ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn_$gameplayCoreSceneSetupData$k__BackingField();
     // public IReadonlyBeatmapData get_transformedBeatmapData()
-    // Offset: 0x14B2580
+    // Offset: 0x14873F4
     ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
     // protected GameplayCoreSceneSetupData get_gameplayCoreSceneSetupData()
-    // Offset: 0x14B259C
+    // Offset: 0x1487410
     ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
     // protected System.Void set_gameplayCoreSceneSetupData(GameplayCoreSceneSetupData value)
-    // Offset: 0x14B25A4
+    // Offset: 0x1487418
     void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
     // protected System.Void .ctor()
-    // Offset: 0x14B269C
+    // Offset: 0x1487510
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelScenesTransitionSetupDataSO*, creationType>()));
     }
     // protected override System.Threading.Tasks.Task BeforeScenesWillBeActivatedAsync()
-    // Offset: 0x14B25AC
+    // Offset: 0x1487420
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Threading.Tasks.Task ScenesTransitionSetupDataSO::BeforeScenesWillBeActivatedAsync()
     ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();

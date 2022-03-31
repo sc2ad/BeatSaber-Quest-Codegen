@@ -154,61 +154,61 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private NUnit.Framework.Internal.Execution.CountdownEvent _childTestCountdown
     ::NUnit::Framework::Internal::Execution::CountdownEvent*& dyn__childTestCountdown();
     // public System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> get_Children()
-    // Offset: 0x1943208
+    // Offset: 0x193A0F4
     ::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* get_Children();
     // private System.Void set_Children(System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> value)
-    // Offset: 0x1943210
+    // Offset: 0x193A0FC
     void set_Children(::System::Collections::Generic::List_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ITestFilter childFilter, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x1943218
+    // Offset: 0x193A104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem* New_ctor(::NUnit::Framework::Internal::TestSuite* suite, ::NUnit::Framework::Interfaces::ITestFilter* childFilter, ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem*, creationType>(suite, childFilter, factory)));
     }
     // private System.Boolean CheckForCancellation()
-    // Offset: 0x194345C
+    // Offset: 0x193A348
     bool CheckForCancellation();
     // private System.Void InitializeSetUpAndTearDownCommands()
-    // Offset: 0x1943534
+    // Offset: 0x193A420
     void InitializeSetUpAndTearDownCommands();
     // private System.Void PerformOneTimeSetUp()
-    // Offset: 0x1943A48
+    // Offset: 0x193A934
     void PerformOneTimeSetUp();
     // private System.Collections.IEnumerable RunChildren()
-    // Offset: 0x1943DC4
+    // Offset: 0x193ACB0
     ::System::Collections::IEnumerable* RunChildren();
     // private System.Void CreateChildWorkItems()
-    // Offset: 0x1943E7C
+    // Offset: 0x193AD68
     void CreateChildWorkItems();
     // private System.Void SortChildren()
-    // Offset: 0x19445F8
+    // Offset: 0x193B4E4
     void SortChildren();
     // private System.Void SkipFixture(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
-    // Offset: 0x1944690
+    // Offset: 0x193B57C
     void SkipFixture(::NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message, ::StringW stackTrace);
     // private System.Void SkipChildren(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
-    // Offset: 0x194479C
+    // Offset: 0x193B688
     void SkipChildren(::NUnit::Framework::Internal::TestSuite* suite, ::NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message);
     // private System.Void PerformOneTimeTearDown()
-    // Offset: 0x1944CE8
+    // Offset: 0x193BBD4
     void PerformOneTimeTearDown();
     // private System.String GetSkipReason()
-    // Offset: 0x1944EA8
+    // Offset: 0x193BD94
     ::StringW GetSkipReason();
     // private System.String GetProviderStackTrace()
-    // Offset: 0x1944F98
+    // Offset: 0x193BE84
     ::StringW GetProviderStackTrace();
     // private System.Void CountDownChildTest()
-    // Offset: 0x1945088
+    // Offset: 0x193BF74
     void CountDownChildTest();
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x19433A4
+    // Offset: 0x193A290
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     ::System::Collections::IEnumerable* PerformWork();
     // public override System.Void Cancel(System.Boolean force)
-    // Offset: 0x194564C
+    // Offset: 0x193C538
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Void UnityWorkItem::Cancel(System.Boolean force)
     void Cancel(bool force);

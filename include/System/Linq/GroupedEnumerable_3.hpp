@@ -127,21 +127,21 @@ namespace System::Linq {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<TKey>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector, System.Func`2<TSource,TElement> elementSelector, System.Collections.Generic.IEqualityComparer`1<TKey> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupedEnumerable_3<TSource, TKey, TElement>* New_ctor(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector, ::System::Func_2<TSource, TElement>* elementSelector, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::GroupedEnumerable_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupedEnumerable_3<TSource, TKey, TElement>*, creationType>(source, keySelector, elementSelector, comparer)));
     }
     // public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<TKey,TElement>> GetEnumerator()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>* GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::GroupedEnumerable_3::GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*, false>(this, ___internal__method);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::GroupedEnumerable_3::System.Collections.IEnumerable.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

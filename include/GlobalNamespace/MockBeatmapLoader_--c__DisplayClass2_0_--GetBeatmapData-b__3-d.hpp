@@ -73,10 +73,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IReadonlyBeatmapData> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x133AE9C
+    // Offset: 0x13C4D2C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x133B1B4
+    // Offset: 0x13C5048
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MockBeatmapLoader/<>c__DisplayClass2_0/<<GetBeatmapData>b__3>d
   // WARNING Not writing size check since size may be invalid!

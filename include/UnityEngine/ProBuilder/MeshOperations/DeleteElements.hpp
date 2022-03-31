@@ -52,22 +52,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: ::UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c
     class $$c;
     // static public System.Void DeleteVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> distinctIndexes)
-    // Offset: 0x19F893C
+    // Offset: 0x19EE828
     static void DeleteVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int>* distinctIndexes);
     // static public System.Int32[] DeleteFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x19F8D88
+    // Offset: 0x19EEC74
     static ::ArrayW<int> DeleteFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
     // static public System.Int32[] DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x19F1108
+    // Offset: 0x19E6FF4
     static ::ArrayW<int> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Int32[] DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<System.Int32> faceIndexes)
-    // Offset: 0x19F8E40
+    // Offset: 0x19EED2C
     static ::ArrayW<int> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int>* faceIndexes);
     // static public System.Int32[] RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x19F9394
+    // Offset: 0x19EF280
     static ::ArrayW<int> RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Int32[] RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x19F9420
+    // Offset: 0x19EF30C
     static ::ArrayW<int> RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements
   #pragma pack(pop)

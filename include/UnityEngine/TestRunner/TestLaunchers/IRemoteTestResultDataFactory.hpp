@@ -36,10 +36,10 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class IRemoteTestResultDataFactory {
     public:
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(::NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(::NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
   #pragma pack(pop)

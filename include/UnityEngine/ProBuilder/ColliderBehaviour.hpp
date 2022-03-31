@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder {
   class ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x24E3340
+    // Offset: 0x24B6124
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -53,17 +53,17 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<ColliderBehaviour*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x24E3068
+    // Offset: 0x24B5E4C
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::Initialize()
     void Initialize();
     // public override System.Void OnEnterPlayMode()
-    // Offset: 0x24E31E0
+    // Offset: 0x24B5FC4
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnEnterPlayMode()
     void OnEnterPlayMode();
     // public override System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x24E3290
+    // Offset: 0x24B6074
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);

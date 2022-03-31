@@ -89,10 +89,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion[] defaultLocalRotations
     ::ArrayW<::UnityEngine::Quaternion>& dyn_defaultLocalRotations();
     // protected System.Void StoreDefaultState()
-    // Offset: 0x21FD460
+    // Offset: 0x21D3244
     void StoreDefaultState();
     // public System.Void .ctor()
-    // Offset: 0x21FDA68
+    // Offset: 0x21D384C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -107,22 +107,22 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HandPoser*, creationType>()));
     }
     // public override System.Void AutoMapping()
-    // Offset: 0x21FD350
+    // Offset: 0x21D3134
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x21FD404
+    // Offset: 0x21D31E8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x21FD5BC
+    // Offset: 0x21D33A0
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x21FD6B8
+    // Offset: 0x21D349C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();

@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x1507D78
+    // Offset: 0x14D4BC8
     float get_time();
     // protected System.Void .ctor(System.Single time)
-    // Offset: 0x1507D80
+    // Offset: 0x14D4BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectExecutionRating* New_ctor(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectExecutionRating::.ctor");

@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single timeScale
     float& dyn_timeScale();
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x13A1D84
+    // Offset: 0x1399088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerSongSyncController::InitData* New_ctor(::UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData::.ctor");

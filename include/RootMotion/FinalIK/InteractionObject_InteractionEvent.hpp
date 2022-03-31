@@ -45,21 +45,21 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10DF100
+    // [TooltipAttribute] Offset: 0x12779D8
     // public System.Single time
     // Size: 0x4
     // Offset: 0x10
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DF138
+    // [TooltipAttribute] Offset: 0x1277A10
     // public System.Boolean pause
     // Size: 0x1
     // Offset: 0x14
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10DF170
+    // [TooltipAttribute] Offset: 0x1277A48
     // public System.Boolean pickUp
     // Size: 0x1
     // Offset: 0x15
@@ -68,21 +68,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUp and: animations
     char __padding2[0x2] = {};
-    // [TooltipAttribute] Offset: 0x10DF1A8
+    // [TooltipAttribute] Offset: 0x1277A80
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*> animations;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x10DF1E0
+    // [TooltipAttribute] Offset: 0x1277AB8
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*> messages;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x10DF218
+    // [TooltipAttribute] Offset: 0x1277AF0
     // public UnityEngine.Events.UnityEvent unityEvent
     // Size: 0x8
     // Offset: 0x28
@@ -103,10 +103,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Events.UnityEvent unityEvent
     ::UnityEngine::Events::UnityEvent*& dyn_unityEvent();
     // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x238059C
+    // Offset: 0x2355380
     void Activate(::UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x23825F0
+    // Offset: 0x23573D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

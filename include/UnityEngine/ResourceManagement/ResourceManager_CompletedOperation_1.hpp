@@ -78,14 +78,14 @@ namespace UnityEngine::ResourceManagement {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void Init(TObject result, System.Boolean success, System.String errorMsg, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CompletedOperation_1::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(success), ::il2cpp_utils::ExtractType(errorMsg), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, result, success, errorMsg, releaseDependenciesOnFailure);
     }
     // protected override System.String get_DebugName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName() {
@@ -94,7 +94,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -104,7 +104,7 @@ namespace UnityEngine::ResourceManagement {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager::CompletedOperation_1<TObject>*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion() {
@@ -113,7 +113,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // protected override System.Void Execute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute() {

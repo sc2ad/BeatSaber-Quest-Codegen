@@ -40,20 +40,20 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnPeerConnected : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x218B9D0
+    // Offset: 0x21627B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnPeerConnected* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::EventBasedNetListener::OnPeerConnected::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnPeerConnected*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.NetPeer peer)
-    // Offset: 0x218967C
+    // Offset: 0x2160460
     void Invoke(::LiteNetLib::NetPeer* peer);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.NetPeer peer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x218B9E0
+    // Offset: 0x21627C4
     ::System::IAsyncResult* BeginInvoke(::LiteNetLib::NetPeer* peer, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x218BA04
+    // Offset: 0x21627E8
     void EndInvoke(::System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerConnected
   #pragma pack(pop)

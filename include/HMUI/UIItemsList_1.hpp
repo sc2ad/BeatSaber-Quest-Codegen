@@ -73,28 +73,28 @@ namespace HMUI {
       static constexpr std::string_view NESTED_NAME = "DataCallback";
       static constexpr bool IS_VALUE_TYPE = false;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename UIItemsList_1<T>::DataCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
         static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIItemsList_1::DataCallback::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename UIItemsList_1<T>::DataCallback*, creationType>(object, method)));
       }
       // public System.Void Invoke(System.Int32 idx, T item)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Invoke(int idx, T item) {
         static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIItemsList_1::DataCallback::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(idx), ::il2cpp_utils::ExtractType(item)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, idx, item);
       }
       // public System.IAsyncResult BeginInvoke(System.Int32 idx, T item, System.AsyncCallback callback, System.Object object)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::IAsyncResult* BeginInvoke(int idx, T item, ::System::AsyncCallback* callback, ::Il2CppObject* object) {
         static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIItemsList_1::DataCallback::BeginInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(idx), ::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
         return ::il2cpp_utils::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal__method, idx, item, callback, object);
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void EndInvoke(::System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIItemsList_1::DataCallback::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
@@ -127,7 +127,7 @@ namespace HMUI {
     bool insertInTheBeginning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [InjectAttribute] Offset: 0x10A2790
+    // [InjectAttribute] Offset: 0x123C74C
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -184,21 +184,21 @@ namespace HMUI {
       return *reinterpret_cast<::System::Collections::Generic::List_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Collections.Generic.IEnumerable`1<T> get_items()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<T>* get_items() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIItemsList_1::get_items");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_items", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void SetData(System.Int32 numberOfElements, HMUI.UIItemsList`1/HMUI.DataCallback<T> dataCallback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetData(int numberOfElements, typename ::HMUI::UIItemsList_1<T>::DataCallback* dataCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIItemsList_1::SetData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(numberOfElements), ::il2cpp_utils::ExtractType(dataCallback)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, numberOfElements, dataCallback);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

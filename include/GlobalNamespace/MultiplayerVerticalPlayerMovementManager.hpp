@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10BB070
+    // [TooltipAttribute] Offset: 0x12555E4
     // private System.Single _movementRange
     // Size: 0x4
     // Offset: 0x18
@@ -98,28 +98,28 @@ namespace GlobalNamespace {
     float minScoreDifference;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10BB10C
+    // [InjectAttribute] Offset: 0x1255680
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB11C
+    // [InjectAttribute] Offset: 0x1255690
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB12C
+    // [InjectAttribute] Offset: 0x12556A0
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB13C
+    // [InjectAttribute] Offset: 0x12556B0
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x48
@@ -174,19 +174,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastFrameBaseScore
     float& dyn__lastFrameBaseScore();
     // protected System.Void Start()
-    // Offset: 0x1408414
+    // Offset: 0x146CD84
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14084D8
+    // Offset: 0x146CE48
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x14085B4
+    // Offset: 0x146CF24
     void Update();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x14084C8
+    // Offset: 0x146CE38
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x1408E58
+    // Offset: 0x146D808
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

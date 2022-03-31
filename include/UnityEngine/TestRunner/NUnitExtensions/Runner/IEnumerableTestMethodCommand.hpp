@@ -34,7 +34,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class IEnumerableTestMethodCommand {
     public:
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
   #pragma pack(pop)

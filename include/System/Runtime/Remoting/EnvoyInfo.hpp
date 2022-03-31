@@ -62,10 +62,10 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
     ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_envoySinks();
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
-    // Offset: 0x1C79CE0
+    // Offset: 0x1C601B0
     ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)
-    // Offset: 0x1C79CB4
+    // Offset: 0x1C60184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvoyInfo* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::EnvoyInfo::.ctor");

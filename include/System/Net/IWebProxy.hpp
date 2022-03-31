@@ -34,13 +34,13 @@ namespace System::Net {
   class IWebProxy {
     public:
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Uri* GetProxy(::System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsBypassed(::System::Uri* host);
   }; // System.Net.IWebProxy
   #pragma pack(pop)

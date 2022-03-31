@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(this);
     }
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IPointerClickHandler
   #pragma pack(pop)

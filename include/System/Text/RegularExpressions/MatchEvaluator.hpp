@@ -44,20 +44,20 @@ namespace System::Text::RegularExpressions {
   class MatchEvaluator : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BDE81C
+    // Offset: 0x1BC4CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchEvaluator* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::MatchEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchEvaluator*, creationType>(object, method)));
     }
     // public System.String Invoke(System.Text.RegularExpressions.Match match)
-    // Offset: 0x1BDE82C
+    // Offset: 0x1BC4CFC
     ::StringW Invoke(::System::Text::RegularExpressions::Match* match);
     // public System.IAsyncResult BeginInvoke(System.Text.RegularExpressions.Match match, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BDEBC8
+    // Offset: 0x1BC5098
     ::System::IAsyncResult* BeginInvoke(::System::Text::RegularExpressions::Match* match, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BDEBEC
+    // Offset: 0x1BC50BC
     ::StringW EndInvoke(::System::IAsyncResult* result);
   }; // System.Text.RegularExpressions.MatchEvaluator
   #pragma pack(pop)

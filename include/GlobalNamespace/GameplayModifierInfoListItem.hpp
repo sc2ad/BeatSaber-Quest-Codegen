@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _iconImage
     ::UnityEngine::UI::Image*& dyn__iconImage();
     // public System.Void SetModifier(GameplayModifierParamsSO modifierParam, System.Boolean showName)
-    // Offset: 0x1319508
+    // Offset: 0x13E01D0
     void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
     // public System.Void .ctor()
-    // Offset: 0x131E5B0
+    // Offset: 0x13E5274
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class IServerSongPackProvider {
     public:
     // public SongPackMask[] DecomposeSongPackMask(SongPackMask songPackMask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::GlobalNamespace::SongPackMask> DecomposeSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
   }; // IServerSongPackProvider
   #pragma pack(pop)

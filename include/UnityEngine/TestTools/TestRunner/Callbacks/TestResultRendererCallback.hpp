@@ -63,22 +63,22 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Get instance field reference: private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
     ::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*& dyn_m_ResultRenderer();
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x1959254
+    // Offset: 0x1950140
     void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x1959258
+    // Offset: 0x1950144
     void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void OnGUI()
-    // Offset: 0x1959340
+    // Offset: 0x195022C
     void OnGUI();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1959350
+    // Offset: 0x195023C
     void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1959354
+    // Offset: 0x1950240
     void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x1959358
+    // Offset: 0x1950244
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

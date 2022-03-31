@@ -49,7 +49,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Boolean enableUpaCheck
     bool& dyn_enableUpaCheck();
     // public System.Void .ctor()
-    // Offset: 0x202255C
+    // Offset: 0x200FF30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

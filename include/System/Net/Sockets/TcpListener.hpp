@@ -94,29 +94,29 @@ namespace System::Net::Sockets {
     // Get instance field reference: private System.Boolean m_ExclusiveAddressUse
     bool& dyn_m_ExclusiveAddressUse();
     // public System.Net.EndPoint get_LocalEndpoint()
-    // Offset: 0x1B0F7AC
+    // Offset: 0x1B13F60
     ::System::Net::EndPoint* get_LocalEndpoint();
     // public System.Void .ctor(System.Net.IPAddress localaddr, System.Int32 port)
-    // Offset: 0x1B0F63C
+    // Offset: 0x1B13DF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpListener* New_ctor(::System::Net::IPAddress* localaddr, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::TcpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpListener*, creationType>(localaddr, port)));
     }
     // public System.Void Start()
-    // Offset: 0x1B0F7D8
+    // Offset: 0x1B13F8C
     void Start();
     // public System.Void Start(System.Int32 backlog)
-    // Offset: 0x1B0F7E0
+    // Offset: 0x1B13F94
     void Start(int backlog);
     // public System.Void Stop()
-    // Offset: 0x1B0F970
+    // Offset: 0x1B14124
     void Stop();
     // public System.IAsyncResult BeginAcceptTcpClient(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1B0FA44
+    // Offset: 0x1B141F8
     ::System::IAsyncResult* BeginAcceptTcpClient(::System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.Sockets.TcpClient EndAcceptTcpClient(System.IAsyncResult asyncResult)
-    // Offset: 0x1B0FB04
+    // Offset: 0x1B142B8
     ::System::Net::Sockets::TcpClient* EndAcceptTcpClient(::System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
   #pragma pack(pop)

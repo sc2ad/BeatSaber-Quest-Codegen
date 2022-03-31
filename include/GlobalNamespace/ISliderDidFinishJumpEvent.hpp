@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class ISliderDidFinishJumpEvent {
     public:
     // public System.Void HandleSliderDidFinishJump(SliderController sliderController)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleSliderDidFinishJump(::GlobalNamespace::SliderController* sliderController);
   }; // ISliderDidFinishJumpEvent
   #pragma pack(pop)

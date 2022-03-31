@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BTSStarTextEventEffect* btsStarTextEventEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSStarTextEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x10AEB30
+    // [InjectAttribute] Offset: 0x1248B4C
     // private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
     // Size: 0x8
     // Offset: 0x20
@@ -81,19 +81,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
     ::GlobalNamespace::BTSStarTextEffectController::Pool*& dyn__btsStarTextEffectControllerPool();
     // protected System.Void Start()
-    // Offset: 0x136AFA4
+    // Offset: 0x135CC40
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x136B0D8
+    // Offset: 0x135CD74
     void OnDestroy();
     // private System.Void HandleBTSStarTextEventEffect(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x136B20C
+    // Offset: 0x135CEA8
     void HandleBTSStarTextEventEffect(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float desiredAnimationLength);
     // private System.Collections.IEnumerator DespawnEffectDelayed(BTSStarTextEffectController effectController)
-    // Offset: 0x136B2A8
+    // Offset: 0x135CF44
     ::System::Collections::IEnumerator* DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController* effectController);
     // public System.Void .ctor()
-    // Offset: 0x136B350
+    // Offset: 0x135CFEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

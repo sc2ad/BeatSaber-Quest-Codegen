@@ -36,7 +36,7 @@ namespace System::Collections::Generic {
   class CollectionExtensions : public ::Il2CppObject {
     public:
     // static public TValue GetValueOrDefault(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue> dictionary, TKey key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TKey, class TValue>
     static TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::CollectionExtensions::GetValueOrDefault");
@@ -45,7 +45,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key);
     }
     // static public TValue GetValueOrDefault(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue> dictionary, TKey key, TValue defaultValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TKey, class TValue>
     static TValue GetValueOrDefault(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key, TValue defaultValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::CollectionExtensions::GetValueOrDefault");

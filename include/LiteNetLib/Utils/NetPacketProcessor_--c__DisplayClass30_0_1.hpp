@@ -80,14 +80,14 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<::System::Action_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void <SubscribeNetSerializable>b__0(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void $SubscribeNetSerializable$b__0(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass30_0_1::<SubscribeNetSerializable>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<SubscribeNetSerializable>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(userData)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, userData);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

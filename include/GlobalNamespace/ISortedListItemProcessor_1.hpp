@@ -34,14 +34,14 @@ namespace GlobalNamespace {
   class ISortedListItemProcessor_1 {
     public:
     // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<T> insertedNode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<T>* insertedNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedListItemProcessor_1::ProcessInsertedData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessInsertedData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(insertedNode)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, insertedNode);
     }
     // public System.Void ProcessBeforeDeleteData(System.Collections.Generic.LinkedListNode`1<T> nodeToDelete)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<T>* nodeToDelete) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedListItemProcessor_1::ProcessBeforeDeleteData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessBeforeDeleteData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeToDelete)})));

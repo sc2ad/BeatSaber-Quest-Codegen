@@ -32,10 +32,10 @@ namespace GlobalNamespace {
   class IConnectionRequestHandler {
     public:
     // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
   }; // IConnectionRequestHandler
   #pragma pack(pop)

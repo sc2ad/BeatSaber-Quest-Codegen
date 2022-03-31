@@ -93,22 +93,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO _selectedBeatmapCharacteristic
     ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__selectedBeatmapCharacteristic();
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x1373F7C
+    // Offset: 0x1365C78
     ::GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1373E34
+    // Offset: 0x1365B30
     void add_didSelectBeatmapCharacteristicEvent(::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1373ED8
+    // Offset: 0x1365BD4
     void remove_didSelectBeatmapCharacteristicEvent(::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void Init()
-    // Offset: 0x1373F84
+    // Offset: 0x1365C80
     void Init();
     // private System.Void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x1374288
+    // Offset: 0x1365F84
     void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // public System.Void .ctor()
-    // Offset: 0x1374344
+    // Offset: 0x1366040
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -122,12 +122,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSelectionViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1373FEC
+    // Offset: 0x1365CE8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13741DC
+    // Offset: 0x1365ED8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB704
+    // [InjectAttribute] Offset: 0x1255C78
     // private readonly NoteCutter _noteCutter
     // Size: 0x8
     // Offset: 0x20
@@ -69,16 +69,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly NoteCutter _noteCutter
     ::GlobalNamespace::NoteCutter*& dyn__noteCutter();
     // protected System.Void OnEnable()
-    // Offset: 0x1419B84
+    // Offset: 0x140CD3C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1419C18
+    // Offset: 0x140CDD0
     void OnDisable();
     // private System.Void HandleSaberManagerDidUpdateSaberPositions(Saber leftSaber, Saber rightSaber)
-    // Offset: 0x1419CAC
+    // Offset: 0x140CE64
     void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
     // public System.Void .ctor()
-    // Offset: 0x1419CFC
+    // Offset: 0x140CEB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

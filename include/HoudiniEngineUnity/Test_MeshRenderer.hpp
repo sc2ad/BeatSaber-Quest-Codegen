@@ -62,17 +62,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.MeshRenderer self
     ::UnityEngine::MeshRenderer*& dyn_self();
     // public System.Void .ctor(UnityEngine.MeshRenderer self)
-    // Offset: 0x2A73824
+    // Offset: 0x2A3E9D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_MeshRenderer* New_ctor(::UnityEngine::MeshRenderer* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_MeshRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_MeshRenderer*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A73850
+    // Offset: 0x2A3EA00
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_MeshRenderer other)
-    // Offset: 0x2A738C0
+    // Offset: 0x2A3EA70
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshRenderer* other);
   }; // HoudiniEngineUnity.Test_MeshRenderer
   #pragma pack(pop)

@@ -143,28 +143,28 @@ namespace Zenject {
         return *reinterpret_cast<::Zenject::GameObjectCreationParameters**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // Zenject.IProvider <ByNewContextPrefab>b__0(Zenject.DiContainer container)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::Zenject::IProvider* $ByNewContextPrefab$b__0(::Zenject::DiContainer* container) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::$$c__DisplayClass4_0::<ByNewContextPrefab>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ByNewContextPrefab>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::IProvider*, false>(this, ___internal__method, container);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::$$c__DisplayClass4_0::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactorySubContainerBinderWithParams_1<TContract>::$$c__DisplayClass4_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::$$c__DisplayClass4_0::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactorySubContainerBinderWithParams_1<TContract>::$$c__DisplayClass4_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -250,28 +250,28 @@ namespace Zenject {
         return *reinterpret_cast<::Zenject::GameObjectCreationParameters**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // Zenject.IProvider <ByNewContextPrefabResource>b__0(Zenject.DiContainer container)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::Zenject::IProvider* $ByNewContextPrefabResource$b__0(::Zenject::DiContainer* container) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::$$c__DisplayClass8_0::<ByNewContextPrefabResource>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ByNewContextPrefabResource>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::IProvider*, false>(this, ___internal__method, container);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::$$c__DisplayClass8_0::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactorySubContainerBinderWithParams_1<TContract>::$$c__DisplayClass8_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::$$c__DisplayClass8_0::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactorySubContainerBinderWithParams_1<TContract>::$$c__DisplayClass8_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -282,14 +282,14 @@ namespace Zenject {
     }; // Zenject.FactorySubContainerBinderWithParams`1/Zenject.<>c__DisplayClass8_0
     // Could not write size check! Type: Zenject.FactorySubContainerBinderWithParams`1/Zenject.<>c__DisplayClass8_0 is generic, or has no fields that are valid for size checks!
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefab(System.Type installerType, UnityEngine.Object prefab)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefab(::System::Type* installerType, ::UnityEngine::Object* prefab) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::ByNewPrefab");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ByNewPrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(installerType), ::il2cpp_utils::ExtractType(prefab)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method, installerType, prefab);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefab(UnityEngine.Object prefab)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefab(::UnityEngine::Object* prefab) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TInstaller>, ::Zenject::IInstaller>);
@@ -299,7 +299,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___generic__method, prefab);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewContextPrefab(UnityEngine.Object prefab)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefab(::UnityEngine::Object* prefab) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TInstaller>, ::Zenject::IInstaller>);
@@ -309,14 +309,14 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___generic__method, prefab);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewContextPrefab(System.Type installerType, UnityEngine.Object prefab)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefab(::System::Type* installerType, ::UnityEngine::Object* prefab) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::ByNewContextPrefab");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ByNewContextPrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(installerType), ::il2cpp_utils::ExtractType(prefab)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method, installerType, prefab);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResource(System.String resourcePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResource(::StringW resourcePath) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TInstaller>, ::Zenject::IInstaller>);
@@ -326,14 +326,14 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___generic__method, resourcePath);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResource(System.Type installerType, System.String resourcePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResource(::System::Type* installerType, ::StringW resourcePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::ByNewPrefabResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ByNewPrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(installerType), ::il2cpp_utils::ExtractType(resourcePath)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method, installerType, resourcePath);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewContextPrefabResource(System.String resourcePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TInstaller>
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefabResource(::StringW resourcePath) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TInstaller>, ::Zenject::IInstaller>);
@@ -343,14 +343,14 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___generic__method, resourcePath);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewContextPrefabResource(System.Type installerType, System.String resourcePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefabResource(::System::Type* installerType, ::StringW resourcePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactorySubContainerBinderWithParams_1::ByNewContextPrefabResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ByNewContextPrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(installerType), ::il2cpp_utils::ExtractType(resourcePath)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method, installerType, resourcePath);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.FactorySubContainerBinderBase`1
     // Base method: System.Void FactorySubContainerBinderBase_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

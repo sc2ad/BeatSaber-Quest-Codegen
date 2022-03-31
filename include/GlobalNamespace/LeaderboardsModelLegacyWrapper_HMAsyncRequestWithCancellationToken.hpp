@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
-    // Offset: 0x14A62B8
+    // Offset: 0x13B8BD8
     ::System::Threading::CancellationTokenSource* get_cancellationTokenSource();
     // public System.Void .ctor()
-    // Offset: 0x14A575C
+    // Offset: 0x13B807C
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::.ctor()
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, creationType>()));
     }
     // public override System.Void Cancel()
-    // Offset: 0x14A62C0
+    // Offset: 0x13B8BE0
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::Cancel()
     void Cancel();

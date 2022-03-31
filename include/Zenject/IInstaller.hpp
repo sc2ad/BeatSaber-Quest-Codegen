@@ -22,10 +22,10 @@ namespace Zenject {
   class IInstaller {
     public:
     // public System.Boolean get_IsEnabled()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void InstallBindings();
   }; // Zenject.IInstaller
   #pragma pack(pop)

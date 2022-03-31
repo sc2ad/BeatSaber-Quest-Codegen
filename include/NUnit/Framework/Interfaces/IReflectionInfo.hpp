@@ -27,7 +27,7 @@ namespace NUnit::Framework::Interfaces {
   class IReflectionInfo {
     public:
     // public T[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::ArrayW<T> GetCustomAttributes(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::IReflectionInfo::GetCustomAttributes");
@@ -36,7 +36,7 @@ namespace NUnit::Framework::Interfaces {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     bool IsDefined(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::IReflectionInfo::IsDefined");

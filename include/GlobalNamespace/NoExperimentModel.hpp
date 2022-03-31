@@ -46,13 +46,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IExperimentModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
-    // Offset: 0x140D684
+    // Offset: 0x1472034
     ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
     // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
-    // Offset: 0x140D6F0
+    // Offset: 0x14720A0
     ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
     // public System.Void .ctor()
-    // Offset: 0x140D75C
+    // Offset: 0x147210C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

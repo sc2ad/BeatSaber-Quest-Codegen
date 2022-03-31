@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO _sharedWarmupColorScheme
     ::GlobalNamespace::ColorSchemeSO*& dyn__sharedWarmupColorScheme();
     // public System.Void .ctor()
-    // Offset: 0x13B5E14
+    // Offset: 0x142AEE4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13B5D6C
+    // Offset: 0x142AE3C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

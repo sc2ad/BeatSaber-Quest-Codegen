@@ -110,7 +110,7 @@ namespace System::Text::RegularExpressions {
       // Get instance field reference: System.Int32 _data
       int& dyn__data();
       // System.Void .ctor(System.Char chMin, System.Char chMax, System.Int32 lcOp, System.Int32 data)
-      // Offset: 0x1DA552C
+      // Offset: 0x1D889FC
       // ABORTED: conflicts with another method.  LowerCaseMapping(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data);
     }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping
     #pragma pack(pop)
@@ -225,125 +225,125 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.Text.RegularExpressions.RegexCharClass _subtractor
     ::System::Text::RegularExpressions::RegexCharClass*& dyn__subtractor();
     // System.Boolean get_CanMerge()
-    // Offset: 0x1BE69FC
+    // Offset: 0x1BCCECC
     bool get_CanMerge();
     // System.Void set_Negate(System.Boolean value)
-    // Offset: 0x1BE6A1C
+    // Offset: 0x1BCCEEC
     void set_Negate(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1BE1560
+    // Offset: 0x1BC7A30
     static void _cctor();
     // private System.Void .ctor(System.Boolean negate, System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange> ranges, System.Text.StringBuilder categories, System.Text.RegularExpressions.RegexCharClass subtraction)
-    // Offset: 0x1BE69A0
+    // Offset: 0x1BCCE70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass* New_ctor(bool negate, ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>* ranges, ::System::Text::StringBuilder* categories, ::System::Text::RegularExpressions::RegexCharClass* subtraction) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexCharClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCharClass*, creationType>(negate, ranges, categories, subtraction)));
     }
     // System.Void AddChar(System.Char c)
-    // Offset: 0x1BE6A28
+    // Offset: 0x1BCCEF8
     void AddChar(::Il2CppChar c);
     // System.Void AddCharClass(System.Text.RegularExpressions.RegexCharClass cc)
-    // Offset: 0x1BE6B0C
+    // Offset: 0x1BCCFDC
     void AddCharClass(::System::Text::RegularExpressions::RegexCharClass* cc);
     // private System.Void AddSet(System.String set)
-    // Offset: 0x1BE6D18
+    // Offset: 0x1BCD1E8
     void AddSet(::StringW set);
     // System.Void AddSubtraction(System.Text.RegularExpressions.RegexCharClass sub)
-    // Offset: 0x1BE6F14
+    // Offset: 0x1BCD3E4
     void AddSubtraction(::System::Text::RegularExpressions::RegexCharClass* sub);
     // System.Void AddRange(System.Char first, System.Char last)
-    // Offset: 0x1BE6A30
+    // Offset: 0x1BCCF00
     void AddRange(::Il2CppChar first, ::Il2CppChar last);
     // System.Void AddCategoryFromName(System.String categoryName, System.Boolean invert, System.Boolean caseInsensitive, System.String pattern)
-    // Offset: 0x1BE6F1C
+    // Offset: 0x1BCD3EC
     void AddCategoryFromName(::StringW categoryName, bool invert, bool caseInsensitive, ::StringW pattern);
     // private System.Void AddCategory(System.String category)
-    // Offset: 0x1BE7430
+    // Offset: 0x1BCD900
     void AddCategory(::StringW category);
     // System.Void AddLowercase(System.Globalization.CultureInfo culture)
-    // Offset: 0x1BE744C
+    // Offset: 0x1BCD91C
     void AddLowercase(::System::Globalization::CultureInfo* culture);
     // private System.Void AddLowercaseRange(System.Char chMin, System.Char chMax, System.Globalization.CultureInfo culture)
-    // Offset: 0x1BE7558
+    // Offset: 0x1BCDA28
     void AddLowercaseRange(::Il2CppChar chMin, ::Il2CppChar chMax, ::System::Globalization::CultureInfo* culture);
     // System.Void AddWord(System.Boolean ecma, System.Boolean negate)
-    // Offset: 0x1BE77B8
+    // Offset: 0x1BCDC88
     void AddWord(bool ecma, bool negate);
     // System.Void AddSpace(System.Boolean ecma, System.Boolean negate)
-    // Offset: 0x1BE78B4
+    // Offset: 0x1BCDD84
     void AddSpace(bool ecma, bool negate);
     // System.Void AddDigit(System.Boolean ecma, System.Boolean negate, System.String pattern)
-    // Offset: 0x1BE79B0
+    // Offset: 0x1BCDE80
     void AddDigit(bool ecma, bool negate, ::StringW pattern);
     // static System.Char SingletonChar(System.String set)
-    // Offset: 0x1BE7A60
+    // Offset: 0x1BCDF30
     static ::Il2CppChar SingletonChar(::StringW set);
     // static System.Boolean IsMergeable(System.String charClass)
-    // Offset: 0x1BE7A7C
+    // Offset: 0x1BCDF4C
     static bool IsMergeable(::StringW charClass);
     // static System.Boolean IsEmpty(System.String charClass)
-    // Offset: 0x1BE7BC0
+    // Offset: 0x1BCE090
     static bool IsEmpty(::StringW charClass);
     // static System.Boolean IsSingleton(System.String set)
-    // Offset: 0x1BE7C88
+    // Offset: 0x1BCE158
     static bool IsSingleton(::StringW set);
     // static System.Boolean IsSingletonInverse(System.String set)
-    // Offset: 0x1BE7DA4
+    // Offset: 0x1BCE274
     static bool IsSingletonInverse(::StringW set);
     // static private System.Boolean IsSubtraction(System.String charClass)
-    // Offset: 0x1BE7B5C
+    // Offset: 0x1BCE02C
     static bool IsSubtraction(::StringW charClass);
     // static System.Boolean IsNegated(System.String set)
-    // Offset: 0x1BE7B30
+    // Offset: 0x1BCE000
     static bool IsNegated(::StringW set);
     // static System.Boolean IsECMAWordChar(System.Char ch)
-    // Offset: 0x1BE7EC4
+    // Offset: 0x1BCE394
     static bool IsECMAWordChar(::Il2CppChar ch);
     // static System.Boolean IsWordChar(System.Char ch)
-    // Offset: 0x1BE7FAC
+    // Offset: 0x1BCE47C
     static bool IsWordChar(::Il2CppChar ch);
     // static System.Boolean CharInClass(System.Char ch, System.String set)
-    // Offset: 0x1BE7F34
+    // Offset: 0x1BCE404
     static bool CharInClass(::Il2CppChar ch, ::StringW set);
     // static System.Boolean CharInClassRecursive(System.Char ch, System.String set, System.Int32 start)
-    // Offset: 0x1BE8040
+    // Offset: 0x1BCE510
     static bool CharInClassRecursive(::Il2CppChar ch, ::StringW set, int start);
     // static private System.Boolean CharInClassInternal(System.Char ch, System.String set, System.Int32 start, System.Int32 mySetLength, System.Int32 myCategoryLength)
-    // Offset: 0x1BE8188
+    // Offset: 0x1BCE658
     static bool CharInClassInternal(::Il2CppChar ch, ::StringW set, int start, int mySetLength, int myCategoryLength);
     // static private System.Boolean CharInCategory(System.Char ch, System.String set, System.Int32 start, System.Int32 mySetLength, System.Int32 myCategoryLength)
-    // Offset: 0x1BE82A8
+    // Offset: 0x1BCE778
     static bool CharInCategory(::Il2CppChar ch, ::StringW set, int start, int mySetLength, int myCategoryLength);
     // static private System.Boolean CharInCategoryGroup(System.Char ch, System.Globalization.UnicodeCategory chcategory, System.String category, ref System.Int32 i)
-    // Offset: 0x1BE8460
+    // Offset: 0x1BCE930
     static bool CharInCategoryGroup(::Il2CppChar ch, ::System::Globalization::UnicodeCategory chcategory, ::StringW category, ByRef<int> i);
     // static private System.String NegateCategory(System.String category)
-    // Offset: 0x1BE6820
+    // Offset: 0x1BCCCF0
     static ::StringW NegateCategory(::StringW category);
     // static System.Text.RegularExpressions.RegexCharClass Parse(System.String charClass)
-    // Offset: 0x1BE8534
+    // Offset: 0x1BCEA04
     static ::System::Text::RegularExpressions::RegexCharClass* Parse(::StringW charClass);
     // static private System.Text.RegularExpressions.RegexCharClass ParseRecursive(System.String charClass, System.Int32 start)
-    // Offset: 0x1BE859C
+    // Offset: 0x1BCEA6C
     static ::System::Text::RegularExpressions::RegexCharClass* ParseRecursive(::StringW charClass, int start);
     // private System.Int32 RangeCount()
-    // Offset: 0x1BE6C50
+    // Offset: 0x1BCD120
     int RangeCount();
     // System.String ToStringClass()
-    // Offset: 0x1BE87D4
+    // Offset: 0x1BCECA4
     ::StringW ToStringClass();
     // private System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange GetRangeAt(System.Int32 i)
-    // Offset: 0x1BE6CA0
+    // Offset: 0x1BCD170
     ::System::Text::RegularExpressions::RegexCharClass::SingleRange* GetRangeAt(int i);
     // private System.Void Canonicalize()
-    // Offset: 0x1BE8994
+    // Offset: 0x1BCEE64
     void Canonicalize();
     // static private System.String SetFromProperty(System.String capname, System.Boolean invert, System.String pattern)
-    // Offset: 0x1BE7124
+    // Offset: 0x1BCD5F4
     static ::StringW SetFromProperty(::StringW capname, bool invert, ::StringW pattern);
     // System.Void .ctor()
-    // Offset: 0x1BE6900
+    // Offset: 0x1BCCDD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

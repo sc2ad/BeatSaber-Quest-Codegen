@@ -39,22 +39,22 @@ namespace UnityEngine {
       return *reinterpret_cast<::UnityEngine::ILogHandler*>(this);
     }
     // public UnityEngine.ILogHandler get_logHandler()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::ILogHandler* get_logHandler();
     // public System.Boolean get_logEnabled()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_logEnabled();
     // public System.Void Log(UnityEngine.LogType logType, System.Object message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Log(::UnityEngine::LogType logType, ::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Log(::UnityEngine::LogType logType, ::Il2CppObject* message, ::UnityEngine::Object* context);
     // public System.Void LogError(System.String tag, System.Object message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogError(::StringW tag, ::Il2CppObject* message);
     // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogFormat(::UnityEngine::LogType logType, ::StringW format, ::ArrayW<::Il2CppObject*> args);
   }; // UnityEngine.ILogger
   #pragma pack(pop)

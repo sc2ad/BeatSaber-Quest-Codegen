@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(this);
     }
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IPointerExitHandler
   #pragma pack(pop)

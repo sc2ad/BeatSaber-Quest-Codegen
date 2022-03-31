@@ -133,10 +133,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32[] _terrainTiles
     ::ArrayW<int>& dyn__terrainTiles();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeScatterTrees other)
-    // Offset: 0x19E3770
+    // Offset: 0x19D965C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
     // public System.Void .ctor()
-    // Offset: 0x19DE548
+    // Offset: 0x19D4434
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

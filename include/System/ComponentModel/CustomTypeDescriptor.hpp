@@ -64,13 +64,13 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _parent
     ::System::ComponentModel::ICustomTypeDescriptor*& dyn__parent();
     // public System.ComponentModel.AttributeCollection GetAttributes()
-    // Offset: 0x1D77F58
+    // Offset: 0x1D5B428
     ::System::ComponentModel::AttributeCollection* GetAttributes();
     // public System.ComponentModel.TypeConverter GetConverter()
-    // Offset: 0x1D7803C
+    // Offset: 0x1D5B50C
     ::System::ComponentModel::TypeConverter* GetConverter();
     // protected System.Void .ctor()
-    // Offset: 0x1D77F50
+    // Offset: 0x1D5B420
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

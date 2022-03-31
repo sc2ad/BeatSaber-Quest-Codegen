@@ -76,10 +76,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
     ::HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x16A1368
+    // Offset: 0x16AA53C
     HAPI_Transform(bool initializeFields);
     // public System.Void Init()
-    // Offset: 0x16A141C
+    // Offset: 0x16AA5F0
     void Init();
   }; // HoudiniEngineUnity.HAPI_Transform
   #pragma pack(pop)

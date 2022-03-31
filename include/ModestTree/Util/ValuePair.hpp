@@ -41,7 +41,7 @@ namespace ModestTree::Util {
   class ValuePair : public ::Il2CppObject {
     public:
     // static public ModestTree.Util.ValuePair`2<T1,T2> New(T1 first, T2 second)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T1, class T2>
     static ::ModestTree::Util::ValuePair_2<T1, T2>* New(T1 first, T2 second) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::ValuePair::New");
@@ -50,7 +50,7 @@ namespace ModestTree::Util {
       return ::il2cpp_utils::RunMethodRethrow<::ModestTree::Util::ValuePair_2<T1, T2>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static public ModestTree.Util.ValuePair`3<T1,T2,T3> New(T1 first, T2 second, T3 third)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T1, class T2, class T3>
     static ::ModestTree::Util::ValuePair_3<T1, T2, T3>* New(T1 first, T2 second, T3 third) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::ValuePair::New");
@@ -59,7 +59,7 @@ namespace ModestTree::Util {
       return ::il2cpp_utils::RunMethodRethrow<::ModestTree::Util::ValuePair_3<T1, T2, T3>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second, third);
     }
     // static public ModestTree.Util.ValuePair`4<T1,T2,T3,T4> New(T1 first, T2 second, T3 third, T4 fourth)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T1, class T2, class T3, class T4>
     static ::ModestTree::Util::ValuePair_4<T1, T2, T3, T4>* New(T1 first, T2 second, T3 third, T4 fourth) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::ValuePair::New");

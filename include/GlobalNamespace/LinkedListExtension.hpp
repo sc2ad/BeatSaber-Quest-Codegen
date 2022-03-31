@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class LinkedListExtension : public ::Il2CppObject {
     public:
     // static public System.Int32 Index(System.Collections.Generic.LinkedListNode`1<T> searchNode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static int Index(::System::Collections::Generic::LinkedListNode_1<T>* searchNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LinkedListExtension::Index");

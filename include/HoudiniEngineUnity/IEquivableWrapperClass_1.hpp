@@ -32,7 +32,7 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<T>*>(this);
     }
     // public System.Boolean IsNull()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsNull() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::IEquivableWrapperClass_1::IsNull");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsNull", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

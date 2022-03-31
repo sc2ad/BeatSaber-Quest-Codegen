@@ -48,16 +48,16 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Set static field: static readonly Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper Instance
     static void _set_Instance(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E100A8
+    // Offset: 0x1DF4578
     static void _cctor();
     // Org.BouncyCastle.Math.BigInteger CalculatePrivate(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x1E0FE68
+    // Offset: 0x1DF4338
     ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
     // Org.BouncyCastle.Math.BigInteger CalculatePublic(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x1E10068
+    // Offset: 0x1DF4538
     ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
     // private System.Void .ctor()
-    // Offset: 0x1E100A0
+    // Offset: 0x1DF4570
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

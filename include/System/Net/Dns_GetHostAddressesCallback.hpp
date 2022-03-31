@@ -42,20 +42,20 @@ namespace System::Net {
   class Dns::GetHostAddressesCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A4BC24
+    // Offset: 0x1A40B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dns::GetHostAddressesCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Dns::GetHostAddressesCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dns::GetHostAddressesCallback*, creationType>(object, method)));
     }
     // public System.Net.IPAddress[] Invoke(System.String hostName)
-    // Offset: 0x1A4C7CC
+    // Offset: 0x1A416B8
     ::ArrayW<::System::Net::IPAddress*> Invoke(::StringW hostName);
     // public System.IAsyncResult BeginInvoke(System.String hostName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A4BC34
+    // Offset: 0x1A40B20
     ::System::IAsyncResult* BeginInvoke(::StringW hostName, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.IPAddress[] EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A4BD50
+    // Offset: 0x1A40C3C
     ::ArrayW<::System::Net::IPAddress*> EndInvoke(::System::IAsyncResult* result);
   }; // System.Net.Dns/System.Net.GetHostAddressesCallback
   #pragma pack(pop)

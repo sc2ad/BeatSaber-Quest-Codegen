@@ -30,10 +30,10 @@ namespace GlobalNamespace {
   class SteamVR_UpdatePoses : public ::UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0x1BB7B78
+    // Offset: 0x1B9E048
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1BB7C14
+    // Offset: 0x1B9E0E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

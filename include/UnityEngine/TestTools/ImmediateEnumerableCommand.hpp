@@ -42,7 +42,7 @@ namespace UnityEngine::TestTools {
   class ImmediateEnumerableCommand : public ::NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x194988C
+    // Offset: 0x1940778
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +51,7 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<ImmediateEnumerableCommand*, creationType>(innerCommand)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x19543FC
+    // Offset: 0x194B2E8
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

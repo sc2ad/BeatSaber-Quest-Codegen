@@ -80,28 +80,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _frameNumber
     int& dyn__frameNumber();
     // public System.String get_directory()
-    // Offset: 0x14813E0
+    // Offset: 0x12F5AC8
     ::StringW get_directory();
     // protected System.Void OnEnable()
-    // Offset: 0x14813E8
+    // Offset: 0x12F5AD0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1481470
+    // Offset: 0x12F5B58
     void OnDisable();
     // public System.Void Init(System.String directory, System.Int32 framerate, PlaybackRenderer playbackRenderer)
-    // Offset: 0x14814F8
+    // Offset: 0x12F5BE0
     void Init(::StringW directory, int framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
     // private System.Void HandleTexturesReady()
-    // Offset: 0x1481604
+    // Offset: 0x12F5CEC
     void HandleTexturesReady();
     // private System.Void SaveScreenshot(UnityEngine.RenderTexture renderTexture, System.String directory)
-    // Offset: 0x1481694
+    // Offset: 0x12F5D7C
     void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
     // static private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x14817B4
+    // Offset: 0x12F5E9C
     static ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x14818D8
+    // Offset: 0x12F5FC0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

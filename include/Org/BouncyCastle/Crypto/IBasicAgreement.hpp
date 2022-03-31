@@ -34,13 +34,13 @@ namespace Org::BouncyCastle::Crypto {
   class IBasicAgreement {
     public:
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
   }; // Org.BouncyCastle.Crypto.IBasicAgreement
   #pragma pack(pop)

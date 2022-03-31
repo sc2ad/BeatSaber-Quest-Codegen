@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: protected System.Boolean _dissolving
     bool& dyn__dissolving();
     // protected System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x13BAA64
+    // Offset: 0x2A9F7E4
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x13BB250
+    // Offset: 0x2AA0068
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

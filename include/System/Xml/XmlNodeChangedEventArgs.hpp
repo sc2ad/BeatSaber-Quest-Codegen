@@ -99,10 +99,10 @@ namespace System::Xml {
     // Get instance field reference: private System.String newValue
     ::StringW& dyn_newValue();
     // public System.Xml.XmlNodeChangedAction get_Action()
-    // Offset: 0x15AE318
+    // Offset: 0x15A50B0
     ::System::Xml::XmlNodeChangedAction get_Action();
     // public System.Void .ctor(System.Xml.XmlNode node, System.Xml.XmlNode oldParent, System.Xml.XmlNode newParent, System.String oldValue, System.String newValue, System.Xml.XmlNodeChangedAction action)
-    // Offset: 0x15AE26C
+    // Offset: 0x15A5004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNodeChangedEventArgs* New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue, ::System::Xml::XmlNodeChangedAction action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNodeChangedEventArgs::.ctor");

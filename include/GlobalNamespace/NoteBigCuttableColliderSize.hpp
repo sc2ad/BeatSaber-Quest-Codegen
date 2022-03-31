@@ -85,16 +85,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _defaultColliderSize
     ::UnityEngine::Vector3& dyn__defaultColliderSize();
     // protected System.Void Awake()
-    // Offset: 0x140E0AC
+    // Offset: 0x1472A5C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x140E18C
+    // Offset: 0x1472B3C
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x140E29C
+    // Offset: 0x1472C4C
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void .ctor()
-    // Offset: 0x140E390
+    // Offset: 0x1472D40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

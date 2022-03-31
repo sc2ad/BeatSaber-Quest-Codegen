@@ -94,29 +94,29 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E27058
+    // Offset: 0x1E0B528
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1E27154
+    // Offset: 0x1E0B624
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 blockSize)
-    // Offset: 0x1E26BB8
+    // Offset: 0x1E0B088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OfbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int blockSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OfbBlockCipher*, creationType>(cipher, blockSize)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E26DAC
+    // Offset: 0x1E0B27C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E2715C
+    // Offset: 0x1E0B62C
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E27164
+    // Offset: 0x1E0B634
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E26F84
+    // Offset: 0x1E0B454
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.OfbBlockCipher
   #pragma pack(pop)

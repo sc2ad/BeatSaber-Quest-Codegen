@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class BadCutScoringElement::Pool : public ::GlobalNamespace::ScoringElement::Pool_1<::GlobalNamespace::BadCutScoringElement*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x136BB0C
+    // Offset: 0x135D7EC
     // Implemented from: ScoringElement/Pool`1
     // Base method: System.Void Pool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

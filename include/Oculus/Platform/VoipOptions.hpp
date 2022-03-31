@@ -60,16 +60,16 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     ::System::IntPtr& dyn_Handle();
     // public System.Void SetBitrateForNewConnections(Oculus.Platform.VoipBitrate value)
-    // Offset: 0x2A603EC
+    // Offset: 0x2A2C59C
     void SetBitrateForNewConnections(::Oculus::Platform::VoipBitrate value);
     // public System.Void SetCreateNewConnectionUseDtx(Oculus.Platform.VoipDtxState value)
-    // Offset: 0x2A60468
+    // Offset: 0x2A2C618
     void SetCreateNewConnectionUseDtx(::Oculus::Platform::VoipDtxState value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.VoipOptions options)
-    // Offset: 0x2A5F1F8
+    // Offset: 0x2A2B3A8
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x2A60374
+    // Offset: 0x2A2C524
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +78,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<VoipOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x2A604E4
+    // Offset: 0x2A2C694
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

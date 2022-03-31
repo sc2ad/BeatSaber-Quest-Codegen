@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String keyword
     ::StringW& dyn_keyword();
     // System.Boolean <GetResultEnvironmentControllerForKeyword>b__0(ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword controllerWithKeyword)
-    // Offset: 0x13C8AC8
+    // Offset: 0x137E1D8
     bool $GetResultEnvironmentControllerForKeyword$b__0(::GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* controllerWithKeyword);
     // public System.Void .ctor()
-    // Offset: 0x13C8960
+    // Offset: 0x137E070
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

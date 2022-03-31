@@ -43,14 +43,14 @@ namespace Zenject {
   class MemoryPoolIdInitialSizeMaxSizeBinder_1 : public ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract> {
     public:
     // public Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> WithId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* WithId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1::WithId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(identifier)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*, false>(this, ___internal__method, identifier);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MemoryPoolInitialSizeMaxSizeBinder`1
     // Base method: System.Void MemoryPoolInitialSizeMaxSizeBinder_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Base method: System.Void MemoryPoolMaxSizeBinder_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)

@@ -62,17 +62,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.MeshFilter self
     ::UnityEngine::MeshFilter*& dyn_self();
     // public System.Void .ctor(UnityEngine.MeshFilter self)
-    // Offset: 0x2A7321C
+    // Offset: 0x2A3E3CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_MeshFilter* New_ctor(::UnityEngine::MeshFilter* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_MeshFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_MeshFilter*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A73248
+    // Offset: 0x2A3E3F8
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_MeshFilter other)
-    // Offset: 0x2A732B8
+    // Offset: 0x2A3E468
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshFilter* other);
   }; // HoudiniEngineUnity.Test_MeshFilter
   #pragma pack(pop)

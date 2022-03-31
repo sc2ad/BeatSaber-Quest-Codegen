@@ -23,10 +23,10 @@ namespace UnityEngine::Timeline {
   class IInterval {
     public:
     // public System.Int64 get_intervalStart()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_intervalStart();
     // public System.Int64 get_intervalEnd()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_intervalEnd();
   }; // UnityEngine.Timeline.IInterval
   #pragma pack(pop)

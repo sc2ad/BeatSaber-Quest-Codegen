@@ -88,23 +88,23 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<System.Object>> _method
     ::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>*& dyn__method();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1BF3B6C
+    // Offset: 0x1BDA03C
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1BF3B74
+    // Offset: 0x1BDA044
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<System.Object>> method, Zenject.DiContainer container)
-    // Offset: 0x1BF3B34
+    // Offset: 0x1BDA004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodMultipleProviderUntyped* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>* method, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodMultipleProviderUntyped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodMultipleProviderUntyped*, creationType>(method, container)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1BF3B7C
+    // Offset: 0x1BDA04C
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1BF3B98
+    // Offset: 0x1BDA068
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.MethodMultipleProviderUntyped
   #pragma pack(pop)

@@ -36,7 +36,7 @@ namespace Zenject {
   class MonoInstaller : public ::Zenject::MonoInstallerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1BF426C
+    // Offset: 0x1BDA73C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -50,7 +50,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<MonoInstaller*, creationType>()));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BF427C
+    // Offset: 0x1BDA74C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: Zenject.InjectTypeInfo MonoInstallerBase::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

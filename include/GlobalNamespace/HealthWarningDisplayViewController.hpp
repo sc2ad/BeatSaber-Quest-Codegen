@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [HeaderAttribute] Offset: 0x10C0D90
+    // [HeaderAttribute] Offset: 0x125B324
     // private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     // Size: 0x8
     // Offset: 0x70
     ::TMPro::TextMeshProUGUI* healthAndSafetyTextMesh;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10C0DDC
+    // [LocalizationKeyAttribute] Offset: 0x125B370
     // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x78
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showShortHealthAndSafety
     bool& dyn__showShortHealthAndSafety();
     // public System.Void .ctor()
-    // Offset: 0x13277E0
+    // Offset: 0x13B08C8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningDisplayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1327798
+    // Offset: 0x13B0880
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

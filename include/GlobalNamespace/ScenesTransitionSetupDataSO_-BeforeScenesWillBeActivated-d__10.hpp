@@ -83,10 +83,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x2A0979C
+    // Offset: 0x29D5914
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x2A099D8
+    // Offset: 0x29D5B50
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // ScenesTransitionSetupDataSO/<BeforeScenesWillBeActivated>d__10
   #pragma pack(pop)

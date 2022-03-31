@@ -30,7 +30,7 @@ namespace System {
   class ITupleInternal {
     public:
     // public System.String ToString(System.Text.StringBuilder sb)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::System::Text::StringBuilder* sb);
   }; // System.ITupleInternal
   #pragma pack(pop)

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class DefaultEnvironmentEventsFactory : public ::Il2CppObject {
     public:
     // static public System.Void InsertDefaultEnvironmentEvents(BeatmapData beatmapData, BeatmapEventDataBoxGroupLists beatmapEventDataBoxGroupLists, DefaultEnvironmentEvents defaultEnvironmentEvents, EnvironmentLightGroups environmentLightGroups)
-    // Offset: 0x141B310
+    // Offset: 0x140E4C8
     static void InsertDefaultEnvironmentEvents(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::BeatmapEventDataBoxGroupLists* beatmapEventDataBoxGroupLists, ::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents, ::GlobalNamespace::EnvironmentLightGroups* environmentLightGroups);
   }; // DefaultEnvironmentEventsFactory
   #pragma pack(pop)

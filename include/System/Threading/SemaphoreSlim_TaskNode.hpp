@@ -58,13 +58,13 @@ namespace System::Threading {
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next
     ::System::Threading::SemaphoreSlim::TaskNode*& dyn_Next();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1DEB68C
+    // Offset: 0x1DCFB5C
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1DEB6E0
+    // Offset: 0x1DCFBB0
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // System.Void .ctor()
-    // Offset: 0x1DEA49C
+    // Offset: 0x1DCE96C
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::.ctor()
     // Base method: System.Void Task::.ctor()

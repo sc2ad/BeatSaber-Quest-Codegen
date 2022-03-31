@@ -235,19 +235,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CursorLockMode previousCursorLockMode
     ::UnityEngine::CursorLockMode& dyn_previousCursorLockMode();
     // private System.Void Start()
-    // Offset: 0x19C7B14
+    // Offset: 0x19BDA00
     void Start();
     // private System.Void Update()
-    // Offset: 0x19C7B18
+    // Offset: 0x19BDA04
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0x19C7F00
+    // Offset: 0x19BDDEC
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0x19C821C
+    // Offset: 0x19BE108
     bool IsTweakingPitch();
     // public System.Void .ctor()
-    // Offset: 0x19C82AC
+    // Offset: 0x19BE198
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

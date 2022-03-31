@@ -85,13 +85,13 @@ namespace System::Xml::XPath {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef> mapNmsp
     ::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>*& dyn_mapNmsp();
     // System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x1B88DCC
+    // Offset: 0x1B6F29C
     ::System::Xml::XmlNameTable* get_NameTable();
     // System.Int32 GetXmlNamespaceNode(out MS.Internal.Xml.Cache.XPathNode[] pageXmlNmsp)
-    // Offset: 0x1B88DD4
+    // Offset: 0x1B6F2A4
     int GetXmlNamespaceNode(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageXmlNmsp);
     // System.Int32 LookupNamespaces(MS.Internal.Xml.Cache.XPathNode[] pageElem, System.Int32 idxElem, out MS.Internal.Xml.Cache.XPathNode[] pageNmsp)
-    // Offset: 0x1B88DE4
+    // Offset: 0x1B6F2B4
     int LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
   }; // System.Xml.XPath.XPathDocument
   #pragma pack(pop)

@@ -49,7 +49,7 @@ namespace Zenject {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x1085D7C
+    // [TooltipAttribute] Offset: 0x121FA0C
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
@@ -72,22 +72,22 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean <Initialized>k__BackingField
     bool& dyn_$Initialized$k__BackingField();
     // public System.Boolean get_Initialized()
-    // Offset: 0x1BFDCB8
+    // Offset: 0x1BE4188
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x1BFDCC0
+    // Offset: 0x1BE4190
     void set_Initialized(bool value);
     // protected System.Void Initialize()
-    // Offset: 0x1BFDCCC
+    // Offset: 0x1BE419C
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x1BFDD78
+    // Offset: 0x1BE4248
     void Run();
     // protected System.Void RunInternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RunInternal();
     // static public T CreateComponent(UnityEngine.GameObject gameObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T CreateComponent(::UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, ::Zenject::RunnableContext*>);
@@ -97,7 +97,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x1BFDDF0
+    // Offset: 0x1BE42C0
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -111,12 +111,12 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BFDE00
+    // Offset: 0x1BE42D0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BFDE54
+    // Offset: 0x1BE4324
     // Implemented from: Zenject.Context
     // Base method: Zenject.InjectTypeInfo Context::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioPlayerBase* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioPlayerBase*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B0780
+    // [InjectAttribute] Offset: 0x124AC04
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -67,19 +67,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // protected System.Void Start()
-    // Offset: 0x13ED9AC
+    // Offset: 0x2AA7F04
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13EDC10
+    // Offset: 0x2AA8168
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x13EDBBC
+    // Offset: 0x2AA8114
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x13EDDAC
+    // Offset: 0x2AA8304
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x13EDE00
+    // Offset: 0x2AA8358
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

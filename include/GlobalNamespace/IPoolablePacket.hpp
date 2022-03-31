@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IPoolablePacket {
     public:
     // public System.Void Release()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Release();
   }; // IPoolablePacket
   #pragma pack(pop)

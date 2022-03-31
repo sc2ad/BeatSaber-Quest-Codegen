@@ -35,20 +35,20 @@ namespace System::Reflection {
   class MonoProperty::GetterAdapter : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D5A068
+    // Offset: 0x1D3D538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoProperty::GetterAdapter* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoProperty::GetterAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoProperty::GetterAdapter*, creationType>(object, method)));
     }
     // public System.Object Invoke(System.Object _this)
-    // Offset: 0x1D5A078
+    // Offset: 0x1D3D548
     ::Il2CppObject* Invoke(::Il2CppObject* _this);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D5A414
+    // Offset: 0x1D3D8E4
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D5A438
+    // Offset: 0x1D3D908
     ::Il2CppObject* EndInvoke(::System::IAsyncResult* result);
   }; // System.Reflection.MonoProperty/System.Reflection.GetterAdapter
   #pragma pack(pop)

@@ -34,21 +34,21 @@ namespace GlobalNamespace {
   class DataItemConvertor_1 : public ::Il2CppObject {
     public:
     // public System.Type get_inputDataType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_inputDataType() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataItemConvertor_1::get_inputDataType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_inputDataType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method);
     }
     // public TOut Convert(System.Object item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TOut Convert(::Il2CppObject* item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataItemConvertor_1::Convert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Convert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       return ::il2cpp_utils::RunMethodRethrow<TOut, false>(this, ___internal__method, item);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -73,56 +73,56 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Threading::Tasks::TaskCompletionSource_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Threading.Tasks.Task`1<T> get_task()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<T>* get_task() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation_1::get_task");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_task", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___internal__method);
     }
     // private System.Boolean IsValidRequest()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsValidRequest() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation_1::IsValidRequest");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsValidRequest", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // private System.Void Complete(T computeResult)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Complete(T computeResult) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation_1::Complete");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Complete", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(computeResult)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, computeResult);
     }
     // private System.Void Cancel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Cancel() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation_1::Cancel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Cancel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void Fail(System.Exception ex)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Fail(::System::Exception* ex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation_1::Fail");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Fail", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ex)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, ex);
     }
     // protected T Compute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Compute() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation_1::Compute");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Compute", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // protected System.Void Finally()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Finally() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation_1::Finally");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finally", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected System.Void .ctor(System.Int32 timeoutMs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: AsyncComputeOperation
     // Base method: System.Void AsyncComputeOperation::.ctor(System.Int32 timeoutMs)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -131,7 +131,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncComputeOperation_1<T>*, creationType>(timeoutMs)));
     }
     // public override System.Void Execute(System.Boolean disposed)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: AsyncComputeOperation
     // Base method: System.Void AsyncComputeOperation::Execute(System.Boolean disposed)
     void Execute(bool disposed) {

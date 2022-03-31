@@ -65,7 +65,7 @@ namespace Newtonsoft::Json::Linq {
     template<typename T, typename U>
     class $Convert$d__14_2;
     // static public U Value(System.Collections.Generic.IEnumerable`1<Newtonsoft.Json.Linq.JToken> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static U Value(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::Extensions::Value");
@@ -74,7 +74,7 @@ namespace Newtonsoft::Json::Linq {
       return ::il2cpp_utils::RunMethodRethrow<U, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value);
     }
     // static public U Value(System.Collections.Generic.IEnumerable`1<T> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class U>
     static U Value(::System::Collections::Generic::IEnumerable_1<T>* value) {
       static_assert(std::is_convertible_v<T, ::Newtonsoft::Json::Linq::JToken*>);
@@ -84,7 +84,7 @@ namespace Newtonsoft::Json::Linq {
       return ::il2cpp_utils::RunMethodRethrow<U, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value);
     }
     // static U Convert(T token)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class U>
     static U Convert(T token) {
       static_assert(std::is_convertible_v<T, ::Newtonsoft::Json::Linq::JToken*>);

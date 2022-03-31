@@ -27,10 +27,10 @@ namespace GlobalNamespace {
   class MathfExtra : public ::Il2CppObject {
     public:
     // static public System.Single Mod(System.Single value, System.Single mod)
-    // Offset: 0x2ACC7BC
+    // Offset: 0x2A9B790
     static float Mod(float value, float mod);
     // public System.Void .ctor()
-    // Offset: 0x2ACC838
+    // Offset: 0x2A9B80C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

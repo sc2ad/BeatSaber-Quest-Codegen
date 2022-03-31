@@ -80,10 +80,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Boolean autoReleaseHandle
     bool& dyn_autoReleaseHandle();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> <ClearDependencyCacheAsync>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x1893D2C
+    // Offset: 0x188BC20
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> $ClearDependencyCacheAsync$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x18914EC
+    // Offset: 0x18893E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

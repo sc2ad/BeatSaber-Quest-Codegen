@@ -100,34 +100,34 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _isHiding
     bool& dyn__isHiding();
     // protected System.Void Awake()
-    // Offset: 0x16F549C
+    // Offset: 0x16EC38C
     void Awake();
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x16F556C
+    // Offset: 0x16EC45C
     void OnApplicationFocus(bool hasFocus);
     // public System.Void ShowHint(HMUI.HoverHint hoverHint)
-    // Offset: 0x16F51AC
+    // Offset: 0x16EC09C
     void ShowHint(::HMUI::HoverHint* hoverHint);
     // public System.Void HideHint()
-    // Offset: 0x16F5360
+    // Offset: 0x16EC250
     void HideHint();
     // public System.Void HideHintInstant()
-    // Offset: 0x16F531C
+    // Offset: 0x16EC20C
     void HideHintInstant();
     // private System.Collections.IEnumerator ShowHintAfterDelay(HMUI.HoverHint hoverHint, System.Single delay)
-    // Offset: 0x16F5748
+    // Offset: 0x16EC638
     ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint* hoverHint, float delay);
     // private System.Collections.IEnumerator HideHintAfterDelay(System.Single delay)
-    // Offset: 0x16F57D4
+    // Offset: 0x16EC6C4
     ::System::Collections::IEnumerator* HideHintAfterDelay(float delay);
     // private System.Void SetupAndShowHintPanel(HMUI.HoverHint hoverHint)
-    // Offset: 0x16F5594
+    // Offset: 0x16EC484
     void SetupAndShowHintPanel(::HMUI::HoverHint* hoverHint);
     // static private UnityEngine.Transform GetScreenTransformForHoverHint(HMUI.HoverHint hoverHint)
-    // Offset: 0x16F58AC
+    // Offset: 0x16EC79C
     static ::UnityEngine::Transform* GetScreenTransformForHoverHint(::HMUI::HoverHint* hoverHint);
     // public System.Void .ctor()
-    // Offset: 0x16F5C98
+    // Offset: 0x16ECB88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

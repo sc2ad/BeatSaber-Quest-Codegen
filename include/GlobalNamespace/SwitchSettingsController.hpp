@@ -64,28 +64,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _on
     bool& dyn__on();
     // protected System.Boolean GetInitValue()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool GetInitValue();
     // protected System.Void ApplyValue(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ApplyValue(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1380DDC
+    // Offset: 0x1339660
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1380E80
+    // Offset: 0x1339704
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x1380F24
+    // Offset: 0x13397A8
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x1380F6C
+    // Offset: 0x13397F0
     void RefreshUI();
     // private System.Void HandleToggleValueDidChange(System.Boolean value)
-    // Offset: 0x1380F90
+    // Offset: 0x1339814
     void HandleToggleValueDidChange(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x1380FA0
+    // Offset: 0x1339824
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

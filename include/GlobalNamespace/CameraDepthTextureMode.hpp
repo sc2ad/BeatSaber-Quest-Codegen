@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.DepthTextureMode _depthTextureMode
     ::UnityEngine::DepthTextureMode& dyn__depthTextureMode();
     // protected System.Void Awake()
-    // Offset: 0x156E53C
+    // Offset: 0x1565248
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x156E5A0
+    // Offset: 0x15652AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

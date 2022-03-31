@@ -100,26 +100,26 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context
     ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_context();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x19567E4
+    // Offset: 0x194D6D0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x195684C
+    // Offset: 0x194D738
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x19562F4
+    // Offset: 0x194D1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetUpTearDownCommand::$InvokeBefore$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetUpTearDownCommand::$InvokeBefore$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x19566A0
+    // Offset: 0x194D58C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x19566A4
+    // Offset: 0x194D590
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x19567EC
+    // Offset: 0x194D6D8
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.SetUpTearDownCommand/UnityEngine.TestTools.<InvokeBefore>d__2
   #pragma pack(pop)

@@ -134,23 +134,23 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.IesParameters param
     ::Org::BouncyCastle::Crypto::Parameters::IesParameters*& dyn_param();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBasicAgreement agree, Org.BouncyCastle.Crypto.IDerivationFunction kdf, Org.BouncyCastle.Crypto.IMac mac)
-    // Offset: 0x2357304
+    // Offset: 0x232D0E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::IesEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IesEngine*, creationType>(agree, kdf, mac)));
     }
     // private System.Byte[] DecryptBlock(System.Byte[] in_enc, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x2357404
+    // Offset: 0x232D1E8
     ::ArrayW<uint8_t> DecryptBlock(::ArrayW<uint8_t> in_enc, int inOff, int inLen, ::ArrayW<uint8_t> z);
     // private System.Byte[] EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x2357C18
+    // Offset: 0x232D9FC
     ::ArrayW<uint8_t> EncryptBlock(::ArrayW<uint8_t> input, int inOff, int inLen, ::ArrayW<uint8_t> z);
     // private System.Byte[] GenerateKdfBytes(Org.BouncyCastle.Crypto.Parameters.KdfParameters kParam, System.Int32 length)
-    // Offset: 0x2357AAC
+    // Offset: 0x232D890
     ::ArrayW<uint8_t> GenerateKdfBytes(::Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x235821C
+    // Offset: 0x232E000
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
   #pragma pack(pop)

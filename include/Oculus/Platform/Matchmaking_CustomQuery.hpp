@@ -86,7 +86,7 @@ namespace Oculus::Platform {
       // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
       ::System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*& dyn_parameters();
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
-      // Offset: 0x19AF814
+      // Offset: 0x19A5700
       Criterion(::StringW key_, ::Oculus::Platform::MatchmakingCriterionImportance importance_);
     }; // Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion
     #pragma pack(pop)
@@ -119,10 +119,10 @@ namespace Oculus::Platform {
     // Get instance field reference: public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
     ::ArrayW<::Oculus::Platform::Matchmaking::CustomQuery::Criterion>& dyn_criteria();
     // public System.IntPtr ToUnmanaged()
-    // Offset: 0x19AE330
+    // Offset: 0x19A421C
     ::System::IntPtr ToUnmanaged();
     // public System.Void .ctor()
-    // Offset: 0x19AF80C
+    // Offset: 0x19A56F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

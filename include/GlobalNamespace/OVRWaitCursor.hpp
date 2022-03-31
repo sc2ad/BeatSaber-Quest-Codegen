@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 rotateSpeeds
     ::UnityEngine::Vector3& dyn_rotateSpeeds();
     // private System.Void Update()
-    // Offset: 0x2487934
+    // Offset: 0x245B718
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x24879F0
+    // Offset: 0x245B7D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

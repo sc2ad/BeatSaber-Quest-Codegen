@@ -40,35 +40,35 @@ namespace Zenject {
   class MonoInstaller_1 : public ::Zenject::MonoInstaller {
     public:
     // static public TDerived InstallFromResource(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static TDerived InstallFromResource(::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
       return ::il2cpp_utils::RunMethodRethrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, container);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(container)})));
       return ::il2cpp_utils::RunMethodRethrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, resourcePath, container);
     }
     // static public TDerived InstallFromResource(Zenject.DiContainer container, System.Object[] extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static TDerived InstallFromResource(::Zenject::DiContainer* container, ::ArrayW<::Il2CppObject*> extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(extraArgs)})));
       return ::il2cpp_utils::RunMethodRethrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, container, extraArgs);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container, System.Object[] extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container, ::ArrayW<::Il2CppObject*> extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(extraArgs)})));
       return ::il2cpp_utils::RunMethodRethrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, resourcePath, container, extraArgs);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -83,7 +83,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<MonoInstaller_1<TDerived>*, creationType>()));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.MonoInstaller
     // Base method: Zenject.InjectTypeInfo MonoInstaller::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo MonoInstallerBase::__zenCreateInjectTypeInfo()

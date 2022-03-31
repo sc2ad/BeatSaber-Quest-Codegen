@@ -80,34 +80,34 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean _forEncryption
     bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23584EC
+    // Offset: 0x232E2D0
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x2358534
+    // Offset: 0x232E318
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x2358F54
+    // Offset: 0x232ED38
     static void _cctor();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x235853C
+    // Offset: 0x232E320
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2358544
+    // Offset: 0x232E328
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23587EC
+    // Offset: 0x232E5D0
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x2358F50
+    // Offset: 0x232ED34
     void Reset();
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2358C58
+    // Offset: 0x232EA3C
     int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2358934
+    // Offset: 0x232E718
     int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x2358484
+    // Offset: 0x232E268
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

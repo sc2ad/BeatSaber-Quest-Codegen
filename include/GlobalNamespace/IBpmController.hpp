@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IBpmController {
     public:
     // public System.Single get_currentBpm()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_currentBpm();
   }; // IBpmController
   #pragma pack(pop)

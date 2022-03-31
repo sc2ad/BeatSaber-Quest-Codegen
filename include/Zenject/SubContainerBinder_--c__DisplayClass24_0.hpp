@@ -66,16 +66,16 @@ namespace Zenject {
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
     ::Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
     // Zenject.ISubContainerCreator <ByNewContextPrefabResource>b__0(Zenject.DiContainer container)
-    // Offset: 0x1D01480
+    // Offset: 0x1CE5950
     ::Zenject::ISubContainerCreator* $ByNewContextPrefabResource$b__0(::Zenject::DiContainer* container);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D0151C
+    // Offset: 0x1CE59EC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D01578
+    // Offset: 0x1CE5A48
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1CFFC3C
+    // Offset: 0x1CE410C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -101,10 +101,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ObstacleExecutionRating/Rating <rating>k__BackingField
     ::GlobalNamespace::ObstacleExecutionRating::Rating& dyn_$rating$k__BackingField();
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0x14EBAE4
+    // Offset: 0x147F2E4
     ::GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0x14EBAEC
+    // Offset: 0x147F2EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleExecutionRating* New_ctor(float time, ::GlobalNamespace::ObstacleExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleExecutionRating::.ctor");

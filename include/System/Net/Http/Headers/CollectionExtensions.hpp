@@ -47,7 +47,7 @@ namespace System::Net::Http::Headers {
   class CollectionExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean SequenceEqual(System.Collections.Generic.List`1<TSource> first, System.Collections.Generic.List`1<TSource> second)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSource>
     static bool SequenceEqual(::System::Collections::Generic::List_1<TSource>* first, ::System::Collections::Generic::List_1<TSource>* second) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::CollectionExtensions::SequenceEqual");
@@ -56,10 +56,10 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
     // static public System.Void SetValue(System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters, System.String key, System.String value)
-    // Offset: 0x195FA94
+    // Offset: 0x1955980
     static void SetValue(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters, ::StringW key, ::StringW value);
     // static public System.String ToString(System.Collections.Generic.List`1<T> list)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::StringW ToString(::System::Collections::Generic::List_1<T>* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::CollectionExtensions::ToString");
@@ -68,7 +68,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list);
     }
     // static public System.Void ToStringBuilder(System.Collections.Generic.List`1<T> list, System.Text.StringBuilder sb)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void ToStringBuilder(::System::Collections::Generic::List_1<T>* list, ::System::Text::StringBuilder* sb) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::CollectionExtensions::ToStringBuilder");

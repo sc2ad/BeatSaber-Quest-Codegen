@@ -32,7 +32,7 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IFactory*>(this);
     }
     // public TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IFactory_5::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(param1), ::il2cpp_utils::ExtractType(param2), ::il2cpp_utils::ExtractType(param3), ::il2cpp_utils::ExtractType(param4)})));

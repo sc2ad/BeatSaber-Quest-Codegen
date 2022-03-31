@@ -50,79 +50,79 @@ namespace System::Xml {
   class IDtdParserAdapter {
     public:
     // public System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Xml.IXmlNamespaceResolver get_NamespaceResolver()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::IXmlNamespaceResolver* get_NamespaceResolver();
     // public System.Uri get_BaseUri()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Uri* get_BaseUri();
     // public System.Char[] get_ParsingBuffer()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::Il2CppChar> get_ParsingBuffer();
     // public System.Int32 get_ParsingBufferLength()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_ParsingBufferLength();
     // public System.Int32 get_CurrentPosition()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_CurrentPosition();
     // public System.Void set_CurrentPosition(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_CurrentPosition(int value);
     // public System.Int32 get_LineNo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_LineNo();
     // public System.Int32 get_LineStartPosition()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_LineStartPosition();
     // public System.Boolean get_IsEof()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsEof();
     // public System.Int32 get_EntityStackLength()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_EntityStackLength();
     // public System.Boolean get_IsEntityEolNormalized()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsEntityEolNormalized();
     // public System.Int32 ReadData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ReadData();
     // public System.Void OnNewLine(System.Int32 pos)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnNewLine(int pos);
     // public System.Int32 ParseNumericCharRef(System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ParseNumericCharRef(::System::Text::StringBuilder* internalSubsetBuilder);
     // public System.Int32 ParseNamedCharRef(System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ParseNamedCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
     // public System.Void ParsePI(System.Text.StringBuilder sb)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ParsePI(::System::Text::StringBuilder* sb);
     // public System.Void ParseComment(System.Text.StringBuilder sb)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ParseComment(::System::Text::StringBuilder* sb);
     // public System.Boolean PushEntity(System.Xml.IDtdEntityInfo entity, out System.Int32 entityId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool PushEntity(::System::Xml::IDtdEntityInfo* entity, ByRef<int> entityId);
     // public System.Boolean PopEntity(out System.Xml.IDtdEntityInfo oldEntity, out System.Int32 newEntityId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool PopEntity(ByRef<::System::Xml::IDtdEntityInfo*> oldEntity, ByRef<int> newEntityId);
     // public System.Boolean PushExternalSubset(System.String systemId, System.String publicId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool PushExternalSubset(::StringW systemId, ::StringW publicId);
     // public System.Void PushInternalDtd(System.String baseUri, System.String internalDtd)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PushInternalDtd(::StringW baseUri, ::StringW internalDtd);
     // public System.Void OnSystemId(System.String systemId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo systemLiteralLineInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnSystemId(::StringW systemId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo systemLiteralLineInfo);
     // public System.Void OnPublicId(System.String publicId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo publicLiteralLineInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnPublicId(::StringW publicId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo publicLiteralLineInfo);
     // public System.Void Throw(System.Exception e)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Throw(::System::Exception* e);
   }; // System.Xml.IDtdParserAdapter
   #pragma pack(pop)

@@ -162,28 +162,28 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Int32 <EndPosition>k__BackingField
     int& dyn_$EndPosition$k__BackingField();
     // public System.Int32 get_StartPosition()
-    // Offset: 0x196AE90
+    // Offset: 0x1960D7C
     int get_StartPosition();
     // private System.Void set_StartPosition(System.Int32 value)
-    // Offset: 0x196AE98
+    // Offset: 0x1960D84
     void set_StartPosition(int value);
     // public System.Int32 get_EndPosition()
-    // Offset: 0x196AEA0
+    // Offset: 0x1960D8C
     int get_EndPosition();
     // private System.Void set_EndPosition(System.Int32 value)
-    // Offset: 0x196AEA8
+    // Offset: 0x1960D94
     void set_EndPosition(int value);
     // public System.Net.Http.Headers.Token/System.Net.Http.Headers.Type get_Kind()
-    // Offset: 0x196AEB0
+    // Offset: 0x1960D9C
     ::System::Net::Http::Headers::Token::Type get_Kind();
     // public System.Void .ctor(System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type, System.Int32 startPosition, System.Int32 endPosition)
-    // Offset: 0x195DDA8
+    // Offset: 0x1953C94
     // ABORTED: conflicts with another method.  Token(::System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition);
     // static private System.Void .cctor()
-    // Offset: 0x196AF48
+    // Offset: 0x1960E34
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x196AEBC
+    // Offset: 0x1960DA8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

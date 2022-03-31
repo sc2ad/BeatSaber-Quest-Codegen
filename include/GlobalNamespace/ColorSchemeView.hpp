@@ -93,10 +93,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _obstacleColorImage
     ::UnityEngine::UI::Image*& dyn__obstacleColorImage();
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x13663CC
+    // Offset: 0x1358068
     void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color obstacleColor);
     // public System.Void .ctor()
-    // Offset: 0x1366594
+    // Offset: 0x1358230
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

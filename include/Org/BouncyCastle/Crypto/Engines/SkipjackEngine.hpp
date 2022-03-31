@@ -96,40 +96,40 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean encrypting
     bool& dyn_encrypting();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23F5CC8
+    // Offset: 0x23CBAAC
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23F5D10
+    // Offset: 0x23CBAF4
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x23F65F0
+    // Offset: 0x23CC3D4
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23F5994
+    // Offset: 0x23CB778
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x23F5D18
+    // Offset: 0x23CBAFC
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23F5D20
+    // Offset: 0x23CBB04
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x23F5E40
+    // Offset: 0x23CBC24
     void Reset();
     // private System.Int32 G(System.Int32 k, System.Int32 w)
-    // Offset: 0x23F5E44
+    // Offset: 0x23CBC28
     int G(int k, int w);
     // public System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23F5FB8
+    // Offset: 0x23CBD9C
     int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Int32 H(System.Int32 k, System.Int32 w)
-    // Offset: 0x23F620C
+    // Offset: 0x23CBFF0
     int H(int k, int w);
     // public System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23F6380
+    // Offset: 0x23CC164
     int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x23F666C
+    // Offset: 0x23CC450
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

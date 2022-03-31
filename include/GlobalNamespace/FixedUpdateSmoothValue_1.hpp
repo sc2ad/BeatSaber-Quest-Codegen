@@ -75,35 +75,35 @@ namespace GlobalNamespace {
       return *reinterpret_cast<float*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // protected System.Void .ctor(System.Single smooth)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedUpdateSmoothValue_1<T>* New_ctor(float smooth) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FixedUpdateSmoothValue_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedUpdateSmoothValue_1<T>*, creationType>(smooth)));
     }
     // public System.Void SetStartValue(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetStartValue(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FixedUpdateSmoothValue_1::SetStartValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetStartValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void FixedUpdate(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void FixedUpdate(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FixedUpdateSmoothValue_1::FixedUpdate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FixedUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public T GetValue(System.Single interpolationFactor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetValue(float interpolationFactor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FixedUpdateSmoothValue_1::GetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(interpolationFactor)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, interpolationFactor);
     }
     // protected T Interpolate(T value0, T value1, System.Single t)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Interpolate(T value0, T value1, float t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FixedUpdateSmoothValue_1::Interpolate");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Interpolate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value0), ::il2cpp_utils::ExtractType(value1), ::il2cpp_utils::ExtractType(t)})));

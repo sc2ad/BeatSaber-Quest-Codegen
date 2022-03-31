@@ -33,16 +33,16 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1AA826C
+    // Offset: 0x1A8B8A4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1AA8260
+    // Offset: 0x1A8B898
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1AA8268
+    // Offset: 0x1A8B8A0
     void System_Collections_IEnumerator_Reset();
     // public System.Void .ctor()
-    // Offset: 0x1AA82E0
+    // Offset: 0x1A8B918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

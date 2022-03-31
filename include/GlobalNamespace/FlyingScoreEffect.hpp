@@ -135,22 +135,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private IReadonlyCutScoreBuffer _cutScoreBuffer
     ::GlobalNamespace::IReadonlyCutScoreBuffer*& dyn__cutScoreBuffer();
     // public System.Void InitAndPresent(IReadonlyCutScoreBuffer cutScoreBuffer, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Color color)
-    // Offset: 0x12E4D0C
+    // Offset: 0x1390D10
     void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
     // public System.Void HandleCutScoreBufferDidChange(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0x12E5368
+    // Offset: 0x139136C
     void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // private System.Void RefreshScore(System.Int32 score, System.Int32 maxPossibleCutScore)
-    // Offset: 0x12E5250
+    // Offset: 0x1391254
     void RefreshScore(int score, int maxPossibleCutScore);
     // public System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0x12E53C0
+    // Offset: 0x13913C4
     void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0x12E53C4
+    // Offset: 0x13913C8
     void UnregisterCallbacksIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x12E5510
+    // Offset: 0x1391514
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -164,7 +164,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x12E52D4
+    // Offset: 0x13912D8
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

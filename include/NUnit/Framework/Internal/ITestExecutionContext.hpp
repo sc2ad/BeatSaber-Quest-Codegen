@@ -42,28 +42,28 @@ namespace NUnit::Framework::Internal {
   class ITestExecutionContext {
     public:
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_CurrentResult(::NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::IO::TextWriter* get_OutWriter();
     // public System.Object get_TestObject()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_TestObject(::Il2CppObject* value);
     // public System.Int32 get_TestCaseTimeout()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_TestCaseTimeout();
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // public System.Void IncrementAssertCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void IncrementAssertCount();
   }; // NUnit.Framework.Internal.ITestExecutionContext
   #pragma pack(pop)

@@ -59,7 +59,7 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [RangeAttribute] Offset: 0x10DBCEC
+    // [RangeAttribute] Offset: 0x12745C4
     // public System.Int32 iterations
     // Size: 0x4
     // Offset: 0x58
@@ -186,34 +186,34 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnFixTransforms
     ::RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnFixTransforms();
     // public RootMotion.FinalIK.IKEffector GetEffector(UnityEngine.Transform t)
-    // Offset: 0x21CAAD0
+    // Offset: 0x21A18B4
     ::RootMotion::FinalIK::IKEffector* GetEffector(::UnityEngine::Transform* t);
     // public RootMotion.FinalIK.FBIKChain GetChain(UnityEngine.Transform transform)
-    // Offset: 0x21CABC4
+    // Offset: 0x21A19A8
     ::RootMotion::FinalIK::FBIKChain* GetChain(::UnityEngine::Transform* transform);
     // public System.Int32 GetChainIndex(UnityEngine.Transform transform)
-    // Offset: 0x21CAC20
+    // Offset: 0x21A1A04
     int GetChainIndex(::UnityEngine::Transform* transform);
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node GetNode(System.Int32 chainIndex, System.Int32 nodeIndex)
-    // Offset: 0x21CAD54
+    // Offset: 0x21A1B38
     ::RootMotion::FinalIK::IKSolver::Node* GetNode(int chainIndex, int nodeIndex);
     // public System.Void GetChainAndNodeIndexes(UnityEngine.Transform transform, out System.Int32 chainIndex, out System.Int32 nodeIndex)
-    // Offset: 0x21CADB0
+    // Offset: 0x21A1B94
     void GetChainAndNodeIndexes(::UnityEngine::Transform* transform, ByRef<int> chainIndex, ByRef<int> nodeIndex);
     // protected System.Void ReadPose()
-    // Offset: 0x21CB83C
+    // Offset: 0x21A2620
     void ReadPose();
     // protected System.Void Solve()
-    // Offset: 0x21CBA88
+    // Offset: 0x21A286C
     void Solve();
     // protected System.Void ApplyBendConstraints()
-    // Offset: 0x21CBD60
+    // Offset: 0x21A2B44
     void ApplyBendConstraints();
     // protected System.Void WritePose()
-    // Offset: 0x21CBDA4
+    // Offset: 0x21A2B88
     void WritePose();
     // public System.Void .ctor()
-    // Offset: 0x21CBE94
+    // Offset: 0x21A2C78
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -223,37 +223,37 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFullBody*, creationType>()));
     }
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x21CAE30
+    // Offset: 0x21A1C14
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
     ::ArrayW<::RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x21CAFD8
+    // Offset: 0x21A1DBC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     ::RootMotion::FinalIK::IKSolver::Point* GetPoint(::UnityEngine::Transform* transform);
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x21CB14C
+    // Offset: 0x21A1F30
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(ByRef<::StringW> message);
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x21CB350
+    // Offset: 0x21A2134
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x21CB424
+    // Offset: 0x21A2208
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // protected override System.Void OnInitiate()
-    // Offset: 0x21CB50C
+    // Offset: 0x21A22F0
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x21CB680
+    // Offset: 0x21A2464
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();

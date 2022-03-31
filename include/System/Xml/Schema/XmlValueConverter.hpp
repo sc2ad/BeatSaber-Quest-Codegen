@@ -46,181 +46,181 @@ namespace System::Xml::Schema {
   class XmlValueConverter : public ::Il2CppObject {
     public:
     // public System.Boolean ToBoolean(System.Int64 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ToBoolean(int64_t value);
     // public System.Boolean ToBoolean(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ToBoolean(int value);
     // public System.Boolean ToBoolean(System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ToBoolean(double value);
     // public System.Boolean ToBoolean(System.DateTime value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ToBoolean(::System::DateTime value);
     // public System.Boolean ToBoolean(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ToBoolean(::StringW value);
     // public System.Boolean ToBoolean(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ToBoolean(::Il2CppObject* value);
     // public System.Int32 ToInt32(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ToInt32(bool value);
     // public System.Int32 ToInt32(System.Int64 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ToInt32(int64_t value);
     // public System.Int32 ToInt32(System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ToInt32(double value);
     // public System.Int32 ToInt32(System.DateTime value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ToInt32(::System::DateTime value);
     // public System.Int32 ToInt32(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ToInt32(::StringW value);
     // public System.Int32 ToInt32(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int ToInt32(::Il2CppObject* value);
     // public System.Int64 ToInt64(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t ToInt64(bool value);
     // public System.Int64 ToInt64(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t ToInt64(int value);
     // public System.Int64 ToInt64(System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t ToInt64(double value);
     // public System.Int64 ToInt64(System.DateTime value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t ToInt64(::System::DateTime value);
     // public System.Int64 ToInt64(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t ToInt64(::StringW value);
     // public System.Int64 ToInt64(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t ToInt64(::Il2CppObject* value);
     // public System.Decimal ToDecimal(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Decimal ToDecimal(::StringW value);
     // public System.Decimal ToDecimal(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Decimal ToDecimal(::Il2CppObject* value);
     // public System.Double ToDouble(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double ToDouble(bool value);
     // public System.Double ToDouble(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double ToDouble(int value);
     // public System.Double ToDouble(System.Int64 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double ToDouble(int64_t value);
     // public System.Double ToDouble(System.DateTime value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double ToDouble(::System::DateTime value);
     // public System.Double ToDouble(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double ToDouble(::StringW value);
     // public System.Double ToDouble(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double ToDouble(::Il2CppObject* value);
     // public System.Single ToSingle(System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float ToSingle(double value);
     // public System.Single ToSingle(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float ToSingle(::StringW value);
     // public System.Single ToSingle(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float ToSingle(::Il2CppObject* value);
     // public System.DateTime ToDateTime(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime ToDateTime(bool value);
     // public System.DateTime ToDateTime(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime ToDateTime(int value);
     // public System.DateTime ToDateTime(System.Int64 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime ToDateTime(int64_t value);
     // public System.DateTime ToDateTime(System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime ToDateTime(double value);
     // public System.DateTime ToDateTime(System.DateTimeOffset value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime ToDateTime(::System::DateTimeOffset value);
     // public System.DateTime ToDateTime(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime ToDateTime(::StringW value);
     // public System.DateTime ToDateTime(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime ToDateTime(::Il2CppObject* value);
     // public System.DateTimeOffset ToDateTimeOffset(System.DateTime value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTimeOffset ToDateTimeOffset(::System::DateTime value);
     // public System.DateTimeOffset ToDateTimeOffset(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTimeOffset ToDateTimeOffset(::StringW value);
     // public System.DateTimeOffset ToDateTimeOffset(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTimeOffset ToDateTimeOffset(::Il2CppObject* value);
     // public System.String ToString(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(bool value);
     // public System.String ToString(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(int value);
     // public System.String ToString(System.Int64 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(int64_t value);
     // public System.String ToString(System.Decimal value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::System::Decimal value);
     // public System.String ToString(System.Single value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(float value);
     // public System.String ToString(System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(double value);
     // public System.String ToString(System.DateTime value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::System::DateTime value);
     // public System.String ToString(System.DateTimeOffset value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::System::DateTimeOffset value);
     // public System.String ToString(System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::Il2CppObject* value);
     // public System.String ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::Il2CppObject* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public System.Object ChangeType(System.Boolean value, System.Type destinationType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(bool value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Int32 value, System.Type destinationType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(int value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Int64 value, System.Type destinationType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(int64_t value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Decimal value, System.Type destinationType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(::System::Decimal value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Double value, System.Type destinationType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(double value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.DateTime value, System.Type destinationType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(::System::DateTime value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public System.Object ChangeType(System.Object value, System.Type destinationType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor()
-    // Offset: 0x202B6E0
+    // Offset: 0x20190B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

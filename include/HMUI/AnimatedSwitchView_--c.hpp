@@ -60,28 +60,28 @@ namespace HMUI {
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_5
     static void _set_$$9__31_5(::HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // static private System.Void .cctor()
-    // Offset: 0x16E829C
+    // Offset: 0x16DF18C
     static void _cctor();
     // UnityEngine.Color <LerpColors>b__31_0(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x16E8308
+    // Offset: 0x16DF1F8
     ::UnityEngine::Color $LerpColors$b__31_0(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_1(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x16E8324
+    // Offset: 0x16DF214
     ::UnityEngine::Color $LerpColors$b__31_1(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_2(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x16E8340
+    // Offset: 0x16DF230
     ::UnityEngine::Color $LerpColors$b__31_2(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_3(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x16E835C
+    // Offset: 0x16DF24C
     ::UnityEngine::Color $LerpColors$b__31_3(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_4(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x16E8378
+    // Offset: 0x16DF268
     ::UnityEngine::Color $LerpColors$b__31_4(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_5(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x16E8394
+    // Offset: 0x16DF284
     ::UnityEngine::Color $LerpColors$b__31_5(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // public System.Void .ctor()
-    // Offset: 0x16E8300
+    // Offset: 0x16DF1F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

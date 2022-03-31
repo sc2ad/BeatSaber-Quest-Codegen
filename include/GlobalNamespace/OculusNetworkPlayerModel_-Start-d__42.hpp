@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1340ECC
+    // Offset: 0x151257C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x134127C
+    // Offset: 0x1512928
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusNetworkPlayerModel/<Start>d__42
   // WARNING Not writing size check since size may be invalid!

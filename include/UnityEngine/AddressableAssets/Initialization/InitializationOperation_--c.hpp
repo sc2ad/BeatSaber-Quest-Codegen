@@ -46,13 +46,13 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static public System.Func`2<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x189A044
+    // Offset: 0x1891F38
     static void _cctor();
     // System.Boolean <Execute>b__13_0(UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider rp)
-    // Offset: 0x189A0B0
+    // Offset: 0x1891FA4
     bool $Execute$b__13_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
     // public System.Void .ctor()
-    // Offset: 0x189A0A8
+    // Offset: 0x1891F9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

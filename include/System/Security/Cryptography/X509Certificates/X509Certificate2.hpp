@@ -101,68 +101,68 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.String friendlyName
     ::StringW& dyn_friendlyName();
     // System.Security.Cryptography.X509Certificates.X509Certificate2Impl get_Impl()
-    // Offset: 0x1BCE3E4
+    // Offset: 0x1BB48B4
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* get_Impl();
     // public System.Security.Cryptography.X509Certificates.X509ExtensionCollection get_Extensions()
-    // Offset: 0x1BCE7FC
+    // Offset: 0x1BB4CCC
     ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* get_Extensions();
     // public System.Security.Cryptography.X509Certificates.X500DistinguishedName get_IssuerName()
-    // Offset: 0x1BCE824
+    // Offset: 0x1BB4CF4
     ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
     // public System.DateTime get_NotAfter()
-    // Offset: 0x1BCE84C
+    // Offset: 0x1BB4D1C
     ::System::DateTime get_NotAfter();
     // public System.DateTime get_NotBefore()
-    // Offset: 0x1BCE890
+    // Offset: 0x1BB4D60
     ::System::DateTime get_NotBefore();
     // public System.Security.Cryptography.AsymmetricAlgorithm get_PrivateKey()
-    // Offset: 0x1BCE8D4
+    // Offset: 0x1BB4DA4
     ::System::Security::Cryptography::AsymmetricAlgorithm* get_PrivateKey();
     // public System.Void set_PrivateKey(System.Security.Cryptography.AsymmetricAlgorithm value)
-    // Offset: 0x1BCE8FC
+    // Offset: 0x1BB4DCC
     void set_PrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm* value);
     // public System.Security.Cryptography.X509Certificates.PublicKey get_PublicKey()
-    // Offset: 0x1BCE934
+    // Offset: 0x1BB4E04
     ::System::Security::Cryptography::X509Certificates::PublicKey* get_PublicKey();
     // public System.String get_SerialNumber()
-    // Offset: 0x1BCE95C
+    // Offset: 0x1BB4E2C
     ::StringW get_SerialNumber();
     // public System.Security.Cryptography.Oid get_SignatureAlgorithm()
-    // Offset: 0x1BCE968
+    // Offset: 0x1BB4E38
     ::System::Security::Cryptography::Oid* get_SignatureAlgorithm();
     // public System.Security.Cryptography.X509Certificates.X500DistinguishedName get_SubjectName()
-    // Offset: 0x1BCE990
+    // Offset: 0x1BB4E60
     ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_SubjectName();
     // public System.String get_Thumbprint()
-    // Offset: 0x1BCE9B8
+    // Offset: 0x1BB4E88
     ::StringW get_Thumbprint();
     // public System.Int32 get_Version()
-    // Offset: 0x1BCE9C4
+    // Offset: 0x1BB4E94
     int get_Version();
     // Mono.Security.X509.X509Certificate get_MonoCertificate()
-    // Offset: 0x1BCF1B0
+    // Offset: 0x1BB5680
     ::Mono::Security::X509::X509Certificate* get_MonoCertificate();
     // public System.Void .ctor(System.String fileName)
-    // Offset: 0x1BCE574
+    // Offset: 0x1BB4A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2* New_ctor(::StringW fileName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2*, creationType>(fileName)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BCF294
+    // Offset: 0x1BB5764
     static void _cctor();
     // public System.String GetNameInfo(System.Security.Cryptography.X509Certificates.X509NameType nameType, System.Boolean forIssuer)
-    // Offset: 0x1BCE9EC
+    // Offset: 0x1BB4EBC
     ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
     // static private System.Void AppendBuffer(System.Text.StringBuilder sb, System.Byte[] buffer)
-    // Offset: 0x1BCF080
+    // Offset: 0x1BB5550
     static void AppendBuffer(::System::Text::StringBuilder* sb, ::ArrayW<uint8_t> buffer);
     // public System.Boolean Verify()
-    // Offset: 0x1BCF178
+    // Offset: 0x1BB5648
     bool Verify();
     // public System.Void .ctor()
-    // Offset: 0x1BCE488
+    // Offset: 0x1BB4958
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.Void X509Certificate::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -172,7 +172,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2*, creationType>()));
     }
     // public System.Void .ctor(System.Byte[] rawData)
-    // Offset: 0x1BCE4E8
+    // Offset: 0x1BB49B8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.Void X509Certificate::.ctor(System.Byte[] rawData)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -181,7 +181,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2*, creationType>(rawData)));
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
-    // Offset: 0x1BCE608
+    // Offset: 0x1BB4AD8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.Void X509Certificate::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -190,7 +190,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2*, creationType>(certificate)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1BCE774
+    // Offset: 0x1BB4C44
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.Void X509Certificate::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -199,27 +199,27 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2*, creationType>(info, context)));
     }
     // public override System.Void Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    // Offset: 0x1BCEA2C
+    // Offset: 0x1BB4EFC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.Void X509Certificate::Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     void Import(::ArrayW<uint8_t> rawData, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // public override System.Void Import(System.String fileName, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    // Offset: 0x1BCEB04
+    // Offset: 0x1BB4FD4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.Void X509Certificate::Import(System.String fileName, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     void Import(::StringW fileName, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // public override System.Void Reset()
-    // Offset: 0x1BCEB58
+    // Offset: 0x1BB5028
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.Void X509Certificate::Reset()
     void Reset();
     // public override System.String ToString()
-    // Offset: 0x1BCEBB8
+    // Offset: 0x1BB5088
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.String X509Certificate::ToString()
     ::StringW ToString();
     // public override System.String ToString(System.Boolean verbose)
-    // Offset: 0x1BCEC2C
+    // Offset: 0x1BB50FC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate
     // Base method: System.String X509Certificate::ToString(System.Boolean verbose)
     ::StringW ToString(bool verbose);

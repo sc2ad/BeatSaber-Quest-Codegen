@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B32D0
+    // [InjectAttribute] Offset: 0x124D754
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B32E0
+    // [InjectAttribute] Offset: 0x124D764
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x18
@@ -139,52 +139,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
     ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
     // public System.Boolean get_isConnected()
-    // Offset: 0x14DEEC8
+    // Offset: 0x1524FD4
     bool get_isConnected();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x14DEF7C
+    // Offset: 0x1525088
     ::GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x14DF02C
+    // Offset: 0x1525138
     ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
-    // Offset: 0x14DF034
+    // Offset: 0x1525140
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x14DF0E8
+    // Offset: 0x15251F4
     ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x14DEC38
+    // Offset: 0x1524D44
     void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x14DECDC
+    // Offset: 0x1524DE8
     void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x14DED80
+    // Offset: 0x1524E8C
     void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x14DEE24
+    // Offset: 0x1524F30
     void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void Activate()
-    // Offset: 0x14DF0FC
+    // Offset: 0x1525208
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x14DF774
+    // Offset: 0x1525880
     void Deactivate();
     // public System.Void Dispose()
-    // Offset: 0x14DF904
+    // Offset: 0x1525A10
     void Dispose();
     // public IConnectedPlayer GetPlayerById(System.String userId)
-    // Offset: 0x14DF908
+    // Offset: 0x1525A14
     ::GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
     // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
-    // Offset: 0x14DF998
+    // Offset: 0x1525AA4
     void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleMultiplayerSessionManagerPlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x14DFAC0
+    // Offset: 0x1525BCC
     void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x14DFBE4
+    // Offset: 0x1525CF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

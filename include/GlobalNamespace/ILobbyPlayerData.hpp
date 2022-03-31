@@ -28,28 +28,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isPartyOwner();
     // public System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_isPartyOwner(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_isInLobby(bool value);
   }; // ILobbyPlayerData
   #pragma pack(pop)

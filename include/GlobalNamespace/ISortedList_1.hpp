@@ -43,28 +43,28 @@ namespace GlobalNamespace {
   class ISortedList_1 {
     public:
     // public System.Collections.Generic.LinkedList`1<T> get_items()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedList_1<T>* get_items() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedList_1::get_items");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_items", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedList_1<T>*, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> Insert(T newItem)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<T>* Insert(T newItem) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedList_1::Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(newItem)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method, newItem);
     }
     // public System.Void Remove(System.Collections.Generic.LinkedListNode`1<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Remove(::System::Collections::Generic::LinkedListNode_1<T>* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedList_1::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // public System.Collections.Generic.LinkedListNode`1<T> NodeForItem(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<T>* NodeForItem(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedList_1::NodeForItem");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "NodeForItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));

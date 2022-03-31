@@ -62,10 +62,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> previousTransformValues
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& dyn_previousTransformValues();
     // System.Void <BakePartToGameObject>b__1(UnityEngine.Transform trans)
-    // Offset: 0x1ADC890
+    // Offset: 0x1AC0EC8
     void $BakePartToGameObject$b__1(::UnityEngine::Transform* trans);
     // public System.Void .ctor()
-    // Offset: 0x1ADB520
+    // Offset: 0x1ABFB58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

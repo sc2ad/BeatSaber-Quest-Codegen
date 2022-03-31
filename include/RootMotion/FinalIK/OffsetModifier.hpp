@@ -54,7 +54,7 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10DD514
+    // [TooltipAttribute] Offset: 0x1275DEC
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -63,7 +63,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x10DD54C
+    // [TooltipAttribute] Offset: 0x1275E24
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -86,28 +86,28 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected System.Single lastTime
     float& dyn_lastTime();
     // protected System.Single get_deltaTime()
-    // Offset: 0x1F9D750
+    // Offset: 0x1F6FA6C
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x1F9D77C
+    // Offset: 0x1F6FA98
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x1F9D7A8
+    // Offset: 0x1F6FAC4
     ::System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x1F9D844
+    // Offset: 0x1F6FB60
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
-    // Offset: 0x1F9D950
+    // Offset: 0x1F6FC6C
     void ApplyLimits(::ArrayW<::RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits);
     // protected System.Void OnDestroy()
-    // Offset: 0x1F9DC6C
+    // Offset: 0x1F6FF88
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1F9DD64
+    // Offset: 0x1F70080
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -36,13 +36,13 @@ namespace GlobalNamespace {
   class LeaderboardViewController : public ::HMUI::ViewController {
     public:
     // public System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void RefreshLevelStats()
-    // Offset: 0x14A55E4
+    // Offset: 0x13B7F04
     void RefreshLevelStats();
     // protected System.Void .ctor()
-    // Offset: 0x14A55E8
+    // Offset: 0x13B7F08
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

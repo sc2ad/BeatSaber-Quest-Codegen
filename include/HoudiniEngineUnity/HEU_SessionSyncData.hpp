@@ -137,13 +137,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_SessionSyncInfo _syncInfo
     ::HoudiniEngineUnity::HAPI_SessionSyncInfo& dyn__syncInfo();
     // public HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status get_SyncStatus()
-    // Offset: 0x1AE9000
+    // Offset: 0x1ACC638
     ::HoudiniEngineUnity::HEU_SessionSyncData::Status get_SyncStatus();
     // public System.Void set_SyncStatus(HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status value)
-    // Offset: 0x1AE9014
+    // Offset: 0x1ACC64C
     void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData::Status value);
     // public System.Void .ctor()
-    // Offset: 0x1AE5D20
+    // Offset: 0x1AC9358
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

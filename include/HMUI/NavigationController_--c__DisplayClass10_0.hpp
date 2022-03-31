@@ -81,10 +81,10 @@ namespace HMUI {
     // Get instance field reference: public System.Single moveOffset
     float& dyn_moveOffset();
     // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
-    // Offset: 0x168E9D4
+    // Offset: 0x16858B4
     void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
     // public System.Void .ctor()
-    // Offset: 0x168E9BC
+    // Offset: 0x168589C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

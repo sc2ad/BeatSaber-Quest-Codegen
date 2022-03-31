@@ -158,37 +158,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sfxEnabled
     bool& dyn__sfxEnabled();
     // public System.Single get_sfxLatency()
-    // Offset: 0x14BFCD8
+    // Offset: 0x14B9690
     float get_sfxLatency();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0x14BFDE4
+    // Offset: 0x14B979C
     void set_mainVolume(float value);
     // public System.Void set_musicVolume(System.Single value)
-    // Offset: 0x14BFE50
+    // Offset: 0x14B9808
     void set_musicVolume(float value);
     // public System.Single get_sfxVolume()
-    // Offset: 0x14BFEC0
+    // Offset: 0x14B9878
     float get_sfxVolume();
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0x14BFED8
+    // Offset: 0x14B9890
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0x14BFF64
+    // Offset: 0x14B991C
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0x14BFF6C
+    // Offset: 0x14B9924
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0x14BFF8C
+    // Offset: 0x14B9944
     void set_musicPitch(float value);
     // public System.Void set_musicSpeed(System.Single value)
-    // Offset: 0x14C005C
+    // Offset: 0x14B9A14
     void set_musicSpeed(float value);
     // public System.Void Init()
-    // Offset: 0x14BFD40
+    // Offset: 0x14B96F8
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x14C00C8
+    // Offset: 0x14B9A80
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

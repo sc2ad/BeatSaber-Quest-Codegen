@@ -46,10 +46,10 @@ namespace GlobalNamespace {
     template<typename T>
     class $$c__DisplayClass2_0_1;
     // static private System.UInt32 MurmurHash2(System.String key)
-    // Offset: 0x29F194C
+    // Offset: 0x29BDAC4
     static uint MurmurHash2(::StringW key);
     // static public T ToBloomFilter(System.String value, System.Int32 hashCount, System.Int32 hashBits)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T ToBloomFilter(::StringW value, int hashCount, int hashBits) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value, hashCount, hashBits);
     }
     // static public T ToBloomFilter(System.Collections.Generic.IEnumerable`1<System.String> strings, System.Int32 hashCount, System.Int32 hashBits)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<::StringW>* strings, int hashCount, int hashBits) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, strings, hashCount, hashBits);
     }
     // static public T AddBloomFilterEntry(T bitMask, System.String value, System.Int32 hashCount, System.Int32 hashBits)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T AddBloomFilterEntry(T bitMask, ::StringW value, int hashCount, int hashBits) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bitMask, value, hashCount, hashBits);
     }
     // static public System.Boolean ContainsBloomFilterEntry(T bitMask, System.String value, System.Int32 hashCount, System.Int32 hashBits)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool ContainsBloomFilterEntry(T bitMask, ::StringW value, int hashCount, int hashBits) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);

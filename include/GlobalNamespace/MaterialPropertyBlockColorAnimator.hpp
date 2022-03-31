@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x109E618
+    // [SpaceAttribute] Offset: 0x123952C
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x30
@@ -53,13 +53,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1F19570
+    // Offset: 0x2AD5790
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1F1957C
+    // Offset: 0x2AD579C
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1F19634
+    // Offset: 0x2AD5854
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockColorAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1F19588
+    // Offset: 0x2AD57A8
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

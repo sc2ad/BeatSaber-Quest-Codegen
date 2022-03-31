@@ -55,7 +55,7 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.IConstraint> stack
     ::System::Collections::Generic::Stack_1<::NUnit::Framework::Constraints::IConstraint*>*& dyn_stack();
     // public NUnit.Framework.Constraints.IConstraint Pop()
-    // Offset: 0x1C5627C
+    // Offset: 0x1C3C74C
     ::NUnit::Framework::Constraints::IConstraint* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack
   #pragma pack(pop)

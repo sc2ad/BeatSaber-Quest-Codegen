@@ -102,40 +102,40 @@ namespace System::Text {
     // Get instance field reference: System.Int32 iRecursionCount
     int& dyn_iRecursionCount();
     // public System.Int32 get_Remaining()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Remaining();
     // public System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public System.Char GetNextChar()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppChar GetNextChar();
     // public System.Boolean MovePrevious()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool MovePrevious();
     // public System.Void Reset()
-    // Offset: 0x2033454
+    // Offset: 0x2020E28
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x2033488
+    // Offset: 0x2020E5C
     void InternalReset();
     // System.Void InternalInitialize(System.Char* charStart, System.Char* charEnd, System.Text.EncoderNLS encoder, System.Boolean setEncoder)
-    // Offset: 0x20334A0
+    // Offset: 0x2020E74
     void InternalInitialize(::Il2CppChar* charStart, ::Il2CppChar* charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
     // System.Char InternalGetNextChar()
-    // Offset: 0x20334BC
+    // Offset: 0x2020E90
     ::Il2CppChar InternalGetNextChar();
     // System.Boolean InternalFallback(System.Char ch, ref System.Char* chars)
-    // Offset: 0x20334FC
+    // Offset: 0x2020ED0
     bool InternalFallback(::Il2CppChar ch, ByRef<::Il2CppChar*> chars);
     // System.Void ThrowLastCharRecursive(System.Int32 charRecursive)
-    // Offset: 0x20336CC
+    // Offset: 0x20210A0
     void ThrowLastCharRecursive(int charRecursive);
     // protected System.Void .ctor()
-    // Offset: 0x2032A8C
+    // Offset: 0x2020460
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,13 +34,13 @@ namespace Org::BouncyCastle::Crypto::Signers {
   class Ed25519ctxSigner::Buffer : public ::System::IO::MemoryStream {
     public:
     // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey, System.Byte[] ctx)
-    // Offset: 0x15EAC68
+    // Offset: 0x15C8CD4
     ::ArrayW<uint8_t> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey, ::ArrayW<uint8_t> ctx);
     // System.Void Reset()
-    // Offset: 0x15EADE0
+    // Offset: 0x15C8E4C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x15EAAE8
+    // Offset: 0x15C8B54
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::.ctor()
     // Base method: System.Void Stream::.ctor()

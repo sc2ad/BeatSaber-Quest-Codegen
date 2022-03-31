@@ -53,16 +53,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Comparison`1<System.Single> <>9__65_0
     static void _set_$$9__65_0(::System::Comparison_1<float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17628F0
+    // Offset: 0x175A7E0
     static void _cctor();
     // System.Boolean <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0(UnityEngine.Material material)
-    // Offset: 0x176295C
+    // Offset: 0x175A84C
     bool $GetFinalMaterialsFromComparingNewWithPrevious$b__63_0(::UnityEngine::Material* material);
     // System.Int32 <GenerateLODMeshesFromGeoGroups>b__65_0(System.Single a, System.Single b)
-    // Offset: 0x17629C8
+    // Offset: 0x175A8B8
     int $GenerateLODMeshesFromGeoGroups$b__65_0(float a, float b);
     // public System.Void .ctor()
-    // Offset: 0x1762954
+    // Offset: 0x175A844
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

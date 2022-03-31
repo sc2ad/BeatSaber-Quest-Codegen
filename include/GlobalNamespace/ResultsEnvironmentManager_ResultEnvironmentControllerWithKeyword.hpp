@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BaseResultsEnvironmentController _resultsEnvironmentController
     ::GlobalNamespace::BaseResultsEnvironmentController*& dyn__resultsEnvironmentController();
     // public System.String get_keyword()
-    // Offset: 0x13C8AEC
+    // Offset: 0x137E1FC
     ::StringW get_keyword();
     // public BaseResultsEnvironmentController get_resultsEnvironmentController()
-    // Offset: 0x13C8AF4
+    // Offset: 0x137E204
     ::GlobalNamespace::BaseResultsEnvironmentController* get_resultsEnvironmentController();
     // public System.Void .ctor()
-    // Offset: 0x13C8AFC
+    // Offset: 0x137E20C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

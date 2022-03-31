@@ -34,7 +34,7 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedReliableRequest*>(this);
     }
     // public BGNet.Core.Messages.IUnconnectedReliableResponse WithRequestAndResponseId(System.UInt32 requestId, System.UInt32 responseId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::BGNet::Core::Messages::IUnconnectedReliableResponse* WithRequestAndResponseId(uint requestId, uint responseId);
   }; // BGNet.Core.Messages.IUnconnectedReliableResponse
   #pragma pack(pop)

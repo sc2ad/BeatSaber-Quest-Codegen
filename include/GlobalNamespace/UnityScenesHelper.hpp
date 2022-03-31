@@ -37,10 +37,10 @@ namespace GlobalNamespace {
   class UnityScenesHelper : public ::Il2CppObject {
     public:
     // static public System.Void SetActiveRootObjectsInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean active)
-    // Offset: 0x2A0D444
+    // Offset: 0x29D9620
     static void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
     // static public System.Collections.Generic.IEnumerable`1<T> FindComponentsOfTypeInScene(UnityEngine.SceneManagement.Scene activeScene, System.Boolean includeInactive)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::IEnumerable_1<T>* FindComponentsOfTypeInScene(::UnityEngine::SceneManagement::Scene activeScene, bool includeInactive) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UnityScenesHelper::FindComponentsOfTypeInScene");

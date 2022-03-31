@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class INoteDebrisDidFinishEvent {
     public:
     // public System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
   }; // INoteDebrisDidFinishEvent
   #pragma pack(pop)

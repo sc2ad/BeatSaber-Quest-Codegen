@@ -29,7 +29,7 @@ namespace System {
   class IConsoleDriver {
     public:
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.IConsoleDriver
   #pragma pack(pop)

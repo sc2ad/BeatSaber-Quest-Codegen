@@ -57,19 +57,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single bpm
     float& dyn_bpm();
     // public System.Void .ctor(System.Single time, System.Single bpm)
-    // Offset: 0x2846128
+    // Offset: 0x28152A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BPMChangeBeatmapEventData* New_ctor(float time, float bpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BPMChangeBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BPMChangeBeatmapEventData*, creationType>(time, bpm)));
     }
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x28461C8
+    // Offset: 0x2815340
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x2846254
+    // Offset: 0x28153CC
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

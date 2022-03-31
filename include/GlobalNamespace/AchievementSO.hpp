@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _achievementId
     ::StringW& dyn__achievementId();
     // public System.String get_achievementId()
-    // Offset: 0x14B56E0
+    // Offset: 0x14AF098
     ::StringW get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x14B56E8
+    // Offset: 0x14AF0A0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

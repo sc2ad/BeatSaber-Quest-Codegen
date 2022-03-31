@@ -109,7 +109,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 endMarkerPos
     int& dyn_endMarkerPos();
     // System.Void .ctor(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions, System.Int32 endMarkerPos, System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean isEmptiable, System.Xml.Schema.BitSet positionsWithRangeTerminals, System.Int32 minmaxNodesCount)
-    // Offset: 0x1C41834
+    // Offset: 0x1C27D04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeContentValidator* New_ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable, ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int minmaxNodesCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::RangeContentValidator::.ctor");

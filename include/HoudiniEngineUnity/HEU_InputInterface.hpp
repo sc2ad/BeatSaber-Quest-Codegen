@@ -69,23 +69,23 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.Int32 _priority
     int& dyn__priority();
     // public System.Int32 get_Priority()
-    // Offset: 0x18568E4
+    // Offset: 0x184D7D8
     int get_Priority();
     // public System.Void .ctor(System.Int32 priority)
-    // Offset: 0x18568EC
+    // Offset: 0x184D7E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterface* New_ctor(int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterface*, creationType>(priority)));
     }
     // public System.Void RegisterInterface()
-    // Offset: 0x1856918
+    // Offset: 0x184D80C
     void RegisterInterface();
     // public System.Boolean IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
     // public System.Boolean CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int> inputNodeID);
   }; // HoudiniEngineUnity.HEU_InputInterface
   #pragma pack(pop)

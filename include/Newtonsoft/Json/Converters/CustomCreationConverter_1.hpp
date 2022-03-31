@@ -46,14 +46,14 @@ namespace Newtonsoft::Json::Converters {
   class CustomCreationConverter_1 : public ::Newtonsoft::Json::JsonConverter {
     public:
     // public T Create(System.Type objectType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Create(::System::Type* objectType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::CustomCreationConverter_1::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(objectType)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, objectType);
     }
     // public override System.Boolean get_CanWrite()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::get_CanWrite()
     bool get_CanWrite() {
@@ -62,7 +62,7 @@ namespace Newtonsoft::Json::Converters {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -72,7 +72,7 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<CustomCreationConverter_1<T>*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer) {
@@ -81,7 +81,7 @@ namespace Newtonsoft::Json::Converters {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer, value, serializer);
     }
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer) {
@@ -90,7 +90,7 @@ namespace Newtonsoft::Json::Converters {
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, reader, objectType, existingValue, serializer);
     }
     // public override System.Boolean CanConvert(System.Type objectType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
     bool CanConvert(::System::Type* objectType) {

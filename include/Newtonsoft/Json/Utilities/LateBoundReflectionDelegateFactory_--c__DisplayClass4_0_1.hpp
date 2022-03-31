@@ -72,21 +72,21 @@ namespace Newtonsoft::Json::Utilities {
       return *reinterpret_cast<::System::Reflection::MethodBase**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Object <CreateMethodCall>b__0(T o, System.Object[] a)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* $CreateMethodCall$b__0(T o, ::ArrayW<::Il2CppObject*> a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass4_0_1::<CreateMethodCall>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateMethodCall>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o), ::il2cpp_utils::ExtractType(a)})));
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, o, a);
     }
     // System.Object <CreateMethodCall>b__1(T o, System.Object[] a)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* $CreateMethodCall$b__1(T o, ::ArrayW<::Il2CppObject*> a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass4_0_1::<CreateMethodCall>b__1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateMethodCall>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o), ::il2cpp_utils::ExtractType(a)})));
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, o, a);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

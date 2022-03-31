@@ -29,7 +29,7 @@ namespace UnityEngine::TestTools::Utils {
   class IAssemblyWrapper {
     public:
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Reflection::Assembly* get_Assembly();
   }; // UnityEngine.TestTools.Utils.IAssemblyWrapper
   #pragma pack(pop)

@@ -80,48 +80,48 @@ namespace System::Net {
     // Get instance field reference: private System.Security.SecureString m_password
     ::System::Security::SecureString*& dyn_m_password();
     // public System.String get_UserName()
-    // Offset: 0x1A86DB4
+    // Offset: 0x1A7BCA0
     ::StringW get_UserName();
     // public System.Void set_UserName(System.String value)
-    // Offset: 0x1A86CA8
+    // Offset: 0x1A7BB94
     void set_UserName(::StringW value);
     // public System.String get_Password()
-    // Offset: 0x1A86DBC
+    // Offset: 0x1A7BCA8
     ::StringW get_Password();
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1A86D18
+    // Offset: 0x1A7BC04
     void set_Password(::StringW value);
     // public System.String get_Domain()
-    // Offset: 0x1A86DD4
+    // Offset: 0x1A7BCC0
     ::StringW get_Domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x1A86D44
+    // Offset: 0x1A7BC30
     void set_Domain(::StringW value);
     // public System.Void .ctor(System.String userName, System.String password)
-    // Offset: 0x1A86B58
+    // Offset: 0x1A7BA44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkCredential* New_ctor(::StringW userName, ::StringW password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkCredential::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkCredential*, creationType>(userName, password)));
     }
     // public System.Void .ctor(System.String userName, System.String password, System.String domain)
-    // Offset: 0x1A86BC8
+    // Offset: 0x1A7BAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkCredential* New_ctor(::StringW userName, ::StringW password, ::StringW domain) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkCredential::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkCredential*, creationType>(userName, password, domain)));
     }
     // System.String InternalGetUserName()
-    // Offset: 0x1A86DDC
+    // Offset: 0x1A7BCC8
     ::StringW InternalGetUserName();
     // System.String InternalGetPassword()
-    // Offset: 0x1A86DC8
+    // Offset: 0x1A7BCB4
     ::StringW InternalGetPassword();
     // System.String InternalGetDomain()
-    // Offset: 0x1A86DE4
+    // Offset: 0x1A7BCD0
     ::StringW InternalGetDomain();
     // public System.Net.NetworkCredential GetCredential(System.Uri uri, System.String authType)
-    // Offset: 0x1A86DEC
+    // Offset: 0x1A7BCD8
     ::System::Net::NetworkCredential* GetCredential(::System::Uri* uri, ::StringW authType);
   }; // System.Net.NetworkCredential
   #pragma pack(pop)

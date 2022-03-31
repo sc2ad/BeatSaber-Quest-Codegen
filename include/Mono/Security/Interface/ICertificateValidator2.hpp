@@ -43,7 +43,7 @@ namespace Mono::Security::Interface {
       return *reinterpret_cast<::Mono::Security::Interface::ICertificateValidator*>(this);
     }
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW targetHost, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
   }; // Mono.Security.Interface.ICertificateValidator2
   #pragma pack(pop)

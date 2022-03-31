@@ -76,35 +76,35 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::HashSet_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Int32 get_Count()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QueueSet_1::get_Count");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public System.Void Enqueue(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Enqueue(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QueueSet_1::Enqueue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public T Dequeue()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Dequeue() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QueueSet_1::Dequeue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QueueSet_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

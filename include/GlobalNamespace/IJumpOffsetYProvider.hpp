@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IJumpOffsetYProvider {
     public:
     // public System.Single get_jumpOffsetY()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_jumpOffsetY();
   }; // IJumpOffsetYProvider
   #pragma pack(pop)

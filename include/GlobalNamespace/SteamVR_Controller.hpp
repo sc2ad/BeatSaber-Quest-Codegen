@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_Controller/Device[] devices
     static void _set_devices(::ArrayW<::GlobalNamespace::SteamVR_Controller::Device*> value);
     // static public SteamVR_Controller/Device Input(System.Int32 deviceIndex)
-    // Offset: 0x18709A8
+    // Offset: 0x186789C
     static ::GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);
     // static public System.Void Update()
-    // Offset: 0x1870B2C
+    // Offset: 0x1867A20
     static void Update();
     // static public System.Int32 GetDeviceIndex(SteamVR_Controller/DeviceRelation relation, Valve.VR.ETrackedDeviceClass deviceClass, System.Int32 relativeTo)
-    // Offset: 0x1870CF0
+    // Offset: 0x1867BE4
     static int GetDeviceIndex(::GlobalNamespace::SteamVR_Controller::DeviceRelation relation, ::Valve::VR::ETrackedDeviceClass deviceClass, int relativeTo);
     // public System.Void .ctor()
-    // Offset: 0x18710CC
+    // Offset: 0x1867FC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

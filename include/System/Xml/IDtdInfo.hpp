@@ -34,22 +34,22 @@ namespace System::Xml {
   class IDtdInfo {
     public:
     // public System.Xml.XmlQualifiedName get_Name()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlQualifiedName* get_Name();
     // public System.String get_InternalDtdSubset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_InternalDtdSubset();
     // public System.Boolean get_HasDefaultAttributes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_HasDefaultAttributes();
     // public System.Boolean get_HasNonCDataAttributes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_HasNonCDataAttributes();
     // public System.Xml.IDtdAttributeListInfo LookupAttributeList(System.String prefix, System.String localName)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::IDtdAttributeListInfo* LookupAttributeList(::StringW prefix, ::StringW localName);
     // public System.Xml.IDtdEntityInfo LookupEntity(System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::IDtdEntityInfo* LookupEntity(::StringW name);
   }; // System.Xml.IDtdInfo
   #pragma pack(pop)

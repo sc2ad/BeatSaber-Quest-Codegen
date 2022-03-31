@@ -108,28 +108,28 @@ namespace Zenject {
         return *reinterpret_cast<::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TContract>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // Zenject.IProvider <FromMethod>b__0(Zenject.DiContainer container)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::Zenject::IProvider* $FromMethod$b__0(::Zenject::DiContainer* container) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::$$c__DisplayClass1_0::<FromMethod>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromMethod>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::IProvider*, false>(this, ___internal__method, container);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::$$c__DisplayClass1_0::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_3<TParam1, TParam2, TContract>::$$c__DisplayClass1_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::$$c__DisplayClass1_0::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_3<TParam1, TParam2, TContract>::$$c__DisplayClass1_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -174,35 +174,35 @@ namespace Zenject {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_3<TParam1, TParam2, TContract>::$$c__2_1<TSubFactory>*>::get(), "<>9__2_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::$$c__2_1::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_3<TParam1, TParam2, TContract>::$$c__2_1<TSubFactory>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // System.Void <FromFactory>b__2_0(Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`3<TParam1,TParam2,TContract>> x)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $FromFactory$b__2_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_3<TParam1, TParam2, TContract>*>* x) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::$$c__2_1::<FromFactory>b__2_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromFactory>b__2_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, x);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::$$c__2_1::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_3<TParam1, TParam2, TContract>::$$c__2_1<TSubFactory>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::$$c__2_1::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_3<TParam1, TParam2, TContract>::$$c__2_1<TSubFactory>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -213,21 +213,21 @@ namespace Zenject {
     }; // Zenject.FactoryFromBinder`3/Zenject.<>c__2`1
     // Could not write size check! Type: Zenject.FactoryFromBinder`3/Zenject.<>c__2`1 is generic, or has no fields that are valid for size checks!
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryFromBinder_3<TParam1, TParam2, TContract>* New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinder_3<TParam1, TParam2, TContract>*, creationType>(container, bindInfo, factoryBindInfo)));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromMethod(System.Func`4<Zenject.DiContainer,TParam1,TParam2,TContract> method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::ConditionCopyNonLazyBinder* FromMethod(::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TContract>* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::FromMethod");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(method)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal__method, method);
     }
     // public Zenject.ConditionCopyNonLazyBinder FromFactory()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSubFactory>
     ::Zenject::ConditionCopyNonLazyBinder* FromFactory() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TSubFactory>, ::Zenject::IFactory_3<TParam1, TParam2, TContract>>);
@@ -237,14 +237,14 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(this, ___generic__method);
     }
     // public Zenject.FactorySubContainerBinder`3<TParam1,TParam2,TContract> FromSubContainerResolve()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::FactorySubContainerBinder_3<TParam1, TParam2, TContract>* FromSubContainerResolve() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::FromSubContainerResolve");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromSubContainerResolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactorySubContainerBinder_3<TParam1, TParam2, TContract>*, false>(this, ___internal__method);
     }
     // public Zenject.FactorySubContainerBinder`3<TParam1,TParam2,TContract> FromSubContainerResolve(System.Object subIdentifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::FactorySubContainerBinder_3<TParam1, TParam2, TContract>* FromSubContainerResolve(::Il2CppObject* subIdentifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder_3::FromSubContainerResolve");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromSubContainerResolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subIdentifier)})));

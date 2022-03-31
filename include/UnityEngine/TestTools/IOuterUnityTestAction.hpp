@@ -34,10 +34,10 @@ namespace UnityEngine::TestTools {
   class IOuterUnityTestAction {
     public:
     // public System.Collections.IEnumerator BeforeTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerator* BeforeTest(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Collections.IEnumerator AfterTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerator* AfterTest(::NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestTools.IOuterUnityTestAction
   #pragma pack(pop)

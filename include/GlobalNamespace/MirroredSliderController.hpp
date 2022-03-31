@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshFilter* meshFilter;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B4D3C
+    // [InjectAttribute] Offset: 0x124F1C0
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x38
@@ -106,34 +106,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _followedTransform
     ::UnityEngine::Transform*& dyn__followedTransform();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x132D6AC
+    // Offset: 0x1302E2C
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x132E084
+    // Offset: 0x1303804
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x132E0AC
+    // Offset: 0x130382C
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x132E28C
+    // Offset: 0x1303A0C
     void OnDestroy();
     // public System.Void Mirror(SliderController sliderController)
-    // Offset: 0x132CD14
+    // Offset: 0x1302494
     void Mirror(::GlobalNamespace::SliderController* sliderController);
     // private System.Void UpdateMaterialPropertyBlock(System.Single timeSinceHeadNoteJump)
-    // Offset: 0x132E160
+    // Offset: 0x13038E0
     void UpdateMaterialPropertyBlock(float timeSinceHeadNoteJump);
     // private System.Void RemoveListeners()
-    // Offset: 0x132E290
+    // Offset: 0x1303A10
     void RemoveListeners();
     // public System.Void HandleSliderDidStartDissolving(SliderController sliderController, System.Single duration)
-    // Offset: 0x132E390
+    // Offset: 0x1303B10
     void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float duration);
     // private System.Void Dissolve(System.Single duration)
-    // Offset: 0x132E3B8
+    // Offset: 0x1303B38
     void Dissolve(float duration);
     // public System.Void .ctor()
-    // Offset: 0x132E3E0
+    // Offset: 0x1303B60
     // Implemented from: SliderControllerBase
     // Base method: System.Void SliderControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

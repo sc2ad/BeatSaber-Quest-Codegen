@@ -66,14 +66,14 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<::System::Func_1<TProperty>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Func`1<TProperty> constructor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::CustomTypeClass_1<TProperty>* New_ctor(::System::Func_1<TProperty>* constructor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CustomTypeClass_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomTypeClass_1<TProperty>*, creationType>(constructor)));
     }
     // public override LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> Get()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType
     // Base method: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> CustomType::Get()
     template<class T>

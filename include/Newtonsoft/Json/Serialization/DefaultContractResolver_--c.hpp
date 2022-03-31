@@ -81,28 +81,28 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public System.Func`2<Newtonsoft.Json.Serialization.JsonProperty,System.Int32> <>9__60_0
     static void _set_$$9__60_0(::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D3D5CC
+    // Offset: 0x1D20A9C
     static void _cctor();
     // System.Boolean <GetSerializableMembers>b__30_0(System.Reflection.MemberInfo m)
-    // Offset: 0x1D3D638
+    // Offset: 0x1D20B08
     bool $GetSerializableMembers$b__30_0(::System::Reflection::MemberInfo* m);
     // System.Boolean <GetSerializableMembers>b__30_1(System.Reflection.MemberInfo m)
-    // Offset: 0x1D3D6AC
+    // Offset: 0x1D20B7C
     bool $GetSerializableMembers$b__30_1(::System::Reflection::MemberInfo* m);
     // System.Collections.Generic.IEnumerable`1<System.Reflection.MemberInfo> <GetExtensionDataMemberForType>b__33_0(System.Type baseType)
-    // Offset: 0x1D3D720
+    // Offset: 0x1D20BF0
     ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* $GetExtensionDataMemberForType$b__33_0(::System::Type* baseType);
     // System.Boolean <GetExtensionDataMemberForType>b__33_1(System.Reflection.MemberInfo m)
-    // Offset: 0x1D3D7F0
+    // Offset: 0x1D20CC0
     bool $GetExtensionDataMemberForType$b__33_1(::System::Reflection::MemberInfo* m);
     // System.Boolean <GetAttributeConstructor>b__36_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x1D3DC08
+    // Offset: 0x1D210D8
     bool $GetAttributeConstructor$b__36_0(::System::Reflection::ConstructorInfo* c);
     // System.Int32 <CreateProperties>b__60_0(Newtonsoft.Json.Serialization.JsonProperty p)
-    // Offset: 0x1D3DCA0
+    // Offset: 0x1D21170
     int $CreateProperties$b__60_0(::Newtonsoft::Json::Serialization::JsonProperty* p);
     // public System.Void .ctor()
-    // Offset: 0x1D3D630
+    // Offset: 0x1D20B00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

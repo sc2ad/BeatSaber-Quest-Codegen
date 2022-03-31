@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly IBeatmapLevelPack beatmapLevelPack
     ::GlobalNamespace::IBeatmapLevelPack*& dyn_beatmapLevelPack();
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x13B283C
+    // Offset: 0x1427924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelPackDestination* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelPackDestination::.ctor");

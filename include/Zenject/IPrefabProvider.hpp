@@ -29,7 +29,7 @@ namespace Zenject {
   class IPrefabProvider {
     public:
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Object* GetPrefab();
   }; // Zenject.IPrefabProvider
   #pragma pack(pop)

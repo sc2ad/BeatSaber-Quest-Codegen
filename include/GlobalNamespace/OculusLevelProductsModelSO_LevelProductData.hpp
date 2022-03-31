@@ -59,16 +59,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _assetFile
     ::StringW& dyn__assetFile();
     // public System.String get_sku()
-    // Offset: 0x14F45AC
+    // Offset: 0x150FBD8
     ::StringW get_sku();
     // public System.String get_levelId()
-    // Offset: 0x14F45B4
+    // Offset: 0x150FBE0
     ::StringW get_levelId();
     // public System.String get_assetFile()
-    // Offset: 0x14F45BC
+    // Offset: 0x150FBE8
     ::StringW get_assetFile();
     // public System.Void .ctor()
-    // Offset: 0x14F45C4
+    // Offset: 0x150FBF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

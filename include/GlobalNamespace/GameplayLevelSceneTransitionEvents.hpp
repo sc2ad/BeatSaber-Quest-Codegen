@@ -91,32 +91,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action anyGameplayLevelDidFinishEvent
     ::System::Action*& dyn_anyGameplayLevelDidFinishEvent();
     // public System.Void add_anyGameplayLevelDidFinishEvent(System.Action value)
-    // Offset: 0x131E13C
+    // Offset: 0x13E4E00
     void add_anyGameplayLevelDidFinishEvent(::System::Action* value);
     // public System.Void remove_anyGameplayLevelDidFinishEvent(System.Action value)
-    // Offset: 0x131E1E0
+    // Offset: 0x13E4EA4
     void remove_anyGameplayLevelDidFinishEvent(::System::Action* value);
     // public System.Void .ctor(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData)
-    // Offset: 0x131E284
+    // Offset: 0x13E4F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayLevelSceneTransitionEvents* New_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayLevelSceneTransitionEvents::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayLevelSceneTransitionEvents*, creationType>(standardLevelScenesTransitionSetupData, missionLevelScenesTransitionSetupData, multiplayerLevelScenesTransitionSetupData)));
     }
     // private System.Void HandleStandardLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x131E560
+    // Offset: 0x13E5224
     void HandleStandardLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void HandleMultiplayerLevelDidFinish(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, MultiplayerResultsData multiplayerResultsData)
-    // Offset: 0x131E588
+    // Offset: 0x13E524C
     void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
     // private System.Void HandleMissionLevelDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x131E59C
+    // Offset: 0x13E5260
     void HandleMissionLevelDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void InvokeAnyGameplayLevelDidFinish()
-    // Offset: 0x131E574
+    // Offset: 0x13E5238
     void InvokeAnyGameplayLevelDidFinish();
     // protected override System.Void Finalize()
-    // Offset: 0x131E3D4
+    // Offset: 0x13E5098
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PreviousColorPanelController* previousColorPanelController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PreviousColorPanelController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BD3B4
+    // [SpaceAttribute] Offset: 0x1257948
     // private UnityEngine.UI.Button _cancelButton
     // Size: 0x8
     // Offset: 0x80
@@ -136,40 +136,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _colorChanged
     bool& dyn__colorChanged();
     // public System.Void add_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x141FC88
+    // Offset: 0x1412E40
     void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void remove_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x1420134
+    // Offset: 0x14132EC
     void remove_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x141FD2C
+    // Offset: 0x1412EE4
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x14201D8
+    // Offset: 0x1413390
     void remove_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void SetColorCallback(System.Action`1<UnityEngine.Color> colorCallback)
-    // Offset: 0x1421D30
+    // Offset: 0x1414EE8
     void SetColorCallback(::System::Action_1<::UnityEngine::Color>* colorCallback);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x14202F8
+    // Offset: 0x14134B0
     void SetColor(::UnityEngine::Color color);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1421FA0
+    // Offset: 0x1415158
     void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x14220E4
+    // Offset: 0x141529C
     void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
     // private System.Void HandleCancelButtonWasPressed()
-    // Offset: 0x1422168
+    // Offset: 0x1415320
     void HandleCancelButtonWasPressed();
     // private System.Void HandleApplyButtonWasPressed()
-    // Offset: 0x14221F8
+    // Offset: 0x14153B0
     void HandleApplyButtonWasPressed();
     // private System.Void ChangeColor(UnityEngine.Color color)
-    // Offset: 0x142201C
+    // Offset: 0x14151D4
     void ChangeColor(::UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x142225C
+    // Offset: 0x1415414
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -183,12 +183,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditColorController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1421D38
+    // Offset: 0x1414EF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1421EC0
+    // Offset: 0x1415078
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

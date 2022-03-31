@@ -28,25 +28,25 @@ namespace Oculus::Platform {
   class StandalonePlatformSettings : public ::Il2CppObject {
     public:
     // static public System.String get_OculusPlatformTestUserEmail()
-    // Offset: 0x2A5CB60
+    // Offset: 0x2A28D10
     static ::StringW get_OculusPlatformTestUserEmail();
     // static public System.Void set_OculusPlatformTestUserEmail(System.String value)
-    // Offset: 0x2A5CBB0
+    // Offset: 0x2A28D60
     static void set_OculusPlatformTestUserEmail(::StringW value);
     // static public System.String get_OculusPlatformTestUserPassword()
-    // Offset: 0x2A5CBB4
+    // Offset: 0x2A28D64
     static ::StringW get_OculusPlatformTestUserPassword();
     // static public System.Void set_OculusPlatformTestUserPassword(System.String value)
-    // Offset: 0x2A5CC04
+    // Offset: 0x2A28DB4
     static void set_OculusPlatformTestUserPassword(::StringW value);
     // static public System.String get_OculusPlatformTestUserAccessToken()
-    // Offset: 0x2A5CC08
+    // Offset: 0x2A28DB8
     static ::StringW get_OculusPlatformTestUserAccessToken();
     // static public System.Void set_OculusPlatformTestUserAccessToken(System.String value)
-    // Offset: 0x2A5CC58
+    // Offset: 0x2A28E08
     static void set_OculusPlatformTestUserAccessToken(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x2A5CC5C
+    // Offset: 0x2A28E0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

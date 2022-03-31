@@ -41,14 +41,14 @@ namespace Zenject {
   class FactoryToChoiceIdBinder_4 : public ::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract> {
     public:
     // public Zenject.FactoryArgumentsToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceIdBinder_4::WithId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(identifier)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal__method, identifier);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.FactoryArgumentsToChoiceBinder`4
     // Base method: System.Void FactoryArgumentsToChoiceBinder_4::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Base method: System.Void FactoryToChoiceBinder_4::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)

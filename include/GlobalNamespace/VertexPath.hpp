@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C52F0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x125F884
     // Get static field: static private readonly UnityEngine.Vector3 _back
     static ::UnityEngine::Vector3 _get__back();
     // Set static field: static private readonly UnityEngine.Vector3 _back
@@ -110,38 +110,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3[] _segmentPoints
     ::ArrayW<::UnityEngine::Vector3>& dyn__segmentPoints();
     // public System.Single get_length()
-    // Offset: 0x1A95A28
+    // Offset: 0x2AC2F34
     float get_length();
     // public System.Int32 get_numPoints()
-    // Offset: 0x1A95A30
+    // Offset: 0x2AC2F3C
     int get_numPoints();
     // public System.Void .ctor(System.Int32 numberOfPathSegments)
-    // Offset: 0x1A95A4C
+    // Offset: 0x2AC2F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VertexPath* New_ctor(int numberOfPathSegments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VertexPath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VertexPath*, creationType>(numberOfPathSegments)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A96A8C
+    // Offset: 0x2AC3F98
     static void _cctor();
     // public System.Void UpdateByBezierPath(BezierPath bezierPath)
-    // Offset: 0x1A95B48
+    // Offset: 0x2AC3054
     void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
     // public System.Single TimeAtPoint(System.Int32 pointIndex)
-    // Offset: 0x1A96970
+    // Offset: 0x2AC3E7C
     float TimeAtPoint(int pointIndex);
     // public UnityEngine.Vector3 GetTangent(System.Int32 index)
-    // Offset: 0x1A969B4
+    // Offset: 0x2AC3EC0
     ::UnityEngine::Vector3 GetTangent(int index);
     // public UnityEngine.Vector3 GetNormal(System.Int32 index)
-    // Offset: 0x1A969FC
+    // Offset: 0x2AC3F08
     ::UnityEngine::Vector3 GetNormal(int index);
     // public UnityEngine.Vector3 GetPoint(System.Int32 index)
-    // Offset: 0x1A96A44
+    // Offset: 0x2AC3F50
     ::UnityEngine::Vector3 GetPoint(int index);
     // private System.Void SplitBezierPathIntoFixNumberOfSegments(BezierPath bezierPath, System.Int32 numberOfVertexSegments)
-    // Offset: 0x1A9637C
+    // Offset: 0x2AC3888
     void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int numberOfVertexSegments);
   }; // VertexPath
   #pragma pack(pop)

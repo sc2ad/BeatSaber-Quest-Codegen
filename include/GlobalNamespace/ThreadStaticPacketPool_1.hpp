@@ -49,7 +49,7 @@ namespace GlobalNamespace {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ThreadStaticPacketPool_1<T>*>::get(), "_pool", value));
     }
     // static public PacketPool`1<T> get_pool()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::GlobalNamespace::PacketPool_1<T>* get_pool() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ThreadStaticPacketPool_1::get_pool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ThreadStaticPacketPool_1<T>*>::get(), "get_pool", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

@@ -59,17 +59,17 @@ namespace Zenject {
     // Get instance field reference: private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
     ::Zenject::SubContainerCreatorBindInfo*& dyn__subContainerBindInfo();
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x1D0A6C8
+    // Offset: 0x1CEEB98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(subContainerBindInfo, bindInfo)));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x1D0A6F8
+    // Offset: 0x1CEEBC8
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TKernel>
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel() {
       static_assert(std::is_convertible_v<TKernel, ::Zenject::Kernel*>);

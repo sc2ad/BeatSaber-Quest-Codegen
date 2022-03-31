@@ -41,19 +41,19 @@ namespace BGNet::Logging {
       return *reinterpret_cast<::BGNet::Logging::Debug::ILogger*>(this);
     }
     // public System.Void LogInfo(System.String message)
-    // Offset: 0x2AC859C
+    // Offset: 0x2A97158
     void LogInfo(::StringW message);
     // public System.Void LogError(System.String message)
-    // Offset: 0x2AC85A0
+    // Offset: 0x2A9715C
     void LogError(::StringW message);
     // public System.Void LogException(System.Exception exception, System.String message)
-    // Offset: 0x2AC8608
+    // Offset: 0x2A971C4
     void LogException(::System::Exception* exception, ::StringW message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x2AC86B8
+    // Offset: 0x2A97274
     void LogWarning(::StringW message);
     // public System.Void .ctor()
-    // Offset: 0x2AC7D4C
+    // Offset: 0x2A96908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

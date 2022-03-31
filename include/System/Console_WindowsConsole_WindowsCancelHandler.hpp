@@ -35,20 +35,20 @@ namespace System {
   class Console::WindowsConsole::WindowsCancelHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CE6ECC
+    // Offset: 0x1CCB39C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Console::WindowsConsole::WindowsCancelHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Console::WindowsConsole::WindowsCancelHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Console::WindowsConsole::WindowsCancelHandler*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Int32 keyCode)
-    // Offset: 0x1CE6EDC
+    // Offset: 0x1CCB3AC
     bool Invoke(int keyCode);
     // public System.IAsyncResult BeginInvoke(System.Int32 keyCode, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CE7148
+    // Offset: 0x1CCB618
     ::System::IAsyncResult* BeginInvoke(int keyCode, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CE71D4
+    // Offset: 0x1CCB6A4
     bool EndInvoke(::System::IAsyncResult* result);
   }; // System.Console/System.WindowsConsole/System.WindowsCancelHandler
   #pragma pack(pop)

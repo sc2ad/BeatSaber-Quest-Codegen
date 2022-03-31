@@ -58,20 +58,20 @@ namespace Zenject {
     // Get instance field reference: private Zenject.SubContainerCreatorBindInfo <SubContainerCreatorBindInfo>k__BackingField
     ::Zenject::SubContainerCreatorBindInfo*& dyn_$SubContainerCreatorBindInfo$k__BackingField();
     // protected Zenject.SubContainerCreatorBindInfo get_SubContainerCreatorBindInfo()
-    // Offset: 0x17450F0
+    // Offset: 0x173CFE0
     ::Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
     // private System.Void set_SubContainerCreatorBindInfo(Zenject.SubContainerCreatorBindInfo value)
-    // Offset: 0x17450F8
+    // Offset: 0x173CFE8
     void set_SubContainerCreatorBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x17450C0
+    // Offset: 0x173CFB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(subContainerBindInfo, bindInfo)));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithDefaultGameObjectParent(System.String defaultParentName)
-    // Offset: 0x1745100
+    // Offset: 0x173CFF0
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
   }; // Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
   #pragma pack(pop)

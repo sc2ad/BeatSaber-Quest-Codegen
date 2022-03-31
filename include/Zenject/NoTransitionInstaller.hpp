@@ -38,16 +38,16 @@ namespace Zenject {
   class NoTransitionInstaller : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1BF5114
+    // Offset: 0x1BDB5E4
     void InstallBindings(::Zenject::DiContainer* container);
     // public System.Void PostInstall(Zenject.DiContainer container)
-    // Offset: 0x1BF5118
+    // Offset: 0x1BDB5E8
     void PostInstall(::Zenject::DiContainer* container);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BF5124
+    // Offset: 0x1BDB5F4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BF511C
+    // Offset: 0x1BDB5EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

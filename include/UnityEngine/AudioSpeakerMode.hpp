@@ -41,7 +41,7 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [ObsoleteAttribute] Offset: 0x10563C0
+    // [ObsoleteAttribute] Offset: 0x11ED73C
     // static field const value: static public UnityEngine.AudioSpeakerMode Raw
     static constexpr const int Raw = 0;
     // Get static field: static public UnityEngine.AudioSpeakerMode Raw

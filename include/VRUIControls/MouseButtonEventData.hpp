@@ -63,13 +63,13 @@ namespace VRUIControls {
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData
     ::UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x2A377DC
+    // Offset: 0x2A0398C
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x2A377F0
+    // Offset: 0x2A039A0
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x2A37804
+    // Offset: 0x2A039B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

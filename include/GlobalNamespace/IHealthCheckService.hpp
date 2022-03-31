@@ -28,7 +28,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public System.Void PollUpdate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PollUpdate();
   }; // IHealthCheckService
   #pragma pack(pop)

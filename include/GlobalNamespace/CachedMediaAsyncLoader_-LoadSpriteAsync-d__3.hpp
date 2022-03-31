@@ -92,10 +92,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x135EFF4
+    // Offset: 0x1350C90
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x135F244
+    // Offset: 0x1350EE0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // CachedMediaAsyncLoader/<LoadSpriteAsync>d__3
   // WARNING Not writing size check since size may be invalid!

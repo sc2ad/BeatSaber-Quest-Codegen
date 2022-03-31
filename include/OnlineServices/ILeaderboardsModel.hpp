@@ -53,13 +53,13 @@ namespace OnlineServices {
   class ILeaderboardsModel {
     public:
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(::OnlineServices::GetLeaderboardFilterData leaderboardFilterData, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelScoreResultsData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(::OnlineServices::LevelScoreResultsData levelScoreResultsData, ::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.ILeaderboardsModel
   #pragma pack(pop)

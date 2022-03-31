@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _groupProbeHighlightsIntensityMultiplier
     float& dyn__groupProbeHighlightsIntensityMultiplier();
     // public LightGroup get_lightGroup()
-    // Offset: 0x1F17FBC
+    // Offset: 0x2AD41DC
     ::GlobalNamespace::LightGroup* get_lightGroup();
     // public System.Single get_groupIntensity()
-    // Offset: 0x1F17FC4
+    // Offset: 0x2AD41E4
     float get_groupIntensity();
     // public System.Single get_groupProbeHighlightsIntensityMultiplier()
-    // Offset: 0x1F17FCC
+    // Offset: 0x2AD41EC
     float get_groupProbeHighlightsIntensityMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x1F17FD4
+    // Offset: 0x2AD41F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

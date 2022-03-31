@@ -78,14 +78,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10AF94C
+    // [InjectOptionalAttribute] Offset: 0x1249C90
     // private AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10AF95C
+    // [InjectAttribute] Offset: 0x1249CA0
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x38
@@ -102,34 +102,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected GameScenesManager get_gameScenesManager()
-    // Offset: 0x14BC77C
+    // Offset: 0x14B6134
     ::GlobalNamespace::GameScenesManager* get_gameScenesManager();
     // private System.Collections.IEnumerator StartCoroutine()
-    // Offset: 0x14BC8FC
+    // Offset: 0x14B62B4
     ::System::Collections::IEnumerator* StartCoroutine();
     // protected System.Void OnDestroy()
-    // Offset: 0x14BC998
+    // Offset: 0x14B6350
     void OnDestroy();
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x14BCA6C
+    // Offset: 0x14B6424
     void HandleBeforeDismissingScenes();
     // protected MockPlayersModel GetMockPlayersModel()
-    // Offset: 0x14BCB0C
+    // Offset: 0x14B64C4
     ::GlobalNamespace::MockPlayersModel* GetMockPlayersModel();
     // protected AppInit/AppStartType GetAppStartType()
-    // Offset: 0x14BC858
+    // Offset: 0x14B6210
     ::GlobalNamespace::AppInit::AppStartType GetAppStartType();
     // protected System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AppStartAndMultiSceneEditorSetup();
     // protected System.Void RepeatableSetup()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RepeatableSetup();
     // protected System.Void TransitionToNextScene()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void TransitionToNextScene();
     // protected System.Void .ctor()
-    // Offset: 0x14BCB4C
+    // Offset: 0x14B6504
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -144,7 +144,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AppInit*, creationType>()));
     }
     // public override System.Void Start()
-    // Offset: 0x14BC784
+    // Offset: 0x14B613C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::Start()
     void Start();

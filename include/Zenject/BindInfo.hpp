@@ -232,16 +232,16 @@ namespace Zenject {
     // Get instance field reference: public System.Action`2<Zenject.InjectContext,System.Object> InstantiatedCallback
     ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn_InstantiatedCallback();
     // public System.Void Dispose()
-    // Offset: 0x173A7E4
+    // Offset: 0x17326D4
     void Dispose();
     // public System.Void SetContextInfo(System.String contextInfo)
-    // Offset: 0x173A84C
+    // Offset: 0x173273C
     void SetContextInfo(::StringW contextInfo);
     // public System.Void Reset()
-    // Offset: 0x173A72C
+    // Offset: 0x173261C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x173A66C
+    // Offset: 0x173255C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

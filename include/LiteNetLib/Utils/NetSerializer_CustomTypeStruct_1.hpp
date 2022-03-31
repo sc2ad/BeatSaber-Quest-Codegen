@@ -37,7 +37,7 @@ namespace LiteNetLib::Utils {
   class NetSerializer::CustomTypeStruct_1 : public ::LiteNetLib::Utils::NetSerializer::CustomType {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType
     // Base method: System.Void CustomType::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -47,7 +47,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomTypeStruct_1<TProperty>*, creationType>()));
     }
     // public override LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> Get()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType
     // Base method: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> CustomType::Get()
     template<class T>

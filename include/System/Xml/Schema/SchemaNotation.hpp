@@ -69,22 +69,22 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String pubid
     ::StringW& dyn_pubid();
     // System.Xml.XmlQualifiedName get_Name()
-    // Offset: 0x1C43E84
+    // Offset: 0x1C2A354
     ::System::Xml::XmlQualifiedName* get_Name();
     // System.String get_SystemLiteral()
-    // Offset: 0x1C43E8C
+    // Offset: 0x1C2A35C
     ::StringW get_SystemLiteral();
     // System.Void set_SystemLiteral(System.String value)
-    // Offset: 0x1C43E94
+    // Offset: 0x1C2A364
     void set_SystemLiteral(::StringW value);
     // System.String get_Pubid()
-    // Offset: 0x1C43E9C
+    // Offset: 0x1C2A36C
     ::StringW get_Pubid();
     // System.Void set_Pubid(System.String value)
-    // Offset: 0x1C43EA4
+    // Offset: 0x1C2A374
     void set_Pubid(::StringW value);
     // System.Void .ctor(System.Xml.XmlQualifiedName name)
-    // Offset: 0x1C43E58
+    // Offset: 0x1C2A328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaNotation* New_ctor(::System::Xml::XmlQualifiedName* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaNotation::.ctor");

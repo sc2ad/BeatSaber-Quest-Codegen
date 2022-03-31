@@ -79,19 +79,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single time
     float& dyn_time();
     // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x1386DC0
+    // Offset: 0x133F644
     void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float time);
     // public System.Void CopyFrom(TrailElement other)
-    // Offset: 0x1386EC0
+    // Offset: 0x133F744
     void CopyFrom(::GlobalNamespace::TrailElement* other);
     // public System.Void SetDistance(System.Single value)
-    // Offset: 0x1386F00
+    // Offset: 0x133F784
     void SetDistance(float value);
     // public System.Void UpdateLocalDistance(TrailElement prev)
-    // Offset: 0x1386F08
+    // Offset: 0x133F78C
     void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
     // public System.Void .ctor()
-    // Offset: 0x1386FEC
+    // Offset: 0x133F870
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

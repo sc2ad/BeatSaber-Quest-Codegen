@@ -65,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _mipMapBias
     float& dyn__mipMapBias();
     // protected System.Void Start()
-    // Offset: 0x157DE38
+    // Offset: 0x1574B44
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x157DEC0
+    // Offset: 0x1574BCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

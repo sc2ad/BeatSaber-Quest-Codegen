@@ -32,10 +32,10 @@ namespace System::Collections {
   class IStructuralEquatable {
     public:
     // public System.Boolean Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Equals(::Il2CppObject* other, ::System::Collections::IEqualityComparer* comparer);
     // public System.Int32 GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetHashCode(::System::Collections::IEqualityComparer* comparer);
   }; // System.Collections.IStructuralEquatable
   #pragma pack(pop)

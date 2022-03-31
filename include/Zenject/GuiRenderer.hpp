@@ -59,19 +59,19 @@ namespace Zenject {
     // Get instance field reference: private Zenject.GuiRenderableManager _renderableManager
     ::Zenject::GuiRenderableManager*& dyn__renderableManager();
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
-    // Offset: 0x1E09020
+    // Offset: 0x1DED4F0
     void Construct(::Zenject::GuiRenderableManager* renderableManager);
     // public System.Void OnGUI()
-    // Offset: 0x1E09028
+    // Offset: 0x1DED4F8
     void OnGUI();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1E09048
+    // Offset: 0x1DED518
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E09134
+    // Offset: 0x1DED604
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1E09040
+    // Offset: 0x1DED510
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

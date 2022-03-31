@@ -58,10 +58,10 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0 CS$<>8__locals1
     ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*& dyn_CS$$$8__locals1();
     // System.Boolean <CollectTerrains>b__0(UnityEngine.Terrain x)
-    // Offset: 0x2A94020
+    // Offset: 0x2A601D0
     bool $CollectTerrains$b__0(::UnityEngine::Terrain* x);
     // public System.Void .ctor()
-    // Offset: 0x2A93928
+    // Offset: 0x2A5FAD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

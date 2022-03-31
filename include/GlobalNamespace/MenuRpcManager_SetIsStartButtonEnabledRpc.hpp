@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetIsStartButtonEnabledRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::CannotStartGameReason> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x170977C
+    // Offset: 0x170066C
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

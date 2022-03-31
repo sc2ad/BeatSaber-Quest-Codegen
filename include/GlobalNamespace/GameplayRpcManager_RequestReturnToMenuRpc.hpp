@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::RequestReturnToMenuRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16514B8
+    // Offset: 0x16481FC
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

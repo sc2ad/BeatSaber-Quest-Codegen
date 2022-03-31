@@ -25,13 +25,13 @@ namespace GlobalNamespace {
   class IPacketPool {
     public:
     // public System.Void Release(System.Object t)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Release(::Il2CppObject* t);
     // public System.Void Fill()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Fill();
     // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Clear();
   }; // IPacketPool
   #pragma pack(pop)

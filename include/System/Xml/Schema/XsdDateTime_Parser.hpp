@@ -153,37 +153,37 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 length
     int& dyn_length();
     // static private System.Void .cctor()
-    // Offset: 0x202E61C
+    // Offset: 0x201BFF0
     static void _cctor();
     // public System.Boolean Parse(System.String text, System.Xml.Schema.XsdDateTimeFlags kinds)
-    // Offset: 0x202B84C
+    // Offset: 0x2019220
     bool Parse(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds);
     // private System.Boolean ParseDate(System.Int32 start)
-    // Offset: 0x202DC10
+    // Offset: 0x201B5E4
     bool ParseDate(int start);
     // private System.Boolean ParseTimeAndZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x202DE2C
+    // Offset: 0x201B800
     bool ParseTimeAndZoneAndWhitespace(int start);
     // private System.Boolean ParseTimeAndWhitespace(System.Int32 start)
-    // Offset: 0x202E0B4
+    // Offset: 0x201BA88
     bool ParseTimeAndWhitespace(int start);
     // private System.Boolean ParseTime(ref System.Int32 start)
-    // Offset: 0x202E2F0
+    // Offset: 0x201BCC4
     bool ParseTime(ByRef<int> start);
     // private System.Boolean ParseZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x202DE74
+    // Offset: 0x201B848
     bool ParseZoneAndWhitespace(int start);
     // private System.Boolean Parse4Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x202E110
+    // Offset: 0x201BAE4
     bool Parse4Dig(int start, ByRef<int> num);
     // private System.Boolean Parse2Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x202E23C
+    // Offset: 0x201BC10
     bool Parse2Dig(int start, ByRef<int> num);
     // private System.Boolean ParseChar(System.Int32 start, System.Char ch)
-    // Offset: 0x202DDDC
+    // Offset: 0x201B7B0
     bool ParseChar(int start, ::Il2CppChar ch);
     // static private System.Boolean Test(System.Xml.Schema.XsdDateTimeFlags left, System.Xml.Schema.XsdDateTimeFlags right)
-    // Offset: 0x202DC04
+    // Offset: 0x201B5D8
     static bool Test(::System::Xml::Schema::XsdDateTimeFlags left, ::System::Xml::Schema::XsdDateTimeFlags right);
   }; // System.Xml.Schema.XsdDateTime/System.Xml.Schema.Parser
   #pragma pack(pop)

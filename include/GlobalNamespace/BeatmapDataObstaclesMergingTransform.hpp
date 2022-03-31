@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x137AF58
+    // Offset: 0x136CA54
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static private System.Boolean CanBeMerged(ObstacleData firstObstacle, ObstacleData secondObstacle)
-    // Offset: 0x137B0F4
+    // Offset: 0x136CBF0
     static bool CanBeMerged(::GlobalNamespace::ObstacleData* firstObstacle, ::GlobalNamespace::ObstacleData* secondObstacle);
   }; // BeatmapDataObstaclesMergingTransform
   #pragma pack(pop)

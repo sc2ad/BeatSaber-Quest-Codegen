@@ -63,14 +63,14 @@ namespace Ice {
     ::Ice::FloorLightStreakTileEffect* floorLightStreakTileEffect;
     // Field size check
     static_assert(sizeof(::Ice::FloorLightStreakTileEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3378
+    // [InjectAttribute] Offset: 0x127BC50
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3388
+    // [InjectAttribute] Offset: 0x127BC60
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
@@ -95,22 +95,22 @@ namespace Ice {
     // Get instance field reference: private UnityEngine.Color _spawnColor
     ::UnityEngine::Color& dyn__spawnColor();
     // public UnityEngine.Color get_spawnColor()
-    // Offset: 0x2AA324C
+    // Offset: 0x2A703FC
     ::UnityEngine::Color get_spawnColor();
     // public System.Void set_spawnColor(UnityEngine.Color value)
-    // Offset: 0x2AA3240
+    // Offset: 0x2A703F0
     void set_spawnColor(::UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0x2AA3258
+    // Offset: 0x2A70408
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2AA32E4
+    // Offset: 0x2A70494
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x2AA337C
+    // Offset: 0x2A7052C
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x2AA33E4
+    // Offset: 0x2A70594
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

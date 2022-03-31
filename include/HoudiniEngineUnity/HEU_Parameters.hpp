@@ -210,136 +210,136 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _recacheUI
     bool& dyn__recacheUI();
     // public System.Collections.Generic.List`1<System.Int32> get_RootParameters()
-    // Offset: 0x1AD03E4
+    // Offset: 0x1AB4A1C
     ::System::Collections::Generic::List_1<int>* get_RootParameters();
     // public System.Void set_RootParameters(System.Collections.Generic.List`1<System.Int32> value)
-    // Offset: 0x1AD03EC
+    // Offset: 0x1AB4A24
     void set_RootParameters(::System::Collections::Generic::List_1<int>* value);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ParameterModifier> get_ParameterModifiers()
-    // Offset: 0x1AD03F4
+    // Offset: 0x1AB4A2C
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* get_ParameterModifiers();
     // public System.Void set_ParameterModifiers(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ParameterModifier> value)
-    // Offset: 0x1AD03FC
+    // Offset: 0x1AB4A34
     void set_ParameterModifiers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* value);
     // public System.Boolean get_RequiresRegeneration()
-    // Offset: 0x1AD0404
+    // Offset: 0x1AB4A3C
     bool get_RequiresRegeneration();
     // public System.Void set_RequiresRegeneration(System.Boolean value)
-    // Offset: 0x1AD040C
+    // Offset: 0x1AB4A44
     void set_RequiresRegeneration(bool value);
     // public System.Boolean get_ShowParameters()
-    // Offset: 0x1AD0438
+    // Offset: 0x1AB4A70
     bool get_ShowParameters();
     // public System.Void set_ShowParameters(System.Boolean value)
-    // Offset: 0x1AD0440
+    // Offset: 0x1AB4A78
     void set_ShowParameters(bool value);
     // public System.Boolean get_RecacheUI()
-    // Offset: 0x1AD044C
+    // Offset: 0x1AB4A84
     bool get_RecacheUI();
     // public System.Void set_RecacheUI(System.Boolean value)
-    // Offset: 0x1AD0454
+    // Offset: 0x1AB4A8C
     void set_RecacheUI(bool value);
     // public System.Byte[] GetPresetData()
-    // Offset: 0x1AD0418
+    // Offset: 0x1AB4A50
     ::ArrayW<uint8_t> GetPresetData();
     // public System.Void SetPresetData(System.Byte[] data)
-    // Offset: 0x1AD0420
+    // Offset: 0x1AB4A58
     void SetPresetData(::ArrayW<uint8_t> data);
     // public System.Byte[] GetDefaultPresetData()
-    // Offset: 0x1AD0428
+    // Offset: 0x1AB4A60
     ::ArrayW<uint8_t> GetDefaultPresetData();
     // public System.Boolean AreParametersValid()
-    // Offset: 0x1AD0430
+    // Offset: 0x1AB4A68
     bool AreParametersValid();
     // public System.Void CleanUp()
-    // Offset: 0x1AD0460
+    // Offset: 0x1AB4A98
     void CleanUp();
     // public System.Boolean Initialize(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_ParameterData> previousParamFolders, System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_InputNode> previousParamInputNodes, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x1AD063C
+    // Offset: 0x1AB4C74
     bool Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* previousParamFolders, ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* previousParamInputNodes, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void SetupRampParameter(HoudiniEngineUnity.HEU_ParameterData rampParameter)
-    // Offset: 0x1AD2040
+    // Offset: 0x1AB6678
     void SetupRampParameter(::HoudiniEngineUnity::HEU_ParameterData* rampParameter);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ParameterData> GetParameters()
-    // Offset: 0x1AD2400
+    // Offset: 0x1AB6A38
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterData*>* GetParameters();
     // public HoudiniEngineUnity.HEU_ParameterData GetParameter(System.Int32 listIndex)
-    // Offset: 0x1AD1FB8
+    // Offset: 0x1AB65F0
     ::HoudiniEngineUnity::HEU_ParameterData* GetParameter(int listIndex);
     // public HoudiniEngineUnity.HEU_ParameterData GetParameter(System.String name)
-    // Offset: 0x1ACE900
+    // Offset: 0x1AB2F38
     ::HoudiniEngineUnity::HEU_ParameterData* GetParameter(::StringW name);
     // public HoudiniEngineUnity.HEU_ParameterData GetParameterWithParmID(System.Int32 parmID)
-    // Offset: 0x1AD2408
+    // Offset: 0x1AB6A40
     ::HoudiniEngineUnity::HEU_ParameterData* GetParameterWithParmID(int parmID);
     // public System.Void RemoveParameter(System.Int32 listIndex)
-    // Offset: 0x1AD251C
+    // Offset: 0x1AB6B54
     void RemoveParameter(int listIndex);
     // public System.Int32 GetChosenIndexFromChoiceList(HoudiniEngineUnity.HEU_ParameterData inChoiceParameter)
-    // Offset: 0x1AD25A4
+    // Offset: 0x1AB6BDC
     int GetChosenIndexFromChoiceList(::HoudiniEngineUnity::HEU_ParameterData* inChoiceParameter);
     // public System.String GetStringFromParameter(System.String paramName)
-    // Offset: 0x1AD2658
+    // Offset: 0x1AB6C90
     ::StringW GetStringFromParameter(::StringW paramName);
     // public System.Void SetStringToParameter(System.String paramName, System.String value)
-    // Offset: 0x1AD26AC
+    // Offset: 0x1AB6CE4
     void SetStringToParameter(::StringW paramName, ::StringW value);
     // public System.Boolean HaveParametersChanged()
-    // Offset: 0x1AD2728
+    // Offset: 0x1AB6D60
     bool HaveParametersChanged();
     // public System.Boolean UploadValuesToHoudini(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, System.Boolean bDoCheck, System.Boolean bForceUploadInputs)
-    // Offset: 0x1AD2B68
+    // Offset: 0x1AB71A0
     bool UploadValuesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool bDoCheck, bool bForceUploadInputs);
     // public System.Void InsertInstanceToMultiParm(System.Int32 unityParamIndex, System.Int32 instanceIndex, System.Int32 numInstancesToAdd)
-    // Offset: 0x1AD33AC
+    // Offset: 0x1AB79E4
     void InsertInstanceToMultiParm(int unityParamIndex, int instanceIndex, int numInstancesToAdd);
     // public System.Void RemoveInstancesFromMultiParm(System.Int32 unityParamIndex, System.Int32 instanceIndex, System.Int32 numInstancesToRemove)
-    // Offset: 0x1AD343C
+    // Offset: 0x1AB7A74
     void RemoveInstancesFromMultiParm(int unityParamIndex, int instanceIndex, int numInstancesToRemove);
     // public System.Void ClearInstancesFromMultiParm(System.Int32 unityParamIndex)
-    // Offset: 0x1AD34CC
+    // Offset: 0x1AB7B04
     void ClearInstancesFromMultiParm(int unityParamIndex);
     // public System.Boolean HasModifiersPending()
-    // Offset: 0x1AD354C
+    // Offset: 0x1AB7B84
     bool HasModifiersPending();
     // public System.Void ProcessModifiers(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AD35A4
+    // Offset: 0x1AB7BDC
     void ProcessModifiers(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void GetParameterDataForUIRestore(System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_ParameterData> folderParams, System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_InputNode> inputNodeParams)
-    // Offset: 0x1AD3BA0
+    // Offset: 0x1AB81D8
     void GetParameterDataForUIRestore(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* folderParams, ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* inputNodeParams);
     // public System.Void GetInputNodeConnectionObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> inputNodeObjects)
-    // Offset: 0x1AD3D1C
+    // Offset: 0x1AB8354
     void GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* inputNodeObjects);
     // public System.Void DownloadPresetData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AD3D20
+    // Offset: 0x1AB8358
     void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void UploadPresetData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AD3D74
+    // Offset: 0x1AB83AC
     void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void DownloadAsDefaultPresetData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AD3DB4
+    // Offset: 0x1AB83EC
     void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void UploadParameterInputs(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, System.Boolean bForceUpdate)
-    // Offset: 0x1AD3E08
+    // Offset: 0x1AB8440
     void UploadParameterInputs(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool bForceUpdate);
     // public System.Void UpdateTransformParameters(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_TransformEuler HAPITransform)
-    // Offset: 0x1AD3FAC
+    // Offset: 0x1AB85E4
     void UpdateTransformParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> HAPITransform);
     // public System.Void SyncParameterFromHoudini(HoudiniEngineUnity.HEU_SessionBase session, System.String parameterName)
-    // Offset: 0x1AD403C
+    // Offset: 0x1AB8674
     void SyncParameterFromHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW parameterName);
     // public System.Void SyncInternalParametersForUndoCompare(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AD40CC
+    // Offset: 0x1AB8704
     void SyncInternalParametersForUndoCompare(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void ResetAllToDefault(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AD4470
+    // Offset: 0x1AB8AA8
     void ResetAllToDefault(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_Parameters other)
-    // Offset: 0x1AD45A4
+    // Offset: 0x1AB8BDC
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Parameters* other);
     // public System.Void .ctor()
-    // Offset: 0x1AD4814
+    // Offset: 0x1AB8E4C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

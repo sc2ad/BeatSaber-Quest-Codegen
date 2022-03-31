@@ -35,7 +35,7 @@ namespace UnityEngine::TestTools::TestRunner {
   class RunFinishedEvent : public ::UnityEngine::Events::UnityEvent_1<::NUnit::Framework::Interfaces::ITestResult*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x195B078
+    // Offset: 0x1951F64
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

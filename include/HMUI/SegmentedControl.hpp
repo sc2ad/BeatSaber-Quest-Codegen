@@ -76,7 +76,7 @@ namespace HMUI {
     protected:
     #endif
     #endif
-    // [NullAllowed] Offset: 0x10A0CD8
+    // [NullAllowed] Offset: 0x123AC94
     // private UnityEngine.Transform _separatorPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -149,40 +149,40 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
     ::System::Collections::Generic::Dictionary_2<int, ::System::Action_1<int>*>*& dyn__callbacks();
     // public HMUI.SegmentedControl/HMUI.IDataSource get_dataSource()
-    // Offset: 0x1695BA4
+    // Offset: 0x168CA84
     ::HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/HMUI.IDataSource value)
-    // Offset: 0x1695BAC
+    // Offset: 0x168CA8C
     void set_dataSource(::HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x1695ED8
+    // Offset: 0x168CDB8
     int get_selectedCellNumber();
     // public System.Collections.Generic.IReadOnlyList`1<HMUI.SegmentedControlCell> get_cells()
-    // Offset: 0x1695EE0
+    // Offset: 0x168CDC0
     ::System::Collections::Generic::IReadOnlyList_1<::HMUI::SegmentedControlCell*>* get_cells();
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x1695A5C
+    // Offset: 0x168C93C
     void add_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x1695B00
+    // Offset: 0x168C9E0
     void remove_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
     // private System.Void CreateCells()
-    // Offset: 0x1695EE8
+    // Offset: 0x168CDC8
     void CreateCells();
     // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x16964EC
+    // Offset: 0x168D3CC
     void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // public System.Void SetCallbackForCell(System.Int32 cellNumber, System.Action`1<System.Int32> callback)
-    // Offset: 0x1696644
+    // Offset: 0x168D524
     void SetCallbackForCell(int cellNumber, ::System::Action_1<int>* callback);
     // public System.Void ReloadData()
-    // Offset: 0x1695BB4
+    // Offset: 0x168CA94
     void ReloadData();
     // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x16966B4
+    // Offset: 0x168D594
     void SelectCellWithNumber(int selectCellNumber);
     // public System.Void .ctor()
-    // Offset: 0x1696770
+    // Offset: 0x168D650
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

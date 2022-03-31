@@ -71,7 +71,7 @@ namespace UnityEngine::Events {
       return *reinterpret_cast<::ArrayW<::Il2CppObject*>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -81,7 +81,7 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<UnityEvent_4<T0, T1, T2, T3>*, creationType>()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::Il2CppObject* targetObj) {
@@ -90,7 +90,7 @@ namespace UnityEngine::Events {
       return ::il2cpp_utils::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(this, ___internal__method, name, targetObj);
     }
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, ::System::Reflection::MethodInfo* theFunction) {

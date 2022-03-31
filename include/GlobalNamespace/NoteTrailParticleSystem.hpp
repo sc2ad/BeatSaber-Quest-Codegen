@@ -66,13 +66,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
     ::UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
     // protected System.Void Awake()
-    // Offset: 0x14E9AC0
+    // Offset: 0x147D2C0
     void Awake();
     // public System.Void Emit(UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Int32 count)
-    // Offset: 0x14E993C
+    // Offset: 0x147D13C
     void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int count);
     // public System.Void .ctor()
-    // Offset: 0x14E9AD0
+    // Offset: 0x147D2D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

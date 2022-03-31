@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B85D0
+    // [InjectAttribute] Offset: 0x1252B34
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x10
@@ -78,16 +78,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action menuButtonTriggeredEvent
     ::System::Action*& dyn_menuButtonTriggeredEvent();
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x14A1D2C
+    // Offset: 0x13B464C
     void add_menuButtonTriggeredEvent(::System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x14A1DD0
+    // Offset: 0x13B46F0
     void remove_menuButtonTriggeredEvent(::System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x14A1E74
+    // Offset: 0x13B4794
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x14A1EC0
+    // Offset: 0x13B47E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

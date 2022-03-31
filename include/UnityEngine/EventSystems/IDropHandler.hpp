@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(this);
     }
     // public System.Void OnDrop(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnDrop(::UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IDropHandler
   #pragma pack(pop)

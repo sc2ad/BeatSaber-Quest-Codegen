@@ -40,8 +40,6 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class ParticleSystemLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    char ___base_padding[0x7] = {};
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -71,7 +69,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: minAlpha
     char __padding2[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x109E16C
+    // [DrawIfAttribute] Offset: 0x1239060
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x54
@@ -104,7 +102,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
     ::ArrayW<::UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // public System.Void .ctor()
-    // Offset: 0x1F1C1C4
+    // Offset: 0x2AD85D8
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -119,12 +117,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemLightWithIds*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1F1BED4
+    // Offset: 0x2AD82E8
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::Awake()
     void Awake();
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1F1BF6C
+    // Offset: 0x2AD8380
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

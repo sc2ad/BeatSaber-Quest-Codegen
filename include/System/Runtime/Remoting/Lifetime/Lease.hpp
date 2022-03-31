@@ -135,34 +135,34 @@ namespace System::Runtime::Remoting::Lifetime {
     // Get instance field reference: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
     ::System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*& dyn__renewalDelegate();
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x1C7A564
+    // Offset: 0x1C60A34
     ::System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x1C7A5DC
+    // Offset: 0x1C60AAC
     ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x1C7A5F0
+    // Offset: 0x1C60AC0
     ::System::TimeSpan get_RenewOnCallTime();
     // public System.Void Activate()
-    // Offset: 0x1C7A5E4
+    // Offset: 0x1C60AB4
     void Activate();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x1C7A5F8
+    // Offset: 0x1C60AC8
     ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x1C7A694
+    // Offset: 0x1C60B64
     void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x1C7A7A4
+    // Offset: 0x1C60C74
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x1C7A8F0
+    // Offset: 0x1C60DC0
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x1C7AB54
+    // Offset: 0x1C61024
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x1C7A3CC
+    // Offset: 0x1C6089C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

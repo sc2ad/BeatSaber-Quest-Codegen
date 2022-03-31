@@ -35,7 +35,7 @@ namespace System::Threading {
   class LazyInitializer : public ::Il2CppObject {
     public:
     // static public T EnsureInitialized(ref T target, System.Func`1<T> valueFactory)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T EnsureInitialized(ByRef<T> target, ::System::Func_1<T>* valueFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::LazyInitializer::EnsureInitialized");
@@ -44,7 +44,7 @@ namespace System::Threading {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(target), valueFactory);
     }
     // static private T EnsureInitializedCore(ref T target, System.Func`1<T> valueFactory)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T EnsureInitializedCore(ByRef<T> target, ::System::Func_1<T>* valueFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::LazyInitializer::EnsureInitializedCore");

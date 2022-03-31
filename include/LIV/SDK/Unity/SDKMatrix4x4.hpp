@@ -175,25 +175,25 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Single m33
     float& dyn_m33();
     // static public LIV.SDK.Unity.SDKMatrix4x4 get_identity()
-    // Offset: 0x2A30778
+    // Offset: 0x29FB928
     static ::LIV::SDK::Unity::SDKMatrix4x4 get_identity();
     // static public LIV.SDK.Unity.SDKMatrix4x4 Perspective(System.Single vFov, System.Single aspect, System.Single zNear, System.Single zFar)
-    // Offset: 0x2A3116C
+    // Offset: 0x29FC31C
     static ::LIV::SDK::Unity::SDKMatrix4x4 Perspective(float vFov, float aspect, float zNear, float zFar);
     // static public LIV.SDK.Unity.SDKMatrix4x4 Translate(LIV.SDK.Unity.SDKVector3 value)
-    // Offset: 0x2A31378
+    // Offset: 0x29FC528
     static ::LIV::SDK::Unity::SDKMatrix4x4 Translate(::LIV::SDK::Unity::SDKVector3 value);
     // static public LIV.SDK.Unity.SDKMatrix4x4 Rotate(LIV.SDK.Unity.SDKQuaternion value)
-    // Offset: 0x2A313B4
+    // Offset: 0x29FC564
     static ::LIV::SDK::Unity::SDKMatrix4x4 Rotate(::LIV::SDK::Unity::SDKQuaternion value);
     // static public LIV.SDK.Unity.SDKMatrix4x4 Scale(LIV.SDK.Unity.SDKVector3 value)
-    // Offset: 0x2A31448
+    // Offset: 0x29FC5F8
     static ::LIV::SDK::Unity::SDKMatrix4x4 Scale(::LIV::SDK::Unity::SDKVector3 value);
     // static public LIV.SDK.Unity.SDKMatrix4x4 TRS(LIV.SDK.Unity.SDKVector3 translation, LIV.SDK.Unity.SDKQuaternion rotation, LIV.SDK.Unity.SDKVector3 scale)
-    // Offset: 0x2A31474
+    // Offset: 0x29FC624
     static ::LIV::SDK::Unity::SDKMatrix4x4 TRS(::LIV::SDK::Unity::SDKVector3 translation, ::LIV::SDK::Unity::SDKQuaternion rotation, ::LIV::SDK::Unity::SDKVector3 scale);
     // public override System.String ToString()
-    // Offset: 0x2A31560
+    // Offset: 0x29FC710
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -202,10 +202,10 @@ namespace LIV::SDK::Unity {
   static check_size<sizeof(SDKMatrix4x4), 60 + sizeof(float)> __LIV_SDK_Unity_SDKMatrix4x4SizeCheck;
   static_assert(sizeof(SDKMatrix4x4) == 0x40);
   // static public LIV.SDK.Unity.SDKMatrix4x4 op_Multiply(LIV.SDK.Unity.SDKMatrix4x4 lhs, LIV.SDK.Unity.SDKMatrix4x4 rhs)
-  // Offset: 0x2A31274
+  // Offset: 0x29FC424
   ::LIV::SDK::Unity::SDKMatrix4x4 operator*(const ::LIV::SDK::Unity::SDKMatrix4x4& lhs, const ::LIV::SDK::Unity::SDKMatrix4x4& rhs);
   // static public LIV.SDK.Unity.SDKVector3 op_Multiply(LIV.SDK.Unity.SDKMatrix4x4 lhs, LIV.SDK.Unity.SDKVector3 rhs)
-  // Offset: 0x2A31320
+  // Offset: 0x29FC4D0
   ::LIV::SDK::Unity::SDKVector3 operator*(const ::LIV::SDK::Unity::SDKMatrix4x4& lhs, const ::LIV::SDK::Unity::SDKVector3& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

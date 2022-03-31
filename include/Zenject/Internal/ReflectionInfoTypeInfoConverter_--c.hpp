@@ -65,25 +65,25 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
     static void _set_$$9__8_1(::System::Func_2<::System::Reflection::FieldInfo*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BECCCC
+    // Offset: 0x1BD319C
     static void _cctor();
     // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1BECD38
+    // Offset: 0x1BD3208
     ::Zenject::InjectableInfo* $ConvertMethod$b__0_1(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1BECD50
+    // Offset: 0x1BD3220
     ::Zenject::InjectableInfo* $ConvertConstructor$b__1_0(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
-    // Offset: 0x1BECD68
+    // Offset: 0x1BD3238
     ::StringW $GetOnlyPropertySetter$b__8_1(::System::Reflection::FieldInfo* f);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BECD88
+    // Offset: 0x1BD3258
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BECDE4
+    // Offset: 0x1BD32B4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BECD30
+    // Offset: 0x1BD3200
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

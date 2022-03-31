@@ -36,7 +36,7 @@ namespace System::Net {
   class ICertificatePolicy {
     public:
     // public System.Boolean CheckValidationResult(System.Net.ServicePoint srvPoint, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Net.WebRequest request, System.Int32 certificateProblem)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool CheckValidationResult(::System::Net::ServicePoint* srvPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Net::WebRequest* request, int certificateProblem);
   }; // System.Net.ICertificatePolicy
   #pragma pack(pop)

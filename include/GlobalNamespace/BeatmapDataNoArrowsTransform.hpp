@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BeatmapDataNoArrowsTransform::$$c
     class $$c;
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x137A7AC
+    // Offset: 0x136C584
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoArrowsTransform
   #pragma pack(pop)

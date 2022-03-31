@@ -104,36 +104,36 @@ namespace System::Text {
     // Get instance field reference: System.Int32 m_charsUsed
     int& dyn_m_charsUsed();
     // public System.Text.Encoding get_Encoding()
-    // Offset: 0x20346D8
+    // Offset: 0x20220AC
     ::System::Text::Encoding* get_Encoding();
     // public System.Boolean get_MustFlush()
-    // Offset: 0x20346E0
+    // Offset: 0x20220B4
     bool get_MustFlush();
     // System.Boolean get_HasState()
-    // Offset: 0x20346E8
+    // Offset: 0x20220BC
     bool get_HasState();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2033838
+    // Offset: 0x202120C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderNLS* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::EncoderNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>(info, context)));
     }
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x20339FC
+    // Offset: 0x20213D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderNLS* New_ctor(::System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::EncoderNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>(encoding)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2033920
+    // Offset: 0x20212F4
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void ClearMustFlush()
-    // Offset: 0x20346F8
+    // Offset: 0x20220CC
     void ClearMustFlush();
     // System.Void .ctor()
-    // Offset: 0x2033A44
+    // Offset: 0x2021418
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -143,37 +143,37 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>()));
     }
     // public override System.Void Reset()
-    // Offset: 0x2033A78
+    // Offset: 0x202144C
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Reset()
     void Reset();
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
-    // Offset: 0x2033A98
+    // Offset: 0x202146C
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
     int GetByteCount(::ArrayW<::Il2CppChar> chars, int index, int count, bool flush);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
-    // Offset: 0x2033C78
+    // Offset: 0x202164C
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
     int GetByteCount(::Il2CppChar* chars, int count, bool flush);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
-    // Offset: 0x2033DB8
+    // Offset: 0x202178C
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
     int GetBytes(::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex, bool flush);
     // public override System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
-    // Offset: 0x203405C
+    // Offset: 0x2021A30
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush);
     // public override System.Void Convert(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
-    // Offset: 0x20341E4
+    // Offset: 0x2021BB8
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Convert(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
     void Convert(::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, bool flush, ByRef<int> charsUsed, ByRef<int> bytesUsed, ByRef<bool> completed);
     // public override System.Void Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
-    // Offset: 0x20344DC
+    // Offset: 0x2021EB0
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
     void Convert(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush, ByRef<int> charsUsed, ByRef<int> bytesUsed, ByRef<bool> completed);

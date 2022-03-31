@@ -61,31 +61,31 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Nullable`1<System.Boolean> expectContinue
     ::System::Nullable_1<bool>& dyn_expectContinue();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> get_Connection()
-    // Offset: 0x1964FB8
+    // Offset: 0x195AEA4
     ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
     // public System.Nullable`1<System.Boolean> get_ConnectionClose()
-    // Offset: 0x1965014
+    // Offset: 0x195AF00
     ::System::Nullable_1<bool> get_ConnectionClose();
     // System.Boolean get_ConnectionKeepAlive()
-    // Offset: 0x196516C
+    // Offset: 0x195B058
     bool get_ConnectionKeepAlive();
     // public System.Nullable`1<System.Boolean> get_ExpectContinue()
-    // Offset: 0x1965280
+    // Offset: 0x195B16C
     ::System::Nullable_1<bool> get_ExpectContinue();
     // public System.String get_Host()
-    // Offset: 0x1965428
+    // Offset: 0x195B314
     ::StringW get_Host();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> get_TransferEncoding()
-    // Offset: 0x19653CC
+    // Offset: 0x195B2B8
     ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
     // public System.Nullable`1<System.Boolean> get_TransferEncodingChunked()
-    // Offset: 0x1965484
+    // Offset: 0x195B370
     ::System::Nullable_1<bool> get_TransferEncodingChunked();
     // System.Void AddHeaders(System.Net.Http.Headers.HttpRequestHeaders headers)
-    // Offset: 0x19655D0
+    // Offset: 0x195B4BC
     void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* headers);
     // System.Void .ctor()
-    // Offset: 0x1964F48
+    // Offset: 0x195AE34
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     // Base method: System.Void Object::.ctor()

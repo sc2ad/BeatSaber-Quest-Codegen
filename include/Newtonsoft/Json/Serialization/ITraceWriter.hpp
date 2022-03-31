@@ -36,10 +36,10 @@ namespace Newtonsoft::Json::Serialization {
   class ITraceWriter {
     public:
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Diagnostics::TraceLevel get_LevelFilter();
     // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
   }; // Newtonsoft.Json.Serialization.ITraceWriter
   #pragma pack(pop)

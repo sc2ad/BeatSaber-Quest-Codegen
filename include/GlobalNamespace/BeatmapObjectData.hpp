@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class BeatmapObjectData : public ::GlobalNamespace::BeatmapDataItem {
     public:
     // protected System.Void .ctor(System.Single time, System.Int32 subtypeIdentifier)
-    // Offset: 0x28471A8
+    // Offset: 0x2816320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectData* New_ctor(float time, int subtypeIdentifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectData*, creationType>(time, subtypeIdentifier)));
     }
     // public System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Mirror(int lineCount);
   }; // BeatmapObjectData
   #pragma pack(pop)

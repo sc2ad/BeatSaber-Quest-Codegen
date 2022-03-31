@@ -88,7 +88,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String ZoneId
     ::StringW& dyn_ZoneId();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19BA24C
+    // Offset: 0x19B0138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncConnection* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetSyncConnection::.ctor");

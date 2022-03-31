@@ -35,19 +35,19 @@ namespace GlobalNamespace {
   class IConnection {
     public:
     // public System.String get_userId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isConnectionOwner();
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Disconnect()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Disconnect();
   }; // IConnection
   #pragma pack(pop)

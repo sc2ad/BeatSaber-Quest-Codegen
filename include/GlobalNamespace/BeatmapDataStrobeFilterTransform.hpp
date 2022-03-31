@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxSecondsToConsiderStrobe
     static void _set_kMaxSecondsToConsiderStrobe(float value);
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions)
-    // Offset: 0x14F7114
+    // Offset: 0x14C3F88
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
   }; // BeatmapDataStrobeFilterTransform
   #pragma pack(pop)

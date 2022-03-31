@@ -97,19 +97,19 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters publicKey
     ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& dyn_publicKey();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x15EA698
+    // Offset: 0x15C8704
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x15EA750
+    // Offset: 0x15C87BC
     void BlockUpdate(::ArrayW<uint8_t> buf, int off, int len);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x15EA774
+    // Offset: 0x15C87E0
     ::ArrayW<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x15EA968
+    // Offset: 0x15C89D4
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x15EA628
+    // Offset: 0x15C8694
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

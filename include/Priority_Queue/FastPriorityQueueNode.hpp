@@ -53,19 +53,19 @@ namespace Priority_Queue {
     // Get instance field reference: private System.Int32 <QueueIndex>k__BackingField
     int& dyn_$QueueIndex$k__BackingField();
     // public System.Single get_Priority()
-    // Offset: 0x13C4474
+    // Offset: 0x13799F4
     float get_Priority();
     // protected internal System.Void set_Priority(System.Single value)
-    // Offset: 0x13C447C
+    // Offset: 0x13799FC
     void set_Priority(float value);
     // public System.Int32 get_QueueIndex()
-    // Offset: 0x13C4484
+    // Offset: 0x1379A04
     int get_QueueIndex();
     // System.Void set_QueueIndex(System.Int32 value)
-    // Offset: 0x13C448C
+    // Offset: 0x1379A0C
     void set_QueueIndex(int value);
     // public System.Void .ctor()
-    // Offset: 0x13C4494
+    // Offset: 0x1379A14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

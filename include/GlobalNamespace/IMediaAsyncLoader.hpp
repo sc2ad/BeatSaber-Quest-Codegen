@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class IMediaAsyncLoader {
     public:
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipFromFilePathAsync(System.String filePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
   }; // IMediaAsyncLoader
   #pragma pack(pop)

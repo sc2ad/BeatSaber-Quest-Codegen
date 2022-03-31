@@ -66,19 +66,19 @@ namespace Zenject {
     // Get instance field reference: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
     ::Zenject::NoTransitionInstaller*& dyn__noScenesTransitionInstaller();
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
-    // Offset: 0x1BF4E58
+    // Offset: 0x1BDB328
     ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
     // public System.Action`1<Zenject.DiContainer> get_postInstallMethod()
-    // Offset: 0x1BF4ED8
+    // Offset: 0x1BDB3A8
     ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
     // protected System.Void Awake()
-    // Offset: 0x1BF4F58
+    // Offset: 0x1BDB428
     void Awake();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BF4FE0
+    // Offset: 0x1BDB4B0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BF4FD8
+    // Offset: 0x1BDB4A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

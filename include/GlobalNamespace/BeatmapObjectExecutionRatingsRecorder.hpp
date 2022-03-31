@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B46A8
+    // [InjectAttribute] Offset: 0x124EB2C
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B46B8
+    // [InjectAttribute] Offset: 0x124EB3C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B46C8
+    // [InjectAttribute] Offset: 0x124EB4C
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B46D8
+    // [InjectAttribute] Offset: 0x124EB5C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
@@ -121,25 +121,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<ObstacleController> _hitObstacles
     ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*& dyn__hitObstacles();
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0x1507DB4
+    // Offset: 0x14D4C04
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0x1507DBC
+    // Offset: 0x14D4C0C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1507FE0
+    // Offset: 0x14D4E30
     void OnDestroy();
     // private System.Void HandleScoringForNoteDidFinish(ScoringElement scoringElement)
-    // Offset: 0x1508254
+    // Offset: 0x14D50A4
     void HandleScoringForNoteDidFinish(::GlobalNamespace::ScoringElement* scoringElement);
     // private System.Void HandlePlayerHeadDidEnterObstacle(ObstacleController obstacleController)
-    // Offset: 0x1508638
+    // Offset: 0x14D5488
     void HandlePlayerHeadDidEnterObstacle(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x15086F8
+    // Offset: 0x14D5548
     void HandleObstacleDidPassAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x15087EC
+    // Offset: 0x14D563C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

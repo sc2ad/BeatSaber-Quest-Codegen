@@ -140,34 +140,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDefaultMrcLayersMask
     static void _set_kDefaultMrcLayersMask(::StringW value);
     // static public System.Void ApplyConfigurationFromCommandLineParameters(Zenject.DiContainer container)
-    // Offset: 0x13879E0
+    // Offset: 0x1340264
     static void ApplyConfigurationFromCommandLineParameters(::Zenject::DiContainer* container);
     // static private TrailerToolConfigurationProcessor/TrailerToolConfiguration LoadConfigurationFile(System.String filePath)
-    // Offset: 0x1388510
+    // Offset: 0x1340D94
     static ::GlobalNamespace::TrailerToolConfigurationProcessor::TrailerToolConfiguration* LoadConfigurationFile(::StringW filePath);
     // static public TrailerToolConfigurationProcessor/TrailerToolConfiguration ReadConfiguration(System.String[] args)
-    // Offset: 0x1387B80
+    // Offset: 0x1340404
     static ::GlobalNamespace::TrailerToolConfigurationProcessor::TrailerToolConfiguration* ReadConfiguration(::ArrayW<::StringW> args);
     // static public UnityEngine.LayerMask GetDefaultMrcLayersMask()
-    // Offset: 0x1388664
+    // Offset: 0x1340EE8
     static ::UnityEngine::LayerMask GetDefaultMrcLayersMask();
     // static public UnityEngine.LayerMask GetLayerMask(System.String layerName)
-    // Offset: 0x13886FC
+    // Offset: 0x1340F80
     static ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
     // static public ObjectsMovementRecorder/InitData CreateObjectsMovementRecorderInitDataFromConfiguration(TrailerToolConfigurationProcessor/TrailerToolConfiguration trailerToolConfiguration)
-    // Offset: 0x1387CA8
+    // Offset: 0x134052C
     static ::GlobalNamespace::ObjectsMovementRecorder::InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::TrailerToolConfigurationProcessor::TrailerToolConfiguration* trailerToolConfiguration);
     // static public MenuDestination CreateMenuDestinationFromConfiguration(TrailerToolConfigurationProcessor/TrailerToolConfiguration trailerToolConfiguration, System.Collections.Generic.IEnumerable`1<IBeatmapLevelPack> beatmapLevelPacks, BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
-    // Offset: 0x1388110
+    // Offset: 0x1340994
     static ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::TrailerToolConfigurationProcessor::TrailerToolConfiguration* trailerToolConfiguration, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks, ::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
     // static private IBeatmapLevelPack GetLevelPack(System.String levePackId, System.Collections.Generic.IEnumerable`1<IBeatmapLevelPack> beatmapLevelPacks)
-    // Offset: 0x1388FCC
+    // Offset: 0x1341850
     static ::GlobalNamespace::IBeatmapLevelPack* GetLevelPack(::StringW levePackId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // static private System.ValueTuple`2<IBeatmapLevelPack,IPreviewBeatmapLevel> GetLevelPackAndLevelPreviewForLevelId(System.String levelId, System.Collections.Generic.IEnumerable`1<IBeatmapLevelPack> beatmapLevelPacks)
-    // Offset: 0x1388880
+    // Offset: 0x1341104
     static ::System::ValueTuple_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*> GetLevelPackAndLevelPreviewForLevelId(::StringW levelId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // public System.Void .ctor()
-    // Offset: 0x1389090
+    // Offset: 0x1341914
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,19 +30,19 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedReliableRequest*>(this);
     }
     // public System.UInt32 get_multipartMessageId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     uint get_multipartMessageId();
     // public System.Int32 get_offset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_offset();
     // public System.Int32 get_length()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_length();
     // public System.Int32 get_totalLength()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_totalLength();
     // public System.Byte[] get_data()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> get_data();
   }; // BGNet.Core.Messages.IUnconnectedMultipartMessage
   #pragma pack(pop)

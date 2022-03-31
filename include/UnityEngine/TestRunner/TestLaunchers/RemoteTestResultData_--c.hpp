@@ -47,13 +47,13 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__19_0
     static void _set_$$9__19_0(::System::Func_2<::NUnit::Framework::Interfaces::ITestResult*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x194FF50
+    // Offset: 0x1946E3C
     static void _cctor();
     // System.String <.ctor>b__19_0(NUnit.Framework.Interfaces.ITestResult child)
-    // Offset: 0x194FFBC
+    // Offset: 0x1946EA8
     ::StringW $_ctor$b__19_0(::NUnit::Framework::Interfaces::ITestResult* child);
     // public System.Void .ctor()
-    // Offset: 0x194FFB4
+    // Offset: 0x1946EA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

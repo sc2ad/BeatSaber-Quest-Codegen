@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Asn1 {
   class IAsn1String {
     public:
     // public System.String GetString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetString();
   }; // Org.BouncyCastle.Asn1.IAsn1String
   #pragma pack(pop)

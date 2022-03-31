@@ -127,74 +127,74 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Boolean enableUpaCheck
     bool& dyn_enableUpaCheck();
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean enableUpaCheck)
-    // Offset: 0x1C3FD90
+    // Offset: 0x1C26260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ParticleContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleContentValidator*, creationType>(contentType, enableUpaCheck)));
     }
     // public System.Void Start()
-    // Offset: 0x1C3FE18
+    // Offset: 0x1C262E8
     void Start();
     // public System.Void OpenGroup()
-    // Offset: 0x1C3FFAC
+    // Offset: 0x1C2647C
     void OpenGroup();
     // public System.Void CloseGroup()
-    // Offset: 0x1C3FFD4
+    // Offset: 0x1C264A4
     void CloseGroup();
     // public System.Boolean Exists(System.Xml.XmlQualifiedName name)
-    // Offset: 0x1C40120
+    // Offset: 0x1C265F0
     bool Exists(::System::Xml::XmlQualifiedName* name);
     // public System.Void AddName(System.Xml.XmlQualifiedName name, System.Object particle)
-    // Offset: 0x1C40190
+    // Offset: 0x1C26660
     void AddName(::System::Xml::XmlQualifiedName* name, ::Il2CppObject* particle);
     // public System.Void AddNamespaceList(System.Xml.Schema.NamespaceList namespaceList, System.Object particle)
-    // Offset: 0x1C40470
+    // Offset: 0x1C26940
     void AddNamespaceList(::System::Xml::Schema::NamespaceList* namespaceList, ::Il2CppObject* particle);
     // private System.Void AddLeafNode(System.Xml.Schema.SyntaxTreeNode node)
-    // Offset: 0x1C40384
+    // Offset: 0x1C26854
     void AddLeafNode(::System::Xml::Schema::SyntaxTreeNode* node);
     // public System.Void AddChoice()
-    // Offset: 0x1C40818
+    // Offset: 0x1C26CE8
     void AddChoice();
     // public System.Void AddSequence()
-    // Offset: 0x1C408FC
+    // Offset: 0x1C26DCC
     void AddSequence();
     // public System.Void AddStar()
-    // Offset: 0x1C409E8
+    // Offset: 0x1C26EB8
     void AddStar();
     // public System.Void AddPlus()
-    // Offset: 0x1C40BAC
+    // Offset: 0x1C2707C
     void AddPlus();
     // public System.Void AddQMark()
-    // Offset: 0x1C40C18
+    // Offset: 0x1C270E8
     void AddQMark();
     // private System.Void Closure(System.Xml.Schema.InteriorNode node)
-    // Offset: 0x1C40A54
+    // Offset: 0x1C26F24
     void Closure(::System::Xml::Schema::InteriorNode* node);
     // public System.Xml.Schema.ContentValidator Finish(System.Boolean useDFA)
-    // Offset: 0x1C40C84
+    // Offset: 0x1C27154
     ::System::Xml::Schema::ContentValidator* Finish(bool useDFA);
     // private System.Xml.Schema.BitSet[] CalculateTotalFollowposForRangeNodes(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos, out System.Xml.Schema.BitSet posWithRangeTerminals)
-    // Offset: 0x1C4121C
+    // Offset: 0x1C276EC
     ::ArrayW<::System::Xml::Schema::BitSet*> CalculateTotalFollowposForRangeNodes(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos, ByRef<::System::Xml::Schema::BitSet*> posWithRangeTerminals);
     // private System.Void CheckCMUPAWithLeafRangeNodes(System.Xml.Schema.BitSet curpos)
-    // Offset: 0x1C416A4
+    // Offset: 0x1C27B74
     void CheckCMUPAWithLeafRangeNodes(::System::Xml::Schema::BitSet* curpos);
     // private System.Xml.Schema.BitSet GetApplicableMinMaxFollowPos(System.Xml.Schema.BitSet curpos, System.Xml.Schema.BitSet posWithRangeTerminals, System.Xml.Schema.BitSet[] minmaxFollowPos)
-    // Offset: 0x1C41510
+    // Offset: 0x1C279E0
     ::System::Xml::Schema::BitSet* GetApplicableMinMaxFollowPos(::System::Xml::Schema::BitSet* curpos, ::System::Xml::Schema::BitSet* posWithRangeTerminals, ::ArrayW<::System::Xml::Schema::BitSet*> minmaxFollowPos);
     // private System.Void CheckUniqueParticleAttribution(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1C41900
+    // Offset: 0x1C27DD0
     void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
     // private System.Void CheckUniqueParticleAttribution(System.Xml.Schema.BitSet curpos)
-    // Offset: 0x1C4201C
+    // Offset: 0x1C284EC
     void CheckUniqueParticleAttribution(::System::Xml::Schema::BitSet* curpos);
     // private System.Int32[][] BuildTransitionTable(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos, System.Int32 endMarkerPos)
-    // Offset: 0x1C41994
+    // Offset: 0x1C27E64
     ::ArrayW<::ArrayW<int>> BuildTransitionTable(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos, int endMarkerPos);
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType)
-    // Offset: 0x1C3FD88
+    // Offset: 0x1C26258
     // Implemented from: System.Xml.Schema.ContentValidator
     // Base method: System.Void ContentValidator::.ctor(System.Xml.Schema.XmlSchemaContentType contentType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -88,41 +88,41 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Collections.ArrayList _list
     ::System::Collections::ArrayList*& dyn__list();
     // public System.Byte[] get_PrivateKey()
-    // Offset: 0x2324260
+    // Offset: 0x22FA044
     ::ArrayW<uint8_t> get_PrivateKey();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x2324000
+    // Offset: 0x22F9DE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::PrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::PrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x232402C
+    // Offset: 0x22F9E10
     void Decode(::ArrayW<uint8_t> data);
     // static private System.Byte[] RemoveLeadingZero(System.Byte[] bigInt)
-    // Offset: 0x23242DC
+    // Offset: 0x22FA0C0
     static ::ArrayW<uint8_t> RemoveLeadingZero(::ArrayW<uint8_t> bigInt);
     // static private System.Byte[] Normalize(System.Byte[] bigInt, System.Int32 length)
-    // Offset: 0x2324388
+    // Offset: 0x22FA16C
     static ::ArrayW<uint8_t> Normalize(::ArrayW<uint8_t> bigInt, int length);
     // static public System.Security.Cryptography.RSA DecodeRSA(System.Byte[] keypair)
-    // Offset: 0x232443C
+    // Offset: 0x22FA220
     static ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> keypair);
     // static public System.Byte[] Encode(System.Security.Cryptography.RSA rsa)
-    // Offset: 0x23247B8
+    // Offset: 0x22FA59C
     static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::RSA* rsa);
     // static public System.Security.Cryptography.DSA DecodeDSA(System.Byte[] privateKey, System.Security.Cryptography.DSAParameters dsaParameters)
-    // Offset: 0x232497C
+    // Offset: 0x22FA760
     static ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> privateKey, ::System::Security::Cryptography::DSAParameters dsaParameters);
     // static public System.Byte[] Encode(System.Security.Cryptography.DSA dsa)
-    // Offset: 0x2324A98
+    // Offset: 0x22FA87C
     static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::DSA* dsa);
     // static public System.Byte[] Encode(System.Security.Cryptography.AsymmetricAlgorithm aa)
-    // Offset: 0x2324AE4
+    // Offset: 0x22FA8C8
     static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
     // public System.Void .ctor()
-    // Offset: 0x2323F90
+    // Offset: 0x22F9D74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

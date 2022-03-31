@@ -35,13 +35,13 @@ namespace GlobalNamespace {
   class IDeeplinkManager {
     public:
     // public Deeplink get_currentDeeplink()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
   }; // IDeeplinkManager
   #pragma pack(pop)

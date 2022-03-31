@@ -195,38 +195,38 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
     ::ArrayW<::TMPro::TMP_MeshInfo>& dyn_m_CachedMeshInfo();
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
-    // Offset: 0x18CC2E8
+    // Offset: 0x18C41DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextInfo*, creationType>(textComponent)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18CCC44
+    // Offset: 0x18C4B38
     static void _cctor();
     // public System.Void Clear()
-    // Offset: 0x18CC418
+    // Offset: 0x18C430C
     void Clear();
     // public System.Void ClearMeshInfo(System.Boolean updateMesh)
-    // Offset: 0x18CC47C
+    // Offset: 0x18C4370
     void ClearMeshInfo(bool updateMesh);
     // public System.Void ClearAllMeshInfo()
-    // Offset: 0x18CC4FC
+    // Offset: 0x18C43F0
     void ClearAllMeshInfo();
     // public System.Void ResetVertexLayout(System.Boolean isVolumetric)
-    // Offset: 0x18CC578
+    // Offset: 0x18C446C
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
-    // Offset: 0x18CC5FC
+    // Offset: 0x18C44F0
     void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference> materials);
     // public System.Void ClearLineInfo()
-    // Offset: 0x18CC678
+    // Offset: 0x18C456C
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
-    // Offset: 0x18CC878
+    // Offset: 0x18C476C
     ::ArrayW<::TMPro::TMP_MeshInfo> CopyMeshInfoVertexData();
     // static public System.Void Resize(ref T[] array, System.Int32 size)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Resize(ByRef<::ArrayW<T>> array, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextInfo::Resize");
@@ -235,7 +235,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(array), size);
     }
     // static public System.Void Resize(ref T[] array, System.Int32 size, System.Boolean isBlockAllocated)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Resize(ByRef<::ArrayW<T>> array, int size, bool isBlockAllocated) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextInfo::Resize");
@@ -244,7 +244,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(array), size, isBlockAllocated);
     }
     // public System.Void .ctor()
-    // Offset: 0x18CC20C
+    // Offset: 0x18C4100
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

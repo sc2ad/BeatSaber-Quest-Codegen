@@ -123,43 +123,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lastFrameTimeCount
     int& dyn__lastFrameTimeCount();
     // public System.Single get_objectLifeTime()
-    // Offset: 0x260F674
+    // Offset: 0x25EFB34
     float get_objectLifeTime();
     // public System.Single get_deltaTime()
-    // Offset: 0x260F6A0
+    // Offset: 0x25EFB60
     float get_deltaTime();
     // public System.Single get_lastFrameTime()
-    // Offset: 0x260F6A8
+    // Offset: 0x25EFB68
     float get_lastFrameTime();
     // public System.Int32 get_frameCount()
-    // Offset: 0x260F730
+    // Offset: 0x25EFBF0
     int get_frameCount();
     // public System.Boolean get_isReady()
-    // Offset: 0x260F738
+    // Offset: 0x25EFBF8
     bool get_isReady();
     // protected System.Void Awake()
-    // Offset: 0x260F790
+    // Offset: 0x25EFC50
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x260F7B8
+    // Offset: 0x25EFC78
     void Start();
     // protected System.Void Update()
-    // Offset: 0x260F7BC
+    // Offset: 0x25EFC7C
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x260F7C0
+    // Offset: 0x25EFC80
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x260F7C4
+    // Offset: 0x25EFC84
     void OnApplicationPause(bool pauseStatus);
     // public System.Void WhenReady(System.Action action)
-    // Offset: 0x260F7C8
+    // Offset: 0x25EFC88
     void WhenReady(::System::Action* action);
     // public System.Threading.Tasks.Task WhenReadyAsync(System.Func`1<System.Threading.Tasks.Task> action)
-    // Offset: 0x260F88C
+    // Offset: 0x25EFD4C
     ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
     // static public T Create()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T Create() {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::StandaloneMonobehavior*>);
@@ -169,19 +169,19 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // public System.Threading.Tasks.Task RunAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x260F988
+    // Offset: 0x25EFE48
     ::System::Threading::Tasks::Task* RunAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void Stop()
-    // Offset: 0x260FB28
+    // Offset: 0x25EFFE8
     void Stop();
     // private System.Collections.IEnumerator RunAsyncCoroutine(System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x260FAA4
+    // Offset: 0x25EFF64
     ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
     // private System.Single GetLastFrameTime()
-    // Offset: 0x260F6AC
+    // Offset: 0x25EFB6C
     float GetLastFrameTime();
     // public System.Void .ctor()
-    // Offset: 0x260FB5C
+    // Offset: 0x25F001C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

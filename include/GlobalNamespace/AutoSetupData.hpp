@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean randomSongIfNoneSuggested
     bool& dyn_randomSongIfNoneSuggested();
     // public System.Void .ctor()
-    // Offset: 0x14C16E4
+    // Offset: 0x14BB09C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

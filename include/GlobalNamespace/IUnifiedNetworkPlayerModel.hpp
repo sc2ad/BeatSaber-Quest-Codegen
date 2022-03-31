@@ -53,37 +53,37 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayerModel*>(this);
     }
     // public System.Boolean get_enableLocalNetwork()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_enableLocalNetwork();
     // public System.Void set_enableLocalNetwork(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_enableLocalNetwork(bool value);
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_publicServers()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_publicServers();
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_localNetworkPlayers()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_localNetworkPlayers();
     // public System.String get_secret()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_secret();
     // public System.String get_code()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_code();
     // public System.Void add_partyRefreshingEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_partyRefreshingEvent(::System::Action* value);
     // public System.Void remove_partyRefreshingEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_partyRefreshingEvent(::System::Action* value);
     // public System.Void SetServerFilter(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetServerFilter(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void ResetMasterServerReachability()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ResetMasterServerReachability();
     // public System.Void SetActiveNetworkPlayerModelType(UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType activeNetworkPlayerModelType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetActiveNetworkPlayerModelType(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType activeNetworkPlayerModelType);
   }; // IUnifiedNetworkPlayerModel
   #pragma pack(pop)

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetMultiplayerGameStateRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::MultiplayerGameState> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17097CC
+    // Offset: 0x17006BC
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

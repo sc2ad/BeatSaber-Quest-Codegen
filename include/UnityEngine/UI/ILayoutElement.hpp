@@ -22,31 +22,31 @@ namespace UnityEngine::UI {
   class ILayoutElement {
     public:
     // public System.Single get_minWidth()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_minWidth();
     // public System.Single get_preferredWidth()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_preferredWidth();
     // public System.Single get_flexibleWidth()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_flexibleWidth();
     // public System.Single get_minHeight()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_minHeight();
     // public System.Single get_preferredHeight()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_preferredHeight();
     // public System.Single get_flexibleHeight()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_layoutPriority();
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void CalculateLayoutInputVertical();
   }; // UnityEngine.UI.ILayoutElement
   #pragma pack(pop)

@@ -46,7 +46,7 @@ namespace Zenject {
   class ArgConditionCopyNonLazyBinder : public ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder {
     public:
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(T param)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(T param) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ArgConditionCopyNonLazyBinder::WithArguments");
@@ -55,7 +55,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(this, ___generic__method, param);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(TParam1 param1, TParam2 param2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2>
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ArgConditionCopyNonLazyBinder::WithArguments");
@@ -64,7 +64,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(this, ___generic__method, param1, param2);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(TParam1 param1, TParam2 param2, TParam3 param3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3>
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2, TParam3 param3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ArgConditionCopyNonLazyBinder::WithArguments");
@@ -73,7 +73,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(this, ___generic__method, param1, param2, param3);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4>
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ArgConditionCopyNonLazyBinder::WithArguments");
@@ -82,7 +82,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(this, ___generic__method, param1, param2, param3, param4);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ArgConditionCopyNonLazyBinder::WithArguments");
@@ -91,7 +91,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(this, ___generic__method, param1, param2, param3, param4, param5);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ArgConditionCopyNonLazyBinder::WithArguments");
@@ -100,13 +100,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(this, ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(System.Object[] args)
-    // Offset: 0x173A284
+    // Offset: 0x1732174
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::ArrayW<::Il2CppObject*> args);
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArgumentsExplicit(System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x173A3B4
+    // Offset: 0x17322A4
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x173A27C
+    // Offset: 0x173216C
     // Implemented from: Zenject.InstantiateCallbackConditionCopyNonLazyBinder
     // Base method: System.Void InstantiateCallbackConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void ConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

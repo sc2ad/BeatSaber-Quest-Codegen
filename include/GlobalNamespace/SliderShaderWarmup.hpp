@@ -66,10 +66,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
     ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // protected System.Void Start()
-    // Offset: 0x13E9044
+    // Offset: 0x2AA35A8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x13E9234
+    // Offset: 0x2AA3798
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

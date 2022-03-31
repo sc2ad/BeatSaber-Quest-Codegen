@@ -38,28 +38,28 @@ namespace UnityEngine::Events {
   class UnityAction_4 : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityAction_4<T0, T1, T2, T3>* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::UnityAction_4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityAction_4<T0, T1, T2, T3>*, creationType>(object, method)));
     }
     // public System.Void Invoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Invoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::UnityAction_4::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, arg0, arg1, arg2, arg3);
     }
     // public System.IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::IAsyncResult* BeginInvoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3, ::System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::UnityAction_4::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal__method, arg0, arg1, arg2, arg3, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void EndInvoke(::System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::UnityAction_4::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));

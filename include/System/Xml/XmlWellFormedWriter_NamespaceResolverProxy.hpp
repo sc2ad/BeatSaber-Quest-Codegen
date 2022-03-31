@@ -53,17 +53,17 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlWellFormedWriter wfWriter
     ::System::Xml::XmlWellFormedWriter*& dyn_wfWriter();
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
-    // Offset: 0x26F1B14
+    // Offset: 0x26C0C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::NamespaceResolverProxy* New_ctor(::System::Xml::XmlWellFormedWriter* wfWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::NamespaceResolverProxy*, creationType>(wfWriter)));
     }
     // private System.String System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String prefix)
-    // Offset: 0x26F91BC
+    // Offset: 0x26C8334
     ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String namespaceName)
-    // Offset: 0x26F91D4
+    // Offset: 0x26C834C
     ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
   }; // System.Xml.XmlWellFormedWriter/System.Xml.NamespaceResolverProxy
   #pragma pack(pop)

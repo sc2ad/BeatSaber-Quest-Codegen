@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__99_0
     static void _set_$$9__99_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14D86CC
+    // Offset: 0x14973B0
     static void _cctor();
     // System.Boolean <PredictCountdownEndTime>b__99_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> pair)
-    // Offset: 0x14D8738
+    // Offset: 0x149741C
     bool $PredictCountdownEndTime$b__99_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
     // public System.Void .ctor()
-    // Offset: 0x14D8730
+    // Offset: 0x1497414
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

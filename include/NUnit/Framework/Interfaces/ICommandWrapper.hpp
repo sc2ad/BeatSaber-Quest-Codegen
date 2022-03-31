@@ -29,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
   class ICommandWrapper {
     public:
     // public NUnit.Framework.Internal.Commands.TestCommand Wrap(NUnit.Framework.Internal.Commands.TestCommand command)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Internal::Commands::TestCommand* Wrap(::NUnit::Framework::Internal::Commands::TestCommand* command);
   }; // NUnit.Framework.Interfaces.ICommandWrapper
   #pragma pack(pop)

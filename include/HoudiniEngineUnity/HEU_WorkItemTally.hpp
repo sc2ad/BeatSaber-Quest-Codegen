@@ -86,22 +86,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _erroredWorkItems
     int& dyn__erroredWorkItems();
     // public System.Void ZeroAll()
-    // Offset: 0x19E3A1C
+    // Offset: 0x19D9908
     void ZeroAll();
     // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x19E3A28
+    // Offset: 0x19D9914
     bool AreAllWorkItemsComplete();
     // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x19E3A60
+    // Offset: 0x19D994C
     bool AnyWorkItemsFailed();
     // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x19E3A70
+    // Offset: 0x19D995C
     bool AnyWorkItemsPending();
     // public System.String ProgressRatio()
-    // Offset: 0x19E3AB4
+    // Offset: 0x19D99A0
     ::StringW ProgressRatio();
     // public System.Void .ctor()
-    // Offset: 0x19E3B90
+    // Offset: 0x19D9A7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

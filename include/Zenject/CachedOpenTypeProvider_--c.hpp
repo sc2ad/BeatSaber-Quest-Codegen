@@ -49,19 +49,19 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.CachedProvider,System.Int32> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::Zenject::CachedProvider*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x173DEA4
+    // Offset: 0x1735D94
     static void _cctor();
     // System.Int32 <get_NumInstances>b__8_0(Zenject.CachedProvider x)
-    // Offset: 0x173DF10
+    // Offset: 0x1735E00
     int $get_NumInstances$b__8_0(::Zenject::CachedProvider* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x173DFC0
+    // Offset: 0x1735EB0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x173E01C
+    // Offset: 0x1735F0C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x173DF08
+    // Offset: 0x1735DF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

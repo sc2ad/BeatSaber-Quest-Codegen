@@ -58,31 +58,31 @@ namespace System::Net {
     // Set static field: static private System.Net.Configuration.UnicodeEncodingConformance _htmlEncodeConformance
     static void _set__htmlEncodeConformance(::System::Net::Configuration::UnicodeEncodingConformance value);
     // static private System.Net.Configuration.UnicodeEncodingConformance get_HtmlEncodeConformance()
-    // Offset: 0x1B22D14
+    // Offset: 0x1B274C8
     static ::System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
     // static private System.Void .cctor()
-    // Offset: 0x1B23408
+    // Offset: 0x1B27BBC
     static void _cctor();
     // static public System.String HtmlEncode(System.String value)
-    // Offset: 0x1B22724
+    // Offset: 0x1B26ED8
     static ::StringW HtmlEncode(::StringW value);
     // static public System.Void HtmlEncode(System.String value, System.IO.TextWriter output)
-    // Offset: 0x1B229A0
+    // Offset: 0x1B27154
     static void HtmlEncode(::StringW value, ::System::IO::TextWriter* output);
     // static private System.Int32 IndexOfHtmlEncodingChars(System.String s, System.Int32 startPos)
-    // Offset: 0x1B2284C
+    // Offset: 0x1B27000
     static int IndexOfHtmlEncodingChars(::StringW s, int startPos);
     // static private System.String UrlDecodeInternal(System.String value, System.Text.Encoding encoding)
-    // Offset: 0x1B22EE0
+    // Offset: 0x1B27694
     static ::StringW UrlDecodeInternal(::StringW value, ::System::Text::Encoding* encoding);
     // static public System.String UrlDecode(System.String encodedValue)
-    // Offset: 0x1B23380
+    // Offset: 0x1B27B34
     static ::StringW UrlDecode(::StringW encodedValue);
     // static private System.Int32 GetNextUnicodeScalarValueFromUtf16Surrogate(ref System.Char* pch, ref System.Int32 charsRemaining)
-    // Offset: 0x1B22E18
+    // Offset: 0x1B275CC
     static int GetNextUnicodeScalarValueFromUtf16Surrogate(ByRef<::Il2CppChar*> pch, ByRef<int> charsRemaining);
     // static private System.Int32 HexToInt(System.Char h)
-    // Offset: 0x1B23184
+    // Offset: 0x1B27938
     static int HexToInt(::Il2CppChar h);
   }; // System.Net.WebUtility
   #pragma pack(pop)

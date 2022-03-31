@@ -80,16 +80,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single intensity
     float& dyn_intensity();
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
-    // Offset: 0x1F1C1DC
+    // Offset: 0x2AD85F0
     static ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* get_lights();
     // protected System.Void OnEnable()
-    // Offset: 0x1F1C244
+    // Offset: 0x2AD8658
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1F1C2C8
+    // Offset: 0x2AD86DC
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1F1C34C
+    // Offset: 0x2AD8760
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PointLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F1C354
+    // Offset: 0x2AD8768
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

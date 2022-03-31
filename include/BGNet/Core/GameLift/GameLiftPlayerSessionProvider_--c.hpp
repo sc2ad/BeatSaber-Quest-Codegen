@@ -57,19 +57,19 @@ namespace BGNet::Core::GameLift {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.Int64> <>9__17_2
     static void _set_$$9__17_2(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1526CFC
+    // Offset: 0x14F399C
     static void _cctor();
     // System.Boolean <GetAverageLatencies>b__17_0(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
-    // Offset: 0x1526D68
+    // Offset: 0x14F3A08
     bool $GetAverageLatencies$b__17_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // System.String <GetAverageLatencies>b__17_1(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
-    // Offset: 0x1526DB8
+    // Offset: 0x14F3A58
     ::StringW $GetAverageLatencies$b__17_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // System.Int64 <GetAverageLatencies>b__17_2(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
-    // Offset: 0x1526DFC
+    // Offset: 0x14F3A9C
     int64_t $GetAverageLatencies$b__17_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x1526D60
+    // Offset: 0x14F3A00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

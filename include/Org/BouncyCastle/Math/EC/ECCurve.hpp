@@ -149,109 +149,109 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier m_multiplier
     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& dyn_m_multiplier();
     // public System.Int32 get_FieldSize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_FieldSize();
     // public Org.BouncyCastle.Math.EC.ECPoint get_Infinity()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
     // public Org.BouncyCastle.Math.Field.IFiniteField get_Field()
-    // Offset: 0x273582C
+    // Offset: 0x27039A4
     ::Org::BouncyCastle::Math::Field::IFiniteField* get_Field();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_A()
-    // Offset: 0x2735834
+    // Offset: 0x27039AC
     ::Org::BouncyCastle::Math::EC::ECFieldElement* get_A();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_B()
-    // Offset: 0x273583C
+    // Offset: 0x27039B4
     ::Org::BouncyCastle::Math::EC::ECFieldElement* get_B();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x2735844
+    // Offset: 0x27039BC
     ::Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger get_Cofactor()
-    // Offset: 0x273584C
+    // Offset: 0x27039C4
     ::Org::BouncyCastle::Math::BigInteger* get_Cofactor();
     // public System.Int32 get_CoordinateSystem()
-    // Offset: 0x2735854
+    // Offset: 0x27039CC
     int get_CoordinateSystem();
     // protected System.Void .ctor(Org.BouncyCastle.Math.Field.IFiniteField field)
-    // Offset: 0x2734DEC
+    // Offset: 0x2702F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField* field) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::ECCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECCurve*, creationType>(field)));
     }
     // public Org.BouncyCastle.Math.EC.ECFieldElement FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
     // public Org.BouncyCastle.Math.EC.ECFieldElement RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
     // public Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config Configure()
-    // Offset: 0x2734E20
+    // Offset: 0x2702F98
     ::Org::BouncyCastle::Math::EC::ECCurve::Config* Configure();
     // public Org.BouncyCastle.Math.EC.ECPoint ValidatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y)
-    // Offset: 0x2734EF4
+    // Offset: 0x270306C
     ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y);
     // public Org.BouncyCastle.Math.EC.ECPoint CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y)
-    // Offset: 0x2734FC4
+    // Offset: 0x270313C
     ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y);
     // public Org.BouncyCastle.Math.EC.ECPoint CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
-    // Offset: 0x2734FD4
+    // Offset: 0x270314C
     ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
     // protected Org.BouncyCastle.Math.EC.ECCurve CloneCurve()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
     // protected internal Org.BouncyCastle.Math.EC.ECPoint CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
     // protected internal Org.BouncyCastle.Math.EC.ECPoint CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateDefaultMultiplier()
-    // Offset: 0x273503C
+    // Offset: 0x27031B4
     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateDefaultMultiplier();
     // public System.Boolean SupportsCoordinateSystem(System.Int32 coord)
-    // Offset: 0x27350E8
+    // Offset: 0x2703260
     bool SupportsCoordinateSystem(int coord);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.ECPoint point, System.String name, Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback callback)
-    // Offset: 0x27350F4
+    // Offset: 0x270326C
     ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::ECPoint* point, ::StringW name, ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* callback);
     // public Org.BouncyCastle.Math.EC.ECPoint ImportPoint(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x2735418
+    // Offset: 0x2703590
     ::Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
     // public System.Void NormalizeAll(Org.BouncyCastle.Math.EC.ECPoint[] points)
-    // Offset: 0x2735518
+    // Offset: 0x2703690
     void NormalizeAll(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points);
     // public System.Void NormalizeAll(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len, Org.BouncyCastle.Math.EC.ECFieldElement iso)
-    // Offset: 0x2735544
+    // Offset: 0x27036BC
     void NormalizeAll(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len, ::Org::BouncyCastle::Math::EC::ECFieldElement* iso);
     // public Org.BouncyCastle.Math.EC.ECLookupTable CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
-    // Offset: 0x273585C
+    // Offset: 0x27039D4
     ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len);
     // protected System.Void CheckPoint(Org.BouncyCastle.Math.EC.ECPoint point)
-    // Offset: 0x2735AC4
+    // Offset: 0x2703C3C
     void CheckPoint(::Org::BouncyCastle::Math::EC::ECPoint* point);
     // protected System.Void CheckPoints(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
-    // Offset: 0x2735B74
+    // Offset: 0x2703CEC
     void CheckPoints(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len);
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.ECCurve other)
-    // Offset: 0x2735CF8
+    // Offset: 0x2703E70
     bool Equals(::Org::BouncyCastle::Math::EC::ECCurve* other);
     // protected Org.BouncyCastle.Math.EC.ECPoint DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
     // public Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier GetMultiplier()
-    // Offset: 0x2735FCC
+    // Offset: 0x2704144
     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* GetMultiplier();
     // public Org.BouncyCastle.Math.EC.ECPoint DecodePoint(System.Byte[] encoded)
-    // Offset: 0x2736064
+    // Offset: 0x27041DC
     ::Org::BouncyCastle::Math::EC::ECPoint* DecodePoint(::ArrayW<uint8_t> encoded);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2735E58
+    // Offset: 0x2703FD0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2735EF4
+    // Offset: 0x270406C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

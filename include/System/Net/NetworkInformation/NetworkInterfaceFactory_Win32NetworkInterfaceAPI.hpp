@@ -38,13 +38,13 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::Win32NetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory {
     public:
     // static private System.Int32 GetAdaptersAddresses(System.UInt32 family, System.UInt32 flags, System.IntPtr reserved, System.IntPtr info, ref System.Int32 size)
-    // Offset: 0x1B47B54
+    // Offset: 0x1B2C024
     static int GetAdaptersAddresses(uint family, uint flags, ::System::IntPtr reserved, ::System::IntPtr info, ByRef<int> size);
     // static private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES[] GetAdaptersAddresses()
-    // Offset: 0x1B47C10
+    // Offset: 0x1B2C0E0
     static ::ArrayW<::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES> GetAdaptersAddresses();
     // public System.Void .ctor()
-    // Offset: 0x1B467B0
+    // Offset: 0x1B2AC80
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -54,7 +54,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::Win32NetworkInterfaceAPI*, creationType>()));
     }
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x1B47E94
+    // Offset: 0x1B2C364
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();

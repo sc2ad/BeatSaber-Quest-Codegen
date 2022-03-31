@@ -78,14 +78,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // System.Void .ctor(System.Boolean constructed, System.Int32 tagNumber, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1C05BB8
+    // Offset: 0x1BEC088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerTaggedObjectParser* New_ctor(bool constructed, int tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerTaggedObjectParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerTaggedObjectParser*, creationType>(constructed, tagNumber, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C05C00
+    // Offset: 0x1BEC0D0
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerTaggedObjectParser
   #pragma pack(pop)

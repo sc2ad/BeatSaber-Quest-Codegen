@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _verticalOffset
     float& dyn__verticalOffset();
     // public UnityEngine.Vector3 get_headNeckOffset()
-    // Offset: 0x13276A0
+    // Offset: 0x13B0788
     ::UnityEngine::Vector3 get_headNeckOffset();
     // public System.Single get_verticalOffset()
-    // Offset: 0x13276AC
+    // Offset: 0x13B0794
     float get_verticalOffset();
     // public System.Void .ctor()
-    // Offset: 0x13276B4
+    // Offset: 0x13B079C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

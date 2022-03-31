@@ -64,10 +64,10 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Reflection.MethodInfo callbackMethodInfo
     ::System::Reflection::MethodInfo*& dyn_callbackMethodInfo();
     // System.Void <CreateSerializationErrorCallback>b__0(System.Object o, System.Runtime.Serialization.StreamingContext context, Newtonsoft.Json.Serialization.ErrorContext econtext)
-    // Offset: 0x1D41CDC
+    // Offset: 0x1D251AC
     void $CreateSerializationErrorCallback$b__0(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* econtext);
     // public System.Void .ctor()
-    // Offset: 0x1D41BDC
+    // Offset: 0x1D250AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

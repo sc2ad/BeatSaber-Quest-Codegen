@@ -69,14 +69,14 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.Linq.XObjectChange objectChange
     ::System::Xml::Linq::XObjectChange& dyn_objectChange();
     // public System.Void .ctor(System.Xml.Linq.XObjectChange objectChange)
-    // Offset: 0x2A82620
+    // Offset: 0x2A4E7D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XObjectChangeEventArgs* New_ctor(::System::Xml::Linq::XObjectChange objectChange) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObjectChangeEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XObjectChangeEventArgs*, creationType>(objectChange)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A8269C
+    // Offset: 0x2A4E84C
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.cctor()
     static void _cctor();

@@ -82,35 +82,35 @@ namespace GlobalNamespace {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public T get_value()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T get_value() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObservableVariable_1::get_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_value(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObservableVariable_1::set_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void add_didChangeEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didChangeEvent(::System::Action* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObservableVariable_1::add_didChangeEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_didChangeEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_didChangeEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didChangeEvent(::System::Action* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObservableVariable_1::remove_didChangeEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_didChangeEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

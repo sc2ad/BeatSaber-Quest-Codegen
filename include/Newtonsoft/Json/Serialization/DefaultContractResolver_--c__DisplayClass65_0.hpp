@@ -55,10 +55,10 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Func`2<System.Object,System.Object> specifiedPropertyGet
     ::System::Func_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_specifiedPropertyGet();
     // System.Boolean <SetIsSpecifiedActions>b__0(System.Object o)
-    // Offset: 0x1D3E114
+    // Offset: 0x1D215E4
     bool $SetIsSpecifiedActions$b__0(::Il2CppObject* o);
     // public System.Void .ctor()
-    // Offset: 0x1D3E10C
+    // Offset: 0x1D215DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

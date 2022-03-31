@@ -34,13 +34,13 @@ namespace System::Threading::Tasks {
   class TaskContinuation : public ::Il2CppObject {
     public:
     // System.Void Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
     // static protected System.Void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task task, System.Boolean needsProtection)
-    // Offset: 0x1D0E7D0
+    // Offset: 0x1CF2CA0
     static void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
     // protected System.Void .ctor()
-    // Offset: 0x1D0EBDC
+    // Offset: 0x1CF30AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

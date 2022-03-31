@@ -49,13 +49,13 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls Default
     static void _set_Default(::UnityEngine::UI::DefaultControls::IFactoryControls* value);
     // static private System.Void .cctor()
-    // Offset: 0x190E86C
+    // Offset: 0x1905760
     static void _cctor();
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0x190E7F0
+    // Offset: 0x19056E4
     ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
     // public System.Void .ctor()
-    // Offset: 0x190E864
+    // Offset: 0x1905758
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

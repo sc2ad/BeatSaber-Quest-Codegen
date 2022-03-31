@@ -81,32 +81,32 @@ namespace System::Resources {
     // Get instance field reference: private System.Int32 _dataPosition
     int& dyn__dataPosition();
     // public System.Object get_Key()
-    // Offset: 0x1D6265C
+    // Offset: 0x1D45B2C
     ::Il2CppObject* get_Key();
     // public System.Object get_Current()
-    // Offset: 0x1D62734
+    // Offset: 0x1D45C04
     ::Il2CppObject* get_Current();
     // System.Int32 get_DataPosition()
-    // Offset: 0x1D62A44
+    // Offset: 0x1D45F14
     int get_DataPosition();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1D627A0
+    // Offset: 0x1D45C70
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Value()
-    // Offset: 0x1D62A4C
+    // Offset: 0x1D45F1C
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Resources.ResourceReader reader)
-    // Offset: 0x1D5F44C
+    // Offset: 0x1D4291C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceReader::ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::ResourceReader::ResourceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceReader::ResourceEnumerator*, creationType>(reader)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D62600
+    // Offset: 0x1D45AD0
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D62B20
+    // Offset: 0x1D45FF0
     void Reset();
   }; // System.Resources.ResourceReader/System.Resources.ResourceEnumerator
   #pragma pack(pop)

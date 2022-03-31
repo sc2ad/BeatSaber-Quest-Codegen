@@ -34,13 +34,13 @@ namespace TMPro {
   class ITextElement {
     public:
     // public UnityEngine.Material get_sharedMaterial()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Material* get_sharedMaterial();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Rebuild(::UnityEngine::UI::CanvasUpdate update);
     // public System.Int32 GetInstanceID()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetInstanceID();
   }; // TMPro.ITextElement
   #pragma pack(pop)

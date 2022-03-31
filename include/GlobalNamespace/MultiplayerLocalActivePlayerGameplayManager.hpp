@@ -62,70 +62,70 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B9A00
+    // [InjectAttribute] Offset: 0x1253F74
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A10
+    // [InjectAttribute] Offset: 0x1253F84
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A20
+    // [InjectAttribute] Offset: 0x1253F94
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A30
+    // [InjectAttribute] Offset: 0x1253FA4
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A40
+    // [InjectAttribute] Offset: 0x1253FB4
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A50
+    // [InjectAttribute] Offset: 0x1253FC4
     // private readonly MultiplayerLocalActivePlayerInGameMenuController _inGameMenuController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* inGameMenuController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A60
+    // [InjectAttribute] Offset: 0x1253FD4
     // private readonly IVRPlatformHelper _platformHelper
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IVRPlatformHelper* platformHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A70
+    // [InjectAttribute] Offset: 0x1253FE4
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A80
+    // [InjectAttribute] Offset: 0x1253FF4
     // private readonly MultiplayerLocalActivePlayerGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9A90
+    // [InjectAttribute] Offset: 0x1254004
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x60
@@ -164,46 +164,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _levelFinishedOrFailed
     bool& dyn__levelFinishedOrFailed();
     // private System.Void Start()
-    // Offset: 0x139DC00
+    // Offset: 0x140079C
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x139E188
+    // Offset: 0x1400D24
     void OnDisable();
     // private System.Void PerformPlayerFail()
-    // Offset: 0x139E72C
+    // Offset: 0x14012C8
     void PerformPlayerFail();
     // private System.Void PerformPlayerGivenUp()
-    // Offset: 0x139E958
+    // Offset: 0x14014F4
     void PerformPlayerGivenUp();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x139EB84
+    // Offset: 0x1401720
     void HandleGameEnergyDidReach0();
     // private System.Void HandleInGameMenuControllerDidGiveUp()
-    // Offset: 0x139EBA8
+    // Offset: 0x1401744
     void HandleInGameMenuControllerDidGiveUp();
     // private System.Void HandleInGameMenuControllerRequestsDisconnect()
-    // Offset: 0x139EBAC
+    // Offset: 0x1401748
     void HandleInGameMenuControllerRequestsDisconnect();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x139EE14
+    // Offset: 0x1401798
     void HandleSongDidFinish();
     // private System.Void HandleHmdUnmounted()
-    // Offset: 0x139F040
+    // Offset: 0x14019C4
     void HandleHmdUnmounted();
     // private System.Void HandleVrFocusWasCapturedEvent()
-    // Offset: 0x139F044
+    // Offset: 0x14019C8
     void HandleVrFocusWasCapturedEvent();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x139E168
+    // Offset: 0x1400D04
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x139F048
+    // Offset: 0x14019CC
     void HandleInputFocusReleased();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x139F084
+    // Offset: 0x1401A08
     void OnApplicationFocus(bool hasFocus);
     // public System.Void .ctor()
-    // Offset: 0x139F090
+    // Offset: 0x1401A14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

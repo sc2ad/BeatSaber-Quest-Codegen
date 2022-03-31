@@ -125,42 +125,42 @@ namespace Zenject::Internal {
       return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoratorProvider_1<TContract>* New_ctor(::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::DecoratorProvider_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoratorProvider_1<TContract>*, creationType>(container)));
     }
     // public System.Void AddFactoryId(System.Guid factoryBindId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFactoryId(::System::Guid factoryBindId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::DecoratorProvider_1::AddFactoryId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddFactoryId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(factoryBindId)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, factoryBindId);
     }
     // private System.Void LazyInitializeDecoratorFactories()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LazyInitializeDecoratorFactories() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::DecoratorProvider_1::LazyInitializeDecoratorFactories");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LazyInitializeDecoratorFactories", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void GetAllInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GetAllInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::DecoratorProvider_1::GetAllInstances");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(buffer)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, provider, context, buffer);
     }
     // private System.Void WrapProviderInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void WrapProviderInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::DecoratorProvider_1::WrapProviderInstances");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WrapProviderInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(buffer)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, provider, context, buffer);
     }
     // private System.Object DecorateInstance(System.Object instance, Zenject.InjectContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* DecorateInstance(::Il2CppObject* instance, ::Zenject::InjectContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::DecoratorProvider_1::DecorateInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DecorateInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(instance), ::il2cpp_utils::ExtractType(context)})));

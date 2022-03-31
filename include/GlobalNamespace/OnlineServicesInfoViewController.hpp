@@ -95,14 +95,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* refreshButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C2790
+    // [InjectAttribute] Offset: 0x125CD24
     // private readonly OnlineServices.ServerManager _serverManager
     // Size: 0x8
     // Offset: 0x90
     ::OnlineServices::ServerManager* serverManager;
     // Field size check
     static_assert(sizeof(::OnlineServices::ServerManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C27A0
+    // [InjectAttribute] Offset: 0x125CD34
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x98
@@ -131,13 +131,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder _sb
     ::System::Text::StringBuilder*& dyn__sb();
     // private System.Void GetServerStatus()
-    // Offset: 0x134EB84
+    // Offset: 0x12E83D8
     void GetServerStatus();
     // private System.Void AppendLine(System.String line)
-    // Offset: 0x134EC3C
+    // Offset: 0x12E8490
     void AppendLine(::StringW line);
     // public System.Void .ctor()
-    // Offset: 0x134EC94
+    // Offset: 0x12E84E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x134EAD0
+    // Offset: 0x12E8324
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

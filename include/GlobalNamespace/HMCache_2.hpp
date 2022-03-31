@@ -110,56 +110,56 @@ namespace GlobalNamespace {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void add_itemWillBeRemovedFromCacheEvent(System.Action`1<V> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::add_itemWillBeRemovedFromCacheEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_itemWillBeRemovedFromCacheEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_itemWillBeRemovedFromCacheEvent(System.Action`1<V> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::remove_itemWillBeRemovedFromCacheEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_itemWillBeRemovedFromCacheEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor(System.Int32 maxNumberElements)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMCache_2<K, V>* New_ctor(int maxNumberElements) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMCache_2<K, V>*, creationType>(maxNumberElements)));
     }
     // public System.Boolean IsInCache(K key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsInCache(K key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::IsInCache");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsInCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Void UpdateOrderInCache(K key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdateOrderInCache(K key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::UpdateOrderInCache");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateOrderInCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, key);
     }
     // public V GetFromCache(K key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     V GetFromCache(K key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::GetFromCache");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetFromCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<V, false>(this, ___internal__method, key);
     }
     // public System.Void PutToCache(K key, V value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PutToCache(K key, V value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::PutToCache");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "PutToCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMCache_2::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

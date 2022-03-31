@@ -137,23 +137,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.X509Extensions extensions
     ::Org::BouncyCastle::Asn1::X509::X509Extensions*& dyn_extensions();
     // public Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod get_AttrCertValidityPeriod()
-    // Offset: 0x1EDFE0C
+    // Offset: 0x1EC42DC
     ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* get_AttrCertValidityPeriod();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x1EDFE14
+    // Offset: 0x1EC42E4
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1EDF6C4
+    // Offset: 0x1EC3B94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributeCertificateInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeCertificateInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo GetInstance(System.Object obj)
-    // Offset: 0x1EDF418
+    // Offset: 0x1EC38E8
     static ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1EDFE1C
+    // Offset: 0x1EC42EC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

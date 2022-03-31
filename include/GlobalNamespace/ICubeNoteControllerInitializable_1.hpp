@@ -34,14 +34,14 @@ namespace GlobalNamespace {
   class ICubeNoteControllerInitializable_1 {
     public:
     // public System.Void add_cubeNoteControllerDidInitEvent(System.Action`1<T> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_cubeNoteControllerDidInitEvent(::System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ICubeNoteControllerInitializable_1::add_cubeNoteControllerDidInitEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_cubeNoteControllerDidInitEvent(System.Action`1<T> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_cubeNoteControllerDidInitEvent(::System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ICubeNoteControllerInitializable_1::remove_cubeNoteControllerDidInitEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));

@@ -366,7 +366,7 @@ namespace Mono::Unity {
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_random_generate_bytes_t unitytls_random_generate_bytes
     ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*& dyn_unitytls_random_generate_bytes();
     // public System.Void .ctor()
-    // Offset: 0x1AC11BC
+    // Offset: 0x1AA47F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

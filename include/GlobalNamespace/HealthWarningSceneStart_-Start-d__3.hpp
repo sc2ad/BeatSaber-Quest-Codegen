@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public HealthWarningSceneStart <>4__this
     ::GlobalNamespace::HealthWarningSceneStart*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13285B8
+    // Offset: 0x13B16A0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1328620
+    // Offset: 0x13B1708
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13284FC
+    // Offset: 0x13B15E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningSceneStart::$Start$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningSceneStart::$Start$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneStart::$Start$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1328530
+    // Offset: 0x13B1618
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1328534
+    // Offset: 0x13B161C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13285C0
+    // Offset: 0x13B16A8
     void System_Collections_IEnumerator_Reset();
   }; // HealthWarningSceneStart/<Start>d__3
   #pragma pack(pop)

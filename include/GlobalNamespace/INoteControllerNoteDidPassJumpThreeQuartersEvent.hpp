@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class INoteControllerNoteDidPassJumpThreeQuartersEvent {
     public:
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
   }; // INoteControllerNoteDidPassJumpThreeQuartersEvent
   #pragma pack(pop)

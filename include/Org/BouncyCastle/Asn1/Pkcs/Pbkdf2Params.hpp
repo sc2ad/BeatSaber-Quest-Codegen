@@ -99,35 +99,35 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier prf
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_prf();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x1CACEF0
+    // Offset: 0x1C913C0
     ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_KeyLength()
-    // Offset: 0x1CACF0C
+    // Offset: 0x1C913DC
     ::Org::BouncyCastle::Math::BigInteger* get_KeyLength();
     // public System.Boolean get_IsDefaultPrf()
-    // Offset: 0x1CACF20
+    // Offset: 0x1C913F0
     bool get_IsDefaultPrf();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_Prf()
-    // Offset: 0x1CACFAC
+    // Offset: 0x1C9147C
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1CACC24
+    // Offset: 0x1C910F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pbkdf2Params* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pbkdf2Params*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CAD1A4
+    // Offset: 0x1C91674
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params GetInstance(System.Object obj)
-    // Offset: 0x1CAC99C
+    // Offset: 0x1C90E6C
     static ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
-    // Offset: 0x1CACED0
+    // Offset: 0x1C913A0
     ::ArrayW<uint8_t> GetSalt();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1CAD020
+    // Offset: 0x1C914F0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

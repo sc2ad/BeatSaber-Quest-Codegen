@@ -26,7 +26,7 @@ namespace System {
   class IComparable_1 {
     public:
     // public System.Int32 CompareTo(T other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int CompareTo(T other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IComparable_1::CompareTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompareTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));

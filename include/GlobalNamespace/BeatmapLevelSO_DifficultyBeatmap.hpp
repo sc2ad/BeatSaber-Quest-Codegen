@@ -31,6 +31,8 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapData;
   // Forward declaring type: EnvironmentInfoSO
   class EnvironmentInfoSO;
+  // Forward declaring type: PlayerSpecificSettings
+  class PlayerSpecificSettings;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
@@ -125,38 +127,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
     ::GlobalNamespace::IDifficultyBeatmapSet*& dyn__parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1504950
+    // Offset: 0x14D17B0
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1504958
+    // Offset: 0x14D17B8
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1504960
+    // Offset: 0x14D17C0
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1504968
+    // Offset: 0x14D17C8
     float get_noteJumpStartBeatOffset();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1504B94
+    // Offset: 0x14D19E4
     ::GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x1504B9C
+    // Offset: 0x14D19EC
     ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public System.Void .ctor(IBeatmapLevel parentLevel, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapDataSO beatmapData)
-    // Offset: 0x1504BA4
+    // Offset: 0x14D19F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelSO::DifficultyBeatmap* New_ctor(::GlobalNamespace::IBeatmapLevel* parentLevel, ::GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, ::GlobalNamespace::BeatmapDataSO* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO::DifficultyBeatmap*, creationType>(parentLevel, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapData)));
     }
     // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x1504970
+    // Offset: 0x14D17D0
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
-    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo)
-    // Offset: 0x1504A70
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
+    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x14D18D0
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetParents(IBeatmapLevel parentLevel, IDifficultyBeatmapSet parentDifficultyBeatmapSet)
-    // Offset: 0x1500E2C
+    // Offset: 0x14CDC8C
     void SetParents(::GlobalNamespace::IBeatmapLevel* parentLevel, ::GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet);
   }; // BeatmapLevelSO/DifficultyBeatmap
   #pragma pack(pop)
@@ -227,10 +229,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::GetBeatmapDataAsync
 // Il2CppName: GetBeatmapDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::*)(::GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::GetBeatmapDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::*)(::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::GetBeatmapDataAsync)> {
   static const MethodInfo* get() {
     static auto* environmentInfo = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo});
+    static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo, playerSpecificSettings});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::SetParents

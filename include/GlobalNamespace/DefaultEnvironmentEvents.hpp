@@ -63,16 +63,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private DefaultEnvironmentEvents/LightGroupEvent[] _lightGroupEvents
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*>& dyn__lightGroupEvents();
     // public DefaultEnvironmentEvents/BasicBeatmapEvent[] get_basicBeatmapEvents()
-    // Offset: 0x141B270
+    // Offset: 0x140E428
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent*> get_basicBeatmapEvents();
     // public DefaultEnvironmentEvents/LightGroupEvent[] get_lightGroupEvents()
-    // Offset: 0x141B278
+    // Offset: 0x140E430
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*> get_lightGroupEvents();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x141B280
+    // Offset: 0x140E438
     bool get_isEmpty();
     // public System.Void .ctor()
-    // Offset: 0x141B2B8
+    // Offset: 0x140E470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

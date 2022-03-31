@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x10B6D4C
+    // [SpaceAttribute] Offset: 0x12511E0
     // private UnityEngine.GameObject _lightPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _lightPrefab
     ::UnityEngine::GameObject*& dyn__lightPrefab();
     // public System.Void .ctor()
-    // Offset: 0x14CDAE0
+    // Offset: 0x148CB64
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -72,25 +72,25 @@ namespace Zenject {
     // Get instance field reference: private System.Type <KernelType>k__BackingField
     ::System::Type*& dyn_$KernelType$k__BackingField();
     // public System.String get_DefaultParentName()
-    // Offset: 0x1D029B8
+    // Offset: 0x1CE6E88
     ::StringW get_DefaultParentName();
     // public System.Void set_DefaultParentName(System.String value)
-    // Offset: 0x1D029C0
+    // Offset: 0x1CE6E90
     void set_DefaultParentName(::StringW value);
     // public System.Boolean get_CreateKernel()
-    // Offset: 0x1D029C8
+    // Offset: 0x1CE6E98
     bool get_CreateKernel();
     // public System.Void set_CreateKernel(System.Boolean value)
-    // Offset: 0x1D029D0
+    // Offset: 0x1CE6EA0
     void set_CreateKernel(bool value);
     // public System.Type get_KernelType()
-    // Offset: 0x1D029DC
+    // Offset: 0x1CE6EAC
     ::System::Type* get_KernelType();
     // public System.Void set_KernelType(System.Type value)
-    // Offset: 0x1D029E4
+    // Offset: 0x1CE6EB4
     void set_KernelType(::System::Type* value);
     // public System.Void .ctor()
-    // Offset: 0x1CFEEA0
+    // Offset: 0x1CE3370
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

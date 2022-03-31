@@ -37,13 +37,13 @@ namespace NUnit::Framework {
   class _Assert : public ::Il2CppObject {
     public:
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x1C5387C
+    // Offset: 0x1C39D4C
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0x1C538F0
+    // Offset: 0x1C39DC0
     static void IncrementAssertCount();
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TActual>
     static void That(TActual actual, ::NUnit::Framework::Constraints::IResolveConstraint* expression, ::StringW message, ::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::_Assert::That");
@@ -52,10 +52,10 @@ namespace NUnit::Framework {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, actual, expression, message, args);
     }
     // static public System.Void IsTrue(System.Boolean condition)
-    // Offset: 0x1C539C8
+    // Offset: 0x1C39E98
     static void IsTrue(bool condition);
     // static public System.Void IsFalse(System.Boolean condition)
-    // Offset: 0x1C53A30
+    // Offset: 0x1C39F00
     static void IsFalse(bool condition);
   }; // NUnit.Framework.Assert
   #pragma pack(pop)

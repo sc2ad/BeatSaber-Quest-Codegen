@@ -31,13 +31,13 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   class IBlockCipherPadding {
     public:
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int PadCount(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
   #pragma pack(pop)

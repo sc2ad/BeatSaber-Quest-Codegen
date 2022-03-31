@@ -35,10 +35,10 @@ namespace NUnit::Framework::Interfaces {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);
     }
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Pass(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Interfaces.ITestFilter
   #pragma pack(pop)

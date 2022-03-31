@@ -34,10 +34,10 @@ namespace NUnit::Framework::Interfaces {
   class ISuiteBuilder {
     public:
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool CanBuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.Interfaces.ISuiteBuilder
   #pragma pack(pop)

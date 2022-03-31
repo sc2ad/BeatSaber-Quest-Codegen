@@ -22,16 +22,16 @@ namespace UnityEngine::UI::CoroutineTween {
   class ITweenValue {
     public:
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_ignoreTimeScale();
     // public System.Single get_duration()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_duration();
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void TweenValue(float floatPercentage);
     // public System.Boolean ValidTarget()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.ITweenValue
   #pragma pack(pop)

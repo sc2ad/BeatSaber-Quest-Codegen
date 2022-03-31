@@ -46,37 +46,37 @@ namespace NUnit::Framework::Constraints {
   class MessageWriter : public ::System::IO::StringWriter {
     public:
     // public System.Int32 get_MaxLineLength()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_MaxLineLength();
     // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    // Offset: 0x1C57A70
+    // Offset: 0x1C3DF40
     void WriteMessageLine(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // public System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteMessageLine(int level, ::StringW message, ::ArrayW<::Il2CppObject*> args);
     // public System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void DisplayDifferences(::NUnit::Framework::Constraints::ConstraintResult* result);
     // public System.Void DisplayDifferences(System.Object expected, System.Object actual)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual);
     // public System.Void DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual, ::NUnit::Framework::Constraints::Tolerance* tolerance);
     // public System.Void DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void DisplayStringDifferences(::StringW expected, ::StringW actual, int mismatch, bool ignoreCase, bool clipping);
     // public System.Void WriteActualValue(System.Object actual)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteActualValue(::Il2CppObject* actual);
     // public System.Void WriteValue(System.Object val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteValue(::Il2CppObject* val);
     // public System.Void WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteCollectionElements(::System::Collections::IEnumerable* collection, int64_t start, int max);
     // protected System.Void .ctor()
-    // Offset: 0x1C58C04
+    // Offset: 0x1C3F0D4
     // Implemented from: System.IO.StringWriter
     // Base method: System.Void StringWriter::.ctor()
     // Base method: System.Void TextWriter::.ctor()

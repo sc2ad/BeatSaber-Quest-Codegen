@@ -62,14 +62,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // protected System.Void .ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::BeatmapDataItemConvertor_3<TBase, TIn, TOut>* New_ctor(::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor* bpmTimeProcessor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::BeatmapDataItemConvertor_3<TBase, TIn, TOut>*, creationType>(bpmTimeProcessor)));
     }
     // protected System.Single BeatToTime(System.Single beat)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float BeatToTime(float beat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3::BeatToTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeatToTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(beat)})));

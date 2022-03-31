@@ -323,184 +323,184 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingField
     ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& dyn_$ItemReferenceLoopHandling$k__BackingField();
     // Newtonsoft.Json.Serialization.JsonContract get_PropertyContract()
-    // Offset: 0x1D43B50
+    // Offset: 0x1D27020
     ::Newtonsoft::Json::Serialization::JsonContract* get_PropertyContract();
     // System.Void set_PropertyContract(Newtonsoft.Json.Serialization.JsonContract value)
-    // Offset: 0x1D43B58
+    // Offset: 0x1D27028
     void set_PropertyContract(::Newtonsoft::Json::Serialization::JsonContract* value);
     // public System.String get_PropertyName()
-    // Offset: 0x1D43B60
+    // Offset: 0x1D27030
     ::StringW get_PropertyName();
     // public System.Void set_PropertyName(System.String value)
-    // Offset: 0x1D43B68
+    // Offset: 0x1D27038
     void set_PropertyName(::StringW value);
     // public System.Type get_DeclaringType()
-    // Offset: 0x1D43BFC
+    // Offset: 0x1D270CC
     ::System::Type* get_DeclaringType();
     // public System.Void set_DeclaringType(System.Type value)
-    // Offset: 0x1D43C04
+    // Offset: 0x1D270D4
     void set_DeclaringType(::System::Type* value);
     // public System.Nullable`1<System.Int32> get_Order()
-    // Offset: 0x1D43C0C
+    // Offset: 0x1D270DC
     ::System::Nullable_1<int> get_Order();
     // public System.Void set_Order(System.Nullable`1<System.Int32> value)
-    // Offset: 0x1D43C14
+    // Offset: 0x1D270E4
     void set_Order(::System::Nullable_1<int> value);
     // public System.String get_UnderlyingName()
-    // Offset: 0x1D43C1C
+    // Offset: 0x1D270EC
     ::StringW get_UnderlyingName();
     // public System.Void set_UnderlyingName(System.String value)
-    // Offset: 0x1D43C24
+    // Offset: 0x1D270F4
     void set_UnderlyingName(::StringW value);
     // public Newtonsoft.Json.Serialization.IValueProvider get_ValueProvider()
-    // Offset: 0x1D43C2C
+    // Offset: 0x1D270FC
     ::Newtonsoft::Json::Serialization::IValueProvider* get_ValueProvider();
     // public System.Void set_ValueProvider(Newtonsoft.Json.Serialization.IValueProvider value)
-    // Offset: 0x1D43C34
+    // Offset: 0x1D27104
     void set_ValueProvider(::Newtonsoft::Json::Serialization::IValueProvider* value);
     // public System.Void set_AttributeProvider(Newtonsoft.Json.Serialization.IAttributeProvider value)
-    // Offset: 0x1D43C3C
+    // Offset: 0x1D2710C
     void set_AttributeProvider(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
     // public System.Type get_PropertyType()
-    // Offset: 0x1D43C44
+    // Offset: 0x1D27114
     ::System::Type* get_PropertyType();
     // public System.Void set_PropertyType(System.Type value)
-    // Offset: 0x1D43C4C
+    // Offset: 0x1D2711C
     void set_PropertyType(::System::Type* value);
     // public Newtonsoft.Json.JsonConverter get_Converter()
-    // Offset: 0x1D43C64
+    // Offset: 0x1D27134
     ::Newtonsoft::Json::JsonConverter* get_Converter();
     // public System.Void set_Converter(Newtonsoft.Json.JsonConverter value)
-    // Offset: 0x1D43C6C
+    // Offset: 0x1D2713C
     void set_Converter(::Newtonsoft::Json::JsonConverter* value);
     // public Newtonsoft.Json.JsonConverter get_MemberConverter()
-    // Offset: 0x1D43C74
+    // Offset: 0x1D27144
     ::Newtonsoft::Json::JsonConverter* get_MemberConverter();
     // public System.Void set_MemberConverter(Newtonsoft.Json.JsonConverter value)
-    // Offset: 0x1D43C7C
+    // Offset: 0x1D2714C
     void set_MemberConverter(::Newtonsoft::Json::JsonConverter* value);
     // public System.Boolean get_Ignored()
-    // Offset: 0x1D43C84
+    // Offset: 0x1D27154
     bool get_Ignored();
     // public System.Void set_Ignored(System.Boolean value)
-    // Offset: 0x1D43C8C
+    // Offset: 0x1D2715C
     void set_Ignored(bool value);
     // public System.Boolean get_Readable()
-    // Offset: 0x1D43C98
+    // Offset: 0x1D27168
     bool get_Readable();
     // public System.Void set_Readable(System.Boolean value)
-    // Offset: 0x1D43CA0
+    // Offset: 0x1D27170
     void set_Readable(bool value);
     // public System.Boolean get_Writable()
-    // Offset: 0x1D43CAC
+    // Offset: 0x1D2717C
     bool get_Writable();
     // public System.Void set_Writable(System.Boolean value)
-    // Offset: 0x1D43CB4
+    // Offset: 0x1D27184
     void set_Writable(bool value);
     // public System.Boolean get_HasMemberAttribute()
-    // Offset: 0x1D43CC0
+    // Offset: 0x1D27190
     bool get_HasMemberAttribute();
     // public System.Void set_HasMemberAttribute(System.Boolean value)
-    // Offset: 0x1D43CC8
+    // Offset: 0x1D27198
     void set_HasMemberAttribute(bool value);
     // public System.Object get_DefaultValue()
-    // Offset: 0x1D43CD4
+    // Offset: 0x1D271A4
     ::Il2CppObject* get_DefaultValue();
     // public System.Void set_DefaultValue(System.Object value)
-    // Offset: 0x1D43CEC
+    // Offset: 0x1D271BC
     void set_DefaultValue(::Il2CppObject* value);
     // public Newtonsoft.Json.Required get_Required()
-    // Offset: 0x1D43600
+    // Offset: 0x1D26AD0
     ::Newtonsoft::Json::Required get_Required();
     // public System.Nullable`1<System.Boolean> get_IsReference()
-    // Offset: 0x1D43D98
+    // Offset: 0x1D27268
     ::System::Nullable_1<bool> get_IsReference();
     // public System.Void set_IsReference(System.Nullable`1<System.Boolean> value)
-    // Offset: 0x1D43DA0
+    // Offset: 0x1D27270
     void set_IsReference(::System::Nullable_1<bool> value);
     // public System.Nullable`1<Newtonsoft.Json.NullValueHandling> get_NullValueHandling()
-    // Offset: 0x1D43DA8
+    // Offset: 0x1D27278
     ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> get_NullValueHandling();
     // public System.Void set_NullValueHandling(System.Nullable`1<Newtonsoft.Json.NullValueHandling> value)
-    // Offset: 0x1D43DB0
+    // Offset: 0x1D27280
     void set_NullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
     // public System.Nullable`1<Newtonsoft.Json.DefaultValueHandling> get_DefaultValueHandling()
-    // Offset: 0x1D43DB8
+    // Offset: 0x1D27288
     ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> get_DefaultValueHandling();
     // public System.Void set_DefaultValueHandling(System.Nullable`1<Newtonsoft.Json.DefaultValueHandling> value)
-    // Offset: 0x1D43DC0
+    // Offset: 0x1D27290
     void set_DefaultValueHandling(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
     // public System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> get_ReferenceLoopHandling()
-    // Offset: 0x1D43DC8
+    // Offset: 0x1D27298
     ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ReferenceLoopHandling();
     // public System.Void set_ReferenceLoopHandling(System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> value)
-    // Offset: 0x1D43DD0
+    // Offset: 0x1D272A0
     void set_ReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
     // public System.Nullable`1<Newtonsoft.Json.ObjectCreationHandling> get_ObjectCreationHandling()
-    // Offset: 0x1D43DD8
+    // Offset: 0x1D272A8
     ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> get_ObjectCreationHandling();
     // public System.Void set_ObjectCreationHandling(System.Nullable`1<Newtonsoft.Json.ObjectCreationHandling> value)
-    // Offset: 0x1D43DE0
+    // Offset: 0x1D272B0
     void set_ObjectCreationHandling(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
     // public System.Nullable`1<Newtonsoft.Json.TypeNameHandling> get_TypeNameHandling()
-    // Offset: 0x1D43DE8
+    // Offset: 0x1D272B8
     ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_TypeNameHandling();
     // public System.Void set_TypeNameHandling(System.Nullable`1<Newtonsoft.Json.TypeNameHandling> value)
-    // Offset: 0x1D43DF0
+    // Offset: 0x1D272C0
     void set_TypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
     // public System.Predicate`1<System.Object> get_ShouldSerialize()
-    // Offset: 0x1D43DF8
+    // Offset: 0x1D272C8
     ::System::Predicate_1<::Il2CppObject*>* get_ShouldSerialize();
     // public System.Void set_ShouldSerialize(System.Predicate`1<System.Object> value)
-    // Offset: 0x1D43E00
+    // Offset: 0x1D272D0
     void set_ShouldSerialize(::System::Predicate_1<::Il2CppObject*>* value);
     // public System.Predicate`1<System.Object> get_ShouldDeserialize()
-    // Offset: 0x1D43E08
+    // Offset: 0x1D272D8
     ::System::Predicate_1<::Il2CppObject*>* get_ShouldDeserialize();
     // public System.Predicate`1<System.Object> get_GetIsSpecified()
-    // Offset: 0x1D43E10
+    // Offset: 0x1D272E0
     ::System::Predicate_1<::Il2CppObject*>* get_GetIsSpecified();
     // public System.Void set_GetIsSpecified(System.Predicate`1<System.Object> value)
-    // Offset: 0x1D43E18
+    // Offset: 0x1D272E8
     void set_GetIsSpecified(::System::Predicate_1<::Il2CppObject*>* value);
     // public System.Action`2<System.Object,System.Object> get_SetIsSpecified()
-    // Offset: 0x1D43E20
+    // Offset: 0x1D272F0
     ::System::Action_2<::Il2CppObject*, ::Il2CppObject*>* get_SetIsSpecified();
     // public System.Void set_SetIsSpecified(System.Action`2<System.Object,System.Object> value)
-    // Offset: 0x1D43E28
+    // Offset: 0x1D272F8
     void set_SetIsSpecified(::System::Action_2<::Il2CppObject*, ::Il2CppObject*>* value);
     // public Newtonsoft.Json.JsonConverter get_ItemConverter()
-    // Offset: 0x1D43E38
+    // Offset: 0x1D27308
     ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
     // public System.Void set_ItemConverter(Newtonsoft.Json.JsonConverter value)
-    // Offset: 0x1D43E40
+    // Offset: 0x1D27310
     void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
     // public System.Nullable`1<System.Boolean> get_ItemIsReference()
-    // Offset: 0x1D43E48
+    // Offset: 0x1D27318
     ::System::Nullable_1<bool> get_ItemIsReference();
     // public System.Void set_ItemIsReference(System.Nullable`1<System.Boolean> value)
-    // Offset: 0x1D43E50
+    // Offset: 0x1D27320
     void set_ItemIsReference(::System::Nullable_1<bool> value);
     // public System.Nullable`1<Newtonsoft.Json.TypeNameHandling> get_ItemTypeNameHandling()
-    // Offset: 0x1D43E58
+    // Offset: 0x1D27328
     ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
     // public System.Void set_ItemTypeNameHandling(System.Nullable`1<Newtonsoft.Json.TypeNameHandling> value)
-    // Offset: 0x1D43E60
+    // Offset: 0x1D27330
     void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
     // public System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> get_ItemReferenceLoopHandling()
-    // Offset: 0x1D43E68
+    // Offset: 0x1D27338
     ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
     // public System.Void set_ItemReferenceLoopHandling(System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> value)
-    // Offset: 0x1D43E70
+    // Offset: 0x1D27340
     void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
     // System.Object GetResolvedDefaultValue()
-    // Offset: 0x1D43CFC
+    // Offset: 0x1D271CC
     ::Il2CppObject* GetResolvedDefaultValue();
     // System.Void WritePropertyName(Newtonsoft.Json.JsonWriter writer)
-    // Offset: 0x1D43E78
+    // Offset: 0x1D27348
     void WritePropertyName(::Newtonsoft::Json::JsonWriter* writer);
     // public System.Void .ctor()
-    // Offset: 0x1D43EC0
+    // Offset: 0x1D27390
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -509,7 +509,7 @@ namespace Newtonsoft::Json::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<JsonProperty*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1D43E30
+    // Offset: 0x1D27300
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

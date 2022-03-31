@@ -48,21 +48,21 @@ namespace System::Collections::Generic {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongEnumEqualityComparer_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* information, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::LongEnumEqualityComparer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongEnumEqualityComparer_1<T>*, creationType>(information, context)));
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::LongEnumEqualityComparer_1::GetObjectData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetObjectData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, info, context);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -72,7 +72,7 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<LongEnumEqualityComparer_1<T>*, creationType>()));
     }
     // public override System.Boolean Equals(T x, T y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Boolean EqualityComparer_1::Equals(T x, T y)
     bool Equals(T x, T y) {
@@ -81,7 +81,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x, y);
     }
     // public override System.Int32 GetHashCode(T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
@@ -90,7 +90,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, obj);
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
@@ -99,7 +99,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {

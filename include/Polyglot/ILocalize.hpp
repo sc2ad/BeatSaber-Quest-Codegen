@@ -22,7 +22,7 @@ namespace Polyglot {
   class ILocalize {
     public:
     // public System.Void OnLocalize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnLocalize();
   }; // Polyglot.ILocalize
   #pragma pack(pop)

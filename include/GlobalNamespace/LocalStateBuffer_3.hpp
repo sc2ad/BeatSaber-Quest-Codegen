@@ -195,56 +195,56 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::SyncStateId*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Single fullStateUpdateFrequency, System.Single deltaUpdateFrequency, System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalStateBuffer_3<TStateTable, TType, TState>* New_ctor(float fullStateUpdateFrequency, float deltaUpdateFrequency, int size, typename ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalStateBuffer_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalStateBuffer_3<TStateTable, TType, TState>*, creationType>(fullStateUpdateFrequency, deltaUpdateFrequency, size, interpolator, smoother)));
     }
     // public System.Void MarkDirty()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void MarkDirty() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalStateBuffer_3::MarkDirty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MarkDirty", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean TryGetSerializedState(out TStateTable state, out System.Single time, out SyncStateId id)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryGetSerializedState(ByRef<TStateTable> state, ByRef<float> time, ByRef<::GlobalNamespace::SyncStateId> id) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalStateBuffer_3::TryGetSerializedState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<::GlobalNamespace::SyncStateId&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(state), byref(time), byref(id));
     }
     // public System.Boolean TryGetSerializedStateDelta(out TStateTable delta, out System.Single timeOffset, out SyncStateId baseId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryGetSerializedStateDelta(ByRef<TStateTable> delta, ByRef<float> timeOffset, ByRef<::GlobalNamespace::SyncStateId> baseId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalStateBuffer_3::TryGetSerializedStateDelta");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedStateDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<::GlobalNamespace::SyncStateId&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(delta), byref(timeOffset), byref(baseId));
     }
     // public System.Void SetTime(System.Single time)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetTime(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalStateBuffer_3::SetTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, time);
     }
     // public System.Void SetState(TType type, TState state)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetState(TType type, TState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalStateBuffer_3::SetState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(state)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, type, state);
     }
     // public TState GetState(TType type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TState GetState(TType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalStateBuffer_3::GetState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
       return ::il2cpp_utils::RunMethodRethrow<TState, false>(this, ___internal__method, type);
     }
     // public override System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: StateBuffer`3
     // Base method: System.Void StateBuffer_3::Clear()
     void Clear() {

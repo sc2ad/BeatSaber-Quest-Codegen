@@ -31,16 +31,16 @@ namespace Org::BouncyCastle::Crypto {
   class ISigner {
     public:
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Reset();
   }; // Org.BouncyCastle.Crypto.ISigner
   #pragma pack(pop)

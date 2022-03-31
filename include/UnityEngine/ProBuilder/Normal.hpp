@@ -67,33 +67,33 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private UnityEngine.Vector3 <bitangent>k__BackingField
     ::UnityEngine::Vector3& dyn_$bitangent$k__BackingField();
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0x1C2E0E0
+    // Offset: 0x1C145B0
     ::UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0x1C2E0EC
+    // Offset: 0x1C145BC
     void set_normal(::UnityEngine::Vector3 value);
     // public UnityEngine.Vector4 get_tangent()
-    // Offset: 0x1C2E0F8
+    // Offset: 0x1C145C8
     ::UnityEngine::Vector4 get_tangent();
     // public System.Void set_tangent(UnityEngine.Vector4 value)
-    // Offset: 0x1C2E104
+    // Offset: 0x1C145D4
     void set_tangent(::UnityEngine::Vector4 value);
     // public UnityEngine.Vector3 get_bitangent()
-    // Offset: 0x1C2E110
+    // Offset: 0x1C145E0
     ::UnityEngine::Vector3 get_bitangent();
     // public System.Void set_bitangent(UnityEngine.Vector3 value)
-    // Offset: 0x1C2E11C
+    // Offset: 0x1C145EC
     void set_bitangent(::UnityEngine::Vector3 value);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Normal other)
-    // Offset: 0x1C2E1C8
+    // Offset: 0x1C14698
     bool Equals(::UnityEngine::ProBuilder::Normal other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1C2E128
+    // Offset: 0x1C145F8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C2E314
+    // Offset: 0x1C147E4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -102,10 +102,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Normal), 28 + sizeof(::UnityEngine::Vector3)> __UnityEngine_ProBuilder_NormalSizeCheck;
   static_assert(sizeof(Normal) == 0x28);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x1C2E37C
+  // Offset: 0x1C1484C
   bool operator ==(const ::UnityEngine::ProBuilder::Normal& a, const ::UnityEngine::ProBuilder::Normal& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x1C2E3B0
+  // Offset: 0x1C14880
   bool operator !=(const ::UnityEngine::ProBuilder::Normal& a, const ::UnityEngine::ProBuilder::Normal& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class GridView::IDataSource {
     public:
     // public System.Int32 GetNumberOfCells()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetNumberOfCells();
     // public System.Single GetCellWidth()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float GetCellWidth();
     // public System.Single GetCellHeight()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float GetCellHeight();
     // public UnityEngine.MonoBehaviour CellForIdx(GridView gridView, System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::MonoBehaviour* CellForIdx(::GlobalNamespace::GridView* gridView, int idx);
   }; // GridView/IDataSource
   #pragma pack(pop)

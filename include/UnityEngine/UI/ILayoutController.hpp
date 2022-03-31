@@ -22,10 +22,10 @@ namespace UnityEngine::UI {
   class ILayoutController {
     public:
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetLayoutVertical();
   }; // UnityEngine.UI.ILayoutController
   #pragma pack(pop)

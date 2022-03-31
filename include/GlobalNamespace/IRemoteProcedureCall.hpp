@@ -34,7 +34,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
     // public System.Single get_syncTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_syncTime();
   }; // IRemoteProcedureCall
   #pragma pack(pop)

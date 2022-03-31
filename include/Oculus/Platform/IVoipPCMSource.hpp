@@ -24,16 +24,16 @@ namespace Oculus::Platform {
   class IVoipPCMSource {
     public:
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetPCM(::ArrayW<float> dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetSenderID(uint64_t senderID);
     // public System.Void Update()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Update();
     // public System.Int32 PeekSizeElements()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int PeekSizeElements();
   }; // Oculus.Platform.IVoipPCMSource
   #pragma pack(pop)

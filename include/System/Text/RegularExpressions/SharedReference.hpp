@@ -60,13 +60,13 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.Int32 _locked
     int& dyn__locked();
     // System.Object Get()
-    // Offset: 0x1DB2A98
+    // Offset: 0x1D95F68
     ::Il2CppObject* Get();
     // System.Void Cache(System.Object obj)
-    // Offset: 0x1DB2AF0
+    // Offset: 0x1D95FC0
     void Cache(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1DB2B50
+    // Offset: 0x1D96020
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

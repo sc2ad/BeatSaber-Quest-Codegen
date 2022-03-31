@@ -38,28 +38,28 @@ namespace GlobalNamespace {
   class NoteCutDirectionExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0x2848CC4
+    // Offset: 0x2817E3C
     static ::UnityEngine::Vector2 Direction(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0x284D964
+    // Offset: 0x281CADC
     static float RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection OppositeDirection(NoteCutDirection cutDirection)
-    // Offset: 0x284D984
+    // Offset: 0x281CAFC
     static ::GlobalNamespace::NoteCutDirection OppositeDirection(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection, System.Single offset)
-    // Offset: 0x284D9A0
+    // Offset: 0x281CB18
     static ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float offset);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0x2849784
+    // Offset: 0x28188FC
     static bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection MainNoteCutDirectionFromCutDirAngle(System.Single angle)
-    // Offset: 0x284DA34
+    // Offset: 0x281CBAC
     static ::GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float angle);
     // static public NoteCutDirection Mirrored(NoteCutDirection cutDirection)
-    // Offset: 0x284DAB8
+    // Offset: 0x281CC30
     static ::GlobalNamespace::NoteCutDirection Mirrored(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Boolean IsOnSamePlane(NoteCutDirection noteCutDirection1, NoteCutDirection noteCutDirection2)
-    // Offset: 0x284DAD4
+    // Offset: 0x281CC4C
     static bool IsOnSamePlane(::GlobalNamespace::NoteCutDirection noteCutDirection1, ::GlobalNamespace::NoteCutDirection noteCutDirection2);
   }; // NoteCutDirectionExtensions
   #pragma pack(pop)

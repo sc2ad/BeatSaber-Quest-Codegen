@@ -26,7 +26,7 @@ namespace System {
   class IEquatable_1 {
     public:
     // public System.Boolean Equals(T other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Equals(T other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IEquatable_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));

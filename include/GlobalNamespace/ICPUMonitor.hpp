@@ -22,10 +22,10 @@ namespace GlobalNamespace {
   class ICPUMonitor {
     public:
     // public System.Single get_utilization()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_utilization();
     // public System.Void PollUpdate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PollUpdate();
   }; // ICPUMonitor
   #pragma pack(pop)

@@ -28,7 +28,7 @@ namespace LiteNetLib {
   class INetLogger {
     public:
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
   }; // LiteNetLib.INetLogger
   #pragma pack(pop)

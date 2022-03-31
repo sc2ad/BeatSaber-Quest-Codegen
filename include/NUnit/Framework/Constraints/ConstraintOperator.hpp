@@ -25,7 +25,7 @@ namespace NUnit::Framework::Constraints {
   class ConstraintOperator : public ::Il2CppObject {
     public:
     // public System.Void Reduce(NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack stack)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Reduce(::NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* stack);
   }; // NUnit.Framework.Constraints.ConstraintOperator
   #pragma pack(pop)

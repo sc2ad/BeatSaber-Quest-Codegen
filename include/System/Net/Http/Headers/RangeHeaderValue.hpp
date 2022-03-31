@@ -76,26 +76,26 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String unit
     ::StringW& dyn_unit();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.RangeItemHeaderValue> get_Ranges()
-    // Offset: 0x1969568
+    // Offset: 0x195F454
     ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();
     // public System.String get_Unit()
-    // Offset: 0x19695DC
+    // Offset: 0x195F4C8
     ::StringW get_Unit();
     // private System.Void .ctor(System.Net.Http.Headers.RangeHeaderValue source)
-    // Offset: 0x19693D8
+    // Offset: 0x195F2C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeHeaderValue* New_ctor(::System::Net::Http::Headers::RangeHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::RangeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeHeaderValue*, creationType>(source)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x19695E4
+    // Offset: 0x195F4D0
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RangeHeaderValue parsedValue)
-    // Offset: 0x1969798
+    // Offset: 0x195F684
     static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeHeaderValue*> parsedValue);
     // public System.Void .ctor()
-    // Offset: 0x196937C
+    // Offset: 0x195F268
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -104,17 +104,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<RangeHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1969644
+    // Offset: 0x195F530
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1969714
+    // Offset: 0x195F600
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1969DB8
+    // Offset: 0x195FCA4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.Collections.Generic.IEnumerable`1<IPreviewBeatmapLevel>> <>9__35_0
     static void _set_$$9__35_0(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IPreviewBeatmapLevel*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15068E0
+    // Offset: 0x14D3730
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<IPreviewBeatmapLevel> <GetLevelPreviewForLevelId>b__35_0(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x150694C
+    // Offset: 0x14D379C
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IPreviewBeatmapLevel*>* $GetLevelPreviewForLevelId$b__35_0(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
     // public System.Void .ctor()
-    // Offset: 0x1506944
+    // Offset: 0x14D3794
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

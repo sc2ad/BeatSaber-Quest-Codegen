@@ -39,7 +39,7 @@ namespace Newtonsoft::Json::Linq::JsonPath {
     // Nested type: ::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter::$ExecuteFilter$d__4
     class $ExecuteFilter$d__4;
     // public System.Void .ctor()
-    // Offset: 0x172BC8C
+    // Offset: 0x1722B7C
     // Implemented from: Newtonsoft.Json.Linq.JsonPath.PathFilter
     // Base method: System.Void PathFilter::.ctor()
     // Base method: System.Void Object::.ctor()

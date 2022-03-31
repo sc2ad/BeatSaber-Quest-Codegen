@@ -114,10 +114,10 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x152C164
+    // Offset: 0x14F8E04
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x152C5EC
+    // Offset: 0x14F928C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.BaseClientUnconnectedMessageHandler/BGNet.Core.Messages.<OnSendFailed>d__25
   // WARNING Not writing size check since size may be invalid!

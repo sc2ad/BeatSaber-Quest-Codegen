@@ -99,14 +99,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(IConnectedPlayer player, System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteMultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor(::GlobalNamespace::IConnectedPlayer* player, int size, typename ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RemoteMultiplayerSyncState_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, creationType>(player, size, interpolator, smoother)));
     }
     // public System.Void UpdateState(T serializable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void UpdateState(T serializable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::ISyncStateSerializable_1<TStateTable>>);
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, serializable);
     }
     // public System.Void UpdateDelta(T serializable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void UpdateDelta(T serializable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::ISyncStateDeltaSerializable_1<TStateTable>>);
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, serializable);
     }
     // protected override StateBuffer`3<TStateTable,TType,TState> get_stateBuffer()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: MultiplayerSyncState`3
     // Base method: StateBuffer`3<TStateTable,TType,TState> MultiplayerSyncState_3::get_stateBuffer()
     ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer() {
@@ -135,7 +135,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
     }
     // public override IConnectedPlayer get_player()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: MultiplayerSyncState`3
     // Base method: IConnectedPlayer MultiplayerSyncState_3::get_player()
     ::GlobalNamespace::IConnectedPlayer* get_player() {

@@ -23,10 +23,10 @@ namespace System::Xml {
   class IXmlNamespaceResolver {
     public:
     // public System.String LookupNamespace(System.String prefix)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW LookupNamespace(::StringW prefix);
     // public System.String LookupPrefix(System.String namespaceName)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW LookupPrefix(::StringW namespaceName);
   }; // System.Xml.IXmlNamespaceResolver
   #pragma pack(pop)

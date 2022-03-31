@@ -26,13 +26,13 @@ namespace HMUI {
   class TableView::IDataSource {
     public:
     // public System.Single CellSize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
   }; // HMUI.TableView/HMUI.IDataSource
   #pragma pack(pop)

@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B2DA0
+    // [InjectAttribute] Offset: 0x124D224
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kRequestCacheTimeoutMinutes
     static void _set_kRequestCacheTimeoutMinutes(int value);
     // static field const value: static private System.Int32 kRequestTimeoutSeconds
-    static constexpr const int kRequestTimeoutSeconds = 30;
+    static constexpr const int kRequestTimeoutSeconds = 60;
     // Get static field: static private System.Int32 kRequestTimeoutSeconds
     static int _get_kRequestTimeoutSeconds();
     // Set static field: static private System.Int32 kRequestTimeoutSeconds
@@ -120,25 +120,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.DateTime _lastRequestTime
     ::System::DateTime& dyn__lastRequestTime();
     // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13C5484
+    // Offset: 0x137AA7C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Void Init()
-    // Offset: 0x13C567C
+    // Offset: 0x137AC74
     void Init();
     // private System.Void StartRequest()
-    // Offset: 0x13C5604
+    // Offset: 0x137ABFC
     void StartRequest();
     // private System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x13C5680
+    // Offset: 0x137AC78
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
     // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x13C54F8
+    // Offset: 0x137AAF0
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x13C5780
+    // Offset: 0x137AD98
     bool IsUrlValid(::StringW url);
     // public System.Void .ctor()
-    // Offset: 0x13C57EC
+    // Offset: 0x137AE04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

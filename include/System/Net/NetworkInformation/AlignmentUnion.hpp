@@ -25,25 +25,6 @@ namespace System::Net::NetworkInformation {
   struct AlignmentUnion/*, public ::System::ValueType*/ {
     public:
     public:
-    struct __InternalUnionData {
-      // public System.Int32 Length
-      // Size: 0x4
-      // Offset: 0x0
-      int Length;
-      // Field size check
-      static_assert(sizeof(int) == 0x4);
-      // public System.Int32 IfIndex
-      // Size: 0x4
-      // Offset: 0x4
-      int IfIndex;
-      // Field size check
-      static_assert(sizeof(int) == 0x4);
-    };
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Creating union for fields at offset: 0x0
     union {
       // public System.UInt64 Alignment
@@ -52,13 +33,22 @@ namespace System::Net::NetworkInformation {
       uint64_t Alignment;
       // Field size check
       static_assert(sizeof(uint64_t) == 0x8);
-      // WARNING: Manual union structure
-      __InternalUnionData data;
-      static_assert(sizeof(__InternalUnionData) == 0x8);
+      // public System.Int32 Length
+      // Size: 0x4
+      // Offset: 0x0
+      int Length;
+      // Field size check
+      static_assert(sizeof(int) == 0x4);
     };
+    // public System.Int32 IfIndex
+    // Size: 0x4
+    // Offset: 0x4
+    int IfIndex;
+    // Field size check
+    static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: AlignmentUnion
-    constexpr AlignmentUnion(uint64_t Alignment_ = {}) noexcept : Alignment{Alignment_} {}
+    constexpr AlignmentUnion(uint64_t Alignment_ = {}, int IfIndex_ = {}) noexcept : Alignment{Alignment_}, IfIndex{IfIndex_} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);

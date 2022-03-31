@@ -74,7 +74,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Utilities.PropertyNameTable NameTable
     ::Newtonsoft::Json::Utilities::PropertyNameTable*& dyn_NameTable();
     // public System.Void .ctor()
-    // Offset: 0x1D3E1B0
+    // Offset: 0x1D21680
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

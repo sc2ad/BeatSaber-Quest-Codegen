@@ -101,52 +101,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <duration>k__BackingField
     float& dyn_$duration$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x2A85260
+    // Offset: 0x2A51410
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2A85268
+    // Offset: 0x2A51418
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A85270
+    // Offset: 0x2A51420
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x2A85278
+    // Offset: 0x2A51428
     void set_lineIndex(int value);
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0x2A85280
+    // Offset: 0x2A51430
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
     // public System.Void set_gameplayType(NoteData/GameplayType value)
-    // Offset: 0x2A85288
+    // Offset: 0x2A51438
     void set_gameplayType(::GlobalNamespace::NoteData::GameplayType value);
     // public ColorType get_colorType()
-    // Offset: 0x2A85290
+    // Offset: 0x2A51440
     ::GlobalNamespace::ColorType get_colorType();
     // public System.Void set_colorType(ColorType value)
-    // Offset: 0x2A85298
+    // Offset: 0x2A51448
     void set_colorType(::GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x2A852A0
+    // Offset: 0x2A51450
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x2A852A8
+    // Offset: 0x2A51458
     void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x2A852B0
+    // Offset: 0x2A51460
     ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // public System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x2A852B8
+    // Offset: 0x2A51468
     void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x2A852C0
+    // Offset: 0x2A51470
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2A852C8
+    // Offset: 0x2A51478
     void set_duration(float value);
     // public System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x2A852D0
+    // Offset: 0x2A51480
     void Mirror(int lineCount);
     // public System.Void .ctor()
-    // Offset: 0x2A85328
+    // Offset: 0x2A514D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

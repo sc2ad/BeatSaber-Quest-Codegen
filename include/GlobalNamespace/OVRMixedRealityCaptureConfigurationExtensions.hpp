@@ -31,10 +31,10 @@ namespace GlobalNamespace {
   class OVRMixedRealityCaptureConfigurationExtensions : public ::Il2CppObject {
     public:
     // static public System.Void ApplyTo(OVRMixedRealityCaptureConfiguration dest, OVRMixedRealityCaptureConfiguration source)
-    // Offset: 0x16C7EB8
+    // Offset: 0x16BEDA8
     static void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
     // static public System.Void ReadFrom(OVRMixedRealityCaptureConfiguration dest, OVRMixedRealityCaptureConfiguration source)
-    // Offset: 0x16C7EBC
+    // Offset: 0x16BEDAC
     static void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
   }; // OVRMixedRealityCaptureConfigurationExtensions
   #pragma pack(pop)

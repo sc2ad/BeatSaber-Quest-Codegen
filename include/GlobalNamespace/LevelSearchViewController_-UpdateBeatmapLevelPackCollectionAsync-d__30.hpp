@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevelCollection> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelCollection*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14B31F4
+    // Offset: 0x148835C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14B36B8
+    // Offset: 0x1488824
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelSearchViewController/<UpdateBeatmapLevelPackCollectionAsync>d__30
   // WARNING Not writing size check since size may be invalid!

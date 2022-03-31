@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData
     ::BeatmapSaveDataVersion3::BeatmapSaveData*& dyn_beatmapSaveData();
     // System.Void <GetBeatmapDataBasicInfoAsync>b__0()
-    // Offset: 0x137B804
+    // Offset: 0x136D314
     void $GetBeatmapDataBasicInfoAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x137B7FC
+    // Offset: 0x136D30C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

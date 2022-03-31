@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _startLightId
     int& dyn__startLightId();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x1F15A08
+    // Offset: 0x2AD1AF0
     int get_numberOfElements();
     // public System.Int32 get_startLightId()
-    // Offset: 0x1F15A10
+    // Offset: 0x2AD1AF8
     int get_startLightId();
     // public System.Void .ctor()
-    // Offset: 0x1F159F8
+    // Offset: 0x2AD1AE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B5AFC
+    // [InjectAttribute] Offset: 0x124FF80
     // private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FlyingScoreEffect::Pool* flyingScoreEffectPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingScoreEffect::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B5B0C
+    // [InjectAttribute] Offset: 0x124FF90
     // private readonly FlyingScoreSpawner/InitData _initData
     // Size: 0x8
     // Offset: 0x20
@@ -83,13 +83,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly FlyingScoreSpawner/InitData _initData
     ::GlobalNamespace::FlyingScoreSpawner::InitData*& dyn__initData();
     // public System.Void SpawnFlyingScore(IReadonlyCutScoreBuffer cutScoreBuffer, UnityEngine.Color color)
-    // Offset: 0x12E560C
+    // Offset: 0x1391610
     void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x12E594C
+    // Offset: 0x1391950
     void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0x12E5A68
+    // Offset: 0x1391A6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

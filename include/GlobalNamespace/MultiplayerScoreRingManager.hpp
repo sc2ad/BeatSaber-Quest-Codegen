@@ -89,49 +89,49 @@ namespace GlobalNamespace {
     float centerDistanceOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10BB000
+    // [InjectAttribute] Offset: 0x1255574
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB010
+    // [InjectAttribute] Offset: 0x1255584
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB020
+    // [InjectAttribute] Offset: 0x1255594
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB030
+    // [InjectAttribute] Offset: 0x12555A4
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB040
+    // [InjectAttribute] Offset: 0x12555B4
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB050
+    // [InjectAttribute] Offset: 0x12555C4
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BB060
+    // [InjectAttribute] Offset: 0x12555D4
     // private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
     // Size: 0x8
     // Offset: 0x50
@@ -216,55 +216,55 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _playersSpawned
     bool& dyn__playersSpawned();
     // protected System.Void Start()
-    // Offset: 0x140416C
+    // Offset: 0x13A996C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x140481C
+    // Offset: 0x13AA01C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1404B3C
+    // Offset: 0x13AA33C
     void Update();
     // private System.Void UpdateScore(IConnectedPlayer playerToUpdate)
-    // Offset: 0x1404C20
+    // Offset: 0x13AA420
     void UpdateScore(::GlobalNamespace::IConnectedPlayer* playerToUpdate);
     // public System.Void AnimateColorsForPlayer(System.String userId, UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x1404E04
+    // Offset: 0x13AA604
     void AnimateColorsForPlayer(::StringW userId, ::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
     // public MultiplayerScoreRingItem GetScoreRingItem(System.String userId)
-    // Offset: 0x1404F70
+    // Offset: 0x13AA770
     ::GlobalNamespace::MultiplayerScoreRingItem* GetScoreRingItem(::StringW userId);
     // public UnityEngine.GameObject[] GetScoreRingItems()
-    // Offset: 0x13FBB78
+    // Offset: 0x13A1408
     ::ArrayW<::UnityEngine::GameObject*> GetScoreRingItems();
     // public System.Void AnimateColorsForAllPlayers(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x1405060
+    // Offset: 0x13AA860
     void AnimateColorsForAllPlayers(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
     // private System.Void SetPlayerToFailedState(IConnectedPlayer player)
-    // Offset: 0x14051D8
+    // Offset: 0x13AA9D8
     void SetPlayerToFailedState(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void TrySpawnTexts()
-    // Offset: 0x14052E8
+    // Offset: 0x13AAAE8
     void TrySpawnTexts();
     // private System.Void SpawnTexts()
-    // Offset: 0x1405300
+    // Offset: 0x13AAB00
     void SpawnTexts();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x1404328
+    // Offset: 0x13A9B28
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x14042F8
+    // Offset: 0x13A9AF8
     void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
     // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0x1404310
+    // Offset: 0x13A9B10
     void HandlePlayerSpawningDidFinish();
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x1405918
+    // Offset: 0x13AB118
     void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x140595C
+    // Offset: 0x13AB15C
     void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x1405960
+    // Offset: 0x13AB160
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

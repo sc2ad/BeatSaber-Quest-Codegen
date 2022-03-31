@@ -58,7 +58,7 @@ namespace System::Threading {
     // Get instance field reference: System.Int32 m_currArrayIndex
     int& dyn_m_currArrayIndex();
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
-    // Offset: 0x1DE1CB4
+    // Offset: 0x1DC6184
     // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex);
   }; // System.Threading.CancellationCallbackCoreWorkArguments
   #pragma pack(pop)

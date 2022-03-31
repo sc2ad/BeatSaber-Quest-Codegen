@@ -124,46 +124,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _bladeSpeed
     float& dyn__bladeSpeed();
     // public System.Single get_bladeSpeed()
-    // Offset: 0x13A7A60
+    // Offset: 0x141D204
     float get_bladeSpeed();
     // public BladeMovementDataElement get_lastAddedData()
-    // Offset: 0x13A7A68
+    // Offset: 0x141C164
     ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
     // public BladeMovementDataElement get_prevAddedData()
-    // Offset: 0x13A7AD0
+    // Offset: 0x141D20C
     ::GlobalNamespace::BladeMovementDataElement get_prevAddedData();
     // public System.Void AddDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x13A7BC8
+    // Offset: 0x141D274
     void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RemoveDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x13A7C30
+    // Offset: 0x141D2DC
     void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RequestLastDataProcessing(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x13A7C98
+    // Offset: 0x141D344
     void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void AddNewData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Single time)
-    // Offset: 0x13A7E3C
+    // Offset: 0x1418BF8
     void AddNewData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, float time);
     // private System.Void ComputeAdditionalData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Int32 idxOffset, out UnityEngine.Vector3 segmentNormal, out System.Single segmentAngle)
-    // Offset: 0x13A8300
+    // Offset: 0x141D4E8
     void ComputeAdditionalData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, int idxOffset, ByRef<::UnityEngine::Vector3> segmentNormal, ByRef<float> segmentAngle);
     // private UnityEngine.Vector3 ComputePlaneNormal(UnityEngine.Vector3 tp0, UnityEngine.Vector3 bp0, UnityEngine.Vector3 tp1, UnityEngine.Vector3 bp1)
-    // Offset: 0x13A84E8
+    // Offset: 0x141D6D0
     ::UnityEngine::Vector3 ComputePlaneNormal(::UnityEngine::Vector3 tp0, ::UnityEngine::Vector3 bp0, ::UnityEngine::Vector3 tp1, ::UnityEngine::Vector3 bp1);
     // public UnityEngine.Vector3 ComputeCutPlaneNormal()
-    // Offset: 0x13A864C
+    // Offset: 0x141D834
     ::UnityEngine::Vector3 ComputeCutPlaneNormal();
     // public System.Single ComputeSwingRating(System.Single overrideSegmentAngle)
-    // Offset: 0x13A86F8
+    // Offset: 0x141D8E0
     float ComputeSwingRating(float overrideSegmentAngle);
     // public System.Single ComputeSwingRating()
-    // Offset: 0x13A8928
+    // Offset: 0x141DB10
     float ComputeSwingRating();
     // private System.Single ComputeSwingRating(System.Boolean overrideSegmenAngle, System.Single overrideValue)
-    // Offset: 0x13A8700
+    // Offset: 0x141D8E8
     float ComputeSwingRating(bool overrideSegmenAngle, float overrideValue);
     // public System.Void .ctor()
-    // Offset: 0x13A7B38
+    // Offset: 0x141919C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

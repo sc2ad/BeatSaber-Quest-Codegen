@@ -74,25 +74,25 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String s_LogFilePath
     static void _set_s_LogFilePath(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x1FBC7C4
+    // Offset: 0x1F8EAE0
     static void _cctor();
     // static public System.Void PushLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0x1FBBBB8
+    // Offset: 0x1F8DED4
     static void PushLogLevel(::UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void PopLogLevel()
-    // Offset: 0x1FBBC4C
+    // Offset: 0x1F8DF68
     static void PopLogLevel();
     // static public System.Void SetLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0x1FBBCD8
+    // Offset: 0x1F8DFF4
     static void SetLogLevel(::UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void SetOutput(UnityEngine.ProBuilder.LogOutput output)
-    // Offset: 0x1FBBD44
+    // Offset: 0x1F8E060
     static void SetOutput(::UnityEngine::ProBuilder::LogOutput output);
     // static public System.Void SetLogFile(System.String path)
-    // Offset: 0x1FBBDB0
+    // Offset: 0x1F8E0CC
     static void SetLogFile(::StringW path);
     // static public System.Void Debug(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Debug(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Log::Debug");
@@ -101,31 +101,31 @@ namespace UnityEngine::ProBuilder {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value);
     }
     // static public System.Void Debug(System.String message)
-    // Offset: 0x1FBBE1C
+    // Offset: 0x1F8E138
     static void Debug(::StringW message);
     // static public System.Void Debug(System.String format, params System.Object[] values)
-    // Offset: 0x1FBBF7C
+    // Offset: 0x1F8E298
     static void Debug(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Info(System.String format, params System.Object[] values)
-    // Offset: 0x1FBBF80
+    // Offset: 0x1F8E29C
     static void Info(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Info(System.String message)
-    // Offset: 0x1FBC008
+    // Offset: 0x1F8E324
     static void Info(::StringW message);
     // static public System.Void Warning(System.String format, params System.Object[] values)
-    // Offset: 0x1FBC0A0
+    // Offset: 0x1F8E3BC
     static void Warning(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Warning(System.String message)
-    // Offset: 0x1FBC128
+    // Offset: 0x1F8E444
     static void Warning(::StringW message);
     // static public System.Void Error(System.String format, params System.Object[] values)
-    // Offset: 0x1FBC1C0
+    // Offset: 0x1F8E4DC
     static void Error(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Error(System.String message)
-    // Offset: 0x1FBC248
+    // Offset: 0x1F8E564
     static void Error(::StringW message);
     // static System.Void Watch(T key, K value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class K>
     static void Watch(T key, K value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Log::Watch");
@@ -134,19 +134,19 @@ namespace UnityEngine::ProBuilder {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, value);
     }
     // static private System.Void DoPrint(System.String message, UnityEngine.LogType type)
-    // Offset: 0x1FBBE84
+    // Offset: 0x1F8E1A0
     static void DoPrint(::StringW message, ::UnityEngine::LogType type);
     // static private System.Void PrintToFile(System.String message, System.String path)
-    // Offset: 0x1FBC3F4
+    // Offset: 0x1F8E710
     static void PrintToFile(::StringW message, ::StringW path);
     // static public System.Void ClearLogFile()
-    // Offset: 0x1FBC71C
+    // Offset: 0x1F8EA38
     static void ClearLogFile();
     // static private System.Void PrintToConsole(System.String message, UnityEngine.LogType type)
-    // Offset: 0x1FBC2E0
+    // Offset: 0x1F8E5FC
     static void PrintToConsole(::StringW message, ::UnityEngine::LogType type);
     // static System.Void NotNull(T obj, System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void NotNull(T obj, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Log::NotNull");

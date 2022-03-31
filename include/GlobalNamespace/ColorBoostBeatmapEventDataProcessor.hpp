@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class ColorBoostBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::ColorBoostBeatmapEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x284CCCC
+    // Offset: 0x281BE44
     // Implemented from: BeatmapEventDataProcessor`1
     // Base method: System.Void BeatmapEventDataProcessor_1::.ctor()
     // Base method: System.Void Object::.ctor()

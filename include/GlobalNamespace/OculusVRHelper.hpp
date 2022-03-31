@@ -187,100 +187,100 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.EventSystems.EventSystem _disabledEventSystem
     ::UnityEngine::EventSystems::EventSystem*& dyn__disabledEventSystem();
     // public System.Boolean get_hasInputFocus()
-    // Offset: 0x157F130
+    // Offset: 0x1575E3C
     bool get_hasInputFocus();
     // public System.Boolean get_hasVrFocus()
-    // Offset: 0x157F190
+    // Offset: 0x1575E9C
     bool get_hasVrFocus();
     // public System.Boolean get_isAlwaysWireless()
-    // Offset: 0x157F1F0
+    // Offset: 0x1575EFC
     bool get_isAlwaysWireless();
     // public VRPlatformSDK get_vrPlatformSDK()
-    // Offset: 0x157F218
+    // Offset: 0x1575F24
     ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
     // public XRDeviceModel get_currentXRDeviceModel()
-    // Offset: 0x157F210
+    // Offset: 0x1575F1C
     ::GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
     // private System.Boolean get__isOVRManagerPresent()
-    // Offset: 0x157F220
+    // Offset: 0x1575F2C
     bool get__isOVRManagerPresent();
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x157E6F0
+    // Offset: 0x15753FC
     void add_inputFocusWasCapturedEvent(::System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x157E794
+    // Offset: 0x15754A0
     void remove_inputFocusWasCapturedEvent(::System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x157E838
+    // Offset: 0x1575544
     void add_inputFocusWasReleasedEvent(::System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x157E8DC
+    // Offset: 0x15755E8
     void remove_inputFocusWasReleasedEvent(::System::Action* value);
     // public System.Void add_vrFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x157E980
+    // Offset: 0x157568C
     void add_vrFocusWasCapturedEvent(::System::Action* value);
     // public System.Void remove_vrFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x157EA24
+    // Offset: 0x1575730
     void remove_vrFocusWasCapturedEvent(::System::Action* value);
     // public System.Void add_vrFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x157EAC8
+    // Offset: 0x15757D4
     void add_vrFocusWasReleasedEvent(::System::Action* value);
     // public System.Void remove_vrFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x157EB6C
+    // Offset: 0x1575878
     void remove_vrFocusWasReleasedEvent(::System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x157EC10
+    // Offset: 0x157591C
     void add_hmdUnmountedEvent(::System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x157ECB4
+    // Offset: 0x15759C0
     void remove_hmdUnmountedEvent(::System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
-    // Offset: 0x157ED58
+    // Offset: 0x1575A64
     void add_hmdMountedEvent(::System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
-    // Offset: 0x157EDFC
+    // Offset: 0x1575B08
     void remove_hmdMountedEvent(::System::Action* value);
     // public System.Void add_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x157EEA0
+    // Offset: 0x1575BAC
     void add_joystickWasCenteredThisFrameEvent(::System::Action* value);
     // public System.Void remove_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x157EF44
+    // Offset: 0x1575C50
     void remove_joystickWasCenteredThisFrameEvent(::System::Action* value);
     // public System.Void add_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x157EFE8
+    // Offset: 0x1575CF4
     void add_joystickWasNotCenteredThisFrameEvent(::System::Action_1<::UnityEngine::Vector2>* value);
     // public System.Void remove_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x157F08C
+    // Offset: 0x1575D98
     void remove_joystickWasNotCenteredThisFrameEvent(::System::Action_1<::UnityEngine::Vector2>* value);
     // protected System.Void Update()
-    // Offset: 0x157F2F4
+    // Offset: 0x1576000
     void Update();
     // protected System.Void FixedUpdate()
-    // Offset: 0x157F83C
+    // Offset: 0x1576548
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x157F8B0
+    // Offset: 0x15765BC
     void LateUpdate();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x157F924
+    // Offset: 0x1576630
     void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void StopHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x157F9B0
+    // Offset: 0x15766BC
     void StopHaptics(::UnityEngine::XR::XRNode node);
     // public System.Void AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
-    // Offset: 0x157FA2C
+    // Offset: 0x1576738
     void AdjustControllerTransform(::UnityEngine::XR::XRNode node, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation);
     // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
-    // Offset: 0x157FBAC
+    // Offset: 0x15768B8
     bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
     // private System.Void EnableEventSystem()
-    // Offset: 0x157F7A8
+    // Offset: 0x15764B4
     void EnableEventSystem();
     // private System.Void DisableEventSystem()
-    // Offset: 0x157F690
+    // Offset: 0x157639C
     void DisableEventSystem();
     // public System.Void .ctor()
-    // Offset: 0x157FCE8
+    // Offset: 0x15769F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

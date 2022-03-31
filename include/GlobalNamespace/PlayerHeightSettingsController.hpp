@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C01FC
+    // [InjectAttribute] Offset: 0x125A790
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x30
@@ -128,28 +128,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _value
     float& dyn__value();
     // public System.Single get_value()
-    // Offset: 0x1487520
+    // Offset: 0x13703E0
     float get_value();
     // public System.Void add_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x14873D8
+    // Offset: 0x1370298
     void add_valueDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x148747C
+    // Offset: 0x137033C
     void remove_valueDidChangeEvent(::System::Action_1<float>* value);
     // protected System.Void Awake()
-    // Offset: 0x1487528
+    // Offset: 0x13703E8
     void Awake();
     // public System.Void Init(System.Single playerHeight)
-    // Offset: 0x14875D8
+    // Offset: 0x1370498
     void Init(float playerHeight);
     // private System.Void AutoSetHeight()
-    // Offset: 0x148767C
+    // Offset: 0x137053C
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0x14875E0
+    // Offset: 0x13704A0
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0x14877A0
+    // Offset: 0x1370660
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

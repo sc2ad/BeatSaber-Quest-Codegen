@@ -59,14 +59,14 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Int32 maxLength)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::StringSerializer_1<T>* New_ctor(int maxLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::StringSerializer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::StringSerializer_1<T>*, creationType>(maxLength)));
     }
     // public override System.Void Read(T inf, LiteNetLib.Utils.NetDataReader r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::Read(T inf, LiteNetLib.Utils.NetDataReader r)
     void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r) {
@@ -75,7 +75,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void Write(T inf, LiteNetLib.Utils.NetDataWriter w)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::Write(T inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w) {
@@ -84,7 +84,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, w);
     }
     // public override System.Void ReadArray(T inf, LiteNetLib.Utils.NetDataReader r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::ReadArray(T inf, LiteNetLib.Utils.NetDataReader r)
     void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r) {
@@ -93,7 +93,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void WriteArray(T inf, LiteNetLib.Utils.NetDataWriter w)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::WriteArray(T inf, LiteNetLib.Utils.NetDataWriter w)
     void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w) {

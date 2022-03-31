@@ -30,7 +30,7 @@ namespace System::ComponentModel {
     // Set static field: static private readonly System.String none
     static void _set_none(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x1D81A9C
+    // Offset: 0x1D64F6C
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.cctor()
     static void _cctor();

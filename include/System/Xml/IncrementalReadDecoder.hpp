@@ -28,13 +28,13 @@ namespace System::Xml {
   class IncrementalReadDecoder : public ::Il2CppObject {
     public:
     // System.Boolean get_IsFull()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsFull();
     // System.Int32 Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int Decode(::ArrayW<::Il2CppChar> chars, int startPos, int len);
     // protected System.Void .ctor()
-    // Offset: 0x1AAB73C
+    // Offset: 0x1A8ED74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

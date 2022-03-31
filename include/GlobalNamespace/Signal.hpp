@@ -56,22 +56,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _event
     ::System::Action*& dyn__event();
     // private System.Void add__event(System.Action value)
-    // Offset: 0x2A0A4D4
+    // Offset: 0x29D664C
     void add__event(::System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0x2A0A578
+    // Offset: 0x29D66F0
     void remove__event(::System::Action* value);
     // public System.Void Raise()
-    // Offset: 0x2A0A61C
+    // Offset: 0x29D6794
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0x2A0A630
+    // Offset: 0x29D67A8
     void Subscribe(::System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0x2A0A65C
+    // Offset: 0x29D67D4
     void Unsubscribe(::System::Action* foo);
     // public System.Void .ctor()
-    // Offset: 0x2A0A660
+    // Offset: 0x29D67D8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

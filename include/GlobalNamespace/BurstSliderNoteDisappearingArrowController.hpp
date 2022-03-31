@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private BurstSliderGameNoteController _burstSliderNoteController
     ::GlobalNamespace::BurstSliderGameNoteController*& dyn__burstSliderNoteController();
     // protected BurstSliderGameNoteController get_gameNoteController()
-    // Offset: 0x135E2B0
+    // Offset: 0x134FF4C
     ::GlobalNamespace::BurstSliderGameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x135E2B8
+    // Offset: 0x134FF54
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

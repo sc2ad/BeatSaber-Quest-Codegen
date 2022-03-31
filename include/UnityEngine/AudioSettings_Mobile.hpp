@@ -27,7 +27,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioSettings::Mobile : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x1056438
+    // [DebuggerBrowsableAttribute] Offset: 0x11ED7B4
     // Get static field: static private System.Boolean <muteState>k__BackingField
     static bool _get_$muteState$k__BackingField();
     // Set static field: static private System.Boolean <muteState>k__BackingField
@@ -36,31 +36,31 @@ namespace UnityEngine {
     static bool _get__stopAudioOutputOnMute();
     // Set static field: static private System.Boolean _stopAudioOutputOnMute
     static void _set__stopAudioOutputOnMute(bool value);
-    // [DebuggerBrowsableAttribute] Offset: 0x1056474
+    // [DebuggerBrowsableAttribute] Offset: 0x11ED7F0
     // Get static field: static private System.Action`1<System.Boolean> OnMuteStateChanged
     static ::System::Action_1<bool>* _get_OnMuteStateChanged();
     // Set static field: static private System.Action`1<System.Boolean> OnMuteStateChanged
     static void _set_OnMuteStateChanged(::System::Action_1<bool>* value);
     // static public System.Boolean get_muteState()
-    // Offset: 0x2AACBC0
+    // Offset: 0x2A7AD70
     static bool get_muteState();
     // static private System.Void set_muteState(System.Boolean value)
-    // Offset: 0x2AACC28
+    // Offset: 0x2A7ADD8
     static void set_muteState(bool value);
     // static public System.Boolean get_stopAudioOutputOnMute()
-    // Offset: 0x2AACC98
+    // Offset: 0x2A7AE48
     static bool get_stopAudioOutputOnMute();
     // static private System.Void .cctor()
-    // Offset: 0x2AACFDC
+    // Offset: 0x2A7B18C
     static void _cctor();
     // static System.Void InvokeOnMuteStateChanged(System.Boolean mute)
-    // Offset: 0x2AACD00
+    // Offset: 0x2A7AEB0
     static void InvokeOnMuteStateChanged(bool mute);
     // static public System.Void StartAudioOutput()
-    // Offset: 0x2AACFA8
+    // Offset: 0x2A7B158
     static void StartAudioOutput();
     // static public System.Void StopAudioOutput()
-    // Offset: 0x2AACF74
+    // Offset: 0x2A7B124
     static void StopAudioOutput();
   }; // UnityEngine.AudioSettings/UnityEngine.Mobile
   #pragma pack(pop)

@@ -82,22 +82,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initializedPropertyIds
     bool& dyn__initializedPropertyIds();
     // public System.Single get_intensity()
-    // Offset: 0x1F183E8
+    // Offset: 0x2AD4608
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1F183F0
+    // Offset: 0x2AD4610
     void set_intensity(float value);
     // public System.Single get_weight()
-    // Offset: 0x1F183F8
+    // Offset: 0x2AD4618
     float get_weight();
     // public System.Void set_weight(System.Single value)
-    // Offset: 0x1F18400
+    // Offset: 0x2AD4620
     void set_weight(float value);
     // public System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1F18274
+    // Offset: 0x2AD4494
     void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
     // public System.Void .ctor()
-    // Offset: 0x1F18408
+    // Offset: 0x2AD4628
     // Implemented from: LightWithIds/LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void Object::.ctor()

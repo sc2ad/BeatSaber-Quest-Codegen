@@ -34,13 +34,13 @@ namespace System::Diagnostics {
   class CorrelationManager : public ::Il2CppObject {
     public:
     // public System.Collections.Stack get_LogicalOperationStack()
-    // Offset: 0x1CC2E24
+    // Offset: 0x1CA72F4
     ::System::Collections::Stack* get_LogicalOperationStack();
     // private System.Collections.Stack GetLogicalOperationStack()
-    // Offset: 0x1CC2E28
+    // Offset: 0x1CA72F8
     ::System::Collections::Stack* GetLogicalOperationStack();
     // System.Void .ctor()
-    // Offset: 0x1CC2E1C
+    // Offset: 0x1CA72EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

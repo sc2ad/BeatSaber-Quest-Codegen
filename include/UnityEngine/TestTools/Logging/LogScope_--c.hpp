@@ -46,13 +46,13 @@ namespace UnityEngine::TestTools::Logging {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.Logging.LogEvent,System.Boolean> <>9__53_0
     static void _set_$$9__53_0(::System::Func_2<::UnityEngine::TestTools::Logging::LogEvent*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19558A4
+    // Offset: 0x194C790
     static void _cctor();
     // System.Boolean <NoUnexpectedReceived>b__53_0(UnityEngine.TestTools.Logging.LogEvent x)
-    // Offset: 0x1955910
+    // Offset: 0x194C7FC
     bool $NoUnexpectedReceived$b__53_0(::UnityEngine::TestTools::Logging::LogEvent* x);
     // public System.Void .ctor()
-    // Offset: 0x1955908
+    // Offset: 0x194C7F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

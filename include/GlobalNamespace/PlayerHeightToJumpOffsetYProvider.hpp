@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10BB5D4
+    // [InjectAttribute] Offset: 0x1255B48
     // private readonly PlayerHeightDetector _playerHeightDetector
     // Size: 0x8
     // Offset: 0x10
@@ -79,22 +79,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _jumpOffsetY
     float& dyn__jumpOffsetY();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x14877A8
+    // Offset: 0x1370668
     float get_jumpOffsetY();
     // public System.Void Initialize()
-    // Offset: 0x14877B0
+    // Offset: 0x1370670
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x1487920
+    // Offset: 0x13707E0
     void Dispose();
     // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0x14878FC
+    // Offset: 0x13707BC
     void HandlePlayerHeightDidChange(float playerHeight);
     // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0x148786C
+    // Offset: 0x137072C
     static float JumpOffsetYForPlayerHeight(float playerHeight);
     // public System.Void .ctor()
-    // Offset: 0x14879F8
+    // Offset: 0x13708B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

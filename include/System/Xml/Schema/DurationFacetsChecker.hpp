@@ -48,10 +48,10 @@ namespace System::Xml::Schema {
   class DurationFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
     public:
     // private System.Boolean MatchEnumeration(System.TimeSpan value, System.Collections.ArrayList enumeration)
-    // Offset: 0x1C3CECC
+    // Offset: 0x1C2339C
     bool MatchEnumeration(::System::TimeSpan value, ::System::Collections::ArrayList* enumeration);
     // public System.Void .ctor()
-    // Offset: 0x1C3D078
+    // Offset: 0x1C23548
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Void FacetsChecker::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -61,17 +61,17 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<DurationFacetsChecker*, creationType>()));
     }
     // override System.Exception CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C3CA80
+    // Offset: 0x1C22F50
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::Il2CppObject* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.TimeSpan value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C3CB94
+    // Offset: 0x1C23064
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.TimeSpan value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Boolean MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C3CFF0
+    // Offset: 0x1C234C0
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Boolean FacetsChecker::MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
     bool MatchEnumeration(::Il2CppObject* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);

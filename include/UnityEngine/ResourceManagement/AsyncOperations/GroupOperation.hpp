@@ -177,41 +177,41 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> m_CachedDependencyLocations
     ::System::Collections::Generic::HashSet_1<::StringW>*& dyn_m_CachedDependencyLocations();
     // private System.Int32 UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Hash()
-    // Offset: 0x1EB0854
+    // Offset: 0x1E94D24
     int UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Hash();
     // private System.Void UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Hash(System.Int32 value)
-    // Offset: 0x1EB085C
+    // Offset: 0x1E94D2C
     void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Hash(int value);
     // System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> GetDependentOps()
-    // Offset: 0x1EB0864
+    // Offset: 0x1E94D34
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* GetDependentOps();
     // private System.Boolean DependenciesAreUnchanged(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
-    // Offset: 0x1EB0DFC
+    // Offset: 0x1E952CC
     bool DependenciesAreUnchanged(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
     // private System.Void CompleteIfDependenciesComplete()
-    // Offset: 0x1EB13D0
+    // Offset: 0x1E958A0
     void CompleteIfDependenciesComplete();
     // public System.Void Init(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> operations, System.Boolean releaseDependenciesOnFailure, System.Boolean allowFailedDependencies)
-    // Offset: 0x1EB1A04
+    // Offset: 0x1E95ED4
     void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure, bool allowFailedDependencies);
     // public System.Void Init(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> operations, UnityEngine.ResourceManagement.AsyncOperations.GroupOperation/UnityEngine.ResourceManagement.AsyncOperations.GroupOperationSettings settings)
-    // Offset: 0x1EB1AAC
+    // Offset: 0x1E95F7C
     void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings settings);
     // private System.Void OnOperationCompleted(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x1EB1B2C
+    // Offset: 0x1E95FFC
     void OnOperationCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // protected override System.String get_DebugName()
-    // Offset: 0x1EB0F5C
+    // Offset: 0x1E9542C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName();
     // protected override System.Single get_Progress()
-    // Offset: 0x1EB17FC
+    // Offset: 0x1E95CCC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Single AsyncOperationBase_1::get_Progress()
     float get_Progress();
     // public System.Void .ctor()
-    // Offset: 0x1EB0200
+    // Offset: 0x1E946D0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -221,32 +221,32 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       return THROW_UNLESS((::il2cpp_utils::New<GroupOperation*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x1EB02DC
+    // Offset: 0x1E947AC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
-    // Offset: 0x1EB08A8
+    // Offset: 0x1E94D78
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
     void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
     // override System.Void ReleaseDependencies()
-    // Offset: 0x1EB0910
+    // Offset: 0x1E94DE0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::ReleaseDependencies()
     void ReleaseDependencies();
     // override UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
-    // Offset: 0x1EB0B7C
+    // Offset: 0x1E9504C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus AsyncOperationBase_1::GetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
     ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::Il2CppObject*>* visited);
     // protected override System.Void Execute()
-    // Offset: 0x1EB11A8
+    // Offset: 0x1E95678
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // protected override System.Void Destroy()
-    // Offset: 0x1EB17EC
+    // Offset: 0x1E95CBC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Destroy()
     void Destroy();

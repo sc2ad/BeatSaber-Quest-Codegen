@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberType _saberType
     ::GlobalNamespace::SaberType& dyn__saberType();
     // public SaberType get_saberType()
-    // Offset: 0x13AB78C
+    // Offset: 0x1420954
     ::GlobalNamespace::SaberType get_saberType();
     // public System.Void .ctor()
-    // Offset: 0x13AB794
+    // Offset: 0x142095C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

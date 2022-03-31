@@ -144,25 +144,25 @@ namespace System::Net {
     // Get instance field reference: System.Exception Error
     ::System::Exception*& dyn_Error();
     // public System.Object get_AsyncState()
-    // Offset: 0x1A7B6B8
+    // Offset: 0x1A705A4
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1A7B6C0
+    // Offset: 0x1A705AC
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1A7B7B0
+    // Offset: 0x1A7069C
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1A7B7C4
+    // Offset: 0x1A706B0
     bool get_IsCompleted();
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1A7B5E4
+    // Offset: 0x1A704D0
     void Complete(::System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x1A7B5EC
+    // Offset: 0x1A704D8
     void Complete();
     // public System.Void .ctor()
-    // Offset: 0x1A7B858
+    // Offset: 0x1A70744
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

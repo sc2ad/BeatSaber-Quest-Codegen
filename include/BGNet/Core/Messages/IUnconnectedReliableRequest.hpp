@@ -28,10 +28,10 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMessage*>(this);
     }
     // public System.UInt32 get_requestId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     uint get_requestId();
     // public BGNet.Core.Messages.IUnconnectedReliableRequest WithRequestId(System.UInt32 requestId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::BGNet::Core::Messages::IUnconnectedReliableRequest* WithRequestId(uint requestId);
   }; // BGNet.Core.Messages.IUnconnectedReliableRequest
   #pragma pack(pop)

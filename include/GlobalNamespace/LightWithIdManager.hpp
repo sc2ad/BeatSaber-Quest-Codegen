@@ -113,28 +113,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1F16478
+    // Offset: 0x2AD25F8
     void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1F1651C
+    // Offset: 0x2AD269C
     void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // protected System.Void LateUpdate()
-    // Offset: 0x1F165C0
+    // Offset: 0x2AD2740
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1F167C8
+    // Offset: 0x2AD2948
     void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1F16B8C
+    // Offset: 0x2AD2D0C
     void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1F16D70
+    // Offset: 0x2AD2EF0
     void SetColorForId(int lightId, ::UnityEngine::Color color);
-    // public UnityEngine.Color GetColorForId(System.Int32 lightId)
-    // Offset: 0x1F16FA8
-    ::UnityEngine::Color GetColorForId(int lightId);
+    // public UnityEngine.Color GetColorForId(System.Int32 lightId, System.Boolean initializeIfNull)
+    // Offset: 0x2AD3128
+    ::UnityEngine::Color GetColorForId(int lightId, bool initializeIfNull);
+    // public System.Boolean IsColorSetForId(System.Int32 lightId)
+    // Offset: 0x2AD31F4
+    bool IsColorSetForId(int lightId);
+    // public System.Collections.Generic.List`1<ILightWithId>[] GetLightsArray()
+    // Offset: 0x2AD3270
+    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> GetLightsArray();
     // public System.Void .ctor()
-    // Offset: 0x1F17058
+    // Offset: 0x2AD3278
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -209,10 +215,28 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::GetColorForId
 // Il2CppName: GetColorForId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::LightWithIdManager::*)(int)>(&GlobalNamespace::LightWithIdManager::GetColorForId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::LightWithIdManager::*)(int, bool)>(&GlobalNamespace::LightWithIdManager::GetColorForId)> {
   static const MethodInfo* get() {
     static auto* lightId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "GetColorForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightId});
+    static auto* initializeIfNull = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "GetColorForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightId, initializeIfNull});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::IsColorSetForId
+// Il2CppName: IsColorSetForId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LightWithIdManager::*)(int)>(&GlobalNamespace::LightWithIdManager::IsColorSetForId)> {
+  static const MethodInfo* get() {
+    static auto* lightId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "IsColorSetForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightId});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::GetLightsArray
+// Il2CppName: GetLightsArray
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::GetLightsArray)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "GetLightsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::New_ctor

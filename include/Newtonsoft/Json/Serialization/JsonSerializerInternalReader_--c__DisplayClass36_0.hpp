@@ -54,10 +54,10 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Serialization.JsonProperty property
     ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_property();
     // System.Boolean <CreateObjectUsingCreatorWithParameters>b__1(Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.CreatorPropertyContext p)
-    // Offset: 0x1D4F4F8
+    // Offset: 0x1D329C8
     bool $CreateObjectUsingCreatorWithParameters$b__1(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext* p);
     // public System.Void .ctor()
-    // Offset: 0x1D4E9CC
+    // Offset: 0x1D31E9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

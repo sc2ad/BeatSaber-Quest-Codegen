@@ -29,16 +29,16 @@ namespace Newtonsoft::Json::Converters {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
     }
     // public System.String get_Name()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Name();
     // public System.String get_System()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_System();
     // public System.String get_Public()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Public();
     // public System.String get_InternalSubset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_InternalSubset();
   }; // Newtonsoft.Json.Converters.IXmlDocumentType
   #pragma pack(pop)

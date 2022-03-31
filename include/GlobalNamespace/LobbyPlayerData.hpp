@@ -77,31 +77,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isInLobby>k__BackingField
     bool& dyn_$isInLobby$k__BackingField();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x14D90D0
+    // Offset: 0x151EFB4
     bool get_isPartyOwner();
     // public System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x14D90D8
+    // Offset: 0x151EFBC
     void set_isPartyOwner(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x14D90E4
+    // Offset: 0x151EFC8
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x14D90EC
+    // Offset: 0x151EFD0
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x14D90F8
+    // Offset: 0x151EFDC
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x14D9100
+    // Offset: 0x151EFE4
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x14D910C
+    // Offset: 0x151EFF0
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x14D9114
+    // Offset: 0x151EFF8
     void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x14D9120
+    // Offset: 0x151F004
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
     // Base method: System.Void Object::.ctor()

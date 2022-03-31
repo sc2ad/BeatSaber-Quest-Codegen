@@ -53,22 +53,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x16C7130
+    // Offset: 0x16BE020
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x16C7138
+    // Offset: 0x16BE028
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x16C7144
+    // Offset: 0x16BE034
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x16C714C
+    // Offset: 0x16BE03C
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x16C7158
+    // Offset: 0x16BE048
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x16C7160
+    // Offset: 0x16BE050
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRMeshRenderer/MeshRendererData
   #pragma pack(pop)

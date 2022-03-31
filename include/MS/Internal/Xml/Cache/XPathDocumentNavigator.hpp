@@ -89,72 +89,72 @@ namespace MS::Internal::Xml::Cache {
     // Get instance field reference: private System.Int32 idxParent
     int& dyn_idxParent();
     // public System.Void .ctor(MS.Internal.Xml.Cache.XPathNode[] pageCurrent, System.Int32 idxCurrent, MS.Internal.Xml.Cache.XPathNode[] pageParent, System.Int32 idxParent)
-    // Offset: 0x1A9B048
+    // Offset: 0x1A7E680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XPathDocumentNavigator* New_ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageCurrent, int idxCurrent, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageParent, int idxParent) {
       static auto ___internal__logger = ::Logger::get().WithContext("::MS::Internal::Xml::Cache::XPathDocumentNavigator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XPathDocumentNavigator*, creationType>(pageCurrent, idxCurrent, pageParent, idxParent)));
     }
     // public System.Int32 GetPositionHashCode()
-    // Offset: 0x1A9BCD8
+    // Offset: 0x1A7F310
     int GetPositionHashCode();
     // public override System.String get_Value()
-    // Offset: 0x1A9B0DC
+    // Offset: 0x1A7E714
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.String XPathItem::get_Value()
     ::StringW get_Value();
     // public override System.Xml.XPath.XPathNodeType get_NodeType()
-    // Offset: 0x1A9B574
+    // Offset: 0x1A7EBAC
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Xml.XPath.XPathNodeType XPathNavigator::get_NodeType()
     ::System::Xml::XPath::XPathNodeType get_NodeType();
     // public override System.String get_LocalName()
-    // Offset: 0x1A9B5C4
+    // Offset: 0x1A7EBFC
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.String XPathNavigator::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_NamespaceURI()
-    // Offset: 0x1A9B628
+    // Offset: 0x1A7EC60
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.String XPathNavigator::get_NamespaceURI()
     ::StringW get_NamespaceURI();
     // public override System.String get_Prefix()
-    // Offset: 0x1A9B68C
+    // Offset: 0x1A7ECC4
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.String XPathNavigator::get_Prefix()
     ::StringW get_Prefix();
     // public override System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x1A9B6F0
+    // Offset: 0x1A7ED28
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Xml.XmlNameTable XPathNavigator::get_NameTable()
     ::System::Xml::XmlNameTable* get_NameTable();
     // public override System.Object get_UnderlyingObject()
-    // Offset: 0x1A9BCC8
+    // Offset: 0x1A7F300
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Object XPathNavigator::get_UnderlyingObject()
     ::Il2CppObject* get_UnderlyingObject();
     // public override System.Xml.XPath.XPathNavigator Clone()
-    // Offset: 0x1A9B4F0
+    // Offset: 0x1A7EB28
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Xml.XPath.XPathNavigator XPathNavigator::Clone()
     ::System::Xml::XPath::XPathNavigator* Clone();
     // public override System.Boolean MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope namespaceScope)
-    // Offset: 0x1A9B75C
+    // Offset: 0x1A7ED94
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Boolean XPathNavigator::MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope namespaceScope)
     bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope);
     // public override System.Boolean MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope scope)
-    // Offset: 0x1A9BA44
+    // Offset: 0x1A7F07C
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Boolean XPathNavigator::MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope scope)
     bool MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope scope);
     // public override System.Boolean MoveToParent()
-    // Offset: 0x1A9BB7C
+    // Offset: 0x1A7F1B4
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Boolean XPathNavigator::MoveToParent()
     bool MoveToParent();
     // public override System.Boolean IsSamePosition(System.Xml.XPath.XPathNavigator other)
-    // Offset: 0x1A9BC0C
+    // Offset: 0x1A7F244
     // Implemented from: System.Xml.XPath.XPathNavigator
     // Base method: System.Boolean XPathNavigator::IsSamePosition(System.Xml.XPath.XPathNavigator other)
     bool IsSamePosition(::System::Xml::XPath::XPathNavigator* other);

@@ -48,10 +48,10 @@ namespace System::Xml::Schema {
   class DateTimeFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
     public:
     // private System.Boolean MatchEnumeration(System.DateTime value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C3C368
+    // Offset: 0x1C22838
     bool MatchEnumeration(::System::DateTime value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // public System.Void .ctor()
-    // Offset: 0x1C3C510
+    // Offset: 0x1C229E0
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Void FacetsChecker::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -61,17 +61,17 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeFacetsChecker*, creationType>()));
     }
     // override System.Exception CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C3BF64
+    // Offset: 0x1C22434
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::Il2CppObject* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.DateTime value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C3BFD4
+    // Offset: 0x1C224A4
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.DateTime value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Boolean MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C3C4A8
+    // Offset: 0x1C22978
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Boolean FacetsChecker::MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
     bool MatchEnumeration(::Il2CppObject* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);

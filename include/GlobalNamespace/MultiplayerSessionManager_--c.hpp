@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__102_0
     static void _set_$$9__102_0(::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x170E75C
+    // Offset: 0x170564C
     static void _cctor();
     // System.Int32 <TryUpdateConnectedPlayer>b__102_0(IConnectedPlayer p)
-    // Offset: 0x170E7C8
+    // Offset: 0x17056B8
     int $TryUpdateConnectedPlayer$b__102_0(::GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x170E7C0
+    // Offset: 0x17056B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

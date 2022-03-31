@@ -78,25 +78,25 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Point m_infinity
     ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409R1Point*& dyn_m_infinity();
     // static private System.Void .cctor()
-    // Offset: 0x24660F4
+    // Offset: 0x243AED8
     static void _cctor();
     // public override Org.BouncyCastle.Math.EC.ECPoint get_Infinity()
-    // Offset: 0x2465C98
+    // Offset: 0x243AA7C
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::get_Infinity()
     ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
     // public override System.Int32 get_FieldSize()
-    // Offset: 0x2465CA0
+    // Offset: 0x243AA84
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: System.Int32 ECCurve::get_FieldSize()
     int get_FieldSize();
     // public override System.Boolean get_IsKoblitz()
-    // Offset: 0x2465F00
+    // Offset: 0x243ACE4
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractF2mCurve
     // Base method: System.Boolean AbstractF2mCurve::get_IsKoblitz()
     bool get_IsKoblitz();
     // public System.Void .ctor()
-    // Offset: 0x2465A98
+    // Offset: 0x243A87C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,32 +105,32 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
       return THROW_UNLESS((::il2cpp_utils::New<SecT409R1Curve*, creationType>()));
     }
     // protected override Org.BouncyCastle.Math.EC.ECCurve CloneCurve()
-    // Offset: 0x2465C34
+    // Offset: 0x243AA18
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECCurve ECCurve::CloneCurve()
     ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
     // public override System.Boolean SupportsCoordinateSystem(System.Int32 coord)
-    // Offset: 0x2465C8C
+    // Offset: 0x243AA70
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: System.Boolean ECCurve::SupportsCoordinateSystem(System.Int32 coord)
     bool SupportsCoordinateSystem(int coord);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x2465CA8
+    // Offset: 0x243AA8C
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
     ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
     // protected internal override Org.BouncyCastle.Math.EC.ECPoint CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x2465D08
+    // Offset: 0x243AAEC
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
     // protected internal override Org.BouncyCastle.Math.EC.ECPoint CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x2465E60
+    // Offset: 0x243AC44
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECLookupTable CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
-    // Offset: 0x2465F08
+    // Offset: 0x243ACEC
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECLookupTable ECCurve::CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
     ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len);

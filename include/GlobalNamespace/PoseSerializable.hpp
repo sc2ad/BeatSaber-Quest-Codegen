@@ -80,35 +80,35 @@ namespace GlobalNamespace {
     // Get instance field reference: public QuaternionSerializable rotation
     ::GlobalNamespace::QuaternionSerializable& dyn_rotation();
     // static public PoseSerializable get_identity()
-    // Offset: 0x29F6004
+    // Offset: 0x29C217C
     static ::GlobalNamespace::PoseSerializable get_identity();
     // public System.Void .ctor(Vector3Serializable position, QuaternionSerializable rotation)
-    // Offset: 0x29F5FF0
+    // Offset: 0x29C2168
     // ABORTED: conflicts with another method.  PoseSerializable(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29F60B8
+    // Offset: 0x29C2230
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29F60E4
+    // Offset: 0x29C225C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(PoseSerializable other)
-    // Offset: 0x29F6110
+    // Offset: 0x29C2288
     bool Equals(::GlobalNamespace::PoseSerializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x29F63BC
+    // Offset: 0x29C2534
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29F61E4
+    // Offset: 0x29C235C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29F6284
+    // Offset: 0x29C23FC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x29F6308
+    // Offset: 0x29C2480
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -117,10 +117,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(PoseSerializable), 12 + sizeof(::GlobalNamespace::QuaternionSerializable)> __GlobalNamespace_PoseSerializableSizeCheck;
   static_assert(sizeof(PoseSerializable) == 0x18);
   // static public PoseSerializable op_Addition(PoseSerializable a, PoseSerializable b)
-  // Offset: 0x29F6670
+  // Offset: 0x29C27E8
   ::GlobalNamespace::PoseSerializable operator+(const ::GlobalNamespace::PoseSerializable& a, const ::GlobalNamespace::PoseSerializable& b);
   // static public PoseSerializable op_Subtraction(PoseSerializable a, PoseSerializable b)
-  // Offset: 0x29F670C
+  // Offset: 0x29C2884
   ::GlobalNamespace::PoseSerializable operator-(const ::GlobalNamespace::PoseSerializable& a, const ::GlobalNamespace::PoseSerializable& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

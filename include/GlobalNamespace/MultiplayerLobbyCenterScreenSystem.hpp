@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MultiplayerLobbyCenterScreenSystem : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13988FC
+    // Offset: 0x13FB4F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

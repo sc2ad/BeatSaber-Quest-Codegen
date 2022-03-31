@@ -63,13 +63,13 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Object _instance
     ::Il2CppObject*& dyn__instance();
     // System.Void .ctor(System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode node, System.Object instance)
-    // Offset: 0x1CC0158
+    // Offset: 0x1CA4628
     // ABORTED: conflicts with another method.  DefaultExtendedTypeDescriptor(::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* node, ::Il2CppObject* instance);
     // private System.ComponentModel.AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes()
-    // Offset: 0x1CC0380
+    // Offset: 0x1CA4850
     ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
     // private System.ComponentModel.TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter()
-    // Offset: 0x1CC0654
+    // Offset: 0x1CA4B24
     ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode/System.ComponentModel.DefaultExtendedTypeDescriptor
   #pragma pack(pop)

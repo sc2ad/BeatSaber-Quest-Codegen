@@ -73,21 +73,21 @@ namespace ModestTree::Util {
       return *reinterpret_cast<T3*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(T1 first, T2 second, T3 third)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValuePair_3<T1, T2, T3>* New_ctor(T1 first, T2 second, T3 third) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::ValuePair_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValuePair_3<T1, T2, T3>*, creationType>(first, second, third)));
     }
     // public System.Boolean Equals(ModestTree.Util.ValuePair`3<T1,T2,T3> that)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Equals(::ModestTree::Util::ValuePair_3<T1, T2, T3>* that) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::ValuePair_3::Equals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(that)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, that);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -96,7 +96,7 @@ namespace ModestTree::Util {
       return THROW_UNLESS((::il2cpp_utils::New<ValuePair_3<T1, T2, T3>*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
@@ -105,7 +105,7 @@ namespace ModestTree::Util {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B1824
+    // [InjectAttribute] Offset: 0x124BCA8
     // private readonly IExperimentModel _experimentModel
     // Size: 0x8
     // Offset: 0x10
@@ -73,10 +73,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IExperimentModel _experimentModel
     ::GlobalNamespace::IExperimentModel*& dyn__experimentModel();
     // public System.Void Init()
-    // Offset: 0x134757C
+    // Offset: 0x1518BEC
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x134763C
+    // Offset: 0x1518CAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

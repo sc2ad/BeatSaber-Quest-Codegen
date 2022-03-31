@@ -35,13 +35,13 @@ namespace GlobalNamespace {
   class VRControllerTransformOffset : public ::UnityEngine::MonoBehaviour {
     public:
     // public UnityEngine.Vector3 get_positionOffset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Vector3 get_positionOffset();
     // public UnityEngine.Vector3 get_rotationOffset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Vector3 get_rotationOffset();
     // protected System.Void .ctor()
-    // Offset: 0x2A0EAEC
+    // Offset: 0x29DACC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

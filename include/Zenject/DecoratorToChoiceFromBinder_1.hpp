@@ -94,14 +94,14 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::FactoryBindInfo**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoratorToChoiceFromBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DecoratorToChoiceFromBinder_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoratorToChoiceFromBinder_1<TContract>*, creationType>(bindContainer, bindInfo, factoryBindInfo)));
     }
     // public Zenject.FactoryFromBinder`2<TContract,TConcrete> With()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TConcrete>
     ::Zenject::FactoryFromBinder_2<TContract, TConcrete>* With() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);

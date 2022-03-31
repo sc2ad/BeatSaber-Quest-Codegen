@@ -163,7 +163,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _jsonPath
     ::StringW& dyn__jsonPath();
     // public System.Void .ctor()
-    // Offset: 0x1AE9090
+    // Offset: 0x1ACC6C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

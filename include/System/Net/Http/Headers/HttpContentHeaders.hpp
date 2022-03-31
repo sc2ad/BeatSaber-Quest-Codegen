@@ -66,16 +66,16 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private readonly System.Net.Http.HttpContent content
     ::System::Net::Http::HttpContent*& dyn_content();
     // public System.Nullable`1<System.Int64> get_ContentLength()
-    // Offset: 0x196196C
+    // Offset: 0x1957858
     ::System::Nullable_1<int64_t> get_ContentLength();
     // public System.Net.Http.Headers.MediaTypeHeaderValue get_ContentType()
-    // Offset: 0x1961AE8
+    // Offset: 0x19579D4
     ::System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
     // public System.Void set_ContentType(System.Net.Http.Headers.MediaTypeHeaderValue value)
-    // Offset: 0x195D4A8
+    // Offset: 0x1953394
     void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value);
     // System.Void .ctor(System.Net.Http.HttpContent content)
-    // Offset: 0x19618C4
+    // Offset: 0x19577B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContentHeaders* New_ctor(::System::Net::Http::HttpContent* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpContentHeaders::.ctor");

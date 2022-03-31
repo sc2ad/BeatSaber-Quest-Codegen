@@ -78,22 +78,22 @@ namespace System::Net {
     // Get instance field reference: System.Boolean isTrustedHost
     bool& dyn_isTrustedHost();
     // public System.String get_HostName()
-    // Offset: 0x1A8387C
+    // Offset: 0x1A78768
     ::StringW get_HostName();
     // public System.Void set_HostName(System.String value)
-    // Offset: 0x1A83884
+    // Offset: 0x1A78770
     void set_HostName(::StringW value);
     // public System.Void set_Aliases(System.String[] value)
-    // Offset: 0x1A8388C
+    // Offset: 0x1A78778
     void set_Aliases(::ArrayW<::StringW> value);
     // public System.Net.IPAddress[] get_AddressList()
-    // Offset: 0x1A83894
+    // Offset: 0x1A78780
     ::ArrayW<::System::Net::IPAddress*> get_AddressList();
     // public System.Void set_AddressList(System.Net.IPAddress[] value)
-    // Offset: 0x1A8389C
+    // Offset: 0x1A78788
     void set_AddressList(::ArrayW<::System::Net::IPAddress*> value);
     // public System.Void .ctor()
-    // Offset: 0x1A838A4
+    // Offset: 0x1A78790
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

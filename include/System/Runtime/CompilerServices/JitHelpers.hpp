@@ -35,7 +35,7 @@ namespace System::Runtime::CompilerServices {
   class JitHelpers : public ::Il2CppObject {
     public:
     // static T UnsafeCast(System.Object o)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T UnsafeCast(::Il2CppObject* o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::JitHelpers::UnsafeCast");
@@ -44,7 +44,7 @@ namespace System::Runtime::CompilerServices {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, o);
     }
     // static System.Int32 UnsafeEnumCast(T val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static int UnsafeEnumCast(T val) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);
@@ -54,7 +54,7 @@ namespace System::Runtime::CompilerServices {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, val);
     }
     // static System.Int64 UnsafeEnumCastLong(T val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static int64_t UnsafeEnumCastLong(T val) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);

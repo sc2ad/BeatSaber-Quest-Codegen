@@ -34,7 +34,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IUnconnectedMessageSender*>(this);
     }
     // public System.Void PollUpdate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PollUpdate();
   }; // IUnconnectedConnectionManager
   #pragma pack(pop)

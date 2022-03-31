@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<System.String>> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1384BE8
+    // Offset: 0x133D46C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1384E28
+    // Offset: 0x133D6AC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformUserModel/<GetUserFriendsUserIds>d__1
   // WARNING Not writing size check since size may be invalid!

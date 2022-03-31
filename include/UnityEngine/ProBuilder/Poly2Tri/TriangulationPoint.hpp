@@ -83,26 +83,26 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: public System.Int32 Index
     int& dyn_Index();
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> get_Edges()
-    // Offset: 0x2A71984
+    // Offset: 0x2A3CB34
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
     // private System.Void set_Edges(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> value)
-    // Offset: 0x2A7198C
+    // Offset: 0x2A3CB3C
     void set_Edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
     // public System.Boolean get_HasEdges()
-    // Offset: 0x2A6BE7C
+    // Offset: 0x2A3702C
     bool get_HasEdges();
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x2A7010C
+    // Offset: 0x2A3B2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationPoint* New_ctor(double x, double y, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationPoint*, creationType>(x, y, index)));
     }
     // public System.Void AddEdge(UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint e)
-    // Offset: 0x2A6F994
+    // Offset: 0x2A3AB44
     void AddEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
     // public override System.String ToString()
-    // Offset: 0x2A71994
+    // Offset: 0x2A3CB44
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

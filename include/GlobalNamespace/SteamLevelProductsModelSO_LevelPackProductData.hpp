@@ -62,16 +62,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamLevelProductsModelSO/LevelProductData[] _levelProductsData
     ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.UInt32 get_bundleId()
-    // Offset: 0x137D910
+    // Offset: 0x1336194
     uint get_bundleId();
     // public System.String get_levelPackId()
-    // Offset: 0x137D918
+    // Offset: 0x133619C
     ::StringW get_levelPackId();
     // public SteamLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x137D920
+    // Offset: 0x13361A4
     ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*> get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0x137D928
+    // Offset: 0x13361AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

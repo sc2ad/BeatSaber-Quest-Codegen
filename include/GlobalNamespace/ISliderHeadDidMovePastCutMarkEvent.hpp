@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class ISliderHeadDidMovePastCutMarkEvent {
     public:
     // public System.Void HandleSliderStartDidMovePastCutMark(SliderController sliderController)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleSliderStartDidMovePastCutMark(::GlobalNamespace::SliderController* sliderController);
   }; // ISliderHeadDidMovePastCutMarkEvent
   #pragma pack(pop)

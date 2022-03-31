@@ -36,7 +36,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IEditTimeValidated*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x14CCB78
+    // Offset: 0x148BBFC
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

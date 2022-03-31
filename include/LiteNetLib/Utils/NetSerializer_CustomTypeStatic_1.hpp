@@ -81,14 +81,14 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Action`2<LiteNetLib.Utils.NetDataWriter,TProperty> writer, System.Func`2<LiteNetLib.Utils.NetDataReader,TProperty> reader)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::CustomTypeStatic_1<TProperty>* New_ctor(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* writer, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CustomTypeStatic_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::CustomTypeStatic_1<TProperty>*, creationType>(writer, reader)));
     }
     // public override LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> Get()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType
     // Base method: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> CustomType::Get()
     template<class T>

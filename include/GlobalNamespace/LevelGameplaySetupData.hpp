@@ -68,29 +68,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public PreviewDifficultyBeatmap get_beatmapLevel()
-    // Offset: 0x14AF74C
+    // Offset: 0x1483D30
     ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x14AF754
+    // Offset: 0x1483D38
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void .ctor(PreviewDifficultyBeatmap beatmapLevel, GameplayModifiers gameplayModifiers)
-    // Offset: 0x14AF7D4
+    // Offset: 0x1483DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelGameplaySetupData* New_ctor(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelGameplaySetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelGameplaySetupData*, creationType>(beatmapLevel, gameplayModifiers)));
     }
     // public System.Void ClearGameplaySetupData()
-    // Offset: 0x14AF890
+    // Offset: 0x1483E74
     void ClearGameplaySetupData();
     // public System.Void SetBeatmapLevel(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x14AF904
+    // Offset: 0x1483EE8
     void SetBeatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
     // public System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14AF90C
+    // Offset: 0x1483EF0
     void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x14AF75C
+    // Offset: 0x1483D40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -32,16 +32,16 @@ namespace System::Xml {
       return *reinterpret_cast<::System::Xml::IDtdAttributeInfo*>(this);
     }
     // public System.String get_DefaultValueExpanded()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DefaultValueExpanded();
     // public System.Object get_DefaultValueTyped()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_DefaultValueTyped();
     // public System.Int32 get_ValueLineNumber()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_ValueLineNumber();
     // public System.Int32 get_ValueLinePosition()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_ValueLinePosition();
   }; // System.Xml.IDtdDefaultAttributeInfo
   #pragma pack(pop)

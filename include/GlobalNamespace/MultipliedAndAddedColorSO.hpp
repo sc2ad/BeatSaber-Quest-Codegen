@@ -74,12 +74,12 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _addColor
     ::UnityEngine::Color& dyn__addColor();
     // public override UnityEngine.Color get_color()
-    // Offset: 0x2AC97B0
+    // Offset: 0x2A9836C
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2AC9830
+    // Offset: 0x2A983EC
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

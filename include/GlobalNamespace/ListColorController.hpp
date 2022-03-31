@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElements
     int& dyn__numberOfElements();
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ApplyValue(int idx);
     // protected UnityEngine.Color ColorForValue(System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Color ColorForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x14D2C7C
+    // Offset: 0x1491E00
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x14D2CC0
+    // Offset: 0x1491E44
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x14D2D28
+    // Offset: 0x1491EAC
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x14D2E18
+    // Offset: 0x1491F9C
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -94,12 +94,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ListColorController*, creationType>()));
     }
     // protected override System.Void IncButtonPressed()
-    // Offset: 0x14D2D88
+    // Offset: 0x1491F0C
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::IncButtonPressed()
     void IncButtonPressed();
     // protected override System.Void DecButtonPressed()
-    // Offset: 0x14D2DD4
+    // Offset: 0x1491F58
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::DecButtonPressed()
     void DecButtonPressed();

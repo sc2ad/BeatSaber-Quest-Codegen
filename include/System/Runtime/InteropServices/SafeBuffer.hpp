@@ -47,10 +47,10 @@ namespace System::Runtime::InteropServices {
     // Get instance field reference: private System.Boolean inited
     bool& dyn_inited();
     // public System.Void AcquirePointer(ref System.Byte* pointer)
-    // Offset: 0x1D68960
+    // Offset: 0x1D4BE30
     void AcquirePointer(ByRef<uint8_t*> pointer);
     // public System.Void ReleasePointer()
-    // Offset: 0x1D68AF4
+    // Offset: 0x1D4BFC4
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
   #pragma pack(pop)

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class ComponentExtensions : public ::Il2CppObject {
     public:
     // static public T GetComponentInParentOnly(UnityEngine.Component c)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T GetComponentInParentOnly(::UnityEngine::Component* c) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);

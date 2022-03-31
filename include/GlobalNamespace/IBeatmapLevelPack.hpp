@@ -29,13 +29,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(this);
     }
     // public System.String get_packID()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_packID();
     // public System.String get_packName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_shortPackName();
   }; // IBeatmapLevelPack
   #pragma pack(pop)

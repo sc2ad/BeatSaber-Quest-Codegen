@@ -47,10 +47,10 @@ namespace Zenject {
   class SignalExtensions : public ::Il2CppObject {
     public:
     // static public Zenject.SignalDeclarationBindInfo CreateDefaultSignalDeclarationBindInfo(Zenject.DiContainer container, System.Type signalType)
-    // Offset: 0x1CFAD94
+    // Offset: 0x1CDF264
     static ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
     // static public Zenject.DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder DeclareSignal(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSignal>
     static ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder* DeclareSignal(::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalExtensions::DeclareSignal");
@@ -59,7 +59,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, container);
     }
     // static public Zenject.BindSignalIdToBinder`1<TSignal> BindSignal(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TSignal>
     static ::Zenject::BindSignalIdToBinder_1<TSignal>* BindSignal(::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalExtensions::BindSignal");

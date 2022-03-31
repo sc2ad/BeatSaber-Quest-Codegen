@@ -28,13 +28,13 @@ namespace GlobalNamespace {
   class ConfigSerializer : public ::Il2CppObject {
     public:
     // static public System.Void SaveConfig(System.Object config, System.String filePath)
-    // Offset: 0x156F150
+    // Offset: 0x1565E5C
     static void SaveConfig(::Il2CppObject* config, ::StringW filePath);
     // static public System.Boolean LoadConfig(System.Object config, System.String filePath)
-    // Offset: 0x156F588
+    // Offset: 0x1566294
     static bool LoadConfig(::Il2CppObject* config, ::StringW filePath);
     // public System.Void .ctor()
-    // Offset: 0x156FB50
+    // Offset: 0x156685C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

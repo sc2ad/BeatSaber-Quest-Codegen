@@ -56,14 +56,14 @@ namespace GlobalNamespace {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetExtensions::HashSetDelegateHolder_1<T>*>::get(), "<InitializeMethod>k__BackingField", value)));
     }
     // static public System.Reflection.MethodInfo get_InitializeMethod()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::System::Reflection::MethodInfo* get_InitializeMethod() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HashSetExtensions::HashSetDelegateHolder_1::get_InitializeMethod");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetExtensions::HashSetDelegateHolder_1<T>*>::get(), "get_InitializeMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HashSetExtensions::HashSetDelegateHolder_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetExtensions::HashSetDelegateHolder_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

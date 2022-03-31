@@ -65,32 +65,32 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.BindInfo> _bindInfos
     ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& dyn__bindInfos();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1CFCB60
+    // Offset: 0x1CE1030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalCopyBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCopyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalCopyBinder*, creationType>(bindInfo)));
     }
     // public System.Void AddCopyBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x1CFCC00
+    // Offset: 0x1CE10D0
     void AddCopyBindInfo(::Zenject::BindInfo* bindInfo);
     // public System.Void CopyIntoAllSubContainers()
-    // Offset: 0x1CFCC68
+    // Offset: 0x1CE1138
     void CopyIntoAllSubContainers();
     // public System.Void CopyIntoDirectSubContainers()
-    // Offset: 0x1CFCD08
+    // Offset: 0x1CE11D8
     void CopyIntoDirectSubContainers();
     // public System.Void MoveIntoAllSubContainers()
-    // Offset: 0x1CFCD10
+    // Offset: 0x1CE11E0
     void MoveIntoAllSubContainers();
     // public System.Void MoveIntoDirectSubContainers()
-    // Offset: 0x1CFCD18
+    // Offset: 0x1CE11E8
     void MoveIntoDirectSubContainers();
     // private System.Void SetInheritanceMethod(Zenject.BindingInheritanceMethods method)
-    // Offset: 0x1CFCC70
+    // Offset: 0x1CE1140
     void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
     // public System.Void .ctor()
-    // Offset: 0x1CFCAEC
+    // Offset: 0x1CE0FBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

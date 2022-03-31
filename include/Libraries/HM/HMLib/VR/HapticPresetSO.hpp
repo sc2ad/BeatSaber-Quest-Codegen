@@ -37,6 +37,7 @@ namespace Libraries::HM::HMLib::VR {
     protected:
     #endif
     #endif
+    // [DrawIfAttribute] Offset: 0x1225D98
     // public System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -73,10 +74,10 @@ namespace Libraries::HM::HMLib::VR {
     // Get instance field reference: public System.Boolean _continuous
     bool& dyn__continuous();
     // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x157DCC4
+    // Offset: 0x15749D0
     void CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
     // public System.Void .ctor()
-    // Offset: 0x157DCF8
+    // Offset: 0x1574A04
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

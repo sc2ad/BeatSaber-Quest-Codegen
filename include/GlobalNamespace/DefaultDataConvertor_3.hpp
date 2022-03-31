@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class DefaultDataConvertor_3 : public ::GlobalNamespace::DataItemConvertor_3<TBase, TIn, TOut> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`3
     // Base method: System.Void DataItemConvertor_3::.ctor()
     // Base method: System.Void DataItemConvertor_1::.ctor()
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultDataConvertor_3<TBase, TIn, TOut>*, creationType>()));
     }
     // protected override TOut Convert(TIn item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`3
     // Base method: TOut DataItemConvertor_3::Convert(TIn item)
     TOut Convert(TIn item) {

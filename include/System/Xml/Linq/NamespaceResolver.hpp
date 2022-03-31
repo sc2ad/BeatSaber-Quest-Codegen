@@ -68,19 +68,19 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration rover
     ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_rover();
     // public System.Void PushScope()
-    // Offset: 0x2A7C01C
+    // Offset: 0x2A481CC
     void PushScope();
     // public System.Void PopScope()
-    // Offset: 0x2A7C0D8
+    // Offset: 0x2A48288
     void PopScope();
     // public System.Void Add(System.String prefix, System.Xml.Linq.XNamespace ns)
-    // Offset: 0x2A7C02C
+    // Offset: 0x2A481DC
     void Add(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
     // public System.Void AddFirst(System.String prefix, System.Xml.Linq.XNamespace ns)
-    // Offset: 0x2A7BE8C
+    // Offset: 0x2A4803C
     void AddFirst(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
     // public System.String GetPrefixOfNamespace(System.Xml.Linq.XNamespace ns, System.Boolean allowDefaultNamespace)
-    // Offset: 0x2A7BC64
+    // Offset: 0x2A47E14
     ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
   }; // System.Xml.Linq.NamespaceResolver
   #pragma pack(pop)

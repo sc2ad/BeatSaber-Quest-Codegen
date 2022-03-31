@@ -26,10 +26,10 @@ namespace Newtonsoft::Json::Serialization {
   class IValueProvider {
     public:
     // public System.Void SetValue(System.Object target, System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetValue(::Il2CppObject* target, ::Il2CppObject* value);
     // public System.Object GetValue(System.Object target)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* GetValue(::Il2CppObject* target);
   }; // Newtonsoft.Json.Serialization.IValueProvider
   #pragma pack(pop)

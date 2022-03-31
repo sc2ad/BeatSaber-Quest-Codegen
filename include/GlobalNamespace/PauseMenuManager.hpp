@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PauseAnimationController* pauseAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseAnimationController*) == 0x8);
-    // [NullAllowed] Offset: 0x10B8AE8
+    // [NullAllowed] Offset: 0x125305C
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x20
@@ -120,21 +120,21 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* pauseContainerTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8B70
+    // [InjectAttribute] Offset: 0x12530E4
     // private readonly PauseMenuManager/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::PauseMenuManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseMenuManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8B80
+    // [InjectAttribute] Offset: 0x12530F4
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8B90
+    // [InjectAttribute] Offset: 0x1253104
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x60
@@ -219,61 +219,61 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _disabledInteractionRemainingTime
     float& dyn__disabledInteractionRemainingTime();
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x147B350
+    // Offset: 0x12EF8A4
     void add_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x147BA00
+    // Offset: 0x12F008C
     void remove_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x147B498
+    // Offset: 0x12EF9EC
     void add_didPressMenuButtonEvent(::System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x147BB48
+    // Offset: 0x12F01D4
     void remove_didPressMenuButtonEvent(::System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x147B3F4
+    // Offset: 0x12EF948
     void add_didPressRestartButtonEvent(::System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x147BAA4
+    // Offset: 0x12F0130
     void remove_didPressRestartButtonEvent(::System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x147B2AC
+    // Offset: 0x12EF800
     void add_didFinishResumeAnimationEvent(::System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x147B95C
+    // Offset: 0x12EFFE8
     void remove_didFinishResumeAnimationEvent(::System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x147C17C
+    // Offset: 0x12F086C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x147C304
+    // Offset: 0x12F09F4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x147C444
+    // Offset: 0x12F0B34
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x147C524
+    // Offset: 0x12F0C14
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0x147BD10
+    // Offset: 0x12F039C
     void ShowMenu();
     // public System.Void StartResumeAnimation()
-    // Offset: 0x147BF88
+    // Offset: 0x12F0678
     void StartResumeAnimation();
     // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0x147C6B0
+    // Offset: 0x12F0DA0
     void HandleResumeFromPauseAnimationDidFinish();
     // private System.Void MenuButtonPressed()
-    // Offset: 0x147C670
+    // Offset: 0x12F0D60
     void MenuButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0x147C61C
+    // Offset: 0x12F0D0C
     void RestartButtonPressed();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x147C5DC
+    // Offset: 0x12F0CCC
     void ContinueButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x147C6C4
+    // Offset: 0x12F0DB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

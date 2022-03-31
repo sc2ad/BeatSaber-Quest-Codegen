@@ -29,13 +29,13 @@ namespace GlobalNamespace {
   class BakedLightWithIdBase : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Int32 get_id()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_id();
     // public System.Void SetupLightSource(System.Single intensityMultiplier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetupLightSource(float intensityMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x2A1B330
+    // Offset: 0x29E650C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

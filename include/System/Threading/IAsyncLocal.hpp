@@ -25,7 +25,7 @@ namespace System::Threading {
   class IAsyncLocal {
     public:
     // public System.Void OnValueChanged(System.Object previousValue, System.Object currentValue, System.Boolean contextChanged)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnValueChanged(::Il2CppObject* previousValue, ::Il2CppObject* currentValue, bool contextChanged);
   }; // System.Threading.IAsyncLocal
   #pragma pack(pop)

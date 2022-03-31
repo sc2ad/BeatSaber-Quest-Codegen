@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Net.IPAddress,UnityEngine.Ping> <>9__0_0
     static void _set_$$9__0_0(::System::Func_2<::System::Net::IPAddress*, ::UnityEngine::Ping*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2608210
+    // Offset: 0x25E86D0
     static void _cctor();
     // UnityEngine.Ping <PingAsync>b__0_0(System.Net.IPAddress ip)
-    // Offset: 0x260827C
+    // Offset: 0x25E873C
     ::UnityEngine::Ping* $PingAsync$b__0_0(::System::Net::IPAddress* ip);
     // public System.Void .ctor()
-    // Offset: 0x2608274
+    // Offset: 0x25E8734
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

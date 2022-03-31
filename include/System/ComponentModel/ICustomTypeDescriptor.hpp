@@ -31,10 +31,10 @@ namespace System::ComponentModel {
   class ICustomTypeDescriptor {
     public:
     // public System.ComponentModel.AttributeCollection GetAttributes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::ComponentModel::AttributeCollection* GetAttributes();
     // public System.ComponentModel.TypeConverter GetConverter()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::ComponentModel::TypeConverter* GetConverter();
   }; // System.ComponentModel.ICustomTypeDescriptor
   #pragma pack(pop)

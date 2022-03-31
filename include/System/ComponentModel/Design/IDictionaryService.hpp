@@ -25,10 +25,10 @@ namespace System::ComponentModel::Design {
   class IDictionaryService {
     public:
     // public System.Object GetValue(System.Object key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* GetValue(::Il2CppObject* key);
     // public System.Void SetValue(System.Object key, System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetValue(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.ComponentModel.Design.IDictionaryService
   #pragma pack(pop)

@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single jumpDuration
     float& dyn_jumpDuration();
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity, System.Single moveDuration, System.Single jumpDuration)
-    // Offset: 0x1353CA8
+    // Offset: 0x134519C
     // ABORTED: conflicts with another method.  NoteSpawnData(::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration);
   }; // BeatmapObjectSpawnMovementData/NoteSpawnData
   #pragma pack(pop)

@@ -29,13 +29,13 @@ namespace GlobalNamespace {
   class IBladeMovementData {
     public:
     // public System.Single get_bladeSpeed()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_bladeSpeed();
     // public BladeMovementDataElement get_lastAddedData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
     // public BladeMovementDataElement get_prevAddedData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BladeMovementDataElement get_prevAddedData();
   }; // IBladeMovementData
   #pragma pack(pop)

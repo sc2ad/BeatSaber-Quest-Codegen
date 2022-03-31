@@ -37,25 +37,25 @@ namespace System::Xml::Schema {
   class IXmlSchemaInfo {
     public:
     // public System.Xml.Schema.XmlSchemaValidity get_Validity()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaValidity get_Validity();
     // public System.Boolean get_IsDefault()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsDefault();
     // public System.Boolean get_IsNil()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsNil();
     // public System.Xml.Schema.XmlSchemaSimpleType get_MemberType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
     // public System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // public System.Xml.Schema.XmlSchemaElement get_SchemaElement()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
     // public System.Xml.Schema.XmlSchemaAttribute get_SchemaAttribute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
   }; // System.Xml.Schema.IXmlSchemaInfo
   #pragma pack(pop)

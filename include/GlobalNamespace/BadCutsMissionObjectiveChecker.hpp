@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B8E70
+    // [InjectAttribute] Offset: 0x12533E4
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // protected System.Void OnDestroy()
-    // Offset: 0x136BC54
+    // Offset: 0x135D934
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x136BCEC
+    // Offset: 0x135D9CC
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x136BD64
+    // Offset: 0x135DA44
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BadCutsMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x136BB5C
+    // Offset: 0x135D83C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

@@ -40,7 +40,7 @@ namespace UnityEngine::TestTools {
   class UnityTestMethodCommand : public ::NUnit::Framework::Internal::Commands::TestMethodCommand {
     public:
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x2AAE898
+    // Offset: 0x2A7CA48
     // Implemented from: NUnit.Framework.Internal.Commands.TestMethodCommand
     // Base method: System.Void TestMethodCommand::.ctor(NUnit.Framework.Internal.TestMethod testMethod)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestMethodCommand*, creationType>(testMethod)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x2AAE8A0
+    // Offset: 0x2A7CA50
     // Implemented from: NUnit.Framework.Internal.Commands.TestMethodCommand
     // Base method: NUnit.Framework.Internal.TestResult TestMethodCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

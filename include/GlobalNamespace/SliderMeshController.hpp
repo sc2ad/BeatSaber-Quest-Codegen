@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: middleControlPointYDistanceModifier and: sliderMeshConstructor
     char __padding4[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10B5884
+    // [SpaceAttribute] Offset: 0x124FD08
     // private SliderMeshConstructor _sliderMeshConstructor
     // Size: 0x8
     // Offset: 0x30
@@ -155,19 +155,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.Vector3[] _reusableControlPointsArray2
     ::ArrayW<::UnityEngine::Vector3>& dyn__reusableControlPointsArray2();
     // public System.Single get_pathLength()
-    // Offset: 0x13E6D44
+    // Offset: 0x2AA26E4
     float get_pathLength();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x13E6D6C
+    // Offset: 0x2AA270C
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void CreateBezierPathAndMesh(SliderData sliderData, UnityEngine.Vector3 headNotePos, UnityEngine.Vector3 tailNotePos, System.Single jumpSpeed, System.Single noteUniformScale)
-    // Offset: 0x13E6D88
+    // Offset: 0x2A9DAEC
     void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float jumpSpeed, float noteUniformScale);
     // static private UnityEngine.Vector3 CutDirectionToControlPointPosition(NoteCutDirection noteCutDirection)
-    // Offset: 0x13E769C
+    // Offset: 0x2AA2728
     static ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
     // public System.Void .ctor()
-    // Offset: 0x13E7838
+    // Offset: 0x2AA28C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

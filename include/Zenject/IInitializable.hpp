@@ -22,7 +22,7 @@ namespace Zenject {
   class IInitializable {
     public:
     // public System.Void Initialize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Initialize();
   }; // Zenject.IInitializable
   #pragma pack(pop)

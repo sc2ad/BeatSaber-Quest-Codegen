@@ -73,21 +73,21 @@ namespace System::Threading {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Source()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Source() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SparselyPopulatedArrayAddInfo_1::get_Source");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Source", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(this, ___internal__method);
     }
     // System.Int32 get_Index()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Index() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SparselyPopulatedArrayAddInfo_1::get_Index");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Index", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<T> source, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // ABORTED: conflicts with another method.  SparselyPopulatedArrayAddInfo_1(::System::Threading::SparselyPopulatedArrayFragment_1<T>* source, int index)
   }; // System.Threading.SparselyPopulatedArrayAddInfo`1
   // Could not write size check! Type: System.Threading.SparselyPopulatedArrayAddInfo`1 is generic, or has no fields that are valid for size checks!

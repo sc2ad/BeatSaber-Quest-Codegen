@@ -68,16 +68,16 @@ namespace Zenject {
     // Get instance field reference: public System.Boolean excludeSelf
     bool& dyn_excludeSelf();
     // Zenject.IProvider <FromComponentsInParents>b__0(Zenject.DiContainer container, System.Type concreteType)
-    // Offset: 0x1E03784
+    // Offset: 0x1DE7C54
     ::Zenject::IProvider* $FromComponentsInParents$b__0(::Zenject::DiContainer* container, ::System::Type* concreteType);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E03860
+    // Offset: 0x1DE7D30
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E038BC
+    // Offset: 0x1DE7D8C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1DFF390
+    // Offset: 0x1DE3860
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,40 +65,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _accumulator
     float& dyn__accumulator();
     // static public System.Single get_time()
-    // Offset: 0x2A0C61C
+    // Offset: 0x29D8794
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x2A0C66C
+    // Offset: 0x29D87E4
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x2A0C6C8
+    // Offset: 0x29D8840
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x2A0C718
+    // Offset: 0x29D8890
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x2A0C774
+    // Offset: 0x29D88EC
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x2A0C7C4
+    // Offset: 0x29D893C
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x2A0C820
+    // Offset: 0x29D8998
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x2A0C870
+    // Offset: 0x29D89E8
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0x2A0C8CC
+    // Offset: 0x29D8A44
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x2A0C97C
+    // Offset: 0x29D8AF4
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x2A0CA2C
+    // Offset: 0x29D8BA4
     void Update();
+    // static public System.Void __SetTime(System.Single time)
+    // Offset: 0x29D8D58
+    static void __SetTime(float time);
     // public System.Void .ctor()
-    // Offset: 0x2A0CBE0
+    // Offset: 0x29D8DB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -206,6 +209,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimeHelper::*)()>(&GlobalNamespace::TimeHelper::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::__SetTime
+// Il2CppName: __SetTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&GlobalNamespace::TimeHelper::__SetTime)> {
+  static const MethodInfo* get() {
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "__SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TimeHelper::New_ctor

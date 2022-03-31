@@ -69,28 +69,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action resumeFromPauseAnimationDidFinishEvent
     ::System::Action*& dyn_resumeFromPauseAnimationDidFinishEvent();
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x147A650
+    // Offset: 0x12EEA78
     void add_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
     // public System.Void remove_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x147A6F4
+    // Offset: 0x12EEB1C
     void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x147A798
+    // Offset: 0x12EEBC0
     void Awake();
     // public System.Void StartEnterPauseAnimation()
-    // Offset: 0x147A7D4
+    // Offset: 0x12EEBFC
     void StartEnterPauseAnimation();
     // public System.Void StartResumeFromPauseAnimation()
-    // Offset: 0x147A854
+    // Offset: 0x12EEC7C
     void StartResumeFromPauseAnimation();
     // public System.Void EnterPauseAnimationDidFinish()
-    // Offset: 0x147A8D4
+    // Offset: 0x12EECFC
     void EnterPauseAnimationDidFinish();
     // public System.Void ResumeFromPauseAnimationDidFinish()
-    // Offset: 0x147A910
+    // Offset: 0x12EED38
     void ResumeFromPauseAnimationDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x147A968
+    // Offset: 0x12EED90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

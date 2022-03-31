@@ -62,14 +62,14 @@ namespace UnityEngine::AddressableAssets {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void <Release>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> s)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void $Release$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass83_0_1::<Release>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Release>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, s);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

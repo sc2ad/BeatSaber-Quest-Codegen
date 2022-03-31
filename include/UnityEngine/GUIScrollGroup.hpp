@@ -144,7 +144,7 @@ namespace UnityEngine {
     // Get instance field reference: public UnityEngine.GUIStyle verticalScrollbar
     ::UnityEngine::GUIStyle*& dyn_verticalScrollbar();
     // public System.Void .ctor()
-    // Offset: 0x1FDF9A0
+    // Offset: 0x1FB1CBC
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -154,22 +154,22 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUIScrollGroup*, creationType>()));
     }
     // public override System.Void CalcWidth()
-    // Offset: 0x1FDF9AC
+    // Offset: 0x1FB1CC8
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1FDFA3C
+    // Offset: 0x1FB1D58
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x1FDFB6C
+    // Offset: 0x1FB1E88
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1FDFC74
+    // Offset: 0x1FB1F90
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);

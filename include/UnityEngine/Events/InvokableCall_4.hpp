@@ -51,7 +51,7 @@ namespace UnityEngine::Events {
     protected:
     #endif
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x102D628
+    // [DebuggerBrowsableAttribute] Offset: 0x11C47E4
     // private UnityEngine.Events.UnityAction`4<T1,T2,T3,T4> Delegate
     // Size: 0x8
     // Offset: 0x0
@@ -72,7 +72,7 @@ namespace UnityEngine::Events {
       return *reinterpret_cast<::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,7 +81,7 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCall_4<T1, T2, T3, T4>*, creationType>(target, theFunction)));
     }
     // public override System.Void Invoke(System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
     void Invoke(::ArrayW<::Il2CppObject*> args) {
@@ -90,7 +90,7 @@ namespace UnityEngine::Events {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, args);
     }
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, ::System::Reflection::MethodInfo* method) {

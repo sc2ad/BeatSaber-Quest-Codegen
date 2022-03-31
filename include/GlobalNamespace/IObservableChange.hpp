@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class IObservableChange {
     public:
     // public System.Void add_didChangeEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didChangeEvent(::System::Action* value);
     // public System.Void remove_didChangeEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didChangeEvent(::System::Action* value);
   }; // IObservableChange
   #pragma pack(pop)

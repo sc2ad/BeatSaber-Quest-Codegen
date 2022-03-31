@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentInfoSO[] _environmentInfos
     ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*>& dyn__environmentInfos();
     // public EnvironmentInfoSO[] get_environmentInfos()
-    // Offset: 0x12DB258
+    // Offset: 0x138632C
     ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*> get_environmentInfos();
     // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentSerializedName)
-    // Offset: 0x12DB260
+    // Offset: 0x1386334
     ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x12D9B44
+    // Offset: 0x1384100
     ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetFirstEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x12DB2EC
+    // Offset: 0x13863C0
     ::GlobalNamespace::EnvironmentInfoSO* GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetLastEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x12DB364
+    // Offset: 0x1386438
     ::GlobalNamespace::EnvironmentInfoSO* GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x12DB3E0
+    // Offset: 0x13864B4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

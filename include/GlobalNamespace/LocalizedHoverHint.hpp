@@ -40,13 +40,13 @@ namespace GlobalNamespace {
   class LocalizedHoverHint : public ::Polyglot::LocalizedTextComponent_1<::HMUI::HoverHint*> {
     public:
     // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
-    // Offset: 0x13D9B38
+    // Offset: 0x152F728
     void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
     // protected System.Void UpdateAlignment(HMUI.HoverHint hoverHint, Polyglot.LanguageDirection direction)
-    // Offset: 0x13D9B50
+    // Offset: 0x152F740
     void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::Polyglot::LanguageDirection direction);
     // public System.Void .ctor()
-    // Offset: 0x13D9B54
+    // Offset: 0x152F744
     // Implemented from: Polyglot.LocalizedTextComponent`1
     // Base method: System.Void LocalizedTextComponent_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

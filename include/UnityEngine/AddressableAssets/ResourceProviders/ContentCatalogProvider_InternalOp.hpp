@@ -115,34 +115,34 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp/UnityEngine.AddressableAssets.ResourceProviders.BundledCatalog m_BundledCatalog
     ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*& dyn_m_BundledCatalog();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle providerInterface, System.Boolean disableCatalogUpdateOnStart, System.Boolean isLocalCatalogInBundle)
-    // Offset: 0x189C2C4
+    // Offset: 0x18941B8
     void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
     // private System.Boolean WaitForCompletionCallback()
-    // Offset: 0x189CFC0
+    // Offset: 0x1894EB4
     bool WaitForCompletionCallback();
     // public System.Void Release()
-    // Offset: 0x189C168
+    // Offset: 0x189405C
     void Release();
     // System.Void LoadCatalog(System.String idToLoad, System.Boolean isLocalCatalogInBundle, System.Boolean isLocalCatalog)
-    // Offset: 0x189CC74
+    // Offset: 0x1894B68
     void LoadCatalog(::StringW idToLoad, bool isLocalCatalogInBundle, bool isLocalCatalog);
     // private System.Void CatalogLoadOpCompleteCallback(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> op)
-    // Offset: 0x189D420
+    // Offset: 0x1895314
     void CatalogLoadOpCompleteCallback(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
     // private System.String GetTransformedInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x189CB9C
+    // Offset: 0x1894A90
     ::StringW GetTransformedInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // System.String DetermineIdToLoad(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Collections.Generic.IList`1<System.Object> dependencyObjects, System.Boolean disableCatalogUpdateOnStart)
-    // Offset: 0x189C414
+    // Offset: 0x1894308
     ::StringW DetermineIdToLoad(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Collections::Generic::IList_1<::Il2CppObject*>* dependencyObjects, bool disableCatalogUpdateOnStart);
     // private System.Void OnCatalogLoaded(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
-    // Offset: 0x189D4F8
+    // Offset: 0x18953EC
     void OnCatalogLoaded(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
     // private System.Void <LoadCatalog>b__10_0(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
-    // Offset: 0x189D6B4
+    // Offset: 0x18955A8
     void $LoadCatalog$b__10_0(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
     // public System.Void .ctor()
-    // Offset: 0x189C2BC
+    // Offset: 0x18941B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

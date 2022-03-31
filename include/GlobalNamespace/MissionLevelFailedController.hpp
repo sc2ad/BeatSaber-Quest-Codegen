@@ -91,35 +91,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8C20
+    // [InjectAttribute] Offset: 0x1253194
     // private MissionLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MissionLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8C30
+    // [InjectAttribute] Offset: 0x12531A4
     // private BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8C40
+    // [InjectAttribute] Offset: 0x12531B4
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8C50
+    // [InjectAttribute] Offset: 0x12531C4
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8C60
+    // [InjectAttribute] Offset: 0x12531D4
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -148,19 +148,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapObjectManager _beatmapObjectManager
     ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // protected System.Void Start()
-    // Offset: 0x1330A8C
+    // Offset: 0x1306124
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1330B74
+    // Offset: 0x130620C
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1330C6C
+    // Offset: 0x1306304
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x1330C98
+    // Offset: 0x1306330
     ::System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1330D34
+    // Offset: 0x13063CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

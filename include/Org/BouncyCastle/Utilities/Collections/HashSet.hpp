@@ -69,22 +69,22 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Get instance field reference: private readonly System.Collections.IDictionary impl
     ::System::Collections::IDictionary*& dyn_impl();
     // public System.Int32 get_Count()
-    // Offset: 0x25C2238
+    // Offset: 0x25A26F8
     int get_Count();
     // public System.Object get_SyncRoot()
-    // Offset: 0x25C2410
+    // Offset: 0x25A28D0
     ::Il2CppObject* get_SyncRoot();
     // public System.Void Add(System.Object o)
-    // Offset: 0x25C2034
+    // Offset: 0x25A24F4
     void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x25C20FC
+    // Offset: 0x25A25BC
     void CopyTo(::System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x25C22EC
+    // Offset: 0x25A27AC
     ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x25C1F68
+    // Offset: 0x25A2428
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

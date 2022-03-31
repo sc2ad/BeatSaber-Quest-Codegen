@@ -135,10 +135,10 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x196DC20
+    // Offset: 0x1963B0C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x196E20C
+    // Offset: 0x19640F8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClient/System.Net.Http.<SendAsyncWorker>d__47
   // WARNING Not writing size check since size may be invalid!

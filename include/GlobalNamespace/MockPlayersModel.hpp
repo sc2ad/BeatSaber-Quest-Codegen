@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class MockPlayersModel : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1441ABC
+    // Offset: 0x13C9B20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

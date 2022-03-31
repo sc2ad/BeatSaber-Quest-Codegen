@@ -67,28 +67,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::CrossFadeAudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CrossFadeAudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10B9BB0
+    // [SpaceAttribute] Offset: 0x1254124
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9BE8
+    // [InjectAttribute] Offset: 0x125415C
     // private readonly MultiplayerLocalInactivePlayerSongSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9BF8
+    // [InjectAttribute] Offset: 0x125416C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9C08
+    // [InjectAttribute] Offset: 0x125417C
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
@@ -185,46 +185,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastLatencyOffsetTime
     float& dyn__lastLatencyOffsetTime();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x13A1E24
+    // Offset: 0x1399128
     ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // private System.Boolean get_isAudioLoaded()
-    // Offset: 0x13A1EBC
+    // Offset: 0x13991C0
     bool get_isAudioLoaded();
     // protected System.Void Awake()
-    // Offset: 0x13A1F68
+    // Offset: 0x139926C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x13A2084
+    // Offset: 0x1399388
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13A2170
+    // Offset: 0x1399474
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13A2268
+    // Offset: 0x139956C
     void Update();
     // public System.Void StartSong(System.Single offsetTime)
-    // Offset: 0x13A2690
+    // Offset: 0x1399994
     void StartSong(float offsetTime);
     // public System.Void FollowOffsetSyncTime(IMultiplayerObservable observable, System.Boolean crossFade, System.Boolean forceUpdate)
-    // Offset: 0x13A2958
+    // Offset: 0x1399C5C
     void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
     // private System.Void UpdateOffsetSyncTime(System.Single offsetSyncTime, System.Boolean crossFade, System.Boolean forceUpdate)
-    // Offset: 0x13A2530
+    // Offset: 0x1399834
     void UpdateOffsetSyncTime(float offsetSyncTime, bool crossFade, bool forceUpdate);
     // public System.Void SeekTo(System.Single offsetTime)
-    // Offset: 0x13A2B68
+    // Offset: 0x1399E6C
     void SeekTo(float offsetTime);
     // private System.Void SeekTo(System.Single offsetTime, System.Boolean crossFade, System.Single toVolume)
-    // Offset: 0x13A278C
+    // Offset: 0x1399A90
     void SeekTo(float offsetTime, bool crossFade, float toVolume);
     // private System.Void HandleVrFocusWasReleased()
-    // Offset: 0x13A2B74
+    // Offset: 0x1399E78
     void HandleVrFocusWasReleased();
     // private System.Boolean <get_waitUntilIsReadyToStartTheSong>b__7_0()
-    // Offset: 0x13A2B80
+    // Offset: 0x1399E84
     bool $get_waitUntilIsReadyToStartTheSong$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x13A2B78
+    // Offset: 0x1399E7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

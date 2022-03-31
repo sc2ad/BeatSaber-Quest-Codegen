@@ -80,22 +80,22 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
     ::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*& dyn__nunitTestCaseBuilder();
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x1C63344
+    // Offset: 0x1C49814
     bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method);
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x1C634A4
+    // Offset: 0x1C49974
     bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
     // public NUnit.Framework.Internal.Test BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x1C634A8
+    // Offset: 0x1C49978
     ::NUnit::Framework::Internal::Test* BuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
     // private NUnit.Framework.Internal.Test BuildParameterizedMethodSuite(NUnit.Framework.Interfaces.IMethodInfo method, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> tests)
-    // Offset: 0x1C63CAC
+    // Offset: 0x1C4A17C
     ::NUnit::Framework::Internal::Test* BuildParameterizedMethodSuite(::NUnit::Framework::Interfaces::IMethodInfo* method, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestMethod*>* tests);
     // private NUnit.Framework.Internal.Test BuildSingleTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0x1C63B20
+    // Offset: 0x1C49FF0
     ::NUnit::Framework::Internal::Test* BuildSingleTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* suite);
     // public System.Void .ctor()
-    // Offset: 0x1C63FB0
+    // Offset: 0x1C4A480
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* continuousRumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x108BCA8
+    // [InjectAttribute] Offset: 0x1225948
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
@@ -104,25 +104,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.XR.XRNode,System.Collections.Generic.Dictionary`2<System.Object,HapticFeedbackController/RumbleData>> _rumblesByNode
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::GlobalNamespace::HapticFeedbackController::RumbleData*>*>*& dyn__rumblesByNode();
     // public Libraries.HM.HMLib.VR.HapticPresetSO get_continuousRumblePreset()
-    // Offset: 0x157C39C
+    // Offset: 0x15730A8
     ::Libraries::HM::HMLib::VR::HapticPresetSO* get_continuousRumblePreset();
     // protected System.Void Awake()
-    // Offset: 0x157C3A4
+    // Offset: 0x15730B0
     void Awake();
     // public System.Void PlayHapticFeedback(UnityEngine.XR.XRNode node, Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x157C46C
+    // Offset: 0x1573178
     void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
-    // private System.Void Update()
-    // Offset: 0x157C650
-    void Update();
+    // private System.Void LateUpdate()
+    // Offset: 0x157335C
+    void LateUpdate();
     // private System.Void UpdateRumbles()
-    // Offset: 0x157C654
+    // Offset: 0x1573360
     void UpdateRumbles();
     // private HapticFeedbackController/RumbleData GetRumble(UnityEngine.XR.XRNode node, System.Object preset)
-    // Offset: 0x157C554
+    // Offset: 0x1573260
     ::GlobalNamespace::HapticFeedbackController::RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::Il2CppObject* preset);
     // public System.Void .ctor()
-    // Offset: 0x157CA60
+    // Offset: 0x157376C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -166,12 +166,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HapticFeedbackController*), "PlayHapticFeedback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node, hapticPreset});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HapticFeedbackController::Update
-// Il2CppName: Update
+// Writing MetadataGetter for method: GlobalNamespace::HapticFeedbackController::LateUpdate
+// Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HapticFeedbackController::*)()>(&GlobalNamespace::HapticFeedbackController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HapticFeedbackController::*)()>(&GlobalNamespace::HapticFeedbackController::LateUpdate)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HapticFeedbackController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HapticFeedbackController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HapticFeedbackController::UpdateRumbles

@@ -65,27 +65,27 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.Byte[] str
     ::ArrayW<uint8_t>& dyn_str();
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1C07188
+    // Offset: 0x1BED658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUniversalString* New_ctor(::ArrayW<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerUniversalString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUniversalString*, creationType>(str)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C178F0
+    // Offset: 0x1BFDDC0
     static void _cctor();
     // public override System.String GetString()
-    // Offset: 0x1C17688
+    // Offset: 0x1BFDB58
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::StringW GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1C177F4
+    // Offset: 0x1BFDCC4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1C17818
+    // Offset: 0x1BFDCE8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

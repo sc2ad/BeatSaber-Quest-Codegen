@@ -95,7 +95,7 @@ namespace GlobalNamespace {
       int weight;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // [HeaderAttribute] Offset: 0x10C6848
+      // [HeaderAttribute] Offset: 0x1260EB4
       // public System.Int32 precisionVertexCount
       // Size: 0x4
       // Offset: 0x1C
@@ -210,7 +210,7 @@ namespace GlobalNamespace {
     struct ProhibitedRadius/*, public ::System::ValueType*/ {
       public:
       public:
-      // [NullAllowed] Offset: 0x10C6880
+      // [NullAllowed] Offset: 0x1260EEC
       // public UnityEngine.Transform transform
       // Size: 0x8
       // Offset: 0x0
@@ -223,7 +223,7 @@ namespace GlobalNamespace {
       float distance;
       // Field size check
       static_assert(sizeof(float) == 0x4);
-      // [MinAttribute] Offset: 0x10C6890
+      // [MinAttribute] Offset: 0x1260EFC
       // public System.Single radius
       // Size: 0x4
       // Offset: 0xC
@@ -319,14 +319,14 @@ namespace GlobalNamespace {
     ::StringW meshName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [HeaderAttribute] Offset: 0x10AED5C
+    // [HeaderAttribute] Offset: 0x1248D78
     // private System.Boolean _pauseGenerator
     // Size: 0x1
     // Offset: 0x28
     bool pauseGenerator;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HeaderAttribute] Offset: 0x10AEDA8
+    // [HeaderAttribute] Offset: 0x1248DC4
     // private System.Boolean _bottomPushEnabled
     // Size: 0x1
     // Offset: 0x29
@@ -335,28 +335,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bottomPushEnabled and: bottomPushDistance
     char __padding3[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x10AEDF4
+    // [DrawIfAttribute] Offset: 0x1248E10
     // private System.Single _bottomPushDistance
     // Size: 0x4
     // Offset: 0x2C
     float bottomPushDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x10AEE9C
+    // [DrawIfAttribute] Offset: 0x1248EB8
     // private UnityEngine.Vector2 _bottomScaleTopBottom
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::Vector2 bottomScaleTopBottom;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [DrawIfAttribute] Offset: 0x10AEF44
+    // [DrawIfAttribute] Offset: 0x1248F60
     // private System.Single _bottomHorizontalScale
     // Size: 0x4
     // Offset: 0x38
     float bottomHorizontalScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x10AEFEC
+    // [HeaderAttribute] Offset: 0x1249008
     // private System.Boolean _drawRingGizmos
     // Size: 0x1
     // Offset: 0x3C
@@ -371,30 +371,30 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius> prohibitedRadii;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>) == 0x8);
-    // [HeaderAttribute] Offset: 0x10AF048
+    // [HeaderAttribute] Offset: 0x1249064
     // private UnityEngine.Vector2 _meshSize
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Vector2 meshSize;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [RangeAttribute] Offset: 0x10AF094
+    // [RangeAttribute] Offset: 0x12490B0
     // private System.Single _sizeRandomness
     // Size: 0x4
     // Offset: 0x50
     float sizeRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10AF0D4
+    // [RangeAttribute] Offset: 0x12490F0
     // private System.Single _ratioRandomness
     // Size: 0x4
     // Offset: 0x54
     float ratioRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x10AF114
-    // [TooltipAttribute] Offset: 0x10AF114
-    // [RangeAttribute] Offset: 0x10AF114
+    // [HeaderAttribute] Offset: 0x1249130
+    // [TooltipAttribute] Offset: 0x1249130
+    // [RangeAttribute] Offset: 0x1249130
     // private System.Single _perMeshRadiusOffset
     // Size: 0x4
     // Offset: 0x58
@@ -409,7 +409,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Gradient* possibleColors;
     // Field size check
     static_assert(sizeof(::UnityEngine::Gradient*) == 0x8);
-    // [RangeAttribute] Offset: 0x10AF1B4
+    // [RangeAttribute] Offset: 0x12491D0
     // private System.Int32 _randomSeed
     // Size: 0x4
     // Offset: 0x68
@@ -428,7 +428,7 @@ namespace GlobalNamespace {
     float ringRotationRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0x10AF218
+    // [MinAttribute] Offset: 0x1249234
     // private System.Int32 _ringCount
     // Size: 0x4
     // Offset: 0x74
@@ -441,7 +441,7 @@ namespace GlobalNamespace {
     float meshesPerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x10AF264
+    // [HeaderAttribute] Offset: 0x1249280
     // private UnityEngine.Vector2 _radiusCloseFar
     // Size: 0x8
     // Offset: 0x7C
@@ -468,7 +468,7 @@ namespace GlobalNamespace {
     float lowPolyThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x10AF2E0
+    // [HeaderAttribute] Offset: 0x12492FC
     // private System.Boolean _flipNormals
     // Size: 0x1
     // Offset: 0x9C
@@ -489,7 +489,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Cloud> clouds;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::CloudsMeshGenerator::Cloud>) == 0x8);
-    // [HeaderAttribute] Offset: 0x10AF34C
+    // [HeaderAttribute] Offset: 0x1249368
     // private System.Int32 _meshCount
     // Size: 0x4
     // Offset: 0xA8
@@ -602,7 +602,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private CloudsMeshGenerator/ProhibitedRadius[] _sortedProhibitedRadii
     ::ArrayW<::GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>& dyn__sortedProhibitedRadii();
     // public System.Void .ctor()
-    // Offset: 0x1363414
+    // Offset: 0x13550B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

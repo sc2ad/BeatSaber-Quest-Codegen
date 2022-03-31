@@ -56,25 +56,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElements
     int& dyn__numberOfElements();
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ApplyValue(int idx);
     // protected System.String TextForValue(System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x14D2E8C
+    // Offset: 0x1492010
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x14D2ED0
+    // Offset: 0x1492054
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x14D2F3C
+    // Offset: 0x14920C0
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x14D302C
+    // Offset: 0x14921B0
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -88,12 +88,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ListSettingsController*, creationType>()));
     }
     // protected override System.Void IncButtonPressed()
-    // Offset: 0x14D2F9C
+    // Offset: 0x1492120
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::IncButtonPressed()
     void IncButtonPressed();
     // protected override System.Void DecButtonPressed()
-    // Offset: 0x14D2FE8
+    // Offset: 0x149216C
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::DecButtonPressed()
     void DecButtonPressed();

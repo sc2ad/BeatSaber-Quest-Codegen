@@ -40,8 +40,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
     public:
-    // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    char ___base_padding[0x7] = {};
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -61,7 +59,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private PointLight _pointLight
     ::GlobalNamespace::PointLight*& dyn__pointLight();
     // public System.Void .ctor()
-    // Offset: 0x1F1C3EC
+    // Offset: 0x2AD8800
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -76,7 +74,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PointLightWithIds*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1F1C3CC
+    // Offset: 0x2AD87E0
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

@@ -93,7 +93,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x10A7ADC
+    // [ObsoleteAttribute] Offset: 0x1241A98
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -128,7 +128,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::MatchmakingEnqueuedUserList* MatchedUsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::MatchmakingEnqueuedUserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x10A7B14
+    // [ObsoleteAttribute] Offset: 0x1241AD0
     // public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsers
     // Size: 0x8
     // Offset: 0x58
@@ -155,7 +155,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::User* OwnerOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x10A7B4C
+    // [ObsoleteAttribute] Offset: 0x1241B08
     // public readonly Oculus.Platform.Models.User Owner
     // Size: 0x8
     // Offset: 0x78
@@ -168,7 +168,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::TeamList* TeamsOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::TeamList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x10A7B84
+    // [ObsoleteAttribute] Offset: 0x1241B40
     // public readonly Oculus.Platform.Models.TeamList Teams
     // Size: 0x8
     // Offset: 0x88
@@ -189,7 +189,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x10A7BBC
+    // [ObsoleteAttribute] Offset: 0x1241B78
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0xA0
@@ -246,7 +246,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt32 Version
     uint& dyn_Version();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B9ADC
+    // Offset: 0x19AF9C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Room* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Room::.ctor");

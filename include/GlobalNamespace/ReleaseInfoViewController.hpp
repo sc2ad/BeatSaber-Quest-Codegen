@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.TextAsset _firstTextAsset
     ::UnityEngine::TextAsset*& dyn__firstTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x13C8248
+    // Offset: 0x137D958
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ReleaseInfoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13C81DC
+    // Offset: 0x137D8EC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

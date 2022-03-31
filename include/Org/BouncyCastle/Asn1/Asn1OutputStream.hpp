@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1OutputStream : public ::Org::BouncyCastle::Asn1::DerOutputStream {
     public:
     // public System.Void .ctor(System.IO.Stream os)
-    // Offset: 0x1C02DEC
+    // Offset: 0x1BE92BC
     // Implemented from: Org.BouncyCastle.Asn1.DerOutputStream
     // Base method: System.Void DerOutputStream::.ctor(System.IO.Stream os)
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream os)

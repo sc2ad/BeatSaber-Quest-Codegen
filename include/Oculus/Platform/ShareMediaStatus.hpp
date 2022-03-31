@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10A702C
+    // [DescriptionAttribute] Offset: 0x1240FE8
     // static field const value: static public Oculus.Platform.ShareMediaStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ShareMediaStatus Unknown
     static ::Oculus::Platform::ShareMediaStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.ShareMediaStatus Unknown
     static void _set_Unknown(::Oculus::Platform::ShareMediaStatus value);
-    // [DescriptionAttribute] Offset: 0x10A7064
+    // [DescriptionAttribute] Offset: 0x1241020
     // static field const value: static public Oculus.Platform.ShareMediaStatus Shared
     static constexpr const int Shared = 1;
     // Get static field: static public Oculus.Platform.ShareMediaStatus Shared
     static ::Oculus::Platform::ShareMediaStatus _get_Shared();
     // Set static field: static public Oculus.Platform.ShareMediaStatus Shared
     static void _set_Shared(::Oculus::Platform::ShareMediaStatus value);
-    // [DescriptionAttribute] Offset: 0x10A709C
+    // [DescriptionAttribute] Offset: 0x1241058
     // static field const value: static public Oculus.Platform.ShareMediaStatus Canceled
     static constexpr const int Canceled = 2;
     // Get static field: static public Oculus.Platform.ShareMediaStatus Canceled

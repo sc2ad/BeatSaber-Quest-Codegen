@@ -32,7 +32,7 @@ namespace Zenject {
   class ZenjectException : public ::System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1D0AE64
+    // Offset: 0x1CEF334
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -41,7 +41,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1D0AEDC
+    // Offset: 0x1CEF3AC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,10 +30,10 @@ namespace UnityEngine::ResourceManagement::Util {
   class IObjectInitializationDataProvider {
     public:
     // public System.String get_Name()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Name();
     // public UnityEngine.ResourceManagement.Util.ObjectInitializationData CreateObjectInitializationData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
   }; // UnityEngine.ResourceManagement.Util.IObjectInitializationDataProvider
   #pragma pack(pop)

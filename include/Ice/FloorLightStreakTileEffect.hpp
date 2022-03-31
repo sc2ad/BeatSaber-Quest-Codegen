@@ -73,7 +73,7 @@ namespace Ice {
     ::Ice::FloorLightTilesGrid* floorLightTilesGrid;
     // Field size check
     static_assert(sizeof(::Ice::FloorLightTilesGrid*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3308
+    // [InjectAttribute] Offset: 0x127BBE0
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x28
@@ -110,25 +110,25 @@ namespace Ice {
     // Get instance field reference: private SimpleMemoryPool`1<Ice.FloorLightStreakTileEffect/Ice.Element> _elementsPool
     ::GlobalNamespace::SimpleMemoryPool_1<::Ice::FloorLightStreakTileEffect::Element*>*& dyn__elementsPool();
     // protected System.Void Start()
-    // Offset: 0x2AA22B8
+    // Offset: 0x2A6F468
     void Start();
     // protected System.Void Update()
-    // Offset: 0x2AA2364
+    // Offset: 0x2A6F514
     void Update();
     // public System.Void SpawnEffect(System.Int32 x, UnityEngine.Color color)
-    // Offset: 0x2AA2594
+    // Offset: 0x2A6F744
     void SpawnEffect(int x, ::UnityEngine::Color color);
     // public System.Void DespawnAllEffects()
-    // Offset: 0x2AA2898
+    // Offset: 0x2A6FA48
     void DespawnAllEffects();
     // private Ice.FloorLightStreakTileEffect/Ice.Element CreateNewElement()
-    // Offset: 0x2AA2970
+    // Offset: 0x2A6FB20
     ::Ice::FloorLightStreakTileEffect::Element* CreateNewElement();
     // private System.Void HandleElementDidMoveToNextTile(Ice.FloorLightStreakTileEffect/Ice.Element element)
-    // Offset: 0x2AA2A54
+    // Offset: 0x2A6FC04
     void HandleElementDidMoveToNextTile(::Ice::FloorLightStreakTileEffect::Element* element);
     // public System.Void .ctor()
-    // Offset: 0x2AA2B04
+    // Offset: 0x2A6FCB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

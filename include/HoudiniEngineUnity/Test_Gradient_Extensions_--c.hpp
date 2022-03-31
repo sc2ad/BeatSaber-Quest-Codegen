@@ -55,16 +55,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Gradient,HoudiniEngineUnity.Test_Gradient> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Gradient*, ::HoudiniEngineUnity::Test_Gradient*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19ECF60
+    // Offset: 0x19E2E4C
     static void _cctor();
     // HoudiniEngineUnity.Test_Gradient <ToTestObject>b__1_0(UnityEngine.Gradient lod)
-    // Offset: 0x19ECFCC
+    // Offset: 0x19E2EB8
     ::HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__1_0(::UnityEngine::Gradient* lod);
     // HoudiniEngineUnity.Test_Gradient <ToTestObject>b__2_0(UnityEngine.Gradient lod)
-    // Offset: 0x19ED030
+    // Offset: 0x19E2F1C
     ::HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__2_0(::UnityEngine::Gradient* lod);
     // public System.Void .ctor()
-    // Offset: 0x19ECFC4
+    // Offset: 0x19E2EB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

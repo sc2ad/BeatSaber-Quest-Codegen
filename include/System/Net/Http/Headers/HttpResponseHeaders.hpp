@@ -28,7 +28,7 @@ namespace System::Net::Http::Headers {
   class HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders {
     public:
     // System.Void .ctor()
-    // Offset: 0x19659B0
+    // Offset: 0x195B89C
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     // Base method: System.Void Object::.ctor()

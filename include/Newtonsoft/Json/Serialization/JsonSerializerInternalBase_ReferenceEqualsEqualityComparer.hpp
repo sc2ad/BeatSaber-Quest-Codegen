@@ -30,13 +30,13 @@ namespace Newtonsoft::Json::Serialization {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Il2CppObject*>*>(this);
     }
     // private System.Boolean System.Collections.Generic.IEqualityComparer<System.Object>.Equals(System.Object x, System.Object y)
-    // Offset: 0x1D44874
+    // Offset: 0x1D27D44
     bool System_Collections_Generic_IEqualityComparer$System_Object$_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Int32 System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode(System.Object obj)
-    // Offset: 0x1D44880
+    // Offset: 0x1D27D50
     int System_Collections_Generic_IEqualityComparer$System_Object$_GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1D443A0
+    // Offset: 0x1D27870
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

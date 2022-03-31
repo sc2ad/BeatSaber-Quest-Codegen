@@ -32,7 +32,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   class PlayerEditorConnectionEvents::MessageEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x20E3EA0
+    // Offset: 0x1FFD0E8
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

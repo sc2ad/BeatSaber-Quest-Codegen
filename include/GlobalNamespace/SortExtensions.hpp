@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     template<typename T>
     class $$c__DisplayClass1_0_1;
     // static public System.Void InsertSorted(System.Collections.Generic.List`1<T> list, T item, System.Func`2<T,System.Int32> getSortIndex)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void InsertSorted(::System::Collections::Generic::List_1<T>* list, T item, ::System::Func_2<T, int>* getSortIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortExtensions::InsertSorted");
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item, getSortIndex);
     }
     // static public System.Void Sort(System.Collections.Generic.List`1<T> list, System.Func`2<T,System.Int32> getSortIndex)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Sort(::System::Collections::Generic::List_1<T>* list, ::System::Func_2<T, int>* getSortIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortExtensions::Sort");

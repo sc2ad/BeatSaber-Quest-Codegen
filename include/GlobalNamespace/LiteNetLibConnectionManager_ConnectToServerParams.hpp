@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean serverIsConnectionOwner
     bool& dyn_serverIsConnectionOwner();
     // public System.Void .ctor()
-    // Offset: 0x1655018
+    // Offset: 0x164BD5C
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

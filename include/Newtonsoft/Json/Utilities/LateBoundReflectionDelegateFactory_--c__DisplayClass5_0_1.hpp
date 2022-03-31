@@ -74,21 +74,21 @@ namespace Newtonsoft::Json::Utilities {
       return *reinterpret_cast<::System::Reflection::ConstructorInfo**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // T <CreateDefaultConstructor>b__0()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T $CreateDefaultConstructor$b__0() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass5_0_1::<CreateDefaultConstructor>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateDefaultConstructor>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // T <CreateDefaultConstructor>b__1()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T $CreateDefaultConstructor$b__1() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass5_0_1::<CreateDefaultConstructor>b__1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateDefaultConstructor>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

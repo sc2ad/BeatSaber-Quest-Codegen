@@ -168,43 +168,43 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 _currentEpoch
     uint& dyn__currentEpoch();
     // public System.Boolean get_isEncrypted()
-    // Offset: 0x153431C
+    // Offset: 0x1500FBC
     bool get_isEncrypted();
     // public System.UInt32 GetNextRequestId()
-    // Offset: 0x1534264
+    // Offset: 0x1500F04
     uint GetNextRequestId();
     // public System.Void BeginSession()
-    // Offset: 0x1534198
+    // Offset: 0x1500E38
     void BeginSession();
     // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
-    // Offset: 0x15342E0
+    // Offset: 0x1500F80
     bool IsValidSessionStartRequestId(uint requestId);
     // public System.Void BeginSession(System.UInt32 requestId)
-    // Offset: 0x153422C
+    // Offset: 0x1500ECC
     void BeginSession(uint requestId);
     // private System.Void SetEpoch(System.UInt32 epoch)
-    // Offset: 0x1535A6C
+    // Offset: 0x150270C
     void SetEpoch(uint epoch);
     // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
-    // Offset: 0x1532C74
+    // Offset: 0x14FF914
     bool CanAcceptRequest(uint requestId);
     // public System.Void SetEncryptionState(EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x1535A90
+    // Offset: 0x1502730
     void SetEncryptionState(::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x1535A98
+    // Offset: 0x1502738
     void SetIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
     // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x1535AAC
+    // Offset: 0x150274C
     bool VerifyIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
     // public System.Void Dispose()
-    // Offset: 0x1535B1C
+    // Offset: 0x15027BC
     void Dispose();
     // static private System.Void LogD(System.String message)
-    // Offset: 0x1535B2C
+    // Offset: 0x15027CC
     static void LogD(::StringW message);
     // public System.Void .ctor()
-    // Offset: 0x1534280
+    // Offset: 0x1500F20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

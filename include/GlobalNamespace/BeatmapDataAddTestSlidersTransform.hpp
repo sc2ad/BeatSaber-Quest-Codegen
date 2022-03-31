@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxTimeDiff
     static void _set_kMaxTimeDiff(float value);
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x1376970
+    // Offset: 0x136866C
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static private NoteData FindNextSameColorTypeNote(System.Collections.Generic.IReadOnlyList`1<BeatmapDataItem> beatmapDataItems, System.Int32 startIndex, ColorType colorType)
-    // Offset: 0x1376C58
+    // Offset: 0x1368954
     static ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int startIndex, ::GlobalNamespace::ColorType colorType);
     // public System.Void .ctor()
-    // Offset: 0x1376E4C
+    // Offset: 0x1368B48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

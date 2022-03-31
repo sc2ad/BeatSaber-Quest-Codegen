@@ -53,28 +53,28 @@ namespace UnityEngine::UI {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "s_ListPool", value));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ListPool_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static private System.Void Clear(System.Collections.Generic.List`1<T> l)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void Clear(::System::Collections::Generic::List_1<T>* l) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ListPool_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(l)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, l);
     }
     // static public System.Collections.Generic.List`1<T> Get()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::System::Collections::Generic::List_1<T>* Get() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ListPool_1::Get");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "Get", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static public System.Void Release(System.Collections.Generic.List`1<T> toRelease)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void Release(::System::Collections::Generic::List_1<T>* toRelease) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ListPool_1::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(toRelease)})));

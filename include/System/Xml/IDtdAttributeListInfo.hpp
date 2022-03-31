@@ -38,13 +38,13 @@ namespace System::Xml {
   class IDtdAttributeListInfo {
     public:
     // public System.Boolean get_HasNonCDataAttributes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_HasNonCDataAttributes();
     // public System.Xml.IDtdAttributeInfo LookupAttribute(System.String prefix, System.String localName)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::IDtdAttributeInfo* LookupAttribute(::StringW prefix, ::StringW localName);
     // public System.Collections.Generic.IEnumerable`1<System.Xml.IDtdDefaultAttributeInfo> LookupDefaultAttributes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* LookupDefaultAttributes();
   }; // System.Xml.IDtdAttributeListInfo
   #pragma pack(pop)

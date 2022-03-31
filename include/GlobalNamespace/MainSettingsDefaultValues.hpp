@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     static int _get_kDefaultWindowResolutionHeight();
     // Set static field: static public System.Int32 kDefaultWindowResolutionHeight
     static void _set_kDefaultWindowResolutionHeight(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B28A8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124CD2C
     // Get static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
     static int _get_kDefaultMirrorGraphicsSettings();
     // Set static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
@@ -207,13 +207,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // static private System.Void .cctor()
-    // Offset: 0x13DE0BC
+    // Offset: 0x15337D8
     static void _cctor();
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x13DDF70
+    // Offset: 0x153368C
     static void SetFixedDefaultValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x13DE0B4
+    // Offset: 0x15337D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -79,34 +79,34 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String stackTrace
     ::StringW& dyn_stackTrace();
     // public System.String get_Callstack()
-    // Offset: 0x1CC8D20
+    // Offset: 0x1CAD1F0
     ::StringW get_Callstack();
     // public System.Collections.Stack get_LogicalOperationStack()
-    // Offset: 0x1CC8D4C
+    // Offset: 0x1CAD21C
     ::System::Collections::Stack* get_LogicalOperationStack();
     // public System.DateTime get_DateTime()
-    // Offset: 0x1CC8D68
+    // Offset: 0x1CAD238
     ::System::DateTime get_DateTime();
     // public System.Int32 get_ProcessId()
-    // Offset: 0x1CC8E1C
+    // Offset: 0x1CAD2EC
     int get_ProcessId();
     // public System.String get_ThreadId()
-    // Offset: 0x1CC8E7C
+    // Offset: 0x1CAD34C
     ::StringW get_ThreadId();
     // public System.Int64 get_Timestamp()
-    // Offset: 0x1CC8F20
+    // Offset: 0x1CAD3F0
     int64_t get_Timestamp();
     // static private System.Void InitProcessInfo()
-    // Offset: 0x1CC8F94
+    // Offset: 0x1CAD464
     static void InitProcessInfo();
     // static System.Int32 GetProcessId()
-    // Offset: 0x1CC8E20
+    // Offset: 0x1CAD2F0
     static int GetProcessId();
     // static System.Int32 GetThreadId()
-    // Offset: 0x1CC8EFC
+    // Offset: 0x1CAD3CC
     static int GetThreadId();
     // public System.Void .ctor()
-    // Offset: 0x1CC909C
+    // Offset: 0x1CAD56C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

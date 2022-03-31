@@ -67,10 +67,10 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObjectCollection facets
     ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_facets();
     // public System.Void set_BaseTypeName(System.Xml.XmlQualifiedName value)
-    // Offset: 0x20243C4
+    // Offset: 0x2011D98
     void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
     // public System.Void .ctor()
-    // Offset: 0x2024474
+    // Offset: 0x2011E48
     // Implemented from: System.Xml.Schema.XmlSchemaSimpleTypeContent
     // Base method: System.Void XmlSchemaSimpleTypeContent::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B9C18
+    // [InjectAttribute] Offset: 0x125418C
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9C28
+    // [InjectAttribute] Offset: 0x125419C
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9C38
+    // [InjectAttribute] Offset: 0x12541AC
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x20
@@ -97,13 +97,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // public System.Void Disconnect(MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState playerLevelEndState, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x139EBF8
+    // Offset: 0x139869C
     void Disconnect(::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.String ResolveDisconnectButtonString()
-    // Offset: 0x13A03F0
+    // Offset: 0x13983DC
     ::StringW ResolveDisconnectButtonString();
     // public System.Void .ctor()
-    // Offset: 0x13A2B84
+    // Offset: 0x1399E88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

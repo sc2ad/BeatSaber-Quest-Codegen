@@ -43,19 +43,19 @@ namespace GlobalNamespace {
   class IUnconnectedMessageSender {
     public:
     // public System.Byte[] get_unconnectedPacketHeader()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> get_unconnectedPacketHeader();
     // public PacketEncryptionLayer get_encryptionLayer()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
     // public System.Void SendUnconnectedMessage(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SendUnconnectedMessage(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void RegisterReceiver(IUnconnectedMessageReceiver receiver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RegisterReceiver(::GlobalNamespace::IUnconnectedMessageReceiver* receiver);
     // public System.Void UnregisterReceiver(IUnconnectedMessageReceiver receiver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UnregisterReceiver(::GlobalNamespace::IUnconnectedMessageReceiver* receiver);
   }; // IUnconnectedMessageSender
   #pragma pack(pop)

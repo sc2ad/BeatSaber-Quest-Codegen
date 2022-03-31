@@ -75,7 +75,7 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: length and: ranges
     char __padding2[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0x1097C74
+    // [TupleElementNamesAttribute] Offset: 0x12329A8
     // private readonly System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int32>> _ranges
     // Size: 0x8
     // Offset: 0x28
@@ -108,26 +108,26 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Boolean _isDisposed
     bool& dyn__isDisposed();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x153633C
+    // Offset: 0x1502FDC
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x153635C
+    // Offset: 0x1502FFC
     ::ArrayW<uint8_t> get_data();
     // public System.Int32 get_length()
-    // Offset: 0x1536364
+    // Offset: 0x1503004
     int get_length();
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x1535BB4
+    // Offset: 0x1502854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::MultipartMessageWaiter* New_ctor(::GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(BGNet.Core.Messages.IUnconnectedMultipartMessage packet)
-    // Offset: 0x1535C84
+    // Offset: 0x1502924
     void Append(::BGNet::Core::Messages::IUnconnectedMultipartMessage* packet);
     // public override System.Void Dispose()
-    // Offset: 0x1535C40
+    // Offset: 0x15028E0
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

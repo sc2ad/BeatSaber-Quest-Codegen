@@ -61,52 +61,52 @@ namespace System::Xml::Schema {
   class XmlSchemaDatatype : public ::Il2CppObject {
     public:
     // public System.Type get_ValueType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_ValueType();
     // public System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Xml.Schema.XmlSchemaDatatypeVariety get_Variety()
-    // Offset: 0x202303C
+    // Offset: 0x2010A10
     ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
     // public System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x2023044
+    // Offset: 0x2010A18
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // System.Xml.Schema.XmlValueConverter get_ValueConverter()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
     // System.Xml.Schema.RestrictionFacets get_Restriction()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::RestrictionFacets* get_Restriction();
     // System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // System.String get_TypeCodeString()
-    // Offset: 0x202304C
+    // Offset: 0x2010A20
     ::StringW get_TypeCodeString();
     // public System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
     // System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);
     // System.Boolean IsEqual(System.Object o1, System.Object o2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsEqual(::Il2CppObject* o1, ::Il2CppObject* o2);
     // System.String TypeCodeToString(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x202315C
+    // Offset: 0x2010B30
     ::StringW TypeCodeToString(::System::Xml::Schema::XmlTypeCode typeCode);
     // static System.Xml.Schema.XmlSchemaDatatype FromXmlTokenizedType(System.Xml.XmlTokenizedType token)
-    // Offset: 0x2023420
+    // Offset: 0x2010DF4
     static ::System::Xml::Schema::XmlSchemaDatatype* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
     // protected System.Void .ctor()
-    // Offset: 0x2023488
+    // Offset: 0x2010E5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
