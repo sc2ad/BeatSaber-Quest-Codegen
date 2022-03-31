@@ -73,14 +73,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C6008
+    // [SpaceAttribute] Offset: 0x1260664
     // private AudioManagerSO _audioMixer
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::AudioManagerSO* audioMixer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C6040
+    // [InjectAttribute] Offset: 0x126069C
     // private readonly PatternFightSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x40
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PatternFightSceneSetupData _sceneSetupData
     ::GlobalNamespace::PatternFightSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1479A6C
+    // Offset: 0x12EDE94
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -114,7 +114,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1479154
+    // Offset: 0x12ED578
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

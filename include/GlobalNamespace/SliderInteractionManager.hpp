@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::ColorType) == 0x4);
     // Padding between fields: colorType and: beatmapObjectManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x10B57E4
+    // [InjectAttribute] Offset: 0x124FC68
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -119,49 +119,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<SliderController> _activeSliders
     ::System::Collections::Generic::List_1<::GlobalNamespace::SliderController*>*& dyn__activeSliders();
     // public ColorType get_colorType()
-    // Offset: 0x13E5F34
+    // Offset: 0x2AA189C
     ::GlobalNamespace::ColorType get_colorType();
     // public System.Single get_saberInteractionParam()
-    // Offset: 0x13E5F3C
+    // Offset: 0x2AA18A4
     float get_saberInteractionParam();
     // private System.Void set_saberInteractionParam(System.Single value)
-    // Offset: 0x13E5F44
+    // Offset: 0x2AA18AC
     void set_saberInteractionParam(float value);
     // public System.Void add_sliderWasAddedToActiveSlidersEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13E5BB4
+    // Offset: 0x2AA1524
     void add_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float>* value);
     // public System.Void remove_sliderWasAddedToActiveSlidersEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13E5DCC
+    // Offset: 0x2AA173C
     void remove_sliderWasAddedToActiveSlidersEvent(::System::Action_1<float>* value);
     // public System.Void add_allSliderWereRemovedFromActiveSlidersEvent(System.Action value)
-    // Offset: 0x13E5C58
+    // Offset: 0x2AA15C8
     void add_allSliderWereRemovedFromActiveSlidersEvent(::System::Action* value);
     // public System.Void remove_allSliderWereRemovedFromActiveSlidersEvent(System.Action value)
-    // Offset: 0x13E5E70
+    // Offset: 0x2AA17E0
     void remove_allSliderWereRemovedFromActiveSlidersEvent(::System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x13E5F4C
+    // Offset: 0x2AA18B4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13E6024
+    // Offset: 0x2AA198C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13E6110
+    // Offset: 0x2AA1A78
     void Update();
     // private System.Void AddActiveSlider(SliderController newSliderController)
-    // Offset: 0x13E625C
+    // Offset: 0x2AA1BE0
     void AddActiveSlider(::GlobalNamespace::SliderController* newSliderController);
     // private System.Void RemoveActiveSlider(SliderController sliderController)
-    // Offset: 0x13E6404
+    // Offset: 0x2AA1DA4
     void RemoveActiveSlider(::GlobalNamespace::SliderController* sliderController);
     // private System.Void HandleSliderWasSpawned(SliderController sliderController)
-    // Offset: 0x13E649C
+    // Offset: 0x2AA1E3C
     void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
     // private System.Void HandleSliderWasDespawned(SliderController sliderController)
-    // Offset: 0x13E64D4
+    // Offset: 0x2AA1E74
     void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
     // public System.Void .ctor()
-    // Offset: 0x13E650C
+    // Offset: 0x2AA1EAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

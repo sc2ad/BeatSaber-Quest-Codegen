@@ -52,7 +52,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& dyn__tcx();
     // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Clear();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext
   #pragma pack(pop)

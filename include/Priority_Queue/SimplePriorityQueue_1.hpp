@@ -43,21 +43,21 @@ namespace Priority_Queue {
   class SimplePriorityQueue_1 : public ::Priority_Queue::SimplePriorityQueue_2<TItem, float> {
     public:
     // public System.Void .ctor(System.Collections.Generic.IComparer`1<System.Single> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimplePriorityQueue_1<TItem>* New_ctor(::System::Collections::Generic::IComparer_1<float>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::SimplePriorityQueue_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*, creationType>(comparer)));
     }
     // public System.Void .ctor(System.Comparison`1<System.Single> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimplePriorityQueue_1<TItem>* New_ctor(::System::Comparison_1<float>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::SimplePriorityQueue_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*, creationType>(comparer)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Priority_Queue.SimplePriorityQueue`2
     // Base method: System.Void SimplePriorityQueue_2::.ctor()
     // Base method: System.Void Object::.ctor()

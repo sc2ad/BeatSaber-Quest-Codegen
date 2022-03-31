@@ -179,61 +179,61 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Boolean <HasParameterizedCreator>k__BackingField
     bool& dyn_$HasParameterizedCreator$k__BackingField();
     // public System.Func`2<System.String,System.String> get_DictionaryKeyResolver()
-    // Offset: 0x1D41E00
+    // Offset: 0x1D252D0
     ::System::Func_2<::StringW, ::StringW>* get_DictionaryKeyResolver();
     // public System.Void set_DictionaryKeyResolver(System.Func`2<System.String,System.String> value)
-    // Offset: 0x1D41E08
+    // Offset: 0x1D252D8
     void set_DictionaryKeyResolver(::System::Func_2<::StringW, ::StringW>* value);
     // public System.Type get_DictionaryKeyType()
-    // Offset: 0x1D41E10
+    // Offset: 0x1D252E0
     ::System::Type* get_DictionaryKeyType();
     // private System.Void set_DictionaryKeyType(System.Type value)
-    // Offset: 0x1D41E18
+    // Offset: 0x1D252E8
     void set_DictionaryKeyType(::System::Type* value);
     // public System.Type get_DictionaryValueType()
-    // Offset: 0x1D41E20
+    // Offset: 0x1D252F0
     ::System::Type* get_DictionaryValueType();
     // private System.Void set_DictionaryValueType(System.Type value)
-    // Offset: 0x1D41E28
+    // Offset: 0x1D252F8
     void set_DictionaryValueType(::System::Type* value);
     // Newtonsoft.Json.Serialization.JsonContract get_KeyContract()
-    // Offset: 0x1D41E30
+    // Offset: 0x1D25300
     ::Newtonsoft::Json::Serialization::JsonContract* get_KeyContract();
     // System.Void set_KeyContract(Newtonsoft.Json.Serialization.JsonContract value)
-    // Offset: 0x1D41E38
+    // Offset: 0x1D25308
     void set_KeyContract(::Newtonsoft::Json::Serialization::JsonContract* value);
     // System.Boolean get_ShouldCreateWrapper()
-    // Offset: 0x1D41E40
+    // Offset: 0x1D25310
     bool get_ShouldCreateWrapper();
     // private System.Void set_ShouldCreateWrapper(System.Boolean value)
-    // Offset: 0x1D41E48
+    // Offset: 0x1D25318
     void set_ShouldCreateWrapper(bool value);
     // Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_ParameterizedCreator()
-    // Offset: 0x1D41E54
+    // Offset: 0x1D25324
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_ParameterizedCreator();
     // public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_OverrideCreator()
-    // Offset: 0x1D41EE0
+    // Offset: 0x1D253B0
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_OverrideCreator();
     // public System.Void set_OverrideCreator(Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> value)
-    // Offset: 0x1D41EE8
+    // Offset: 0x1D253B8
     void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* value);
     // public System.Boolean get_HasParameterizedCreator()
-    // Offset: 0x1D41EF0
+    // Offset: 0x1D253C0
     bool get_HasParameterizedCreator();
     // public System.Void set_HasParameterizedCreator(System.Boolean value)
-    // Offset: 0x1D41EF8
+    // Offset: 0x1D253C8
     void set_HasParameterizedCreator(bool value);
     // System.Boolean get_HasParameterizedCreatorInternal()
-    // Offset: 0x1D41F04
+    // Offset: 0x1D253D4
     bool get_HasParameterizedCreatorInternal();
     // Newtonsoft.Json.Utilities.IWrappedDictionary CreateWrapper(System.Object dictionary)
-    // Offset: 0x1D42500
+    // Offset: 0x1D259D0
     ::Newtonsoft::Json::Utilities::IWrappedDictionary* CreateWrapper(::Il2CppObject* dictionary);
     // System.Collections.IDictionary CreateTemporaryDictionary()
-    // Offset: 0x1D42770
+    // Offset: 0x1D25C40
     ::System::Collections::IDictionary* CreateTemporaryDictionary();
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1D41F2C
+    // Offset: 0x1D253FC
     // Implemented from: Newtonsoft.Json.Serialization.JsonContainerContract
     // Base method: System.Void JsonContainerContract::.ctor(System.Type underlyingType)
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)

@@ -82,13 +82,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 fixedCutScore
     int& dyn_fixedCutScore();
     // public System.Int32 get_maxCutScore()
-    // Offset: 0x13AFE84
+    // Offset: 0x1424F6C
     int get_maxCutScore();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x13B0258
+    // Offset: 0x1425340
     int get_executionOrder();
     // public System.Void .ctor(System.Int32 maxCenterDistanceCutScore, System.Int32 minBeforeCutScore, System.Int32 maxBeforeCutScore, System.Int32 minAfterCutScore, System.Int32 maxAfterCutScore, System.Int32 fixedCutScore)
-    // Offset: 0x13B015C
+    // Offset: 0x1425244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreModel::NoteScoreDefinition* New_ctor(int maxCenterDistanceCutScore, int minBeforeCutScore, int maxBeforeCutScore, int minAfterCutScore, int maxAfterCutScore, int fixedCutScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreModel::NoteScoreDefinition::.ctor");

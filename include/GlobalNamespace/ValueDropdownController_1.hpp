@@ -97,21 +97,21 @@ namespace GlobalNamespace {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ValueDropdownController_1<T>::$$c*>::get(), "<>9__7_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ValueDropdownController_1<T>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // System.String <Start>b__7_0(System.Tuple`2<T,System.String> x)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::StringW $Start$b__7_0(::System::Tuple_2<T, ::StringW>* x) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::$$c::<Start>b__7_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Start>b__7_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
         return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method, x);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -176,77 +176,77 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<T,System.String>> get_namedValues()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* get_namedValues() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::get_namedValues");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_namedValues", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*, false>(this, ___internal__method);
     }
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<System.Int32,T> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didSelectCellWithIdxEvent(::System::Action_2<int, T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::add_didSelectCellWithIdxEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`2<System.Int32,T> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didSelectCellWithIdxEvent(::System::Action_2<int, T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::remove_didSelectCellWithIdxEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // protected System.Void Start()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Start() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::Start");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected System.Void OnDestroy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnDestroy() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::OnDestroy");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<T,System.String>> GetNamedValues()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* GetNamedValues() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::GetNamedValues");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetNamedValues", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*, false>(this, ___internal__method);
     }
     // public T GetSelectedItemValue()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetSelectedItemValue() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::GetSelectedItemValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSelectedItemValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void SelectCellWithValue(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SelectCellWithValue(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::SelectCellWithValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SelectCellWithValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // private System.Int32 GetIdxForValue(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetIdxForValue(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::GetIdxForValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetIdxForValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, value);
     }
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ValueDropdownController_1::HandleSimpleTextDropdownDidSelectCellWithIdx");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dropdownWithTableView), ::il2cpp_utils::ExtractType(idx)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, dropdownWithTableView, idx);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

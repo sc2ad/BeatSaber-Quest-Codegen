@@ -103,10 +103,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Int32 unused1
     int& dyn_unused1();
     // static public LIV.SDK.Unity.SDKPose get_empty()
-    // Offset: 0x2A30D2C
+    // Offset: 0x29FBEDC
     static ::LIV::SDK::Unity::SDKPose get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A31CA0
+    // Offset: 0x29FCE50
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -56,13 +56,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _levelAssetPath
     ::StringW& dyn__levelAssetPath();
     // public System.String get_levelDirPath()
-    // Offset: 0x14F9D00
+    // Offset: 0x14C6B60
     ::StringW get_levelDirPath();
     // public System.String get_levelAssetPath()
-    // Offset: 0x14F9D08
+    // Offset: 0x14C6B68
     ::StringW get_levelAssetPath();
     // public System.Void .ctor(System.String levelDirPath, System.String levelAssetPath)
-    // Offset: 0x14F9D10
+    // Offset: 0x14C6B70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorSceneSetupData* New_ctor(::StringW levelDirPath, ::StringW levelAssetPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEditorSceneSetupData::.ctor");

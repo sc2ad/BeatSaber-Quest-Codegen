@@ -76,18 +76,18 @@ namespace System::Xml {
     // Get instance field reference: private System.Byte cachedHalfByte
     uint8_t& dyn_cachedHalfByte();
     // static public System.Byte[] Decode(System.Char[] chars, System.Boolean allowOddChars)
-    // Offset: 0x1A9C79C
+    // Offset: 0x1A7FDD4
     static ::ArrayW<uint8_t> Decode(::ArrayW<::Il2CppChar> chars, bool allowOddChars);
     // static private System.Void Decode(System.Char* pChars, System.Char* pCharsEndPos, System.Byte* pBytes, System.Byte* pBytesEndPos, ref System.Boolean hasHalfByteCached, ref System.Byte cachedHalfByte, out System.Int32 charsDecoded, out System.Int32 bytesDecoded)
-    // Offset: 0x1A9C5A4
+    // Offset: 0x1A7FBDC
     static void Decode(::Il2CppChar* pChars, ::Il2CppChar* pCharsEndPos, uint8_t* pBytes, uint8_t* pBytesEndPos, ByRef<bool> hasHalfByteCached, ByRef<uint8_t> cachedHalfByte, ByRef<int> charsDecoded, ByRef<int> bytesDecoded);
     // override System.Boolean get_IsFull()
-    // Offset: 0x1A9C40C
+    // Offset: 0x1A7FA44
     // Implemented from: System.Xml.IncrementalReadDecoder
     // Base method: System.Boolean IncrementalReadDecoder::get_IsFull()
     bool get_IsFull();
     // override System.Int32 Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x1A9C41C
+    // Offset: 0x1A7FA54
     // Implemented from: System.Xml.IncrementalReadDecoder
     // Base method: System.Int32 IncrementalReadDecoder::Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
     int Decode(::ArrayW<::Il2CppChar> chars, int startPos, int len);

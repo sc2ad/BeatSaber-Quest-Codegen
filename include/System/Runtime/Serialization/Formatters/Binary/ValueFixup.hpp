@@ -122,21 +122,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.String memberName
     ::StringW& dyn_memberName();
     // System.Void .ctor(System.Array arrayObj, System.Int32[] indexMap)
-    // Offset: 0x1600B5C
+    // Offset: 0x15F88A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFixup* New_ctor(::System::Array* arrayObj, ::ArrayW<int> indexMap) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::ValueFixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFixup*, creationType>(arrayObj, indexMap)));
     }
     // System.Void .ctor(System.Object memberObject, System.String memberName, System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo)
-    // Offset: 0x1600B9C
+    // Offset: 0x15F88E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFixup* New_ctor(::Il2CppObject* memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::ValueFixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFixup*, creationType>(memberObject, memberName, objectInfo)));
     }
     // System.Void Fixup(System.Runtime.Serialization.Formatters.Binary.ParseRecord record, System.Runtime.Serialization.Formatters.Binary.ParseRecord parent)
-    // Offset: 0x1600BE4
+    // Offset: 0x15F8928
     void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixup
   #pragma pack(pop)

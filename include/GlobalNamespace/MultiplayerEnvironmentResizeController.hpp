@@ -73,14 +73,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA180
+    // [InjectAttribute] Offset: 0x12546F4
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA190
+    // [InjectAttribute] Offset: 0x1254704
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x30
@@ -131,34 +131,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
     bool& dyn__spawnCenterDistanceFound();
     // public System.Boolean get_isResizingFinished()
-    // Offset: 0x1453564
+    // Offset: 0x13F18D0
     bool get_isResizingFinished();
     // public System.Void add_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x145356C
+    // Offset: 0x13F18D8
     void add_resizingDidFinishEvent(::System::Action* value);
     // public System.Void remove_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x1453610
+    // Offset: 0x13F197C
     void remove_resizingDidFinishEvent(::System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x14536B4
+    // Offset: 0x13F1A20
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1453820
+    // Offset: 0x13F1B90
     void OnDestroy();
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single edgeDistanceFromCenter)
-    // Offset: 0x14537F0
+    // Offset: 0x13F1B60
     void HandleEdgeDistanceFromCenterWasCalculated(float edgeDistanceFromCenter);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x1453808
+    // Offset: 0x13F1B78
     void HandleSpawnCenterDistanceWasFound(float distance);
     // private System.Void TryResize()
-    // Offset: 0x1453974
+    // Offset: 0x13F1CE8
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0x145398C
+    // Offset: 0x13F1D00
     void Resize();
     // public System.Void .ctor()
-    // Offset: 0x1453C84
+    // Offset: 0x13F1FF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

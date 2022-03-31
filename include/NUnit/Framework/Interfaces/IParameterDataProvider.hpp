@@ -34,7 +34,7 @@ namespace NUnit::Framework::Interfaces {
   class IParameterDataProvider {
     public:
     // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerable* GetDataFor(::NUnit::Framework::Interfaces::IParameterInfo* parameter);
   }; // NUnit.Framework.Interfaces.IParameterDataProvider
   #pragma pack(pop)

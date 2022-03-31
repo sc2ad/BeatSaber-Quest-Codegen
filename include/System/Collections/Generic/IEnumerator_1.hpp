@@ -38,7 +38,7 @@ namespace System::Collections::Generic {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // public T get_Current()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IEnumerator_1::get_Current");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

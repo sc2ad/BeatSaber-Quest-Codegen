@@ -34,21 +34,21 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10DD904
+    // [TooltipAttribute] Offset: 0x12761DC
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DD93C
+    // [TooltipAttribute] Offset: 0x1276214
     // public System.Single horizontalWeight
     // Size: 0x4
     // Offset: 0x14
     float horizontalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DD974
+    // [TooltipAttribute] Offset: 0x127624C
     // public System.Single verticalWeight
     // Size: 0x4
     // Offset: 0x18
@@ -63,14 +63,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single verticalWeight
     float& dyn_verticalWeight();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
-    // Offset: 0x21F5E84
+    // Offset: 0x21CBC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderFBBIK::SpineEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderFBBIK::SpineEffector*, creationType>(effectorType, horizontalWeight, verticalWeight)));
     }
     // public System.Void .ctor()
-    // Offset: 0x21F5E74
+    // Offset: 0x21CBC58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

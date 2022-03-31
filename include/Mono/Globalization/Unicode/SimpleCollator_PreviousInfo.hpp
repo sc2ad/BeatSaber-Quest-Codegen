@@ -48,7 +48,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public System.Byte* SortKey
     uint8_t*& dyn_SortKey();
     // public System.Void .ctor(System.Boolean dummy)
-    // Offset: 0x1F2C774
+    // Offset: 0x1EFDA90
     PreviousInfo(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.PreviousInfo
   #pragma pack(pop)

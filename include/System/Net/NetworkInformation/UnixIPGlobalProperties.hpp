@@ -29,7 +29,7 @@ namespace System::Net::NetworkInformation {
   class UnixIPGlobalProperties : public ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B46158
+    // Offset: 0x1B2A628
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()
     // Base method: System.Void IPGlobalProperties::.ctor()

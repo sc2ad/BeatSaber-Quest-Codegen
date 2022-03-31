@@ -54,7 +54,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Get instance field reference: public System.String platform
     ::StringW& dyn_platform();
     // public System.Void .ctor()
-    // Offset: 0x2117968
+    // Offset: 0x20C1694
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

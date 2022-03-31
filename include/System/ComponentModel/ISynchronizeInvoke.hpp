@@ -35,10 +35,10 @@ namespace System::ComponentModel {
   class ISynchronizeInvoke {
     public:
     // public System.Boolean get_InvokeRequired()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_InvokeRequired();
     // public System.IAsyncResult BeginInvoke(System.Delegate method, System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::IAsyncResult* BeginInvoke(::System::Delegate* method, ::ArrayW<::Il2CppObject*> args);
   }; // System.ComponentModel.ISynchronizeInvoke
   #pragma pack(pop)

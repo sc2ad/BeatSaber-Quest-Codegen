@@ -35,10 +35,10 @@ namespace NUnit::Framework::Interfaces {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IReflectionInfo*>(this);
     }
     // public System.Boolean get_IsOptional()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsOptional();
     // public System.Type get_ParameterType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_ParameterType();
   }; // NUnit.Framework.Interfaces.IParameterInfo
   #pragma pack(pop)

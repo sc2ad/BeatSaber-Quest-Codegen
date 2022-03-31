@@ -62,17 +62,17 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Get instance field reference: private readonly System.IO.TextReader reader
     ::System::IO::TextReader*& dyn_reader();
     // public System.Void .ctor(System.IO.TextReader reader)
-    // Offset: 0x25C49AC
+    // Offset: 0x25A4E6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemReader* New_ctor(::System::IO::TextReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::IO::Pem::PemReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemReader*, creationType>(reader)));
     }
     // public Org.BouncyCastle.Utilities.IO.Pem.PemObject ReadPemObject()
-    // Offset: 0x25C4A48
+    // Offset: 0x25A4F08
     ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
     // private Org.BouncyCastle.Utilities.IO.Pem.PemObject LoadObject(System.String type)
-    // Offset: 0x25C4CBC
+    // Offset: 0x25A517C
     ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemReader
   #pragma pack(pop)

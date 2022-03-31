@@ -96,10 +96,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.LeaderboardEntriesResult> <>u__2
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::LeaderboardEntriesResult*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x134ECFC
+    // Offset: 0x12E8550
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x134F288
+    // Offset: 0x12E8ADC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServicesInfoViewController/<GetServerStatus>d__8
   // WARNING Not writing size check since size may be invalid!

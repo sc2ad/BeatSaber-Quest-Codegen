@@ -65,21 +65,21 @@ namespace System::Threading {
       return *reinterpret_cast<::System::Threading::SparselyPopulatedArrayFragment_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Tail()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Tail() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SparselyPopulatedArray_1::get_Tail");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Tail", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(this, ___internal__method);
     }
     // System.Void .ctor(System.Int32 initialSize)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SparselyPopulatedArray_1<T>* New_ctor(int initialSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SparselyPopulatedArray_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SparselyPopulatedArray_1<T>*, creationType>(initialSize)));
     }
     // System.Threading.SparselyPopulatedArrayAddInfo`1<T> Add(T element)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SparselyPopulatedArray_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));

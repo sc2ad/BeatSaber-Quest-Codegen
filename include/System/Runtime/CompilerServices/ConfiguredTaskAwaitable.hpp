@@ -79,19 +79,19 @@ namespace System::Runtime::CompilerServices {
       // Get instance field reference: private readonly System.Boolean m_continueOnCapturedContext
       bool& dyn_m_continueOnCapturedContext();
       // public System.Boolean get_IsCompleted()
-      // Offset: 0x1D65C08
+      // Offset: 0x1D490D8
       bool get_IsCompleted();
       // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-      // Offset: 0x1D65BEC
+      // Offset: 0x1D490BC
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0x1D65C24
+      // Offset: 0x1D490F4
       void OnCompleted(::System::Action* continuation);
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0x1D65D04
+      // Offset: 0x1D491D4
       void UnsafeOnCompleted(::System::Action* continuation);
       // public System.Void GetResult()
-      // Offset: 0x1D65D18
+      // Offset: 0x1D491E8
       void GetResult();
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
     #pragma pack(pop)
@@ -118,10 +118,10 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter m_configuredTaskAwaiter
     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_m_configuredTaskAwaiter();
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-    // Offset: 0x1D65BE0
+    // Offset: 0x1D490B0
     ConfiguredTaskAwaitable(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter GetAwaiter()
-    // Offset: 0x1D65BFC
+    // Offset: 0x1D490CC
     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
   #pragma pack(pop)

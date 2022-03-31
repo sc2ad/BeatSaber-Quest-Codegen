@@ -46,22 +46,22 @@ namespace System::Net {
       return *reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
     }
     // public System.String get_AuthenticationType()
-    // Offset: 0x1CD7DF8
+    // Offset: 0x1CBC2C8
     ::StringW get_AuthenticationType();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1CD7920
+    // Offset: 0x1CBBDF0
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // static private System.Byte[] GetBytes(System.String str)
-    // Offset: 0x1CD7D34
+    // Offset: 0x1CBC204
     static ::ArrayW<uint8_t> GetBytes(::StringW str);
     // static private System.Net.Authorization InternalAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1CD79D4
+    // Offset: 0x1CBBEA4
     static ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1CD7DEC
+    // Offset: 0x1CBC2BC
     ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x1CD6974
+    // Offset: 0x1CBAE44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

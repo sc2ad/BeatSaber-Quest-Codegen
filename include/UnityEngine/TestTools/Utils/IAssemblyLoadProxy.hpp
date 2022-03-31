@@ -30,7 +30,7 @@ namespace UnityEngine::TestTools::Utils {
   class IAssemblyLoadProxy {
     public:
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::StringW assemblyString);
   }; // UnityEngine.TestTools.Utils.IAssemblyLoadProxy
   #pragma pack(pop)

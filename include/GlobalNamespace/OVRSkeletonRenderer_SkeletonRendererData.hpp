@@ -61,28 +61,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Single get_RootScale()
-    // Offset: 0x2484444
+    // Offset: 0x2458228
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0x248444C
+    // Offset: 0x2458230
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x2484454
+    // Offset: 0x2458238
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x248445C
+    // Offset: 0x2458240
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x2484468
+    // Offset: 0x245824C
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x2484470
+    // Offset: 0x2458254
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x248447C
+    // Offset: 0x2458260
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x2484484
+    // Offset: 0x2458268
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
   #pragma pack(pop)

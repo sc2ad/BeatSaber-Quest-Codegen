@@ -76,21 +76,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: clampValue and: eventValueMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10B7548
+    // [DrawIfAttribute] Offset: 0x125198C
     // private System.Int32 _eventValueMin
     // Size: 0x4
     // Offset: 0x20
     int eventValueMin;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DrawIfAttribute] Offset: 0x10B75F0
+    // [DrawIfAttribute] Offset: 0x1251A34
     // private System.Int32 _eventValueMax
     // Size: 0x4
     // Offset: 0x24
     int eventValueMax;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0x10B7698
+    // [SpaceAttribute] Offset: 0x1251ADC
     // private UnityEngine.Vector3 _movementVector
     // Size: 0xC
     // Offset: 0x28
@@ -103,14 +103,14 @@ namespace GlobalNamespace {
     float stepSize;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10B76E4
+    // [InjectAttribute] Offset: 0x1251B28
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B76F4
+    // [InjectAttribute] Offset: 0x1251B38
     // private readonly Tweening.SongTimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -171,25 +171,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Awake()
-    // Offset: 0x13E9B0C
+    // Offset: 0x2AA4070
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x13E9C14
+    // Offset: 0x2AA4178
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13E9D2C
+    // Offset: 0x2AA4290
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x13E9DD8
+    // Offset: 0x2AA433C
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private UnityEngine.Vector3 GetPositionForValue(System.Int32 value)
-    // Offset: 0x13E9EB8
+    // Offset: 0x2AA441C
     ::UnityEngine::Vector3 GetPositionForValue(int value);
     // private System.Void SetPosition(UnityEngine.Vector3 position)
-    // Offset: 0x13E9FD4
+    // Offset: 0x2AA4538
     void SetPosition(::UnityEngine::Vector3 position);
     // public System.Void .ctor()
-    // Offset: 0x13EA020
+    // Offset: 0x2AA4584
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

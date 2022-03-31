@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single time
     float& dyn_time();
     // public System.Void .ctor(UnityEngine.Pose[] poses, System.Single time)
-    // Offset: 0x13BFB90
+    // Offset: 0x137514C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingData::TransformsKeyframe* New_ctor(::ArrayW<::UnityEngine::Pose> poses, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingData::TransformsKeyframe::.ctor");

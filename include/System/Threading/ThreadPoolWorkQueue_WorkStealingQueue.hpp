@@ -84,22 +84,22 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.SpinLock m_foreignLock
     ::System::Threading::SpinLock& dyn_m_foreignLock();
     // public System.Void LocalPush(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x1D1452C
+    // Offset: 0x1CF89FC
     void LocalPush(::System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x1D14A38
+    // Offset: 0x1CF8F08
     bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalPop(out System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x1D14ED0
+    // Offset: 0x1CF93A0
     bool LocalPop(ByRef<::System::Threading::IThreadPoolWorkItem*> obj);
     // public System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal)
-    // Offset: 0x1D152BC
+    // Offset: 0x1CF978C
     bool TrySteal(ByRef<::System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal);
     // private System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal, System.Int32 millisecondsTimeout)
-    // Offset: 0x1D15980
+    // Offset: 0x1CF9E50
     bool TrySteal(ByRef<::System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal, int millisecondsTimeout);
     // public System.Void .ctor()
-    // Offset: 0x1D15C00
+    // Offset: 0x1CFA0D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public TutorialScenesTransitionSetupDataSO tutorialSceneTransitionSetupData
     ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn_tutorialSceneTransitionSetupData();
     // System.Void <HandleTutorialSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x132BD8C
+    // Offset: 0x1301518
     void $HandleTutorialSceneDidFinish$b__0(::Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x132BD84
+    // Offset: 0x1300FB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

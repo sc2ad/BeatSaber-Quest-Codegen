@@ -176,25 +176,25 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single StereoIpdMm
     float& dyn_StereoIpdMm();
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0x18831EC
+    // Offset: 0x187A0E0
     void SetTextureByIndex(int i, ::UnityEngine::Texture* t);
     // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0x1883240
+    // Offset: 0x187A134
     ::UnityEngine::Texture* GetTextureByIndex(int i);
     // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0x1879C8C
+    // Offset: 0x1870B80
     static void SetOverride(::UnityEngine::Texture* front, ::UnityEngine::Texture* back, ::UnityEngine::Texture* left, ::UnityEngine::Texture* right, ::UnityEngine::Texture* top, ::UnityEngine::Texture* bottom);
     // static public System.Void ClearOverride()
-    // Offset: 0x187A0B8
+    // Offset: 0x1870FAC
     static void ClearOverride();
     // private System.Void OnEnable()
-    // Offset: 0x188329C
+    // Offset: 0x187A190
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18832B0
+    // Offset: 0x187A1A4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x18832B4
+    // Offset: 0x187A1A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

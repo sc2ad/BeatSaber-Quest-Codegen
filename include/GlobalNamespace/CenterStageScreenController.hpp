@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C1DD0
+    // [SpaceAttribute] Offset: 0x125C364
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x30
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ModifiersSelectionView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C1E18
+    // [SpaceAttribute] Offset: 0x125C3AC
     // private CountdownController _countdownController
     // Size: 0x8
     // Offset: 0x40
@@ -102,14 +102,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C1E60
+    // [InjectAttribute] Offset: 0x125C3F4
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C1E70
+    // [InjectAttribute] Offset: 0x125C404
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x58
@@ -156,43 +156,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _countdownEndTime
     float& dyn__countdownEndTime();
     // public System.Boolean get_countdownShown()
-    // Offset: 0x1360F64
+    // Offset: 0x1352C00
     bool get_countdownShown();
     // private System.Void set_countdownShown(System.Boolean value)
-    // Offset: 0x1360F6C
+    // Offset: 0x1352C08
     void set_countdownShown(bool value);
     // public System.Void Setup(System.Boolean showModifiers)
-    // Offset: 0x1360F78
+    // Offset: 0x1352C14
     void Setup(bool showModifiers);
     // public System.Void Show()
-    // Offset: 0x1360FB4
+    // Offset: 0x1352C50
     void Show();
     // public System.Void Hide()
-    // Offset: 0x13612C4
+    // Offset: 0x1352F60
     void Hide();
     // public System.Void ShowCountdown(System.Single countdownEndTime)
-    // Offset: 0x1361440
+    // Offset: 0x13530DC
     void ShowCountdown(float countdownEndTime);
     // public System.Void HideCountdown(System.Boolean instant)
-    // Offset: 0x13613F8
+    // Offset: 0x1353094
     void HideCountdown(bool instant);
     // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
-    // Offset: 0x1361488
+    // Offset: 0x1353124
     void SetCountdownEndTime(float countdownEndTime);
     // public System.Void ShowCountdownColorPreset(System.Boolean animated)
-    // Offset: 0x13614F0
+    // Offset: 0x135318C
     void ShowCountdownColorPreset(bool animated);
     // public System.Void ShowLobbyColorPreset(System.Boolean animated)
-    // Offset: 0x1361144
+    // Offset: 0x1352DE0
     void ShowLobbyColorPreset(bool animated);
     // private System.Void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x136151C
+    // Offset: 0x13531B8
     void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void SetNextGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x1361170
+    // Offset: 0x1352E0C
     void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void .ctor()
-    // Offset: 0x1361520
+    // Offset: 0x13531BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

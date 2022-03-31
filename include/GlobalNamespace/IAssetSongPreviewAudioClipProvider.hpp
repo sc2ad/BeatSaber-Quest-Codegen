@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class IAssetSongPreviewAudioClipProvider {
     public:
     // public UnityEngine.AudioClip get_songPreviewAudioClip()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::AudioClip* get_songPreviewAudioClip();
   }; // IAssetSongPreviewAudioClipProvider
   #pragma pack(pop)

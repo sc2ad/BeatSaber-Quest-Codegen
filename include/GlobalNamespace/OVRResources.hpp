@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<System.String> assetNames
     static void _set_assetNames(::System::Collections::Generic::List_1<::StringW>* value);
     // static public UnityEngine.Object Load(System.String path)
-    // Offset: 0x1B02F08
+    // Offset: 0x1AE6540
     static ::UnityEngine::Object* Load(::StringW path);
     // static public T Load(System.String path)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T Load(::StringW path) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
@@ -73,10 +73,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, path);
     }
     // static public System.Void SetResourceBundle(UnityEngine.AssetBundle bundle)
-    // Offset: 0x1B030C4
+    // Offset: 0x1AE66FC
     static void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
     // public System.Void .ctor()
-    // Offset: 0x1B0317C
+    // Offset: 0x1AE67B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,13 +29,13 @@ namespace Org::BouncyCastle::Math::EC {
   class ECLookupTable {
     public:
     // public System.Int32 get_Size()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Size();
     // public Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.ECLookupTable
   #pragma pack(pop)

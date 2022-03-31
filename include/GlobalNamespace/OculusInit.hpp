@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectOptionalAttribute] Offset: 0x10AFF24
+    // [InjectOptionalAttribute] Offset: 0x124A278
     // private OculusDeeplinkManager _oculusDeeplinkManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OculusDeeplinkManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10AFF34
+    // [InjectAttribute] Offset: 0x124A288
     // private DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0x20
@@ -76,18 +76,28 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
+    // Get static field: static public System.Boolean __enabled
+    static bool _get___enabled();
+    // Set static field: static public System.Boolean __enabled
+    static void _set___enabled(bool value);
     // Get instance field reference: private OculusDeeplinkManager _oculusDeeplinkManager
     ::GlobalNamespace::OculusDeeplinkManager*& dyn__oculusDeeplinkManager();
     // Get instance field reference: private DlcPromoPanelModel _dlcPromoPanelModel
     ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
+    // static private System.Void NoDomainReloadInit()
+    // Offset: 0x150F164
+    static void NoDomainReloadInit();
     // public System.Void Init()
-    // Offset: 0x14F3C78
+    // Offset: 0x150F1D0
     void Init();
+    // private System.Void TryToInitialize()
+    // Offset: 0x150F290
+    void TryToInitialize();
     // private System.Void InitCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.PlatformInitialize> msg)
-    // Offset: 0x14F3E4C
+    // Offset: 0x150F424
     void InitCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x14F3FFC
+    // Offset: 0x150F5D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -99,18 +109,39 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusInit*, creationType>()));
     }
+    // static private System.Void .cctor()
+    // Offset: 0x150F5DC
+    // Implemented from: UnityEngine.Object
+    // Base method: System.Void Object::.cctor()
+    static void _cctor();
   }; // OculusInit
   #pragma pack(pop)
   static check_size<sizeof(OculusInit), 32 + sizeof(::GlobalNamespace::DlcPromoPanelModel*)> __GlobalNamespace_OculusInitSizeCheck;
   static_assert(sizeof(OculusInit) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OculusInit::NoDomainReloadInit
+// Il2CppName: NoDomainReloadInit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OculusInit::NoDomainReloadInit)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit*), "NoDomainReloadInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusInit::*)()>(&GlobalNamespace::OculusInit::Init)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusInit::TryToInitialize
+// Il2CppName: TryToInitialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusInit::*)()>(&GlobalNamespace::OculusInit::TryToInitialize)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit*), "TryToInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::InitCallback
@@ -126,3 +157,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::OculusInit::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OculusInit::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

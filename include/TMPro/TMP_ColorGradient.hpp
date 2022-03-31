@@ -95,21 +95,21 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color bottomRight
     ::UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x1429E14
+    // Offset: 0x1433700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ColorGradient* New_ctor(::UnityEngine::Color color) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_ColorGradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>(color)));
     }
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x1429E84
+    // Offset: 0x1433770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ColorGradient* New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_ColorGradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>(color0, color1, color2, color3)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1429D68
+    // Offset: 0x1433654
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -120,7 +120,7 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1429F2C
+    // Offset: 0x1433818
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

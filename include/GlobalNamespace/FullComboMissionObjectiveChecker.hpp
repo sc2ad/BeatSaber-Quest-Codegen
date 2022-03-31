@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B8EA0
+    // [InjectAttribute] Offset: 0x1253414
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x48
@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ComboController _comboController
     ::GlobalNamespace::ComboController*& dyn__comboController();
     // protected System.Void OnDestroy()
-    // Offset: 0x12E71D4
+    // Offset: 0x13931D8
     void OnDestroy();
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x12E72A8
+    // Offset: 0x13932AC
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x12E72B4
+    // Offset: 0x13932B8
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FullComboMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x12E70FC
+    // Offset: 0x1393100
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

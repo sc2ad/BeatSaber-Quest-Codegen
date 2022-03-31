@@ -59,10 +59,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger x
     ::Org::BouncyCastle::Math::BigInteger*& dyn_x();
     // public Org.BouncyCastle.Math.BigInteger get_X()
-    // Offset: 0x15E5750
+    // Offset: 0x15C37BC
     ::Org::BouncyCastle::Math::BigInteger* get_X();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x15E565C
+    // Offset: 0x15C36C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters::.ctor");

@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action comboBreakingEventHappenedEvent
     ::System::Action*& dyn_comboBreakingEventHappenedEvent();
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x133B82C
+    // Offset: 0x13C56C0
     void add_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x133B8D0
+    // Offset: 0x13C5764
     void remove_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x133B974
+    // Offset: 0x13C5808
     void add_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x133BA18
+    // Offset: 0x13C58AC
     void remove_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x133BABC
+    // Offset: 0x13C5950
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

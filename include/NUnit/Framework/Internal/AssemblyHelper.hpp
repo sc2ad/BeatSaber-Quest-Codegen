@@ -31,13 +31,13 @@ namespace NUnit::Framework::Internal {
   class AssemblyHelper : public ::Il2CppObject {
     public:
     // static public System.String GetAssemblyPath(System.Reflection.Assembly assembly)
-    // Offset: 0x1C51E64
+    // Offset: 0x1C38334
     static ::StringW GetAssemblyPath(::System::Reflection::Assembly* assembly);
     // static private System.Boolean IsFileUri(System.String uri)
-    // Offset: 0x1C61C44
+    // Offset: 0x1C48114
     static bool IsFileUri(::StringW uri);
     // static public System.String GetAssemblyPathFromCodeBase(System.String codeBase)
-    // Offset: 0x1C61CD8
+    // Offset: 0x1C481A8
     static ::StringW GetAssemblyPathFromCodeBase(::StringW codeBase);
   }; // NUnit.Framework.Internal.AssemblyHelper
   #pragma pack(pop)

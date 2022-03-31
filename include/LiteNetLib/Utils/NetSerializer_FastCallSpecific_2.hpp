@@ -117,21 +117,21 @@ namespace LiteNetLib::Utils {
       return *reinterpret_cast<::System::Action_2<TClass, ::ArrayW<TProperty>>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // protected TProperty[] ReadArrayHelper(TClass inf, LiteNetLib.Utils.NetDataReader r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<TProperty> ReadArrayHelper(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::FastCallSpecific_2::ReadArrayHelper");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReadArrayHelper", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(r)})));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<TProperty>, false>(this, ___internal__method, inf, r);
     }
     // protected TProperty[] WriteArrayHelper(TClass inf, LiteNetLib.Utils.NetDataWriter w)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<TProperty> WriteArrayHelper(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::FastCallSpecific_2::WriteArrayHelper");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteArrayHelper", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(w)})));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<TProperty>, false>(this, ___internal__method, inf, w);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -141,7 +141,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::FastCallSpecific_2<TClass, TProperty>*, creationType>()));
     }
     // public override System.Void Init(System.Reflection.MethodInfo getMethod, System.Reflection.MethodInfo setMethod, System.Boolean isArray)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::Init(System.Reflection.MethodInfo getMethod, System.Reflection.MethodInfo setMethod, System.Boolean isArray)
     void Init(::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod, bool isArray) {

@@ -157,63 +157,63 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // protected System.Void Update()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Update() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::Update");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected System.Void OnDestroy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnDestroy() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::OnDestroy");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void UpdatePositionAndRotation()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdatePositionAndRotation() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::UpdatePositionAndRotation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdatePositionAndRotation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void Mirror(T noteController)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Mirror(T noteController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::Mirror");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Mirror", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(noteController)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, noteController);
     }
     // private System.Void RemoveListeners()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RemoveListeners() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::RemoveListeners");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveListeners", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::HandleNoteControllerNoteDidStartDissolving");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(noteController), ::il2cpp_utils::ExtractType(duration)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, noteController, duration);
     }
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::HandleNoteControllerNoteDidPassJumpThreeQuarters");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleNoteControllerNoteDidPassJumpThreeQuarters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(noteController)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, noteController);
     }
     // public System.Void Hide(System.Boolean hide)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Hide(bool hide) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredNoteController_1::Hide");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Hide", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hide)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, hide);
     }
     // public override ILazyCopyHashSet`1<INoteControllerDidInitEvent> get_didInitEvent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: NoteControllerBase
     // Base method: ILazyCopyHashSet`1<INoteControllerDidInitEvent> NoteControllerBase::get_didInitEvent()
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* get_didInitEvent() {
@@ -222,7 +222,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*, false>(this, ___internal__method);
     }
     // public override ILazyCopyHashSet`1<INoteControllerNoteDidPassJumpThreeQuartersEvent> get_noteDidPassJumpThreeQuartersEvent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: NoteControllerBase
     // Base method: ILazyCopyHashSet`1<INoteControllerNoteDidPassJumpThreeQuartersEvent> NoteControllerBase::get_noteDidPassJumpThreeQuartersEvent()
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* get_noteDidPassJumpThreeQuartersEvent() {
@@ -231,7 +231,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*, false>(this, ___internal__method);
     }
     // public override ILazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: NoteControllerBase
     // Base method: ILazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> NoteControllerBase::get_noteDidStartDissolvingEvent()
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent() {
@@ -240,7 +240,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*, false>(this, ___internal__method);
     }
     // public override NoteData get_noteData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: NoteControllerBase
     // Base method: NoteData NoteControllerBase::get_noteData()
     ::GlobalNamespace::NoteData* get_noteData() {
@@ -249,7 +249,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::NoteData*, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: NoteControllerBase
     // Base method: System.Void NoteControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

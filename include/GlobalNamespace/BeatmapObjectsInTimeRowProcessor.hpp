@@ -131,41 +131,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 _numberOfLines
     int& dyn__numberOfLines();
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x28471EC
+    // Offset: 0x2816364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)
-    // Offset: 0x2847690
+    // Offset: 0x2816808
     void ProcessNote(::GlobalNamespace::NoteData* noteData);
     // public System.Void ProcessSlider(SliderData sliderData)
-    // Offset: 0x2847764
+    // Offset: 0x28168DC
     void ProcessSlider(::GlobalNamespace::SliderData* sliderData);
     // public System.Void ProcessAllRemainingData()
-    // Offset: 0x284786C
+    // Offset: 0x28169E4
     void ProcessAllRemainingData();
     // private System.Void HandleCurrentTimeSliceColorNotesDidAddItem(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> timeSliceContainer, NoteData noteData)
-    // Offset: 0x28479D8
+    // Offset: 0x2816B50
     void HandleCurrentTimeSliceColorNotesDidAddItem(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer, ::GlobalNamespace::NoteData* noteData);
     // private System.Void HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<BeatmapDataItem> allObjectsTimeSlice)
-    // Offset: 0x2847A48
+    // Offset: 0x2816BC0
     void HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice);
     // private System.Void HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<BeatmapDataItem> allObjectsTimeSlice, System.Single nextTimeSliceTime)
-    // Offset: 0x2847C3C
+    // Offset: 0x2816DB4
     void HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice, float nextTimeSliceTime);
     // private System.Void HandleCurrentTimeSliceColorNotesDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> currentTimeSlice, System.Single nextTimeSliceTime)
-    // Offset: 0x2848E2C
+    // Offset: 0x2817FA4
     void HandleCurrentTimeSliceColorNotesDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* currentTimeSlice, float nextTimeSliceTime);
     // private System.Void HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> timeSliceContainer, System.Single nextTimeSliceTime)
-    // Offset: 0x2849468
+    // Offset: 0x28185E0
     void HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer, float nextTimeSliceTime);
     // static private System.Boolean SliderHeadPositionOverlapsWithNote(SliderData slider, NoteData note)
-    // Offset: 0x2848BE8
+    // Offset: 0x2817D60
     static bool SliderHeadPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
     // static private System.Boolean SliderTailPositionOverlapsWithNote(SliderData slider, NoteData note)
-    // Offset: 0x2848DC8
+    // Offset: 0x2817F40
     static bool SliderTailPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
   }; // BeatmapObjectsInTimeRowProcessor
   #pragma pack(pop)

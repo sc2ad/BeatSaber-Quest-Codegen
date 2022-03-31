@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* downloadIconObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BD57C
+    // [SpaceAttribute] Offset: 0x1257B10
     // private UnityEngine.Color _selectedColor0
     // Size: 0x10
     // Offset: 0x70
@@ -175,34 +175,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Int32 get_cellIndex()
-    // Offset: 0x14B84A4
+    // Offset: 0x14B1E5C
     int get_cellIndex();
     // public System.Void set_cellIndex(System.Int32 value)
-    // Offset: 0x14B84AC
+    // Offset: 0x14B1E64
     void set_cellIndex(int value);
     // public System.Void set_showNewRibbon(System.Boolean value)
-    // Offset: 0x14B84B4
+    // Offset: 0x14B1E6C
     void set_showNewRibbon(bool value);
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x14B8530
+    // Offset: 0x14B1EE8
     void SetData(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // private System.Void RefreshVisuals()
-    // Offset: 0x14B8944
+    // Offset: 0x14B22FC
     void RefreshVisuals();
     // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
-    // Offset: 0x14B87EC
+    // Offset: 0x14B21A4
     ::StringW GetInfoText(::StringW name, int songs, int purchased);
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
-    // Offset: 0x14B8A44
+    // Offset: 0x14B23FC
     void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel* contentModel);
     // private System.Void SetDownloadIconVisible(System.Boolean visible)
-    // Offset: 0x14B88D4
+    // Offset: 0x14B228C
     void SetDownloadIconVisible(bool visible);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x14B8B08
+    // Offset: 0x14B24C0
     void CancelAsyncOperations();
     // public System.Void .ctor()
-    // Offset: 0x14B8B1C
+    // Offset: 0x14B24D4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -217,17 +217,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionCell*, creationType>()));
     }
     // protected override System.Void InternalToggle()
-    // Offset: 0x14B891C
+    // Offset: 0x14B22D4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::InternalToggle()
     void InternalToggle();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14B8940
+    // Offset: 0x14B22F8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14B8A40
+    // Offset: 0x14B23F8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

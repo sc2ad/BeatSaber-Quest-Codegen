@@ -108,49 +108,49 @@ namespace System::Net {
     // Get instance field reference: private System.String _cnonce
     ::StringW& dyn__cnonce();
     // public System.String get_Algorithm()
-    // Offset: 0x1A4B4D8
+    // Offset: 0x1A403C4
     ::StringW get_Algorithm();
     // public System.String get_Realm()
-    // Offset: 0x1A4B4F0
+    // Offset: 0x1A403DC
     ::StringW get_Realm();
     // public System.String get_Nonce()
-    // Offset: 0x1A4A560
+    // Offset: 0x1A3F44C
     ::StringW get_Nonce();
     // public System.String get_Opaque()
-    // Offset: 0x1A4B508
+    // Offset: 0x1A403F4
     ::StringW get_Opaque();
     // public System.String get_QOP()
-    // Offset: 0x1A4B520
+    // Offset: 0x1A4040C
     ::StringW get_QOP();
     // public System.String get_CNonce()
-    // Offset: 0x1A4B538
+    // Offset: 0x1A40424
     ::StringW get_CNonce();
     // public System.DateTime get_LastUse()
-    // Offset: 0x1A4BAD0
+    // Offset: 0x1A409BC
     ::System::DateTime get_LastUse();
     // static private System.Void .cctor()
-    // Offset: 0x1A4B480
+    // Offset: 0x1A4036C
     static void _cctor();
     // public System.Boolean Parse(System.String challenge)
-    // Offset: 0x1A4A484
+    // Offset: 0x1A3F370
     bool Parse(::StringW challenge);
     // private System.String HashToHexString(System.String toBeHashed)
-    // Offset: 0x1A4B634
+    // Offset: 0x1A40520
     ::StringW HashToHexString(::StringW toBeHashed);
     // private System.String HA1(System.String username, System.String password)
-    // Offset: 0x1A4B78C
+    // Offset: 0x1A40678
     ::StringW HA1(::StringW username, ::StringW password);
     // private System.String HA2(System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1A4B8AC
+    // Offset: 0x1A40798
     ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
     // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1A4B980
+    // Offset: 0x1A4086C
     ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
     // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A4A578
+    // Offset: 0x1A3F464
     ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x1A4A404
+    // Offset: 0x1A3F2F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

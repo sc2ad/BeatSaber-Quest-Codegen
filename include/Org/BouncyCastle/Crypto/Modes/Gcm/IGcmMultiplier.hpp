@@ -24,10 +24,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   class IGcmMultiplier {
     public:
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::ArrayW<uint8_t> H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void MultiplyH(::ArrayW<uint8_t> x);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier
   #pragma pack(pop)

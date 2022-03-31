@@ -151,25 +151,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
     ::GlobalNamespace::PlayerSpecificSettings*& dyn_$playerSpecificSettings$k__BackingField();
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x138CD78
+    // Offset: 0x2AB2A70
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0x138CD80
+    // Offset: 0x2AB2A78
     void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
     // public System.Void add_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x138CC30
+    // Offset: 0x2AB2928
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x138CCD4
+    // Offset: 0x2AB29CC
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x138B888
+    // Offset: 0x2AB13FC
     void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void Finish(TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0x138AD40
+    // Offset: 0x2AB284C
     void Finish(::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
     // public System.Void .ctor()
-    // Offset: 0x138CD88
+    // Offset: 0x2AB2A80
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

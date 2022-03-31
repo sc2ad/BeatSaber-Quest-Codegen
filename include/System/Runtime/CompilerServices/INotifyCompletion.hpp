@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
   class INotifyCompletion {
     public:
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnCompleted(::System::Action* continuation);
   }; // System.Runtime.CompilerServices.INotifyCompletion
   #pragma pack(pop)

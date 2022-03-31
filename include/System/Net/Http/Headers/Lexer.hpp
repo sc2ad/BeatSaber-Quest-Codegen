@@ -84,71 +84,71 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Int32 pos
     int& dyn_pos();
     // public System.Int32 get_Position()
-    // Offset: 0x1965A20
+    // Offset: 0x195B90C
     int get_Position();
     // public System.Void set_Position(System.Int32 value)
-    // Offset: 0x1965A28
+    // Offset: 0x195B914
     void set_Position(int value);
     // public System.Void .ctor(System.String stream)
-    // Offset: 0x195D824
+    // Offset: 0x1953710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lexer* New_ctor(::StringW stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::Lexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lexer*, creationType>(stream)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x196609C
+    // Offset: 0x195BF88
     static void _cctor();
     // public System.String GetStringValue(System.Net.Http.Headers.Token token)
-    // Offset: 0x195DD54
+    // Offset: 0x1953C40
     ::StringW GetStringValue(::System::Net::Http::Headers::Token token);
     // public System.String GetStringValue(System.Net.Http.Headers.Token start, System.Net.Http.Headers.Token end)
-    // Offset: 0x1965A30
+    // Offset: 0x195B91C
     ::StringW GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end);
     // public System.String GetQuotedStringValue(System.Net.Http.Headers.Token start)
-    // Offset: 0x195F33C
+    // Offset: 0x1955228
     ::StringW GetQuotedStringValue(::System::Net::Http::Headers::Token start);
     // public System.String GetRemainingStringValue(System.Int32 position)
-    // Offset: 0x195DD78
+    // Offset: 0x1953C64
     ::StringW GetRemainingStringValue(int position);
     // public System.Boolean IsStarStringValue(System.Net.Http.Headers.Token token)
-    // Offset: 0x1960EE4
+    // Offset: 0x1956DD0
     bool IsStarStringValue(::System::Net::Http::Headers::Token token);
     // public System.Boolean TryGetNumericValue(System.Net.Http.Headers.Token token, out System.Int32 value)
-    // Offset: 0x1965A54
+    // Offset: 0x195B940
     bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int> value);
     // public System.Boolean TryGetNumericValue(System.Net.Http.Headers.Token token, out System.Int64 value)
-    // Offset: 0x1960F2C
+    // Offset: 0x1956E18
     bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int64_t> value);
     // public System.Nullable`1<System.TimeSpan> TryGetTimeSpanValue(System.Net.Http.Headers.Token token)
-    // Offset: 0x195F270
+    // Offset: 0x195515C
     ::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token token);
     // public System.Boolean TryGetDateValue(System.Net.Http.Headers.Token token, out System.DateTimeOffset value)
-    // Offset: 0x1965B04
+    // Offset: 0x195B9F0
     bool TryGetDateValue(::System::Net::Http::Headers::Token token, ByRef<::System::DateTimeOffset> value);
     // static public System.Boolean TryGetDateValue(System.String text, out System.DateTimeOffset value)
-    // Offset: 0x1965BEC
+    // Offset: 0x195BAD8
     static bool TryGetDateValue(::StringW text, ByRef<::System::DateTimeOffset> value);
     // public System.Boolean TryGetDoubleValue(System.Net.Http.Headers.Token token, out System.Double value)
-    // Offset: 0x1965CD0
+    // Offset: 0x195BBBC
     bool TryGetDoubleValue(::System::Net::Http::Headers::Token token, ByRef<double> value);
     // static public System.Boolean IsValidToken(System.String input)
-    // Offset: 0x1965DA8
+    // Offset: 0x195BC94
     static bool IsValidToken(::StringW input);
     // static public System.Boolean IsValidCharacter(System.Char input)
-    // Offset: 0x1965E6C
+    // Offset: 0x195BD58
     static bool IsValidCharacter(::Il2CppChar input);
     // public System.Void EatChar()
-    // Offset: 0x1961670
+    // Offset: 0x195755C
     void EatChar();
     // public System.Int32 PeekChar()
-    // Offset: 0x196162C
+    // Offset: 0x1957518
     int PeekChar();
     // public System.Boolean ScanCommentOptional(out System.String value, out System.Net.Http.Headers.Token readToken)
-    // Offset: 0x1965F3C
+    // Offset: 0x195BE28
     bool ScanCommentOptional(ByRef<::StringW> value, ByRef<::System::Net::Http::Headers::Token> readToken);
     // public System.Net.Http.Headers.Token Scan(System.Boolean recognizeDash)
-    // Offset: 0x195DA38
+    // Offset: 0x1953924
     ::System::Net::Http::Headers::Token Scan(bool recognizeDash);
   }; // System.Net.Http.Headers.Lexer
   #pragma pack(pop)

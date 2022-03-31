@@ -27,13 +27,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public System.Boolean get_isValid()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isValid();
     // public System.Void EncryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixBytes)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void EncryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length, int extraPrefixBytes);
     // public System.Boolean TryDecryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryDecryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length);
   }; // EncryptionUtility/IEncryptionState
   #pragma pack(pop)

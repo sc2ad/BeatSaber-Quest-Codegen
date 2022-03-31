@@ -40,7 +40,7 @@ namespace Zenject::Internal {
   class IDecoratorProvider {
     public:
     // public System.Void GetAllInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GetAllInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.Internal.IDecoratorProvider
   #pragma pack(pop)

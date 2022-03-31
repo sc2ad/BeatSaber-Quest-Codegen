@@ -43,10 +43,10 @@ namespace System::Xml::Schema {
     // Set static field: static private System.Xml.Schema.DtdValidator/System.Xml.Schema.NamespaceManager namespaceManager
     static void _set_namespaceManager(::System::Xml::Schema::DtdValidator::NamespaceManager* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C3CA04
+    // Offset: 0x1C22ED4
     static void _cctor();
     // static public System.Void SetDefaultTypedValue(System.Xml.Schema.SchemaAttDef attdef, System.Xml.IDtdParserAdapter readerAdapter)
-    // Offset: 0x1C3C5C8
+    // Offset: 0x1C22A98
     static void SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::IDtdParserAdapter* readerAdapter);
   }; // System.Xml.Schema.DtdValidator
   #pragma pack(pop)

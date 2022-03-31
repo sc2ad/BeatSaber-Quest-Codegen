@@ -108,79 +108,79 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10DAE18
+    // [TooltipAttribute] Offset: 0x12736F0
     // public UnityEngine.LayerMask layers
     // Size: 0x4
     // Offset: 0x10
     ::UnityEngine::LayerMask layers;
     // Field size check
     static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DAE50
+    // [TooltipAttribute] Offset: 0x1273728
     // public System.Single maxStep
     // Size: 0x4
     // Offset: 0x14
     float maxStep;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DAE88
+    // [TooltipAttribute] Offset: 0x1273760
     // public System.Single heightOffset
     // Size: 0x4
     // Offset: 0x18
     float heightOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DAEC0
+    // [TooltipAttribute] Offset: 0x1273798
     // public System.Single footSpeed
     // Size: 0x4
     // Offset: 0x1C
     float footSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DAEF8
+    // [TooltipAttribute] Offset: 0x12737D0
     // public System.Single footRadius
     // Size: 0x4
     // Offset: 0x20
     float footRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DAF30
+    // [TooltipAttribute] Offset: 0x1273808
     // public System.Single footCenterOffset
     // Size: 0x4
     // Offset: 0x24
     float footCenterOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DAF7C
+    // [TooltipAttribute] Offset: 0x1273854
     // public System.Single prediction
     // Size: 0x4
     // Offset: 0x28
     float prediction;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DAFB4
-    // [RangeAttribute] Offset: 0x10DAFB4
+    // [TooltipAttribute] Offset: 0x127388C
+    // [RangeAttribute] Offset: 0x127388C
     // public System.Single footRotationWeight
     // Size: 0x4
     // Offset: 0x2C
     float footRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB008
+    // [TooltipAttribute] Offset: 0x12738E0
     // public System.Single footRotationSpeed
     // Size: 0x4
     // Offset: 0x30
     float footRotationSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB040
-    // [RangeAttribute] Offset: 0x10DB040
+    // [TooltipAttribute] Offset: 0x1273918
+    // [RangeAttribute] Offset: 0x1273918
     // public System.Single maxFootRotationAngle
     // Size: 0x4
     // Offset: 0x34
     float maxFootRotationAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB098
+    // [TooltipAttribute] Offset: 0x1273970
     // public System.Boolean rotateSolver
     // Size: 0x1
     // Offset: 0x38
@@ -189,43 +189,43 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: rotateSolver and: pelvisSpeed
     char __padding10[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10DB0D0
+    // [TooltipAttribute] Offset: 0x12739A8
     // public System.Single pelvisSpeed
     // Size: 0x4
     // Offset: 0x3C
     float pelvisSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB108
-    // [RangeAttribute] Offset: 0x10DB108
+    // [TooltipAttribute] Offset: 0x12739E0
+    // [RangeAttribute] Offset: 0x12739E0
     // public System.Single pelvisDamper
     // Size: 0x4
     // Offset: 0x40
     float pelvisDamper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB15C
+    // [TooltipAttribute] Offset: 0x1273A34
     // public System.Single lowerPelvisWeight
     // Size: 0x4
     // Offset: 0x44
     float lowerPelvisWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB194
+    // [TooltipAttribute] Offset: 0x1273A6C
     // public System.Single liftPelvisWeight
     // Size: 0x4
     // Offset: 0x48
     float liftPelvisWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB1CC
+    // [TooltipAttribute] Offset: 0x1273AA4
     // public System.Single rootSphereCastRadius
     // Size: 0x4
     // Offset: 0x4C
     float rootSphereCastRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DB204
+    // [TooltipAttribute] Offset: 0x1273ADC
     // public System.Boolean overstepFallsDown
     // Size: 0x1
     // Offset: 0x50
@@ -234,7 +234,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overstepFallsDown and: quality
     char __padding16[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10DB23C
+    // [TooltipAttribute] Offset: 0x1273B14
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality quality
     // Size: 0x4
     // Offset: 0x54
@@ -329,76 +329,76 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean initiated
     bool& dyn_initiated();
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] get_legs()
-    // Offset: 0x21FA70C
+    // Offset: 0x21D04F0
     ::ArrayW<::RootMotion::FinalIK::Grounding::Leg*> get_legs();
     // private System.Void set_legs(RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] value)
-    // Offset: 0x21FA714
+    // Offset: 0x21D04F8
     void set_legs(::ArrayW<::RootMotion::FinalIK::Grounding::Leg*> value);
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis get_pelvis()
-    // Offset: 0x21FA71C
+    // Offset: 0x21D0500
     ::RootMotion::FinalIK::Grounding::Pelvis* get_pelvis();
     // private System.Void set_pelvis(RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis value)
-    // Offset: 0x21FA724
+    // Offset: 0x21D0508
     void set_pelvis(::RootMotion::FinalIK::Grounding::Pelvis* value);
     // public System.Boolean get_isGrounded()
-    // Offset: 0x21FA72C
+    // Offset: 0x21D0510
     bool get_isGrounded();
     // private System.Void set_isGrounded(System.Boolean value)
-    // Offset: 0x21FA734
+    // Offset: 0x21D0518
     void set_isGrounded(bool value);
     // public UnityEngine.Transform get_root()
-    // Offset: 0x21FA740
+    // Offset: 0x21D0524
     ::UnityEngine::Transform* get_root();
     // private System.Void set_root(UnityEngine.Transform value)
-    // Offset: 0x21FA748
+    // Offset: 0x21D052C
     void set_root(::UnityEngine::Transform* value);
     // public UnityEngine.RaycastHit get_rootHit()
-    // Offset: 0x21FA750
+    // Offset: 0x21D0534
     ::UnityEngine::RaycastHit get_rootHit();
     // private System.Void set_rootHit(UnityEngine.RaycastHit value)
-    // Offset: 0x21FA768
+    // Offset: 0x21D054C
     void set_rootHit(::UnityEngine::RaycastHit value);
     // public System.Boolean get_rootGrounded()
-    // Offset: 0x21FA788
+    // Offset: 0x21D056C
     bool get_rootGrounded();
     // public UnityEngine.Vector3 get_up()
-    // Offset: 0x21F4C80
+    // Offset: 0x21CAA64
     ::UnityEngine::Vector3 get_up();
     // private System.Boolean get_useRootRotation()
-    // Offset: 0x21FBAF8
+    // Offset: 0x21D18DC
     bool get_useRootRotation();
     // public UnityEngine.RaycastHit GetRootHit(System.Single maxDistanceMlp)
-    // Offset: 0x21FA7DC
+    // Offset: 0x21D05C0
     ::UnityEngine::RaycastHit GetRootHit(float maxDistanceMlp);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x21FABBC
+    // Offset: 0x21D09A0
     bool IsValid(ByRef<::StringW> errorMessage);
     // public System.Void Initiate(UnityEngine.Transform root, UnityEngine.Transform[] feet)
-    // Offset: 0x21F4144
+    // Offset: 0x21C9F28
     void Initiate(::UnityEngine::Transform* root, ::ArrayW<::UnityEngine::Transform*> feet);
     // public System.Void Update()
-    // Offset: 0x21F4944
+    // Offset: 0x21CA728
     void Update();
     // public UnityEngine.Vector3 GetLegsPlaneNormal()
-    // Offset: 0x21F679C
+    // Offset: 0x21CC580
     ::UnityEngine::Vector3 GetLegsPlaneNormal();
     // public System.Void Reset()
-    // Offset: 0x21F3CA8
+    // Offset: 0x21C9A8C
     void Reset();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x21FAE3C
+    // Offset: 0x21D0C20
     void LogWarning(::StringW message);
     // public System.Single GetVerticalOffset(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x21FBBC8
+    // Offset: 0x21D19AC
     float GetVerticalOffset(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
     // public UnityEngine.Vector3 Flatten(UnityEngine.Vector3 v)
-    // Offset: 0x21FBD30
+    // Offset: 0x21D1B14
     ::UnityEngine::Vector3 Flatten(::UnityEngine::Vector3 v);
     // public UnityEngine.Vector3 GetFootCenterOffset()
-    // Offset: 0x21FBE34
+    // Offset: 0x21D1C18
     ::UnityEngine::Vector3 GetFootCenterOffset();
     // public System.Void .ctor()
-    // Offset: 0x21F38E8
+    // Offset: 0x21C96CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

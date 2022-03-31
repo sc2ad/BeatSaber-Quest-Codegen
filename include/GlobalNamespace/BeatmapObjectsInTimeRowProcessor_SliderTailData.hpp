@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly SliderData slider
     ::GlobalNamespace::SliderData*& dyn_slider();
     // public System.Void .ctor(SliderData slider)
-    // Offset: 0x2847BE0
+    // Offset: 0x2816D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor::SliderTailData* New_ctor(::GlobalNamespace::SliderData* slider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::SliderTailData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor::SliderTailData*, creationType>(slider)));
     }
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x2849948
+    // Offset: 0x2818AC0
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();

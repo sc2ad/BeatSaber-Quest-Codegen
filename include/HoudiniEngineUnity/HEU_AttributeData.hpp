@@ -225,16 +225,16 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
     ::HoudiniEngineUnity::HEU_AttributeData::AttributeState& dyn__attributeState();
     // public System.Boolean IsColorAttribute()
-    // Offset: 0x16A54B4
+    // Offset: 0x16AE688
     bool IsColorAttribute();
     // public System.Void CopyValuesTo(HoudiniEngineUnity.HEU_AttributeData destAttrData)
-    // Offset: 0x16A552C
+    // Offset: 0x16AE700
     void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AttributeData other)
-    // Offset: 0x16A564C
+    // Offset: 0x16AE820
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
     // public System.Void .ctor()
-    // Offset: 0x16A58C4
+    // Offset: 0x16AEA98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

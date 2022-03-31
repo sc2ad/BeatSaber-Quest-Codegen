@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 numberOfLines
     int& dyn_numberOfLines();
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x137A6C8
+    // Offset: 0x136C4A0
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // public System.Void .ctor()
-    // Offset: 0x137A6C0
+    // Offset: 0x136C498
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

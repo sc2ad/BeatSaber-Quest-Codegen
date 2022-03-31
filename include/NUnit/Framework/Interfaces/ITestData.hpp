@@ -35,13 +35,13 @@ namespace NUnit::Framework::Interfaces {
   class ITestData {
     public:
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::Il2CppObject*> get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
   }; // NUnit.Framework.Interfaces.ITestData
   #pragma pack(pop)

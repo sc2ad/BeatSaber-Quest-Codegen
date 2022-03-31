@@ -76,22 +76,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _rotationY
     float& dyn__rotationY();
     // public System.Int32 get_groupId()
-    // Offset: 0x141B2E0
+    // Offset: 0x140E498
     int get_groupId();
     // public EnvironmentColorType get_environmentColorType()
-    // Offset: 0x141B2E8
+    // Offset: 0x140E4A0
     ::GlobalNamespace::EnvironmentColorType get_environmentColorType();
     // public System.Single get_brightness()
-    // Offset: 0x141B2F0
+    // Offset: 0x140E4A8
     float get_brightness();
     // public System.Single get_rotationX()
-    // Offset: 0x141B2F8
+    // Offset: 0x140E4B0
     float get_rotationX();
     // public System.Single get_rotationY()
-    // Offset: 0x141B300
+    // Offset: 0x140E4B8
     float get_rotationY();
     // public System.Void .ctor()
-    // Offset: 0x141B308
+    // Offset: 0x140E4C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

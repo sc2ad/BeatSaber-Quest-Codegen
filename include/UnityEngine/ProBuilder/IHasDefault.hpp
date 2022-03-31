@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder {
   class IHasDefault {
     public:
     // public System.Void SetDefaultValues()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetDefaultValues();
   }; // UnityEngine.ProBuilder.IHasDefault
   #pragma pack(pop)

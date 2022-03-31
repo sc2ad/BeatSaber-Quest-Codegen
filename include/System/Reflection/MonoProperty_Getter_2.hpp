@@ -34,28 +34,28 @@ namespace System::Reflection {
   class MonoProperty::Getter_2 : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoProperty::Getter_2<T, R>* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoProperty::Getter_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoProperty::Getter_2<T, R>*, creationType>(object, method)));
     }
     // public R Invoke(T _this)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     R Invoke(T _this) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoProperty::Getter_2::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(_this)})));
       return ::il2cpp_utils::RunMethodRethrow<R, false>(this, ___internal__method, _this);
     }
     // public System.IAsyncResult BeginInvoke(T _this, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::IAsyncResult* BeginInvoke(T _this, ::System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoProperty::Getter_2::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(_this), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal__method, _this, callback, object);
     }
     // public R EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     R EndInvoke(::System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoProperty::Getter_2::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));

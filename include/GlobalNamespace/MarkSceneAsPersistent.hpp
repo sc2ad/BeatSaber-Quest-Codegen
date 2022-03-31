@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x108BA68
+    // [InjectAttribute] Offset: 0x1225708
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x18
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void Awake()
-    // Offset: 0x157DD34
+    // Offset: 0x1574A40
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x157DD8C
+    // Offset: 0x1574A98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

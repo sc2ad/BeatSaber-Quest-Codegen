@@ -130,7 +130,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatLine* beatLinePrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatLine*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BCAEC
+    // [InjectAttribute] Offset: 0x1257080
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x80
@@ -165,7 +165,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
     ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1355AC8
+    // Offset: 0x1346FBC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -180,7 +180,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13556C8
+    // Offset: 0x1346BBC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

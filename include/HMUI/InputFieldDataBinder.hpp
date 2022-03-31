@@ -100,7 +100,7 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
     ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*& dyn__bindings();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,T0,System.Func`2<System.String,T1>,System.Func`2<T1,System.String>>> bindingData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T0, class T1>
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T0>, ::GlobalNamespace::IObservableChange> && std::is_convertible_v<std::remove_pointer_t<T0>, ::GlobalNamespace::IValue_1<T1>>);
@@ -110,7 +110,7 @@ namespace HMUI {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, bindingData);
     }
     // public System.Void AddStringBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.InputField,T>> bindingData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::InputField*, T>*>* bindingData) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IObservableChange> && std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IValue_1<::StringW>>);
@@ -120,10 +120,10 @@ namespace HMUI {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, bindingData);
     }
     // public System.Void ClearBindings()
-    // Offset: 0x168A4D8
+    // Offset: 0x16813B8
     void ClearBindings();
     // public System.Void .ctor()
-    // Offset: 0x168A464
+    // Offset: 0x1681344
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

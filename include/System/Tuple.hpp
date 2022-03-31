@@ -41,7 +41,7 @@ namespace System {
   class Tuple : public ::Il2CppObject {
     public:
     // static public System.Tuple`2<T1,T2> Create(T1 item1, T2 item2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T1, class T2>
     static ::System::Tuple_2<T1, T2>* Create(T1 item1, T2 item2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Tuple::Create");
@@ -50,7 +50,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<::System::Tuple_2<T1, T2>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, item1, item2);
     }
     // static public System.Tuple`3<T1,T2,T3> Create(T1 item1, T2 item2, T3 item3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T1, class T2, class T3>
     static ::System::Tuple_3<T1, T2, T3>* Create(T1 item1, T2 item2, T3 item3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Tuple::Create");
@@ -59,7 +59,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<::System::Tuple_3<T1, T2, T3>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, item1, item2, item3);
     }
     // static public System.Tuple`4<T1,T2,T3,T4> Create(T1 item1, T2 item2, T3 item3, T4 item4)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T1, class T2, class T3, class T4>
     static ::System::Tuple_4<T1, T2, T3, T4>* Create(T1 item1, T2 item2, T3 item3, T4 item4) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Tuple::Create");
@@ -68,13 +68,13 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<::System::Tuple_4<T1, T2, T3, T4>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, item1, item2, item3, item4);
     }
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x29B11A0
+    // Offset: 0x297E318
     static int CombineHashCodes(int h1, int h2);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x29B11AC
+    // Offset: 0x297E324
     static int CombineHashCodes(int h1, int h2, int h3);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4)
-    // Offset: 0x29B11C0
+    // Offset: 0x297E338
     static int CombineHashCodes(int h1, int h2, int h3, int h4);
   }; // System.Tuple
   #pragma pack(pop)

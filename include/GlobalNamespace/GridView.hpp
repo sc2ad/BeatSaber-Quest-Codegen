@@ -123,31 +123,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Collections.Generic.List`1<UnityEngine.MonoBehaviour>> _spawnedCellsPerPrefabDictionary
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>*& dyn__spawnedCellsPerPrefabDictionary();
     // public GridView/IDataSource get_dataSource()
-    // Offset: 0x1324B84
+    // Offset: 0x13EB7D0
     ::GlobalNamespace::GridView::IDataSource* get_dataSource();
     // public GridView/GridViewCellsEnumerator get_cellsEnumerator()
-    // Offset: 0x1324B8C
+    // Offset: 0x13EB7D8
     ::GlobalNamespace::GridView::GridViewCellsEnumerator* get_cellsEnumerator();
     // private System.Void set_cellsEnumerator(GridView/GridViewCellsEnumerator value)
-    // Offset: 0x1324B94
+    // Offset: 0x13EB7E0
     void set_cellsEnumerator(::GlobalNamespace::GridView::GridViewCellsEnumerator* value);
     // public System.Int32 get_rowCount()
-    // Offset: 0x1324B9C
+    // Offset: 0x13EB7E8
     int get_rowCount();
     // public System.Int32 get_columnCount()
-    // Offset: 0x1324BA4
+    // Offset: 0x13EB7F0
     int get_columnCount();
     // public System.Void SetDataSource(GridView/IDataSource newDataSource, System.Boolean reloadData)
-    // Offset: 0x1324BAC
+    // Offset: 0x13EB7F8
     void SetDataSource(::GlobalNamespace::GridView::IDataSource* newDataSource, bool reloadData);
     // public System.Void ReloadData()
-    // Offset: 0x1324C70
+    // Offset: 0x13EB8BC
     void ReloadData();
     // public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetActiveCellsForIdentifier(UnityEngine.MonoBehaviour prefab)
-    // Offset: 0x13252D4
+    // Offset: 0x13EBF20
     ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* GetActiveCellsForIdentifier(::UnityEngine::MonoBehaviour* prefab);
     // public T GetReusableCellView(UnityEngine.MonoBehaviour prefab)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T GetReusableCellView(::UnityEngine::MonoBehaviour* prefab) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::MonoBehaviour*>);
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, prefab);
     }
     // public System.Void .ctor()
-    // Offset: 0x132539C
+    // Offset: 0x13EBFE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

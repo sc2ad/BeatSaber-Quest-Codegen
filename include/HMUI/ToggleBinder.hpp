@@ -88,35 +88,35 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _enabled
     bool& dyn__enabled();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x169D050
+    // Offset: 0x1693F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ToggleBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x169CFE8
+    // Offset: 0x1693EC8
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x169D090
+    // Offset: 0x1693F70
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.UI.Toggle toggle, System.Action`1<System.Boolean> action)
-    // Offset: 0x169D198
+    // Offset: 0x1694078
     void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
     // public System.Void AddBinding(UnityEngine.UI.Toggle toggle, System.Boolean enabled, System.Action action)
-    // Offset: 0x169D258
+    // Offset: 0x1694138
     void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
     // public System.Void ClearBindings()
-    // Offset: 0x169D350
+    // Offset: 0x1694230
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x169D4E8
+    // Offset: 0x16943C8
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x169D670
+    // Offset: 0x1694550
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x169CFB8
+    // Offset: 0x1693E98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

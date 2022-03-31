@@ -170,20 +170,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotation
     float& dyn_rotation();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, System.Single duration, System.Int32 width, System.Int32 height, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance, System.Single rotation)
-    // Offset: 0x29F55D0
+    // Offset: 0x29C1748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSpawnInfoNetSerializable* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float duration, int width, int height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance, float rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSpawnInfoNetSerializable*, creationType>(time, lineIndex, lineLayer, duration, width, height, moveStartPos, moveEndPos, jumpEndPos, obstacleHeight, moveDuration, jumpDuration, noteLinesDistance, rotation)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29F5748
+    // Offset: 0x29C18C0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29F588C
+    // Offset: 0x29C1A04
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x29F5740
+    // Offset: 0x29C18B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

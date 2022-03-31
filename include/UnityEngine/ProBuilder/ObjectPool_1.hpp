@@ -130,42 +130,42 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<::System::Action_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 desiredSize, System.Func`1<T> constructor, System.Action`1<T> destructor, System.Boolean lazyInitialization)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectPool_1<T>* New_ctor(int initialSize, int desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor, bool lazyInitialization) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ObjectPool_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectPool_1<T>*, creationType>(initialSize, desiredSize, constructor, destructor, lazyInitialization)));
     }
     // public T Dequeue()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Dequeue() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ObjectPool_1::Dequeue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void Enqueue(T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Enqueue(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ObjectPool_1::Enqueue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, obj);
     }
     // public System.Void Empty()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Empty() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ObjectPool_1::Empty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Empty", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void Dispose()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ObjectPool_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Dispose(bool disposing) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ObjectPool_1::Dispose");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposing)})));

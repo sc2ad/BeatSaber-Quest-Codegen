@@ -33,13 +33,13 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
       return *reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>*>(this);
     }
     // public System.Single get_time()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_time();
     // public System.Int32 CompareTo(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem other)
-    // Offset: 0x284A408
+    // Offset: 0x2819580
     int CompareTo(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* other);
     // protected System.Void .ctor()
-    // Offset: 0x284A108
+    // Offset: 0x2819280
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

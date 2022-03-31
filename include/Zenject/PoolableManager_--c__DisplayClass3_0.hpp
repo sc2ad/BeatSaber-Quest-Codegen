@@ -68,16 +68,16 @@ namespace Zenject {
     // Get instance field reference: public Zenject.IPoolable poolable
     ::Zenject::IPoolable*& dyn_poolable();
     // System.Boolean <CreatePoolableInfo>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1BF6C24
+    // Offset: 0x1BDD0F4
     bool $CreatePoolableInfo$b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BF6CBC
+    // Offset: 0x1BDD18C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BF6D18
+    // Offset: 0x1BDD1E8
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BF61E0
+    // Offset: 0x1BDC6B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -35,7 +35,7 @@ namespace System::Net::Http::Headers {
   class HashCodeCalculator : public ::Il2CppObject {
     public:
     // static public System.Int32 Calculate(System.Collections.Generic.ICollection`1<T> list)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static int Calculate(::System::Collections::Generic::ICollection_1<T>* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HashCodeCalculator::Calculate");

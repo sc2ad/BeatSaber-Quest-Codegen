@@ -341,107 +341,107 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
     ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::LiteNetLib::DeliveryMethod>*& dyn_onReceivedDataEvent();
     // public System.String get_userId()
-    // Offset: 0x164C7A8
+    // Offset: 0x16434EC
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x164C898
+    // Offset: 0x16435DC
     ::StringW get_userName();
     // public System.Boolean get_isConnected()
-    // Offset: 0x164C988
+    // Offset: 0x16436CC
     bool get_isConnected();
     // public System.Boolean get_isConnecting()
-    // Offset: 0x164C998
+    // Offset: 0x16436DC
     bool get_isConnecting();
     // public System.Boolean get_isDisconnecting()
-    // Offset: 0x164C9A8
+    // Offset: 0x16436EC
     bool get_isDisconnecting();
     // public System.Int32 get_connectionCount()
-    // Offset: 0x164C9B8
+    // Offset: 0x16436FC
     int get_connectionCount();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x164CA20
+    // Offset: 0x1643764
     bool get_isConnectionOwner();
     // public System.Boolean get_isDisposed()
-    // Offset: 0x164CA54
+    // Offset: 0x1643798
     bool get_isDisposed();
     // public System.Int32 get_port()
-    // Offset: 0x164CA88
+    // Offset: 0x16437CC
     int get_port();
     // public System.String get_playerSessionId()
-    // Offset: 0x164CACC
+    // Offset: 0x1643810
     ::StringW get_playerSessionId();
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x164CAE8
+    // Offset: 0x164382C
     ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x164CAFC
+    // Offset: 0x1643840
     ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.String get_code()
-    // Offset: 0x164CB10
+    // Offset: 0x1643854
     ::StringW get_code();
     // public System.String get_secret()
-    // Offset: 0x164CB18
+    // Offset: 0x164385C
     ::StringW get_secret();
     // public System.Void add_onInitializedEvent(System.Action value)
-    // Offset: 0x164BEB0
+    // Offset: 0x1642BF4
     void add_onInitializedEvent(::System::Action* value);
     // public System.Void remove_onInitializedEvent(System.Action value)
-    // Offset: 0x164BF54
+    // Offset: 0x1642C98
     void remove_onInitializedEvent(::System::Action* value);
     // public System.Void add_onConnectedEvent(System.Action value)
-    // Offset: 0x164BFF8
+    // Offset: 0x1642D3C
     void add_onConnectedEvent(::System::Action* value);
     // public System.Void remove_onConnectedEvent(System.Action value)
-    // Offset: 0x164C09C
+    // Offset: 0x1642DE0
     void remove_onConnectedEvent(::System::Action* value);
     // public System.Void add_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x164C140
+    // Offset: 0x1642E84
     void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x164C1E4
+    // Offset: 0x1642F28
     void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x164C288
+    // Offset: 0x1642FCC
     void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x164C32C
+    // Offset: 0x1643070
     void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void add_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x164C3D0
+    // Offset: 0x1643114
     void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
     // public System.Void remove_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x164C474
+    // Offset: 0x16431B8
     void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
     // public System.Void add_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x164C518
+    // Offset: 0x164325C
     void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x164C5BC
+    // Offset: 0x1643300
     void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x164C660
+    // Offset: 0x16433A4
     void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::LiteNetLib::DeliveryMethod>* value);
     // public System.Void remove_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x164C704
+    // Offset: 0x1643448
     void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::LiteNetLib::DeliveryMethod>* value);
     // public System.Void .ctor(BGNet.Core.ITimeProvider timeProvider)
-    // Offset: 0x164CDD4
+    // Offset: 0x1643B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameLiftConnectionManager* New_ctor(::BGNet::Core::ITimeProvider* timeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameLiftConnectionManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftConnectionManager*, creationType>(timeProvider)));
     }
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x164CB20
+    // Offset: 0x1643864
     void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod, IConnection excludingConnection)
-    // Offset: 0x164CB64
+    // Offset: 0x16438A8
     void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
     // public System.Void PollUpdate()
-    // Offset: 0x164CC34
+    // Offset: 0x1643978
     void PollUpdate();
     // public System.Boolean Init(IConnectionInitParams`1<T> initParams)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IConnectionManager>);
@@ -451,49 +451,49 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, initParams);
     }
     // public System.Void Dispose()
-    // Offset: 0x164D58C
+    // Offset: 0x16442D0
     void Dispose();
     // public System.Void Disconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x164D5D4
+    // Offset: 0x1644318
     void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void DisconnectInternal(ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x164D790
+    // Offset: 0x16444D4
     void DisconnectInternal(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // private System.Void DisconnectInternal(DisconnectedReason disconnectedReason, ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x164D5DC
+    // Offset: 0x1644320
     void DisconnectInternal(::GlobalNamespace::DisconnectedReason disconnectedReason, ::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // public IConnection GetConnection(System.Int32 index)
-    // Offset: 0x164D7B4
+    // Offset: 0x16444F8
     ::GlobalNamespace::IConnection* GetConnection(int index);
     // private System.Void HandleConnected()
-    // Offset: 0x164D844
+    // Offset: 0x1644588
     void HandleConnected();
     // private System.Void HandleConnectionConnected(IConnection connection)
-    // Offset: 0x164D8A0
+    // Offset: 0x16445E4
     void HandleConnectionConnected(::GlobalNamespace::IConnection* connection);
     // private System.Void HandleConnectionDisconnected(IConnection connection, DisconnectedReason reason)
-    // Offset: 0x164D914
+    // Offset: 0x1644658
     void HandleConnectionDisconnected(::GlobalNamespace::IConnection* connection, ::GlobalNamespace::DisconnectedReason reason);
     // private System.Void HandleConnectionFailed(ConnectionFailedReason failedReason)
-    // Offset: 0x164D990
+    // Offset: 0x16446D4
     void HandleConnectionFailed(::GlobalNamespace::ConnectionFailedReason failedReason);
     // private System.Void HandleReceivedData(IConnection connection, LiteNetLib.Utils.NetDataReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x164D99C
+    // Offset: 0x16446E0
     void HandleReceivedData(::GlobalNamespace::IConnection* connection, ::LiteNetLib::Utils::NetDataReader* reader, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void GameLiftConnectToServer(System.String secret, System.String code, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x164DA2C
+    // Offset: 0x1644770
     void GameLiftConnectToServer(::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
     // private System.Void HandleConnectToServerSuccess(System.String playerSessionId, System.Net.IPEndPoint remoteEndPoint, System.String gameSessionId, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x164DB08
+    // Offset: 0x164484C
     void HandleConnectToServerSuccess(::StringW playerSessionId, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW gameSessionId, ::StringW secret, ::StringW code, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
     // private System.Void ConnectToEndPoint(System.Net.IPEndPoint remoteEndPoint, System.String gameSessionId)
-    // Offset: 0x164DDA4
+    // Offset: 0x1644AE8
     void ConnectToEndPoint(::System::Net::IPEndPoint* remoteEndPoint, ::StringW gameSessionId);
     // public System.Void GetPublicServers(System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Int32 offset, System.Int32 count)
-    // Offset: 0x164DF40
+    // Offset: 0x1644C84
     void GetPublicServers(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, int offset, int count);
     // public System.Void .ctor()
-    // Offset: 0x164CD70
+    // Offset: 0x1643AB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

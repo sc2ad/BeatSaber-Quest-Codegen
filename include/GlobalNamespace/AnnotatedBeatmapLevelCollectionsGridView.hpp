@@ -99,14 +99,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PageControl* pageControl;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PageControl*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C2FEC
+    // [SpaceAttribute] Offset: 0x125D580
     // private AnnotatedBeatmapLevelCollectionsGridViewAnimator _animator
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* animator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C3024
+    // [SpaceAttribute] Offset: 0x125D5B8
     // private AnnotatedBeatmapLevelCollectionCell _cellPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -125,21 +125,21 @@ namespace GlobalNamespace {
     float cellHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10C307C
+    // [SpaceAttribute] Offset: 0x125D610
     // private System.String[] _promoPackIDStrings
     // Size: 0x8
     // Offset: 0x40
     ::ArrayW<::StringW> promoPackIDStrings;
     // Field size check
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
-    // [InjectAttribute] Offset: 0x10C30B4
+    // [InjectAttribute] Offset: 0x125D648
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C30C4
+    // [InjectAttribute] Offset: 0x125D658
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x50
@@ -246,79 +246,79 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _selectedCellIndex
     int& dyn__selectedCellIndex();
     // public System.Void add_didOpenAnnotatedBeatmapLevelCollectionEvent(System.Action value)
-    // Offset: 0x14B98C0
+    // Offset: 0x14B3278
     void add_didOpenAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
     // public System.Void remove_didOpenAnnotatedBeatmapLevelCollectionEvent(System.Action value)
-    // Offset: 0x14B9964
+    // Offset: 0x14B331C
     void remove_didOpenAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
     // public System.Void add_didCloseAnnotatedBeatmapLevelCollectionEvent(System.Action value)
-    // Offset: 0x14B9A08
+    // Offset: 0x14B33C0
     void add_didCloseAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
     // public System.Void remove_didCloseAnnotatedBeatmapLevelCollectionEvent(System.Action value)
-    // Offset: 0x14B9AAC
+    // Offset: 0x14B3464
     void remove_didCloseAnnotatedBeatmapLevelCollectionEvent(::System::Action* value);
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x14B9B50
+    // Offset: 0x14B3508
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x14B9BF4
+    // Offset: 0x14B35AC
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> annotatedBeatmapLevelCollections)
-    // Offset: 0x14B9C98
+    // Offset: 0x14B3650
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections);
     // private System.Void Init()
-    // Offset: 0x14B9D38
+    // Offset: 0x14B36F0
     void Init();
     // protected System.Void OnEnable()
-    // Offset: 0x14B9EE0
+    // Offset: 0x14B3898
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x14BA000
+    // Offset: 0x14B39B8
     void OnDisable();
     // public System.Void Show()
-    // Offset: 0x14BA124
+    // Offset: 0x14B3ADC
     void Show();
     // public System.Void Hide()
-    // Offset: 0x14BA14C
+    // Offset: 0x14B3B04
     void Hide();
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x14BA174
+    // Offset: 0x14B3B2C
     void CancelAsyncOperations();
     // public System.Void RefreshAvailability()
-    // Offset: 0x14BA2B0
+    // Offset: 0x14B3C68
     void RefreshAvailability();
     // public System.Void SelectAndScrollToCellWithIdx(System.Int32 idx)
-    // Offset: 0x14BA4F4
+    // Offset: 0x14B3EAC
     void SelectAndScrollToCellWithIdx(int idx);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x14BA800
+    // Offset: 0x14B41B8
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x14BABA8
+    // Offset: 0x14B4560
     void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x14BAEFC
+    // Offset: 0x14B48B4
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void HandleVRPlatformHelperInputFocusCaptured()
-    // Offset: 0x14BB07C
+    // Offset: 0x14B4A34
     void HandleVRPlatformHelperInputFocusCaptured();
     // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transition, System.Object changeOwner)
-    // Offset: 0x14BB0CC
+    // Offset: 0x14B4A84
     void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transition, ::Il2CppObject* changeOwner);
     // public System.Int32 GetNumberOfCells()
-    // Offset: 0x14BAFC0
+    // Offset: 0x14B4978
     int GetNumberOfCells();
     // public System.Single GetCellWidth()
-    // Offset: 0x14BB4D8
+    // Offset: 0x14B4E90
     float GetCellWidth();
     // public System.Single GetCellHeight()
-    // Offset: 0x14BB4E0
+    // Offset: 0x14B4E98
     float GetCellHeight();
     // public UnityEngine.MonoBehaviour CellForIdx(GridView gridView, System.Int32 idx)
-    // Offset: 0x14BB4E8
+    // Offset: 0x14B4EA0
     ::UnityEngine::MonoBehaviour* CellForIdx(::GlobalNamespace::GridView* gridView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x14BB844
+    // Offset: 0x14B51FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -65,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3[] startPositions
     ::ArrayW<::UnityEngine::Vector3>& dyn_startPositions();
     // private System.Void OnValidate()
-    // Offset: 0x141775C
+    // Offset: 0x140A914
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1417840
+    // Offset: 0x140A9F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

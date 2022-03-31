@@ -71,19 +71,19 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
     ::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>*& dyn_writeableFields();
     // System.Boolean <GetOnlyPropertySetter>b__0(System.Reflection.FieldInfo f)
-    // Offset: 0x1BED364
+    // Offset: 0x1BD3834
     bool $GetOnlyPropertySetter$b__0(::System::Reflection::FieldInfo* f);
     // System.Void <GetOnlyPropertySetter>b__2(System.Object injectable, System.Object value)
-    // Offset: 0x1BED40C
+    // Offset: 0x1BD38DC
     void $GetOnlyPropertySetter$b__2(::Il2CppObject* injectable, ::Il2CppObject* value);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BED4DC
+    // Offset: 0x1BD39AC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BED538
+    // Offset: 0x1BD3A08
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BECCB4
+    // Offset: 0x1BD3184
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

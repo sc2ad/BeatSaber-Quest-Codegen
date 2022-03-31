@@ -29,67 +29,67 @@ namespace System {
     // Set static field: static public readonly System.Boolean IsLittleEndian
     static void _set_IsLittleEndian(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1E8B7F4
+    // Offset: 0x1E6ECC4
     static void _cctor();
     // static private System.Boolean AmILittleEndian()
-    // Offset: 0x1E8A950
+    // Offset: 0x1E6DE20
     static bool AmILittleEndian();
     // static public System.Byte[] GetBytes(System.Int16 value)
-    // Offset: 0x1E8A958
+    // Offset: 0x1E6DE28
     static ::ArrayW<uint8_t> GetBytes(int16_t value);
     // static public System.Byte[] GetBytes(System.Int32 value)
-    // Offset: 0x1E8A9CC
+    // Offset: 0x1E6DE9C
     static ::ArrayW<uint8_t> GetBytes(int value);
     // static public System.Byte[] GetBytes(System.Int64 value)
-    // Offset: 0x1E8AA40
+    // Offset: 0x1E6DF10
     static ::ArrayW<uint8_t> GetBytes(int64_t value);
     // static public System.Byte[] GetBytes(System.UInt16 value)
-    // Offset: 0x1E8AAB4
+    // Offset: 0x1E6DF84
     static ::ArrayW<uint8_t> GetBytes(uint16_t value);
     // static public System.Byte[] GetBytes(System.UInt32 value)
-    // Offset: 0x1E8AB18
+    // Offset: 0x1E6DFE8
     static ::ArrayW<uint8_t> GetBytes(uint value);
     // static public System.Char ToChar(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8AB7C
+    // Offset: 0x1E6E04C
     static ::Il2CppChar ToChar(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int16 ToInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8AC40
+    // Offset: 0x1E6E110
     static int16_t ToInt16(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int32 ToInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8AD50
+    // Offset: 0x1E6E220
     static int ToInt32(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int64 ToInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8AE7C
+    // Offset: 0x1E6E34C
     static int64_t ToInt64(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt16 ToUInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8AFD4
+    // Offset: 0x1E6E4A4
     static uint16_t ToUInt16(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt32 ToUInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8B098
+    // Offset: 0x1E6E568
     static uint ToUInt32(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt64 ToUInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8B15C
+    // Offset: 0x1E6E62C
     static uint64_t ToUInt64(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Single ToSingle(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8B220
+    // Offset: 0x1E6E6F0
     static float ToSingle(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Double ToDouble(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1E8B2EC
+    // Offset: 0x1E6E7BC
     static double ToDouble(::ArrayW<uint8_t> value, int startIndex);
     // static private System.Char GetHexValue(System.Int32 i)
-    // Offset: 0x1E8B3B8
+    // Offset: 0x1E6E888
     static ::Il2CppChar GetHexValue(int i);
     // static public System.String ToString(System.Byte[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1E8B3D0
+    // Offset: 0x1E6E8A0
     static ::StringW ToString(::ArrayW<uint8_t> value, int startIndex, int length);
     // static public System.String ToString(System.Byte[] value)
-    // Offset: 0x1E8B73C
+    // Offset: 0x1E6EC0C
     static ::StringW ToString(::ArrayW<uint8_t> value);
     // static public System.Int64 DoubleToInt64Bits(System.Double value)
-    // Offset: 0x1E8B7E4
+    // Offset: 0x1E6ECB4
     static int64_t DoubleToInt64Bits(double value);
     // static public System.Double Int64BitsToDouble(System.Int64 value)
-    // Offset: 0x1E8B7EC
+    // Offset: 0x1E6ECBC
     static double Int64BitsToDouble(int64_t value);
   }; // System.BitConverter
   #pragma pack(pop)

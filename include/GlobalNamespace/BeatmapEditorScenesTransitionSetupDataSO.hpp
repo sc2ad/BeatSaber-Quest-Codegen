@@ -63,25 +63,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <goStraightToEditor>k__BackingField
     bool& dyn_$goStraightToEditor$k__BackingField();
     // public System.Boolean get_goStraightToEditor()
-    // Offset: 0x14F9E90
+    // Offset: 0x14C6CF0
     bool get_goStraightToEditor();
     // private System.Void set_goStraightToEditor(System.Boolean value)
-    // Offset: 0x14F9E98
+    // Offset: 0x14C6CF8
     void set_goStraightToEditor(bool value);
     // public System.Void add_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x14F9D48
+    // Offset: 0x14C6BA8
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x14F9DEC
+    // Offset: 0x14C6C4C
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void Init(System.Boolean goStraightToEditor)
-    // Offset: 0x14F9EA4
+    // Offset: 0x14C6D04
     void Init(bool goStraightToEditor);
     // public System.Void Finish()
-    // Offset: 0x14F9F24
+    // Offset: 0x14C6D84
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0x14F9F88
+    // Offset: 0x14C6DE8
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

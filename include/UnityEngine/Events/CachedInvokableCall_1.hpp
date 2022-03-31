@@ -66,14 +66,14 @@ namespace UnityEngine::Events {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(UnityEngine.Object target, System.Reflection.MethodInfo theFunction, T argument)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedInvokableCall_1<T>* New_ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction, T argument) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::CachedInvokableCall_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedInvokableCall_1<T>*, creationType>(target, theFunction, argument)));
     }
     // public override System.Void Invoke(System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall_1::Invoke(System.Object[] args)
     void Invoke(::ArrayW<::Il2CppObject*> args) {
@@ -82,7 +82,7 @@ namespace UnityEngine::Events {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, args);
     }
     // public override System.Void Invoke(T arg0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall_1::Invoke(T arg0)
     void Invoke(T arg0) {

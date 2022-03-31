@@ -23,10 +23,10 @@ namespace GlobalNamespace {
   class IAvatarPart {
     public:
     // public System.String get_id()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_id();
     // public System.String get_localizedName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_localizedName();
   }; // IAvatarPart
   #pragma pack(pop)

@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private RectangleFakeGlow _rectangleFakeGlow
     ::GlobalNamespace::RectangleFakeGlow*& dyn__rectangleFakeGlow();
     // public UnityEngine.Color get_color()
-    // Offset: 0x13C7A18
+    // Offset: 0x137D128
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x13C7A64
+    // Offset: 0x137D174
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlowLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x13C7A38
+    // Offset: 0x137D148
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

@@ -82,26 +82,26 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.InputField <>4__this
     ::UnityEngine::UI::InputField*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1E98BC0
+    // Offset: 0x1E7C090
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1E98C28
+    // Offset: 0x1E7C0F8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1E98788
+    // Offset: 0x1E7BC58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputField::$MouseDragOutsideRect$d__181* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::InputField::$MouseDragOutsideRect$d__181::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputField::$MouseDragOutsideRect$d__181*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1E987B4
+    // Offset: 0x1E7BC84
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1E987B8
+    // Offset: 0x1E7BC88
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1E98BC8
+    // Offset: 0x1E7C098
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.InputField/UnityEngine.UI.<MouseDragOutsideRect>d__181
   #pragma pack(pop)

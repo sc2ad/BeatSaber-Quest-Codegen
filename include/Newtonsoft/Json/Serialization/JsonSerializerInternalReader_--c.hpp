@@ -59,22 +59,22 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public System.Func`2<Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.PropertyPresence> <>9__41_1
     static void _set_$$9__41_1(::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D4F44C
+    // Offset: 0x1D3291C
     static void _cctor();
     // System.String <CreateObjectUsingCreatorWithParameters>b__36_0(Newtonsoft.Json.Serialization.JsonProperty p)
-    // Offset: 0x1D4F4B8
+    // Offset: 0x1D32988
     ::StringW $CreateObjectUsingCreatorWithParameters$b__36_0(::Newtonsoft::Json::Serialization::JsonProperty* p);
     // System.String <CreateObjectUsingCreatorWithParameters>b__36_2(Newtonsoft.Json.Serialization.JsonProperty p)
-    // Offset: 0x1D4F4D0
+    // Offset: 0x1D329A0
     ::StringW $CreateObjectUsingCreatorWithParameters$b__36_2(::Newtonsoft::Json::Serialization::JsonProperty* p);
     // Newtonsoft.Json.Serialization.JsonProperty <PopulateObject>b__41_0(Newtonsoft.Json.Serialization.JsonProperty m)
-    // Offset: 0x1D4F4E8
+    // Offset: 0x1D329B8
     ::Newtonsoft::Json::Serialization::JsonProperty* $PopulateObject$b__41_0(::Newtonsoft::Json::Serialization::JsonProperty* m);
     // Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.PropertyPresence <PopulateObject>b__41_1(Newtonsoft.Json.Serialization.JsonProperty m)
-    // Offset: 0x1D4F4F0
+    // Offset: 0x1D329C0
     ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence $PopulateObject$b__41_1(::Newtonsoft::Json::Serialization::JsonProperty* m);
     // public System.Void .ctor()
-    // Offset: 0x1D4F4B0
+    // Offset: 0x1D32980
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

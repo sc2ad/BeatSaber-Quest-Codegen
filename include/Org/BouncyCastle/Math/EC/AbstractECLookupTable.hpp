@@ -40,16 +40,16 @@ namespace Org::BouncyCastle::Math::EC {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::ECLookupTable*>(this);
     }
     // public System.Int32 get_Size()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Size();
     // public Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x229BA7C
+    // Offset: 0x2271860
     ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
     // protected System.Void .ctor()
-    // Offset: 0x229BA88
+    // Offset: 0x227186C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

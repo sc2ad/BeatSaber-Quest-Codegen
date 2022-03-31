@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10A804C
+    // [InjectAttribute] Offset: 0x1242008
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private FadeInOutController _fadeInOut
     ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
     // protected System.Void Start()
-    // Offset: 0x2A1C788
+    // Offset: 0x29E7964
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x2A1C7A4
+    // Offset: 0x29E7980
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -36,7 +36,7 @@ namespace Zenject {
   class SceneKernel : public ::Zenject::MonoKernel {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1CF81D8
+    // Offset: 0x1CDC6A8
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -50,7 +50,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SceneKernel*, creationType>()));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CF81E0
+    // Offset: 0x1CDC6B0
     // Implemented from: Zenject.MonoKernel
     // Base method: Zenject.InjectTypeInfo MonoKernel::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

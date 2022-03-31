@@ -26,14 +26,14 @@ namespace Zenject {
   class IPoolable_4 {
     public:
     // public System.Void OnDespawned()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnDespawned() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IPoolable_4::OnDespawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IPoolable_4::OnSpawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractType(p3), ::il2cpp_utils::ExtractType(p4)})));

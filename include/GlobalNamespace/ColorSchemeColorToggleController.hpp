@@ -72,16 +72,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Toggle _toggle
     ::UnityEngine::UI::Toggle*& dyn__toggle();
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x1365064
+    // Offset: 0x1356D00
     ::UnityEngine::UI::Toggle* get_toggle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x136506C
+    // Offset: 0x1356D08
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13650B0
+    // Offset: 0x1356D4C
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1365154
+    // Offset: 0x1356DF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -67,22 +67,22 @@ namespace Newtonsoft::Json::Utilities {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__39_0
     static void _set_$$9__39_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x205FBE4
+    // Offset: 0x204D5B8
     static void _cctor();
     // System.Boolean <GetDefaultConstructor>b__10_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x205FC50
+    // Offset: 0x204D624
     bool $GetDefaultConstructor$b__10_0(::System::Reflection::ConstructorInfo* c);
     // System.String <GetFieldsAndProperties>b__29_0(System.Reflection.MemberInfo m)
-    // Offset: 0x205FCC4
+    // Offset: 0x204D698
     ::StringW $GetFieldsAndProperties$b__29_0(::System::Reflection::MemberInfo* m);
     // System.Type <GetMemberInfoFromType>b__37_0(System.Reflection.ParameterInfo p)
-    // Offset: 0x205FCE4
+    // Offset: 0x204D6B8
     ::System::Type* $GetMemberInfoFromType$b__37_0(::System::Reflection::ParameterInfo* p);
     // System.Boolean <GetChildPrivateFields>b__39_0(System.Reflection.FieldInfo f)
-    // Offset: 0x205FD04
+    // Offset: 0x204D6D8
     bool $GetChildPrivateFields$b__39_0(::System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0x205FC48
+    // Offset: 0x204D61C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

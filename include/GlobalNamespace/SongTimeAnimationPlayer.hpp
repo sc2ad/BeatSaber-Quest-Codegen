@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationClip* animationClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BC9FC
+    // [InjectAttribute] Offset: 0x1256F90
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -70,10 +70,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
     ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // protected System.Void Update()
-    // Offset: 0x13EE9C0
+    // Offset: 0x2AA8F18
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13EEA08
+    // Offset: 0x2AA8F60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

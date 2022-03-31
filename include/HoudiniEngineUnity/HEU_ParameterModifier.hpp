@@ -161,13 +161,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _intValue
     int& dyn__intValue();
     // static public HoudiniEngineUnity.HEU_ParameterModifier GetNewModifier(HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction action, System.Int32 parameterIndex, System.Int32 instanceIndex, System.Int32 modifierValue)
-    // Offset: 0x1ACE540
+    // Offset: 0x1AB2B78
     static ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction action, int parameterIndex, int instanceIndex, int modifierValue);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterModifier other)
-    // Offset: 0x1ACE5D4
+    // Offset: 0x1AB2C0C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
     // public System.Void .ctor()
-    // Offset: 0x1ACE5CC
+    // Offset: 0x1AB2C04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

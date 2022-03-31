@@ -68,19 +68,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _multiplierIncreaseMaxProgress
     int& dyn__multiplierIncreaseMaxProgress();
     // public System.Int32 get_multiplier()
-    // Offset: 0x13B0274
+    // Offset: 0x142535C
     int get_multiplier();
     // public System.Single get_normalizedProgress()
-    // Offset: 0x13AE638
+    // Offset: 0x142380C
     float get_normalizedProgress();
     // public System.Void Reset()
-    // Offset: 0x13AFE6C
+    // Offset: 0x1424F54
     void Reset();
     // public System.Boolean ProcessMultiplierEvent(ScoreMultiplierCounter/MultiplierEventType multiplierEventType)
-    // Offset: 0x13AE594
+    // Offset: 0x1423768
     bool ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType multiplierEventType);
     // public System.Void .ctor()
-    // Offset: 0x13AEEBC
+    // Offset: 0x1424090
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

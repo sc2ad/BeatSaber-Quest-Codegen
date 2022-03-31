@@ -60,34 +60,34 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String logFileName
     ::StringW& dyn_logFileName();
     // public System.String get_LogFileName()
-    // Offset: 0x1CC322C
+    // Offset: 0x1CA76FC
     ::StringW get_LogFileName();
     // static private System.Void .cctor()
-    // Offset: 0x1CC2FC8
+    // Offset: 0x1CA7498
     static void _cctor();
     // static private System.String GetPrefix(System.String var, System.String target)
-    // Offset: 0x1CC30F4
+    // Offset: 0x1CA75C4
     static ::StringW GetPrefix(::StringW var, ::StringW target);
     // static private System.Void WriteWindowsDebugString(System.String message)
-    // Offset: 0x1CC340C
+    // Offset: 0x1CA78DC
     static void WriteWindowsDebugString(::StringW message);
     // private System.Void WriteDebugString(System.String message)
-    // Offset: 0x1CC3410
+    // Offset: 0x1CA78E0
     void WriteDebugString(::StringW message);
     // private System.Void WriteMonoTrace(System.String message)
-    // Offset: 0x1CC34BC
+    // Offset: 0x1CA798C
     void WriteMonoTrace(::StringW message);
     // private System.Void WritePrefix()
-    // Offset: 0x1CC3898
+    // Offset: 0x1CA7D68
     void WritePrefix();
     // private System.Void WriteImpl(System.String message)
-    // Offset: 0x1CC3938
+    // Offset: 0x1CA7E08
     void WriteImpl(::StringW message);
     // private System.Void WriteLogFile(System.String message, System.String logFile)
-    // Offset: 0x1CC368C
+    // Offset: 0x1CA7B5C
     void WriteLogFile(::StringW message, ::StringW logFile);
     // public System.Void .ctor()
-    // Offset: 0x1CC3184
+    // Offset: 0x1CA7654
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -97,22 +97,22 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTraceListener*, creationType>()));
     }
     // public override System.Void Fail(System.String message)
-    // Offset: 0x1CC3234
+    // Offset: 0x1CA7704
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message)
     void Fail(::StringW message);
     // public override System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1CC3254
+    // Offset: 0x1CA7724
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message, System.String detailMessage)
     void Fail(::StringW message, ::StringW detailMessage);
     // public override System.Void Write(System.String message)
-    // Offset: 0x1CC3A18
+    // Offset: 0x1CA7EE8
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Write(System.String message)
     void Write(::StringW message);
     // public override System.Void WriteLine(System.String message)
-    // Offset: 0x1CC3A1C
+    // Offset: 0x1CA7EEC
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::WriteLine(System.String message)
     void WriteLine(::StringW message);

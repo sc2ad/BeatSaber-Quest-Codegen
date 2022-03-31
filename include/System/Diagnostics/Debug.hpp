@@ -23,7 +23,7 @@ namespace System::Diagnostics {
   class Debug : public ::Il2CppObject {
     public:
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0x1CC2EDC
+    // Offset: 0x1CA73AC
     static void Assert_(bool condition);
   }; // System.Diagnostics.Debug
   #pragma pack(pop)

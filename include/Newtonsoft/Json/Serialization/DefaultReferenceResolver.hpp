@@ -65,22 +65,22 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Int32 _referenceCount
     int& dyn__referenceCount();
     // private Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object> GetMappings(System.Object context)
-    // Offset: 0x1D3E218
+    // Offset: 0x1D216E8
     ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* GetMappings(::Il2CppObject* context);
     // public System.Object ResolveReference(System.Object context, System.String reference)
-    // Offset: 0x1D3E3E4
+    // Offset: 0x1D218B4
     ::Il2CppObject* ResolveReference(::Il2CppObject* context, ::StringW reference);
     // public System.String GetReference(System.Object context, System.Object value)
-    // Offset: 0x1D3E460
+    // Offset: 0x1D21930
     ::StringW GetReference(::Il2CppObject* context, ::Il2CppObject* value);
     // public System.Void AddReference(System.Object context, System.String reference, System.Object value)
-    // Offset: 0x1D3E554
+    // Offset: 0x1D21A24
     void AddReference(::Il2CppObject* context, ::StringW reference, ::Il2CppObject* value);
     // public System.Boolean IsReferenced(System.Object context, System.Object value)
-    // Offset: 0x1D3E5C8
+    // Offset: 0x1D21A98
     bool IsReferenced(::Il2CppObject* context, ::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1D3E644
+    // Offset: 0x1D21B14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

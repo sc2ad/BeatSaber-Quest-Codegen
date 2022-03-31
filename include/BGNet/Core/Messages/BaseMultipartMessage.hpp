@@ -113,37 +113,37 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Byte[] _data
     ::ArrayW<uint8_t>& dyn__data();
     // public System.UInt32 get_multipartMessageId()
-    // Offset: 0x152D0D0
+    // Offset: 0x14F9D70
     uint get_multipartMessageId();
     // private System.Void set_multipartMessageId(System.UInt32 value)
-    // Offset: 0x152D0D8
+    // Offset: 0x14F9D78
     void set_multipartMessageId(uint value);
     // public System.Int32 get_offset()
-    // Offset: 0x152D0E0
+    // Offset: 0x14F9D80
     int get_offset();
     // private System.Void set_offset(System.Int32 value)
-    // Offset: 0x152D0E8
+    // Offset: 0x14F9D88
     void set_offset(int value);
     // public System.Int32 get_length()
-    // Offset: 0x152D0F0
+    // Offset: 0x14F9D90
     int get_length();
     // private System.Void set_length(System.Int32 value)
-    // Offset: 0x152D0F8
+    // Offset: 0x14F9D98
     void set_length(int value);
     // public System.Int32 get_totalLength()
-    // Offset: 0x152D100
+    // Offset: 0x14F9DA0
     int get_totalLength();
     // private System.Void set_totalLength(System.Int32 value)
-    // Offset: 0x152D108
+    // Offset: 0x14F9DA8
     void set_totalLength(int value);
     // public System.Byte[] get_data()
-    // Offset: 0x152D110
+    // Offset: 0x14F9DB0
     ::ArrayW<uint8_t> get_data();
     // public BGNet.Core.Messages.BaseMultipartMessage Init(System.UInt32 multipartMessageId, System.Byte[] data, System.Int32 offset, System.Int32 length, System.Int32 totalLength)
-    // Offset: 0x152D118
+    // Offset: 0x14F9DB8
     ::BGNet::Core::Messages::BaseMultipartMessage* Init(uint multipartMessageId, ::ArrayW<uint8_t> data, int offset, int length, int totalLength);
     // protected System.Void .ctor()
-    // Offset: 0x152D3C0
+    // Offset: 0x14FA060
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -153,12 +153,12 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMultipartMessage*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152D174
+    // Offset: 0x14F9E14
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152D224
+    // Offset: 0x14F9EC4
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

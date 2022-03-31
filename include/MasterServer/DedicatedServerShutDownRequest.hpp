@@ -81,34 +81,34 @@ namespace MasterServer {
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerShutDownRequest> get_pool()
-    // Offset: 0x16FCBE0
+    // Offset: 0x16F3AD0
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerShutDownRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x16FCC28
+    // Offset: 0x16F3B18
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x16FCC30
+    // Offset: 0x16F3B20
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x16FCC38
+    // Offset: 0x16F3B28
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x16FCC40
+    // Offset: 0x16F3B30
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerShutDownRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
-    // Offset: 0x16FCC48
+    // Offset: 0x16F3B38
     ::MasterServer::DedicatedServerShutDownRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16FCC50
+    // Offset: 0x16F3B40
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16FCC94
+    // Offset: 0x16F3B84
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16FCCDC
+    // Offset: 0x16F3BCC
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x16FCD38
+    // Offset: 0x16F3C28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

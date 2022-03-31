@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isDirectory>k__BackingField
     bool& dyn_$isDirectory$k__BackingField();
     // public System.String get_displayName()
-    // Offset: 0x12DF3D0
+    // Offset: 0x138B0A8
     ::StringW get_displayName();
     // private System.Void set_displayName(System.String value)
-    // Offset: 0x12DF3D8
+    // Offset: 0x138B0B0
     void set_displayName(::StringW value);
     // public System.String get_fullPath()
-    // Offset: 0x12DF3E0
+    // Offset: 0x138B0B8
     ::StringW get_fullPath();
     // private System.Void set_fullPath(System.String value)
-    // Offset: 0x12DF3E8
+    // Offset: 0x138B0C0
     void set_fullPath(::StringW value);
     // public System.Boolean get_isDirectory()
-    // Offset: 0x12DF3F0
+    // Offset: 0x138B0C8
     bool get_isDirectory();
     // private System.Void set_isDirectory(System.Boolean value)
-    // Offset: 0x12DF3F8
+    // Offset: 0x138B0D0
     void set_isDirectory(bool value);
     // public System.Void .ctor(System.String displayName, System.String fullPath, System.Boolean isDirectory)
-    // Offset: 0x12DF404
+    // Offset: 0x138B0DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserItem* New_ctor(::StringW displayName, ::StringW fullPath, bool isDirectory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserItem::.ctor");

@@ -36,12 +36,12 @@ namespace System::Net::Configuration {
   class HttpWebRequestElement : public ::System::Configuration::ConfigurationElement {
     public:
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A41954
+    // Offset: 0x1A36840
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x1A41914
+    // Offset: 0x1A36800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

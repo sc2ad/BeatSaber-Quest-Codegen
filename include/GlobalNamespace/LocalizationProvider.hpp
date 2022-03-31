@@ -60,19 +60,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private Polyglot.Localization _localization
     ::Polyglot::Localization*& dyn__localization();
     // public Polyglot.Localization get_localization()
-    // Offset: 0x2A1077C
+    // Offset: 0x29DC958
     ::Polyglot::Localization* get_localization();
     // static public LocalizationProvider get_Instance()
-    // Offset: 0x2A10784
+    // Offset: 0x29DC960
     static ::GlobalNamespace::LocalizationProvider* get_Instance();
     // static public System.Void set_Instance(LocalizationProvider value)
-    // Offset: 0x2A108F4
+    // Offset: 0x29DCAD0
     static void set_Instance(::GlobalNamespace::LocalizationProvider* value);
     // static public System.Boolean get_HasInstance()
-    // Offset: 0x2A10810
+    // Offset: 0x29DC9EC
     static bool get_HasInstance();
     // public System.Void .ctor()
-    // Offset: 0x2A10948
+    // Offset: 0x29DCB24
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

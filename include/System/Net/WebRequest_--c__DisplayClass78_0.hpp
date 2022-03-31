@@ -69,10 +69,10 @@ namespace System::Net {
     // Get instance field reference: public System.Net.WebRequest <>4__this
     ::System::Net::WebRequest*& dyn_$$4__this();
     // System.Threading.Tasks.Task`1<System.IO.Stream> <GetRequestStreamAsync>b__1()
-    // Offset: 0x1B21EAC
+    // Offset: 0x1B26660
     ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* $GetRequestStreamAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x1B2169C
+    // Offset: 0x1B25E50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

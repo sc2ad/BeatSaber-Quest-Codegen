@@ -140,10 +140,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawTouch SecondaryTouchpad
     ::GlobalNamespace::OVRInput::RawTouch& dyn_SecondaryTouchpad();
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x19CD710
+    // Offset: 0x19C35FC
     ::GlobalNamespace::OVRInput::RawTouch ToRawMask(::GlobalNamespace::OVRInput::Touch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x19CCA40
+    // Offset: 0x19C292C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

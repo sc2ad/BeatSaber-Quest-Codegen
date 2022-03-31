@@ -122,22 +122,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<HowToPlayViewController/HowToPlayOptions> didFinishEvent
     ::System::Action_1<::GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x1328EC0
+    // Offset: 0x13B1FA8
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x13290F8
+    // Offset: 0x13B21E0
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void Setup(System.Boolean showTutorialButton)
-    // Offset: 0x132A260
+    // Offset: 0x13B3348
     void Setup(bool showTutorialButton);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x132A3A0
+    // Offset: 0x13B3488
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x132A404
+    // Offset: 0x13B34EC
     void $DidActivate$b__7_1();
     // public System.Void .ctor()
-    // Offset: 0x132A398
+    // Offset: 0x13B3480
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HowToPlayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x132A29C
+    // Offset: 0x13B3384
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

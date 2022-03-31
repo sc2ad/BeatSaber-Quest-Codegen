@@ -76,29 +76,29 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Collections.IHashCodeProvider _hcp
     ::System::Collections::IHashCodeProvider*& dyn__hcp();
     // public System.Collections.IComparer get_Comparer()
-    // Offset: 0x1D6E0C8
+    // Offset: 0x1D51598
     ::System::Collections::IComparer* get_Comparer();
     // public System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x1D6E0D0
+    // Offset: 0x1D515A0
     ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // static public System.Collections.IComparer get_DefaultComparer()
-    // Offset: 0x1D6E0D8
+    // Offset: 0x1D515A8
     static ::System::Collections::IComparer* get_DefaultComparer();
     // static public System.Collections.IHashCodeProvider get_DefaultHashCodeProvider()
-    // Offset: 0x1D6E1AC
+    // Offset: 0x1D5167C
     static ::System::Collections::IHashCodeProvider* get_DefaultHashCodeProvider();
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x1D6DD6C
+    // Offset: 0x1D5123C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(::System::Collections::IComparer* comparer, ::System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1D6DDA4
+    // Offset: 0x1D51274
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1D6DFB0
+    // Offset: 0x1D51480
     int GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.Specialized.CompatibleComparer
   #pragma pack(pop)

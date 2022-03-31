@@ -71,13 +71,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _buyButton
     ::UnityEngine::UI::Button*& dyn__buyButton();
     // public UnityEngine.UI.Button get_buyButton()
-    // Offset: 0x13F14A8
+    // Offset: 0x2AAC83C
     ::UnityEngine::UI::Button* get_buyButton();
     // public System.Void SetContent(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x13F14B0
+    // Offset: 0x2AAC844
     void SetContent(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x13F14CC
+    // Offset: 0x2AAC860
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

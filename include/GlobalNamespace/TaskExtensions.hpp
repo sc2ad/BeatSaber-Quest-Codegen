@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     template<typename T>
     struct $WaitForTask$d__1_1;
     // static public System.Threading.Tasks.Task`1<T> WithCancellation(System.Threading.Tasks.Task`1<T> task, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Threading::Tasks::Task_1<T>* WithCancellation(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::WithCancellation");
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, cancellationToken);
     }
     // static private System.Void WaitForTask(System.Threading.Tasks.Task`1<T> task, System.Threading.Tasks.TaskCompletionSource`1<T> tcs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void WaitForTask(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::WaitForTask");

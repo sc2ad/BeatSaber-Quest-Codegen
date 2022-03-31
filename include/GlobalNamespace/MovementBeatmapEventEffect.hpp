@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BasicBeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x10B7874
+    // [SpaceAttribute] Offset: 0x1251D48
     // private System.Single _transitionSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -77,14 +77,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MovementBeatmapEventEffect::MovementData*> movementData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MovementBeatmapEventEffect::MovementData*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10B78BC
+    // [SpaceAttribute] Offset: 0x1251D90
     // private UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::UnityEngine::Transform*> transforms;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10B78F4
+    // [InjectAttribute] Offset: 0x1251DC8
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
@@ -147,25 +147,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Start()
-    // Offset: 0x14425F0
+    // Offset: 0x13CA654
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1442904
+    // Offset: 0x13CA968
     void OnDestroy();
     // protected System.Void FixedUpdate()
-    // Offset: 0x1442920
+    // Offset: 0x13CA984
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1442AA0
+    // Offset: 0x13CAB04
     void LateUpdate();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1442B8C
+    // Offset: 0x13CABF0
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void SetLocalPositionOffsetsForAllObjects(UnityEngine.Vector3 localPositionOffset)
-    // Offset: 0x14427CC
+    // Offset: 0x13CA830
     void SetLocalPositionOffsetsForAllObjects(::UnityEngine::Vector3 localPositionOffset);
     // public System.Void .ctor()
-    // Offset: 0x1442BC8
+    // Offset: 0x13CAC2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

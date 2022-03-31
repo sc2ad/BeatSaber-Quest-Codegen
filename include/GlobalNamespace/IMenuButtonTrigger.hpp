@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class IMenuButtonTrigger {
     public:
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_menuButtonTriggeredEvent(::System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_menuButtonTriggeredEvent(::System::Action* value);
   }; // IMenuButtonTrigger
   #pragma pack(pop)

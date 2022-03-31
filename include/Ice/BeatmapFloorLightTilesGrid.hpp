@@ -75,7 +75,7 @@ namespace Ice {
     ::Ice::FloorLightTilesGrid* floorLightTilesGrid;
     // Field size check
     static_assert(sizeof(::Ice::FloorLightTilesGrid*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E32D8
+    // [InjectAttribute] Offset: 0x127BBB0
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x30
@@ -96,10 +96,10 @@ namespace Ice {
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // protected System.Void Start()
-    // Offset: 0x2AA2020
+    // Offset: 0x2A6F1D0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x2AA22A0
+    // Offset: 0x2A6F450
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

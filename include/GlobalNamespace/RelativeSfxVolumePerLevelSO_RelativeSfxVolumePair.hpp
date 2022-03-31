@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _relativeSfxVolume
     float& dyn__relativeSfxVolume();
     // public System.String get_levelId()
-    // Offset: 0x13C811C
+    // Offset: 0x137D82C
     ::StringW get_levelId();
     // public System.Single get_relativeSfxVolume()
-    // Offset: 0x13C81CC
+    // Offset: 0x137D8DC
     float get_relativeSfxVolume();
     // public System.Void .ctor()
-    // Offset: 0x13C81D4
+    // Offset: 0x137D8E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

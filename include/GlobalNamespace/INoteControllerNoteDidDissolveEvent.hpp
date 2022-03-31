@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class INoteControllerNoteDidDissolveEvent {
     public:
     // public System.Void HandleNoteControllerNoteDidDissolve(NoteController noteController)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleNoteControllerNoteDidDissolve(::GlobalNamespace::NoteController* noteController);
   }; // INoteControllerNoteDidDissolveEvent
   #pragma pack(pop)

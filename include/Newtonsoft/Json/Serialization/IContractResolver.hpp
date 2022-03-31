@@ -35,7 +35,7 @@ namespace Newtonsoft::Json::Serialization {
   class IContractResolver {
     public:
     // public Newtonsoft.Json.Serialization.JsonContract ResolveContract(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type* type);
   }; // Newtonsoft.Json.Serialization.IContractResolver
   #pragma pack(pop)

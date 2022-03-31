@@ -84,7 +84,7 @@ namespace System::IO {
     // Get instance field reference: public System.DateTime LastWriteTime
     ::System::DateTime& dyn_LastWriteTime();
     // public System.Void .ctor()
-    // Offset: 0x1CD1838
+    // Offset: 0x1CB5D08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

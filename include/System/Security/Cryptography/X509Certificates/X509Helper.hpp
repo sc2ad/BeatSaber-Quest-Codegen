@@ -52,43 +52,43 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Security.Cryptography.X509Certificates.INativeCertificateHelper nativeHelper
     static void _set_nativeHelper(::System::Security::Cryptography::X509Certificates::INativeCertificateHelper* value);
     // static System.Void InstallNativeHelper(System.Security.Cryptography.X509Certificates.INativeCertificateHelper helper)
-    // Offset: 0x209B3E0
+    // Offset: 0x2088DB4
     static void InstallNativeHelper(::System::Security::Cryptography::X509Certificates::INativeCertificateHelper* helper);
     // static private System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Byte[] rawData)
-    // Offset: 0x209B44C
+    // Offset: 0x2088E20
     static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t> rawData);
     // static public System.Security.Cryptography.X509Certificates.X509CertificateImpl InitFromCertificate(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x2099D40
+    // Offset: 0x2087714
     static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* InitFromCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
     // static public System.Security.Cryptography.X509Certificates.X509CertificateImpl InitFromCertificate(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x2099BC4
+    // Offset: 0x2087598
     static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* InitFromCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // static public System.Boolean IsValid(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x2099F04
+    // Offset: 0x20878D8
     static bool IsValid(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // static System.Void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x2099E80
+    // Offset: 0x2087854
     static void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // static System.Exception GetInvalidContextException()
-    // Offset: 0x209AA34
+    // Offset: 0x2088408
     static ::System::Exception* GetInvalidContextException();
     // static Mono.Security.X509.X509Certificate ImportPkcs12(System.Byte[] rawData, System.String password)
-    // Offset: 0x209B61C
+    // Offset: 0x2088FF0
     static ::Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayW<uint8_t> rawData, ::StringW password);
     // static private System.Byte[] PEM(System.String type, System.Byte[] data)
-    // Offset: 0x209B9E4
+    // Offset: 0x20893B8
     static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data);
     // static private System.Byte[] ConvertData(System.Byte[] data)
-    // Offset: 0x209BB10
+    // Offset: 0x20894E4
     static ::ArrayW<uint8_t> ConvertData(::ArrayW<uint8_t> data);
     // static private System.Security.Cryptography.X509Certificates.X509CertificateImpl ImportCore(System.Byte[] rawData)
-    // Offset: 0x209B450
+    // Offset: 0x2088E24
     static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* ImportCore(::ArrayW<uint8_t> rawData);
     // static public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    // Offset: 0x209A6A0
+    // Offset: 0x2088074
     static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t> rawData, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // static public System.String ToHexString(System.Byte[] data)
-    // Offset: 0x209A09C
+    // Offset: 0x2087A70
     static ::StringW ToHexString(::ArrayW<uint8_t> data);
   }; // System.Security.Cryptography.X509Certificates.X509Helper
   #pragma pack(pop)

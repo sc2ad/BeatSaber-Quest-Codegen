@@ -29,7 +29,7 @@ namespace UnityEngine::Playables {
   class INotification {
     public:
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::PropertyName get_id();
   }; // UnityEngine.Playables.INotification
   #pragma pack(pop)

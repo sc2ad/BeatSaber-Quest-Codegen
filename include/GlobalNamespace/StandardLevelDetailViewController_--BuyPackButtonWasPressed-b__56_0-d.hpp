@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/OpenProductStoreResult> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13F5024
+    // Offset: 0x1331F0C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13F5280
+    // Offset: 0x133216C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<<BuyPackButtonWasPressed>b__56_0>d
   // WARNING Not writing size check since size may be invalid!

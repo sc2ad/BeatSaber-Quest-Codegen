@@ -34,10 +34,10 @@ namespace System {
   class ModifierSpec {
     public:
     // public System.Type Resolve(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* Resolve(::System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
   }; // System.ModifierSpec
   #pragma pack(pop)

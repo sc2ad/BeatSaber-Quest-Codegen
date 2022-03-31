@@ -84,38 +84,38 @@ namespace IntervalTree {
       return *reinterpret_cast<TValue*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public TKey get_From()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TKey get_From() {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::RangeValuePair_2::get_From");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_From", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method);
     }
     // public TKey get_To()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TKey get_To() {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::RangeValuePair_2::get_To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_To", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method);
     }
     // public TValue get_Value()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::RangeValuePair_2::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method);
     }
     // public System.Void .ctor(TKey from, TKey to, TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // ABORTED: conflicts with another method.  RangeValuePair_2(TKey from, TKey to, TValue value)
     // public System.Boolean Equals(IntervalTree.RangeValuePair`2<TKey,TValue> other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Equals(::IntervalTree::RangeValuePair_2<TKey, TValue> other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::RangeValuePair_2::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, other);
     }
     // public override System.String ToString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString() {
@@ -124,7 +124,7 @@ namespace IntervalTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
@@ -133,7 +133,7 @@ namespace IntervalTree {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
@@ -144,14 +144,14 @@ namespace IntervalTree {
   }; // IntervalTree.RangeValuePair`2
   // Could not write size check! Type: IntervalTree.RangeValuePair`2 is generic, or has no fields that are valid for size checks!
   // static public System.Boolean op_Equality(IntervalTree.RangeValuePair`2<TKey,TValue> left, IntervalTree.RangeValuePair`2<TKey,TValue> right)
-  // Offset: 0xFFFFFFFF
+  // Offset: 0xFFFFFFFFFFFFFFFF
   inline bool operator ==(const ::IntervalTree::RangeValuePair_2<TKey, TValue>& left, const ::IntervalTree::RangeValuePair_2<TKey, TValue>& right) {
     static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::RangeValuePair_2::op_Equality");
     static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RangeValuePair_2<TKey, TValue>>::get(), "op_Equality", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(left), ::il2cpp_utils::ExtractType(right)})));
     return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, left, right);
   }
   // static public System.Boolean op_Inequality(IntervalTree.RangeValuePair`2<TKey,TValue> left, IntervalTree.RangeValuePair`2<TKey,TValue> right)
-  // Offset: 0xFFFFFFFF
+  // Offset: 0xFFFFFFFFFFFFFFFF
   inline bool operator !=(const ::IntervalTree::RangeValuePair_2<TKey, TValue>& left, const ::IntervalTree::RangeValuePair_2<TKey, TValue>& right) {
     static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::RangeValuePair_2::op_Inequality");
     static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RangeValuePair_2<TKey, TValue>>::get(), "op_Inequality", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(left), ::il2cpp_utils::ExtractType(right)})));

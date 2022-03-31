@@ -61,19 +61,19 @@ namespace Zenject {
     // Get instance field reference: private System.Type <SignalType>k__BackingField
     ::System::Type*& dyn_$SignalType$k__BackingField();
     // public System.Object get_Identifier()
-    // Offset: 0x1CF9C2C
+    // Offset: 0x1CDE0FC
     ::Il2CppObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
-    // Offset: 0x1CF9C34
+    // Offset: 0x1CDE104
     void set_Identifier(::Il2CppObject* value);
     // public System.Type get_SignalType()
-    // Offset: 0x1CF9C3C
+    // Offset: 0x1CDE10C
     ::System::Type* get_SignalType();
     // private System.Void set_SignalType(System.Type value)
-    // Offset: 0x1CF9C44
+    // Offset: 0x1CDE114
     void set_SignalType(::System::Type* value);
     // public System.Void .ctor(System.Type signalType)
-    // Offset: 0x1CF9C00
+    // Offset: 0x1CDE0D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalBindingBindInfo* New_ctor(::System::Type* signalType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalBindingBindInfo::.ctor");

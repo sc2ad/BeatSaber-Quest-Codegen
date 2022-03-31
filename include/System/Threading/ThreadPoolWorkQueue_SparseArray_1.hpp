@@ -52,28 +52,28 @@ namespace System::Threading {
       return *reinterpret_cast<::ArrayW<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // T[] get_Current()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<T> get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueue::SparseArray_1::get_Current");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___internal__method);
     }
     // System.Void .ctor(System.Int32 initialSize)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueue::SparseArray_1<T>* New_ctor(int initialSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueue::SparseArray_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueue::SparseArray_1<T>*, creationType>(initialSize)));
     }
     // System.Int32 Add(T e)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int Add(T e) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueue::SparseArray_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(e)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, e);
     }
     // System.Void Remove(T e)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Remove(T e) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueue::SparseArray_1::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(e)})));

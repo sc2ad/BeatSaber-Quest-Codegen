@@ -45,7 +45,7 @@ namespace Facebook::SocialVR::ThirdParty::Newtonsoftjson {
   class UnityEntitySerializer : public ::Newtonsoft::Json::JsonConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12DEBE4
+    // Offset: 0x138A8BC
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -55,17 +55,17 @@ namespace Facebook::SocialVR::ThirdParty::Newtonsoftjson {
       return THROW_UNLESS((::il2cpp_utils::New<UnityEntitySerializer*, creationType>()));
     }
     // public override System.Boolean CanConvert(System.Type objectType)
-    // Offset: 0x12DE970
+    // Offset: 0x138A648
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
     bool CanConvert(::System::Type* objectType);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x12DEA18
+    // Offset: 0x138A6F0
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x12DEAAC
+    // Offset: 0x138A784
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);

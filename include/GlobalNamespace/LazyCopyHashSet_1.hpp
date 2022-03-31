@@ -96,35 +96,35 @@ namespace GlobalNamespace {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Collections.Generic.List`1<T> get_items()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::List_1<T>* get_items() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LazyCopyHashSet_1::get_items");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_items", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyCopyHashSet_1<T>* New_ctor(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LazyCopyHashSet_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyCopyHashSet_1<T>*, creationType>(capacity)));
     }
     // public System.Void Add(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LazyCopyHashSet_1::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void Remove(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Remove(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LazyCopyHashSet_1::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

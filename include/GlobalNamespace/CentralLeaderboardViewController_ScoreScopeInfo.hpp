@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 playerScorePos
     int& dyn_playerScorePos();
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
-    // Offset: 0x1361F64
+    // Offset: 0x1353C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(::OnlineServices::ScoresScope scoreScope, ::UnityEngine::Sprite* icon, ::StringW localizedTitle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::.ctor");

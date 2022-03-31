@@ -26,14 +26,14 @@ namespace GlobalNamespace {
   class IValue_1 {
     public:
     // public T get_value()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T get_value() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IValue_1::get_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_value(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IValue_1::set_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));

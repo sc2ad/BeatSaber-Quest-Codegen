@@ -30,16 +30,16 @@ namespace System::Runtime::Remoting::Messaging {
   class IInternalMessage {
     public:
     // public System.Runtime.Remoting.Identity get_TargetIdentity()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Runtime::Remoting::Identity* get_TargetIdentity();
     // public System.Void set_TargetIdentity(System.Runtime.Remoting.Identity value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
     // public System.String get_Uri()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Uri();
     // public System.Void set_Uri(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_Uri(::StringW value);
   }; // System.Runtime.Remoting.Messaging.IInternalMessage
   #pragma pack(pop)

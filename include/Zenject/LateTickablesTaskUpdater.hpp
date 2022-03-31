@@ -38,13 +38,13 @@ namespace Zenject {
   class LateTickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ILateTickable*> {
     public:
     // protected System.Void UpdateItem(Zenject.ILateTickable task)
-    // Offset: 0x1BF3188
+    // Offset: 0x1BD9658
     void UpdateItem(::Zenject::ILateTickable* task);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BF3284
+    // Offset: 0x1BD9754
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public System.Void .ctor()
-    // Offset: 0x1BF3234
+    // Offset: 0x1BD9704
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -54,7 +54,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<LateTickablesTaskUpdater*, creationType>()));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BF32DC
+    // Offset: 0x1BD97AC
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: Zenject.InjectTypeInfo TaskUpdater_1::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

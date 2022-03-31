@@ -153,58 +153,58 @@ namespace HMUI {
     // Get instance field reference: private HMUI.SectionTableView/HMUI.Section[] _sections
     ::ArrayW<::HMUI::SectionTableView::Section>& dyn__sections();
     // public HMUI.SectionTableView/HMUI.IDataSource get_dataSource()
-    // Offset: 0x1694564
+    // Offset: 0x168B444
     ::HMUI::SectionTableView::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SectionTableView/HMUI.IDataSource value)
-    // Offset: 0x169456C
+    // Offset: 0x168B44C
     void set_dataSource(::HMUI::SectionTableView::IDataSource* value);
     // public System.Void add_didSelectRowInSectionEvent(System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> value)
-    // Offset: 0x16942D4
+    // Offset: 0x168B1B4
     void add_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int, int>* value);
     // public System.Void remove_didSelectRowInSectionEvent(System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> value)
-    // Offset: 0x1694378
+    // Offset: 0x168B258
     void remove_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int, int>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`2<HMUI.SectionTableView,System.Int32> value)
-    // Offset: 0x169441C
+    // Offset: 0x168B2FC
     void add_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`2<HMUI.SectionTableView,System.Int32> value)
-    // Offset: 0x16944C0
+    // Offset: 0x168B3A0
     void remove_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int>* value);
     // public System.Boolean IsSectionUnfolded(System.Int32 section)
-    // Offset: 0x1694590
+    // Offset: 0x168B470
     bool IsSectionUnfolded(int section);
     // public System.Single CellSize()
-    // Offset: 0x16945D0
+    // Offset: 0x168B4B0
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1694680
+    // Offset: 0x168B560
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 baseRow)
-    // Offset: 0x16946D0
+    // Offset: 0x168B5B0
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int baseRow);
     // public System.Void ReloadData(System.Boolean resetFoldState)
-    // Offset: 0x1694978
+    // Offset: 0x168B858
     void ReloadData(bool resetFoldState);
     // public System.Void UnfoldAllSections()
-    // Offset: 0x1694F50
+    // Offset: 0x168BE30
     void UnfoldAllSections();
     // public System.Void FoldAll()
-    // Offset: 0x1694FB0
+    // Offset: 0x168BE90
     void FoldAll();
     // public System.Void UnfoldSection(System.Int32 section)
-    // Offset: 0x169500C
+    // Offset: 0x168BEEC
     void UnfoldSection(int section);
     // public System.Void FoldSection(System.Int32 section)
-    // Offset: 0x1695494
+    // Offset: 0x168C374
     void FoldSection(int section);
     // public System.Void ScrollToRow(System.Int32 section, System.Int32 row, HMUI.TableView/HMUI.ScrollPositionType scrollPositionType, System.Boolean animated)
-    // Offset: 0x169587C
+    // Offset: 0x168C75C
     void ScrollToRow(int section, int row, ::HMUI::TableView::ScrollPositionType scrollPositionType, bool animated);
     // public System.Void SectionAndRowForBaseRow(System.Int32 baseRow, out System.Int32 section, out System.Int32 row, out System.Boolean isSectionHeader)
-    // Offset: 0x1694880
+    // Offset: 0x168B760
     void SectionAndRowForBaseRow(int baseRow, ByRef<int> section, ByRef<int> row, ByRef<bool> isSectionHeader);
     // public System.Void .ctor()
-    // Offset: 0x16959B0
+    // Offset: 0x168C890
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -218,12 +218,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<SectionTableView*, creationType>()));
     }
     // public override System.Void ReloadData()
-    // Offset: 0x1694970
+    // Offset: 0x168B850
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::ReloadData()
     void ReloadData();
     // protected override System.Void DidSelectCellWithIdx(System.Int32 baseRow)
-    // Offset: 0x1694E88
+    // Offset: 0x168BD68
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::DidSelectCellWithIdx(System.Int32 baseRow)
     void DidSelectCellWithIdx(int baseRow);

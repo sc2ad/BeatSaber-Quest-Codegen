@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::OpenSsl {
   class IPasswordFinder {
     public:
     // public System.Char[] GetPassword()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::Il2CppChar> GetPassword();
   }; // Org.BouncyCastle.OpenSsl.IPasswordFinder
   #pragma pack(pop)

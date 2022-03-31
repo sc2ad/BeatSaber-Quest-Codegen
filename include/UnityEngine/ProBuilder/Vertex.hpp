@@ -143,167 +143,167 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private UnityEngine.ProBuilder.MeshArrays m_Attributes
     ::UnityEngine::ProBuilder::MeshArrays& dyn_m_Attributes();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x2989614
+    // Offset: 0x295778C
     ::UnityEngine::Vector3 get_position();
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x2986564
+    // Offset: 0x29546DC
     void set_position(::UnityEngine::Vector3 value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x298964C
+    // Offset: 0x29577C4
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x298658C
+    // Offset: 0x2954704
     void set_color(::UnityEngine::Color value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0x2989684
+    // Offset: 0x29577FC
     ::UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0x29865B4
+    // Offset: 0x295472C
     void set_normal(::UnityEngine::Vector3 value);
     // public UnityEngine.Vector4 get_tangent()
-    // Offset: 0x29896BC
+    // Offset: 0x2957834
     ::UnityEngine::Vector4 get_tangent();
     // public System.Void set_tangent(UnityEngine.Vector4 value)
-    // Offset: 0x29865DC
+    // Offset: 0x2954754
     void set_tangent(::UnityEngine::Vector4 value);
     // public UnityEngine.Vector2 get_uv0()
-    // Offset: 0x29896F4
+    // Offset: 0x295786C
     ::UnityEngine::Vector2 get_uv0();
     // public System.Void set_uv0(UnityEngine.Vector2 value)
-    // Offset: 0x2986604
+    // Offset: 0x295477C
     void set_uv0(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_uv2()
-    // Offset: 0x2989728
+    // Offset: 0x29578A0
     ::UnityEngine::Vector2 get_uv2();
     // public System.Void set_uv2(UnityEngine.Vector2 value)
-    // Offset: 0x2986628
+    // Offset: 0x29547A0
     void set_uv2(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector4 get_uv3()
-    // Offset: 0x298975C
+    // Offset: 0x29578D4
     ::UnityEngine::Vector4 get_uv3();
     // public System.Void set_uv3(UnityEngine.Vector4 value)
-    // Offset: 0x298664C
+    // Offset: 0x29547C4
     void set_uv3(::UnityEngine::Vector4 value);
     // public UnityEngine.Vector4 get_uv4()
-    // Offset: 0x2989794
+    // Offset: 0x295790C
     ::UnityEngine::Vector4 get_uv4();
     // public System.Void set_uv4(UnityEngine.Vector4 value)
-    // Offset: 0x2986674
+    // Offset: 0x29547EC
     void set_uv4(::UnityEngine::Vector4 value);
     // UnityEngine.ProBuilder.MeshArrays get_attributes()
-    // Offset: 0x29897CC
+    // Offset: 0x2957944
     ::UnityEngine::ProBuilder::MeshArrays get_attributes();
     // private System.Boolean get_hasPosition()
-    // Offset: 0x29897D4
+    // Offset: 0x295794C
     bool get_hasPosition();
     // private System.Void set_hasPosition(System.Boolean value)
-    // Offset: 0x2989620
+    // Offset: 0x2957798
     void set_hasPosition(bool value);
     // private System.Boolean get_hasColor()
-    // Offset: 0x29897E0
+    // Offset: 0x2957958
     bool get_hasColor();
     // private System.Void set_hasColor(System.Boolean value)
-    // Offset: 0x2989658
+    // Offset: 0x29577D0
     void set_hasColor(bool value);
     // private System.Boolean get_hasNormal()
-    // Offset: 0x29897EC
+    // Offset: 0x2957964
     bool get_hasNormal();
     // private System.Void set_hasNormal(System.Boolean value)
-    // Offset: 0x2989690
+    // Offset: 0x2957808
     void set_hasNormal(bool value);
     // private System.Boolean get_hasTangent()
-    // Offset: 0x29897F8
+    // Offset: 0x2957970
     bool get_hasTangent();
     // private System.Void set_hasTangent(System.Boolean value)
-    // Offset: 0x29896C8
+    // Offset: 0x2957840
     void set_hasTangent(bool value);
     // private System.Boolean get_hasUV0()
-    // Offset: 0x2989804
+    // Offset: 0x295797C
     bool get_hasUV0();
     // private System.Void set_hasUV0(System.Boolean value)
-    // Offset: 0x29896FC
+    // Offset: 0x2957874
     void set_hasUV0(bool value);
     // private System.Boolean get_hasUV2()
-    // Offset: 0x2989810
+    // Offset: 0x2957988
     bool get_hasUV2();
     // private System.Void set_hasUV2(System.Boolean value)
-    // Offset: 0x2989730
+    // Offset: 0x29578A8
     void set_hasUV2(bool value);
     // private System.Boolean get_hasUV3()
-    // Offset: 0x298981C
+    // Offset: 0x2957994
     bool get_hasUV3();
     // private System.Void set_hasUV3(System.Boolean value)
-    // Offset: 0x2989768
+    // Offset: 0x29578E0
     void set_hasUV3(bool value);
     // private System.Boolean get_hasUV4()
-    // Offset: 0x2989828
+    // Offset: 0x29579A0
     bool get_hasUV4();
     // private System.Void set_hasUV4(System.Boolean value)
-    // Offset: 0x29897A0
+    // Offset: 0x2957918
     void set_hasUV4(bool value);
     // public System.Void .ctor(UnityEngine.ProBuilder.Vertex vertex)
-    // Offset: 0x2989C64
+    // Offset: 0x2957DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vertex* New_ctor(::UnityEngine::ProBuilder::Vertex* vertex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Vertex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vertex*, creationType>(vertex)));
     }
     // public System.Boolean HasArrays(UnityEngine.ProBuilder.MeshArrays attribute)
-    // Offset: 0x2986554
+    // Offset: 0x29546CC
     bool HasArrays(::UnityEngine::ProBuilder::MeshArrays attribute);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Vertex other)
-    // Offset: 0x29898B8
+    // Offset: 0x2957A30
     bool Equals(::UnityEngine::ProBuilder::Vertex* other);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Vertex other, UnityEngine.ProBuilder.MeshArrays mask)
-    // Offset: 0x2989A0C
+    // Offset: 0x2957B84
     bool Equals(::UnityEngine::ProBuilder::Vertex* other, ::UnityEngine::ProBuilder::MeshArrays mask);
     // static public UnityEngine.ProBuilder.Vertex Add(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
-    // Offset: 0x2989E80
+    // Offset: 0x2957FF8
     static ::UnityEngine::ProBuilder::Vertex* Add(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
     // public System.Void Add(UnityEngine.ProBuilder.Vertex b)
-    // Offset: 0x2989F00
+    // Offset: 0x2958078
     void Add(::UnityEngine::ProBuilder::Vertex* b);
     // static public UnityEngine.ProBuilder.Vertex Subtract(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
-    // Offset: 0x298A140
+    // Offset: 0x29582B8
     static ::UnityEngine::ProBuilder::Vertex* Subtract(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b);
     // public System.Void Subtract(UnityEngine.ProBuilder.Vertex b)
-    // Offset: 0x298A1C0
+    // Offset: 0x2958338
     void Subtract(::UnityEngine::ProBuilder::Vertex* b);
     // static public UnityEngine.ProBuilder.Vertex Multiply(UnityEngine.ProBuilder.Vertex a, System.Single value)
-    // Offset: 0x298A400
+    // Offset: 0x2958578
     static ::UnityEngine::ProBuilder::Vertex* Multiply(::UnityEngine::ProBuilder::Vertex* a, float value);
     // public System.Void Multiply(System.Single value)
-    // Offset: 0x298A480
+    // Offset: 0x29585F8
     void Multiply(float value);
     // static public UnityEngine.ProBuilder.Vertex Divide(UnityEngine.ProBuilder.Vertex a, System.Single value)
-    // Offset: 0x298A66C
+    // Offset: 0x29587E4
     static ::UnityEngine::ProBuilder::Vertex* Divide(::UnityEngine::ProBuilder::Vertex* a, float value);
     // public System.Void Divide(System.Single value)
-    // Offset: 0x298A6EC
+    // Offset: 0x2958864
     void Divide(float value);
     // public System.Void Normalize()
-    // Offset: 0x298A8D4
+    // Offset: 0x2958A4C
     void Normalize();
     // public System.String ToString(System.String args)
-    // Offset: 0x298A988
+    // Offset: 0x2958B00
     ::StringW ToString(::StringW args);
     // static public System.Void GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, out UnityEngine.Vector3[] position, out UnityEngine.Color[] color, out UnityEngine.Vector2[] uv0, out UnityEngine.Vector3[] normal, out UnityEngine.Vector4[] tangent, out UnityEngine.Vector2[] uv2, out System.Collections.Generic.List`1<UnityEngine.Vector4> uv3, out System.Collections.Generic.List`1<UnityEngine.Vector4> uv4)
-    // Offset: 0x298AC48
+    // Offset: 0x2958DC0
     static void GetArrays(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::ArrayW<::UnityEngine::Vector3>> position, ByRef<::ArrayW<::UnityEngine::Color>> color, ByRef<::ArrayW<::UnityEngine::Vector2>> uv0, ByRef<::ArrayW<::UnityEngine::Vector3>> normal, ByRef<::ArrayW<::UnityEngine::Vector4>> tangent, ByRef<::ArrayW<::UnityEngine::Vector2>> uv2, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv3, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv4);
     // static public System.Void GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, out UnityEngine.Vector3[] position, out UnityEngine.Color[] color, out UnityEngine.Vector2[] uv0, out UnityEngine.Vector3[] normal, out UnityEngine.Vector4[] tangent, out UnityEngine.Vector2[] uv2, out System.Collections.Generic.List`1<UnityEngine.Vector4> uv3, out System.Collections.Generic.List`1<UnityEngine.Vector4> uv4, UnityEngine.ProBuilder.MeshArrays attributes)
-    // Offset: 0x298AC74
+    // Offset: 0x2958DEC
     static void GetArrays(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::ArrayW<::UnityEngine::Vector3>> position, ByRef<::ArrayW<::UnityEngine::Color>> color, ByRef<::ArrayW<::UnityEngine::Vector2>> uv0, ByRef<::ArrayW<::UnityEngine::Vector3>> normal, ByRef<::ArrayW<::UnityEngine::Vector4>> tangent, ByRef<::ArrayW<::UnityEngine::Vector2>> uv2, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv3, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uv4, ::UnityEngine::ProBuilder::MeshArrays attributes);
     // static public System.Void SetMesh(UnityEngine.Mesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices)
-    // Offset: 0x298B55C
+    // Offset: 0x29596D4
     static void SetMesh(::UnityEngine::Mesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
     // static public UnityEngine.ProBuilder.Vertex Average(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x298B810
+    // Offset: 0x2959988
     static ::UnityEngine::ProBuilder::Vertex* Average(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.ProBuilder.Vertex Mix(UnityEngine.ProBuilder.Vertex x, UnityEngine.ProBuilder.Vertex y, System.Single weight)
-    // Offset: 0x298C764
+    // Offset: 0x295A8DC
     static ::UnityEngine::ProBuilder::Vertex* Mix(::UnityEngine::ProBuilder::Vertex* x, ::UnityEngine::ProBuilder::Vertex* y, float weight);
     // public System.Void .ctor()
-    // Offset: 0x298654C
+    // Offset: 0x29546C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -312,12 +312,12 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<Vertex*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2989834
+    // Offset: 0x29579AC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2989B94
+    // Offset: 0x2957D0C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -326,22 +326,22 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Vertex), 120 + sizeof(::UnityEngine::ProBuilder::MeshArrays)> __UnityEngine_ProBuilder_VertexSizeCheck;
   static_assert(sizeof(Vertex) == 0x7C);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
-  // Offset: 0x2989E18
+  // Offset: 0x2957F90
   bool operator ==(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
-  // Offset: 0x2989E44
+  // Offset: 0x2957FBC
   bool operator !=(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex& b);
   // static public UnityEngine.ProBuilder.Vertex op_Addition(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
-  // Offset: 0x2989E7C
+  // Offset: 0x2957FF4
   ::UnityEngine::ProBuilder::Vertex* operator+(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex& b);
   // static public UnityEngine.ProBuilder.Vertex op_Subtraction(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
-  // Offset: 0x298A13C
+  // Offset: 0x29582B4
   ::UnityEngine::ProBuilder::Vertex* operator-(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex& b);
   // static public UnityEngine.ProBuilder.Vertex op_Multiply(UnityEngine.ProBuilder.Vertex a, System.Single value)
-  // Offset: 0x298A3FC
+  // Offset: 0x2958574
   ::UnityEngine::ProBuilder::Vertex* operator*(::UnityEngine::ProBuilder::Vertex& a, const float& value);
   // static public UnityEngine.ProBuilder.Vertex op_Division(UnityEngine.ProBuilder.Vertex a, System.Single value)
-  // Offset: 0x298A668
+  // Offset: 0x29587E0
   ::UnityEngine::ProBuilder::Vertex* operator/(::UnityEngine::ProBuilder::Vertex& a, const float& value);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

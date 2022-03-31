@@ -62,22 +62,22 @@ namespace System::Xml {
     // Get instance field reference: private System.UInt32 curr
     uint& dyn_curr();
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x1A9D074
+    // Offset: 0x1A806AC
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x1A9D1A4
+    // Offset: 0x1A807DC
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x1A9D228
+    // Offset: 0x1A80860
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x1A9D0B0
+    // Offset: 0x1A806E8
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x1A9D1D8
+    // Offset: 0x1A80810
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x1A9D048
+    // Offset: 0x1A80680
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

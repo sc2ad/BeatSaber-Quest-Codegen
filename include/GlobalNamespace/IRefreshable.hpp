@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IRefreshable {
     public:
     // public System.Void Refresh()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Refresh();
   }; // IRefreshable
   #pragma pack(pop)

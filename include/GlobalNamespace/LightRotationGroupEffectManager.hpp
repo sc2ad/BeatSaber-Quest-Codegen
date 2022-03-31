@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B6E94
+    // [InjectAttribute] Offset: 0x12512D8
     // private readonly LightRotationGroup[] _lightRotationGroups
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::LightRotationGroup*> lightRotationGroups;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightRotationGroup*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10B6EA4
+    // [InjectAttribute] Offset: 0x12512E8
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x20
@@ -88,13 +88,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<LightRotationGroupEffect> _lightRotationGroupEffects
     ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*& dyn__lightRotationGroupEffects();
     // protected System.Void Start()
-    // Offset: 0x14D06A8
+    // Offset: 0x148F72C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14D0970
+    // Offset: 0x148F9F4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x14D0A64
+    // Offset: 0x148FAE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

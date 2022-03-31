@@ -27,16 +27,16 @@ namespace Newtonsoft::Json::Serialization {
   class IReferenceResolver {
     public:
     // public System.Object ResolveReference(System.Object context, System.String reference)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ResolveReference(::Il2CppObject* context, ::StringW reference);
     // public System.String GetReference(System.Object context, System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetReference(::Il2CppObject* context, ::Il2CppObject* value);
     // public System.Boolean IsReferenced(System.Object context, System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsReferenced(::Il2CppObject* context, ::Il2CppObject* value);
     // public System.Void AddReference(System.Object context, System.String reference, System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddReference(::Il2CppObject* context, ::StringW reference, ::Il2CppObject* value);
   }; // Newtonsoft.Json.Serialization.IReferenceResolver
   #pragma pack(pop)

@@ -65,7 +65,7 @@ namespace HoudiniEngineUnity {
   class HEU_Extensions : public ::Il2CppObject {
     public:
     // static public System.Collections.Generic.List`1<R> Map(System.Collections.Generic.IEnumerable`1<T> self, System.Func`2<T,R> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class R>
     static ::System::Collections::Generic::List_1<R>* Map(::System::Collections::Generic::IEnumerable_1<T>* self, ::System::Func_2<T, R>* selector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::Map");
@@ -74,7 +74,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<R>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self, selector);
     }
     // static public T Reduce(System.Collections.Generic.IEnumerable`1<T> self, System.Func`3<T,T,T> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T Reduce(::System::Collections::Generic::IEnumerable_1<T>* self, ::System::Func_3<T, T, T>* func) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::Reduce");
@@ -83,7 +83,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self, func);
     }
     // static public System.Collections.Generic.List`1<T> Filter(System.Collections.Generic.IEnumerable`1<T> self, System.Func`2<T,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::List_1<T>* Filter(::System::Collections::Generic::IEnumerable_1<T>* self, ::System::Func_2<T, bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::Filter");
@@ -92,7 +92,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self, predicate);
     }
     // static public System.Boolean IsValidIndex(System.Collections.Generic.List`1<T> self, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool IsValidIndex(::System::Collections::Generic::List_1<T>* self, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::IsValidIndex");
@@ -101,7 +101,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self, index);
     }
     // static public System.Boolean IsEquivalentList(System.Collections.Generic.List`1<T> self, System.Collections.Generic.List`1<T> other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool IsEquivalentList(::System::Collections::Generic::List_1<T>* self, ::System::Collections::Generic::List_1<T>* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::IsEquivalentList");
@@ -110,10 +110,10 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self, other);
     }
     // static public System.Boolean ApproximatelyEquals(UnityEngine.Quaternion quatA, UnityEngine.Quaternion value)
-    // Offset: 0x1752BB4
+    // Offset: 0x174AAA4
     static bool ApproximatelyEquals(::UnityEngine::Quaternion quatA, ::UnityEngine::Quaternion value);
     // static public System.Collections.Generic.List`1<U> ConvertList(System.Collections.Generic.List`1<T> self)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class U>
     static ::System::Collections::Generic::List_1<U>* ConvertList(::System::Collections::Generic::List_1<T>* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::ConvertList");
@@ -122,7 +122,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<U>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self);
     }
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivable`1<T>> ConvertListToEquivable(System.Collections.Generic.List`1<T> self)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* ConvertListToEquivable(::System::Collections::Generic::List_1<T>* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::ConvertListToEquivable");
@@ -131,7 +131,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self);
     }
     // static public HoudiniEngineUnity.IEquivable`1<T>[] ConvertArrayToEquivable(T[] self)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*> ConvertArrayToEquivable(::ArrayW<T> self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Extensions::ConvertArrayToEquivable");
@@ -140,31 +140,31 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self);
     }
     // static public System.Boolean ApproximatelyEquals(System.Single self, System.Single other, System.Single epsilon)
-    // Offset: 0x1752CB8
+    // Offset: 0x174ABA8
     static bool ApproximatelyEquals(float self, float other, float epsilon);
     // static public System.Byte[] AsByteArray(System.String self)
-    // Offset: 0x1752D3C
+    // Offset: 0x174AC2C
     static ::ArrayW<uint8_t> AsByteArray(::StringW self);
     // static public System.String AsString(System.Byte[] buffer)
-    // Offset: 0x1752DBC
+    // Offset: 0x174ACAC
     static ::StringW AsString(::ArrayW<uint8_t> buffer);
     // static public UnityEngine.Vector3 SwapXAndY(UnityEngine.Vector3 self)
-    // Offset: 0x1752E44
+    // Offset: 0x174AD34
     static ::UnityEngine::Vector3 SwapXAndY(::UnityEngine::Vector3 self);
     // static public UnityEngine.Vector3 SwapXAndZ(UnityEngine.Vector3 self)
-    // Offset: 0x1752E54
+    // Offset: 0x174AD44
     static ::UnityEngine::Vector3 SwapXAndZ(::UnityEngine::Vector3 self);
     // static public UnityEngine.Vector3 SwapYAndZ(UnityEngine.Vector3 self)
-    // Offset: 0x1752E64
+    // Offset: 0x174AD54
     static ::UnityEngine::Vector3 SwapYAndZ(::UnityEngine::Vector3 self);
     // static public UnityEngine.Vector3 DecomposeToPosition(UnityEngine.Matrix4x4 self)
-    // Offset: 0x1752E74
+    // Offset: 0x174AD64
     static ::UnityEngine::Vector3 DecomposeToPosition(::UnityEngine::Matrix4x4 self);
     // static public UnityEngine.Quaternion DecomposeToRotation(UnityEngine.Matrix4x4 self)
-    // Offset: 0x1752F18
+    // Offset: 0x174AE08
     static ::UnityEngine::Quaternion DecomposeToRotation(::UnityEngine::Matrix4x4 self);
     // static public UnityEngine.Vector3 DecomposeToScale(UnityEngine.Matrix4x4 self)
-    // Offset: 0x1753034
+    // Offset: 0x174AF24
     static ::UnityEngine::Vector3 DecomposeToScale(::UnityEngine::Matrix4x4 self);
   }; // HoudiniEngineUnity.HEU_Extensions
   #pragma pack(pop)

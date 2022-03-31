@@ -32,43 +32,43 @@ namespace GlobalNamespace {
   class IConnectedPlayer {
     public:
     // public System.Boolean get_isMe()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userName();
     // public System.Boolean get_hasValidLatency()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_hasValidLatency();
     // public System.Single get_currentLatency()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_currentLatency();
     // public System.Boolean get_isConnected()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isConnected();
     // public DisconnectedReason get_disconnectedReason()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isConnectionOwner();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_offsetSyncTime();
     // public System.Int32 get_sortIndex()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_sortIndex();
     // public System.Boolean get_isKicked()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isKicked();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean HasState(System.String state)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool HasState(::StringW state);
   }; // IConnectedPlayer
   #pragma pack(pop)

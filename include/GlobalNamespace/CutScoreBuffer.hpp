@@ -155,64 +155,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<ICutScoreBufferDidChangeReceiver> _didChangeEvent
     ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& dyn__didChangeEvent();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x141823C
+    // Offset: 0x140B3F4
     int get_executionOrder();
     // public System.Int32 get_maxPossibleCutScore()
-    // Offset: 0x1418258
+    // Offset: 0x140B410
     int get_maxPossibleCutScore();
     // public System.Boolean get_isFinished()
-    // Offset: 0x1418274
+    // Offset: 0x140B42C
     bool get_isFinished();
     // public System.Int32 get_cutScore()
-    // Offset: 0x141827C
+    // Offset: 0x140B434
     int get_cutScore();
     // public System.Int32 get_beforeCutScore()
-    // Offset: 0x14182AC
+    // Offset: 0x140B464
     int get_beforeCutScore();
     // public System.Int32 get_centerDistanceCutScore()
-    // Offset: 0x14182B4
+    // Offset: 0x140B46C
     int get_centerDistanceCutScore();
     // public System.Int32 get_afterCutScore()
-    // Offset: 0x14182BC
+    // Offset: 0x140B474
     int get_afterCutScore();
     // public ScoreModel/NoteScoreDefinition get_noteScoreDefinition()
-    // Offset: 0x14182C4
+    // Offset: 0x140B47C
     ::GlobalNamespace::ScoreModel::NoteScoreDefinition* get_noteScoreDefinition();
     // public NoteCutInfo get_noteCutInfo()
-    // Offset: 0x14182CC
+    // Offset: 0x140B484
     ::GlobalNamespace::NoteCutInfo get_noteCutInfo();
     // public System.Single get_beforeCutSwingRating()
-    // Offset: 0x14182DC
+    // Offset: 0x140B494
     float get_beforeCutSwingRating();
     // public System.Single get_afterCutSwingRating()
-    // Offset: 0x14182F8
+    // Offset: 0x140B4B0
     float get_afterCutSwingRating();
     // public System.Void RegisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0x1418314
+    // Offset: 0x140B4CC
     void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0x141837C
+    // Offset: 0x140B534
     void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0x14183E4
+    // Offset: 0x140B59C
     void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0x141844C
+    // Offset: 0x140B604
     void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
     // public System.Boolean Init(in NoteCutInfo noteCutInfo)
-    // Offset: 0x14184B4
+    // Offset: 0x140B66C
     bool Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void RefreshScores()
-    // Offset: 0x1418694
+    // Offset: 0x140B84C
     void RefreshScores();
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0x1418774
+    // Offset: 0x140B92C
     void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x14188F4
+    // Offset: 0x140BAAC
     void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // public System.Void .ctor()
-    // Offset: 0x1418B5C
+    // Offset: 0x140BD14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

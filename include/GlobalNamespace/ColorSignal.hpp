@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class ColorSignal : public ::GlobalNamespace::GenericSignal_1<::UnityEngine::Color> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x156F06C
+    // Offset: 0x1565D78
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

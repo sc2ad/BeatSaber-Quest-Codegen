@@ -42,21 +42,21 @@ namespace GlobalNamespace {
   class INetworkPacketSubSerializer_1 {
     public:
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader, System.Int32 length, TData data)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader, int length, TData data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INetworkPacketSubSerializer_1::Deserialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Deserialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(data)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, length, data);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INetworkPacketSubSerializer_1::Serialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer, packet);
     }
     // public System.Boolean HandlesType(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool HandlesType(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INetworkPacketSubSerializer_1::HandlesType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandlesType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));

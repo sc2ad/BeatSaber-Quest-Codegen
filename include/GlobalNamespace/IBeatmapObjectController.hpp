@@ -22,13 +22,13 @@ namespace GlobalNamespace {
   class IBeatmapObjectController {
     public:
     // public System.Void Dissolve(System.Single duration)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Dissolve(float duration);
     // public System.Void Pause(System.Boolean pause)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Pause(bool pause);
     // public System.Void Hide(System.Boolean hide)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Hide(bool hide);
   }; // IBeatmapObjectController
   #pragma pack(pop)

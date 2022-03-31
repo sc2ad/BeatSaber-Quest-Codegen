@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class DisableOnNonOculus : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x141C540
+    // Offset: 0x140F6F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

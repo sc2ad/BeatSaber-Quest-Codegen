@@ -31,19 +31,19 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AFE550
+    // Offset: 0x1AE1B88
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetSkeleton2(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton2Internal skeleton)
-    // Offset: 0x1AFE2EC
+    // Offset: 0x1AE1924
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton2(::GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton2Internal> skeleton);
     // static public OVRPlugin/Result ovrp_PollEvent(ref OVRPlugin/EventDataBuffer eventDataBuffer)
-    // Offset: 0x1AFE37C
+    // Offset: 0x1AE19B4
     static ::GlobalNamespace::OVRPlugin::Result ovrp_PollEvent(ByRef<::GlobalNamespace::OVRPlugin::EventDataBuffer> eventDataBuffer);
     // static public OVRPlugin/Result ovrp_GetNativeXrApiType(out OVRPlugin/XrApi xrApi)
-    // Offset: 0x1AFE440
+    // Offset: 0x1AE1A78
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetNativeXrApiType(ByRef<::GlobalNamespace::OVRPlugin::XrApi> xrApi);
     // static public OVRPlugin/Result ovrp_GetNativeOpenXRHandles(out System.UInt64 xrInstance, out System.UInt64 xrSession)
-    // Offset: 0x1AFE4C0
+    // Offset: 0x1AE1AF8
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetNativeOpenXRHandles(ByRef<uint64_t> xrInstance, ByRef<uint64_t> xrSession);
   }; // OVRPlugin/OVRP_1_55_0
   #pragma pack(pop)

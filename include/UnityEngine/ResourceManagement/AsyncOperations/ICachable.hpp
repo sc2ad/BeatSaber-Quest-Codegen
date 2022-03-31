@@ -22,10 +22,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   class ICachable {
     public:
     // public System.Int32 get_Hash()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Hash();
     // public System.Void set_Hash(System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_Hash(int value);
   }; // UnityEngine.ResourceManagement.AsyncOperations.ICachable
   #pragma pack(pop)

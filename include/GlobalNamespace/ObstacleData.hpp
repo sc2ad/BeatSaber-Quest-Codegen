@@ -87,52 +87,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <height>k__BackingField
     int& dyn_$height$k__BackingField();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x284E324
+    // Offset: 0x281D49C
     int get_lineIndex();
     // private System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x284E32C
+    // Offset: 0x281D4A4
     void set_lineIndex(int value);
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x284E334
+    // Offset: 0x281D4AC
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // protected System.Void set_lineLayer(NoteLineLayer value)
-    // Offset: 0x284E33C
+    // Offset: 0x281D4B4
     void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x284E344
+    // Offset: 0x281D4BC
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0x284E34C
+    // Offset: 0x281D4C4
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x284E354
+    // Offset: 0x281D4CC
     int get_width();
     // private System.Void set_width(System.Int32 value)
-    // Offset: 0x284E35C
+    // Offset: 0x281D4D4
     void set_width(int value);
     // public System.Int32 get_height()
-    // Offset: 0x284E364
+    // Offset: 0x281D4DC
     int get_height();
     // private System.Void set_height(System.Int32 value)
-    // Offset: 0x284E36C
+    // Offset: 0x281D4E4
     void set_height(int value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, System.Single duration, System.Int32 width, System.Int32 height)
-    // Offset: 0x284E374
+    // Offset: 0x281D4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleData* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float duration, int width, int height) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleData*, creationType>(time, lineIndex, lineLayer, duration, width, height)));
     }
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0x284E3E8
+    // Offset: 0x281D560
     void UpdateDuration(float duration);
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x284E3F0
+    // Offset: 0x281D568
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // public override System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x284E48C
+    // Offset: 0x281D604
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::Mirror(System.Int32 lineCount)
     void Mirror(int lineCount);

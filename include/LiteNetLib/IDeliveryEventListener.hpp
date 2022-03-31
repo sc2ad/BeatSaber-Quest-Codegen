@@ -32,7 +32,7 @@ namespace LiteNetLib {
   class IDeliveryEventListener {
     public:
     // public System.Void OnMessageDelivered(LiteNetLib.NetPeer peer, System.Object userData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnMessageDelivered(::LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
   }; // LiteNetLib.IDeliveryEventListener
   #pragma pack(pop)

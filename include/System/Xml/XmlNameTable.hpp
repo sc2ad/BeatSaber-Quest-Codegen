@@ -29,16 +29,16 @@ namespace System::Xml {
   class XmlNameTable : public ::Il2CppObject {
     public:
     // public System.String Get(System.String array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW Get(::StringW array);
     // public System.String Add(System.Char[] array, System.Int32 offset, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW Add(::ArrayW<::Il2CppChar> array, int offset, int length);
     // public System.String Add(System.String array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW Add(::StringW array);
     // protected System.Void .ctor()
-    // Offset: 0x15AAA44
+    // Offset: 0x15A17DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

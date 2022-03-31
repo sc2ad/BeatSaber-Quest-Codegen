@@ -102,7 +102,7 @@ namespace System::Xml {
       // Get instance field reference: public System.Int32 previousNsIndex
       int& dyn_previousNsIndex();
       // public System.Void Set(System.String prefix, System.String uri, System.Int32 scopeId, System.Int32 previousNsIndex)
-      // Offset: 0x15ABAC0
+      // Offset: 0x15A2858
       void Set(::StringW prefix, ::StringW uri, int scopeId, int previousNsIndex);
     }; // System.Xml.XmlNamespaceManager/System.Xml.NamespaceDeclaration
     #pragma pack(pop)
@@ -197,44 +197,44 @@ namespace System::Xml {
     // Get instance field reference: private System.String xmlNs
     ::StringW& dyn_xmlNs();
     // public System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x15ABACC
+    // Offset: 0x15A2864
     ::System::Xml::XmlNameTable* get_NameTable();
     // public System.String get_DefaultNamespace()
-    // Offset: 0x15ABAD4
+    // Offset: 0x15A286C
     ::StringW get_DefaultNamespace();
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable)
-    // Offset: 0x15A8418
+    // Offset: 0x159F1B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNamespaceManager* New_ctor(::System::Xml::XmlNameTable* nameTable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNamespaceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNamespaceManager*, creationType>(nameTable)));
     }
     // public System.Void PushScope()
-    // Offset: 0x15ABB4C
+    // Offset: 0x15A28E4
     void PushScope();
     // public System.Boolean PopScope()
-    // Offset: 0x15ABB5C
+    // Offset: 0x15A28F4
     bool PopScope();
     // public System.Void AddNamespace(System.String prefix, System.String uri)
-    // Offset: 0x15ABC44
+    // Offset: 0x15A29DC
     void AddNamespace(::StringW prefix, ::StringW uri);
     // public System.Void RemoveNamespace(System.String prefix, System.String uri)
-    // Offset: 0x15AC170
+    // Offset: 0x15A2F08
     void RemoveNamespace(::StringW prefix, ::StringW uri);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x15AC2D8
+    // Offset: 0x15A3070
     ::System::Collections::IEnumerator* GetEnumerator();
     // public System.String LookupNamespace(System.String prefix)
-    // Offset: 0x15AC428
+    // Offset: 0x15A31C0
     ::StringW LookupNamespace(::StringW prefix);
     // private System.Int32 LookupNamespaceDecl(System.String prefix)
-    // Offset: 0x15ABFB8
+    // Offset: 0x15A2D50
     int LookupNamespaceDecl(::StringW prefix);
     // public System.String LookupPrefix(System.String uri)
-    // Offset: 0x15AC488
+    // Offset: 0x15A3220
     ::StringW LookupPrefix(::StringW uri);
     // System.Void .ctor()
-    // Offset: 0x15ABAB8
+    // Offset: 0x15A2850
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

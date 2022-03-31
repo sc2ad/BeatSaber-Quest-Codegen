@@ -70,25 +70,25 @@ namespace Org::BouncyCastle::Crypto {
     // Get instance field reference: protected System.Int32 mIterationCount
     int& dyn_mIterationCount();
     // public System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x15E6FE8
+    // Offset: 0x15C5054
     void Init(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int iterationCount);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize, int ivSize);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedMacParameters(System.Int32 keySize)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
     // static public System.Byte[] Pkcs5PasswordToBytes(System.Char[] password)
-    // Offset: 0x15E70E8
+    // Offset: 0x15C5154
     static ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::ArrayW<::Il2CppChar> password);
     // static public System.Byte[] Pkcs12PasswordToBytes(System.Char[] password, System.Boolean wrongPkcs12Zero)
-    // Offset: 0x15E7150
+    // Offset: 0x15C51BC
     static ::ArrayW<uint8_t> Pkcs12PasswordToBytes(::ArrayW<::Il2CppChar> password, bool wrongPkcs12Zero);
     // protected System.Void .ctor()
-    // Offset: 0x15E6FE0
+    // Offset: 0x15C504C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

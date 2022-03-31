@@ -64,10 +64,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
     ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
     // System.Void <PopScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x1579878
+    // Offset: 0x1570584
     void $PopScenes$b__0(::Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1577E2C
+    // Offset: 0x156EB38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

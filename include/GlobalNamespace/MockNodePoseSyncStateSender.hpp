@@ -68,20 +68,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Void .ctor(IMultiplayerSessionManager msm)
-    // Offset: 0x2A84E00
+    // Offset: 0x2A50FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockNodePoseSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockNodePoseSyncStateSender::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockNodePoseSyncStateSender*, creationType>(msm)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2A84F64
+    // Offset: 0x2A51114
     void Dispose();
     // public System.Void SendPose(PoseSerializable headPose, PoseSerializable leftHandPose, PoseSerializable rightHandPose)
-    // Offset: 0x2A85030
+    // Offset: 0x2A511E0
     void SendPose(::GlobalNamespace::PoseSerializable headPose, ::GlobalNamespace::PoseSerializable leftHandPose, ::GlobalNamespace::PoseSerializable rightHandPose);
     // private System.Void HandleNodePoseSyncStateUpdate(NodePoseSyncStateNetSerializable nodePose, IConnectedPlayer connectedPlayer)
-    // Offset: 0x2A8525C
+    // Offset: 0x2A5140C
     void HandleNodePoseSyncStateUpdate(::GlobalNamespace::NodePoseSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // MockNodePoseSyncStateSender
   #pragma pack(pop)

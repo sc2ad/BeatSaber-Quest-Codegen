@@ -49,7 +49,7 @@ namespace System::Xml {
     // Get instance field reference: System.Int32 nonCachedConnectionsCount
     int& dyn_nonCachedConnectionsCount();
     // public System.Void .ctor()
-    // Offset: 0x1AAC374
+    // Offset: 0x1A8F9AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

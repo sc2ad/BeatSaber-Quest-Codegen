@@ -67,10 +67,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Single tesselation
     float& dyn_tesselation();
     // static public LIV.SDK.Unity.SDKClipPlane get_empty()
-    // Offset: 0x2A30744
+    // Offset: 0x29FB8F4
     static ::LIV::SDK::Unity::SDKClipPlane get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A307A4
+    // Offset: 0x29FB954
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

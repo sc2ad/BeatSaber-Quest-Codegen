@@ -87,25 +87,25 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_$Arguments$k__BackingField();
     // public System.Type get_FactoryType()
-    // Offset: 0x1DF91F0
+    // Offset: 0x1DDD6C0
     ::System::Type* get_FactoryType();
     // private System.Void set_FactoryType(System.Type value)
-    // Offset: 0x1DF91F8
+    // Offset: 0x1DDD6C8
     void set_FactoryType(::System::Type* value);
     // public System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
-    // Offset: 0x1DF9200
+    // Offset: 0x1DDD6D0
     ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* get_ProviderFunc();
     // public System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
-    // Offset: 0x1DF9208
+    // Offset: 0x1DDD6D8
     void set_ProviderFunc(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_Arguments()
-    // Offset: 0x1DF9210
+    // Offset: 0x1DDD6E0
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_Arguments();
     // public System.Void set_Arguments(System.Collections.Generic.List`1<Zenject.TypeValuePair> value)
-    // Offset: 0x1DF9218
+    // Offset: 0x1DDD6E8
     void set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
     // public System.Void .ctor(System.Type factoryType)
-    // Offset: 0x1DF916C
+    // Offset: 0x1DDD63C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryBindInfo* New_ctor(::System::Type* factoryType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryBindInfo::.ctor");

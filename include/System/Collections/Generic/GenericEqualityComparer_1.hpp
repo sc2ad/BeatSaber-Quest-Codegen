@@ -38,7 +38,7 @@ namespace System::Collections::Generic {
   class GenericEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,7 +48,7 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<GenericEqualityComparer_1<T>*, creationType>()));
     }
     // public override System.Boolean Equals(T x, T y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Boolean EqualityComparer_1::Equals(T x, T y)
     bool Equals(T x, T y) {
@@ -57,7 +57,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x, y);
     }
     // public override System.Int32 GetHashCode(T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
@@ -66,7 +66,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, obj);
     }
     // override System.Int32 IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int IndexOf(::ArrayW<T> array, T value, int startIndex, int count) {
@@ -75,7 +75,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, array, value, startIndex, count);
     }
     // override System.Int32 LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int LastIndexOf(::ArrayW<T> array, T value, int startIndex, int count) {
@@ -84,7 +84,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, array, value, startIndex, count);
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
@@ -93,7 +93,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {

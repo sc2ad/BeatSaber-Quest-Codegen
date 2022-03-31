@@ -22,10 +22,10 @@ namespace Org::BouncyCastle::Utilities {
   class IMemoable {
     public:
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Utilities.IMemoable
   #pragma pack(pop)

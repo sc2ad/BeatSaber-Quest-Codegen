@@ -100,7 +100,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
     ::Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19BE12C
+    // Offset: 0x19B4018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeEntry* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::ChallengeEntry::.ctor");

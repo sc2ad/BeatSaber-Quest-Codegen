@@ -66,47 +66,47 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRSettings FnTable
     ::OVR::OpenVR::IVRSettings& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1A6C104
+    // Offset: 0x1A60FF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRSettings* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSettings*, creationType>(pInterface)));
     }
     // public System.String GetSettingsErrorNameFromEnum(OVR.OpenVR.EVRSettingsError eError)
-    // Offset: 0x1A6C20C
+    // Offset: 0x1A610F8
     ::StringW GetSettingsErrorNameFromEnum(::OVR::OpenVR::EVRSettingsError eError);
     // public System.Boolean Sync(System.Boolean bForce, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C2A0
+    // Offset: 0x1A6118C
     bool Sync(bool bForce, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Void SetBool(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C2C0
+    // Offset: 0x1A611AC
     void SetBool(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Void SetInt32(System.String pchSection, System.String pchSettingsKey, System.Int32 nValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C2E0
+    // Offset: 0x1A611CC
     void SetInt32(::StringW pchSection, ::StringW pchSettingsKey, int nValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Void SetFloat(System.String pchSection, System.String pchSettingsKey, System.Single flValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C2FC
+    // Offset: 0x1A611E8
     void SetFloat(::StringW pchSection, ::StringW pchSettingsKey, float flValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Void SetString(System.String pchSection, System.String pchSettingsKey, System.String pchValue, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C318
+    // Offset: 0x1A61204
     void SetString(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Boolean GetBool(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C334
+    // Offset: 0x1A61220
     bool GetBool(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Int32 GetInt32(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C350
+    // Offset: 0x1A6123C
     int GetInt32(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Single GetFloat(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C36C
+    // Offset: 0x1A61258
     float GetFloat(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Void GetString(System.String pchSection, System.String pchSettingsKey, System.Text.StringBuilder pchValue, System.UInt32 unValueLen, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C388
+    // Offset: 0x1A61274
     void GetString(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint unValueLen, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Void RemoveSection(System.String pchSection, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C3A4
+    // Offset: 0x1A61290
     void RemoveSection(::StringW pchSection, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
     // public System.Void RemoveKeyInSection(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1A6C3C0
+    // Offset: 0x1A612AC
     void RemoveKeyInSection(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
   }; // OVR.OpenVR.CVRSettings
   #pragma pack(pop)

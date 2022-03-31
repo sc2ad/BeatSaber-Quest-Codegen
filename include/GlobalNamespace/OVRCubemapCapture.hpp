@@ -104,19 +104,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 cubemapSize
     int& dyn_cubemapSize();
     // private System.Void Update()
-    // Offset: 0x162A5F0
+    // Offset: 0x1622334
     void Update();
     // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
-    // Offset: 0x162A6A8
+    // Offset: 0x16223EC
     static void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int cubemapSize, ::StringW pathName);
     // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
-    // Offset: 0x162A914
+    // Offset: 0x1622658
     static void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
     // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
-    // Offset: 0x162AF70
+    // Offset: 0x1622CB4
     static bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
     // public System.Void .ctor()
-    // Offset: 0x162B668
+    // Offset: 0x16233AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

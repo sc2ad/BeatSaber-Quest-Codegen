@@ -34,21 +34,21 @@ namespace LiteNetLib::Utils {
   class NetSerializer::FastCallSpecificAuto_2 : public ::LiteNetLib::Utils::NetSerializer::FastCallSpecific_2<TClass, TProperty> {
     public:
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out TProperty prop)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ElementRead(::LiteNetLib::Utils::NetDataReader* r, ByRef<TProperty> prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::FastCallSpecificAuto_2::ElementRead");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractIndependentType<TProperty&>()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, r, byref(prop));
     }
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref TProperty prop)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ElementWrite(::LiteNetLib::Utils::NetDataWriter* w, ByRef<TProperty> prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::FastCallSpecificAuto_2::ElementWrite");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementWrite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(w), ::il2cpp_utils::ExtractType(prop)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, w, byref(prop));
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecific`2
     // Base method: System.Void FastCallSpecific_2::.ctor()
     // Base method: System.Void FastCall_1::.ctor()
@@ -59,7 +59,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::FastCallSpecificAuto_2<TClass, TProperty>*, creationType>()));
     }
     // public override System.Void Read(TClass inf, LiteNetLib.Utils.NetDataReader r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::Read(TClass inf, LiteNetLib.Utils.NetDataReader r)
     void Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
@@ -68,7 +68,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void Write(TClass inf, LiteNetLib.Utils.NetDataWriter w)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::Write(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
@@ -77,7 +77,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, w);
     }
     // public override System.Void ReadArray(TClass inf, LiteNetLib.Utils.NetDataReader r)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::ReadArray(TClass inf, LiteNetLib.Utils.NetDataReader r)
     void ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
@@ -86,7 +86,7 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void WriteArray(TClass inf, LiteNetLib.Utils.NetDataWriter w)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1
     // Base method: System.Void FastCall_1::WriteArray(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     void WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {

@@ -85,10 +85,10 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass34_0 CS$<>8__locals1
     ::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass34_0*& dyn_CS$$$8__locals1();
     // System.Void <SetExtensionDataDelegates>b__0(System.Object o, System.String key, System.Object value)
-    // Offset: 0x1D3DD04
+    // Offset: 0x1D211D4
     void $SetExtensionDataDelegates$b__0(::Il2CppObject* o, ::StringW key, ::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1D3DCFC
+    // Offset: 0x1D211CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,21 +60,21 @@ namespace BeatmapSaveDataVersion3 {
       return *reinterpret_cast<::System::Collections::Generic::List_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Collections.Generic.IReadOnlyList`1<T> get_eventBoxes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<T>* get_eventBoxes() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup_1::get_eventBoxes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_eventBoxes", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<T>*, false>(this, ___internal__method);
     }
     // protected System.Void .ctor(System.Single beat, System.Int32 groupId, System.Collections.Generic.List`1<T> eventBoxes)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventBoxGroup_1<T>* New_ctor(float beat, int groupId, ::System::Collections::Generic::List_1<T>* eventBoxes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::EventBoxGroup_1<T>*, creationType>(beat, groupId, eventBoxes)));
     }
     // public override System.Collections.Generic.IReadOnlyList`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox> get_baseEventBoxes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBoxGroup
     // Base method: System.Collections.Generic.IReadOnlyList`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox> EventBoxGroup::get_baseEventBoxes()
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox*>* get_baseEventBoxes() {

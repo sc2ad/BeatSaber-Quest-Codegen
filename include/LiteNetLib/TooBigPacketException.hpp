@@ -36,7 +36,7 @@ namespace LiteNetLib {
   class TooBigPacketException : public ::LiteNetLib::InvalidPacketException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2199AB0
+    // Offset: 0x2170894
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor()
     // Base method: System.Void ArgumentException::.ctor()
@@ -49,7 +49,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<TooBigPacketException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2195AB8
+    // Offset: 0x216C89C
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor(System.String message)
     // Base method: System.Void ArgumentException::.ctor(System.String message)
@@ -61,7 +61,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<TooBigPacketException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x2199AB8
+    // Offset: 0x217089C
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void ArgumentException::.ctor(System.String message, System.Exception innerException)

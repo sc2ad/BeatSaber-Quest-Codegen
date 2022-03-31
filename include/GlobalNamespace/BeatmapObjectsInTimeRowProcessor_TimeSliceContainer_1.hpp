@@ -142,112 +142,112 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::List_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Single get_time()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_time() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::get_time");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_time", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<float, false>(this, ___internal__method);
     }
     // private System.Void set_time(System.Single value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_time(float value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::set_time");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_time", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Single get_previousTimeSliceTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_previousTimeSliceTime() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::get_previousTimeSliceTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_previousTimeSliceTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<float, false>(this, ___internal__method);
     }
     // private System.Void set_previousTimeSliceTime(System.Single value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_previousTimeSliceTime(float value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::set_previousTimeSliceTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_previousTimeSliceTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Collections.Generic.IReadOnlyList`1<T> get_items()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<T>* get_items() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::get_items");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_items", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void add_didFinishTimeSliceEvent(System.Action`2<BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>,System.Single> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didFinishTimeSliceEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>*, float>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::add_didFinishTimeSliceEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_didFinishTimeSliceEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_didFinishTimeSliceEvent(System.Action`2<BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>,System.Single> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didFinishTimeSliceEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>*, float>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::remove_didFinishTimeSliceEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_didFinishTimeSliceEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void add_didStartNewTimeSliceEvent(System.Action`1<BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didStartNewTimeSliceEvent(::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>*>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::add_didStartNewTimeSliceEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_didStartNewTimeSliceEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_didStartNewTimeSliceEvent(System.Action`1<BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didStartNewTimeSliceEvent(::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>*>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::remove_didStartNewTimeSliceEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_didStartNewTimeSliceEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void add_didAddItemEvent(System.Action`2<BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>,T> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void add_didAddItemEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>*, T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::add_didAddItemEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_didAddItemEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_didAddItemEvent(System.Action`2<BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>,T> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_didAddItemEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>*, T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::remove_didAddItemEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_didAddItemEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>* New_ctor(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<T>*, creationType>(capacity)));
     }
     // public System.Void Add(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void AddWithoutNotifications(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddWithoutNotifications(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::AddWithoutNotifications");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddWithoutNotifications", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void FinishTimeSlice(System.Single nextTimeSliceTime)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void FinishTimeSlice(float nextTimeSliceTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::FinishTimeSlice");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FinishTimeSlice", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nextTimeSliceTime)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, nextTimeSliceTime);
     }
     // private System.Void StartNewTimeSlice(System.Single newSliceTime)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void StartNewTimeSlice(float newSliceTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1::StartNewTimeSlice");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StartNewTimeSlice", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(newSliceTime)})));

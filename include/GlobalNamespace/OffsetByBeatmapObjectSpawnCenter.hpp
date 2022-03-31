@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B4550
+    // [InjectAttribute] Offset: 0x124E9D4
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x18
@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _spawnCenter
     ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__spawnCenter();
     // protected System.Void Start()
-    // Offset: 0x1347ACC
+    // Offset: 0x151913C
     void Start();
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x1347B80
+    // Offset: 0x15191F0
     void HandleSpawnCenterDistanceWasFound(float distance);
     // public System.Void .ctor()
-    // Offset: 0x1347C80
+    // Offset: 0x15192F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

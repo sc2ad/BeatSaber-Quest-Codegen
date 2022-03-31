@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IDisposableFixture*>(this);
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
-    // Offset: 0x29E5D7C
+    // Offset: 0x29B1EF4
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)

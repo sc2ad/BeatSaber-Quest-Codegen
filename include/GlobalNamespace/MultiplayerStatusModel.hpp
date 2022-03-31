@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B2D90
+    // [InjectAttribute] Offset: 0x124D214
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerStatusModel*>(this);
     }
     // static field const value: static private System.Int32 kRequestTimeoutSeconds
-    static constexpr const int kRequestTimeoutSeconds = 30;
+    static constexpr const int kRequestTimeoutSeconds = 60;
     // Get static field: static private System.Int32 kRequestTimeoutSeconds
     static int _get_kRequestTimeoutSeconds();
     // Set static field: static private System.Int32 kRequestTimeoutSeconds
@@ -105,22 +105,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.Tasks.Task`1<MultiplayerStatusData> _request
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*& dyn__request();
     // private System.Void Init()
-    // Offset: 0x14073D4
+    // Offset: 0x13ACBD0
     void Init();
     // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x140741C
+    // Offset: 0x13ACC18
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Boolean IsAvailabilityTaskValid()
-    // Offset: 0x1407498
+    // Offset: 0x13ACC94
     bool IsAvailabilityTaskValid();
     // private System.Void StartRequest()
-    // Offset: 0x14073F8
+    // Offset: 0x13ACBF4
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsyncInternal()
-    // Offset: 0x1407500
+    // Offset: 0x13ACCFC
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
     // public System.Void .ctor()
-    // Offset: 0x1407600
+    // Offset: 0x13ACE1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

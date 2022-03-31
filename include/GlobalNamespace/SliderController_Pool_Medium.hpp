@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class SliderController::Pool::Medium : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13BB75C
+    // Offset: 0x2AA0574
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

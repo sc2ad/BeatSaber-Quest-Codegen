@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B4600
+    // [InjectAttribute] Offset: 0x124EA84
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B4610
+    // [InjectAttribute] Offset: 0x124EA94
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x20
@@ -68,16 +68,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
     ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // protected System.Void LateUpdate()
-    // Offset: 0x1372F74
+    // Offset: 0x1364C70
     void LateUpdate();
     // public System.Void Pause()
-    // Offset: 0x13730BC
+    // Offset: 0x1364DB8
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x13730C8
+    // Offset: 0x1364DC4
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x13730D4
+    // Offset: 0x1364DD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

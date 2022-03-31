@@ -29,19 +29,19 @@ namespace GlobalNamespace {
   class ILightWithId {
     public:
     // public System.Boolean get_isRegistered()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isRegistered();
     // public System.Int32 get_lightId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_lightId();
     // public System.Void __SetIsRegistered()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
   }; // ILightWithId
   #pragma pack(pop)

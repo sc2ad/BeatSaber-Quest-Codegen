@@ -60,10 +60,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1
     ::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*& dyn_CS$$$8__locals1();
     // System.Boolean <BevelEdges>b__5(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x19F1558
+    // Offset: 0x19E7444
     bool $BevelEdges$b__5(::UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x19F1100
+    // Offset: 0x19E6FEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

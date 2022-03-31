@@ -30,7 +30,7 @@ namespace System::Xml {
   class Ucs4Decoder1234 : public ::System::Xml::Ucs4Decoder {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B873D8
+    // Offset: 0x1B6D8A8
     // Implemented from: System.Xml.Ucs4Decoder
     // Base method: System.Void Ucs4Decoder::.ctor()
     // Base method: System.Void Decoder::.ctor()
@@ -41,7 +41,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<Ucs4Decoder1234*, creationType>()));
     }
     // override System.Int32 GetFullChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1B87184
+    // Offset: 0x1B6D654
     // Implemented from: System.Xml.Ucs4Decoder
     // Base method: System.Int32 Ucs4Decoder::GetFullChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetFullChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);

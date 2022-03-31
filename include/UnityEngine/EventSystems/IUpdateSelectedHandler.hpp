@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(this);
     }
     // public System.Void OnUpdateSelected(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.IUpdateSelectedHandler
   #pragma pack(pop)

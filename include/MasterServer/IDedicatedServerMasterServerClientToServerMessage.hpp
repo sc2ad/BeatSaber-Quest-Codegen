@@ -30,10 +30,10 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
     }
     // public System.String get_dedicatedServerId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_dedicatedServerId();
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_dedicatedServerCreationTime();
   }; // MasterServer.IDedicatedServerMasterServerClientToServerMessage
   #pragma pack(pop)

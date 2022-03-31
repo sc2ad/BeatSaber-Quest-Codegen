@@ -60,14 +60,14 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<::System::Threading::Tasks::Task_1<TAntecedentResult>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Threading.Tasks.Task`1<TAntecedentResult> antecedent, System.Delegate function, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>* New_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* function, ::Il2CppObject* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::InternalTaskOptions internalOptions, ByRef<::System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*, creationType>(antecedent, function, state, creationOptions, internalOptions, byref(stackMark))));
     }
     // override System.Void InnerInvoke()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::InnerInvoke()
     void InnerInvoke() {

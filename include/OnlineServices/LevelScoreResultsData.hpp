@@ -119,10 +119,10 @@ namespace OnlineServices {
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
     ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Int32 multipliedScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x134CDC4
+    // Offset: 0x12E6618
     // ABORTED: conflicts with another method.  LevelScoreResultsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int multipliedScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public override System.String ToString()
-    // Offset: 0x134CDEC
+    // Offset: 0x12E6640
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

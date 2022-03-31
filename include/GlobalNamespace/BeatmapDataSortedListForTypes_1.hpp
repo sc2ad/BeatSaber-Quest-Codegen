@@ -82,7 +82,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedList_1<TBase>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void AddList(SortedList`2<T,TBase> list)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void AddList(::GlobalNamespace::SortedList_2<T, TBase>* list) {
       static_assert(std::is_convertible_v<T, TBase>);
@@ -92,21 +92,21 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, list);
     }
     // public System.Void InsertItem(TBase item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void InsertItem(TBase item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSortedListForTypes_1::InsertItem");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InsertItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void RemoveItem(TBase item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RemoveItem(TBase item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSortedListForTypes_1::RemoveItem");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Int32 GetCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     int GetCount() {
       static_assert(std::is_convertible_v<T, TBase>);
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___generic__method);
     }
     // public System.Collections.Generic.IEnumerable`1<T> GetItems()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::System::Collections::Generic::IEnumerable_1<T>* GetItems() {
       static_assert(std::is_convertible_v<T, TBase>);
@@ -126,14 +126,14 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method);
     }
     // private ISortedList`1<TBase> GetList(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ISortedList_1<TBase>* GetList(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSortedListForTypes_1::GetList");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetList", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::ISortedList_1<TBase>*, false>(this, ___internal__method, type);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

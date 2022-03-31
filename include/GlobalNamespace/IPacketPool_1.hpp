@@ -32,14 +32,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IPacketPool*>(this);
     }
     // public T Obtain()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T Obtain() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IPacketPool_1::Obtain");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Obtain", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void Release(T t)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Release(T t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IPacketPool_1::Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));

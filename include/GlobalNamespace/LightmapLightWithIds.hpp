@@ -7,8 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIds
 #include "GlobalNamespace/LightWithIds.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
+// Including type: LightConstants/BakeId
+#include "GlobalNamespace/LightConstants_BakeId.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -98,12 +98,12 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private System.Int32 _lightId
+    // private LightConstants/BakeId _bakeId
     // Size: 0x4
     // Offset: 0x2C
-    int lightId;
+    ::GlobalNamespace::LightConstants::BakeId bakeId;
     // Field size check
-    static_assert(sizeof(int) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::LightConstants::BakeId) == 0x4);
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x30
@@ -143,8 +143,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Get instance field reference: private System.Int32 _lightId
-    int& dyn__lightId();
+    // Get instance field reference: private LightConstants/BakeId _bakeId
+    ::GlobalNamespace::LightConstants::BakeId& dyn__bakeId();
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // Get instance field reference: private LightmapLightWithIds/LightIntensitiesWithId[] _lightIntensityData
@@ -157,20 +157,20 @@ namespace GlobalNamespace {
     int& dyn__lightProbeLightIdColorPropertyId();
     // Get instance field reference: private System.Boolean _initializedPropertyIds
     bool& dyn__initializedPropertyIds();
-    // public System.Int32 get_lightId()
-    // Offset: 0x1F17A00
-    int get_lightId();
+    // public LightConstants/BakeId get_bakeId()
+    // Offset: 0x2AD3C20
+    ::GlobalNamespace::LightConstants::BakeId get_bakeId();
     // protected System.Void Awake()
-    // Offset: 0x1F17A08
+    // Offset: 0x2AD3C28
     void Awake();
     // private System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1F17B94
+    // Offset: 0x2AD3DB4
     void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
     // private System.Void SetShaderProperties()
-    // Offset: 0x1F17AC4
+    // Offset: 0x2AD3CE4
     void SetShaderProperties();
     // public System.Void .ctor()
-    // Offset: 0x1F17F4C
+    // Offset: 0x2AD416C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -184,7 +184,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1F17BF4
+    // Offset: 0x2AD3E14
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
@@ -196,12 +196,12 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightmapLightWithIds::MixType, "", "LightmapLightWithIds/MixType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::get_lightId
-// Il2CppName: get_lightId
+// Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::get_bakeId
+// Il2CppName: get_bakeId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::get_lightId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightConstants::BakeId (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::get_bakeId)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "get_lightId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "get_bakeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::Awake

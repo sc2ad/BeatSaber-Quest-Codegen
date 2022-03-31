@@ -47,40 +47,40 @@ namespace System::Xml::XPath {
   class XPathItem : public ::Il2CppObject {
     public:
     // public System.Xml.Schema.XmlSchemaType get_XmlType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaType* get_XmlType();
     // public System.String get_Value()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Value();
     // public System.Object get_TypedValue()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_TypedValue();
     // public System.Type get_ValueType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_ValueType();
     // public System.Boolean get_ValueAsBoolean()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_ValueAsBoolean();
     // public System.DateTime get_ValueAsDateTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime get_ValueAsDateTime();
     // public System.Double get_ValueAsDouble()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     double get_ValueAsDouble();
     // public System.Int32 get_ValueAsInt()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_ValueAsInt();
     // public System.Int64 get_ValueAsLong()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_ValueAsLong();
     // public System.Object ValueAs(System.Type returnType)
-    // Offset: 0x1B88EBC
+    // Offset: 0x1B6F38C
     ::Il2CppObject* ValueAs(::System::Type* returnType);
     // public System.Object ValueAs(System.Type returnType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor()
-    // Offset: 0x1B88ED0
+    // Offset: 0x1B6F3A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -71,16 +71,16 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private System.String _propertyName
     ::StringW& dyn__propertyName();
     // private System.Void AddValue(System.Object value, Newtonsoft.Json.Bson.BsonType type)
-    // Offset: 0x1782B4C
+    // Offset: 0x1779A3C
     void AddValue(::Il2CppObject* value, ::Newtonsoft::Json::Bson::BsonType type);
     // System.Void AddToken(Newtonsoft.Json.Bson.BsonToken token)
-    // Offset: 0x1782BC8
+    // Offset: 0x1779AB8
     void AddToken(::Newtonsoft::Json::Bson::BsonToken* token);
     // public System.Void WriteObjectId(System.Byte[] value)
-    // Offset: 0x1782D90
+    // Offset: 0x1779C80
     void WriteObjectId(::ArrayW<uint8_t> value);
     // public System.Void WriteRegex(System.String pattern, System.String options)
-    // Offset: 0x1782E5C
+    // Offset: 0x1779D4C
     void WriteRegex(::StringW pattern, ::StringW options);
   }; // Newtonsoft.Json.Bson.BsonWriter
   #pragma pack(pop)

@@ -66,19 +66,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMAsyncRequest/CancelHander _cancelHander
     ::GlobalNamespace::HMAsyncRequest::CancelHander*& dyn__cancelHander();
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0x157B4E4
+    // Offset: 0x15721F0
     ::GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0x157B4EC
+    // Offset: 0x15721F8
     void set_CancelHandler(::GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0x157B4F4
+    // Offset: 0x1572200
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0x157B4FC
+    // Offset: 0x1572208
     void Cancel();
     // public System.Void .ctor()
-    // Offset: 0x157B8AC
+    // Offset: 0x15725B8
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()

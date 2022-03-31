@@ -40,7 +40,7 @@ namespace System::Collections::Generic {
   class SByteEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
     // Base method: System.Void EnumEqualityComparer_1::.ctor()
     // Base method: System.Void EqualityComparer_1::.ctor()
@@ -51,7 +51,7 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*, creationType>()));
     }
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
     // Base method: System.Void EnumEqualityComparer_1::.ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +60,7 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*, creationType>(information, context)));
     }
     // public override System.Int32 GetHashCode(T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
     // Base method: System.Int32 EnumEqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {

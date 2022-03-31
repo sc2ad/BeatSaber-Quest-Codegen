@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<IDifficultyBeatmapSet> <>9__10_0
     static void _set_$$9__10_0(::System::Comparison_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1373C84
+    // Offset: 0x1365980
     static void _cctor();
     // System.Int32 <SetData>b__10_0(IDifficultyBeatmapSet a, IDifficultyBeatmapSet b)
-    // Offset: 0x1373CF0
+    // Offset: 0x13659EC
     int $SetData$b__10_0(::GlobalNamespace::IDifficultyBeatmapSet* a, ::GlobalNamespace::IDifficultyBeatmapSet* b);
     // public System.Void .ctor()
-    // Offset: 0x1373CE8
+    // Offset: 0x13659E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

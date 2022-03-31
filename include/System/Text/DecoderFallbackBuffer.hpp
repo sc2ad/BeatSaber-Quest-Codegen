@@ -54,34 +54,34 @@ namespace System::Text {
     // Get instance field reference: System.Char* charEnd
     ::Il2CppChar*& dyn_charEnd();
     // public System.Int32 get_Remaining()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Remaining();
     // public System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public System.Char GetNextChar()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppChar GetNextChar();
     // public System.Void Reset()
-    // Offset: 0x20FE684
+    // Offset: 0x20E9764
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x20FD348
+    // Offset: 0x20E8428
     void InternalReset();
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
-    // Offset: 0x20FD088
+    // Offset: 0x20E8168
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
-    // Offset: 0x20FE6B8
+    // Offset: 0x20E9798
     bool InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes, ByRef<::Il2CppChar*> chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x20FE864
+    // Offset: 0x20E9944
     int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
-    // Offset: 0x20FE9F8
+    // Offset: 0x20E9AD8
     void ThrowLastBytesRecursive(::ArrayW<uint8_t> bytesUnknown);
     // protected System.Void .ctor()
-    // Offset: 0x20FE4BC
+    // Offset: 0x20E959C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

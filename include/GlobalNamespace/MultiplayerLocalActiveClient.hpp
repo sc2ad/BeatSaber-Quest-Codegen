@@ -70,56 +70,56 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B9828
+    // [InjectAttribute] Offset: 0x1253D9C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9838
+    // [InjectAttribute] Offset: 0x1253DAC
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9848
+    // [InjectAttribute] Offset: 0x1253DBC
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9858
+    // [InjectAttribute] Offset: 0x1253DCC
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9868
+    // [InjectAttribute] Offset: 0x1253DDC
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9878
+    // [InjectAttribute] Offset: 0x1253DEC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9888
+    // [InjectAttribute] Offset: 0x1253DFC
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9898
+    // [InjectAttribute] Offset: 0x1253E0C
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x50
@@ -146,40 +146,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ComboController _comboController
     ::GlobalNamespace::ComboController*& dyn__comboController();
     // protected System.Void Start()
-    // Offset: 0x139B0F8
+    // Offset: 0x13FDCEC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x139B778
+    // Offset: 0x13FE36C
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x139BB18
+    // Offset: 0x13FE70C
     void LateUpdate();
     // private System.Void HandleNoteWasAdded(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x139BEA0
+    // Offset: 0x13FEA94
     void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // private System.Void HandleObstacleWasAdded(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x139C0A4
+    // Offset: 0x13FEC98
     void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // private System.Void HandleSliderWasAdded(SliderData sliderData, BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x139C268
+    // Offset: 0x13FEE5C
     void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData sliderSpawnData, float rotation);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x139C528
+    // Offset: 0x13FF11C
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x139C640
+    // Offset: 0x13FF234
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x139C810
+    // Offset: 0x13FF404
     void HandleComboDidChange(int combo);
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x139C8F8
+    // Offset: 0x13FF4EC
     void HandleMultiplierDidChange(int multiplier, float multiplierProgress);
     // private System.Void HandleScoreDidChange(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x139C9E0
+    // Offset: 0x13FF5D4
     void HandleScoreDidChange(int multipliedScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x139CC5C
+    // Offset: 0x13FF850
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

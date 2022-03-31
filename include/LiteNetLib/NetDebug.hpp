@@ -43,25 +43,25 @@ namespace LiteNetLib {
     // Set static field: static private readonly System.Object DebugLogLock
     static void _set_DebugLogLock(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0x218E3BC
+    // Offset: 0x21651A0
     static void _cctor();
     // static private System.Void WriteLogic(LiteNetLib.NetLogLevel logLevel, System.String str, params System.Object[] args)
-    // Offset: 0x218DFD4
+    // Offset: 0x2164DB8
     static void WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void Write(System.String str, params System.Object[] args)
-    // Offset: 0x218E1D4
+    // Offset: 0x2164FB8
     static void Write(::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void Write(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x218E24C
+    // Offset: 0x2165030
     static void Write(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void WriteForce(System.String str, params System.Object[] args)
-    // Offset: 0x218E2C8
+    // Offset: 0x21650AC
     static void WriteForce(::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void WriteForce(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x218E340
+    // Offset: 0x2165124
     static void WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void WriteError(System.String str, params System.Object[] args)
-    // Offset: 0x21879C8
+    // Offset: 0x215E7AC
     static void WriteError(::StringW str, ::ArrayW<::Il2CppObject*> args);
   }; // LiteNetLib.NetDebug
   #pragma pack(pop)

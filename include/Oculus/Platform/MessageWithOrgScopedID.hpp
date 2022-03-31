@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithOrgScopedID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::OrgScopedID*> {
     public:
     // protected Oculus.Platform.Models.OrgScopedID GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19BAE40
+    // Offset: 0x19B0D2C
     ::Oculus::Platform::Models::OrgScopedID* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19B2DF8
+    // Offset: 0x19A8CE4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithOrgScopedID*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.OrgScopedID GetOrgScopedID()
-    // Offset: 0x19BADFC
+    // Offset: 0x19B0CE8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.OrgScopedID Message::GetOrgScopedID()
     ::Oculus::Platform::Models::OrgScopedID* GetOrgScopedID();

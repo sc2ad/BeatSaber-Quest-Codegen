@@ -67,14 +67,14 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x10DBAF8
+    // [RangeAttribute] Offset: 0x12743D0
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x20
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10DBB10
+    // [RangeAttribute] Offset: 0x12743E8
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x24
@@ -113,7 +113,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: effectChildNodes and: maintainRelativePositionWeight
     char __padding8[0x2] = {};
-    // [RangeAttribute] Offset: 0x10DBB38
+    // [RangeAttribute] Offset: 0x1274410
     // public System.Single maintainRelativePositionWeight
     // Size: 0x4
     // Offset: 0x54
@@ -324,53 +324,53 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32[] childNodeIndexes
     ::ArrayW<int>& dyn_childNodeIndexes();
     // public System.Boolean get_isEndEffector()
-    // Offset: 0x2201638
+    // Offset: 0x21D741C
     bool get_isEndEffector();
     // private System.Void set_isEndEffector(System.Boolean value)
-    // Offset: 0x2201640
+    // Offset: 0x21D7424
     void set_isEndEffector(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform[] childBones)
-    // Offset: 0x220185C
+    // Offset: 0x21D7640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKEffector* New_ctor(::UnityEngine::Transform* bone, ::ArrayW<::UnityEngine::Transform*> childBones) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKEffector*, creationType>(bone, childBones)));
     }
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node GetNode(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x22015D0
+    // Offset: 0x21D73B4
     ::RootMotion::FinalIK::IKSolver::Node* GetNode(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void PinToBone(System.Single positionWeight, System.Single rotationWeight)
-    // Offset: 0x220164C
+    // Offset: 0x21D7430
     void PinToBone(float positionWeight, float rotationWeight);
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x22019B4
+    // Offset: 0x21D7798
     bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x2201CA4
+    // Offset: 0x21D7A88
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ResetOffset(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x2201F44
+    // Offset: 0x21D7D28
     void ResetOffset(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SetToTarget()
-    // Offset: 0x2202084
+    // Offset: 0x21D7E68
     void SetToTarget();
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x2202130
+    // Offset: 0x21D7F14
     void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPostWrite()
-    // Offset: 0x2202784
+    // Offset: 0x21D8568
     void OnPostWrite();
     // private UnityEngine.Quaternion GetPlaneRotation(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x22027F4
+    // Offset: 0x21D85D8
     ::UnityEngine::Quaternion GetPlaneRotation(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x2202A0C
+    // Offset: 0x21D87F0
     void Update(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 GetPosition(RootMotion.FinalIK.IKSolverFullBody solver, out UnityEngine.Quaternion planeRotationOffset)
-    // Offset: 0x2202D54
+    // Offset: 0x21D8B38
     ::UnityEngine::Vector3 GetPosition(::RootMotion::FinalIK::IKSolverFullBody* solver, ByRef<::UnityEngine::Quaternion> planeRotationOffset);
     // public System.Void .ctor()
-    // Offset: 0x2201720
+    // Offset: 0x21D7504
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

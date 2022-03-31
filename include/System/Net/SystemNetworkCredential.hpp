@@ -33,10 +33,10 @@ namespace System::Net {
     // Set static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static void _set_defaultCredential(::System::Net::SystemNetworkCredential* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B0FC98
+    // Offset: 0x1B1444C
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1B0FC34
+    // Offset: 0x1B143E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

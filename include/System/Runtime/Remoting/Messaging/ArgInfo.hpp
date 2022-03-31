@@ -73,14 +73,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Reflection.MethodBase _method
     ::System::Reflection::MethodBase*& dyn__method();
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
-    // Offset: 0x1C7BF64
+    // Offset: 0x1C62434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ArgInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgInfo*, creationType>(method, type)));
     }
     // public System.Object[] GetInOutArgs(System.Object[] args)
-    // Offset: 0x1C7C128
+    // Offset: 0x1C625F8
     ::ArrayW<::Il2CppObject*> GetInOutArgs(::ArrayW<::Il2CppObject*> args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
   #pragma pack(pop)

@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public ScenesTransitionSetupDataSO newScenesTransitionSetupData
     ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_newScenesTransitionSetupData();
     // System.Boolean <ScenesTransitionCoroutine>b__0()
-    // Offset: 0x157A0DC
+    // Offset: 0x1570DE8
     bool $ScenesTransitionCoroutine$b__0();
     // System.Boolean <ScenesTransitionCoroutine>b__1()
-    // Offset: 0x157A100
+    // Offset: 0x1570E0C
     bool $ScenesTransitionCoroutine$b__1();
     // public System.Void .ctor()
-    // Offset: 0x157A0D4
+    // Offset: 0x1570DE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

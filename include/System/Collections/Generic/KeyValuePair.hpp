@@ -24,7 +24,7 @@ namespace System::Collections::Generic {
   class KeyValuePair : public ::Il2CppObject {
     public:
     // static System.String PairToString(System.Object key, System.Object value)
-    // Offset: 0x1CDA33C
+    // Offset: 0x1CBE80C
     static ::StringW PairToString(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.Generic.KeyValuePair
   #pragma pack(pop)

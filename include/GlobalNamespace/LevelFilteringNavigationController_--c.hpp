@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__53_0
     static void _set_$$9__53_0(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14AF0E8
+    // Offset: 0x13C1140
     static void _cctor();
     // System.String <SelectAnnotatedBeatmapLevelCollection>b__53_0(IBeatmapLevelPack pack)
-    // Offset: 0x14AF154
+    // Offset: 0x13C11AC
     ::StringW $SelectAnnotatedBeatmapLevelCollection$b__53_0(::GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x14AF14C
+    // Offset: 0x13C11A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

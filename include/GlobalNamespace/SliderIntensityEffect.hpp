@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     float tailIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10B5704
+    // [SpaceAttribute] Offset: 0x124FB88
     // private System.Single _fadeOutDuration
     // Size: 0x4
     // Offset: 0x24
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     float stayOffDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10B574C
+    // [SpaceAttribute] Offset: 0x124FBD0
     // private System.Single _flashBoost
     // Size: 0x4
     // Offset: 0x2C
@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     float flashOutDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10B57A4
+    // [InjectAttribute] Offset: 0x124FC28
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x38
@@ -220,37 +220,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private SliderIntensityEffect/FadeElement[] _flashEffectFadeElements
     ::ArrayW<::GlobalNamespace::SliderIntensityEffect::FadeElement*>& dyn__flashEffectFadeElements();
     // public System.Single get_intensity()
-    // Offset: 0x13B9984
+    // Offset: 0x2A9D3DC
     float get_intensity();
     // public System.Void add_fadeInDidStartEvent(System.Action value)
-    // Offset: 0x13BA458
+    // Offset: 0x2A9EC30
     void add_fadeInDidStartEvent(::System::Action* value);
     // public System.Void remove_fadeInDidStartEvent(System.Action value)
-    // Offset: 0x13BA754
+    // Offset: 0x2A9F10C
     void remove_fadeInDidStartEvent(::System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x13BB9DC
+    // Offset: 0x2AA0904
     void Awake();
     // public System.Void Init(System.Single sliderDuration, System.Single halfJumpDuration)
-    // Offset: 0x13B9DFC
+    // Offset: 0x2A9D978
     void Init(float sliderDuration, float halfJumpDuration);
     // public System.Void ManualUpdate(System.Single timeSinceHeadNoteJump)
-    // Offset: 0x13BA8B0
+    // Offset: 0x2A9F4CC
     void ManualUpdate(float timeSinceHeadNoteJump);
     // private System.Collections.IEnumerator ProcessEffectCoroutine(System.Collections.Generic.IEnumerable`1<SliderIntensityEffect/FadeElement> fadeElements)
-    // Offset: 0x13BBC40
+    // Offset: 0x2AA0BC4
     ::System::Collections::IEnumerator* ProcessEffectCoroutine(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>* fadeElements);
     // public System.Void StartIntensityDipEffect()
-    // Offset: 0x13BB070
+    // Offset: 0x2A9FDF0
     void StartIntensityDipEffect();
     // public System.Void StartFlashEffect()
-    // Offset: 0x13BBCE8
+    // Offset: 0x2AA0C6C
     void StartFlashEffect();
     // private System.Void <Awake>b__24_0()
-    // Offset: 0x13BBD44
+    // Offset: 0x2AA0CC8
     void $Awake$b__24_0();
     // public System.Void .ctor()
-    // Offset: 0x13BBD24
+    // Offset: 0x2AA0CA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

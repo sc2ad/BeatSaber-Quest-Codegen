@@ -123,23 +123,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _lightRotationBeatmapEventCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightRotationBeatmapEventCallbackWrapper();
     // public System.Void .ctor(LightRotationGroupEffect/InitData initData, Tweening.SongTimeTweeningManager tweeningManager, BeatmapCallbacksController beatmapCallbacksController)
-    // Offset: 0x14CFFB4
+    // Offset: 0x148F038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect::InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationGroupEffect*, creationType>(initData, tweeningManager, beatmapCallbacksController)));
     }
     // public System.Void Cleanup()
-    // Offset: 0x14D019C
+    // Offset: 0x148F220
     void Cleanup();
     // private System.Void HandleRotationChangeBeatmapEvent(LightRotationBeatmapEventData currentEventData)
-    // Offset: 0x14D0248
+    // Offset: 0x148F2CC
     void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
     // private System.Void SetRotation(System.Single rotation)
-    // Offset: 0x14D0400
+    // Offset: 0x148F484
     void SetRotation(float rotation);
     // static public System.Single ComputeTargetAngle(System.Single startAngle, System.Single targetAngle, System.Int32 loopCount, LightRotationDirection rotationOrientation)
-    // Offset: 0x14D0504
+    // Offset: 0x148F588
     static float ComputeTargetAngle(float startAngle, float targetAngle, int loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
   }; // LightRotationGroupEffect
   #pragma pack(pop)

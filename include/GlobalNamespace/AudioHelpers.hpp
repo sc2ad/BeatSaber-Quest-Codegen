@@ -23,10 +23,10 @@ namespace GlobalNamespace {
   class AudioHelpers : public ::Il2CppObject {
     public:
     // static public System.Single NormalizedVolumeToDB(System.Single normalizedVolume)
-    // Offset: 0x156E1B0
+    // Offset: 0x1564EBC
     static float NormalizedVolumeToDB(float normalizedVolume);
     // static public System.Single DBToNormalizedVolume(System.Single db)
-    // Offset: 0x156E244
+    // Offset: 0x1564F50
     static float DBToNormalizedVolume(float db);
   }; // AudioHelpers
   #pragma pack(pop)

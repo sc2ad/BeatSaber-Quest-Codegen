@@ -65,31 +65,31 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 <responseId>k__BackingField
     uint& dyn_$responseId$k__BackingField();
     // public System.UInt32 get_responseId()
-    // Offset: 0x152D55C
+    // Offset: 0x14FA1FC
     uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x152D564
+    // Offset: 0x14FA204
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x152D56C
+    // Offset: 0x14FA20C
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x152D574
+    // Offset: 0x14FA214
     ::StringW get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15281CC
+    // Offset: 0x14F4E6C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152823C
+    // Offset: 0x14F4EDC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Release();
     // private BGNet.Core.Messages.IUnconnectedResponse BGNet.Core.Messages.IUnconnectedResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x152D5BC
+    // Offset: 0x14FA25C
     ::BGNet::Core::Messages::IUnconnectedResponse* BGNet_Core_Messages_IUnconnectedResponse_WithResponseId(uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x1528278
+    // Offset: 0x14F4F18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

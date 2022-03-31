@@ -37,10 +37,10 @@ namespace GlobalNamespace {
   class IDifficultyBeatmapSet {
     public:
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmap> get_difficultyBeatmaps()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
   }; // IDifficultyBeatmapSet
   #pragma pack(pop)

@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   class DataItemConvertor_3 : public ::GlobalNamespace::DataItemConvertor_1<TBase> {
     public:
     // protected TOut Convert(TIn item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TOut Convert(TIn item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataItemConvertor_3::Convert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Convert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       return ::il2cpp_utils::RunMethodRethrow<TOut, false>(this, ___internal__method, item);
     }
     // public override System.Type get_inputDataType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`1
     // Base method: System.Type DataItemConvertor_1::get_inputDataType()
     ::System::Type* get_inputDataType() {
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`1
     // Base method: System.Void DataItemConvertor_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DataItemConvertor_3<TBase, TIn, TOut>*, creationType>()));
     }
     // public override TBase Convert(System.Object item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`1
     // Base method: TOut DataItemConvertor_1::Convert(System.Object item)
     TBase Convert(::Il2CppObject* item) {

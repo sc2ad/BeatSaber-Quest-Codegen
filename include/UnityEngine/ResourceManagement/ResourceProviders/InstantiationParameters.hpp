@@ -92,28 +92,28 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_SetPositionRotation
     bool& dyn_m_SetPositionRotation();
     // public UnityEngine.Vector3 get_Position()
-    // Offset: 0x1EBAE2C
+    // Offset: 0x1E9F2FC
     ::UnityEngine::Vector3 get_Position();
     // public UnityEngine.Quaternion get_Rotation()
-    // Offset: 0x1EBAE38
+    // Offset: 0x1E9F308
     ::UnityEngine::Quaternion get_Rotation();
     // public UnityEngine.Transform get_Parent()
-    // Offset: 0x1EBAE44
+    // Offset: 0x1E9F314
     ::UnityEngine::Transform* get_Parent();
     // public System.Boolean get_InstantiateInWorldPosition()
-    // Offset: 0x1EBAE4C
+    // Offset: 0x1E9F31C
     bool get_InstantiateInWorldPosition();
     // public System.Boolean get_SetPositionRotation()
-    // Offset: 0x1EBAE54
+    // Offset: 0x1E9F324
     bool get_SetPositionRotation();
     // public System.Void .ctor(UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
-    // Offset: 0x1EBAE5C
+    // Offset: 0x1E9F32C
     InstantiationParameters(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0x1EBAF1C
+    // Offset: 0x1E9F3EC
     InstantiationParameters(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
     // public TObject Instantiate(TObject source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     TObject Instantiate(TObject source) {
       static_assert(std::is_convertible_v<TObject, ::UnityEngine::Object*>);

@@ -43,19 +43,19 @@ namespace System::Xml {
   class XmlResolver : public ::Il2CppObject {
     public:
     // public System.Object GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // public System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
-    // Offset: 0x15B11B8
+    // Offset: 0x15A7F50
     ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
     // public System.Boolean SupportsType(System.Uri absoluteUri, System.Type type)
-    // Offset: 0x15B1394
+    // Offset: 0x15A812C
     bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
     // public System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x15B14D4
+    // Offset: 0x15A826C
     ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // protected System.Void .ctor()
-    // Offset: 0x15B1534
+    // Offset: 0x15A82CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -58,10 +58,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 normal
     ::LIV::SDK::Unity::SDKVector3& dyn_normal();
     // static public LIV.SDK.Unity.SDKPlane get_empty()
-    // Offset: 0x2A31BD0
+    // Offset: 0x29FCD80
     static ::LIV::SDK::Unity::SDKPlane get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A31BF4
+    // Offset: 0x29FCDA4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

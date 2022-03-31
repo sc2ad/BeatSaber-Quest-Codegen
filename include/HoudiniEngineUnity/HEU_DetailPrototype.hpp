@@ -134,10 +134,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _renderMode
     int& dyn__renderMode();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailPrototype other)
-    // Offset: 0x17517EC
+    // Offset: 0x17496DC
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
     // public System.Void .ctor()
-    // Offset: 0x17516C4
+    // Offset: 0x17495B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -54,10 +54,10 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
     }
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1D8E01C
+    // Offset: 0x1D714EC
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1D8E0A0
+    // Offset: 0x1D71570
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -69,7 +69,7 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<ActivationPlayableAsset*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1D8E024
+    // Offset: 0x1D714F4
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);

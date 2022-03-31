@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     template<typename T>
     class $Batch$d__0_1;
     // static public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.List`1<T>> Batch(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 batchSize)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>* Batch(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int batchSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BatchExtensions::Batch");

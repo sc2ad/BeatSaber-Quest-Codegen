@@ -42,34 +42,34 @@ namespace OVR::OpenVR {
   class OpenVRInterop : public ::Il2CppObject {
     public:
     // static System.UInt32 InitInternal(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType)
-    // Offset: 0x16209C8
+    // Offset: 0x161870C
     static uint InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
     // static System.UInt32 InitInternal2(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, in System.String pStartupInfo)
-    // Offset: 0x1620A5C
+    // Offset: 0x16187A0
     static uint InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ByRef<::StringW> pStartupInfo);
     // static System.Void ShutdownInternal()
-    // Offset: 0x1620B14
+    // Offset: 0x1618858
     static void ShutdownInternal();
     // static System.Boolean IsHmdPresent()
-    // Offset: 0x1620B88
+    // Offset: 0x16188CC
     static bool IsHmdPresent();
     // static System.Boolean IsRuntimeInstalled()
-    // Offset: 0x1620C08
+    // Offset: 0x161894C
     static bool IsRuntimeInstalled();
     // static System.IntPtr GetStringForHmdError(OVR.OpenVR.EVRInitError error)
-    // Offset: 0x1620CFC
+    // Offset: 0x1618A40
     static ::System::IntPtr GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
     // static System.IntPtr GetGenericInterface(in System.String pchInterfaceVersion, ref OVR.OpenVR.EVRInitError peError)
-    // Offset: 0x1620D80
+    // Offset: 0x1618AC4
     static ::System::IntPtr GetGenericInterface(ByRef<::StringW> pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError);
     // static System.Boolean IsInterfaceVersionValid(in System.String pchInterfaceVersion)
-    // Offset: 0x1620E2C
+    // Offset: 0x1618B70
     static bool IsInterfaceVersionValid(ByRef<::StringW> pchInterfaceVersion);
     // static System.UInt32 GetInitToken()
-    // Offset: 0x1620ECC
+    // Offset: 0x1618C10
     static uint GetInitToken();
     // public System.Void .ctor()
-    // Offset: 0x162244C
+    // Offset: 0x161A190
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

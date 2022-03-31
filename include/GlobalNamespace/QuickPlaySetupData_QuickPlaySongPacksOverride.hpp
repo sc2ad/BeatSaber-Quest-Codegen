@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack> localizedCustomPacks
     ::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>*& dyn_localizedCustomPacks();
     // public System.Void .ctor()
-    // Offset: 0x13C5368
+    // Offset: 0x137A960
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

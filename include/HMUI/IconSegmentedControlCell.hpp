@@ -69,7 +69,7 @@ namespace HMUI {
     ::HMUI::HoverHint* hoverHint;
     // Field size check
     static_assert(sizeof(::HMUI::HoverHint*) == 0x8);
-    // [NullAllowed] Offset: 0x10A0CA0
+    // [NullAllowed] Offset: 0x123AC5C
     // private UnityEngine.GameObject _backgroundGameObject
     // Size: 0x8
     // Offset: 0x60
@@ -84,22 +84,22 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
     ::UnityEngine::GameObject*& dyn__backgroundGameObject();
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x16F6DB8
+    // Offset: 0x16EDCA8
     ::UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x16F6BF8
+    // Offset: 0x16EDAE8
     void set_sprite(::UnityEngine::Sprite* value);
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x16F6C14
+    // Offset: 0x16EDB04
     void set_hintText(::StringW value);
     // public System.Void set_iconSize(System.Single value)
-    // Offset: 0x16F6CDC
+    // Offset: 0x16EDBCC
     void set_iconSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x16F6C30
+    // Offset: 0x16EDB20
     void set_hideBackgroundImage(bool value);
     // public System.Void .ctor()
-    // Offset: 0x16F6DD4
+    // Offset: 0x16EDCC4
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

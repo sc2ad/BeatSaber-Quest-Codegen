@@ -147,22 +147,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isMe
     bool& dyn__isMe();
     // public System.Boolean get_showSeparator()
-    // Offset: 0x140B6F0
+    // Offset: 0x14700A0
     bool get_showSeparator();
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x140B70C
+    // Offset: 0x14700BC
     void set_showSeparator(bool value);
     // private UnityEngine.Color get_activeColor()
-    // Offset: 0x140BA0C
+    // Offset: 0x14703BC
     ::UnityEngine::Color get_activeColor();
     // public System.Void SetData(System.String userName, System.Boolean isOpenParty, System.Boolean wantsToPlayNextLevel, System.Boolean isMyPartyOwner, System.Boolean isMe)
-    // Offset: 0x140B964
+    // Offset: 0x1470314
     void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
     // private System.Void RefreshVisuals()
-    // Offset: 0x140B744
+    // Offset: 0x14700F4
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x140BA68
+    // Offset: 0x1470418
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -178,12 +178,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x140BA04
+    // Offset: 0x14703B4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x140BA08
+    // Offset: 0x14703B8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

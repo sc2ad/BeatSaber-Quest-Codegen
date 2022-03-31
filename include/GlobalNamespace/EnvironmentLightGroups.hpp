@@ -78,13 +78,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentLightGroups/LightGroupData[] _lightGroupDataListForLightGroupDataDict
     ::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>& dyn__lightGroupDataListForLightGroupDataDict();
     // public System.Collections.Generic.IReadOnlyList`1<EnvironmentLightGroups/LightGroupData> get_lightGroupDataList()
-    // Offset: 0x12D972C
+    // Offset: 0x1383CE8
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>* get_lightGroupDataList();
     // public EnvironmentLightGroups/LightGroupData GetDataForGroup(System.Int32 groupId)
-    // Offset: 0x12D9734
+    // Offset: 0x1383CF0
     ::GlobalNamespace::EnvironmentLightGroups::LightGroupData* GetDataForGroup(int groupId);
     // public System.Void .ctor()
-    // Offset: 0x12D987C
+    // Offset: 0x1383E38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

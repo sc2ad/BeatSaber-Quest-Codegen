@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10B1B54
+    // [LocalizationKeyAttribute] Offset: 0x124BFD8
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
     ::StringW descriptionLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10B1B8C
+    // [LocalizationKeyAttribute] Offset: 0x124C010
     // private System.String _characteristicNameLocalizationKey
     // Size: 0x8
     // Offset: 0x28
@@ -125,34 +125,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfColors
     int& dyn__numberOfColors();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x13733D0
+    // Offset: 0x13650CC
     ::UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x13733D8
+    // Offset: 0x13650D4
     ::StringW get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0x13733E0
+    // Offset: 0x13650DC
     ::StringW get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0x13733E8
+    // Offset: 0x13650E4
     ::StringW get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0x13733F0
+    // Offset: 0x13650EC
     ::StringW get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x13733F8
+    // Offset: 0x13650F4
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0x1373400
+    // Offset: 0x13650FC
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0x1373408
+    // Offset: 0x1365104
     bool get_requires360Movement();
     // public System.Int32 get_numberOfColors()
-    // Offset: 0x1373410
+    // Offset: 0x136510C
     int get_numberOfColors();
     // public System.Void .ctor()
-    // Offset: 0x1373418
+    // Offset: 0x1365114
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

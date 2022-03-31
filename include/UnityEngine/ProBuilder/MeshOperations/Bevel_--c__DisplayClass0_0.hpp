@@ -92,13 +92,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__8
     ::System::Func_2<int, int>*& dyn_$$9__8();
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
-    // Offset: 0x19F1488
+    // Offset: 0x19E7374
     int $BevelEdges$b__7(int x);
     // System.Int32 <BevelEdges>b__8(System.Int32 x)
-    // Offset: 0x19F14D0
+    // Offset: 0x19E73BC
     int $BevelEdges$b__8(int x);
     // public System.Void .ctor()
-    // Offset: 0x19F0748
+    // Offset: 0x19E6634
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

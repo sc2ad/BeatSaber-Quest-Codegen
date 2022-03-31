@@ -106,13 +106,13 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
     ::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*& dyn_getRayIntersectionAllNonAlloc();
     // static public UnityEngine.UI.ReflectionMethodsCache get_Singleton()
-    // Offset: 0x1EA2E48
+    // Offset: 0x1E86318
     static ::UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
     // static private System.Void .cctor()
-    // Offset: 0x1EA2F08
+    // Offset: 0x1E863D8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1EA235C
+    // Offset: 0x1E8582C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

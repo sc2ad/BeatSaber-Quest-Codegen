@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
     ::GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*& dyn_achievementsData();
     // public System.Void .ctor()
-    // Offset: 0x148846C
+    // Offset: 0x13716FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

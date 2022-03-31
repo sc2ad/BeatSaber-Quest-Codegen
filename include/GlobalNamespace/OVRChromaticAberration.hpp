@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean chromatic
     bool& dyn_chromatic();
     // private System.Void Start()
-    // Offset: 0x1625808
+    // Offset: 0x161D54C
     void Start();
     // private System.Void Update()
-    // Offset: 0x16258C8
+    // Offset: 0x161D60C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x16259DC
+    // Offset: 0x161D720
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

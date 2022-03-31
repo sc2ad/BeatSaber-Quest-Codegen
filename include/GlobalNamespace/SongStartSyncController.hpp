@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B3820
+    // [InjectAttribute] Offset: 0x124DCA4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B3830
+    // [InjectAttribute] Offset: 0x124DCB4
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
@@ -155,49 +155,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Single> syncResumeEvent
     ::System::Action_1<float>*& dyn_syncResumeEvent();
     // public System.Boolean get_isSongStarted()
-    // Offset: 0x13EE2D4
+    // Offset: 0x2AA882C
     bool get_isSongStarted();
     // public System.Single get_songStartSyncTime()
-    // Offset: 0x13EE2DC
+    // Offset: 0x2AA8834
     float get_songStartSyncTime();
     // public System.Void add_syncStartFailedEvent(System.Action value)
-    // Offset: 0x13EE2F8
+    // Offset: 0x2AA8850
     void add_syncStartFailedEvent(::System::Action* value);
     // public System.Void remove_syncStartFailedEvent(System.Action value)
-    // Offset: 0x13EE39C
+    // Offset: 0x2AA88F4
     void remove_syncStartFailedEvent(::System::Action* value);
     // public System.Void add_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13EE440
+    // Offset: 0x2AA8998
     void add_syncStartSuccessEvent(::System::Action_1<float>* value);
     // public System.Void remove_syncStartSuccessEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13EE4E4
+    // Offset: 0x2AA8A3C
     void remove_syncStartSuccessEvent(::System::Action_1<float>* value);
     // public System.Void add_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13EE588
+    // Offset: 0x2AA8AE0
     void add_syncResumeEvent(::System::Action_1<float>* value);
     // public System.Void remove_syncResumeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13EE62C
+    // Offset: 0x2AA8B84
     void remove_syncResumeEvent(::System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0x13EE6D0
+    // Offset: 0x2AA8C28
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13EE6DC
+    // Offset: 0x2AA8C34
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13EE6F0
+    // Offset: 0x2AA8C48
     void Update();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x13EE758
+    // Offset: 0x2AA8CB0
     void OnApplicationPause(bool pauseStatus);
     // public System.Void StartSong(PlayersSpecificSettingsAtGameStartModel playersSpecificSettingsAtGameStartModel, System.String sessionGameId)
-    // Offset: 0x13EE7E4
+    // Offset: 0x2AA8D3C
     void StartSong(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId);
     // private System.Void HandleSetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0x13EE934
+    // Offset: 0x2AA8E8C
     void HandleSetSongStartSyncTime(float songStartSyncTime);
     // public System.Void .ctor()
-    // Offset: 0x13EE9B8
+    // Offset: 0x2AA8F10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

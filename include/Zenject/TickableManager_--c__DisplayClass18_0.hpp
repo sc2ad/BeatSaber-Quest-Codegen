@@ -68,16 +68,16 @@ namespace Zenject {
     // Get instance field reference: public Zenject.ITickable tickable
     ::Zenject::ITickable*& dyn_tickable();
     // System.Boolean <InitTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1D08330
+    // Offset: 0x1CEC800
     bool $InitTickables$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D083C8
+    // Offset: 0x1CEC898
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D08424
+    // Offset: 0x1CEC8F4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1D06D80
+    // Offset: 0x1CEB250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

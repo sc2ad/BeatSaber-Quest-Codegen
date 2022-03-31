@@ -180,14 +180,14 @@ namespace BGNet::Core::GameLift {
       return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // private System.Void MoveNext()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Get$d__15_1::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Get$d__15_1::SetStateMachine");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));

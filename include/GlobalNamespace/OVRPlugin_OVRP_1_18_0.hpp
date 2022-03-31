@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AF97D4
+    // Offset: 0x1ADCE0C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_SetHandNodePoseStateLatency(System.Double latencyInSeconds)
-    // Offset: 0x1AF964C
+    // Offset: 0x1ADCC84
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetHandNodePoseStateLatency(double latencyInSeconds);
     // static public OVRPlugin/Result ovrp_GetHandNodePoseStateLatency(out System.Double latencyInSeconds)
-    // Offset: 0x1AF96D4
+    // Offset: 0x1ADCD0C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetHandNodePoseStateLatency(ByRef<double> latencyInSeconds);
     // static public OVRPlugin/Result ovrp_GetAppHasInputFocus(out OVRPlugin/Bool appHasInputFocus)
-    // Offset: 0x1AF9754
+    // Offset: 0x1ADCD8C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetAppHasInputFocus(ByRef<::GlobalNamespace::OVRPlugin::Bool> appHasInputFocus);
   }; // OVRPlugin/OVRP_1_18_0
   #pragma pack(pop)

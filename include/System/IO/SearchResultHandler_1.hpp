@@ -34,21 +34,21 @@ namespace System::IO {
   class SearchResultHandler_1 : public ::Il2CppObject {
     public:
     // System.Boolean IsResultIncluded(System.IO.SearchResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsResultIncluded(::System::IO::SearchResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchResultHandler_1::IsResultIncluded");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsResultIncluded", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, result);
     }
     // TSource CreateObject(System.IO.SearchResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TSource CreateObject(::System::IO::SearchResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchResultHandler_1::CreateObject");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(this, ___internal__method, result);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

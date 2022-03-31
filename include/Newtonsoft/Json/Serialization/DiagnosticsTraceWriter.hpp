@@ -71,16 +71,16 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
     ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0x1D3EB4C
+    // Offset: 0x1D2201C
     ::System::Diagnostics::TraceLevel get_LevelFilter();
     // private System.Diagnostics.TraceEventType GetTraceEventType(System.Diagnostics.TraceLevel level)
-    // Offset: 0x1D3EB54
+    // Offset: 0x1D22024
     ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
     // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0x1D3EBE8
+    // Offset: 0x1D220B8
     void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
     // public System.Void .ctor()
-    // Offset: 0x1D3EFCC
+    // Offset: 0x1D2249C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

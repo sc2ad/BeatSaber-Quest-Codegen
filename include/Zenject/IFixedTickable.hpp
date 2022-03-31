@@ -22,7 +22,7 @@ namespace Zenject {
   class IFixedTickable {
     public:
     // public System.Void FixedTick()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void FixedTick();
   }; // Zenject.IFixedTickable
   #pragma pack(pop)

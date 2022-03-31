@@ -61,13 +61,13 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public System.Reflection.MethodBase method
     ::System::Reflection::MethodBase*& dyn_method();
     // System.Object <CreateParameterizedConstructor>b__0(System.Object[] a)
-    // Offset: 0x205B398
+    // Offset: 0x2048D6C
     ::Il2CppObject* $CreateParameterizedConstructor$b__0(::ArrayW<::Il2CppObject*> a);
     // System.Object <CreateParameterizedConstructor>b__1(System.Object[] a)
-    // Offset: 0x205B3B4
+    // Offset: 0x2048D88
     ::Il2CppObject* $CreateParameterizedConstructor$b__1(::ArrayW<::Il2CppObject*> a);
     // public System.Void .ctor()
-    // Offset: 0x205B31C
+    // Offset: 0x2048CF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

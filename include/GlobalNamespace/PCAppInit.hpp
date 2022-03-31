@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10AFF94
+    // [SpaceAttribute] Offset: 0x124A2E8
     // private System.String _goStraightToMenuCommandArgument
     // Size: 0x8
     // Offset: 0x68
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _goStraightToEditorCommandArgument
     ::StringW& dyn__goStraightToEditorCommandArgument();
     // public System.Void .ctor()
-    // Offset: 0x1350140
+    // Offset: 0x12E99D4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -128,22 +128,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PCAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x134FE94
+    // Offset: 0x12E96E8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x134FF18
+    // Offset: 0x12E976C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x134FFAC
+    // Offset: 0x12E9800
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1350020
+    // Offset: 0x12E9874
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

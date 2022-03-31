@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class ISaberMovementDataProcessor {
     public:
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
   }; // ISaberMovementDataProcessor
   #pragma pack(pop)

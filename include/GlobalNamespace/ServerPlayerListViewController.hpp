@@ -87,49 +87,49 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameServerPlayersTableView* gameServerPlayersTableView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerPlayersTableView*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10C260C
+    // [HeaderAttribute] Offset: 0x125CBA0
     // private UnityEngine.UI.Button _invitePlayerButton
     // Size: 0x8
     // Offset: 0x78
     ::UnityEngine::UI::Button* invitePlayerButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C2658
+    // [SpaceAttribute] Offset: 0x125CBEC
     // private HMUI.HoverHint _cantInvitePlayerHoverHint
     // Size: 0x8
     // Offset: 0x80
     ::HMUI::HoverHint* cantInvitePlayerHoverHint;
     // Field size check
     static_assert(sizeof(::HMUI::HoverHint*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C2690
+    // [InjectAttribute] Offset: 0x125CC24
     // private readonly IInvitePlatformHandler _invitePlatformHandler
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::IInvitePlatformHandler* invitePlatformHandler;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IInvitePlatformHandler*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C26A0
+    // [InjectAttribute] Offset: 0x125CC34
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C26B0
+    // [InjectAttribute] Offset: 0x125CC44
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C26C0
+    // [InjectAttribute] Offset: 0x125CC54
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C26D0
+    // [InjectAttribute] Offset: 0x125CC64
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0xA8
@@ -194,58 +194,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_selectSuggestedBeatmapEvent(System.Action`1<PreviewDifficultyBeatmap> value)
-    // Offset: 0x13B3A64
+    // Offset: 0x1428B4C
     void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void remove_selectSuggestedBeatmapEvent(System.Action`1<PreviewDifficultyBeatmap> value)
-    // Offset: 0x13B3B08
+    // Offset: 0x1428BF0
     void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x13B3BAC
+    // Offset: 0x1428C94
     void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x13B3C50
+    // Offset: 0x1428D38
     void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x13B3CF4
+    // Offset: 0x1428DDC
     void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x13B3D98
+    // Offset: 0x1428E80
     void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_didOpenInvitePanelEvent(System.Action value)
-    // Offset: 0x13B3E3C
+    // Offset: 0x1428F24
     void add_didOpenInvitePanelEvent(::System::Action* value);
     // public System.Void remove_didOpenInvitePanelEvent(System.Action value)
-    // Offset: 0x13B3EE0
+    // Offset: 0x1428FC8
     void remove_didOpenInvitePanelEvent(::System::Action* value);
     // private System.Void HandleLobbyPlayersDataDidChange(System.String userId)
-    // Offset: 0x13B4A78
+    // Offset: 0x1429B60
     void HandleLobbyPlayersDataDidChange(::StringW userId);
     // private System.Void HandleLobbyGameStateControllerLobbyStateChanged(MultiplayerLobbyState _)
-    // Offset: 0x13B4A7C
+    // Offset: 0x1429B64
     void HandleLobbyGameStateControllerLobbyStateChanged(::GlobalNamespace::MultiplayerLobbyState _);
     // private System.Void HandleLobbyPlayerPermissionChanged()
-    // Offset: 0x13B4A80
+    // Offset: 0x1429B68
     void HandleLobbyPlayerPermissionChanged();
     // private System.Void SetDataToTable()
-    // Offset: 0x13B4588
+    // Offset: 0x1429670
     void SetDataToTable();
     // private System.Void HandleSelectSuggestedLevel(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x13B4A84
+    // Offset: 0x1429B6C
     void HandleSelectSuggestedLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
     // private System.Void HandleSelectSuggestedGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13B4AF8
+    // Offset: 0x1429BE0
     void HandleSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // private System.Void HandleKickPlayer(System.String userId)
-    // Offset: 0x13B4B6C
+    // Offset: 0x1429C54
     void HandleKickPlayer(::StringW userId);
     // private System.Void HandleOpenPlatformInvitePanel()
-    // Offset: 0x13B4BE0
+    // Offset: 0x1429CC8
     void HandleOpenPlatformInvitePanel();
     // private System.Void TrySetInviteButtonEnabled()
-    // Offset: 0x13B4294
+    // Offset: 0x142937C
     void TrySetInviteButtonEnabled();
     // public System.Void .ctor()
-    // Offset: 0x13B4CB0
+    // Offset: 0x1429D98
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -259,12 +259,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ServerPlayerListViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B3F84
+    // Offset: 0x142906C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13B47A8
+    // Offset: 0x1429890
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

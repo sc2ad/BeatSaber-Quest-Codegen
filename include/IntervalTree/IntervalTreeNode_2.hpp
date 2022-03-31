@@ -103,28 +103,28 @@ namespace IntervalTree {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename IntervalTreeNode_2<TKey, TValue>::$$c*>::get(), "<>9__15_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename IntervalTreeNode_2<TKey, TValue>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // TKey <get_Max>b__13_0(IntervalTree.RangeValuePair`2<TKey,TValue> i)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       TKey $get_Max$b__13_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i) {
         static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::$$c::<get_Max>b__13_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<get_Max>b__13_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(i)})));
         return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method, i);
       }
       // TKey <get_Min>b__15_0(IntervalTree.RangeValuePair`2<TKey,TValue> i)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       TKey $get_Min$b__15_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i) {
         static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::$$c::<get_Min>b__15_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<get_Min>b__15_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(i)})));
         return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method, i);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -217,63 +217,63 @@ namespace IntervalTree {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<TKey>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public TKey get_Max()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TKey get_Max() {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::get_Max");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Max", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method);
     }
     // public TKey get_Min()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TKey get_Min() {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::get_Min");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Min", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method);
     }
     // public System.Void .ctor(System.Collections.Generic.IComparer`1<TKey> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntervalTreeNode_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntervalTreeNode_2<TKey, TValue>*, creationType>(comparer)));
     }
     // public System.Void .ctor(System.Collections.Generic.IList`1<IntervalTree.RangeValuePair`2<TKey,TValue>> items, System.Collections.Generic.IComparer`1<TKey> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntervalTreeNode_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items, ::System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntervalTreeNode_2<TKey, TValue>*, creationType>(items, comparer)));
     }
     // public System.Collections.Generic.IEnumerable`1<TValue> Query(TKey value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::Query");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Query", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal__method, value);
     }
     // public System.Collections.Generic.List`1<TValue> Query(TKey from, TKey to)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::List_1<TValue>* Query(TKey from, TKey to) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::Query");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Query", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(from), ::il2cpp_utils::ExtractType(to)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<TValue>*, false>(this, ___internal__method, from, to);
     }
     // public System.Collections.Generic.IEnumerable`1<TValue> QueryClosestPrev(TKey value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<TValue>* QueryClosestPrev(TKey value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::QueryClosestPrev");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "QueryClosestPrev", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal__method, value);
     }
     // public IntervalTree.IntervalTreeNode`2<TKey,TValue> GetClosestNodeTo(TKey key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* GetClosestNodeTo(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::GetClosestNodeTo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetClosestNodeTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*, false>(this, ___internal__method, key);
     }
     // private System.Int32 System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare(IntervalTree.RangeValuePair`2<TKey,TValue> x, IntervalTree.RangeValuePair`2<TKey,TValue> y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int System_Collections_Generic_IComparer$IntervalTree_RangeValuePair$TKey_TValue$$_Compare(::IntervalTree::RangeValuePair_2<TKey, TValue> x, ::IntervalTree::RangeValuePair_2<TKey, TValue> y) {
       static auto ___internal__logger = ::Logger::get().WithContext("::IntervalTree::IntervalTreeNode_2::System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));

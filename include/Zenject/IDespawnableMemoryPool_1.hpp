@@ -32,7 +32,7 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::IMemoryPool*>(this);
     }
     // public System.Void Despawn(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Despawn(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IDespawnableMemoryPool_1::Despawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Despawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));

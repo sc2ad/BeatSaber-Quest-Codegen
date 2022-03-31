@@ -34,16 +34,16 @@ namespace System::Xml::Schema {
   class XmlSchemaObject : public ::Il2CppObject {
     public:
     // System.Void OnAdd(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
-    // Offset: 0x2023E90
+    // Offset: 0x2011864
     void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
     // System.Void OnRemove(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
-    // Offset: 0x2023E94
+    // Offset: 0x2011868
     void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
     // System.Void OnClear(System.Xml.Schema.XmlSchemaObjectCollection container)
-    // Offset: 0x2023E98
+    // Offset: 0x201186C
     void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
     // protected System.Void .ctor()
-    // Offset: 0x2022334
+    // Offset: 0x200FD08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

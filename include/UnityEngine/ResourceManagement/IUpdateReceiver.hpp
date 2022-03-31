@@ -22,7 +22,7 @@ namespace UnityEngine::ResourceManagement {
   class IUpdateReceiver {
     public:
     // public System.Void Update(System.Single unscaledDeltaTime)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Update(float unscaledDeltaTime);
   }; // UnityEngine.ResourceManagement.IUpdateReceiver
   #pragma pack(pop)

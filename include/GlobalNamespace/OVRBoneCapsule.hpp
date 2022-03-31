@@ -72,32 +72,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CapsuleCollider <CapsuleCollider>k__BackingField
     ::UnityEngine::CapsuleCollider*& dyn_$CapsuleCollider$k__BackingField();
     // public System.Int16 get_BoneIndex()
-    // Offset: 0x1622B34
+    // Offset: 0x161A878
     int16_t get_BoneIndex();
     // public System.Void set_BoneIndex(System.Int16 value)
-    // Offset: 0x1622B3C
+    // Offset: 0x161A880
     void set_BoneIndex(int16_t value);
     // public UnityEngine.Rigidbody get_CapsuleRigidbody()
-    // Offset: 0x1622B44
+    // Offset: 0x161A888
     ::UnityEngine::Rigidbody* get_CapsuleRigidbody();
     // public System.Void set_CapsuleRigidbody(UnityEngine.Rigidbody value)
-    // Offset: 0x1622B4C
+    // Offset: 0x161A890
     void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
     // public UnityEngine.CapsuleCollider get_CapsuleCollider()
-    // Offset: 0x1622B54
+    // Offset: 0x161A898
     ::UnityEngine::CapsuleCollider* get_CapsuleCollider();
     // public System.Void set_CapsuleCollider(UnityEngine.CapsuleCollider value)
-    // Offset: 0x1622B5C
+    // Offset: 0x161A8A0
     void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
     // public System.Void .ctor(System.Int16 boneIndex, UnityEngine.Rigidbody capsuleRigidBody, UnityEngine.CapsuleCollider capsuleCollider)
-    // Offset: 0x1622B6C
+    // Offset: 0x161A8B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoneCapsule* New_ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBoneCapsule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoneCapsule*, creationType>(boneIndex, capsuleRigidBody, capsuleCollider)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1622B64
+    // Offset: 0x161A8A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

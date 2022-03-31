@@ -41,13 +41,13 @@ namespace Newtonsoft::Json::Linq {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
     // public System.Boolean Equals(Newtonsoft.Json.Linq.JToken x, Newtonsoft.Json.Linq.JToken y)
-    // Offset: 0x1727B84
+    // Offset: 0x171EA74
     bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
     // public System.Int32 GetHashCode(Newtonsoft.Json.Linq.JToken obj)
-    // Offset: 0x1727C28
+    // Offset: 0x171EB18
     int GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
     // public System.Void .ctor()
-    // Offset: 0x1727C4C
+    // Offset: 0x171EB3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

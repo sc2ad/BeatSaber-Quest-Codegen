@@ -24,10 +24,10 @@ namespace GlobalNamespace {
   class SR : public ::Il2CppObject {
     public:
     // static System.String Format(System.String resourceFormat, System.Object p1)
-    // Offset: 0x1F4F020
+    // Offset: 0x1F2033C
     static ::StringW Format(::StringW resourceFormat, ::Il2CppObject* p1);
     // static System.String Format(System.String resourceFormat, System.Object p1, System.Object p2)
-    // Offset: 0x1F4F0A0
+    // Offset: 0x1F203BC
     static ::StringW Format(::StringW resourceFormat, ::Il2CppObject* p1, ::Il2CppObject* p2);
   }; // SR
   #pragma pack(pop)

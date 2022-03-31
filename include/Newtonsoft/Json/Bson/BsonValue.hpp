@@ -60,14 +60,14 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private readonly Newtonsoft.Json.Bson.BsonType _type
     ::Newtonsoft::Json::Bson::BsonType& dyn__type();
     // public System.Void .ctor(System.Object value, Newtonsoft.Json.Bson.BsonType type)
-    // Offset: 0x1782B00
+    // Offset: 0x17799F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonValue* New_ctor(::Il2CppObject* value, ::Newtonsoft::Json::Bson::BsonType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BsonValue*, creationType>(value, type)));
     }
     // public override Newtonsoft.Json.Bson.BsonType get_Type()
-    // Offset: 0x1782B44
+    // Offset: 0x1779A34
     // Implemented from: Newtonsoft.Json.Bson.BsonToken
     // Base method: Newtonsoft.Json.Bson.BsonType BsonToken::get_Type()
     ::Newtonsoft::Json::Bson::BsonType get_Type();

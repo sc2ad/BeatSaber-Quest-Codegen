@@ -3,6 +3,3536 @@
 // =========================================================================
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.DiContainer/Zenject.ProviderInfo
+#include "Zenject/DiContainer_ProviderInfo.hpp"
+// Including type: Zenject.DiContainer/Zenject.<>c
+#include "Zenject/DiContainer_--c.hpp"
+// Including type: Zenject.DiContainer/Zenject.<>c__DisplayClass86_0
+#include "Zenject/DiContainer_--c__DisplayClass86_0.hpp"
+// Including type: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96
+#include "Zenject/DiContainer_-GetDependencyContracts-d__96.hpp"
+// Including type: Zenject.DiContainer/Zenject.<>c__DisplayClass178_0
+#include "Zenject/DiContainer_--c__DisplayClass178_0.hpp"
+// Including type: Zenject.DiContainer/Zenject.<>c__DisplayClass203_0`1
+#include "Zenject/DiContainer_--c__DisplayClass203_0_1.hpp"
+// Including type: System.Collections.Generic.Dictionary`2
+#include "System/Collections/Generic/Dictionary_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.Internal.IDecoratorProvider
+#include "Zenject/Internal/IDecoratorProvider.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Collections.Generic.HashSet`1
+#include "System/Collections/Generic/HashSet_1.hpp"
+// Including type: Zenject.Internal.LookupId
+#include "Zenject/Internal/LookupId.hpp"
+// Including type: Zenject.LazyInstanceInjector
+#include "Zenject/LazyInstanceInjector.hpp"
+// Including type: Zenject.Internal.SingletonMarkRegistry
+#include "Zenject/Internal/SingletonMarkRegistry.hpp"
+// Including type: System.Collections.Generic.Queue`1
+#include "System/Collections/Generic/Queue_1.hpp"
+// Including type: Zenject.BindStatement
+#include "Zenject/BindStatement.hpp"
+// Including type: Zenject.IValidatable
+#include "Zenject/IValidatable.hpp"
+// Including type: UnityEngine.Transform
+#include "UnityEngine/Transform.hpp"
+// Including type: Zenject.ZenjectSettings
+#include "Zenject/ZenjectSettings.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: Zenject.IProvider
+#include "Zenject/IProvider.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: Zenject.BindingCondition
+#include "Zenject/BindingCondition.hpp"
+// Including type: Zenject.InjectSources
+#include "Zenject/InjectSources.hpp"
+// Including type: Zenject.Installer
+#include "Zenject/Installer.hpp"
+// Including type: System.Collections.IList
+#include "System/Collections/IList.hpp"
+// Including type: Zenject.DecoratorToChoiceFromBinder`1
+#include "Zenject/DecoratorToChoiceFromBinder_1.hpp"
+// Including type: System.Nullable`1
+#include "System/Nullable_1.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: Zenject.GameObjectCreationParameters
+#include "Zenject/GameObjectCreationParameters.hpp"
+// Including type: UnityEngine.Object
+#include "UnityEngine/Object.hpp"
+// Including type: UnityEngine.Component
+#include "UnityEngine/Component.hpp"
+// Including type: Zenject.ConcreteBinderGeneric`1
+#include "Zenject/ConcreteBinderGeneric_1.hpp"
+// Including type: UnityEngine.ScriptableObject
+#include "UnityEngine/ScriptableObject.hpp"
+// Including type: Zenject.ConcreteBinderNonGeneric
+#include "Zenject/ConcreteBinderNonGeneric.hpp"
+// Including type: Zenject.ConcreteIdBinderGeneric`1
+#include "Zenject/ConcreteIdBinderGeneric_1.hpp"
+// Including type: Zenject.ConcreteIdBinderNonGeneric
+#include "Zenject/ConcreteIdBinderNonGeneric.hpp"
+// Including type: Zenject.BindInfo
+#include "Zenject/BindInfo.hpp"
+// Including type: System.Action`1
+#include "System/Action_1.hpp"
+// Including type: Zenject.ConventionSelectTypesBinder
+#include "Zenject/ConventionSelectTypesBinder.hpp"
+// Including type: Zenject.FromBinderNonGeneric
+#include "Zenject/FromBinderNonGeneric.hpp"
+// Including type: Zenject.IdScopeConcreteIdArgConditionCopyNonLazyBinder
+#include "Zenject/IdScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// Including type: Zenject.IFactory
+#include "Zenject/IFactory.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`1
+#include "Zenject/FactoryToChoiceIdBinder_1.hpp"
+// Including type: Zenject.PlaceholderFactory`1
+#include "Zenject/PlaceholderFactory_1.hpp"
+// Including type: Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1
+#include "Zenject/MemoryPoolIdInitialSizeMaxSizeBinder_1.hpp"
+// Including type: Zenject.IMemoryPool
+#include "Zenject/IMemoryPool.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`2
+#include "Zenject/FactoryToChoiceIdBinder_2.hpp"
+// Including type: Zenject.PlaceholderFactory`2
+#include "Zenject/PlaceholderFactory_2.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`3
+#include "Zenject/FactoryToChoiceIdBinder_3.hpp"
+// Including type: Zenject.PlaceholderFactory`3
+#include "Zenject/PlaceholderFactory_3.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`4
+#include "Zenject/FactoryToChoiceIdBinder_4.hpp"
+// Including type: Zenject.PlaceholderFactory`4
+#include "Zenject/PlaceholderFactory_4.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`5
+#include "Zenject/FactoryToChoiceIdBinder_5.hpp"
+// Including type: Zenject.PlaceholderFactory`5
+#include "Zenject/PlaceholderFactory_5.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`6
+#include "Zenject/FactoryToChoiceIdBinder_6.hpp"
+// Including type: Zenject.PlaceholderFactory`6
+#include "Zenject/PlaceholderFactory_6.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`7
+#include "Zenject/FactoryToChoiceIdBinder_7.hpp"
+// Including type: Zenject.PlaceholderFactory`7
+#include "Zenject/PlaceholderFactory_7.hpp"
+// Including type: Zenject.FactoryToChoiceIdBinder`11
+#include "Zenject/FactoryToChoiceIdBinder_11.hpp"
+// Including type: Zenject.PlaceholderFactory`11
+#include "Zenject/PlaceholderFactory_11.hpp"
+// Including type: Zenject.ITickable
+#include "Zenject/ITickable.hpp"
+// Including type: Zenject.CopyNonLazyBinder
+#include "Zenject/CopyNonLazyBinder.hpp"
+// Including type: Zenject.IInitializable
+#include "Zenject/IInitializable.hpp"
+// Including type: System.IDisposable
+#include "System/IDisposable.hpp"
+// Including type: Zenject.ILateDisposable
+#include "Zenject/ILateDisposable.hpp"
+// Including type: Zenject.IFixedTickable
+#include "Zenject/IFixedTickable.hpp"
+// Including type: Zenject.ILateTickable
+#include "Zenject/ILateTickable.hpp"
+// Including type: Zenject.IPoolable
+#include "Zenject/IPoolable.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.Internal.IDecoratorProvider> _decorators
+::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*& Zenject::DiContainer::dyn__decorators() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__decorators");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_decorators"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.Dictionary`2<Zenject.BindingId,System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>> _providers
+::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>*>*& Zenject::DiContainer::dyn__providers() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__providers");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_providers"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.DiContainer[][] _containerLookups
+::ArrayW<::ArrayW<::Zenject::DiContainer*>>& Zenject::DiContainer::dyn__containerLookups() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__containerLookups");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_containerLookups"))->offset;
+  return *reinterpret_cast<::ArrayW<::ArrayW<::Zenject::DiContainer*>>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesInProgress
+::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& Zenject::DiContainer::dyn__resolvesInProgress() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__resolvesInProgress");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_resolvesInProgress"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesTwiceInProgress
+::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& Zenject::DiContainer::dyn__resolvesTwiceInProgress() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__resolvesTwiceInProgress");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_resolvesTwiceInProgress"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.LazyInstanceInjector _lazyInjector
+::Zenject::LazyInstanceInjector*& Zenject::DiContainer::dyn__lazyInjector() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__lazyInjector");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_lazyInjector"))->offset;
+  return *reinterpret_cast<::Zenject::LazyInstanceInjector**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.Internal.SingletonMarkRegistry _singletonMarkRegistry
+::Zenject::Internal::SingletonMarkRegistry*& Zenject::DiContainer::dyn__singletonMarkRegistry() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__singletonMarkRegistry");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_singletonMarkRegistry"))->offset;
+  return *reinterpret_cast<::Zenject::Internal::SingletonMarkRegistry**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.Queue`1<Zenject.BindStatement> _currentBindings
+::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>*& Zenject::DiContainer::dyn__currentBindings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__currentBindings");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_currentBindings"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.BindStatement> _childBindings
+::System::Collections::Generic::List_1<::Zenject::BindStatement*>*& Zenject::DiContainer::dyn__childBindings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__childBindings");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_childBindings"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::BindStatement*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _validatedTypes
+::System::Collections::Generic::HashSet_1<::System::Type*>*& Zenject::DiContainer::dyn__validatedTypes() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__validatedTypes");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_validatedTypes"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::HashSet_1<::System::Type*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.IValidatable> _validationQueue
+::System::Collections::Generic::List_1<::Zenject::IValidatable*>*& Zenject::DiContainer::dyn__validationQueue() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__validationQueue");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_validationQueue"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::IValidatable*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private UnityEngine.Transform _contextTransform
+::UnityEngine::Transform*& Zenject::DiContainer::dyn__contextTransform() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__contextTransform");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_contextTransform"))->offset;
+  return *reinterpret_cast<::UnityEngine::Transform**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _hasLookedUpContextTransform
+bool& Zenject::DiContainer::dyn__hasLookedUpContextTransform() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__hasLookedUpContextTransform");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_hasLookedUpContextTransform"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private UnityEngine.Transform _inheritedDefaultParent
+::UnityEngine::Transform*& Zenject::DiContainer::dyn__inheritedDefaultParent() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__inheritedDefaultParent");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_inheritedDefaultParent"))->offset;
+  return *reinterpret_cast<::UnityEngine::Transform**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private UnityEngine.Transform _explicitDefaultParent
+::UnityEngine::Transform*& Zenject::DiContainer::dyn__explicitDefaultParent() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__explicitDefaultParent");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_explicitDefaultParent"))->offset;
+  return *reinterpret_cast<::UnityEngine::Transform**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _hasExplicitDefaultParent
+bool& Zenject::DiContainer::dyn__hasExplicitDefaultParent() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__hasExplicitDefaultParent");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_hasExplicitDefaultParent"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.ZenjectSettings _settings
+::Zenject::ZenjectSettings*& Zenject::DiContainer::dyn__settings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__settings");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_settings"))->offset;
+  return *reinterpret_cast<::Zenject::ZenjectSettings**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _hasResolvedRoots
+bool& Zenject::DiContainer::dyn__hasResolvedRoots() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__hasResolvedRoots");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_hasResolvedRoots"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _isFinalizingBinding
+bool& Zenject::DiContainer::dyn__isFinalizingBinding() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__isFinalizingBinding");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isFinalizingBinding"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _isValidating
+bool& Zenject::DiContainer::dyn__isValidating() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__isValidating");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isValidating"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _isInstalling
+bool& Zenject::DiContainer::dyn__isInstalling() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn__isInstalling");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isInstalling"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean <AssertOnNewGameObjects>k__BackingField
+bool& Zenject::DiContainer::dyn_$AssertOnNewGameObjects$k__BackingField() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::dyn_$AssertOnNewGameObjects$k__BackingField");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<AssertOnNewGameObjects>k__BackingField"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DiContainer.get_Settings
+::Zenject::ZenjectSettings* Zenject::DiContainer::get_Settings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_Settings");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Settings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ZenjectSettings*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.set_Settings
+void Zenject::DiContainer::set_Settings(::Zenject::ZenjectSettings* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::set_Settings");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Settings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
+}
+// Autogenerated method: Zenject.DiContainer.get_SingletonMarkRegistry
+::Zenject::Internal::SingletonMarkRegistry* Zenject::DiContainer::get_SingletonMarkRegistry() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_SingletonMarkRegistry");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_SingletonMarkRegistry", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::Internal::SingletonMarkRegistry*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_AllProviders
+::System::Collections::Generic::IEnumerable_1<::Zenject::IProvider*>* Zenject::DiContainer::get_AllProviders() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_AllProviders");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_AllProviders", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Zenject::IProvider*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_ContextTransform
+::UnityEngine::Transform* Zenject::DiContainer::get_ContextTransform() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_ContextTransform");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ContextTransform", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Transform*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_AssertOnNewGameObjects
+bool Zenject::DiContainer::get_AssertOnNewGameObjects() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_AssertOnNewGameObjects");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_AssertOnNewGameObjects", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.set_AssertOnNewGameObjects
+void Zenject::DiContainer::set_AssertOnNewGameObjects(bool value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::set_AssertOnNewGameObjects");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_AssertOnNewGameObjects", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
+}
+// Autogenerated method: Zenject.DiContainer.get_InheritedDefaultParent
+::UnityEngine::Transform* Zenject::DiContainer::get_InheritedDefaultParent() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_InheritedDefaultParent");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_InheritedDefaultParent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Transform*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_DefaultParent
+::UnityEngine::Transform* Zenject::DiContainer::get_DefaultParent() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_DefaultParent");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_DefaultParent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Transform*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.set_DefaultParent
+void Zenject::DiContainer::set_DefaultParent(::UnityEngine::Transform* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::set_DefaultParent");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_DefaultParent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
+}
+// Autogenerated method: Zenject.DiContainer.get_ParentContainers
+::ArrayW<::Zenject::DiContainer*> Zenject::DiContainer::get_ParentContainers() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_ParentContainers");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ParentContainers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::Zenject::DiContainer*>, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_AncestorContainers
+::ArrayW<::Zenject::DiContainer*> Zenject::DiContainer::get_AncestorContainers() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_AncestorContainers");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_AncestorContainers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::Zenject::DiContainer*>, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_ChecksForCircularDependencies
+bool Zenject::DiContainer::get_ChecksForCircularDependencies() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_ChecksForCircularDependencies");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ChecksForCircularDependencies", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_IsValidating
+bool Zenject::DiContainer::get_IsValidating() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_IsValidating");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsValidating", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.get_IsInstalling
+bool Zenject::DiContainer::get_IsInstalling() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_IsInstalling");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsInstalling", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.set_IsInstalling
+void Zenject::DiContainer::set_IsInstalling(bool value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::set_IsInstalling");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_IsInstalling", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
+}
+// Autogenerated method: Zenject.DiContainer.get_AllContracts
+::System::Collections::Generic::IEnumerable_1<::Zenject::BindingId>* Zenject::DiContainer::get_AllContracts() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::get_AllContracts");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_AllContracts", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Zenject::BindingId>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.InstallDefaultBindings
+void Zenject::DiContainer::InstallDefaultBindings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstallDefaultBindings");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstallDefaultBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.CreateLazyBinding
+::Il2CppObject* Zenject::DiContainer::CreateLazyBinding(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateLazyBinding");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateLazyBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.QueueForValidate
+void Zenject::DiContainer::QueueForValidate(::Zenject::IValidatable* validatable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::QueueForValidate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "QueueForValidate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(validatable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, validatable);
+}
+// Autogenerated method: Zenject.DiContainer.ShouldInheritBinding
+bool Zenject::DiContainer::ShouldInheritBinding(::Zenject::BindStatement* binding, ::Zenject::DiContainer* ancestorContainer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ShouldInheritBinding");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ShouldInheritBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(binding), ::il2cpp_utils::ExtractType(ancestorContainer)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, binding, ancestorContainer);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveRoots
+void Zenject::DiContainer::ResolveRoots() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveRoots");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveRoots", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveDependencyRoots
+void Zenject::DiContainer::ResolveDependencyRoots() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveDependencyRoots");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveDependencyRoots", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.ValidateFullResolve
+void Zenject::DiContainer::ValidateFullResolve() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ValidateFullResolve");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ValidateFullResolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.FlushValidationQueue
+void Zenject::DiContainer::FlushValidationQueue() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::FlushValidationQueue");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FlushValidationQueue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.CreateSubContainer
+::Zenject::DiContainer* Zenject::DiContainer::CreateSubContainer() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateSubContainer");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateSubContainer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.QueueForInject
+void Zenject::DiContainer::QueueForInject(::Il2CppObject* instance) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::QueueForInject");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "QueueForInject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(instance)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, instance);
+}
+// Autogenerated method: Zenject.DiContainer.CreateSubContainer
+::Zenject::DiContainer* Zenject::DiContainer::CreateSubContainer(bool isValidating) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateSubContainer");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateSubContainer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(isValidating)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method, isValidating);
+}
+// Autogenerated method: Zenject.DiContainer.RegisterProvider
+void Zenject::DiContainer::RegisterProvider(::Zenject::BindingId bindingId, ::Zenject::BindingCondition* condition, ::Zenject::IProvider* provider, bool nonLazy) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::RegisterProvider");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterProvider", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingId), ::il2cpp_utils::ExtractType(condition), ::il2cpp_utils::ExtractType(provider), ::il2cpp_utils::ExtractType(nonLazy)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, bindingId, condition, provider, nonLazy);
+}
+// Autogenerated method: Zenject.DiContainer.GetProviderMatches
+void Zenject::DiContainer::GetProviderMatches(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetProviderMatches");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetProviderMatches", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, buffer);
+}
+// Autogenerated method: Zenject.DiContainer.TryGetUniqueProvider
+::Zenject::DiContainer::ProviderInfo* Zenject::DiContainer::TryGetUniqueProvider(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::TryGetUniqueProvider");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetUniqueProvider", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer::ProviderInfo*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.FlattenInheritanceChain
+::System::Collections::Generic::List_1<::Zenject::DiContainer*>* Zenject::DiContainer::FlattenInheritanceChain() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::FlattenInheritanceChain");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FlattenInheritanceChain", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::DiContainer*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.GetLocalProviders
+void Zenject::DiContainer::GetLocalProviders(::Zenject::BindingId bindingId, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetLocalProviders");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetLocalProviders", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingId), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, bindingId, buffer);
+}
+// Autogenerated method: Zenject.DiContainer.GetProvidersForContract
+void Zenject::DiContainer::GetProvidersForContract(::Zenject::BindingId bindingId, ::Zenject::InjectSources sourceType, ::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetProvidersForContract");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetProvidersForContract", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingId), ::il2cpp_utils::ExtractType(sourceType), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, bindingId, sourceType, buffer);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveAll
+::System::Collections::IList* Zenject::DiContainer::ResolveAll(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::IList*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveAll
+void Zenject::DiContainer::ResolveAll(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, buffer);
+}
+// Autogenerated method: Zenject.DiContainer.CheckForInstallWarning
+void Zenject::DiContainer::CheckForInstallWarning(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CheckForInstallWarning");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CheckForInstallWarning", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveType
+::System::Type* Zenject::DiContainer::ResolveType(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveType");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, type);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveType
+::System::Type* Zenject::DiContainer::ResolveType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveType");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveTypeAll
+::System::Collections::Generic::List_1<::System::Type*>* Zenject::DiContainer::ResolveTypeAll(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveTypeAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveTypeAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::System::Type*>*, false>(this, ___internal__method, type);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveTypeAll
+::System::Collections::Generic::List_1<::System::Type*>* Zenject::DiContainer::ResolveTypeAll(::System::Type* type, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveTypeAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveTypeAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::System::Type*>*, false>(this, ___internal__method, type, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveTypeAll
+::System::Collections::Generic::List_1<::System::Type*>* Zenject::DiContainer::ResolveTypeAll(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveTypeAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveTypeAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::System::Type*>*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.Resolve
+::Il2CppObject* Zenject::DiContainer::Resolve(::Zenject::BindingId id) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Resolve");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, id);
+}
+// Autogenerated method: Zenject.DiContainer.Resolve
+::Il2CppObject* Zenject::DiContainer::Resolve(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Resolve");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.SafeGetInstances
+void Zenject::DiContainer::SafeGetInstances(::Zenject::DiContainer::ProviderInfo* providerInfo, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* instances) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::SafeGetInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SafeGetInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(providerInfo), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(instances)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, providerInfo, context, instances);
+}
+// Autogenerated method: Zenject.DiContainer.GetDecoratedInstances
+void Zenject::DiContainer::GetDecoratedInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetDecoratedInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDecoratedInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, provider, context, buffer);
+}
+// Autogenerated method: Zenject.DiContainer.TryGetDecoratorProvider
+::Zenject::Internal::IDecoratorProvider* Zenject::DiContainer::TryGetDecoratorProvider(::System::Type* contractType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::TryGetDecoratorProvider");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetDecoratorProvider", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::Internal::IDecoratorProvider*, false>(this, ___internal__method, contractType);
+}
+// Autogenerated method: Zenject.DiContainer.GetContainerHeirarchyDistance
+int Zenject::DiContainer::GetContainerHeirarchyDistance(::Zenject::DiContainer* container) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetContainerHeirarchyDistance");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetContainerHeirarchyDistance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, container);
+}
+// Autogenerated method: Zenject.DiContainer.GetContainerHeirarchyDistance
+::System::Nullable_1<int> Zenject::DiContainer::GetContainerHeirarchyDistance(::Zenject::DiContainer* container, int depth) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetContainerHeirarchyDistance");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetContainerHeirarchyDistance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(depth)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Nullable_1<int>, false>(this, ___internal__method, container, depth);
+}
+// Autogenerated method: Zenject.DiContainer.GetDependencyContracts
+::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::DiContainer::GetDependencyContracts(::System::Type* contract) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetDependencyContracts");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDependencyContracts", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contract)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(this, ___internal__method, contract);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateInternal
+::Il2CppObject* Zenject::DiContainer::InstantiateInternal(::System::Type* concreteType, bool autoInject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateInternal");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(autoInject), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, autoInject, extraArgs, context, concreteIdentifier);
+}
+// Autogenerated method: Zenject.DiContainer.InjectExplicit
+void Zenject::DiContainer::InjectExplicit(::Il2CppObject* injectable, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InjectExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InjectExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(injectable), ::il2cpp_utils::ExtractType(extraArgs)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, injectable, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InjectExplicit
+void Zenject::DiContainer::InjectExplicit(::Il2CppObject* injectable, ::System::Type* injectableType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InjectExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InjectExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(injectable), ::il2cpp_utils::ExtractType(injectableType), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, injectable, injectableType, extraArgs, context, concreteIdentifier);
+}
+// Autogenerated method: Zenject.DiContainer.CallInjectMethodsTopDown
+void Zenject::DiContainer::CallInjectMethodsTopDown(::Il2CppObject* injectable, ::System::Type* injectableType, ::Zenject::InjectTypeInfo* typeInfo, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, bool isDryRun) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CallInjectMethodsTopDown");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CallInjectMethodsTopDown", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(injectable), ::il2cpp_utils::ExtractType(injectableType), ::il2cpp_utils::ExtractType(typeInfo), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier), ::il2cpp_utils::ExtractType(isDryRun)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, injectable, injectableType, typeInfo, extraArgs, context, concreteIdentifier, isDryRun);
+}
+// Autogenerated method: Zenject.DiContainer.InjectMembersTopDown
+void Zenject::DiContainer::InjectMembersTopDown(::Il2CppObject* injectable, ::System::Type* injectableType, ::Zenject::InjectTypeInfo* typeInfo, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, bool isDryRun) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InjectMembersTopDown");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InjectMembersTopDown", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(injectable), ::il2cpp_utils::ExtractType(injectableType), ::il2cpp_utils::ExtractType(typeInfo), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier), ::il2cpp_utils::ExtractType(isDryRun)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, injectable, injectableType, typeInfo, extraArgs, context, concreteIdentifier, isDryRun);
+}
+// Autogenerated method: Zenject.DiContainer.InjectExplicitInternal
+void Zenject::DiContainer::InjectExplicitInternal(::Il2CppObject* injectable, ::System::Type* injectableType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InjectExplicitInternal");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InjectExplicitInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(injectable), ::il2cpp_utils::ExtractType(injectableType), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, injectable, injectableType, extraArgs, context, concreteIdentifier);
+}
+// Autogenerated method: Zenject.DiContainer.CreateAndParentPrefabResource
+::UnityEngine::GameObject* Zenject::DiContainer::CreateAndParentPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context, ByRef<bool> shouldMakeActive) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateAndParentPrefabResource");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateAndParentPrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(gameObjectBindInfo), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractIndependentType<bool&>()})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath, gameObjectBindInfo, context, byref(shouldMakeActive));
+}
+// Autogenerated method: Zenject.DiContainer.GetPrefabAsGameObject
+::UnityEngine::GameObject* Zenject::DiContainer::GetPrefabAsGameObject(::UnityEngine::Object* prefab) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetPrefabAsGameObject");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetPrefabAsGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab);
+}
+// Autogenerated method: Zenject.DiContainer.CreateAndParentPrefab
+::UnityEngine::GameObject* Zenject::DiContainer::CreateAndParentPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context, ByRef<bool> shouldMakeActive) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateAndParentPrefab");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateAndParentPrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(gameObjectBindInfo), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractIndependentType<bool&>()})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab, gameObjectBindInfo, context, byref(shouldMakeActive));
+}
+// Autogenerated method: Zenject.DiContainer.CreateEmptyGameObject
+::UnityEngine::GameObject* Zenject::DiContainer::CreateEmptyGameObject(::StringW name) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateEmptyGameObject");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateEmptyGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, name);
+}
+// Autogenerated method: Zenject.DiContainer.CreateEmptyGameObject
+::UnityEngine::GameObject* Zenject::DiContainer::CreateEmptyGameObject(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateEmptyGameObject");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateEmptyGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObjectBindInfo), ::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, gameObjectBindInfo, context);
+}
+// Autogenerated method: Zenject.DiContainer.GetTransformGroup
+::UnityEngine::Transform* Zenject::DiContainer::GetTransformGroup(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::GetTransformGroup");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetTransformGroup", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObjectBindInfo), ::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Transform*, false>(this, ___internal__method, gameObjectBindInfo, context);
+}
+// Autogenerated method: Zenject.DiContainer.CreateTransformGroup
+::UnityEngine::GameObject* Zenject::DiContainer::CreateTransformGroup(::StringW groupName) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::CreateTransformGroup");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateTransformGroup", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(groupName)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, groupName);
+}
+// Autogenerated method: Zenject.DiContainer.Instantiate
+::Il2CppObject* Zenject::DiContainer::Instantiate(::System::Type* concreteType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Instantiate");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType);
+}
+// Autogenerated method: Zenject.DiContainer.Instantiate
+::Il2CppObject* Zenject::DiContainer::Instantiate(::System::Type* concreteType, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Instantiate");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateComponent
+::UnityEngine::Component* Zenject::DiContainer::InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(gameObject)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(this, ___internal__method, componentType, gameObject);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateComponent
+::UnityEngine::Component* Zenject::DiContainer::InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(gameObject), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(this, ___internal__method, componentType, gameObject, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefab
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefab(::UnityEngine::Object* prefab) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefab");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefab
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefab");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab, parentTransform);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefab
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefab");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab, position, rotation, parentTransform);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefab
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefab");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(gameObjectBindInfo)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab, gameObjectBindInfo);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabResource
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefabResource(::StringW resourcePath) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabResource
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath, parentTransform);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabResource
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath, position, rotation, parentTransform);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabResource
+::UnityEngine::GameObject* Zenject::DiContainer::InstantiatePrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* creationInfo) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResource");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(creationInfo)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath, creationInfo);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabForComponent
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabForComponent(::System::Type* concreteType, ::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(parentTransform), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, prefab, parentTransform, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabForComponent
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabForComponent(::System::Type* concreteType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs, ::Zenject::GameObjectCreationParameters* creationInfo) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponent");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(creationInfo)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, prefab, extraArgs, creationInfo);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabResourceForComponent
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabResourceForComponent(::System::Type* concreteType, ::StringW resourcePath, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(parentTransform), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, resourcePath, parentTransform, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateScriptableObjectResource
+::Il2CppObject* Zenject::DiContainer::InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateScriptableObjectResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scriptableObjectType), ::il2cpp_utils::ExtractType(resourcePath)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, scriptableObjectType, resourcePath);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateScriptableObjectResource
+::Il2CppObject* Zenject::DiContainer::InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateScriptableObjectResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scriptableObjectType), ::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, scriptableObjectType, resourcePath, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InjectGameObject
+void Zenject::DiContainer::InjectGameObject(::UnityEngine::GameObject* gameObject) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InjectGameObject");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InjectGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObject)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, gameObject);
+}
+// Autogenerated method: Zenject.DiContainer.InjectGameObjectForComponent
+::Il2CppObject* Zenject::DiContainer::InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InjectGameObjectForComponent");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InjectGameObjectForComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObject), ::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, gameObject, componentType, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InjectGameObjectForComponentExplicit
+::UnityEngine::Component* Zenject::DiContainer::InjectGameObjectForComponentExplicit(::UnityEngine::GameObject* gameObject, ::System::Type* componentType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InjectGameObjectForComponentExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InjectGameObjectForComponentExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObject), ::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(this, ___internal__method, gameObject, componentType, extraArgs, context, concreteIdentifier);
+}
+// Autogenerated method: Zenject.DiContainer.Inject
+void Zenject::DiContainer::Inject(::Il2CppObject* injectable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Inject");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Inject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(injectable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, injectable);
+}
+// Autogenerated method: Zenject.DiContainer.Inject
+void Zenject::DiContainer::Inject(::Il2CppObject* injectable, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Inject");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Inject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(injectable), ::il2cpp_utils::ExtractType(extraArgs)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, injectable, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.Resolve
+::Il2CppObject* Zenject::DiContainer::Resolve(::System::Type* contractType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Resolve");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, contractType);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveId
+::Il2CppObject* Zenject::DiContainer::ResolveId(::System::Type* contractType, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveId");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, contractType, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.TryResolve
+::Il2CppObject* Zenject::DiContainer::TryResolve(::System::Type* contractType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::TryResolve");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryResolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, contractType);
+}
+// Autogenerated method: Zenject.DiContainer.TryResolveId
+::Il2CppObject* Zenject::DiContainer::TryResolveId(::System::Type* contractType, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::TryResolveId");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryResolveId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, contractType, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveAll
+::System::Collections::IList* Zenject::DiContainer::ResolveAll(::System::Type* contractType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::IList*, false>(this, ___internal__method, contractType);
+}
+// Autogenerated method: Zenject.DiContainer.ResolveIdAll
+::System::Collections::IList* Zenject::DiContainer::ResolveIdAll(::System::Type* contractType, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ResolveIdAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResolveIdAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::IList*, false>(this, ___internal__method, contractType, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.UnbindAll
+void Zenject::DiContainer::UnbindAll() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::UnbindAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnbindAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.Unbind
+bool Zenject::DiContainer::Unbind(::System::Type* contractType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Unbind");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Unbind", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, contractType);
+}
+// Autogenerated method: Zenject.DiContainer.UnbindId
+bool Zenject::DiContainer::UnbindId(::System::Type* contractType, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::UnbindId");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnbindId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, contractType, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.UnbindInterfacesTo
+void Zenject::DiContainer::UnbindInterfacesTo(::System::Type* concreteType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::UnbindInterfacesTo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnbindInterfacesTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, concreteType);
+}
+// Autogenerated method: Zenject.DiContainer.Unbind
+bool Zenject::DiContainer::Unbind(::System::Type* contractType, ::System::Type* concreteType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Unbind");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Unbind", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(concreteType)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, contractType, concreteType);
+}
+// Autogenerated method: Zenject.DiContainer.UnbindId
+bool Zenject::DiContainer::UnbindId(::System::Type* contractType, ::System::Type* concreteType, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::UnbindId");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnbindId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, contractType, concreteType, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.HasBinding
+bool Zenject::DiContainer::HasBinding(::System::Type* contractType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::HasBinding");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HasBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, contractType);
+}
+// Autogenerated method: Zenject.DiContainer.HasBindingId
+bool Zenject::DiContainer::HasBindingId(::System::Type* contractType, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::HasBindingId");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HasBindingId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, contractType, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.HasBindingId
+bool Zenject::DiContainer::HasBindingId(::System::Type* contractType, ::Il2CppObject* identifier, ::Zenject::InjectSources sourceType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::HasBindingId");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HasBindingId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(identifier), ::il2cpp_utils::ExtractType(sourceType)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, contractType, identifier, sourceType);
+}
+// Autogenerated method: Zenject.DiContainer.HasBinding
+bool Zenject::DiContainer::HasBinding(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::HasBinding");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HasBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.DiContainer.FlushBindings
+void Zenject::DiContainer::FlushBindings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::FlushBindings");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FlushBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer.FinalizeBinding
+void Zenject::DiContainer::FinalizeBinding(::Zenject::BindStatement* binding) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::FinalizeBinding");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FinalizeBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(binding)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, binding);
+}
+// Autogenerated method: Zenject.DiContainer.StartBinding
+::Zenject::BindStatement* Zenject::DiContainer::StartBinding(bool flush) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::StartBinding");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StartBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(flush)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::BindStatement*, false>(this, ___internal__method, flush);
+}
+// Autogenerated method: Zenject.DiContainer.Rebind
+::Zenject::ConcreteBinderNonGeneric* Zenject::DiContainer::Rebind(::System::Type* contractType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Rebind");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Rebind", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteBinderNonGeneric*, false>(this, ___internal__method, contractType);
+}
+// Autogenerated method: Zenject.DiContainer.RebindId
+::Zenject::ConcreteBinderNonGeneric* Zenject::DiContainer::RebindId(::System::Type* contractType, ::Il2CppObject* identifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::RebindId");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RebindId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType), ::il2cpp_utils::ExtractType(identifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteBinderNonGeneric*, false>(this, ___internal__method, contractType, identifier);
+}
+// Autogenerated method: Zenject.DiContainer.Bind
+::Zenject::ConcreteIdBinderNonGeneric* Zenject::DiContainer::Bind(::ArrayW<::System::Type*> contractTypes) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Bind");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Bind", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractTypes)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteIdBinderNonGeneric*, false>(this, ___internal__method, contractTypes);
+}
+// Autogenerated method: Zenject.DiContainer.Bind
+::Zenject::ConcreteIdBinderNonGeneric* Zenject::DiContainer::Bind(::System::Collections::Generic::IEnumerable_1<::System::Type*>* contractTypes) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Bind");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Bind", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractTypes)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteIdBinderNonGeneric*, false>(this, ___internal__method, contractTypes);
+}
+// Autogenerated method: Zenject.DiContainer.BindInternal
+::Zenject::ConcreteIdBinderNonGeneric* Zenject::DiContainer::BindInternal(::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindingFinalizer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInternal");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindInfo), ::il2cpp_utils::ExtractType(bindingFinalizer)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteIdBinderNonGeneric*, false>(this, ___internal__method, bindInfo, bindingFinalizer);
+}
+// Autogenerated method: Zenject.DiContainer.Bind
+::Zenject::ConcreteIdBinderNonGeneric* Zenject::DiContainer::Bind(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::Bind");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Bind", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(generator)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConcreteIdBinderNonGeneric*, false>(this, ___internal__method, generator);
+}
+// Autogenerated method: Zenject.DiContainer.BindInterfacesTo
+::Zenject::FromBinderNonGeneric* Zenject::DiContainer::BindInterfacesTo(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInterfacesTo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindInterfacesTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::FromBinderNonGeneric*, false>(this, ___internal__method, type);
+}
+// Autogenerated method: Zenject.DiContainer.BindInterfacesAndSelfTo
+::Zenject::FromBinderNonGeneric* Zenject::DiContainer::BindInterfacesAndSelfTo(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInterfacesAndSelfTo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindInterfacesAndSelfTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::FromBinderNonGeneric*, false>(this, ___internal__method, type);
+}
+// Autogenerated method: Zenject.DiContainer.BindInstances
+void Zenject::DiContainer::BindInstances(::ArrayW<::Il2CppObject*> instances) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(instances)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, instances);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiateExplicit(::System::Type* concreteType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiateExplicit(::System::Type* concreteType, bool autoInject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(autoInject), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, autoInject, extraArgs, context, concreteIdentifier);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateComponentExplicit
+::UnityEngine::Component* Zenject::DiContainer::InstantiateComponentExplicit(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateComponentExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateComponentExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(gameObject), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(this, ___internal__method, componentType, gameObject, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiateScriptableObjectResourceExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiateScriptableObjectResourceExplicit(::System::Type* scriptableObjectType, ::StringW resourcePath, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiateScriptableObjectResourceExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResourceExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scriptableObjectType), ::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, scriptableObjectType, resourcePath, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabResourceForComponentExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit(::System::Type* componentType, ::StringW resourcePath, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::GameObjectCreationParameters* creationInfo) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponentExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(creationInfo)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, componentType, resourcePath, extraArgs, creationInfo);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabResourceForComponentExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit(::System::Type* componentType, ::StringW resourcePath, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, ::Zenject::GameObjectCreationParameters* creationInfo) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponentExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier), ::il2cpp_utils::ExtractType(creationInfo)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, componentType, resourcePath, extraArgs, context, concreteIdentifier, creationInfo);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabForComponentExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponentExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponentExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, componentType, prefab, extraArgs);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabForComponentExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponentExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponentExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(gameObjectBindInfo)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, componentType, prefab, extraArgs, gameObjectBindInfo);
+}
+// Autogenerated method: Zenject.DiContainer.InstantiatePrefabForComponentExplicit
+::Il2CppObject* Zenject::DiContainer::InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::Il2CppObject* concreteIdentifier, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::InstantiatePrefabForComponentExplicit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponentExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(extraArgs), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(concreteIdentifier), ::il2cpp_utils::ExtractType(gameObjectBindInfo)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, componentType, prefab, extraArgs, context, concreteIdentifier, gameObjectBindInfo);
+}
+// Autogenerated method: Zenject.DiContainer.BindExecutionOrder
+void Zenject::DiContainer::BindExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, type, order);
+}
+// Autogenerated method: Zenject.DiContainer.BindTickableExecutionOrder
+::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindTickableExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindTickableExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindTickableExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, type, order);
+}
+// Autogenerated method: Zenject.DiContainer.BindInitializableExecutionOrder
+::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindInitializableExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindInitializableExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindInitializableExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, type, order);
+}
+// Autogenerated method: Zenject.DiContainer.BindDisposableExecutionOrder
+::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindDisposableExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindDisposableExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindDisposableExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, type, order);
+}
+// Autogenerated method: Zenject.DiContainer.BindLateDisposableExecutionOrder
+::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateDisposableExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindLateDisposableExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindLateDisposableExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, type, order);
+}
+// Autogenerated method: Zenject.DiContainer.BindFixedTickableExecutionOrder
+::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindFixedTickableExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindFixedTickableExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindFixedTickableExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, type, order);
+}
+// Autogenerated method: Zenject.DiContainer.BindLateTickableExecutionOrder
+::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateTickableExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindLateTickableExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindLateTickableExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, type, order);
+}
+// Autogenerated method: Zenject.DiContainer.BindPoolableExecutionOrder
+::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindPoolableExecutionOrder(::System::Type* type, int order) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::BindPoolableExecutionOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindPoolableExecutionOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(order)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___internal__method, type, order);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DiContainer/Zenject.ProviderInfo
+#include "Zenject/DiContainer_ProviderInfo.hpp"
+// Including type: Zenject.IProvider
+#include "Zenject/IProvider.hpp"
+// Including type: Zenject.BindingCondition
+#include "Zenject/BindingCondition.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public readonly Zenject.DiContainer Container
+::Zenject::DiContainer*& Zenject::DiContainer::ProviderInfo::dyn_Container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::dyn_Container");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Container"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public readonly System.Boolean NonLazy
+bool& Zenject::DiContainer::ProviderInfo::dyn_NonLazy() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::dyn_NonLazy");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "NonLazy"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public readonly Zenject.IProvider Provider
+::Zenject::IProvider*& Zenject::DiContainer::ProviderInfo::dyn_Provider() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::dyn_Provider");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Provider"))->offset;
+  return *reinterpret_cast<::Zenject::IProvider**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public readonly Zenject.BindingCondition Condition
+::Zenject::BindingCondition*& Zenject::DiContainer::ProviderInfo::dyn_Condition() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::dyn_Condition");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Condition"))->offset;
+  return *reinterpret_cast<::Zenject::BindingCondition**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.ProviderInfo.__zenCreate
+::Il2CppObject* Zenject::DiContainer::ProviderInfo::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DiContainer/ProviderInfo", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.ProviderInfo.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::DiContainer::ProviderInfo::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DiContainer/ProviderInfo", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DiContainer/Zenject.<>c
+#include "Zenject/DiContainer_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: Zenject.IProvider
+#include "Zenject/IProvider.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: Zenject.DiContainer/Zenject.ProviderInfo
+#include "Zenject/DiContainer_ProviderInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.DiContainer/Zenject.<>c <>9
+::Zenject::DiContainer::$$c* Zenject::DiContainer::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::DiContainer::$$c*>("Zenject", "DiContainer/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.DiContainer/Zenject.<>c <>9
+void Zenject::DiContainer::$$c::_set_$$9(::Zenject::DiContainer::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>,System.Collections.Generic.IEnumerable`1<Zenject.DiContainer/Zenject.ProviderInfo>> <>9__33_0
+::System::Func_2<::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>*, ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer::ProviderInfo*>*>* Zenject::DiContainer::$$c::_get_$$9__33_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9__33_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>*, ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer::ProviderInfo*>*>*>("Zenject", "DiContainer/<>c", "<>9__33_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>,System.Collections.Generic.IEnumerable`1<Zenject.DiContainer/Zenject.ProviderInfo>> <>9__33_0
+void Zenject::DiContainer::$$c::_set_$$9__33_0(::System::Func_2<::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>*, ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer::ProviderInfo*>*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9__33_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9__33_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.DiContainer/Zenject.ProviderInfo,Zenject.IProvider> <>9__33_1
+::System::Func_2<::Zenject::DiContainer::ProviderInfo*, ::Zenject::IProvider*>* Zenject::DiContainer::$$c::_get_$$9__33_1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9__33_1");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::DiContainer::ProviderInfo*, ::Zenject::IProvider*>*>("Zenject", "DiContainer/<>c", "<>9__33_1")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.DiContainer/Zenject.ProviderInfo,Zenject.IProvider> <>9__33_1
+void Zenject::DiContainer::$$c::_set_$$9__33_1(::System::Func_2<::Zenject::DiContainer::ProviderInfo*, ::Zenject::IProvider*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9__33_1");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9__33_1", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<System.Type,System.Boolean> <>9__86_1
+::System::Func_2<::System::Type*, bool>* Zenject::DiContainer::$$c::_get_$$9__86_1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9__86_1");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::System::Type*, bool>*>("Zenject", "DiContainer/<>c", "<>9__86_1")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__86_1
+void Zenject::DiContainer::$$c::_set_$$9__86_1(::System::Func_2<::System::Type*, bool>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9__86_1");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9__86_1", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__97_0
+::System::Func_2<::Zenject::TypeValuePair, ::StringW>* Zenject::DiContainer::$$c::_get_$$9__97_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9__97_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::TypeValuePair, ::StringW>*>("Zenject", "DiContainer/<>c", "<>9__97_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__97_0
+void Zenject::DiContainer::$$c::_set_$$9__97_0(::System::Func_2<::Zenject::TypeValuePair, ::StringW>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9__97_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9__97_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__102_0
+::System::Func_2<::Zenject::TypeValuePair, ::StringW>* Zenject::DiContainer::$$c::_get_$$9__102_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9__102_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::TypeValuePair, ::StringW>*>("Zenject", "DiContainer/<>c", "<>9__102_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__102_0
+void Zenject::DiContainer::$$c::_set_$$9__102_0(::System::Func_2<::Zenject::TypeValuePair, ::StringW>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9__102_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9__102_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<System.Type,System.Boolean> <>9__197_0
+::System::Func_2<::System::Type*, bool>* Zenject::DiContainer::$$c::_get_$$9__197_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9__197_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::System::Type*, bool>*>("Zenject", "DiContainer/<>c", "<>9__197_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__197_0
+void Zenject::DiContainer::$$c::_set_$$9__197_0(::System::Func_2<::System::Type*, bool>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9__197_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9__197_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<System.Type,System.Boolean> <>9__198_0
+::System::Func_2<::System::Type*, bool>* Zenject::DiContainer::$$c::_get_$$9__198_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_get_$$9__198_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::System::Type*, bool>*>("Zenject", "DiContainer/<>c", "<>9__198_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__198_0
+void Zenject::DiContainer::$$c::_set_$$9__198_0(::System::Func_2<::System::Type*, bool>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::_set_$$9__198_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DiContainer/<>c", "<>9__198_0", value)));
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c..cctor
+void Zenject::DiContainer::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DiContainer/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.<get_AllProviders>b__33_0
+::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer::ProviderInfo*>* Zenject::DiContainer::$$c::$get_AllProviders$b__33_0(::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::<get_AllProviders>b__33_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<get_AllProviders>b__33_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer::ProviderInfo*>*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.<get_AllProviders>b__33_1
+::Zenject::IProvider* Zenject::DiContainer::$$c::$get_AllProviders$b__33_1(::Zenject::DiContainer::ProviderInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::<get_AllProviders>b__33_1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<get_AllProviders>b__33_1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::IProvider*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.<ResolveTypeAll>b__86_1
+bool Zenject::DiContainer::$$c::$ResolveTypeAll$b__86_1(::System::Type* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::<ResolveTypeAll>b__86_1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ResolveTypeAll>b__86_1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.<InstantiateInternal>b__97_0
+::StringW Zenject::DiContainer::$$c::$InstantiateInternal$b__97_0(::Zenject::TypeValuePair x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::<InstantiateInternal>b__97_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InstantiateInternal>b__97_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.<InjectExplicitInternal>b__102_0
+::StringW Zenject::DiContainer::$$c::$InjectExplicitInternal$b__102_0(::Zenject::TypeValuePair x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::<InjectExplicitInternal>b__102_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InjectExplicitInternal>b__102_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.<BindInternal>b__197_0
+bool Zenject::DiContainer::$$c::$BindInternal$b__197_0(::System::Type* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::<BindInternal>b__197_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<BindInternal>b__197_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.<Bind>b__198_0
+bool Zenject::DiContainer::$$c::$Bind$b__198_0(::System::Type* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::<Bind>b__198_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Bind>b__198_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::DiContainer::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DiContainer/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::DiContainer::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DiContainer/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.DiContainer/Zenject.<>c__DisplayClass86_0
+#include "Zenject/DiContainer_--c__DisplayClass86_0.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.DiContainer/Zenject.ProviderInfo
+#include "Zenject/DiContainer_ProviderInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.InjectContext context
+::Zenject::InjectContext*& Zenject::DiContainer::$$c__DisplayClass86_0::dyn_context() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass86_0::dyn_context");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "context"))->offset;
+  return *reinterpret_cast<::Zenject::InjectContext**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c__DisplayClass86_0.<ResolveTypeAll>b__0
+::System::Type* Zenject::DiContainer::$$c__DisplayClass86_0::$ResolveTypeAll$b__0(::Zenject::DiContainer::ProviderInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass86_0::<ResolveTypeAll>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ResolveTypeAll>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, x);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96
+#include "Zenject/DiContainer_-GetDependencyContracts-d__96.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectableInfo
+#include "Zenject/InjectableInfo.hpp"
+// Including type: System.Collections.IEnumerator
+#include "System/Collections/IEnumerator.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private System.Int32 <>1__state
+int& Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$1__state() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$1__state");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>1__state"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Type <>2__current
+::System::Type*& Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$2__current() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$2__current");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>2__current"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Int32 <>l__initialThreadId
+int& Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$l__initialThreadId() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$l__initialThreadId");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>l__initialThreadId"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public Zenject.DiContainer <>4__this
+::Zenject::DiContainer*& Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$4__this() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$4__this");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Type contract
+::System::Type*& Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_contract() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_contract");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "contract"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Type <>3__contract
+::System::Type*& Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$3__contract() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$3__contract");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>3__contract"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Collections.Generic.IEnumerator`1<Zenject.InjectableInfo> <>7__wrap1
+::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*& Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$7__wrap1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::dyn_$$7__wrap1");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>7__wrap1"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.System.Collections.Generic.IEnumerator<System.Type>.get_Current
+::System::Type* Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::System.Collections.Generic.IEnumerator<System.Type>.get_Current");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<System.Type>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.System.Collections.IEnumerator.get_Current
+::Il2CppObject* Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_get_Current() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::System.Collections.IEnumerator.get_Current");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.System.IDisposable.Dispose
+void Zenject::DiContainer::$GetDependencyContracts$d__96::System_IDisposable_Dispose() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::System.IDisposable.Dispose");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.MoveNext
+bool Zenject::DiContainer::$GetDependencyContracts$d__96::MoveNext() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::MoveNext");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.<>m__Finally1
+void Zenject::DiContainer::$GetDependencyContracts$d__96::$$m__Finally1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::<>m__Finally1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<>m__Finally1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.System.Collections.IEnumerator.Reset
+void Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_Reset() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::System.Collections.IEnumerator.Reset");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator
+::System::Collections::Generic::IEnumerator_1<::System::Type*>* Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Type*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96.System.Collections.IEnumerable.GetEnumerator
+::System::Collections::IEnumerator* Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerable_GetEnumerator() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::System.Collections.IEnumerable.GetEnumerator");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DiContainer/Zenject.<>c__DisplayClass178_0
+#include "Zenject/DiContainer_--c__DisplayClass178_0.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.DiContainer/Zenject.ProviderInfo
+#include "Zenject/DiContainer_ProviderInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.DiContainer <>4__this
+::Zenject::DiContainer*& Zenject::DiContainer::$$c__DisplayClass178_0::dyn_$$4__this() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::dyn_$$4__this");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Type contractType
+::System::Type*& Zenject::DiContainer::$$c__DisplayClass178_0::dyn_contractType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::dyn_contractType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "contractType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Object identifier
+::Il2CppObject*& Zenject::DiContainer::$$c__DisplayClass178_0::dyn_identifier() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::dyn_identifier");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "identifier"))->offset;
+  return *reinterpret_cast<::Il2CppObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Type concreteType
+::System::Type*& Zenject::DiContainer::$$c__DisplayClass178_0::dyn_concreteType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::dyn_concreteType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "concreteType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DiContainer/Zenject.<>c__DisplayClass178_0.<UnbindId>b__0
+bool Zenject::DiContainer::$$c__DisplayClass178_0::$UnbindId$b__0(::Zenject::DiContainer::ProviderInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::<UnbindId>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<UnbindId>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.IInstantiator
+#include "Zenject/IInstantiator.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: UnityEngine.Component
+#include "UnityEngine/Component.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: UnityEngine.Object
+#include "UnityEngine/Object.hpp"
+// Including type: UnityEngine.Transform
+#include "UnityEngine/Transform.hpp"
+// Including type: UnityEngine.ScriptableObject
+#include "UnityEngine/ScriptableObject.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.IInstantiator.Instantiate
+::Il2CppObject* Zenject::IInstantiator::Instantiate(::System::Type* concreteType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::Instantiate");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType);
+}
+// Autogenerated method: Zenject.IInstantiator.Instantiate
+::Il2CppObject* Zenject::IInstantiator::Instantiate(::System::Type* concreteType, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::Instantiate");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Instantiate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, extraArgs);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiateComponent
+::UnityEngine::Component* Zenject::IInstantiator::InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiateComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(gameObject)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(this, ___internal__method, componentType, gameObject);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiateComponent
+::UnityEngine::Component* Zenject::IInstantiator::InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiateComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(componentType), ::il2cpp_utils::ExtractType(gameObject), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(this, ___internal__method, componentType, gameObject, extraArgs);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefab
+::UnityEngine::GameObject* Zenject::IInstantiator::InstantiatePrefab(::UnityEngine::Object* prefab) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefab");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefab
+::UnityEngine::GameObject* Zenject::IInstantiator::InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefab");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab, parentTransform);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefab
+::UnityEngine::GameObject* Zenject::IInstantiator::InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefab");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefab", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, prefab, position, rotation, parentTransform);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefabResource
+::UnityEngine::GameObject* Zenject::IInstantiator::InstantiatePrefabResource(::StringW resourcePath) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefabResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefabResource
+::UnityEngine::GameObject* Zenject::IInstantiator::InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefabResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath, parentTransform);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefabResource
+::UnityEngine::GameObject* Zenject::IInstantiator::InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefabResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation), ::il2cpp_utils::ExtractType(parentTransform)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, resourcePath, position, rotation, parentTransform);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefabForComponent
+::Il2CppObject* Zenject::IInstantiator::InstantiatePrefabForComponent(::System::Type* concreteType, ::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefabForComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabForComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(prefab), ::il2cpp_utils::ExtractType(parentTransform), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, prefab, parentTransform, extraArgs);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiatePrefabResourceForComponent
+::Il2CppObject* Zenject::IInstantiator::InstantiatePrefabResourceForComponent(::System::Type* concreteType, ::StringW resourcePath, ::UnityEngine::Transform* parentTransform, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiatePrefabResourceForComponent");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiatePrefabResourceForComponent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType), ::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(parentTransform), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, concreteType, resourcePath, parentTransform, extraArgs);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiateScriptableObjectResource
+::Il2CppObject* Zenject::IInstantiator::InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiateScriptableObjectResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scriptableObjectType), ::il2cpp_utils::ExtractType(resourcePath)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, scriptableObjectType, resourcePath);
+}
+// Autogenerated method: Zenject.IInstantiator.InstantiateScriptableObjectResource
+::Il2CppObject* Zenject::IInstantiator::InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::InstantiateScriptableObjectResource");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scriptableObjectType), ::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(extraArgs)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, scriptableObjectType, resourcePath, extraArgs);
+}
+// Autogenerated method: Zenject.IInstantiator.CreateEmptyGameObject
+::UnityEngine::GameObject* Zenject::IInstantiator::CreateEmptyGameObject(::StringW name) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IInstantiator::CreateEmptyGameObject");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateEmptyGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, name);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.LazyInstanceInjector
+#include "Zenject/LazyInstanceInjector.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: System.Collections.Generic.HashSet`1
+#include "System/Collections/Generic/HashSet_1.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.DiContainer _container
+::Zenject::DiContainer*& Zenject::LazyInstanceInjector::dyn__container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::dyn__container");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_container"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject
+::System::Collections::Generic::HashSet_1<::Il2CppObject*>*& Zenject::LazyInstanceInjector::dyn__instancesToInject() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::dyn__instancesToInject");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_instancesToInject"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::HashSet_1<::Il2CppObject*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.LazyInstanceInjector.get_Instances
+::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* Zenject::LazyInstanceInjector::get_Instances() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::get_Instances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Instances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.LazyInstanceInjector.AddInstance
+void Zenject::LazyInstanceInjector::AddInstance(::Il2CppObject* instance) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::AddInstance");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(instance)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, instance);
+}
+// Autogenerated method: Zenject.LazyInstanceInjector.AddInstances
+void Zenject::LazyInstanceInjector::AddInstances(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* instances) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::AddInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(instances)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, instances);
+}
+// Autogenerated method: Zenject.LazyInstanceInjector.LazyInject
+void Zenject::LazyInstanceInjector::LazyInject(::Il2CppObject* instance) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::LazyInject");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LazyInject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(instance)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, instance);
+}
+// Autogenerated method: Zenject.LazyInstanceInjector.LazyInjectAll
+void Zenject::LazyInstanceInjector::LazyInjectAll() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::LazyInjectAll");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LazyInjectAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.ValidationErrorResponses
+#include "Zenject/ValidationErrorResponses.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public Zenject.ValidationErrorResponses Log
+::Zenject::ValidationErrorResponses Zenject::ValidationErrorResponses::_get_Log() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationErrorResponses::_get_Log");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::ValidationErrorResponses>("Zenject", "ValidationErrorResponses", "Log"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.ValidationErrorResponses Log
+void Zenject::ValidationErrorResponses::_set_Log(::Zenject::ValidationErrorResponses value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationErrorResponses::_set_Log");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ValidationErrorResponses", "Log", value));
+}
+// Autogenerated static field getter
+// Get static field: static public Zenject.ValidationErrorResponses Throw
+::Zenject::ValidationErrorResponses Zenject::ValidationErrorResponses::_get_Throw() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationErrorResponses::_get_Throw");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::ValidationErrorResponses>("Zenject", "ValidationErrorResponses", "Throw"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.ValidationErrorResponses Throw
+void Zenject::ValidationErrorResponses::_set_Throw(::Zenject::ValidationErrorResponses value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationErrorResponses::_set_Throw");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ValidationErrorResponses", "Throw", value));
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 value__
+int& Zenject::ValidationErrorResponses::dyn_value__() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationErrorResponses::dyn_value__");
+  auto ___internal__instance = *this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "value__"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.RootResolveMethods
+#include "Zenject/RootResolveMethods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public Zenject.RootResolveMethods NonLazyOnly
+::Zenject::RootResolveMethods Zenject::RootResolveMethods::_get_NonLazyOnly() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::RootResolveMethods::_get_NonLazyOnly");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::RootResolveMethods>("Zenject", "RootResolveMethods", "NonLazyOnly"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.RootResolveMethods NonLazyOnly
+void Zenject::RootResolveMethods::_set_NonLazyOnly(::Zenject::RootResolveMethods value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::RootResolveMethods::_set_NonLazyOnly");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "RootResolveMethods", "NonLazyOnly", value));
+}
+// Autogenerated static field getter
+// Get static field: static public Zenject.RootResolveMethods All
+::Zenject::RootResolveMethods Zenject::RootResolveMethods::_get_All() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::RootResolveMethods::_get_All");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::RootResolveMethods>("Zenject", "RootResolveMethods", "All"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.RootResolveMethods All
+void Zenject::RootResolveMethods::_set_All(::Zenject::RootResolveMethods value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::RootResolveMethods::_set_All");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "RootResolveMethods", "All", value));
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 value__
+int& Zenject::RootResolveMethods::dyn_value__() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::RootResolveMethods::dyn_value__");
+  auto ___internal__instance = *this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "value__"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.SignalDefaultSyncModes
+#include "Zenject/SignalDefaultSyncModes.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public Zenject.SignalDefaultSyncModes Synchronous
+::Zenject::SignalDefaultSyncModes Zenject::SignalDefaultSyncModes::_get_Synchronous() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDefaultSyncModes::_get_Synchronous");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::SignalDefaultSyncModes>("Zenject", "SignalDefaultSyncModes", "Synchronous"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.SignalDefaultSyncModes Synchronous
+void Zenject::SignalDefaultSyncModes::_set_Synchronous(::Zenject::SignalDefaultSyncModes value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDefaultSyncModes::_set_Synchronous");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "SignalDefaultSyncModes", "Synchronous", value));
+}
+// Autogenerated static field getter
+// Get static field: static public Zenject.SignalDefaultSyncModes Asynchronous
+::Zenject::SignalDefaultSyncModes Zenject::SignalDefaultSyncModes::_get_Asynchronous() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDefaultSyncModes::_get_Asynchronous");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::SignalDefaultSyncModes>("Zenject", "SignalDefaultSyncModes", "Asynchronous"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.SignalDefaultSyncModes Asynchronous
+void Zenject::SignalDefaultSyncModes::_set_Asynchronous(::Zenject::SignalDefaultSyncModes value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDefaultSyncModes::_set_Asynchronous");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "SignalDefaultSyncModes", "Asynchronous", value));
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 value__
+int& Zenject::SignalDefaultSyncModes::dyn_value__() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDefaultSyncModes::dyn_value__");
+  auto ___internal__instance = *this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "value__"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.SignalMissingHandlerResponses
+#include "Zenject/SignalMissingHandlerResponses.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public Zenject.SignalMissingHandlerResponses Ignore
+::Zenject::SignalMissingHandlerResponses Zenject::SignalMissingHandlerResponses::_get_Ignore() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalMissingHandlerResponses::_get_Ignore");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::SignalMissingHandlerResponses>("Zenject", "SignalMissingHandlerResponses", "Ignore"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.SignalMissingHandlerResponses Ignore
+void Zenject::SignalMissingHandlerResponses::_set_Ignore(::Zenject::SignalMissingHandlerResponses value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalMissingHandlerResponses::_set_Ignore");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "SignalMissingHandlerResponses", "Ignore", value));
+}
+// Autogenerated static field getter
+// Get static field: static public Zenject.SignalMissingHandlerResponses Throw
+::Zenject::SignalMissingHandlerResponses Zenject::SignalMissingHandlerResponses::_get_Throw() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalMissingHandlerResponses::_get_Throw");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::SignalMissingHandlerResponses>("Zenject", "SignalMissingHandlerResponses", "Throw"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.SignalMissingHandlerResponses Throw
+void Zenject::SignalMissingHandlerResponses::_set_Throw(::Zenject::SignalMissingHandlerResponses value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalMissingHandlerResponses::_set_Throw");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "SignalMissingHandlerResponses", "Throw", value));
+}
+// Autogenerated static field getter
+// Get static field: static public Zenject.SignalMissingHandlerResponses Warn
+::Zenject::SignalMissingHandlerResponses Zenject::SignalMissingHandlerResponses::_get_Warn() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalMissingHandlerResponses::_get_Warn");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::SignalMissingHandlerResponses>("Zenject", "SignalMissingHandlerResponses", "Warn"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.SignalMissingHandlerResponses Warn
+void Zenject::SignalMissingHandlerResponses::_set_Warn(::Zenject::SignalMissingHandlerResponses value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalMissingHandlerResponses::_set_Warn");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "SignalMissingHandlerResponses", "Warn", value));
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 value__
+int& Zenject::SignalMissingHandlerResponses::dyn_value__() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalMissingHandlerResponses::dyn_value__");
+  auto ___internal__instance = *this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "value__"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.ZenjectSettings
+#include "Zenject/ZenjectSettings.hpp"
+// Including type: Zenject.ZenjectSettings/Zenject.SignalSettings
+#include "Zenject/ZenjectSettings_SignalSettings.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public Zenject.ZenjectSettings Default
+::Zenject::ZenjectSettings* Zenject::ZenjectSettings::_get_Default() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::_get_Default");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::ZenjectSettings*>("Zenject", "ZenjectSettings", "Default"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.ZenjectSettings Default
+void Zenject::ZenjectSettings::_set_Default(::Zenject::ZenjectSettings* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::_set_Default");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ZenjectSettings", "Default", value));
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
+bool& Zenject::ZenjectSettings::dyn__ensureDeterministicDestructionOrderOnApplicationQuit() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::dyn__ensureDeterministicDestructionOrderOnApplicationQuit");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_ensureDeterministicDestructionOrderOnApplicationQuit"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _displayWarningWhenResolvingDuringInstall
+bool& Zenject::ZenjectSettings::dyn__displayWarningWhenResolvingDuringInstall() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::dyn__displayWarningWhenResolvingDuringInstall");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_displayWarningWhenResolvingDuringInstall"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.RootResolveMethods _validationRootResolveMethod
+::Zenject::RootResolveMethods& Zenject::ZenjectSettings::dyn__validationRootResolveMethod() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::dyn__validationRootResolveMethod");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_validationRootResolveMethod"))->offset;
+  return *reinterpret_cast<::Zenject::RootResolveMethods*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.ValidationErrorResponses _validationErrorResponse
+::Zenject::ValidationErrorResponses& Zenject::ZenjectSettings::dyn__validationErrorResponse() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::dyn__validationErrorResponse");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_validationErrorResponse"))->offset;
+  return *reinterpret_cast<::Zenject::ValidationErrorResponses*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
+::Zenject::ZenjectSettings::SignalSettings*& Zenject::ZenjectSettings::dyn__signalSettings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::dyn__signalSettings");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_signalSettings"))->offset;
+  return *reinterpret_cast<::Zenject::ZenjectSettings::SignalSettings**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.ZenjectSettings.get_Signals
+::Zenject::ZenjectSettings::SignalSettings* Zenject::ZenjectSettings::get_Signals() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::get_Signals");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Signals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ZenjectSettings::SignalSettings*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings.get_ValidationErrorResponse
+::Zenject::ValidationErrorResponses Zenject::ZenjectSettings::get_ValidationErrorResponse() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::get_ValidationErrorResponse");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ValidationErrorResponse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ValidationErrorResponses, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings.get_ValidationRootResolveMethod
+::Zenject::RootResolveMethods Zenject::ZenjectSettings::get_ValidationRootResolveMethod() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::get_ValidationRootResolveMethod");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ValidationRootResolveMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::RootResolveMethods, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings.get_DisplayWarningWhenResolvingDuringInstall
+bool Zenject::ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_DisplayWarningWhenResolvingDuringInstall", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings.get_EnsureDeterministicDestructionOrderOnApplicationQuit
+bool Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_EnsureDeterministicDestructionOrderOnApplicationQuit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings..cctor
+void Zenject::ZenjectSettings::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenjectSettings", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ZenjectSettings/Zenject.SignalSettings
+#include "Zenject/ZenjectSettings_SignalSettings.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default
+::Zenject::ZenjectSettings::SignalSettings* Zenject::ZenjectSettings::SignalSettings::_get_Default() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::_get_Default");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::ZenjectSettings::SignalSettings*>("Zenject", "ZenjectSettings/SignalSettings", "Default"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default
+void Zenject::ZenjectSettings::SignalSettings::_set_Default(::Zenject::ZenjectSettings::SignalSettings* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::_set_Default");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ZenjectSettings/SignalSettings", "Default", value));
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.SignalDefaultSyncModes _defaultSyncMode
+::Zenject::SignalDefaultSyncModes& Zenject::ZenjectSettings::SignalSettings::dyn__defaultSyncMode() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::dyn__defaultSyncMode");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_defaultSyncMode"))->offset;
+  return *reinterpret_cast<::Zenject::SignalDefaultSyncModes*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.SignalMissingHandlerResponses _missingHandlerDefaultResponse
+::Zenject::SignalMissingHandlerResponses& Zenject::ZenjectSettings::SignalSettings::dyn__missingHandlerDefaultResponse() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::dyn__missingHandlerDefaultResponse");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_missingHandlerDefaultResponse"))->offset;
+  return *reinterpret_cast<::Zenject::SignalMissingHandlerResponses*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _requireStrictUnsubscribe
+bool& Zenject::ZenjectSettings::SignalSettings::dyn__requireStrictUnsubscribe() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::dyn__requireStrictUnsubscribe");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_requireStrictUnsubscribe"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Int32 _defaultAsyncTickPriority
+int& Zenject::ZenjectSettings::SignalSettings::dyn__defaultAsyncTickPriority() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::dyn__defaultAsyncTickPriority");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_defaultAsyncTickPriority"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.ZenjectSettings/Zenject.SignalSettings.get_DefaultAsyncTickPriority
+int Zenject::ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_DefaultAsyncTickPriority", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings/Zenject.SignalSettings.get_DefaultSyncMode
+::Zenject::SignalDefaultSyncModes Zenject::ZenjectSettings::SignalSettings::get_DefaultSyncMode() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::get_DefaultSyncMode");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_DefaultSyncMode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::SignalDefaultSyncModes, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings/Zenject.SignalSettings.get_MissingHandlerDefaultResponse
+::Zenject::SignalMissingHandlerResponses Zenject::ZenjectSettings::SignalSettings::get_MissingHandlerDefaultResponse() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::get_MissingHandlerDefaultResponse");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_MissingHandlerDefaultResponse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::SignalMissingHandlerResponses, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings/Zenject.SignalSettings.get_RequireStrictUnsubscribe
+bool Zenject::ZenjectSettings::SignalSettings::get_RequireStrictUnsubscribe() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::get_RequireStrictUnsubscribe");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_RequireStrictUnsubscribe", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings/Zenject.SignalSettings..cctor
+void Zenject::ZenjectSettings::SignalSettings::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenjectSettings/SignalSettings", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.ZenjectSettings/Zenject.SignalSettings.__zenCreate
+::Il2CppObject* Zenject::ZenjectSettings::SignalSettings::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenjectSettings/SignalSettings", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.ZenjectSettings/Zenject.SignalSettings.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::ZenjectSettings::SignalSettings::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenjectSettings/SignalSettings", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.NoTransitionContext
+#include "Zenject/NoTransitionContext.hpp"
+// Including type: Zenject.NoTransitionInstaller
+#include "Zenject/NoTransitionInstaller.hpp"
+// Including type: System.Action`1
+#include "System/Action_1.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
+::Zenject::NoTransitionInstaller*& Zenject::NoTransitionContext::dyn__noScenesTransitionInstaller() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionContext::dyn__noScenesTransitionInstaller");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_noScenesTransitionInstaller"))->offset;
+  return *reinterpret_cast<::Zenject::NoTransitionInstaller**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.NoTransitionContext.get_installMethod
+::System::Action_1<::Zenject::DiContainer*>* Zenject::NoTransitionContext::get_installMethod() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionContext::get_installMethod");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_installMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Action_1<::Zenject::DiContainer*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.NoTransitionContext.get_postInstallMethod
+::System::Action_1<::Zenject::DiContainer*>* Zenject::NoTransitionContext::get_postInstallMethod() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionContext::get_postInstallMethod");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_postInstallMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Action_1<::Zenject::DiContainer*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.NoTransitionContext.Awake
+void Zenject::NoTransitionContext::Awake() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionContext::Awake");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.NoTransitionContext.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::NoTransitionContext::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionContext::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "NoTransitionContext", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.NoTransitionInstaller
+#include "Zenject/NoTransitionInstaller.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.NoTransitionInstaller.InstallBindings
+void Zenject::NoTransitionInstaller::InstallBindings(::Zenject::DiContainer* container) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionInstaller::InstallBindings");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstallBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, container);
+}
+// Autogenerated method: Zenject.NoTransitionInstaller.PostInstall
+void Zenject::NoTransitionInstaller::PostInstall(::Zenject::DiContainer* container) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionInstaller::PostInstall");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "PostInstall", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, container);
+}
+// Autogenerated method: Zenject.NoTransitionInstaller.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::NoTransitionInstaller::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionInstaller::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "NoTransitionInstaller", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.CachedOpenTypeProvider
+#include "Zenject/CachedOpenTypeProvider.hpp"
+// Including type: Zenject.CachedOpenTypeProvider/Zenject.<>c
+#include "Zenject/CachedOpenTypeProvider_--c.hpp"
+// Including type: System.Collections.Generic.Dictionary`2
+#include "System/Collections/Generic/Dictionary_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.CachedProvider
+#include "Zenject/CachedProvider.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.IProvider _creator
+::Zenject::IProvider*& Zenject::CachedOpenTypeProvider::dyn__creator() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::dyn__creator");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_creator"))->offset;
+  return *reinterpret_cast<::Zenject::IProvider**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.CachedProvider> _providerMap
+::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::CachedProvider*>*& Zenject::CachedOpenTypeProvider::dyn__providerMap() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::dyn__providerMap");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_providerMap"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::CachedProvider*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider.get_IsCached
+bool Zenject::CachedOpenTypeProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::CachedOpenTypeProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider.get_NumInstances
+int Zenject::CachedOpenTypeProvider::get_NumInstances() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::get_NumInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_NumInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider.ClearCache
+void Zenject::CachedOpenTypeProvider::ClearCache() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::ClearCache");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider.GetInstanceType
+::System::Type* Zenject::CachedOpenTypeProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider.GetAllInstancesWithInjectSplit
+void Zenject::CachedOpenTypeProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.CachedOpenTypeProvider/Zenject.<>c
+#include "Zenject/CachedOpenTypeProvider_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: Zenject.CachedProvider
+#include "Zenject/CachedProvider.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.CachedOpenTypeProvider/Zenject.<>c <>9
+::Zenject::CachedOpenTypeProvider::$$c* Zenject::CachedOpenTypeProvider::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::CachedOpenTypeProvider::$$c*>("Zenject", "CachedOpenTypeProvider/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.CachedOpenTypeProvider/Zenject.<>c <>9
+void Zenject::CachedOpenTypeProvider::$$c::_set_$$9(::Zenject::CachedOpenTypeProvider::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "CachedOpenTypeProvider/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.CachedProvider,System.Int32> <>9__8_0
+::System::Func_2<::Zenject::CachedProvider*, int>* Zenject::CachedOpenTypeProvider::$$c::_get_$$9__8_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::_get_$$9__8_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::CachedProvider*, int>*>("Zenject", "CachedOpenTypeProvider/<>c", "<>9__8_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.CachedProvider,System.Int32> <>9__8_0
+void Zenject::CachedOpenTypeProvider::$$c::_set_$$9__8_0(::System::Func_2<::Zenject::CachedProvider*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::_set_$$9__8_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "CachedOpenTypeProvider/<>c", "<>9__8_0", value)));
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider/Zenject.<>c..cctor
+void Zenject::CachedOpenTypeProvider::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "CachedOpenTypeProvider/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider/Zenject.<>c.<get_NumInstances>b__8_0
+int Zenject::CachedOpenTypeProvider::$$c::$get_NumInstances$b__8_0(::Zenject::CachedProvider* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::<get_NumInstances>b__8_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<get_NumInstances>b__8_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::CachedOpenTypeProvider::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "CachedOpenTypeProvider/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.CachedOpenTypeProvider/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::CachedOpenTypeProvider::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "CachedOpenTypeProvider/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.CachedProvider
+#include "Zenject/CachedProvider.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.IProvider _creator
+::Zenject::IProvider*& Zenject::CachedProvider::dyn__creator() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::dyn__creator");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_creator"))->offset;
+  return *reinterpret_cast<::Zenject::IProvider**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Collections.Generic.List`1<System.Object> _instances
+::System::Collections::Generic::List_1<::Il2CppObject*>*& Zenject::CachedProvider::dyn__instances() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::dyn__instances");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_instances"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Il2CppObject*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _isCreatingInstance
+bool& Zenject::CachedProvider::dyn__isCreatingInstance() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::dyn__isCreatingInstance");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isCreatingInstance"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.CachedProvider.get_IsCached
+bool Zenject::CachedProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::CachedProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedProvider.get_NumInstances
+int Zenject::CachedProvider::get_NumInstances() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::get_NumInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_NumInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedProvider.ClearCache
+void Zenject::CachedProvider::ClearCache() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::ClearCache");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.CachedProvider.GetInstanceType
+::System::Type* Zenject::CachedProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.CachedProvider.GetAllInstancesWithInjectSplit
+void Zenject::CachedProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.AddToCurrentGameObjectComponentProvider
+#include "Zenject/AddToCurrentGameObjectComponentProvider.hpp"
+// Including type: Zenject.AddToCurrentGameObjectComponentProvider/Zenject.<>c__DisplayClass15_0
+#include "Zenject/AddToCurrentGameObjectComponentProvider_--c__DisplayClass15_0.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action`2
+#include "System/Action_2.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Type _componentType
+::System::Type*& Zenject::AddToCurrentGameObjectComponentProvider::dyn__componentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::dyn__componentType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_componentType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.DiContainer _container
+::Zenject::DiContainer*& Zenject::AddToCurrentGameObjectComponentProvider::dyn__container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::dyn__container");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_container"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
+::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::AddToCurrentGameObjectComponentProvider::dyn__extraArguments() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::dyn__extraArguments");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_extraArguments"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Object _concreteIdentifier
+::Il2CppObject*& Zenject::AddToCurrentGameObjectComponentProvider::dyn__concreteIdentifier() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::dyn__concreteIdentifier");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_concreteIdentifier"))->offset;
+  return *reinterpret_cast<::Il2CppObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
+::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& Zenject::AddToCurrentGameObjectComponentProvider::dyn__instantiateCallback() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::dyn__instantiateCallback");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_instantiateCallback"))->offset;
+  return *reinterpret_cast<::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider.get_IsCached
+bool Zenject::AddToCurrentGameObjectComponentProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::AddToCurrentGameObjectComponentProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider.get_Container
+::Zenject::DiContainer* Zenject::AddToCurrentGameObjectComponentProvider::get_Container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::get_Container");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Container", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider.get_ComponentType
+::System::Type* Zenject::AddToCurrentGameObjectComponentProvider::get_ComponentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::get_ComponentType");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ComponentType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider.GetInstanceType
+::System::Type* Zenject::AddToCurrentGameObjectComponentProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider.GetAllInstancesWithInjectSplit
+void Zenject::AddToCurrentGameObjectComponentProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.AddToCurrentGameObjectComponentProvider/Zenject.<>c__DisplayClass15_0
+#include "Zenject/AddToCurrentGameObjectComponentProvider_--c__DisplayClass15_0.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.AddToCurrentGameObjectComponentProvider <>4__this
+::Zenject::AddToCurrentGameObjectComponentProvider*& Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_$$4__this() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_$$4__this");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
+  return *reinterpret_cast<::Zenject::AddToCurrentGameObjectComponentProvider**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_args() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_args");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "args"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Object instance
+::Il2CppObject*& Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_instance() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_instance");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "instance"))->offset;
+  return *reinterpret_cast<::Il2CppObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public Zenject.InjectContext context
+::Zenject::InjectContext*& Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_context() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::dyn_context");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "context"))->offset;
+  return *reinterpret_cast<::Zenject::InjectContext**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider/Zenject.<>c__DisplayClass15_0.<GetAllInstancesWithInjectSplit>b__0
+void Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::$GetAllInstancesWithInjectSplit$b__0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::<GetAllInstancesWithInjectSplit>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetAllInstancesWithInjectSplit>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider/Zenject.<>c__DisplayClass15_0.__zenCreate
+::Il2CppObject* Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.AddToCurrentGameObjectComponentProvider/Zenject.<>c__DisplayClass15_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.AddToExistingGameObjectComponentProvider
+#include "Zenject/AddToExistingGameObjectComponentProvider.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: System.Action`2
+#include "System/Action_2.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly UnityEngine.GameObject _gameObject
+::UnityEngine::GameObject*& Zenject::AddToExistingGameObjectComponentProvider::dyn__gameObject() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToExistingGameObjectComponentProvider::dyn__gameObject");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_gameObject"))->offset;
+  return *reinterpret_cast<::UnityEngine::GameObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.AddToExistingGameObjectComponentProvider.get_ShouldToggleActive
+bool Zenject::AddToExistingGameObjectComponentProvider::get_ShouldToggleActive() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToExistingGameObjectComponentProvider::get_ShouldToggleActive");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ShouldToggleActive", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToExistingGameObjectComponentProvider.GetGameObject
+::UnityEngine::GameObject* Zenject::AddToExistingGameObjectComponentProvider::GetGameObject(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToExistingGameObjectComponentProvider::GetGameObject");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, context);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.AddToExistingGameObjectComponentProviderGetter
+#include "Zenject/AddToExistingGameObjectComponentProviderGetter.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action`2
+#include "System/Action_2.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
+::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*& Zenject::AddToExistingGameObjectComponentProviderGetter::dyn__gameObjectGetter() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToExistingGameObjectComponentProviderGetter::dyn__gameObjectGetter");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_gameObjectGetter"))->offset;
+  return *reinterpret_cast<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.AddToExistingGameObjectComponentProviderGetter.get_ShouldToggleActive
+bool Zenject::AddToExistingGameObjectComponentProviderGetter::get_ShouldToggleActive() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToExistingGameObjectComponentProviderGetter::get_ShouldToggleActive");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ShouldToggleActive", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToExistingGameObjectComponentProviderGetter.GetGameObject
+::UnityEngine::GameObject* Zenject::AddToExistingGameObjectComponentProviderGetter::GetGameObject(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToExistingGameObjectComponentProviderGetter::GetGameObject");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, context);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.AddToGameObjectComponentProviderBase
+#include "Zenject/AddToGameObjectComponentProviderBase.hpp"
+// Including type: Zenject.AddToGameObjectComponentProviderBase/Zenject.<>c__DisplayClass17_0
+#include "Zenject/AddToGameObjectComponentProviderBase_--c__DisplayClass17_0.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action`2
+#include "System/Action_2.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Type _componentType
+::System::Type*& Zenject::AddToGameObjectComponentProviderBase::dyn__componentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::dyn__componentType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_componentType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.DiContainer _container
+::Zenject::DiContainer*& Zenject::AddToGameObjectComponentProviderBase::dyn__container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::dyn__container");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_container"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
+::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::AddToGameObjectComponentProviderBase::dyn__extraArguments() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::dyn__extraArguments");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_extraArguments"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Object _concreteIdentifier
+::Il2CppObject*& Zenject::AddToGameObjectComponentProviderBase::dyn__concreteIdentifier() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::dyn__concreteIdentifier");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_concreteIdentifier"))->offset;
+  return *reinterpret_cast<::Il2CppObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
+::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& Zenject::AddToGameObjectComponentProviderBase::dyn__instantiateCallback() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::dyn__instantiateCallback");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_instantiateCallback"))->offset;
+  return *reinterpret_cast<::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.get_IsCached
+bool Zenject::AddToGameObjectComponentProviderBase::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.get_TypeVariesBasedOnMemberType
+bool Zenject::AddToGameObjectComponentProviderBase::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.get_Container
+::Zenject::DiContainer* Zenject::AddToGameObjectComponentProviderBase::get_Container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::get_Container");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Container", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.get_ComponentType
+::System::Type* Zenject::AddToGameObjectComponentProviderBase::get_ComponentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::get_ComponentType");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ComponentType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.get_ShouldToggleActive
+bool Zenject::AddToGameObjectComponentProviderBase::get_ShouldToggleActive() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::get_ShouldToggleActive");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ShouldToggleActive", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.GetInstanceType
+::System::Type* Zenject::AddToGameObjectComponentProviderBase::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.GetAllInstancesWithInjectSplit
+void Zenject::AddToGameObjectComponentProviderBase::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase.GetGameObject
+::UnityEngine::GameObject* Zenject::AddToGameObjectComponentProviderBase::GetGameObject(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::GetGameObject");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, context);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.AddToGameObjectComponentProviderBase/Zenject.<>c__DisplayClass17_0
+#include "Zenject/AddToGameObjectComponentProviderBase_--c__DisplayClass17_0.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.AddToGameObjectComponentProviderBase <>4__this
+::Zenject::AddToGameObjectComponentProviderBase*& Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_$$4__this() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_$$4__this");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
+  return *reinterpret_cast<::Zenject::AddToGameObjectComponentProviderBase**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_args() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_args");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "args"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Object instance
+::Il2CppObject*& Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_instance() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_instance");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "instance"))->offset;
+  return *reinterpret_cast<::Il2CppObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public Zenject.InjectContext context
+::Zenject::InjectContext*& Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_context() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_context");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "context"))->offset;
+  return *reinterpret_cast<::Zenject::InjectContext**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Boolean wasActive
+bool& Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_wasActive() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_wasActive");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "wasActive"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public UnityEngine.GameObject gameObj
+::UnityEngine::GameObject*& Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_gameObj() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::dyn_gameObj");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "gameObj"))->offset;
+  return *reinterpret_cast<::UnityEngine::GameObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase/Zenject.<>c__DisplayClass17_0.<GetAllInstancesWithInjectSplit>b__0
+void Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::$GetAllInstancesWithInjectSplit$b__0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::<GetAllInstancesWithInjectSplit>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetAllInstancesWithInjectSplit>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase/Zenject.<>c__DisplayClass17_0.__zenCreate
+::Il2CppObject* Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.AddToGameObjectComponentProviderBase/Zenject.<>c__DisplayClass17_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.AddToNewGameObjectComponentProvider
+#include "Zenject/AddToNewGameObjectComponentProvider.hpp"
+// Including type: Zenject.GameObjectCreationParameters
+#include "Zenject/GameObjectCreationParameters.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: System.Action`2
+#include "System/Action_2.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+::Zenject::GameObjectCreationParameters*& Zenject::AddToNewGameObjectComponentProvider::dyn__gameObjectBindInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToNewGameObjectComponentProvider::dyn__gameObjectBindInfo");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_gameObjectBindInfo"))->offset;
+  return *reinterpret_cast<::Zenject::GameObjectCreationParameters**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.AddToNewGameObjectComponentProvider.get_ShouldToggleActive
+bool Zenject::AddToNewGameObjectComponentProvider::get_ShouldToggleActive() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToNewGameObjectComponentProvider::get_ShouldToggleActive");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ShouldToggleActive", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.AddToNewGameObjectComponentProvider.GetGameObject
+::UnityEngine::GameObject* Zenject::AddToNewGameObjectComponentProvider::GetGameObject(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToNewGameObjectComponentProvider::GetGameObject");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetGameObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal__method, context);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GetFromGameObjectComponentProvider
+#include "Zenject/GetFromGameObjectComponentProvider.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly UnityEngine.GameObject _gameObject
+::UnityEngine::GameObject*& Zenject::GetFromGameObjectComponentProvider::dyn__gameObject() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::dyn__gameObject");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_gameObject"))->offset;
+  return *reinterpret_cast<::UnityEngine::GameObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Type _componentType
+::System::Type*& Zenject::GetFromGameObjectComponentProvider::dyn__componentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::dyn__componentType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_componentType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Boolean _matchSingle
+bool& Zenject::GetFromGameObjectComponentProvider::dyn__matchSingle() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::dyn__matchSingle");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_matchSingle"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.GetFromGameObjectComponentProvider.get_IsCached
+bool Zenject::GetFromGameObjectComponentProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GetFromGameObjectComponentProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::GetFromGameObjectComponentProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GetFromGameObjectComponentProvider.GetInstanceType
+::System::Type* Zenject::GetFromGameObjectComponentProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.GetFromGameObjectComponentProvider.GetAllInstancesWithInjectSplit
+void Zenject::GetFromGameObjectComponentProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectComponentProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GetFromGameObjectGetterComponentProvider
+#include "Zenject/GetFromGameObjectGetterComponentProvider.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
+::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*& Zenject::GetFromGameObjectGetterComponentProvider::dyn__gameObjectGetter() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::dyn__gameObjectGetter");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_gameObjectGetter"))->offset;
+  return *reinterpret_cast<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Type _componentType
+::System::Type*& Zenject::GetFromGameObjectGetterComponentProvider::dyn__componentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::dyn__componentType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_componentType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Boolean _matchSingle
+bool& Zenject::GetFromGameObjectGetterComponentProvider::dyn__matchSingle() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::dyn__matchSingle");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_matchSingle"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.GetFromGameObjectGetterComponentProvider.get_IsCached
+bool Zenject::GetFromGameObjectGetterComponentProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GetFromGameObjectGetterComponentProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::GetFromGameObjectGetterComponentProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GetFromGameObjectGetterComponentProvider.GetInstanceType
+::System::Type* Zenject::GetFromGameObjectGetterComponentProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.GetFromGameObjectGetterComponentProvider.GetAllInstancesWithInjectSplit
+void Zenject::GetFromGameObjectGetterComponentProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GetFromPrefabComponentProvider
+#include "Zenject/GetFromPrefabComponentProvider.hpp"
+// Including type: Zenject.IPrefabInstantiator
+#include "Zenject/IPrefabInstantiator.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.IPrefabInstantiator _prefabInstantiator
+::Zenject::IPrefabInstantiator*& Zenject::GetFromPrefabComponentProvider::dyn__prefabInstantiator() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::dyn__prefabInstantiator");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_prefabInstantiator"))->offset;
+  return *reinterpret_cast<::Zenject::IPrefabInstantiator**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Type _componentType
+::System::Type*& Zenject::GetFromPrefabComponentProvider::dyn__componentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::dyn__componentType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_componentType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Boolean _matchSingle
+bool& Zenject::GetFromPrefabComponentProvider::dyn__matchSingle() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::dyn__matchSingle");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_matchSingle"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.GetFromPrefabComponentProvider.get_IsCached
+bool Zenject::GetFromPrefabComponentProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GetFromPrefabComponentProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::GetFromPrefabComponentProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GetFromPrefabComponentProvider.GetInstanceType
+::System::Type* Zenject::GetFromPrefabComponentProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.GetFromPrefabComponentProvider.GetAllInstancesWithInjectSplit
+void Zenject::GetFromPrefabComponentProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.InstantiateOnPrefabComponentProvider
+#include "Zenject/InstantiateOnPrefabComponentProvider.hpp"
+// Including type: Zenject.IPrefabInstantiator
+#include "Zenject/IPrefabInstantiator.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.IPrefabInstantiator _prefabInstantiator
+::Zenject::IPrefabInstantiator*& Zenject::InstantiateOnPrefabComponentProvider::dyn__prefabInstantiator() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstantiateOnPrefabComponentProvider::dyn__prefabInstantiator");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_prefabInstantiator"))->offset;
+  return *reinterpret_cast<::Zenject::IPrefabInstantiator**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Type _componentType
+::System::Type*& Zenject::InstantiateOnPrefabComponentProvider::dyn__componentType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstantiateOnPrefabComponentProvider::dyn__componentType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_componentType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.InstantiateOnPrefabComponentProvider.get_IsCached
+bool Zenject::InstantiateOnPrefabComponentProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstantiateOnPrefabComponentProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.InstantiateOnPrefabComponentProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::InstantiateOnPrefabComponentProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstantiateOnPrefabComponentProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.InstantiateOnPrefabComponentProvider.GetInstanceType
+::System::Type* Zenject::InstantiateOnPrefabComponentProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstantiateOnPrefabComponentProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.InstantiateOnPrefabComponentProvider.GetAllInstancesWithInjectSplit
+void Zenject::InstantiateOnPrefabComponentProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstantiateOnPrefabComponentProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.EmptyGameObjectProvider
+#include "Zenject/EmptyGameObjectProvider.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.GameObjectCreationParameters
+#include "Zenject/GameObjectCreationParameters.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.DiContainer _container
+::Zenject::DiContainer*& Zenject::EmptyGameObjectProvider::dyn__container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::EmptyGameObjectProvider::dyn__container");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_container"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+::Zenject::GameObjectCreationParameters*& Zenject::EmptyGameObjectProvider::dyn__gameObjectBindInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::EmptyGameObjectProvider::dyn__gameObjectBindInfo");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_gameObjectBindInfo"))->offset;
+  return *reinterpret_cast<::Zenject::GameObjectCreationParameters**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.EmptyGameObjectProvider.get_IsCached
+bool Zenject::EmptyGameObjectProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::EmptyGameObjectProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.EmptyGameObjectProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::EmptyGameObjectProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::EmptyGameObjectProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.EmptyGameObjectProvider.GetInstanceType
+::System::Type* Zenject::EmptyGameObjectProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::EmptyGameObjectProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.EmptyGameObjectProvider.GetAllInstancesWithInjectSplit
+void Zenject::EmptyGameObjectProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::EmptyGameObjectProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.PrefabGameObjectProvider
+#include "Zenject/PrefabGameObjectProvider.hpp"
+// Including type: Zenject.IPrefabInstantiator
+#include "Zenject/IPrefabInstantiator.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.IPrefabInstantiator _prefabCreator
+::Zenject::IPrefabInstantiator*& Zenject::PrefabGameObjectProvider::dyn__prefabCreator() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabGameObjectProvider::dyn__prefabCreator");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_prefabCreator"))->offset;
+  return *reinterpret_cast<::Zenject::IPrefabInstantiator**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.PrefabGameObjectProvider.get_IsCached
+bool Zenject::PrefabGameObjectProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabGameObjectProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.PrefabGameObjectProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.PrefabGameObjectProvider.GetInstanceType
+::System::Type* Zenject::PrefabGameObjectProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabGameObjectProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.PrefabGameObjectProvider.GetAllInstancesWithInjectSplit
+void Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.IProvider
+#include "Zenject/IProvider.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.IProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::IProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.IProvider.get_IsCached
+bool Zenject::IProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.IProvider.GetInstanceType
+::System::Type* Zenject::IProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.IProvider.GetAllInstancesWithInjectSplit
+void Zenject::IProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* instances) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(instances)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), instances);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.IProviderExtensions
+#include "Zenject/IProviderExtensions.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: Zenject.IProvider
+#include "Zenject/IProvider.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> EmptyArgList
+::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Zenject::IProviderExtensions::_get_EmptyArgList() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::_get_EmptyArgList");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>("Zenject", "IProviderExtensions", "EmptyArgList"));
+}
+// Autogenerated static field setter
+// Set static field: static private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> EmptyArgList
+void Zenject::IProviderExtensions::_set_EmptyArgList(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::_set_EmptyArgList");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "IProviderExtensions", "EmptyArgList", value));
+}
+// Autogenerated method: Zenject.IProviderExtensions..cctor
+void Zenject::IProviderExtensions::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.IProviderExtensions.GetAllInstancesWithInjectSplit
+void Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(creator), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, creator, context, byref(injectAction), buffer);
+}
+// Autogenerated method: Zenject.IProviderExtensions.GetAllInstances
+void Zenject::IProviderExtensions::GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::GetAllInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", "GetAllInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(creator), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, creator, context, buffer);
+}
+// Autogenerated method: Zenject.IProviderExtensions.GetAllInstances
+void Zenject::IProviderExtensions::GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::GetAllInstances");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", "GetAllInstances", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(creator), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, creator, context, args, buffer);
+}
+// Autogenerated method: Zenject.IProviderExtensions.TryGetInstance
+::Il2CppObject* Zenject::IProviderExtensions::TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::TryGetInstance");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", "TryGetInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(creator), ::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, creator, context);
+}
+// Autogenerated method: Zenject.IProviderExtensions.TryGetInstance
+::Il2CppObject* Zenject::IProviderExtensions::TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::TryGetInstance");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", "TryGetInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(creator), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, creator, context, args);
+}
+// Autogenerated method: Zenject.IProviderExtensions.GetInstance
+::Il2CppObject* Zenject::IProviderExtensions::GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::GetInstance");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", "GetInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(creator), ::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, creator, context);
+}
+// Autogenerated method: Zenject.IProviderExtensions.GetInstance
+::Il2CppObject* Zenject::IProviderExtensions::GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IProviderExtensions::GetInstance");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "IProviderExtensions", "GetInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(creator), ::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, creator, context, args);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.InstanceProvider
+#include "Zenject/InstanceProvider.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Object _instance
+::Il2CppObject*& Zenject::InstanceProvider::dyn__instance() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::dyn__instance");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_instance"))->offset;
+  return *reinterpret_cast<::Il2CppObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Type _instanceType
+::System::Type*& Zenject::InstanceProvider::dyn__instanceType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::dyn__instanceType");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_instanceType"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.DiContainer _container
+::Zenject::DiContainer*& Zenject::InstanceProvider::dyn__container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::dyn__container");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_container"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.InstanceProvider.get_IsCached
+bool Zenject::InstanceProvider::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.InstanceProvider.get_TypeVariesBasedOnMemberType
+bool Zenject::InstanceProvider::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.InstanceProvider.GetInstanceType
+::System::Type* Zenject::InstanceProvider::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.InstanceProvider.GetAllInstancesWithInjectSplit
+void Zenject::InstanceProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated method: Zenject.InstanceProvider.<GetAllInstancesWithInjectSplit>b__9_0
+void Zenject::InstanceProvider::$GetAllInstancesWithInjectSplit$b__9_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InstanceProvider::<GetAllInstancesWithInjectSplit>b__9_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetAllInstancesWithInjectSplit>b__9_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.MethodMultipleProviderUntyped
+#include "Zenject/MethodMultipleProviderUntyped.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: Zenject.InjectContext
+#include "Zenject/InjectContext.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Action
+#include "System/Action.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.DiContainer _container
+::Zenject::DiContainer*& Zenject::MethodMultipleProviderUntyped::dyn__container() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodMultipleProviderUntyped::dyn__container");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_container"))->offset;
+  return *reinterpret_cast<::Zenject::DiContainer**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<System.Object>> _method
+::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>*& Zenject::MethodMultipleProviderUntyped::dyn__method() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodMultipleProviderUntyped::dyn__method");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_method"))->offset;
+  return *reinterpret_cast<::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.MethodMultipleProviderUntyped.get_IsCached
+bool Zenject::MethodMultipleProviderUntyped::get_IsCached() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodMultipleProviderUntyped::get_IsCached");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MethodMultipleProviderUntyped.get_TypeVariesBasedOnMemberType
+bool Zenject::MethodMultipleProviderUntyped::get_TypeVariesBasedOnMemberType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodMultipleProviderUntyped::get_TypeVariesBasedOnMemberType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MethodMultipleProviderUntyped.GetInstanceType
+::System::Type* Zenject::MethodMultipleProviderUntyped::GetInstanceType(::Zenject::InjectContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodMultipleProviderUntyped::GetInstanceType");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.MethodMultipleProviderUntyped.GetAllInstancesWithInjectSplit
+void Zenject::MethodMultipleProviderUntyped::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodMultipleProviderUntyped::GetAllInstancesWithInjectSplit");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<::System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MethodProviderUntyped
 #include "Zenject/MethodProviderUntyped.hpp"
 // Including type: Zenject.DiContainer
@@ -2563,5 +6093,3030 @@ bool Zenject::DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2(::ModestTree:
 ::Zenject::InjectTypeInfo* Zenject::DisposableManager::$$c__DisplayClass4_1::__zenCreateInjectTypeInfo() {
   static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass4_1::__zenCreateInjectTypeInfo");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposableManager/<>c__DisplayClass4_1", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DisposableManager/Zenject.<>c
+#include "Zenject/DisposableManager_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: Zenject.DisposableManager/Zenject.LateDisposableInfo
+#include "Zenject/DisposableManager_LateDisposableInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.DisposableManager/Zenject.<>c <>9
+::Zenject::DisposableManager::$$c* Zenject::DisposableManager::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::DisposableManager::$$c*>("Zenject", "DisposableManager/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.DisposableManager/Zenject.<>c <>9
+void Zenject::DisposableManager::$$c::_set_$$9(::Zenject::DisposableManager::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DisposableManager/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__4_1
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* Zenject::DisposableManager::$$c::_get_$$9__4_1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_get_$$9__4_1");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>*>("Zenject", "DisposableManager/<>c", "<>9__4_1")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__4_1
+void Zenject::DisposableManager::$$c::_set_$$9__4_1(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_set_$$9__4_1");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DisposableManager/<>c", "<>9__4_1", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__4_3
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* Zenject::DisposableManager::$$c::_get_$$9__4_3() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_get_$$9__4_3");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>*>("Zenject", "DisposableManager/<>c", "<>9__4_3")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__4_3
+void Zenject::DisposableManager::$$c::_set_$$9__4_3(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_set_$$9__4_3");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DisposableManager/<>c", "<>9__4_3", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.DisposableManager/Zenject.LateDisposableInfo,System.Int32> <>9__10_0
+::System::Func_2<::Zenject::DisposableManager::LateDisposableInfo*, int>* Zenject::DisposableManager::$$c::_get_$$9__10_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_get_$$9__10_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::DisposableManager::LateDisposableInfo*, int>*>("Zenject", "DisposableManager/<>c", "<>9__10_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.DisposableManager/Zenject.LateDisposableInfo,System.Int32> <>9__10_0
+void Zenject::DisposableManager::$$c::_set_$$9__10_0(::System::Func_2<::Zenject::DisposableManager::LateDisposableInfo*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_set_$$9__10_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DisposableManager/<>c", "<>9__10_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.DisposableManager/Zenject.DisposableInfo,System.Int32> <>9__11_0
+::System::Func_2<::Zenject::DisposableManager::DisposableInfo, int>* Zenject::DisposableManager::$$c::_get_$$9__11_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_get_$$9__11_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::DisposableManager::DisposableInfo, int>*>("Zenject", "DisposableManager/<>c", "<>9__11_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.DisposableManager/Zenject.DisposableInfo,System.Int32> <>9__11_0
+void Zenject::DisposableManager::$$c::_set_$$9__11_0(::System::Func_2<::Zenject::DisposableManager::DisposableInfo, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::_set_$$9__11_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "DisposableManager/<>c", "<>9__11_0", value)));
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c..cctor
+void Zenject::DisposableManager::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposableManager/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c.<.ctor>b__4_1
+::System::Nullable_1<int> Zenject::DisposableManager::$$c::$_ctor$b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::<.ctor>b__4_1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__4_1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Nullable_1<int>, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c.<.ctor>b__4_3
+::System::Nullable_1<int> Zenject::DisposableManager::$$c::$_ctor$b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::<.ctor>b__4_3");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__4_3", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Nullable_1<int>, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c.<LateDispose>b__10_0
+int Zenject::DisposableManager::$$c::$LateDispose$b__10_0(::Zenject::DisposableManager::LateDisposableInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::<LateDispose>b__10_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<LateDispose>b__10_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c.<Dispose>b__11_0
+int Zenject::DisposableManager::$$c::$Dispose$b__11_0(::Zenject::DisposableManager::DisposableInfo x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::<Dispose>b__11_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Dispose>b__11_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::DisposableManager::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposableManager/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::DisposableManager::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposableManager/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DisposableManager/Zenject.<>c__DisplayClass9_0
+#include "Zenject/DisposableManager_--c__DisplayClass9_0.hpp"
+// Including type: System.IDisposable
+#include "System/IDisposable.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: Zenject.DisposableManager/Zenject.DisposableInfo
+#include "Zenject/DisposableManager.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public System.IDisposable disposable
+::System::IDisposable*& Zenject::DisposableManager::$$c__DisplayClass9_0::dyn_disposable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass9_0::dyn_disposable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "disposable"))->offset;
+  return *reinterpret_cast<::System::IDisposable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c__DisplayClass9_0.<Remove>b__0
+bool Zenject::DisposableManager::$$c__DisplayClass9_0::$Remove$b__0(::Zenject::DisposableManager::DisposableInfo x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass9_0::<Remove>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Remove>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c__DisplayClass9_0.__zenCreate
+::Il2CppObject* Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposableManager/<>c__DisplayClass9_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.DisposableManager/Zenject.<>c__DisplayClass9_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposableManager/<>c__DisplayClass9_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GuiRenderableManager
+#include "Zenject/GuiRenderableManager.hpp"
+// Including type: Zenject.GuiRenderableManager/Zenject.RenderableInfo
+#include "Zenject/GuiRenderableManager_RenderableInfo.hpp"
+// Including type: Zenject.GuiRenderableManager/Zenject.<>c__DisplayClass1_0
+#include "Zenject/GuiRenderableManager_--c__DisplayClass1_0.hpp"
+// Including type: Zenject.GuiRenderableManager/Zenject.<>c
+#include "Zenject/GuiRenderableManager_--c.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: Zenject.IGuiRenderable
+#include "Zenject/IGuiRenderable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
+::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*& Zenject::GuiRenderableManager::dyn__renderables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::dyn__renderables");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_renderables"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.GuiRenderableManager.OnGui
+void Zenject::GuiRenderableManager::OnGui() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::OnGui");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnGui", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GuiRenderableManager.__zenCreate
+::Il2CppObject* Zenject::GuiRenderableManager::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.GuiRenderableManager.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::GuiRenderableManager::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GuiRenderableManager/Zenject.RenderableInfo
+#include "Zenject/GuiRenderableManager_RenderableInfo.hpp"
+// Including type: Zenject.IGuiRenderable
+#include "Zenject/IGuiRenderable.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.IGuiRenderable Renderable
+::Zenject::IGuiRenderable*& Zenject::GuiRenderableManager::RenderableInfo::dyn_Renderable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::RenderableInfo::dyn_Renderable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Renderable"))->offset;
+  return *reinterpret_cast<::Zenject::IGuiRenderable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 Priority
+int& Zenject::GuiRenderableManager::RenderableInfo::dyn_Priority() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::RenderableInfo::dyn_Priority");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Priority"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.RenderableInfo.__zenCreate
+::Il2CppObject* Zenject::GuiRenderableManager::RenderableInfo::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::RenderableInfo::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager/RenderableInfo", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.RenderableInfo.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::GuiRenderableManager::RenderableInfo::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::RenderableInfo::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager/RenderableInfo", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GuiRenderableManager/Zenject.<>c__DisplayClass1_0
+#include "Zenject/GuiRenderableManager_--c__DisplayClass1_0.hpp"
+// Including type: Zenject.IGuiRenderable
+#include "Zenject/IGuiRenderable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.IGuiRenderable renderable
+::Zenject::IGuiRenderable*& Zenject::GuiRenderableManager::$$c__DisplayClass1_0::dyn_renderable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c__DisplayClass1_0::dyn_renderable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "renderable"))->offset;
+  return *reinterpret_cast<::Zenject::IGuiRenderable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c__DisplayClass1_0.<.ctor>b__1
+bool Zenject::GuiRenderableManager::$$c__DisplayClass1_0::$_ctor$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c__DisplayClass1_0::<.ctor>b__1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c__DisplayClass1_0.__zenCreate
+::Il2CppObject* Zenject::GuiRenderableManager::$$c__DisplayClass1_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c__DisplayClass1_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager/<>c__DisplayClass1_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c__DisplayClass1_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::GuiRenderableManager::$$c__DisplayClass1_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c__DisplayClass1_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager/<>c__DisplayClass1_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GuiRenderableManager/Zenject.<>c
+#include "Zenject/GuiRenderableManager_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: Zenject.GuiRenderableManager/Zenject.RenderableInfo
+#include "Zenject/GuiRenderableManager_RenderableInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.GuiRenderableManager/Zenject.<>c <>9
+::Zenject::GuiRenderableManager::$$c* Zenject::GuiRenderableManager::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::GuiRenderableManager::$$c*>("Zenject", "GuiRenderableManager/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.GuiRenderableManager/Zenject.<>c <>9
+void Zenject::GuiRenderableManager::$$c::_set_$$9(::Zenject::GuiRenderableManager::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "GuiRenderableManager/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__1_2
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* Zenject::GuiRenderableManager::$$c::_get_$$9__1_2() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::_get_$$9__1_2");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>*>("Zenject", "GuiRenderableManager/<>c", "<>9__1_2")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__1_2
+void Zenject::GuiRenderableManager::$$c::_set_$$9__1_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::_set_$$9__1_2");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "GuiRenderableManager/<>c", "<>9__1_2", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.GuiRenderableManager/Zenject.RenderableInfo,System.Int32> <>9__1_0
+::System::Func_2<::Zenject::GuiRenderableManager::RenderableInfo*, int>* Zenject::GuiRenderableManager::$$c::_get_$$9__1_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::_get_$$9__1_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::GuiRenderableManager::RenderableInfo*, int>*>("Zenject", "GuiRenderableManager/<>c", "<>9__1_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.GuiRenderableManager/Zenject.RenderableInfo,System.Int32> <>9__1_0
+void Zenject::GuiRenderableManager::$$c::_set_$$9__1_0(::System::Func_2<::Zenject::GuiRenderableManager::RenderableInfo*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::_set_$$9__1_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "GuiRenderableManager/<>c", "<>9__1_0", value)));
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c..cctor
+void Zenject::GuiRenderableManager::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c.<.ctor>b__1_2
+int Zenject::GuiRenderableManager::$$c::$_ctor$b__1_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::<.ctor>b__1_2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__1_2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c.<.ctor>b__1_0
+int Zenject::GuiRenderableManager::$$c::$_ctor$b__1_0(::Zenject::GuiRenderableManager::RenderableInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::<.ctor>b__1_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__1_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::GuiRenderableManager::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.GuiRenderableManager/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::GuiRenderableManager::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderableManager/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.GuiRenderer
+#include "Zenject/GuiRenderer.hpp"
+// Including type: Zenject.GuiRenderableManager
+#include "Zenject/GuiRenderableManager.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private Zenject.GuiRenderableManager _renderableManager
+::Zenject::GuiRenderableManager*& Zenject::GuiRenderer::dyn__renderableManager() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderer::dyn__renderableManager");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_renderableManager"))->offset;
+  return *reinterpret_cast<::Zenject::GuiRenderableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.GuiRenderer.Construct
+void Zenject::GuiRenderer::Construct(::Zenject::GuiRenderableManager* renderableManager) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderer::Construct");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Construct", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(renderableManager)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, renderableManager);
+}
+// Autogenerated method: Zenject.GuiRenderer.OnGUI
+void Zenject::GuiRenderer::OnGUI() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderer::OnGUI");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnGUI", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.GuiRenderer.__zenInjectMethod0
+void Zenject::GuiRenderer::__zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderer::__zenInjectMethod0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderer", "__zenInjectMethod0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.GuiRenderer.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::GuiRenderer::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderer::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "GuiRenderer", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.InitializableManager
+#include "Zenject/InitializableManager.hpp"
+// Including type: Zenject.InitializableManager/Zenject.InitializableInfo
+#include "Zenject/InitializableManager_InitializableInfo.hpp"
+// Including type: Zenject.InitializableManager/Zenject.<>c__DisplayClass2_0
+#include "Zenject/InitializableManager_--c__DisplayClass2_0.hpp"
+// Including type: Zenject.InitializableManager/Zenject.<>c
+#include "Zenject/InitializableManager_--c.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: Zenject.IInitializable
+#include "Zenject/IInitializable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private System.Collections.Generic.List`1<Zenject.InitializableManager/Zenject.InitializableInfo> _initializables
+::System::Collections::Generic::List_1<::Zenject::InitializableManager::InitializableInfo*>*& Zenject::InitializableManager::dyn__initializables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::dyn__initializables");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_initializables"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::InitializableManager::InitializableInfo*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _hasInitialized
+bool& Zenject::InitializableManager::dyn__hasInitialized() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::dyn__hasInitialized");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_hasInitialized"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.InitializableManager.Add
+void Zenject::InitializableManager::Add(::Zenject::IInitializable* initializable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::Add");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, initializable);
+}
+// Autogenerated method: Zenject.InitializableManager.Add
+void Zenject::InitializableManager::Add(::Zenject::IInitializable* initializable, int priority) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::Add");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializable), ::il2cpp_utils::ExtractType(priority)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, initializable, priority);
+}
+// Autogenerated method: Zenject.InitializableManager.Initialize
+void Zenject::InitializableManager::Initialize() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::Initialize");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.InitializableManager.__zenCreate
+::Il2CppObject* Zenject::InitializableManager::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.InitializableManager.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::InitializableManager::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.InitializableManager/Zenject.InitializableInfo
+#include "Zenject/InitializableManager_InitializableInfo.hpp"
+// Including type: Zenject.IInitializable
+#include "Zenject/IInitializable.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.IInitializable Initializable
+::Zenject::IInitializable*& Zenject::InitializableManager::InitializableInfo::dyn_Initializable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::InitializableInfo::dyn_Initializable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Initializable"))->offset;
+  return *reinterpret_cast<::Zenject::IInitializable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 Priority
+int& Zenject::InitializableManager::InitializableInfo::dyn_Priority() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::InitializableInfo::dyn_Priority");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Priority"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.InitializableInfo.__zenCreate
+::Il2CppObject* Zenject::InitializableManager::InitializableInfo::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::InitializableInfo::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager/InitializableInfo", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.InitializableInfo.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::InitializableManager::InitializableInfo::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::InitializableInfo::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager/InitializableInfo", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.InitializableManager/Zenject.<>c__DisplayClass2_0
+#include "Zenject/InitializableManager_--c__DisplayClass2_0.hpp"
+// Including type: Zenject.IInitializable
+#include "Zenject/IInitializable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.IInitializable initializable
+::Zenject::IInitializable*& Zenject::InitializableManager::$$c__DisplayClass2_0::dyn_initializable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c__DisplayClass2_0::dyn_initializable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "initializable"))->offset;
+  return *reinterpret_cast<::Zenject::IInitializable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c__DisplayClass2_0.<.ctor>b__0
+bool Zenject::InitializableManager::$$c__DisplayClass2_0::$_ctor$b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c__DisplayClass2_0::<.ctor>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c__DisplayClass2_0.__zenCreate
+::Il2CppObject* Zenject::InitializableManager::$$c__DisplayClass2_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c__DisplayClass2_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager/<>c__DisplayClass2_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c__DisplayClass2_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::InitializableManager::$$c__DisplayClass2_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c__DisplayClass2_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager/<>c__DisplayClass2_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.InitializableManager/Zenject.<>c
+#include "Zenject/InitializableManager_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: Zenject.InitializableManager/Zenject.InitializableInfo
+#include "Zenject/InitializableManager_InitializableInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.InitializableManager/Zenject.<>c <>9
+::Zenject::InitializableManager::$$c* Zenject::InitializableManager::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::InitializableManager::$$c*>("Zenject", "InitializableManager/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.InitializableManager/Zenject.<>c <>9
+void Zenject::InitializableManager::$$c::_set_$$9(::Zenject::InitializableManager::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "InitializableManager/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__2_1
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* Zenject::InitializableManager::$$c::_get_$$9__2_1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::_get_$$9__2_1");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>*>("Zenject", "InitializableManager/<>c", "<>9__2_1")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__2_1
+void Zenject::InitializableManager::$$c::_set_$$9__2_1(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::_set_$$9__2_1");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "InitializableManager/<>c", "<>9__2_1", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.InitializableManager/Zenject.InitializableInfo,System.Int32> <>9__5_0
+::System::Func_2<::Zenject::InitializableManager::InitializableInfo*, int>* Zenject::InitializableManager::$$c::_get_$$9__5_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::_get_$$9__5_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::InitializableManager::InitializableInfo*, int>*>("Zenject", "InitializableManager/<>c", "<>9__5_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.InitializableManager/Zenject.InitializableInfo,System.Int32> <>9__5_0
+void Zenject::InitializableManager::$$c::_set_$$9__5_0(::System::Func_2<::Zenject::InitializableManager::InitializableInfo*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::_set_$$9__5_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "InitializableManager/<>c", "<>9__5_0", value)));
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c..cctor
+void Zenject::InitializableManager::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c.<.ctor>b__2_1
+int Zenject::InitializableManager::$$c::$_ctor$b__2_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::<.ctor>b__2_1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__2_1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c.<Initialize>b__5_0
+int Zenject::InitializableManager::$$c::$Initialize$b__5_0(::Zenject::InitializableManager::InitializableInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::<Initialize>b__5_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Initialize>b__5_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::InitializableManager::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.InitializableManager/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::InitializableManager::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "InitializableManager/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.DefaultGameObjectKernel
+#include "Zenject/DefaultGameObjectKernel.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.DefaultGameObjectKernel.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::DefaultGameObjectKernel::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectKernel::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DefaultGameObjectKernel", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.Kernel
+#include "Zenject/Kernel.hpp"
+// Including type: Zenject.TickableManager
+#include "Zenject/TickableManager.hpp"
+// Including type: Zenject.InitializableManager
+#include "Zenject/InitializableManager.hpp"
+// Including type: Zenject.DisposableManager
+#include "Zenject/DisposableManager.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private Zenject.TickableManager _tickableManager
+::Zenject::TickableManager*& Zenject::Kernel::dyn__tickableManager() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::dyn__tickableManager");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_tickableManager"))->offset;
+  return *reinterpret_cast<::Zenject::TickableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.InitializableManager _initializableManager
+::Zenject::InitializableManager*& Zenject::Kernel::dyn__initializableManager() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::dyn__initializableManager");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_initializableManager"))->offset;
+  return *reinterpret_cast<::Zenject::InitializableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.DisposableManager _disposablesManager
+::Zenject::DisposableManager*& Zenject::Kernel::dyn__disposablesManager() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::dyn__disposablesManager");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_disposablesManager"))->offset;
+  return *reinterpret_cast<::Zenject::DisposableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.Kernel.Initialize
+void Zenject::Kernel::Initialize() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::Initialize");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.Kernel.Dispose
+void Zenject::Kernel::Dispose() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::Dispose");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.Kernel.LateDispose
+void Zenject::Kernel::LateDispose() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::LateDispose");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LateDispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.Kernel.Tick
+void Zenject::Kernel::Tick() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::Tick");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Tick", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.Kernel.LateTick
+void Zenject::Kernel::LateTick() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::LateTick");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LateTick", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.Kernel.FixedTick
+void Zenject::Kernel::FixedTick() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::FixedTick");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FixedTick", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.Kernel.__zenCreate
+::Il2CppObject* Zenject::Kernel::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "Kernel", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.Kernel.__zenFieldSetter0
+void Zenject::Kernel::__zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::__zenFieldSetter0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "Kernel", "__zenFieldSetter0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.Kernel.__zenFieldSetter1
+void Zenject::Kernel::__zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::__zenFieldSetter1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "Kernel", "__zenFieldSetter1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.Kernel.__zenFieldSetter2
+void Zenject::Kernel::__zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::__zenFieldSetter2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "Kernel", "__zenFieldSetter2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.Kernel.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::Kernel::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "Kernel", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.MonoKernel
+#include "Zenject/MonoKernel.hpp"
+// Including type: Zenject.TickableManager
+#include "Zenject/TickableManager.hpp"
+// Including type: Zenject.InitializableManager
+#include "Zenject/InitializableManager.hpp"
+// Including type: Zenject.DisposableManager
+#include "Zenject/DisposableManager.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private Zenject.TickableManager _tickableManager
+::Zenject::TickableManager*& Zenject::MonoKernel::dyn__tickableManager() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::dyn__tickableManager");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_tickableManager"))->offset;
+  return *reinterpret_cast<::Zenject::TickableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.InitializableManager _initializableManager
+::Zenject::InitializableManager*& Zenject::MonoKernel::dyn__initializableManager() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::dyn__initializableManager");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_initializableManager"))->offset;
+  return *reinterpret_cast<::Zenject::InitializableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.DisposableManager _disposablesManager
+::Zenject::DisposableManager*& Zenject::MonoKernel::dyn__disposablesManager() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::dyn__disposablesManager");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_disposablesManager"))->offset;
+  return *reinterpret_cast<::Zenject::DisposableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _hasInitialized
+bool& Zenject::MonoKernel::dyn__hasInitialized() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::dyn__hasInitialized");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_hasInitialized"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _isDestroyed
+bool& Zenject::MonoKernel::dyn__isDestroyed() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::dyn__isDestroyed");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isDestroyed"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.MonoKernel.get_IsDestroyed
+bool Zenject::MonoKernel::get_IsDestroyed() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::get_IsDestroyed");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsDestroyed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MonoKernel.Start
+void Zenject::MonoKernel::Start() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::Start");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MonoKernel.Initialize
+void Zenject::MonoKernel::Initialize() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::Initialize");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MonoKernel.Update
+void Zenject::MonoKernel::Update() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::Update");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MonoKernel.FixedUpdate
+void Zenject::MonoKernel::FixedUpdate() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::FixedUpdate");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FixedUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MonoKernel.LateUpdate
+void Zenject::MonoKernel::LateUpdate() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::LateUpdate");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LateUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MonoKernel.OnDestroy
+void Zenject::MonoKernel::OnDestroy() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::OnDestroy");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.MonoKernel.__zenFieldSetter0
+void Zenject::MonoKernel::__zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::__zenFieldSetter0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoKernel", "__zenFieldSetter0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.MonoKernel.__zenFieldSetter1
+void Zenject::MonoKernel::__zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::__zenFieldSetter1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoKernel", "__zenFieldSetter1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.MonoKernel.__zenFieldSetter2
+void Zenject::MonoKernel::__zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::__zenFieldSetter2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoKernel", "__zenFieldSetter2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.MonoKernel.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::MonoKernel::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoKernel", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ProjectKernel
+#include "Zenject/ProjectKernel.hpp"
+// Including type: Zenject.ProjectKernel/Zenject.<>c__DisplayClass4_0
+#include "Zenject/ProjectKernel_--c__DisplayClass4_0.hpp"
+// Including type: Zenject.ZenjectSettings
+#include "Zenject/ZenjectSettings.hpp"
+// Including type: Zenject.SceneContextRegistry
+#include "Zenject/SceneContextRegistry.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private Zenject.ZenjectSettings _settings
+::Zenject::ZenjectSettings*& Zenject::ProjectKernel::dyn__settings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::dyn__settings");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_settings"))->offset;
+  return *reinterpret_cast<::Zenject::ZenjectSettings**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private Zenject.SceneContextRegistry _contextRegistry
+::Zenject::SceneContextRegistry*& Zenject::ProjectKernel::dyn__contextRegistry() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::dyn__contextRegistry");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_contextRegistry"))->offset;
+  return *reinterpret_cast<::Zenject::SceneContextRegistry**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.ProjectKernel.OnApplicationQuit
+void Zenject::ProjectKernel::OnApplicationQuit() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::OnApplicationQuit");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnApplicationQuit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ProjectKernel.DestroyEverythingInOrder
+void Zenject::ProjectKernel::DestroyEverythingInOrder() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::DestroyEverythingInOrder");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DestroyEverythingInOrder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ProjectKernel.ForceUnloadAllScenes
+void Zenject::ProjectKernel::ForceUnloadAllScenes(bool immediate) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::ForceUnloadAllScenes");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ForceUnloadAllScenes", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(immediate)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, immediate);
+}
+// Autogenerated method: Zenject.ProjectKernel.__zenFieldSetter0
+void Zenject::ProjectKernel::__zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::__zenFieldSetter0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProjectKernel", "__zenFieldSetter0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.ProjectKernel.__zenFieldSetter1
+void Zenject::ProjectKernel::__zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::__zenFieldSetter1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProjectKernel", "__zenFieldSetter1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.ProjectKernel.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::ProjectKernel::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProjectKernel", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ProjectKernel/Zenject.<>c__DisplayClass4_0
+#include "Zenject/ProjectKernel_--c__DisplayClass4_0.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: Zenject.SceneContext
+#include "Zenject/SceneContext.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
+::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*& Zenject::ProjectKernel::$$c__DisplayClass4_0::dyn_sceneOrder() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::$$c__DisplayClass4_0::dyn_sceneOrder");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "sceneOrder"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0
+::System::Func_2<::Zenject::SceneContext*, int>*& Zenject::ProjectKernel::$$c__DisplayClass4_0::dyn_$$9__0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::$$c__DisplayClass4_0::dyn_$$9__0");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>9__0"))->offset;
+  return *reinterpret_cast<::System::Func_2<::Zenject::SceneContext*, int>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.ProjectKernel/Zenject.<>c__DisplayClass4_0.<ForceUnloadAllScenes>b__0
+int Zenject::ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0(::Zenject::SceneContext* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::$$c__DisplayClass4_0::<ForceUnloadAllScenes>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ForceUnloadAllScenes>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.ProjectKernel/Zenject.<>c__DisplayClass4_0.__zenCreate
+::Il2CppObject* Zenject::ProjectKernel::$$c__DisplayClass4_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::$$c__DisplayClass4_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProjectKernel/<>c__DisplayClass4_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.ProjectKernel/Zenject.<>c__DisplayClass4_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::ProjectKernel::$$c__DisplayClass4_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::$$c__DisplayClass4_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProjectKernel/<>c__DisplayClass4_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.SceneKernel
+#include "Zenject/SceneKernel.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.SceneKernel.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::SceneKernel::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneKernel::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "SceneKernel", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.PoolableManager
+#include "Zenject/PoolableManager.hpp"
+// Including type: Zenject.PoolableManager/Zenject.PoolableInfo
+#include "Zenject/PoolableManager_PoolableInfo.hpp"
+// Including type: Zenject.PoolableManager/Zenject.<>c__DisplayClass2_0
+#include "Zenject/PoolableManager_--c__DisplayClass2_0.hpp"
+// Including type: Zenject.PoolableManager/Zenject.<>c
+#include "Zenject/PoolableManager_--c.hpp"
+// Including type: Zenject.PoolableManager/Zenject.<>c__DisplayClass3_0
+#include "Zenject/PoolableManager_--c__DisplayClass3_0.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: Zenject.IPoolable
+#include "Zenject/IPoolable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
+::System::Collections::Generic::List_1<::Zenject::IPoolable*>*& Zenject::PoolableManager::dyn__poolables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::dyn__poolables");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_poolables"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::IPoolable*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _isSpawned
+bool& Zenject::PoolableManager::dyn__isSpawned() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::dyn__isSpawned");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isSpawned"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.PoolableManager.CreatePoolableInfo
+::Zenject::PoolableManager::PoolableInfo Zenject::PoolableManager::CreatePoolableInfo(::Zenject::IPoolable* poolable, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::CreatePoolableInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreatePoolableInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(poolable), ::il2cpp_utils::ExtractType(priorities)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::PoolableManager::PoolableInfo, false>(this, ___internal__method, poolable, priorities);
+}
+// Autogenerated method: Zenject.PoolableManager.TriggerOnSpawned
+void Zenject::PoolableManager::TriggerOnSpawned() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::TriggerOnSpawned");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TriggerOnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.PoolableManager.TriggerOnDespawned
+void Zenject::PoolableManager::TriggerOnDespawned() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::TriggerOnDespawned");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TriggerOnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.PoolableManager.__zenCreate
+::Il2CppObject* Zenject::PoolableManager::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.PoolableManager.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::PoolableManager::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.PoolableManager/Zenject.PoolableInfo
+#include "Zenject/PoolableManager_PoolableInfo.hpp"
+// Including type: Zenject.IPoolable
+#include "Zenject/IPoolable.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.IPoolable Poolable
+::Zenject::IPoolable*& Zenject::PoolableManager::PoolableInfo::dyn_Poolable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::PoolableInfo::dyn_Poolable");
+  auto ___internal__instance = *this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Poolable"))->offset;
+  return *reinterpret_cast<::Zenject::IPoolable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 Priority
+int& Zenject::PoolableManager::PoolableInfo::dyn_Priority() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::PoolableInfo::dyn_Priority");
+  auto ___internal__instance = *this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "Priority"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.PoolableInfo..ctor
+// ABORTED elsewhere.  Zenject::PoolableManager::PoolableInfo::PoolableInfo(::Zenject::IPoolable* poolable, int priority)
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.PoolableManager/Zenject.<>c__DisplayClass2_0
+#include "Zenject/PoolableManager_--c__DisplayClass2_0.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.IPoolable
+#include "Zenject/IPoolable.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: Zenject.PoolableManager/Zenject.PoolableInfo
+#include "Zenject/PoolableManager_PoolableInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.PoolableManager <>4__this
+::Zenject::PoolableManager*& Zenject::PoolableManager::$$c__DisplayClass2_0::dyn_$$4__this() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass2_0::dyn_$$4__this");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
+  return *reinterpret_cast<::Zenject::PoolableManager**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities
+::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>*& Zenject::PoolableManager::$$c__DisplayClass2_0::dyn_priorities() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass2_0::dyn_priorities");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "priorities"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c__DisplayClass2_0.<.ctor>b__0
+::Zenject::PoolableManager::PoolableInfo Zenject::PoolableManager::$$c__DisplayClass2_0::$_ctor$b__0(::Zenject::IPoolable* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass2_0::<.ctor>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::PoolableManager::PoolableInfo, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c__DisplayClass2_0.__zenCreate
+::Il2CppObject* Zenject::PoolableManager::$$c__DisplayClass2_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass2_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager/<>c__DisplayClass2_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c__DisplayClass2_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::PoolableManager::$$c__DisplayClass2_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass2_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager/<>c__DisplayClass2_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.PoolableManager/Zenject.<>c
+#include "Zenject/PoolableManager_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: Zenject.IPoolable
+#include "Zenject/IPoolable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.PoolableManager/Zenject.<>c <>9
+::Zenject::PoolableManager::$$c* Zenject::PoolableManager::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::PoolableManager::$$c*>("Zenject", "PoolableManager/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.PoolableManager/Zenject.<>c <>9
+void Zenject::PoolableManager::$$c::_set_$$9(::Zenject::PoolableManager::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "PoolableManager/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,System.Int32> <>9__2_1
+::System::Func_2<::Zenject::PoolableManager::PoolableInfo, int>* Zenject::PoolableManager::$$c::_get_$$9__2_1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_get_$$9__2_1");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::PoolableManager::PoolableInfo, int>*>("Zenject", "PoolableManager/<>c", "<>9__2_1")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,System.Int32> <>9__2_1
+void Zenject::PoolableManager::$$c::_set_$$9__2_1(::System::Func_2<::Zenject::PoolableManager::PoolableInfo, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_set_$$9__2_1");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "PoolableManager/<>c", "<>9__2_1", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,Zenject.IPoolable> <>9__2_2
+::System::Func_2<::Zenject::PoolableManager::PoolableInfo, ::Zenject::IPoolable*>* Zenject::PoolableManager::$$c::_get_$$9__2_2() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_get_$$9__2_2");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::Zenject::PoolableManager::PoolableInfo, ::Zenject::IPoolable*>*>("Zenject", "PoolableManager/<>c", "<>9__2_2")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,Zenject.IPoolable> <>9__2_2
+void Zenject::PoolableManager::$$c::_set_$$9__2_2(::System::Func_2<::Zenject::PoolableManager::PoolableInfo, ::Zenject::IPoolable*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_set_$$9__2_2");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "PoolableManager/<>c", "<>9__2_2", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__3_1
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* Zenject::PoolableManager::$$c::_get_$$9__3_1() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_get_$$9__3_1");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>*>("Zenject", "PoolableManager/<>c", "<>9__3_1")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__3_1
+void Zenject::PoolableManager::$$c::_set_$$9__3_1(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::_set_$$9__3_1");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "PoolableManager/<>c", "<>9__3_1", value)));
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c..cctor
+void Zenject::PoolableManager::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c.<.ctor>b__2_1
+int Zenject::PoolableManager::$$c::$_ctor$b__2_1(::Zenject::PoolableManager::PoolableInfo x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::<.ctor>b__2_1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__2_1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c.<.ctor>b__2_2
+::Zenject::IPoolable* Zenject::PoolableManager::$$c::$_ctor$b__2_2(::Zenject::PoolableManager::PoolableInfo x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::<.ctor>b__2_2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.ctor>b__2_2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::IPoolable*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c.<CreatePoolableInfo>b__3_1
+::System::Nullable_1<int> Zenject::PoolableManager::$$c::$CreatePoolableInfo$b__3_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::<CreatePoolableInfo>b__3_1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreatePoolableInfo>b__3_1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Nullable_1<int>, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::PoolableManager::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::PoolableManager::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.PoolableManager/Zenject.<>c__DisplayClass3_0
+#include "Zenject/PoolableManager_--c__DisplayClass3_0.hpp"
+// Including type: Zenject.IPoolable
+#include "Zenject/IPoolable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.IPoolable poolable
+::Zenject::IPoolable*& Zenject::PoolableManager::$$c__DisplayClass3_0::dyn_poolable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass3_0::dyn_poolable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "poolable"))->offset;
+  return *reinterpret_cast<::Zenject::IPoolable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c__DisplayClass3_0.<CreatePoolableInfo>b__0
+bool Zenject::PoolableManager::$$c__DisplayClass3_0::$CreatePoolableInfo$b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass3_0::<CreatePoolableInfo>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreatePoolableInfo>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c__DisplayClass3_0.__zenCreate
+::Il2CppObject* Zenject::PoolableManager::$$c__DisplayClass3_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass3_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager/<>c__DisplayClass3_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.PoolableManager/Zenject.<>c__DisplayClass3_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::PoolableManager::$$c__DisplayClass3_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass3_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "PoolableManager/<>c__DisplayClass3_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.SceneContextRegistry
+#include "Zenject/SceneContextRegistry.hpp"
+// Including type: System.Collections.Generic.Dictionary`2
+#include "System/Collections/Generic/Dictionary_2.hpp"
+// Including type: Zenject.SceneContext
+#include "Zenject/SceneContext.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,Zenject.SceneContext> _map
+::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::Zenject::SceneContext*>*& Zenject::SceneContextRegistry::dyn__map() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::dyn__map");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_map"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::Zenject::SceneContext*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.get_SceneContexts
+::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* Zenject::SceneContextRegistry::get_SceneContexts() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::get_SceneContexts");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_SceneContexts", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.Add
+void Zenject::SceneContextRegistry::Add(::Zenject::SceneContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::Add");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.GetSceneContextForScene
+::Zenject::SceneContext* Zenject::SceneContextRegistry::GetSceneContextForScene(::StringW name) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::GetSceneContextForScene");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSceneContextForScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::SceneContext*, false>(this, ___internal__method, name);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.GetSceneContextForScene
+::Zenject::SceneContext* Zenject::SceneContextRegistry::GetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::GetSceneContextForScene");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSceneContextForScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scene)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::SceneContext*, false>(this, ___internal__method, scene);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.TryGetSceneContextForScene
+::Zenject::SceneContext* Zenject::SceneContextRegistry::TryGetSceneContextForScene(::StringW name) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::TryGetSceneContextForScene");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSceneContextForScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::SceneContext*, false>(this, ___internal__method, name);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.TryGetSceneContextForScene
+::Zenject::SceneContext* Zenject::SceneContextRegistry::TryGetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::TryGetSceneContextForScene");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSceneContextForScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scene)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::SceneContext*, false>(this, ___internal__method, scene);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.GetContainerForScene
+::Zenject::DiContainer* Zenject::SceneContextRegistry::GetContainerForScene(::UnityEngine::SceneManagement::Scene scene) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::GetContainerForScene");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetContainerForScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scene)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method, scene);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.TryGetContainerForScene
+::Zenject::DiContainer* Zenject::SceneContextRegistry::TryGetContainerForScene(::UnityEngine::SceneManagement::Scene scene) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::TryGetContainerForScene");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetContainerForScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scene)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method, scene);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.Remove
+void Zenject::SceneContextRegistry::Remove(::Zenject::SceneContext* context) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::Remove");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, context);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.__zenCreate
+::Il2CppObject* Zenject::SceneContextRegistry::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "SceneContextRegistry", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.SceneContextRegistry.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::SceneContextRegistry::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "SceneContextRegistry", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.SceneContextRegistryAdderAndRemover
+#include "Zenject/SceneContextRegistryAdderAndRemover.hpp"
+// Including type: Zenject.SceneContextRegistry
+#include "Zenject/SceneContextRegistry.hpp"
+// Including type: Zenject.SceneContext
+#include "Zenject/SceneContext.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.SceneContextRegistry _registry
+::Zenject::SceneContextRegistry*& Zenject::SceneContextRegistryAdderAndRemover::dyn__registry() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistryAdderAndRemover::dyn__registry");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_registry"))->offset;
+  return *reinterpret_cast<::Zenject::SceneContextRegistry**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.SceneContext _sceneContext
+::Zenject::SceneContext*& Zenject::SceneContextRegistryAdderAndRemover::dyn__sceneContext() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistryAdderAndRemover::dyn__sceneContext");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_sceneContext"))->offset;
+  return *reinterpret_cast<::Zenject::SceneContext**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.SceneContextRegistryAdderAndRemover.Initialize
+void Zenject::SceneContextRegistryAdderAndRemover::Initialize() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistryAdderAndRemover::Initialize");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.SceneContextRegistryAdderAndRemover.Dispose
+void Zenject::SceneContextRegistryAdderAndRemover::Dispose() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistryAdderAndRemover::Dispose");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.SceneContextRegistryAdderAndRemover.__zenCreate
+::Il2CppObject* Zenject::SceneContextRegistryAdderAndRemover::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistryAdderAndRemover::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "SceneContextRegistryAdderAndRemover", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.SceneContextRegistryAdderAndRemover.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "SceneContextRegistryAdderAndRemover", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.TickablesTaskUpdater
+#include "Zenject/TickablesTaskUpdater.hpp"
+// Including type: Zenject.ITickable
+#include "Zenject/ITickable.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.TickablesTaskUpdater.UpdateItem
+void Zenject::TickablesTaskUpdater::UpdateItem(::Zenject::ITickable* task) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickablesTaskUpdater::UpdateItem");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
+}
+// Autogenerated method: Zenject.TickablesTaskUpdater.__zenCreate
+::Il2CppObject* Zenject::TickablesTaskUpdater::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickablesTaskUpdater::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickablesTaskUpdater", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.TickablesTaskUpdater.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::TickablesTaskUpdater::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickablesTaskUpdater::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickablesTaskUpdater", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.LateTickablesTaskUpdater
+#include "Zenject/LateTickablesTaskUpdater.hpp"
+// Including type: Zenject.ILateTickable
+#include "Zenject/ILateTickable.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.LateTickablesTaskUpdater.UpdateItem
+void Zenject::LateTickablesTaskUpdater::UpdateItem(::Zenject::ILateTickable* task) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LateTickablesTaskUpdater::UpdateItem");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
+}
+// Autogenerated method: Zenject.LateTickablesTaskUpdater.__zenCreate
+::Il2CppObject* Zenject::LateTickablesTaskUpdater::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LateTickablesTaskUpdater::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "LateTickablesTaskUpdater", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.LateTickablesTaskUpdater.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::LateTickablesTaskUpdater::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LateTickablesTaskUpdater::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "LateTickablesTaskUpdater", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.FixedTickablesTaskUpdater
+#include "Zenject/FixedTickablesTaskUpdater.hpp"
+// Including type: Zenject.IFixedTickable
+#include "Zenject/IFixedTickable.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.FixedTickablesTaskUpdater.UpdateItem
+void Zenject::FixedTickablesTaskUpdater::UpdateItem(::Zenject::IFixedTickable* task) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FixedTickablesTaskUpdater::UpdateItem");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
+}
+// Autogenerated method: Zenject.FixedTickablesTaskUpdater.__zenCreate
+::Il2CppObject* Zenject::FixedTickablesTaskUpdater::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FixedTickablesTaskUpdater::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FixedTickablesTaskUpdater", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.FixedTickablesTaskUpdater.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::FixedTickablesTaskUpdater::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FixedTickablesTaskUpdater::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FixedTickablesTaskUpdater", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.TickableManager
+#include "Zenject/TickableManager.hpp"
+// Including type: Zenject.TickableManager/Zenject.<>c__DisplayClass17_0
+#include "Zenject/TickableManager_--c__DisplayClass17_0.hpp"
+// Including type: Zenject.TickableManager/Zenject.<>c
+#include "Zenject/TickableManager_--c.hpp"
+// Including type: Zenject.TickableManager/Zenject.<>c__DisplayClass18_0
+#include "Zenject/TickableManager_--c__DisplayClass18_0.hpp"
+// Including type: Zenject.TickableManager/Zenject.<>c__DisplayClass19_0
+#include "Zenject/TickableManager_--c__DisplayClass19_0.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: Zenject.ITickable
+#include "Zenject/ITickable.hpp"
+// Including type: Zenject.IFixedTickable
+#include "Zenject/IFixedTickable.hpp"
+// Including type: Zenject.ILateTickable
+#include "Zenject/ILateTickable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.TickablesTaskUpdater
+#include "Zenject/TickablesTaskUpdater.hpp"
+// Including type: Zenject.FixedTickablesTaskUpdater
+#include "Zenject/FixedTickablesTaskUpdater.hpp"
+// Including type: Zenject.LateTickablesTaskUpdater
+#include "Zenject/LateTickablesTaskUpdater.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
+::System::Collections::Generic::List_1<::Zenject::ITickable*>*& Zenject::TickableManager::dyn__tickables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__tickables");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_tickables"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::ITickable*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.IFixedTickable> _fixedTickables
+::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>*& Zenject::TickableManager::dyn__fixedTickables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__fixedTickables");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_fixedTickables"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<Zenject.ILateTickable> _lateTickables
+::System::Collections::Generic::List_1<::Zenject::ILateTickable*>*& Zenject::TickableManager::dyn__lateTickables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__lateTickables");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_lateTickables"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::ILateTickable*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _priorities
+::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>*& Zenject::TickableManager::dyn__priorities() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__priorities");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_priorities"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _fixedPriorities
+::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>*& Zenject::TickableManager::dyn__fixedPriorities() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__fixedPriorities");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_fixedPriorities"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> _latePriorities
+::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>*& Zenject::TickableManager::dyn__latePriorities() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__latePriorities");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_latePriorities"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.TickablesTaskUpdater _updater
+::Zenject::TickablesTaskUpdater*& Zenject::TickableManager::dyn__updater() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__updater");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_updater"))->offset;
+  return *reinterpret_cast<::Zenject::TickablesTaskUpdater**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.FixedTickablesTaskUpdater _fixedUpdater
+::Zenject::FixedTickablesTaskUpdater*& Zenject::TickableManager::dyn__fixedUpdater() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__fixedUpdater");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_fixedUpdater"))->offset;
+  return *reinterpret_cast<::Zenject::FixedTickablesTaskUpdater**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private readonly Zenject.LateTickablesTaskUpdater _lateUpdater
+::Zenject::LateTickablesTaskUpdater*& Zenject::TickableManager::dyn__lateUpdater() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__lateUpdater");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_lateUpdater"))->offset;
+  return *reinterpret_cast<::Zenject::LateTickablesTaskUpdater**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _isPaused
+bool& Zenject::TickableManager::dyn__isPaused() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::dyn__isPaused");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isPaused"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.TickableManager.get_Tickables
+::System::Collections::Generic::IEnumerable_1<::Zenject::ITickable*>* Zenject::TickableManager::get_Tickables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::get_Tickables");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Tickables", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Zenject::ITickable*>*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.get_IsPaused
+bool Zenject::TickableManager::get_IsPaused() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::get_IsPaused");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsPaused", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.set_IsPaused
+void Zenject::TickableManager::set_IsPaused(bool value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::set_IsPaused");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_IsPaused", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
+}
+// Autogenerated method: Zenject.TickableManager.Initialize
+void Zenject::TickableManager::Initialize() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::Initialize");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.InitFixedTickables
+void Zenject::TickableManager::InitFixedTickables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::InitFixedTickables");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InitFixedTickables", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.InitTickables
+void Zenject::TickableManager::InitTickables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::InitTickables");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InitTickables", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.InitLateTickables
+void Zenject::TickableManager::InitLateTickables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::InitLateTickables");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InitLateTickables", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.Add
+void Zenject::TickableManager::Add(::Zenject::ITickable* tickable, int priority) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::Add");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable), ::il2cpp_utils::ExtractType(priority)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable, priority);
+}
+// Autogenerated method: Zenject.TickableManager.Add
+void Zenject::TickableManager::Add(::Zenject::ITickable* tickable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::Add");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable);
+}
+// Autogenerated method: Zenject.TickableManager.AddLate
+void Zenject::TickableManager::AddLate(::Zenject::ILateTickable* tickable, int priority) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::AddLate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddLate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable), ::il2cpp_utils::ExtractType(priority)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable, priority);
+}
+// Autogenerated method: Zenject.TickableManager.AddLate
+void Zenject::TickableManager::AddLate(::Zenject::ILateTickable* tickable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::AddLate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddLate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable);
+}
+// Autogenerated method: Zenject.TickableManager.AddFixed
+void Zenject::TickableManager::AddFixed(::Zenject::IFixedTickable* tickable, int priority) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::AddFixed");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddFixed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable), ::il2cpp_utils::ExtractType(priority)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable, priority);
+}
+// Autogenerated method: Zenject.TickableManager.AddFixed
+void Zenject::TickableManager::AddFixed(::Zenject::IFixedTickable* tickable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::AddFixed");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddFixed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable);
+}
+// Autogenerated method: Zenject.TickableManager.Remove
+void Zenject::TickableManager::Remove(::Zenject::ITickable* tickable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::Remove");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable);
+}
+// Autogenerated method: Zenject.TickableManager.RemoveLate
+void Zenject::TickableManager::RemoveLate(::Zenject::ILateTickable* tickable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::RemoveLate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveLate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable);
+}
+// Autogenerated method: Zenject.TickableManager.RemoveFixed
+void Zenject::TickableManager::RemoveFixed(::Zenject::IFixedTickable* tickable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::RemoveFixed");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveFixed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tickable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tickable);
+}
+// Autogenerated method: Zenject.TickableManager.Update
+void Zenject::TickableManager::Update() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::Update");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.FixedUpdate
+void Zenject::TickableManager::FixedUpdate() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::FixedUpdate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FixedUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.LateUpdate
+void Zenject::TickableManager::LateUpdate() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::LateUpdate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LateUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager.__zenCreate
+::Il2CppObject* Zenject::TickableManager::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.TickableManager.__zenFieldSetter0
+void Zenject::TickableManager::__zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenFieldSetter0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenFieldSetter0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.TickableManager.__zenFieldSetter1
+void Zenject::TickableManager::__zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenFieldSetter1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenFieldSetter1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.TickableManager.__zenFieldSetter2
+void Zenject::TickableManager::__zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenFieldSetter2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenFieldSetter2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.TickableManager.__zenFieldSetter3
+void Zenject::TickableManager::__zenFieldSetter3(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenFieldSetter3");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenFieldSetter3", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.TickableManager.__zenFieldSetter4
+void Zenject::TickableManager::__zenFieldSetter4(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenFieldSetter4");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenFieldSetter4", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.TickableManager.__zenFieldSetter5
+void Zenject::TickableManager::__zenFieldSetter5(::Il2CppObject* P_0, ::Il2CppObject* P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenFieldSetter5");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenFieldSetter5", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.TickableManager.__zenInjectMethod0
+void Zenject::TickableManager::__zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenInjectMethod0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenInjectMethod0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.TickableManager.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::TickableManager::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.TickableManager/Zenject.<>c__DisplayClass17_0
+#include "Zenject/TickableManager_--c__DisplayClass17_0.hpp"
+// Including type: Zenject.IFixedTickable
+#include "Zenject/IFixedTickable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.IFixedTickable tickable
+::Zenject::IFixedTickable*& Zenject::TickableManager::$$c__DisplayClass17_0::dyn_tickable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass17_0::dyn_tickable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "tickable"))->offset;
+  return *reinterpret_cast<::Zenject::IFixedTickable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass17_0.<InitFixedTickables>b__1
+bool Zenject::TickableManager::$$c__DisplayClass17_0::$InitFixedTickables$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass17_0::<InitFixedTickables>b__1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitFixedTickables>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass17_0.__zenCreate
+::Il2CppObject* Zenject::TickableManager::$$c__DisplayClass17_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass17_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c__DisplayClass17_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass17_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::TickableManager::$$c__DisplayClass17_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass17_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c__DisplayClass17_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.TickableManager/Zenject.<>c
+#include "Zenject/TickableManager_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.TickableManager/Zenject.<>c <>9
+::Zenject::TickableManager::$$c* Zenject::TickableManager::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::TickableManager::$$c*>("Zenject", "TickableManager/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.TickableManager/Zenject.<>c <>9
+void Zenject::TickableManager::$$c::_set_$$9(::Zenject::TickableManager::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "TickableManager/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__17_0
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* Zenject::TickableManager::$$c::_get_$$9__17_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_get_$$9__17_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>*>("Zenject", "TickableManager/<>c", "<>9__17_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__17_0
+void Zenject::TickableManager::$$c::_set_$$9__17_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_set_$$9__17_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "TickableManager/<>c", "<>9__17_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__17_2
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* Zenject::TickableManager::$$c::_get_$$9__17_2() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_get_$$9__17_2");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>*>("Zenject", "TickableManager/<>c", "<>9__17_2")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__17_2
+void Zenject::TickableManager::$$c::_set_$$9__17_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_set_$$9__17_2");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "TickableManager/<>c", "<>9__17_2", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__18_0
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* Zenject::TickableManager::$$c::_get_$$9__18_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_get_$$9__18_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>*>("Zenject", "TickableManager/<>c", "<>9__18_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__18_0
+void Zenject::TickableManager::$$c::_set_$$9__18_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_set_$$9__18_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "TickableManager/<>c", "<>9__18_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__18_2
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* Zenject::TickableManager::$$c::_get_$$9__18_2() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_get_$$9__18_2");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>*>("Zenject", "TickableManager/<>c", "<>9__18_2")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__18_2
+void Zenject::TickableManager::$$c::_set_$$9__18_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_set_$$9__18_2");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "TickableManager/<>c", "<>9__18_2", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__19_0
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* Zenject::TickableManager::$$c::_get_$$9__19_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_get_$$9__19_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>*>("Zenject", "TickableManager/<>c", "<>9__19_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__19_0
+void Zenject::TickableManager::$$c::_set_$$9__19_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_set_$$9__19_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "TickableManager/<>c", "<>9__19_0", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
+::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* Zenject::TickableManager::$$c::_get_$$9__19_2() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_get_$$9__19_2");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>*>("Zenject", "TickableManager/<>c", "<>9__19_2")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
+void Zenject::TickableManager::$$c::_set_$$9__19_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::_set_$$9__19_2");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "TickableManager/<>c", "<>9__19_2", value)));
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c..cctor
+void Zenject::TickableManager::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.<InitFixedTickables>b__17_0
+::System::Type* Zenject::TickableManager::$$c::$InitFixedTickables$b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::<InitFixedTickables>b__17_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitFixedTickables>b__17_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.<InitFixedTickables>b__17_2
+int Zenject::TickableManager::$$c::$InitFixedTickables$b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::<InitFixedTickables>b__17_2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitFixedTickables>b__17_2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.<InitTickables>b__18_0
+::System::Type* Zenject::TickableManager::$$c::$InitTickables$b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::<InitTickables>b__18_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitTickables>b__18_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.<InitTickables>b__18_2
+int Zenject::TickableManager::$$c::$InitTickables$b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::<InitTickables>b__18_2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitTickables>b__18_2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.<InitLateTickables>b__19_0
+::System::Type* Zenject::TickableManager::$$c::$InitLateTickables$b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::<InitLateTickables>b__19_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitLateTickables>b__19_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.<InitLateTickables>b__19_2
+int Zenject::TickableManager::$$c::$InitLateTickables$b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::<InitLateTickables>b__19_2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitLateTickables>b__19_2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::TickableManager::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::TickableManager::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.TickableManager/Zenject.<>c__DisplayClass18_0
+#include "Zenject/TickableManager_--c__DisplayClass18_0.hpp"
+// Including type: Zenject.ITickable
+#include "Zenject/ITickable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.ITickable tickable
+::Zenject::ITickable*& Zenject::TickableManager::$$c__DisplayClass18_0::dyn_tickable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass18_0::dyn_tickable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "tickable"))->offset;
+  return *reinterpret_cast<::Zenject::ITickable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass18_0.<InitTickables>b__1
+bool Zenject::TickableManager::$$c__DisplayClass18_0::$InitTickables$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass18_0::<InitTickables>b__1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitTickables>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass18_0.__zenCreate
+::Il2CppObject* Zenject::TickableManager::$$c__DisplayClass18_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass18_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c__DisplayClass18_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass18_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::TickableManager::$$c__DisplayClass18_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass18_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c__DisplayClass18_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.TickableManager/Zenject.<>c__DisplayClass19_0
+#include "Zenject/TickableManager_--c__DisplayClass19_0.hpp"
+// Including type: Zenject.ILateTickable
+#include "Zenject/ILateTickable.hpp"
+// Including type: ModestTree.Util.ValuePair`2
+#include "ModestTree/Util/ValuePair_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public Zenject.ILateTickable tickable
+::Zenject::ILateTickable*& Zenject::TickableManager::$$c__DisplayClass19_0::dyn_tickable() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass19_0::dyn_tickable");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "tickable"))->offset;
+  return *reinterpret_cast<::Zenject::ILateTickable**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass19_0.<InitLateTickables>b__1
+bool Zenject::TickableManager::$$c__DisplayClass19_0::$InitLateTickables$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass19_0::<InitLateTickables>b__1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InitLateTickables>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass19_0.__zenCreate
+::Il2CppObject* Zenject::TickableManager::$$c__DisplayClass19_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass19_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c__DisplayClass19_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.TickableManager/Zenject.<>c__DisplayClass19_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::TickableManager::$$c__DisplayClass19_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass19_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TickableManager/<>c__DisplayClass19_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ActionInstaller
+#include "Zenject/ActionInstaller.hpp"
+// Including type: System.Action`1
+#include "System/Action_1.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.Action`1<Zenject.DiContainer> _installMethod
+::System::Action_1<::Zenject::DiContainer*>*& Zenject::ActionInstaller::dyn__installMethod() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ActionInstaller::dyn__installMethod");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_installMethod"))->offset;
+  return *reinterpret_cast<::System::Action_1<::Zenject::DiContainer*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.ActionInstaller.__zenCreate
+::Il2CppObject* Zenject::ActionInstaller::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ActionInstaller::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ActionInstaller", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.ActionInstaller.InstallBindings
+void Zenject::ActionInstaller::InstallBindings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ActionInstaller::InstallBindings");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstallBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ActionInstaller.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::ActionInstaller::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ActionInstaller::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ActionInstaller", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DefaultGameObjectParentInstaller
+#include "Zenject/DefaultGameObjectParentInstaller.hpp"
+// Including type: Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer
+#include "Zenject/DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly System.String _name
+::StringW& Zenject::DefaultGameObjectParentInstaller::dyn__name() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::dyn__name");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_name"))->offset;
+  return *reinterpret_cast<::StringW*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DefaultGameObjectParentInstaller.__zenCreate
+::Il2CppObject* Zenject::DefaultGameObjectParentInstaller::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DefaultGameObjectParentInstaller", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.DefaultGameObjectParentInstaller.InstallBindings
+void Zenject::DefaultGameObjectParentInstaller::InstallBindings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::InstallBindings");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstallBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DefaultGameObjectParentInstaller.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::DefaultGameObjectParentInstaller::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DefaultGameObjectParentInstaller", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer
+#include "Zenject/DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer.hpp"
+// Including type: UnityEngine.GameObject
+#include "UnityEngine/GameObject.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private readonly UnityEngine.GameObject _gameObject
+::UnityEngine::GameObject*& Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::dyn__gameObject() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::dyn__gameObject");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_gameObject"))->offset;
+  return *reinterpret_cast<::UnityEngine::GameObject**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer.Dispose
+void Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer.__zenCreate
+::Il2CppObject* Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.DisposeBlock
+#include "Zenject/DisposeBlock.hpp"
+// Including type: Zenject.StaticMemoryPool`1
+#include "Zenject/StaticMemoryPool_1.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Collections.Generic.IList`1
+#include "System/Collections/Generic/IList_1.hpp"
+// Including type: Zenject.IDespawnableMemoryPool`1
+#include "Zenject/IDespawnableMemoryPool_1.hpp"
+// Including type: Zenject.IMemoryPool`1
+#include "Zenject/IMemoryPool_1.hpp"
+// Including type: Zenject.IMemoryPool`2
+#include "Zenject/IMemoryPool_2.hpp"
+// Including type: Zenject.IMemoryPool`3
+#include "Zenject/IMemoryPool_3.hpp"
+// Including type: Zenject.IMemoryPool`4
+#include "Zenject/IMemoryPool_4.hpp"
+// Including type: Zenject.IMemoryPool`5
+#include "Zenject/IMemoryPool_5.hpp"
+// Including type: Zenject.IMemoryPool`6
+#include "Zenject/IMemoryPool_6.hpp"
+// Including type: Zenject.IMemoryPool`7
+#include "Zenject/IMemoryPool_7.hpp"
+// Including type: Zenject.IMemoryPool`8
+#include "Zenject/IMemoryPool_8.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: Zenject.IMemoryPool
+#include "Zenject/IMemoryPool.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
+::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* Zenject::DisposeBlock::_get__pool() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::_get__pool");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>*>("Zenject", "DisposeBlock", "_pool"));
+}
+// Autogenerated static field setter
+// Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
+void Zenject::DisposeBlock::_set__pool(::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::_set__pool");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "DisposeBlock", "_pool", value));
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Collections.Generic.List`1<System.IDisposable> _disposables
+::System::Collections::Generic::List_1<::System::IDisposable*>*& Zenject::DisposeBlock::dyn__disposables() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::dyn__disposables");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_disposables"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::System::IDisposable*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
+::System::Collections::Generic::List_1<::Zenject::DisposeBlock::SpawnedObjectPoolPair>*& Zenject::DisposeBlock::dyn__objectPoolPairs() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::dyn__objectPoolPairs");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_objectPoolPairs"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::Zenject::DisposeBlock::SpawnedObjectPoolPair>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.DisposeBlock..cctor
+void Zenject::DisposeBlock::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposeBlock", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.DisposeBlock.OnSpawned
+void Zenject::DisposeBlock::OnSpawned(::Zenject::DisposeBlock* that) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::OnSpawned");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposeBlock", "OnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(that)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, that);
+}
+// Autogenerated method: Zenject.DisposeBlock.OnDespawned
+void Zenject::DisposeBlock::OnDespawned(::Zenject::DisposeBlock* that) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::OnDespawned");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposeBlock", "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(that)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, that);
+}
+// Autogenerated method: Zenject.DisposeBlock.LazyInitializeDisposableList
+void Zenject::DisposeBlock::LazyInitializeDisposableList() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::LazyInitializeDisposableList");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LazyInitializeDisposableList", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.DisposeBlock.Add
+void Zenject::DisposeBlock::Add(::System::IDisposable* disposable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Add");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, disposable);
+}
+// Autogenerated method: Zenject.DisposeBlock.Remove
+void Zenject::DisposeBlock::Remove(::System::IDisposable* disposable) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Remove");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposable)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, disposable);
+}
+// Autogenerated method: Zenject.DisposeBlock.Spawn
+::Zenject::DisposeBlock* Zenject::DisposeBlock::Spawn() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Spawn");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "DisposeBlock", "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DisposeBlock*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.DisposeBlock.Dispose
+void Zenject::DisposeBlock::Dispose() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::Dispose");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ExecutionOrderInstaller
+#include "Zenject/ExecutionOrderInstaller.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private System.Collections.Generic.List`1<System.Type> _typeOrder
+::System::Collections::Generic::List_1<::System::Type*>*& Zenject::ExecutionOrderInstaller::dyn__typeOrder() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ExecutionOrderInstaller::dyn__typeOrder");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_typeOrder"))->offset;
+  return *reinterpret_cast<::System::Collections::Generic::List_1<::System::Type*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.ExecutionOrderInstaller.__zenCreate
+::Il2CppObject* Zenject::ExecutionOrderInstaller::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ExecutionOrderInstaller::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ExecutionOrderInstaller", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.ExecutionOrderInstaller.InstallBindings
+void Zenject::ExecutionOrderInstaller::InstallBindings() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ExecutionOrderInstaller::InstallBindings");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InstallBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ExecutionOrderInstaller.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::ExecutionOrderInstaller::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ExecutionOrderInstaller::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ExecutionOrderInstaller", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ProfileBlock
+#include "Zenject/ProfileBlock.hpp"
+// Including type: System.Text.RegularExpressions.Regex
+#include "System/Text/RegularExpressions/Regex.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
+::System::Text::RegularExpressions::Regex* Zenject::ProfileBlock::_get_$ProfilePattern$k__BackingField() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::_get_$ProfilePattern$k__BackingField");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Text::RegularExpressions::Regex*>("Zenject", "ProfileBlock", "<ProfilePattern>k__BackingField")));
+}
+// Autogenerated static field setter
+// Set static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
+void Zenject::ProfileBlock::_set_$ProfilePattern$k__BackingField(::System::Text::RegularExpressions::Regex* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::_set_$ProfilePattern$k__BackingField");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ProfileBlock", "<ProfilePattern>k__BackingField", value));
+}
+// Autogenerated method: Zenject.ProfileBlock.get_ProfilePattern
+::System::Text::RegularExpressions::Regex* Zenject::ProfileBlock::get_ProfilePattern() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::get_ProfilePattern");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProfileBlock", "get_ProfilePattern", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Text::RegularExpressions::Regex*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.ProfileBlock.set_ProfilePattern
+void Zenject::ProfileBlock::set_ProfilePattern(::System::Text::RegularExpressions::Regex* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::set_ProfilePattern");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProfileBlock", "set_ProfilePattern", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, value);
+}
+// Autogenerated method: Zenject.ProfileBlock.Start
+::Zenject::ProfileBlock* Zenject::ProfileBlock::Start() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::Start");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProfileBlock", "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ProfileBlock*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.ProfileBlock.Start
+::Zenject::ProfileBlock* Zenject::ProfileBlock::Start(::StringW sampleNameFormat, ::Il2CppObject* obj1, ::Il2CppObject* obj2) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::Start");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProfileBlock", "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sampleNameFormat), ::il2cpp_utils::ExtractType(obj1), ::il2cpp_utils::ExtractType(obj2)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ProfileBlock*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, sampleNameFormat, obj1, obj2);
+}
+// Autogenerated method: Zenject.ProfileBlock.Start
+::Zenject::ProfileBlock* Zenject::ProfileBlock::Start(::StringW sampleNameFormat, ::Il2CppObject* obj) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::Start");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProfileBlock", "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sampleNameFormat), ::il2cpp_utils::ExtractType(obj)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ProfileBlock*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, sampleNameFormat, obj);
+}
+// Autogenerated method: Zenject.ProfileBlock.Start
+::Zenject::ProfileBlock* Zenject::ProfileBlock::Start(::StringW sampleName) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::Start");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ProfileBlock", "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sampleName)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ProfileBlock*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, sampleName);
+}
+// Autogenerated method: Zenject.ProfileBlock.Dispose
+void Zenject::ProfileBlock::Dispose() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::Dispose");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ZenTypeInfoGetter
+#include "Zenject/ZenTypeInfoGetter.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: System.IAsyncResult
+#include "System/IAsyncResult.hpp"
+// Including type: System.AsyncCallback
+#include "System/AsyncCallback.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.ZenTypeInfoGetter.Invoke
+::Zenject::InjectTypeInfo* Zenject::ZenTypeInfoGetter::Invoke() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenTypeInfoGetter::Invoke");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenTypeInfoGetter.BeginInvoke
+::System::IAsyncResult* Zenject::ZenTypeInfoGetter::BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenTypeInfoGetter::BeginInvoke");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal__method, callback, object);
+}
+// Autogenerated method: Zenject.ZenTypeInfoGetter.EndInvoke
+::Zenject::InjectTypeInfo* Zenject::ZenTypeInfoGetter::EndInvoke(::System::IAsyncResult* result) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenTypeInfoGetter::EndInvoke");
+  auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(this, ___internal__method, result);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.ReflectionBakingCoverageModes
+#include "Zenject/ReflectionBakingCoverageModes.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflection
+::Zenject::ReflectionBakingCoverageModes Zenject::ReflectionBakingCoverageModes::_get_FallbackToDirectReflection() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ReflectionBakingCoverageModes::_get_FallbackToDirectReflection");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::ReflectionBakingCoverageModes>("Zenject", "ReflectionBakingCoverageModes", "FallbackToDirectReflection"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflection
+void Zenject::ReflectionBakingCoverageModes::_set_FallbackToDirectReflection(::Zenject::ReflectionBakingCoverageModes value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ReflectionBakingCoverageModes::_set_FallbackToDirectReflection");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ReflectionBakingCoverageModes", "FallbackToDirectReflection", value));
+}
+// Autogenerated static field getter
+// Get static field: static public Zenject.ReflectionBakingCoverageModes NoCheckAssumeFullCoverage
+::Zenject::ReflectionBakingCoverageModes Zenject::ReflectionBakingCoverageModes::_get_NoCheckAssumeFullCoverage() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ReflectionBakingCoverageModes::_get_NoCheckAssumeFullCoverage");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::ReflectionBakingCoverageModes>("Zenject", "ReflectionBakingCoverageModes", "NoCheckAssumeFullCoverage"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.ReflectionBakingCoverageModes NoCheckAssumeFullCoverage
+void Zenject::ReflectionBakingCoverageModes::_set_NoCheckAssumeFullCoverage(::Zenject::ReflectionBakingCoverageModes value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ReflectionBakingCoverageModes::_set_NoCheckAssumeFullCoverage");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ReflectionBakingCoverageModes", "NoCheckAssumeFullCoverage", value));
+}
+// Autogenerated static field getter
+// Get static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflectionWithWarning
+::Zenject::ReflectionBakingCoverageModes Zenject::ReflectionBakingCoverageModes::_get_FallbackToDirectReflectionWithWarning() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ReflectionBakingCoverageModes::_get_FallbackToDirectReflectionWithWarning");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Zenject::ReflectionBakingCoverageModes>("Zenject", "ReflectionBakingCoverageModes", "FallbackToDirectReflectionWithWarning"));
+}
+// Autogenerated static field setter
+// Set static field: static public Zenject.ReflectionBakingCoverageModes FallbackToDirectReflectionWithWarning
+void Zenject::ReflectionBakingCoverageModes::_set_FallbackToDirectReflectionWithWarning(::Zenject::ReflectionBakingCoverageModes value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ReflectionBakingCoverageModes::_set_FallbackToDirectReflectionWithWarning");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "ReflectionBakingCoverageModes", "FallbackToDirectReflectionWithWarning", value));
+}
+// Autogenerated instance field getter
+// Get instance field: public System.Int32 value__
+int& Zenject::ReflectionBakingCoverageModes::dyn_value__() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ReflectionBakingCoverageModes::dyn_value__");
+  auto ___internal__instance = *this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "value__"))->offset;
+  return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.TypeAnalyzer
+#include "Zenject/TypeAnalyzer.hpp"
+// Including type: Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0
+#include "Zenject/TypeAnalyzer_--c__DisplayClass23_0.hpp"
+// Including type: System.Collections.Generic.Dictionary`2
+#include "System/Collections/Generic/Dictionary_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+// Including type: System.String
+#include "System/String.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,Zenject.InjectTypeInfo> _typeInfo
+::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* Zenject::TypeAnalyzer::_get__typeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get__typeInfo");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>*>("Zenject", "TypeAnalyzer", "_typeInfo")));
+}
+// Autogenerated static field setter
+// Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,Zenject.InjectTypeInfo> _typeInfo
+void Zenject::TypeAnalyzer::_set__typeInfo(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set__typeInfo");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "_typeInfo", value));
+}
+// Autogenerated static field getter
+// Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Boolean> _allowDuringValidation
+::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* Zenject::TypeAnalyzer::_get__allowDuringValidation() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get__allowDuringValidation");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Collections::Generic::Dictionary_2<::System::Type*, bool>*>("Zenject", "TypeAnalyzer", "_allowDuringValidation")));
+}
+// Autogenerated static field setter
+// Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Boolean> _allowDuringValidation
+void Zenject::TypeAnalyzer::_set__allowDuringValidation(::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set__allowDuringValidation");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "_allowDuringValidation", value));
+}
+// Autogenerated static field getter
+// Get static field: static public System.String ReflectionBakingGetInjectInfoMethodName
+::StringW Zenject::TypeAnalyzer::_get_ReflectionBakingGetInjectInfoMethodName() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get_ReflectionBakingGetInjectInfoMethodName");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::StringW>("Zenject", "TypeAnalyzer", "ReflectionBakingGetInjectInfoMethodName"));
+}
+// Autogenerated static field setter
+// Set static field: static public System.String ReflectionBakingGetInjectInfoMethodName
+void Zenject::TypeAnalyzer::_set_ReflectionBakingGetInjectInfoMethodName(::StringW value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set_ReflectionBakingGetInjectInfoMethodName");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "ReflectionBakingGetInjectInfoMethodName", value));
+}
+// Autogenerated static field getter
+// Get static field: static public System.String ReflectionBakingFactoryMethodName
+::StringW Zenject::TypeAnalyzer::_get_ReflectionBakingFactoryMethodName() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get_ReflectionBakingFactoryMethodName");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::StringW>("Zenject", "TypeAnalyzer", "ReflectionBakingFactoryMethodName"));
+}
+// Autogenerated static field setter
+// Set static field: static public System.String ReflectionBakingFactoryMethodName
+void Zenject::TypeAnalyzer::_set_ReflectionBakingFactoryMethodName(::StringW value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set_ReflectionBakingFactoryMethodName");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "ReflectionBakingFactoryMethodName", value));
+}
+// Autogenerated static field getter
+// Get static field: static public System.String ReflectionBakingInjectMethodPrefix
+::StringW Zenject::TypeAnalyzer::_get_ReflectionBakingInjectMethodPrefix() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get_ReflectionBakingInjectMethodPrefix");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::StringW>("Zenject", "TypeAnalyzer", "ReflectionBakingInjectMethodPrefix"));
+}
+// Autogenerated static field setter
+// Set static field: static public System.String ReflectionBakingInjectMethodPrefix
+void Zenject::TypeAnalyzer::_set_ReflectionBakingInjectMethodPrefix(::StringW value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set_ReflectionBakingInjectMethodPrefix");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "ReflectionBakingInjectMethodPrefix", value));
+}
+// Autogenerated static field getter
+// Get static field: static public System.String ReflectionBakingFieldSetterPrefix
+::StringW Zenject::TypeAnalyzer::_get_ReflectionBakingFieldSetterPrefix() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get_ReflectionBakingFieldSetterPrefix");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::StringW>("Zenject", "TypeAnalyzer", "ReflectionBakingFieldSetterPrefix"));
+}
+// Autogenerated static field setter
+// Set static field: static public System.String ReflectionBakingFieldSetterPrefix
+void Zenject::TypeAnalyzer::_set_ReflectionBakingFieldSetterPrefix(::StringW value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set_ReflectionBakingFieldSetterPrefix");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "ReflectionBakingFieldSetterPrefix", value));
+}
+// Autogenerated static field getter
+// Get static field: static public System.String ReflectionBakingPropertySetterPrefix
+::StringW Zenject::TypeAnalyzer::_get_ReflectionBakingPropertySetterPrefix() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get_ReflectionBakingPropertySetterPrefix");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::StringW>("Zenject", "TypeAnalyzer", "ReflectionBakingPropertySetterPrefix"));
+}
+// Autogenerated static field setter
+// Set static field: static public System.String ReflectionBakingPropertySetterPrefix
+void Zenject::TypeAnalyzer::_set_ReflectionBakingPropertySetterPrefix(::StringW value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set_ReflectionBakingPropertySetterPrefix");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "ReflectionBakingPropertySetterPrefix", value));
+}
+// Autogenerated static field getter
+// Get static field: static private Zenject.ReflectionBakingCoverageModes <ReflectionBakingCoverageMode>k__BackingField
+::Zenject::ReflectionBakingCoverageModes Zenject::TypeAnalyzer::_get_$ReflectionBakingCoverageMode$k__BackingField() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_get_$ReflectionBakingCoverageMode$k__BackingField");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::ReflectionBakingCoverageModes>("Zenject", "TypeAnalyzer", "<ReflectionBakingCoverageMode>k__BackingField")));
+}
+// Autogenerated static field setter
+// Set static field: static private Zenject.ReflectionBakingCoverageModes <ReflectionBakingCoverageMode>k__BackingField
+void Zenject::TypeAnalyzer::_set_$ReflectionBakingCoverageMode$k__BackingField(::Zenject::ReflectionBakingCoverageModes value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::_set_$ReflectionBakingCoverageMode$k__BackingField");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("Zenject", "TypeAnalyzer", "<ReflectionBakingCoverageMode>k__BackingField", value));
+}
+// Autogenerated method: Zenject.TypeAnalyzer.get_ReflectionBakingCoverageMode
+::Zenject::ReflectionBakingCoverageModes Zenject::TypeAnalyzer::get_ReflectionBakingCoverageMode() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::get_ReflectionBakingCoverageMode");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "get_ReflectionBakingCoverageMode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ReflectionBakingCoverageModes, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.set_ReflectionBakingCoverageMode
+void Zenject::TypeAnalyzer::set_ReflectionBakingCoverageMode(::Zenject::ReflectionBakingCoverageModes value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::set_ReflectionBakingCoverageMode");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "set_ReflectionBakingCoverageMode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, value);
+}
+// Autogenerated method: Zenject.TypeAnalyzer..cctor
+void Zenject::TypeAnalyzer::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.ShouldAllowDuringValidation
+bool Zenject::TypeAnalyzer::ShouldAllowDuringValidation(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::ShouldAllowDuringValidation");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "ShouldAllowDuringValidation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.ShouldAllowDuringValidationInternal
+bool Zenject::TypeAnalyzer::ShouldAllowDuringValidationInternal(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::ShouldAllowDuringValidationInternal");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "ShouldAllowDuringValidationInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.HasInfo
+bool Zenject::TypeAnalyzer::HasInfo(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::HasInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "HasInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.GetInfo
+::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer::GetInfo(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::GetInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "GetInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.TryGetInfo
+::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer::TryGetInfo(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::TryGetInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "TryGetInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.GetInfoInternal
+::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer::GetInfoInternal(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::GetInfoInternal");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "GetInfoInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.ShouldSkipTypeAnalysis
+bool Zenject::TypeAnalyzer::ShouldSkipTypeAnalysis(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::ShouldSkipTypeAnalysis");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "ShouldSkipTypeAnalysis", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.IsStaticType
+bool Zenject::TypeAnalyzer::IsStaticType(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::IsStaticType");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "IsStaticType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated method: Zenject.TypeAnalyzer.CreateTypeInfoFromReflection
+::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer::CreateTypeInfoFromReflection(::System::Type* type) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::CreateTypeInfoFromReflection");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer", "CreateTypeInfoFromReflection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, type);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0
+#include "Zenject/TypeAnalyzer_--c__DisplayClass23_0.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo/Zenject.InjectMemberInfo
+#include "Zenject/InjectTypeInfo_InjectMemberInfo.hpp"
+// Including type: Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo
+#include "Zenject/Internal/ReflectionTypeInfo_InjectFieldInfo.hpp"
+// Including type: Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo
+#include "Zenject/Internal/ReflectionTypeInfo_InjectPropertyInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: public System.Type type
+::System::Type*& Zenject::TypeAnalyzer::$$c__DisplayClass23_0::dyn_type() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::$$c__DisplayClass23_0::dyn_type");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "type"))->offset;
+  return *reinterpret_cast<::System::Type**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0.<CreateTypeInfoFromReflection>b__0
+::Zenject::InjectTypeInfo::InjectMemberInfo* Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__0(::Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::$$c__DisplayClass23_0::<CreateTypeInfoFromReflection>b__0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateTypeInfoFromReflection>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo::InjectMemberInfo*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0.<CreateTypeInfoFromReflection>b__1
+::Zenject::InjectTypeInfo::InjectMemberInfo* Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__1(::Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::$$c__DisplayClass23_0::<CreateTypeInfoFromReflection>b__1");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateTypeInfoFromReflection>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo::InjectMemberInfo*, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0.__zenCreate
+::Il2CppObject* Zenject::TypeAnalyzer::$$c__DisplayClass23_0::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::$$c__DisplayClass23_0::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer/<>c__DisplayClass23_0", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer::$$c__DisplayClass23_0::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::$$c__DisplayClass23_0::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "TypeAnalyzer/<>c__DisplayClass23_0", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: Zenject.ValidationUtil
+#include "Zenject/ValidationUtil.hpp"
+// Including type: Zenject.ValidationUtil/Zenject.<>c
+#include "Zenject/ValidationUtil_--c.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: Zenject.ValidationUtil.CreateDefaultArgs
+::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Zenject::ValidationUtil::CreateDefaultArgs(::ArrayW<::System::Type*> argTypes) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::CreateDefaultArgs");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ValidationUtil", "CreateDefaultArgs", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(argTypes)})));
+  return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, argTypes);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ValidationUtil/Zenject.<>c
+#include "Zenject/ValidationUtil_--c.hpp"
+// Including type: System.Func`2
+#include "System/Func_2.hpp"
+// Including type: System.Type
+#include "System/Type.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly Zenject.ValidationUtil/Zenject.<>c <>9
+::Zenject::ValidationUtil::$$c* Zenject::ValidationUtil::$$c::_get_$$9() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::_get_$$9");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::Zenject::ValidationUtil::$$c*>("Zenject", "ValidationUtil/<>c", "<>9")));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly Zenject.ValidationUtil/Zenject.<>c <>9
+void Zenject::ValidationUtil::$$c::_set_$$9(::Zenject::ValidationUtil::$$c* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::_set_$$9");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "ValidationUtil/<>c", "<>9", value)));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Func`2<System.Type,Zenject.TypeValuePair> <>9__0_0
+::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* Zenject::ValidationUtil::$$c::_get_$$9__0_0() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::_get_$$9__0_0");
+  return THROW_UNLESS((il2cpp_utils::GetFieldValue<::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>*>("Zenject", "ValidationUtil/<>c", "<>9__0_0")));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Func`2<System.Type,Zenject.TypeValuePair> <>9__0_0
+void Zenject::ValidationUtil::$$c::_set_$$9__0_0(::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::_set_$$9__0_0");
+  THROW_UNLESS((il2cpp_utils::SetFieldValue("Zenject", "ValidationUtil/<>c", "<>9__0_0", value)));
+}
+// Autogenerated method: Zenject.ValidationUtil/Zenject.<>c..cctor
+void Zenject::ValidationUtil::$$c::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ValidationUtil/<>c", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated method: Zenject.ValidationUtil/Zenject.<>c.<CreateDefaultArgs>b__0_0
+::Zenject::TypeValuePair Zenject::ValidationUtil::$$c::$CreateDefaultArgs$b__0_0(::System::Type* x) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::<CreateDefaultArgs>b__0_0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateDefaultArgs>b__0_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::TypeValuePair, false>(this, ___internal__method, x);
+}
+// Autogenerated method: Zenject.ValidationUtil/Zenject.<>c.__zenCreate
+::Il2CppObject* Zenject::ValidationUtil::$$c::__zenCreate(::ArrayW<::Il2CppObject*> P_0) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::__zenCreate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ValidationUtil/<>c", "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+  return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
+}
+// Autogenerated method: Zenject.ValidationUtil/Zenject.<>c.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::ValidationUtil::$$c::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ValidationUtil::$$c::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ValidationUtil/<>c", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "beatsaber-hook/shared/utils/typedefs.h"
+// Including type: Zenject.ZenAutoInjecter
+#include "Zenject/ZenAutoInjecter.hpp"
+// Including type: Zenject.DiContainer
+#include "Zenject/DiContainer.hpp"
+// Including type: Zenject.InjectTypeInfo
+#include "Zenject/InjectTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated instance field getter
+// Get instance field: private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource
+::Zenject::ZenAutoInjecter::ContainerSources& Zenject::ZenAutoInjecter::dyn__containerSource() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::dyn__containerSource");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_containerSource"))->offset;
+  return *reinterpret_cast<::Zenject::ZenAutoInjecter::ContainerSources*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated instance field getter
+// Get instance field: private System.Boolean _hasInjected
+bool& Zenject::ZenAutoInjecter::dyn__hasInjected() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::dyn__hasInjected");
+  auto ___internal__instance = this;
+  static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_hasInjected"))->offset;
+  return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.get_ContainerSource
+::Zenject::ZenAutoInjecter::ContainerSources Zenject::ZenAutoInjecter::get_ContainerSource() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::get_ContainerSource");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ContainerSource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::ZenAutoInjecter::ContainerSources, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.set_ContainerSource
+void Zenject::ZenAutoInjecter::set_ContainerSource(::Zenject::ZenAutoInjecter::ContainerSources value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::set_ContainerSource");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_ContainerSource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.Construct
+void Zenject::ZenAutoInjecter::Construct() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::Construct");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Construct", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.Awake
+void Zenject::ZenAutoInjecter::Awake() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::Awake");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.LookupContainer
+::Zenject::DiContainer* Zenject::ZenAutoInjecter::LookupContainer() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::LookupContainer");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LookupContainer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.GetContainerForCurrentScene
+::Zenject::DiContainer* Zenject::ZenAutoInjecter::GetContainerForCurrentScene() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::GetContainerForCurrentScene");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetContainerForCurrentScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal__method);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.__zenInjectMethod0
+void Zenject::ZenAutoInjecter::__zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1) {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::__zenInjectMethod0");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenAutoInjecter", "__zenInjectMethod0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
+  ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1);
+}
+// Autogenerated method: Zenject.ZenAutoInjecter.__zenCreateInjectTypeInfo
+::Zenject::InjectTypeInfo* Zenject::ZenAutoInjecter::__zenCreateInjectTypeInfo() {
+  static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::__zenCreateInjectTypeInfo");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenAutoInjecter", "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
 }

@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BoolSO _noteDebrisHDConditionVariable
     ::GlobalNamespace::BoolSO*& dyn__noteDebrisHDConditionVariable();
     // public System.Void .ctor()
-    // Offset: 0x14E4A1C
+    // Offset: 0x1479398
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: System.Void ScriptableObjectInstaller::.ctor()
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
@@ -117,7 +117,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisPoolInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x14E4808
+    // Offset: 0x1479184
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

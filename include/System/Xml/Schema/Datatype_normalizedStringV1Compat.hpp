@@ -36,12 +36,12 @@ namespace System::Xml::Schema {
   class Datatype_normalizedStringV1Compat : public ::System::Xml::Schema::Datatype_string {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C39990
+    // Offset: 0x1C1FE60
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_string::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C39998
+    // Offset: 0x1C1FE68
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Void Datatype_string::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()

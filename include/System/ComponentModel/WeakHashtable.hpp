@@ -45,10 +45,10 @@ namespace System::ComponentModel {
     // Set static field: static private System.Collections.IEqualityComparer _comparer
     static void _set__comparer(::System::Collections::IEqualityComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CC1518
+    // Offset: 0x1CA59E8
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x1CC1494
+    // Offset: 0x1CA5964
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -58,12 +58,12 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<WeakHashtable*, creationType>()));
     }
     // public override System.Void Clear()
-    // Offset: 0x1CC1508
+    // Offset: 0x1CA59D8
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::Clear()
     void Clear();
     // public override System.Void Remove(System.Object key)
-    // Offset: 0x1CC1510
+    // Offset: 0x1CA59E0
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::Remove(System.Object key)
     void Remove(::Il2CppObject* key);

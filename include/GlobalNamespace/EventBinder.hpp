@@ -62,13 +62,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Action> _unsubscribes
     ::System::Collections::Generic::List_1<::System::Action*>*& dyn__unsubscribes();
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x1574638
+    // Offset: 0x156B344
     void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0x15746B4
+    // Offset: 0x156B3C0
     void ClearAllBindings();
     // public System.Void .ctor()
-    // Offset: 0x15747C4
+    // Offset: 0x156B4D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

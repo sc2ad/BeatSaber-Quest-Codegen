@@ -47,13 +47,13 @@ namespace BGNet::Core::Messages {
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[]> <>9__12_0
     static void _set_$$9__12_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayW<uint8_t>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x152EE84
+    // Offset: 0x14FBB24
     static void _cctor();
     // System.Byte[] <.ctor>b__12_0(System.Security.Cryptography.X509Certificates.X509Certificate2 cert)
-    // Offset: 0x152EEF0
+    // Offset: 0x14FBB90
     ::ArrayW<uint8_t> $_ctor$b__12_0(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
     // public System.Void .ctor()
-    // Offset: 0x152EEE8
+    // Offset: 0x14FBB88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

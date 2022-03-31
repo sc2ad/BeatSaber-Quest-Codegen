@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerStatusData
   class MultiplayerStatusData;
 }
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: UriBuilder
+  class UriBuilder;
+}
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerStatusModel::$GetMultiplayerStatusAsyncInternal$d__9, "", "MultiplayerStatusModel/<GetMultiplayerStatusAsyncInternal>d__9");
@@ -51,13 +56,19 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerStatusModel* $$4__this;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerStatusModel*) == 0x8);
+    // private System.UriBuilder <uriBuilder>5__2
+    // Size: 0x8
+    // Offset: 0x28
+    ::System::UriBuilder* $uriBuilder$5__2;
+    // Field size check
+    static_assert(sizeof(::System::UriBuilder*) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     // Size: 0xFFFFFFFF
-    // Offset: 0x28
+    // Offset: 0x30
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1;
     public:
     // Creating value type constructor for type: $GetMultiplayerStatusAsyncInternal$d__9
-    constexpr $GetMultiplayerStatusAsyncInternal$d__9(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*> $$t__builder_ = {}, ::GlobalNamespace::MultiplayerStatusModel* $$4__this_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+    constexpr $GetMultiplayerStatusAsyncInternal$d__9(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*> $$t__builder_ = {}, ::GlobalNamespace::MultiplayerStatusModel* $$4__this_ = {}, ::System::UriBuilder* $uriBuilder$5__2_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $uriBuilder$5__2{$uriBuilder$5__2_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
@@ -72,13 +83,15 @@ namespace GlobalNamespace {
     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>& dyn_$$t__builder();
     // Get instance field reference: public MultiplayerStatusModel <>4__this
     ::GlobalNamespace::MultiplayerStatusModel*& dyn_$$4__this();
+    // Get instance field reference: private System.UriBuilder <uriBuilder>5__2
+    ::System::UriBuilder*& dyn_$uriBuilder$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1407668
+    // Offset: 0x13ACE84
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1407D6C
+    // Offset: 0x13AD680
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerStatusModel/<GetMultiplayerStatusAsyncInternal>d__9
   // WARNING Not writing size check since size may be invalid!

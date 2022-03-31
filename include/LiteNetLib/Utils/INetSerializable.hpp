@@ -31,10 +31,10 @@ namespace LiteNetLib::Utils {
   class INetSerializable {
     public:
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LiteNetLib.Utils.INetSerializable
   #pragma pack(pop)

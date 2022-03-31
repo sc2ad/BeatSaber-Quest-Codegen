@@ -98,19 +98,19 @@ namespace System {
     // Get instance field reference: System.Exception m_innerException
     ::System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Boolean canMethodThrow)
-    // Offset: 0x1918690
+    // Offset: 0x1921BD8
     void Init(bool canMethodThrow);
     // System.Void SetFailure(System.Exception unhandledException)
-    // Offset: 0x19194E4
+    // Offset: 0x1922A2C
     void SetFailure(::System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureParameter)
-    // Offset: 0x1918EE8
+    // Offset: 0x1922430
     void SetFailure(::System::Enum::ParseFailureKind failure, ::StringW failureParameter);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x1918F60
+    // Offset: 0x19224A8
     void SetFailure(::System::Enum::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
-    // Offset: 0x1918D80
+    // Offset: 0x19222C8
     ::System::Exception* GetEnumParseException();
   }; // System.Enum/System.EnumResult
   #pragma pack(pop)

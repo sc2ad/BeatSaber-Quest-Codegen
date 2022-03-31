@@ -98,34 +98,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()
-    // Offset: 0x13C6C9C
+    // Offset: 0x137C3AC
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13C6CA8
+    // Offset: 0x137C3B8
     void set_color(::UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x13C6B54
+    // Offset: 0x137C264
     void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x13C6BF8
+    // Offset: 0x137C308
     void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // protected System.Void Awake()
-    // Offset: 0x13C6EA8
+    // Offset: 0x137C5B8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C6FAC
+    // Offset: 0x137C6BC
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x13C7180
+    // Offset: 0x137C890
     void HandleSliderColorDidChange(::HMUI::ColorGradientSlider* slider, ::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x13C6E50
+    // Offset: 0x137C560
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x13C6CD4
+    // Offset: 0x137C3E4
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x13C7224
+    // Offset: 0x137C934
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

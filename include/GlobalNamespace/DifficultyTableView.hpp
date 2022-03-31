@@ -134,40 +134,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmap[] _difficultyBeatmaps
     ::ArrayW<::GlobalNamespace::IDifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public System.Void add_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0x141BDA4
+    // Offset: 0x140EF5C
     void add_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void remove_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0x141BE48
+    // Offset: 0x140F000
     void remove_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void Init(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x141BEEC
+    // Offset: 0x140F0A4
     void Init(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
     // public System.Void SetDifficultyBeatmaps(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x141BFDC
+    // Offset: 0x140F194
     void SetDifficultyBeatmaps(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
     // public System.Single CellSize()
-    // Offset: 0x141C004
+    // Offset: 0x140F1BC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x141C00C
+    // Offset: 0x140F1C4
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x141C02C
+    // Offset: 0x140F1E4
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x141C394
+    // Offset: 0x140F54C
     void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
     // public System.Void SelectRow(System.Int32 row, System.Boolean callbackTable)
-    // Offset: 0x141C43C
+    // Offset: 0x140F5F4
     void SelectRow(int row, bool callbackTable);
     // public System.Void SelectRow(IDifficultyBeatmap difficultyBeatmap, System.Boolean callbackTable)
-    // Offset: 0x141C45C
+    // Offset: 0x140F614
     void SelectRow(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool callbackTable);
     // public System.Void ClearSelection()
-    // Offset: 0x141C4EC
+    // Offset: 0x140F6A4
     void ClearSelection();
     // public System.Void .ctor()
-    // Offset: 0x141C508
+    // Offset: 0x140F6C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

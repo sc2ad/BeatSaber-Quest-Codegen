@@ -36,46 +36,46 @@ namespace GlobalNamespace {
   class IReadonlyCutScoreBuffer {
     public:
     // public System.Int32 get_maxPossibleCutScore()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_maxPossibleCutScore();
     // public System.Int32 get_cutScore()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_cutScore();
     // public System.Int32 get_beforeCutScore()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_beforeCutScore();
     // public System.Int32 get_centerDistanceCutScore()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_centerDistanceCutScore();
     // public System.Int32 get_afterCutScore()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_afterCutScore();
     // public System.Boolean get_isFinished()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isFinished();
     // public ScoreModel/NoteScoreDefinition get_noteScoreDefinition()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ScoreModel::NoteScoreDefinition* get_noteScoreDefinition();
     // public NoteCutInfo get_noteCutInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteCutInfo get_noteCutInfo();
     // public System.Single get_beforeCutSwingRating()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_beforeCutSwingRating();
     // public System.Single get_afterCutSwingRating()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_afterCutSwingRating();
     // public System.Void RegisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
   }; // IReadonlyCutScoreBuffer
   #pragma pack(pop)

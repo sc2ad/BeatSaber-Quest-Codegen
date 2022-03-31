@@ -33,28 +33,28 @@ namespace GlobalNamespace {
   class SteamVR_Events::Event_1 : public ::UnityEngine::Events::UnityEvent_1<T> {
     public:
     // public System.Void Listen(UnityEngine.Events.UnityAction`1<T> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Listen(::UnityEngine::Events::UnityAction_1<T>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_1::Listen");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Listen", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, action);
     }
     // public System.Void Remove(UnityEngine.Events.UnityAction`1<T> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Remove(::UnityEngine::Events::UnityAction_1<T>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_1::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, action);
     }
     // public System.Void Send(T arg0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Send(T arg0) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_1::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, arg0);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

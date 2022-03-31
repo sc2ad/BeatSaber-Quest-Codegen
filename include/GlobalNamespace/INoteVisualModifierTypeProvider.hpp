@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class INoteVisualModifierTypeProvider {
     public:
     // public NoteVisualModifierType get_noteVisualModifierType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
   }; // INoteVisualModifierTypeProvider
   #pragma pack(pop)

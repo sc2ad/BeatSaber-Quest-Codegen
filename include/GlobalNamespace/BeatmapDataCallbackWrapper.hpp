@@ -77,14 +77,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32[] subtypeIdentifiers
     ::ArrayW<int>& dyn_subtypeIdentifiers();
     // protected System.Void .ctor(System.Single aheadTime, System.Type BasicBeatmapEventType, params System.Int32[] subtypeIdentifiers)
-    // Offset: 0x1376F3C
+    // Offset: 0x1368C38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataCallbackWrapper* New_ctor(float aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int> subtypeIdentifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataCallbackWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataCallbackWrapper*, creationType>(aheadTime, BasicBeatmapEventType, subtypeIdentifiers)));
     }
     // public System.Void CallCallback(BeatmapDataItem beatmapData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void CallCallback(::GlobalNamespace::BeatmapDataItem* beatmapData);
   }; // BeatmapDataCallbackWrapper
   #pragma pack(pop)

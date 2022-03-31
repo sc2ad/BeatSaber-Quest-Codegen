@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> modifiers
     ::System::Collections::Generic::List_1<::StringW>*& dyn_modifiers();
     // public System.Void .ctor(System.String playerName, System.String playerId, System.String score, System.String leaderboardId, System.String songName, System.String songSubName, System.String authorName, System.String bpm, System.String difficulty, System.String infoHash, System.Collections.Generic.List`1<System.String> modifiers)
-    // Offset: 0x14A5554
+    // Offset: 0x13B7E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardUploadData* New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardUploadData::.ctor");

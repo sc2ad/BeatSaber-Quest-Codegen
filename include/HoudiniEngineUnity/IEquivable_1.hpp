@@ -26,7 +26,7 @@ namespace HoudiniEngineUnity {
   class IEquivable_1 {
     public:
     // public System.Boolean IsEquivalentTo(T other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsEquivalentTo(T other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::IEquivable_1::IsEquivalentTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsEquivalentTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));

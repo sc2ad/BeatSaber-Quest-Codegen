@@ -60,12 +60,12 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObjectCollection items
     ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_items();
     // public override System.Xml.Schema.XmlSchemaObjectCollection get_Items()
-    // Offset: 0x2024024
+    // Offset: 0x20119F8
     // Implemented from: System.Xml.Schema.XmlSchemaGroupBase
     // Base method: System.Xml.Schema.XmlSchemaObjectCollection XmlSchemaGroupBase::get_Items()
     ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
     // public System.Void .ctor()
-    // Offset: 0x2022DE8
+    // Offset: 0x20107BC
     // Implemented from: System.Xml.Schema.XmlSchemaGroupBase
     // Base method: System.Void XmlSchemaGroupBase::.ctor()
     // Base method: System.Void XmlSchemaParticle::.ctor()

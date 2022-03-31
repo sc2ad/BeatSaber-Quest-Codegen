@@ -35,14 +35,14 @@ namespace LiteNetLib::Utils {
   class INetImmutableSerializable_1 {
     public:
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::INetImmutableSerializable_1::Serialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer);
     }
     // public T CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::INetImmutableSerializable_1::CreateFromSerializedData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateFromSerializedData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));

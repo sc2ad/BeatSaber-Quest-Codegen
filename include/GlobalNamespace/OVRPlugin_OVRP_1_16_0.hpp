@@ -33,37 +33,37 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AF955C
+    // Offset: 0x1ADCB94
     static void _cctor();
     // static public OVRPlugin/Result ovrp_UpdateCameraDevices()
-    // Offset: 0x1AF9020
+    // Offset: 0x1ADC658
     static ::GlobalNamespace::OVRPlugin::Result ovrp_UpdateCameraDevices();
     // static public OVRPlugin/Bool ovrp_IsCameraDeviceAvailable(OVRPlugin/CameraDevice cameraDevice)
-    // Offset: 0x1AF9094
+    // Offset: 0x1ADC6CC
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_IsCameraDeviceAvailable(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice);
     // static public OVRPlugin/Result ovrp_SetCameraDevicePreferredColorFrameSize(OVRPlugin/CameraDevice cameraDevice, OVRPlugin/Sizei preferredColorFrameSize)
-    // Offset: 0x1AF9114
+    // Offset: 0x1ADC74C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetCameraDevicePreferredColorFrameSize(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice, ::GlobalNamespace::OVRPlugin::Sizei preferredColorFrameSize);
     // static public OVRPlugin/Result ovrp_OpenCameraDevice(OVRPlugin/CameraDevice cameraDevice)
-    // Offset: 0x1AF91A4
+    // Offset: 0x1ADC7DC
     static ::GlobalNamespace::OVRPlugin::Result ovrp_OpenCameraDevice(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice);
     // static public OVRPlugin/Result ovrp_CloseCameraDevice(OVRPlugin/CameraDevice cameraDevice)
-    // Offset: 0x1AF9224
+    // Offset: 0x1ADC85C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_CloseCameraDevice(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice);
     // static public OVRPlugin/Bool ovrp_HasCameraDeviceOpened(OVRPlugin/CameraDevice cameraDevice)
-    // Offset: 0x1AF92A4
+    // Offset: 0x1ADC8DC
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_HasCameraDeviceOpened(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice);
     // static public OVRPlugin/Bool ovrp_IsCameraDeviceColorFrameAvailable(OVRPlugin/CameraDevice cameraDevice)
-    // Offset: 0x1AF9324
+    // Offset: 0x1ADC95C
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_IsCameraDeviceColorFrameAvailable(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice);
     // static public OVRPlugin/Result ovrp_GetCameraDeviceColorFrameSize(OVRPlugin/CameraDevice cameraDevice, out OVRPlugin/Sizei colorFrameSize)
-    // Offset: 0x1AF93A4
+    // Offset: 0x1ADC9DC
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetCameraDeviceColorFrameSize(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice, ByRef<::GlobalNamespace::OVRPlugin::Sizei> colorFrameSize);
     // static public OVRPlugin/Result ovrp_GetCameraDeviceColorFrameBgraPixels(OVRPlugin/CameraDevice cameraDevice, out System.IntPtr colorFrameBgraPixels, out System.Int32 colorFrameRowPitch)
-    // Offset: 0x1AF9434
+    // Offset: 0x1ADCA6C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetCameraDeviceColorFrameBgraPixels(::GlobalNamespace::OVRPlugin::CameraDevice cameraDevice, ByRef<::System::IntPtr> colorFrameBgraPixels, ByRef<int> colorFrameRowPitch);
     // static public OVRPlugin/Result ovrp_GetControllerState4(System.UInt32 controllerMask, ref OVRPlugin/ControllerState4 controllerState)
-    // Offset: 0x1AF94CC
+    // Offset: 0x1ADCB04
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetControllerState4(uint controllerMask, ByRef<::GlobalNamespace::OVRPlugin::ControllerState4> controllerState);
   }; // OVRPlugin/OVRP_1_16_0
   #pragma pack(pop)

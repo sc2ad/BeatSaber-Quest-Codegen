@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public EncryptionUtility/IEncryptionState encryptionState
     ::GlobalNamespace::EncryptionUtility::IEncryptionState*& dyn_encryptionState();
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x2607378
+    // Offset: 0x25E7838
     bool $Remove$b__0(::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x2607248
+    // Offset: 0x25E7708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

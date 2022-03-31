@@ -29,13 +29,13 @@ namespace Newtonsoft::Json::Converters {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
     }
     // public System.Boolean get_IsEmpty()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsEmpty();
     // public System.Void SetAttributeNode(Newtonsoft.Json.Converters.IXmlNode attribute)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
     // public System.String GetPrefixOfNamespace(System.String namespaceUri)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
   }; // Newtonsoft.Json.Converters.IXmlElement
   #pragma pack(pop)

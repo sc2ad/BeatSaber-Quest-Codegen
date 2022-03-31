@@ -81,7 +81,7 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean apply
     bool& dyn_apply();
     // public System.Void .ctor()
-    // Offset: 0x1FE444C
+    // Offset: 0x1FB6768
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

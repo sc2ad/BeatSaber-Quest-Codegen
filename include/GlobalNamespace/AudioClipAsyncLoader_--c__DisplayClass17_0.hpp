@@ -65,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String audioClipFilePath
     ::StringW& dyn_audioClipFilePath();
     // System.Threading.Tasks.Task`1<UnityEngine.AudioClip> <Load>b__0()
-    // Offset: 0x14BE940
+    // Offset: 0x14B82F8
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* $Load$b__0();
     // public System.Void .ctor()
-    // Offset: 0x14BE4D0
+    // Offset: 0x14B7E88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

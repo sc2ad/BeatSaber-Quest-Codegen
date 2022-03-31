@@ -74,26 +74,26 @@ namespace Newtonsoft::Json::Linq {
     // Get instance field reference: public Newtonsoft.Json.Linq.JProperty/Newtonsoft.Json.Linq.JPropertyList <>4__this
     ::Newtonsoft::Json::Linq::JProperty::JPropertyList*& dyn_$$4__this();
     // private Newtonsoft.Json.Linq.JToken System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current()
-    // Offset: 0x172019C
+    // Offset: 0x171708C
     ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator$Newtonsoft_Json_Linq_JToken$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1720204
+    // Offset: 0x17170F4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x171FFF4
+    // Offset: 0x1716EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JProperty::JPropertyList::$GetEnumerator$d__1* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JProperty::JPropertyList::$GetEnumerator$d__1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JProperty::JPropertyList::$GetEnumerator$d__1*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1720138
+    // Offset: 0x1717028
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x172013C
+    // Offset: 0x171702C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x17201A4
+    // Offset: 0x1717094
     void System_Collections_IEnumerator_Reset();
   }; // Newtonsoft.Json.Linq.JProperty/Newtonsoft.Json.Linq.JPropertyList/Newtonsoft.Json.Linq.<GetEnumerator>d__1
   #pragma pack(pop)

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B9E60
+    // [InjectAttribute] Offset: 0x12543D4
     // private readonly QuickPlaySetupData _quickPlaySetupData
     // Size: 0x8
     // Offset: 0x10
@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly QuickPlaySetupData _quickPlaySetupData
     ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
     // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1441AC4
+    // Offset: 0x13C9B28
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1441B38
+    // Offset: 0x13C9B9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -182,55 +182,55 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Xml.Schema.SchemaNotation> notations
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>*& dyn_notations();
     // public System.Void set_DocTypeName(System.Xml.XmlQualifiedName value)
-    // Offset: 0x1C439B0
+    // Offset: 0x1C29E80
     void set_DocTypeName(::System::Xml::XmlQualifiedName* value);
     // System.Void set_InternalDtdSubset(System.String value)
-    // Offset: 0x1C439B8
+    // Offset: 0x1C29E88
     void set_InternalDtdSubset(::StringW value);
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> get_ElementDecls()
-    // Offset: 0x1C439C0
+    // Offset: 0x1C29E90
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_ElementDecls();
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> get_UndeclaredElementDecls()
-    // Offset: 0x1C439C8
+    // Offset: 0x1C29E98
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_UndeclaredElementDecls();
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> get_GeneralEntities()
-    // Offset: 0x1C439D0
+    // Offset: 0x1C29EA0
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_GeneralEntities();
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> get_ParameterEntities()
-    // Offset: 0x1C43A44
+    // Offset: 0x1C29F14
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_ParameterEntities();
     // System.Xml.Schema.SchemaType get_SchemaType()
-    // Offset: 0x1C43AB8
+    // Offset: 0x1C29F88
     ::System::Xml::Schema::SchemaType get_SchemaType();
     // System.Void set_SchemaType(System.Xml.Schema.SchemaType value)
-    // Offset: 0x1C43AC0
+    // Offset: 0x1C29F90
     void set_SchemaType(::System::Xml::Schema::SchemaType value);
     // System.Collections.Generic.Dictionary`2<System.String,System.Xml.Schema.SchemaNotation> get_Notations()
-    // Offset: 0x1C43AC8
+    // Offset: 0x1C29F98
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* get_Notations();
     // private System.Boolean System.Xml.IDtdInfo.get_HasDefaultAttributes()
-    // Offset: 0x1C43CC4
+    // Offset: 0x1C2A194
     bool System_Xml_IDtdInfo_get_HasDefaultAttributes();
     // private System.Boolean System.Xml.IDtdInfo.get_HasNonCDataAttributes()
-    // Offset: 0x1C43CCC
+    // Offset: 0x1C2A19C
     bool System_Xml_IDtdInfo_get_HasNonCDataAttributes();
     // private System.Xml.XmlQualifiedName System.Xml.IDtdInfo.get_Name()
-    // Offset: 0x1C43E48
+    // Offset: 0x1C2A318
     ::System::Xml::XmlQualifiedName* System_Xml_IDtdInfo_get_Name();
     // private System.String System.Xml.IDtdInfo.get_InternalDtdSubset()
-    // Offset: 0x1C43E50
+    // Offset: 0x1C2A320
     ::StringW System_Xml_IDtdInfo_get_InternalDtdSubset();
     // System.Void Finish()
-    // Offset: 0x1C43B3C
+    // Offset: 0x1C2A00C
     void Finish();
     // private System.Xml.IDtdAttributeListInfo System.Xml.IDtdInfo.LookupAttributeList(System.String prefix, System.String localName)
-    // Offset: 0x1C43CD4
+    // Offset: 0x1C2A1A4
     ::System::Xml::IDtdAttributeListInfo* System_Xml_IDtdInfo_LookupAttributeList(::StringW prefix, ::StringW localName);
     // private System.Xml.IDtdEntityInfo System.Xml.IDtdInfo.LookupEntity(System.String name)
-    // Offset: 0x1C43D98
+    // Offset: 0x1C2A268
     ::System::Xml::IDtdEntityInfo* System_Xml_IDtdInfo_LookupEntity(::StringW name);
     // System.Void .ctor()
-    // Offset: 0x1C43868
+    // Offset: 0x1C29D38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

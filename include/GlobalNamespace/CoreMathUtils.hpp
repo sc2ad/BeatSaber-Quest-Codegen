@@ -35,16 +35,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kHalfJumpDistanceEpsilon
     static void _set_kHalfJumpDistanceEpsilon(float value);
     // static public System.Single CalculateHalfJumpDurationInBeats(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x2ACC518
+    // Offset: 0x2A9B4EC
     static float CalculateHalfJumpDurationInBeats(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
     // static public System.Single __CalculateHalfJumpDurationInBeatsV2(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x2ACC558
+    // Offset: 0x2A9B52C
     static float __CalculateHalfJumpDurationInBeatsV2(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
     // static public System.Int32 __CalculateHalfJumpDurationInBeatsV1(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single minHalfJumpDistance)
-    // Offset: 0x2ACC58C
+    // Offset: 0x2A9B560
     static int __CalculateHalfJumpDurationInBeatsV1(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float minHalfJumpDistance);
     // public System.Void .ctor()
-    // Offset: 0x2ACC5D8
+    // Offset: 0x2A9B5AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

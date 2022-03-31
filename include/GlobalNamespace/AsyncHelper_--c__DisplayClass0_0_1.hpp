@@ -126,14 +126,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private System.Void MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1::$$RunSync$b__0$d::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1::$$RunSync$b__0$d::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
@@ -178,14 +178,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Func_1<::System::Threading::Tasks::Task_1<T>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Threading.Tasks.Task <RunSync>b__0()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task* $RunSync$b__0() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1::<RunSync>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RunSync>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

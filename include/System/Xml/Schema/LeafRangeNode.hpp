@@ -72,16 +72,16 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.BitSet nextIteration
     ::System::Xml::Schema::BitSet*& dyn_nextIteration();
     // public System.Decimal get_Max()
-    // Offset: 0x1C3D754
+    // Offset: 0x1C23C24
     ::System::Decimal get_Max();
     // public System.Decimal get_Min()
-    // Offset: 0x1C3D764
+    // Offset: 0x1C23C34
     ::System::Decimal get_Min();
     // public System.Xml.Schema.BitSet get_NextIteration()
-    // Offset: 0x1C3D774
+    // Offset: 0x1C23C44
     ::System::Xml::Schema::BitSet* get_NextIteration();
     // public System.Void set_NextIteration(System.Xml.Schema.BitSet value)
-    // Offset: 0x1C3D77C
+    // Offset: 0x1C23C4C
     void set_NextIteration(::System::Xml::Schema::BitSet* value);
   }; // System.Xml.Schema.LeafRangeNode
   #pragma pack(pop)

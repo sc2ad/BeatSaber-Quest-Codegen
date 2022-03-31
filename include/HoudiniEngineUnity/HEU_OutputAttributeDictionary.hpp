@@ -36,7 +36,7 @@ namespace HoudiniEngineUnity {
   class HEU_OutputAttributeDictionary : public ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW, ::HoudiniEngineUnity::HEU_OutputAttribute*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1AC9EE0
+    // Offset: 0x1AAE518
     // Implemented from: HoudiniEngineUnity.HEU_SerializableDictionary`2
     // Base method: System.Void HEU_SerializableDictionary_2::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -23,13 +23,13 @@ namespace Oculus::Platform {
   class IMicrophone {
     public:
     // public System.Void Start()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Start();
     // public System.Void Stop()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Stop();
     // public System.Single[] Update()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<float> Update();
   }; // Oculus.Platform.IMicrophone
   #pragma pack(pop)

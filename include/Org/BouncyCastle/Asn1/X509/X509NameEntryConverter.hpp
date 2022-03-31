@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class X509NameEntryConverter : public ::Il2CppObject {
     public:
     // public Org.BouncyCastle.Asn1.Asn1Object GetConvertedValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
   }; // Org.BouncyCastle.Asn1.X509.X509NameEntryConverter
   #pragma pack(pop)

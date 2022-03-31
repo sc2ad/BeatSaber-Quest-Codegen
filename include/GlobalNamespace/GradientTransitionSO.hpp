@@ -147,43 +147,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSO _selectedAndHighlightedColor2
     ::GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor2();
     // public UnityEngine.Color get_normalColor1()
-    // Offset: 0x1323F28
+    // Offset: 0x13EAB74
     ::UnityEngine::Color get_normalColor1();
     // public UnityEngine.Color get_normalColor2()
-    // Offset: 0x1323F34
+    // Offset: 0x13EAB80
     ::UnityEngine::Color get_normalColor2();
     // public UnityEngine.Color get_highlightColor1()
-    // Offset: 0x13241A4
+    // Offset: 0x13EADF0
     ::UnityEngine::Color get_highlightColor1();
     // public UnityEngine.Color get_highlightColor2()
-    // Offset: 0x13241B0
+    // Offset: 0x13EADFC
     ::UnityEngine::Color get_highlightColor2();
     // public UnityEngine.Color get_pressedColor1()
-    // Offset: 0x1324248
+    // Offset: 0x13EAE94
     ::UnityEngine::Color get_pressedColor1();
     // public UnityEngine.Color get_pressedColor2()
-    // Offset: 0x1324254
+    // Offset: 0x13EAEA0
     ::UnityEngine::Color get_pressedColor2();
     // public UnityEngine.Color get_disabledColor1()
-    // Offset: 0x13242EC
+    // Offset: 0x13EAF38
     ::UnityEngine::Color get_disabledColor1();
     // public UnityEngine.Color get_disabledColor2()
-    // Offset: 0x13242F8
+    // Offset: 0x13EAF44
     ::UnityEngine::Color get_disabledColor2();
     // public UnityEngine.Color get_selectedColor1()
-    // Offset: 0x1324390
+    // Offset: 0x13EAFDC
     ::UnityEngine::Color get_selectedColor1();
     // public UnityEngine.Color get_selectedColor2()
-    // Offset: 0x132439C
+    // Offset: 0x13EAFE8
     ::UnityEngine::Color get_selectedColor2();
     // public UnityEngine.Color get_selectedAndHighlightedColor1()
-    // Offset: 0x1324434
+    // Offset: 0x13EB080
     ::UnityEngine::Color get_selectedAndHighlightedColor1();
     // public UnityEngine.Color get_selectedAndHighlightedColor2()
-    // Offset: 0x1324440
+    // Offset: 0x13EB08C
     ::UnityEngine::Color get_selectedAndHighlightedColor2();
     // public System.Void .ctor()
-    // Offset: 0x1324B7C
+    // Offset: 0x13EB7C8
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

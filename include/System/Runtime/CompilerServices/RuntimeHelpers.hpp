@@ -38,22 +38,22 @@ namespace System::Runtime::CompilerServices {
   class RuntimeHelpers : public ::Il2CppObject {
     public:
     // static public System.Int32 get_OffsetToStringData()
-    // Offset: 0x1D66028
+    // Offset: 0x1D494F8
     static int get_OffsetToStringData();
     // static private System.Void InitializeArray(System.Array array, System.IntPtr fldHandle)
-    // Offset: 0x1D65F88
+    // Offset: 0x1D49458
     static void InitializeArray(::System::Array* array, ::System::IntPtr fldHandle);
     // static public System.Void InitializeArray(System.Array array, System.RuntimeFieldHandle fldHandle)
-    // Offset: 0x1D65F8C
+    // Offset: 0x1D4945C
     static void InitializeArray(::System::Array* array, ::System::RuntimeFieldHandle fldHandle);
     // static public System.Int32 GetHashCode(System.Object o)
-    // Offset: 0x1D6602C
+    // Offset: 0x1D494FC
     static int GetHashCode(::Il2CppObject* o);
     // static public System.Void PrepareConstrainedRegions()
-    // Offset: 0x1D66034
+    // Offset: 0x1D49504
     static void PrepareConstrainedRegions();
     // static public System.Boolean IsReferenceOrContainsReferences()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool IsReferenceOrContainsReferences() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::RuntimeHelpers::IsReferenceOrContainsReferences");

@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
   class IMaskable {
     public:
     // public System.Void RecalculateMasking()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RecalculateMasking();
   }; // UnityEngine.UI.IMaskable
   #pragma pack(pop)

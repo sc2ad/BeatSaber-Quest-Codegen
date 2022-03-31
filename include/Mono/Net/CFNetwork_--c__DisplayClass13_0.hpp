@@ -66,10 +66,10 @@ namespace Mono::Net {
     // Get instance field reference: public Mono.Net.CFRunLoop runLoop
     ::Mono::Net::CFRunLoop*& dyn_runLoop();
     // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x1AB613C
+    // Offset: 0x1A99774
     void $ExecuteProxyAutoConfigurationURL$b__0(::System::IntPtr client, ::System::IntPtr proxyList, ::System::IntPtr error);
     // public System.Void .ctor()
-    // Offset: 0x1AB58E0
+    // Offset: 0x1A98F18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

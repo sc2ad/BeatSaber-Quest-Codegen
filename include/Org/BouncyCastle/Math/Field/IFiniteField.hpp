@@ -29,10 +29,10 @@ namespace Org::BouncyCastle::Math::Field {
   class IFiniteField {
     public:
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Dimension();
   }; // Org.BouncyCastle.Math.Field.IFiniteField
   #pragma pack(pop)

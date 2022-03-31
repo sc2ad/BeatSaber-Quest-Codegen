@@ -121,28 +121,28 @@ namespace GlobalNamespace {
         return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // public T get_currentValue()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       T get_currentValue() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::HeapItem::get_currentValue");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_currentValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
       }
       // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<T> dataList)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename MultipleSortedListsEnumerator_1<T>::HeapItem* New_ctor(::System::Collections::Generic::IReadOnlyList_1<T>* dataList) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::HeapItem::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename MultipleSortedListsEnumerator_1<T>::HeapItem*, creationType>(dataList)));
       }
       // public System.Boolean MoveToNextItem()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool MoveToNextItem() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::HeapItem::MoveToNextItem");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveToNextItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // public System.Int32 CompareTo(MultipleSortedListsEnumerator`1/HeapItem<T> heapItem)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       int CompareTo(typename ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>::HeapItem* heapItem) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::HeapItem::CompareTo");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompareTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(heapItem)})));
@@ -228,42 +228,42 @@ namespace GlobalNamespace {
         return *reinterpret_cast<typename ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>::HeapItem**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private T System.Collections.Generic.IEnumerator<T>.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       T System_Collections_Generic_IEnumerator$T$_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::$GetEnumerator$d__4::System.Collections.Generic.IEnumerator<T>.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<T>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::$GetEnumerator$d__4::System.Collections.IEnumerator.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // public System.Void .ctor(System.Int32 <>1__state)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename MultipleSortedListsEnumerator_1<T>::$GetEnumerator$d__4* New_ctor(int $$1__state) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::$GetEnumerator$d__4::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename MultipleSortedListsEnumerator_1<T>::$GetEnumerator$d__4*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::$GetEnumerator$d__4::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Boolean MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::$GetEnumerator$d__4::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::$GetEnumerator$d__4::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
@@ -304,21 +304,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::BinaryHeap_1<typename ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>::HeapItem*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(params System.Collections.Generic.IReadOnlyList`1<T>[] dataList)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultipleSortedListsEnumerator_1<T>* New_ctor(::ArrayW<::System::Collections::Generic::IReadOnlyList_1<T>*> dataList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultipleSortedListsEnumerator_1<T>*, creationType>(dataList)));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::System.Collections.IEnumerable.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultipleSortedListsEnumerator_1::GetEnumerator");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

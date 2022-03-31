@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameServerLobbyFlowCoordinator/<>c__DisplayClass70_0 CS$<>8__locals1
     ::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0*& dyn_CS$$$8__locals1();
     // System.Void <Finish>b__0()
-    // Offset: 0x1317E90
+    // Offset: 0x13DEB64
     void $Finish$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1317E88
+    // Offset: 0x13DBEF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

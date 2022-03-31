@@ -64,16 +64,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didRefreshContentEvent
     ::System::Action*& dyn_didRefreshContentEvent();
     // public System.Int32 get_groupId()
-    // Offset: 0x1F159E0
+    // Offset: 0x2AD1AC8
     int get_groupId();
     // public System.Void add_didRefreshContentEvent(System.Action value)
-    // Offset: 0x1F15898
+    // Offset: 0x2AD1980
     void add_didRefreshContentEvent(::System::Action* value);
     // public System.Void remove_didRefreshContentEvent(System.Action value)
-    // Offset: 0x1F1593C
+    // Offset: 0x2AD1A24
     void remove_didRefreshContentEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1F159E8
+    // Offset: 0x2AD1AD0
     // Implemented from: LightIdsRange
     // Base method: System.Void LightIdsRange::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

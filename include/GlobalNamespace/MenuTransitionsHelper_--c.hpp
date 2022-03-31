@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Action <>9__23_0
     static void _set_$$9__23_0(::System::Action* value);
     // static private System.Void .cctor()
-    // Offset: 0x132BB10
+    // Offset: 0x13012C4
     static void _cctor();
     // System.Void <StartBeatmapEditor>b__23_0()
-    // Offset: 0x132BB7C
+    // Offset: 0x1301330
     void $StartBeatmapEditor$b__23_0();
     // public System.Void .ctor()
-    // Offset: 0x132BB74
+    // Offset: 0x1301328
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

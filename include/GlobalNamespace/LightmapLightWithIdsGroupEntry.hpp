@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LightmapLightWithIds* lightmapLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LightmapLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x109D970
+    // [SpaceAttribute] Offset: 0x1238864
     // private LightmapLightWithIdsGroupEntry/GroupLightData[] _groupLightData
     // Size: 0x8
     // Offset: 0x20
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> excludedLightIds;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x109D9C8
+    // [SpaceAttribute] Offset: 0x12388BC
     // private LightmapLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     // Size: 0x4
     // Offset: 0x38
@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightmapLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     ::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
     // public System.Void .ctor()
-    // Offset: 0x1F17FB4
+    // Offset: 0x2AD41D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

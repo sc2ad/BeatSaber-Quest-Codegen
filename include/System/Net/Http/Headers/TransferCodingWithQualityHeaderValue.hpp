@@ -45,13 +45,13 @@ namespace System::Net::Http::Headers {
   class TransferCodingWithQualityHeaderValue : public ::System::Net::Http::Headers::TransferCodingHeaderValue {
     public:
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingWithQualityHeaderValue> result)
-    // Offset: 0x196B600
+    // Offset: 0x19614EC
     static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.TransferCodingWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x196B6A0
+    // Offset: 0x196158C
     static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x196B5F8
+    // Offset: 0x19614E4
     // Implemented from: System.Net.Http.Headers.TransferCodingHeaderValue
     // Base method: System.Void TransferCodingHeaderValue::.ctor()
     // Base method: System.Void Object::.ctor()

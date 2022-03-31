@@ -55,13 +55,13 @@ namespace System::Net::Sockets {
     // Get instance field reference: private System.Int32 lingerTime
     int& dyn_lingerTime();
     // public System.Void set_Enabled(System.Boolean value)
-    // Offset: 0x1B51FD8
+    // Offset: 0x1B364A8
     void set_Enabled(bool value);
     // public System.Void set_LingerTime(System.Int32 value)
-    // Offset: 0x1B51FE4
+    // Offset: 0x1B364B4
     void set_LingerTime(int value);
     // public System.Void .ctor(System.Boolean enable, System.Int32 seconds)
-    // Offset: 0x1B51F98
+    // Offset: 0x1B36468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LingerOption* New_ctor(bool enable, int seconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::LingerOption::.ctor");

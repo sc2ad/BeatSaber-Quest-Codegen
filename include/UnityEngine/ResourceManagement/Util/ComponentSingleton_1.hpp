@@ -43,56 +43,56 @@ namespace UnityEngine::ResourceManagement::Util {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "s_Instance", value));
     }
     // static public System.Boolean get_Exists()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static bool get_Exists() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::get_Exists");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "get_Exists", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static public T get_Instance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static T get_Instance() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::get_Instance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "get_Instance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static private T FindInstance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static T FindInstance() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::FindInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "FindInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // protected System.String GetGameObjectName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetGameObjectName() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::GetGameObjectName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetGameObjectName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // static private T CreateNewSingleton()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static T CreateNewSingleton() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::CreateNewSingleton");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "CreateNewSingleton", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // private System.Void Awake()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Awake() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::Awake");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // static public System.Void DestroySingleton()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void DestroySingleton() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::ComponentSingleton_1::DestroySingleton");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ComponentSingleton_1<T>*>::get(), "DestroySingleton", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

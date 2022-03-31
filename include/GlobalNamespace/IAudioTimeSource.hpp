@@ -22,19 +22,19 @@ namespace GlobalNamespace {
   class IAudioTimeSource {
     public:
     // public System.Single get_songTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_songTime();
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_lastFrameDeltaSongTime();
     // public System.Single get_songEndTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_songEndTime();
     // public System.Single get_songLength()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isReady();
   }; // IAudioTimeSource
   #pragma pack(pop)

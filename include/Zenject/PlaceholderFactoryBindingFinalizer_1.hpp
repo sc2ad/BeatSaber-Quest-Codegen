@@ -67,14 +67,14 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::FactoryBindInfo**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaceholderFactoryBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PlaceholderFactoryBindingFinalizer_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaceholderFactoryBindingFinalizer_1<TContract>*, creationType>(bindInfo, factoryBindInfo)));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(::Zenject::DiContainer* container) {

@@ -45,22 +45,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   class IResourceProvider {
     public:
     // public System.String get_ProviderId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_ProviderId();
     // public UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags get_BehaviourFlags()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags get_BehaviourFlags();
     // public System.Type GetDefaultType(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Boolean CanProvide(System.Type type, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool CanProvide(::System::Type* type, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void Provide(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // public System.Void Release(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Object asset)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::Il2CppObject* asset);
   }; // UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider
   #pragma pack(pop)

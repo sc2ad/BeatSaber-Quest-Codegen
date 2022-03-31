@@ -111,28 +111,28 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationCurve* fadeOutLightAmountCurve;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B7A6C
+    // [InjectAttribute] Offset: 0x1251F40
     // private readonly SpawnRotationChevron/Pool _chevronPool
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::SpawnRotationChevron::Pool* chevronPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SpawnRotationChevron::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B7A7C
+    // [InjectAttribute] Offset: 0x1251F50
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B7A8C
+    // [InjectAttribute] Offset: 0x1251F60
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B7A9C
+    // [InjectAttribute] Offset: 0x1251F70
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x50
@@ -227,28 +227,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentSpawnRotation
     float& dyn__currentSpawnRotation();
     // protected System.Void Start()
-    // Offset: 0x13EF1E0
+    // Offset: 0x2AAA474
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13EF418
+    // Offset: 0x2AAA6AC
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x13EFDF8
+    // Offset: 0x2AAB08C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x13EFEF4
+    // Offset: 0x2AAB188
     void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x13F01BC
+    // Offset: 0x2AAB450
     void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
     // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
-    // Offset: 0x13EF300
+    // Offset: 0x2AAA594
     void HandleBeatmapObjectSpawnControllerDidInit();
     // private System.Single ComputeAheadTime()
-    // Offset: 0x13F01D8
+    // Offset: 0x2AAB46C
     float ComputeAheadTime();
     // public System.Void .ctor()
-    // Offset: 0x13F0240
+    // Offset: 0x2AAB4D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

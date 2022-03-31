@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapLineData {
     public:
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> get_beatmapObjectsData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
   }; // IReadonlyBeatmapLineData
   #pragma pack(pop)

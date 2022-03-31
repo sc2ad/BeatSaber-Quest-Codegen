@@ -61,34 +61,34 @@ namespace MasterServer {
   class IMasterServer {
     public:
     // public System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool ShouldHandleMessageFromEndPoint(::System::Net::IPEndPoint* remoteEndPoint);
     // public System.Void ReportExceptionForEndPoint(System.Net.IPEndPoint remoteEndPoint, System.Exception exception)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ReportExceptionForEndPoint(::System::Net::IPEndPoint* remoteEndPoint, ::System::Exception* exception);
     // public System.Threading.Tasks.Task`1<System.Boolean> TryAuthenticateUser(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, AuthenticationToken authenticationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<bool>* TryAuthenticateUser(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::GlobalNamespace::AuthenticationToken authenticationToken);
     // public System.Threading.Tasks.Task`1<MasterServer.ConnectToServerResponse> ConnectToServer(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Byte[] random, System.Byte[] publicKey, System.String secret, System.String code)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::MasterServer::ConnectToServerResponse*>* ConnectToServer(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::StringW userId, ::StringW userName, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::StringW secret, ::StringW code);
     // public System.Threading.Tasks.Task`1<MasterServer.GetPublicServersResponse> GetPublicServers(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String userId, System.String userName, System.Int32 skip, System.Int32 count, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::MasterServer::GetPublicServersResponse*>* GetPublicServers(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::StringW userId, ::StringW userName, int skip, int count, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Boolean TryAuthenticateDedicatedServer(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String id, System.Byte[] nonce, System.Byte[] hash, System.Int64 timestamp)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryAuthenticateDedicatedServer(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::StringW id, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> hash, int64_t timestamp);
     // public System.Void HeartbeatDedicatedServer(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint, System.Int32 cpuUtilization, System.Int32 occupiedServerSlotCount, System.Int32 unoccupiedServerSlotCount)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HeartbeatDedicatedServer(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint, int cpuUtilization, int occupiedServerSlotCount, int unoccupiedServerSlotCount);
     // public System.Void UpdateDedicatedServerInstanceStatus(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint, System.String id, GameStateType gameState, System.Int32 currentPlayerCount)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdateDedicatedServerInstanceStatus(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint, ::StringW id, ::GlobalNamespace::GameStateType gameState, int currentPlayerCount);
     // public System.Void SetDedicatedServerInstanceNoLongerOccupied(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint, System.String id)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetDedicatedServerInstanceNoLongerOccupied(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint, ::StringW id);
     // public System.Void RemoveDedicatedServer(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RemoveDedicatedServer(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint);
   }; // MasterServer.IMasterServer
   #pragma pack(pop)

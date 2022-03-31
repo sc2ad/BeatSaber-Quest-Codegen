@@ -22,10 +22,10 @@ namespace GlobalNamespace {
   class IInvitePlatformHandler {
     public:
     // public System.Boolean get_isSupported()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isSupported();
     // public System.Void OpenInvitePanel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OpenInvitePanel();
   }; // IInvitePlatformHandler
   #pragma pack(pop)

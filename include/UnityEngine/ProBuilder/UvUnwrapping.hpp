@@ -59,28 +59,28 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly System.Collections.Generic.List`1<System.Int32> s_IndexBuffer
     static void _set_s_IndexBuffer(::System::Collections::Generic::List_1<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2988838
+    // Offset: 0x29569B0
     static void _cctor();
     // static System.Void Unwrap(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face, UnityEngine.Vector3 projection)
-    // Offset: 0x29872DC
+    // Offset: 0x2955454
     static void Unwrap(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection);
     // static System.Void CopyUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face source, UnityEngine.ProBuilder.Face dest)
-    // Offset: 0x2987CB4
+    // Offset: 0x2955E2C
     static void CopyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* source, ::UnityEngine::ProBuilder::Face* dest);
     // static System.Void ProjectTextureGroup(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 group, UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
-    // Offset: 0x2987DD8
+    // Offset: 0x2955F50
     static void ProjectTextureGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int group, ::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
     // static private System.Void ApplyUVSettings(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.ProBuilder.AutoUnwrapSettings uvSettings)
-    // Offset: 0x2987448
+    // Offset: 0x29555C0
     static void ApplyUVSettings(::ArrayW<::UnityEngine::Vector2> uvs, ::System::Collections::Generic::IList_1<int>* indexes, ::UnityEngine::ProBuilder::AutoUnwrapSettings uvSettings);
     // static private System.Void StretchUVs(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x29881F4
+    // Offset: 0x295636C
     static void StretchUVs(::ArrayW<::UnityEngine::Vector2> uvs, ::System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void FitUVs(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x2987F88
+    // Offset: 0x2956100
     static void FitUVs(::ArrayW<::UnityEngine::Vector2> uvs, ::System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void ApplyUVAnchor(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Anchor anchor)
-    // Offset: 0x2988428
+    // Offset: 0x29565A0
     static void ApplyUVAnchor(::ArrayW<::UnityEngine::Vector2> uvs, ::System::Collections::Generic::IList_1<int>* indexes, ::UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor anchor);
   }; // UnityEngine.ProBuilder.UvUnwrapping
   #pragma pack(pop)

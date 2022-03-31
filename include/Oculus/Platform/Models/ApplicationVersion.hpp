@@ -76,7 +76,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String LatestName
     ::StringW& dyn_LatestName();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19B462C
+    // Offset: 0x19AA518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplicationVersion* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::ApplicationVersion::.ctor");

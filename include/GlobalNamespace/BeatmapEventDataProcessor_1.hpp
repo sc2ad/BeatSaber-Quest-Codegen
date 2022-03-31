@@ -48,49 +48,49 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*>(this);
     }
     // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> insertedNode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::ProcessInsertedData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessInsertedData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(insertedNode)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, insertedNode);
     }
     // public System.Void ProcessBeforeDeleteData(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> nodeToDelete)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::ProcessBeforeDeleteData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessBeforeDeleteData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeToDelete)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, nodeToDelete);
     }
     // static private System.Void ProcessBeforeDeleteEventDataCommon(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> nodeToDelete)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void ProcessBeforeDeleteEventDataCommon(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::ProcessBeforeDeleteEventDataCommon");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapEventDataProcessor_1<T>*>::get(), "ProcessBeforeDeleteEventDataCommon", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeToDelete)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, nodeToDelete);
     }
     // static private System.Void ProcessInsertedEventDataCommon(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> insertedNode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void ProcessInsertedEventDataCommon(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::ProcessInsertedEventDataCommon");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapEventDataProcessor_1<T>*>::get(), "ProcessInsertedEventDataCommon", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(insertedNode)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, insertedNode);
     }
     // protected System.Void ProcessInsertedEventDataInternal(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> insertedNode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::ProcessInsertedEventDataInternal");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessInsertedEventDataInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(insertedNode)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, insertedNode);
     }
     // protected System.Void ProcessBeforeDeleteEventDataInternal(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> nodeToDelete)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor_1::ProcessBeforeDeleteEventDataInternal");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessBeforeDeleteEventDataInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeToDelete)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, nodeToDelete);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

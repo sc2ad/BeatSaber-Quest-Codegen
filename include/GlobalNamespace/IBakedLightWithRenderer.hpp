@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class IBakedLightWithRenderer {
     public:
     // public UnityEngine.Material get_bakingMaterial()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Material* get_bakingMaterial();
   }; // IBakedLightWithRenderer
   #pragma pack(pop)

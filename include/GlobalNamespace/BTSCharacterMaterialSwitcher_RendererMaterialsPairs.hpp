@@ -63,13 +63,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs
     ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*& dyn__materialPairs();
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x14C8B40
+    // Offset: 0x14C24F8
     ::UnityEngine::Renderer* get_renderer();
     // public System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> get_materialPairs()
-    // Offset: 0x14C8B48
+    // Offset: 0x14C2500
     ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* get_materialPairs();
     // public System.Void .ctor(UnityEngine.Renderer renderer)
-    // Offset: 0x14C8B50
+    // Offset: 0x14C2508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(::UnityEngine::Renderer* renderer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");

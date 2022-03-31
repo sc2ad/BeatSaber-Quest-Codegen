@@ -22,7 +22,7 @@ namespace Zenject {
   class ILateTickable {
     public:
     // public System.Void LateTick()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LateTick();
   }; // Zenject.ILateTickable
   #pragma pack(pop)

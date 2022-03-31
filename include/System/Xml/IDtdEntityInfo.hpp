@@ -23,40 +23,40 @@ namespace System::Xml {
   class IDtdEntityInfo {
     public:
     // public System.String get_Name()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Name();
     // public System.Boolean get_IsExternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsExternal();
     // public System.Boolean get_IsDeclaredInExternal()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsDeclaredInExternal();
     // public System.Boolean get_IsUnparsedEntity()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsUnparsedEntity();
     // public System.Boolean get_IsParameterEntity()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsParameterEntity();
     // public System.String get_BaseUriString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_BaseUriString();
     // public System.String get_DeclaredUriString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DeclaredUriString();
     // public System.String get_SystemId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_SystemId();
     // public System.String get_PublicId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_PublicId();
     // public System.String get_Text()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Text();
     // public System.Int32 get_LineNumber()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_LineNumber();
     // public System.Int32 get_LinePosition()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_LinePosition();
   }; // System.Xml.IDtdEntityInfo
   #pragma pack(pop)

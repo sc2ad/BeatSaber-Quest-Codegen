@@ -59,28 +59,28 @@ namespace System::Runtime::CompilerServices {
       static constexpr std::string_view NESTED_NAME = "CreateValueCallback";
       static constexpr bool IS_VALUE_TYPE = false;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback*, creationType>(object, method)));
       }
       // public TValue Invoke(TKey key)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       TValue Invoke(TKey key) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
         return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method, key);
       }
       // public System.IAsyncResult BeginInvoke(TKey key, System.AsyncCallback callback, System.Object object)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::IAsyncResult* BeginInvoke(TKey key, ::System::AsyncCallback* callback, ::Il2CppObject* object) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::BeginInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
         return ::il2cpp_utils::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal__method, key, callback, object);
       }
       // public TValue EndInvoke(System.IAsyncResult result)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       TValue EndInvoke(::System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
@@ -189,56 +189,56 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // private System.Void RehashWithoutResize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RehashWithoutResize() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::RehashWithoutResize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RehashWithoutResize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void RecomputeSize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RecomputeSize() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::RecomputeSize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RecomputeSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void Rehash()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Rehash() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::Rehash");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Rehash", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void Add(TKey key, TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Boolean Remove(TKey key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Remove(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Boolean TryGetValue(TKey key, out TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryGetValue(TKey key, ByRef<TValue> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::TryGetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key, byref(value));
     }
     // public TValue GetValue(TKey key, System.Runtime.CompilerServices.ConditionalWeakTable`2/System.Runtime.CompilerServices.CreateValueCallback<TKey,TValue> createValueCallback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue GetValue(TKey key, typename ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback* createValueCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConditionalWeakTable_2::GetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(createValueCallback)})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method, key, createValueCallback);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -247,7 +247,7 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalWeakTable_2<TKey, TValue>*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize() {

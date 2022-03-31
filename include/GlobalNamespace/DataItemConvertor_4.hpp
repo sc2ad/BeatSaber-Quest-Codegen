@@ -36,21 +36,21 @@ namespace GlobalNamespace {
   class DataItemConvertor_4 : public ::GlobalNamespace::DataItemConvertor_2<TBase, TParam> {
     public:
     // public TBase Convert(System.Object item, TParam param)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TBase Convert(::Il2CppObject* item, TParam param) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataItemConvertor_4::Convert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Convert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(param)})));
       return ::il2cpp_utils::RunMethodRethrow<TBase, false>(this, ___internal__method, item, param);
     }
     // protected TOut Convert(TIn item, TParam param)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TOut Convert(TIn item, TParam param) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DataItemConvertor_4::Convert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Convert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(param)})));
       return ::il2cpp_utils::RunMethodRethrow<TOut, false>(this, ___internal__method, item, param);
     }
     // public override System.Type get_inputDataType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`2
     // Base method: System.Type DataItemConvertor_2::get_inputDataType()
     ::System::Type* get_inputDataType() {
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Type*, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: DataItemConvertor`2
     // Base method: System.Void DataItemConvertor_2::.ctor()
     // Base method: System.Void Object::.ctor()

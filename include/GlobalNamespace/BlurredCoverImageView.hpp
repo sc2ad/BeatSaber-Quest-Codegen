@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     ::HMUI::ImageView* coverImage;
     // Field size check
     static_assert(sizeof(::HMUI::ImageView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C322C
+    // [SpaceAttribute] Offset: 0x125D7C0
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x20
@@ -109,13 +109,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _blurredCoverTexture
     ::UnityEngine::Texture2D*& dyn__blurredCoverTexture();
     // protected System.Void OnDestroy()
-    // Offset: 0x135A26C
+    // Offset: 0x134B760
     void OnDestroy();
     // public System.Void SetTextureAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x135A334
+    // Offset: 0x134B828
     void SetTextureAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void .ctor()
-    // Offset: 0x135A3F8
+    // Offset: 0x134B8EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

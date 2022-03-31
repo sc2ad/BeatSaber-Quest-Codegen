@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single currentTimeSliceTime
     float& dyn_currentTimeSliceTime();
     // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1(SliderData tail)
-    // Offset: 0x28498B0
+    // Offset: 0x2818A28
     bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__1(::GlobalNamespace::SliderData* tail);
     // public System.Void .ctor()
-    // Offset: 0x28493E4
+    // Offset: 0x281855C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

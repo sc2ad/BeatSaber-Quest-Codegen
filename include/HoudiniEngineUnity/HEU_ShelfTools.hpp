@@ -82,91 +82,91 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.String TARGET_UNITY
     static void _set_TARGET_UNITY(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x1AEC618
+    // Offset: 0x1ACFC50
     static void _cctor();
     // static public System.Boolean AreShelvesLoaded()
-    // Offset: 0x1AE90F4
+    // Offset: 0x1ACC72C
     static bool AreShelvesLoaded();
     // static public System.Void SetReloadShelves()
-    // Offset: 0x1AE915C
+    // Offset: 0x1ACC794
     static void SetReloadShelves();
     // static public System.Void ClearShelves()
-    // Offset: 0x1AE91C4
+    // Offset: 0x1ACC7FC
     static void ClearShelves();
     // static public System.Int32 GetNumShelves()
-    // Offset: 0x1AE9240
+    // Offset: 0x1ACC878
     static int GetNumShelves();
     // static public System.Int32 GetCurrentShelfIndex()
-    // Offset: 0x1AE92B4
+    // Offset: 0x1ACC8EC
     static int GetCurrentShelfIndex();
     // static public System.Void SetCurrentShelf(System.Int32 index)
-    // Offset: 0x1AE931C
+    // Offset: 0x1ACC954
     static void SetCurrentShelf(int index);
     // static public HoudiniEngineUnity.HEU_Shelf GetShelf(System.Int32 index)
-    // Offset: 0x1AE9388
+    // Offset: 0x1ACC9C0
     static ::HoudiniEngineUnity::HEU_Shelf* GetShelf(int index);
     // static public HoudiniEngineUnity.HEU_Shelf GetShelf(System.String shelfName)
-    // Offset: 0x1AE9460
+    // Offset: 0x1ACCA98
     static ::HoudiniEngineUnity::HEU_Shelf* GetShelf(::StringW shelfName);
     // static public System.String GetShelfStorageEntry(System.String shelfName, System.String shelfPath)
-    // Offset: 0x1AE95B0
+    // Offset: 0x1ACCBE8
     static ::StringW GetShelfStorageEntry(::StringW shelfName, ::StringW shelfPath);
     // static public System.Void GetSplitShelfEntry(System.String shelfEntry, out System.String shelfName, out System.String shelfPath)
-    // Offset: 0x1AE9614
+    // Offset: 0x1ACCC4C
     static void GetSplitShelfEntry(::StringW shelfEntry, ByRef<::StringW> shelfName, ByRef<::StringW> shelfPath);
     // static public System.Void LoadShelves()
-    // Offset: 0x1AE96E0
+    // Offset: 0x1ACCD18
     static void LoadShelves();
     // static public System.Boolean LoadToolsFromDirectory(System.String folderPath, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> tools)
-    // Offset: 0x1AE9E38
+    // Offset: 0x1ACD470
     static bool LoadToolsFromDirectory(::StringW folderPath, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*> tools);
     // static public HoudiniEngineUnity.HEU_ShelfToolData LoadToolFromJsonFile(System.String jsonFilePath)
-    // Offset: 0x1AEA258
+    // Offset: 0x1ACD890
     static ::HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonFile(::StringW jsonFilePath);
     // static public HoudiniEngineUnity.HEU_ShelfToolData LoadToolFromJsonString(System.String json, System.String jsonFilePath)
-    // Offset: 0x1AEA438
+    // Offset: 0x1ACDA70
     static ::HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonString(::StringW json, ::StringW jsonFilePath);
     // static public HoudiniEngineUnity.HEU_Shelf AddShelf(System.String shelfName, System.String shelfPath)
-    // Offset: 0x1AE9D80
+    // Offset: 0x1ACD3B8
     static ::HoudiniEngineUnity::HEU_Shelf* AddShelf(::StringW shelfName, ::StringW shelfPath);
     // static public System.Void RemoveShelf(System.Int32 shelfIndex)
-    // Offset: 0x1AEB040
+    // Offset: 0x1ACE678
     static void RemoveShelf(int shelfIndex);
     // static public System.Void SaveShelf()
-    // Offset: 0x1AEA088
+    // Offset: 0x1ACD6C0
     static void SaveShelf();
     // static public System.Void ExecuteTool(System.Int32 toolSlot)
-    // Offset: 0x1AEB1C8
+    // Offset: 0x1ACE800
     static void ExecuteTool(int toolSlot);
     // static public System.Void ExecuteToolGenerator(System.String toolName, System.String toolPath, UnityEngine.Vector3 targetPosition, UnityEngine.Quaternion targetRotation, UnityEngine.Vector3 targetScale)
-    // Offset: 0x1AEB584
+    // Offset: 0x1ACEBBC
     static void ExecuteToolGenerator(::StringW toolName, ::StringW toolPath, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Vector3 targetScale);
     // static public System.Boolean IsValidInput(UnityEngine.GameObject gameObject)
-    // Offset: 0x1AEC41C
+    // Offset: 0x1ACFA54
     static bool IsValidInput(::UnityEngine::GameObject* gameObject);
     // static public System.Void ExecuteToolNoInput(System.String toolName, System.String toolPath)
-    // Offset: 0x1AEB790
+    // Offset: 0x1ACEDC8
     static void ExecuteToolNoInput(::StringW toolName, ::StringW toolPath);
     // static public System.Void ExecuteToolOperatorSingle(System.String toolName, System.String toolPath, UnityEngine.GameObject[] inputObjects)
-    // Offset: 0x1AEB940
+    // Offset: 0x1ACEF78
     static void ExecuteToolOperatorSingle(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*> inputObjects);
     // static public System.Void ExecuteToolOperatorMultiple(System.String toolName, System.String toolPath, UnityEngine.GameObject[] inputObjects)
-    // Offset: 0x1AEBE90
+    // Offset: 0x1ACF4C8
     static void ExecuteToolOperatorMultiple(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*> inputObjects);
     // static public System.Void ExecuteToolBatch(System.String toolName, System.String toolPath, UnityEngine.GameObject[] batchObjects)
-    // Offset: 0x1AEC3A0
+    // Offset: 0x1ACF9D8
     static void ExecuteToolBatch(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*> batchObjects);
     // static public System.String GetToolResourcePath(HoudiniEngineUnity.HEU_ShelfToolData tool, System.String inPath, System.String ext)
-    // Offset: 0x1AEC52C
+    // Offset: 0x1ACFB64
     static ::StringW GetToolResourcePath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath, ::StringW ext);
     // static public System.String GetToolIconPath(HoudiniEngineUnity.HEU_ShelfToolData tool, System.String inPath)
-    // Offset: 0x1AEAF00
+    // Offset: 0x1ACE538
     static ::StringW GetToolIconPath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
     // static public System.String GetToolAssetPath(HoudiniEngineUnity.HEU_ShelfToolData tool, System.String inPath)
-    // Offset: 0x1AEADB8
+    // Offset: 0x1ACE3F0
     static ::StringW GetToolAssetPath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
     // public System.Void .ctor()
-    // Offset: 0x1AEC610
+    // Offset: 0x1ACFC48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

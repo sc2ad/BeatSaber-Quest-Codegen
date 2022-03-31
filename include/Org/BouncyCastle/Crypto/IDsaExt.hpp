@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Crypto {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDsa*>(this);
     }
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::BigInteger* get_Order();
   }; // Org.BouncyCastle.Crypto.IDsaExt
   #pragma pack(pop)

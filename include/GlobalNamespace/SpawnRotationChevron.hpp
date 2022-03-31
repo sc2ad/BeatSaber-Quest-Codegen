@@ -77,13 +77,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lightAmount
     float& dyn__lightAmount();
     // public System.Void SetLightAmount(System.Single amount)
-    // Offset: 0x13EF180
+    // Offset: 0x2AAA414
     void SetLightAmount(float amount);
     // private System.Void UpdateLights()
-    // Offset: 0x13EF0FC
+    // Offset: 0x2AAA390
     void UpdateLights();
     // public System.Void .ctor()
-    // Offset: 0x13EF188
+    // Offset: 0x2AAA41C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevron*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x13EF0F0
+    // Offset: 0x2AAA384
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

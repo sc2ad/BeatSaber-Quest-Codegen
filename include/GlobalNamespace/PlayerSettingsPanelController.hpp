@@ -198,7 +198,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Toggle* adaptiveSfxToggle;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C0D48
+    // [SpaceAttribute] Offset: 0x125B2DC
     // private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
     // Size: 0x8
     // Offset: 0xB0
@@ -309,100 +309,100 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EventBinder _eventBinder
     ::GlobalNamespace::EventBinder*& dyn__eventBinder();
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x14880D8
+    // Offset: 0x13710C8
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x1488638
+    // Offset: 0x13718C8
     void add_didChangePlayerSettingsEvent(::System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x14886DC
+    // Offset: 0x137196C
     void remove_didChangePlayerSettingsEvent(::System::Action* value);
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1487DB4
+    // Offset: 0x1370D98
     void SetData(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0x1487D84
+    // Offset: 0x1370D68
     void SetLayout(::GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
     // protected System.Void Awake()
-    // Offset: 0x14887EC
+    // Offset: 0x1371CF4
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x148884C
+    // Offset: 0x1371D54
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1488B38
+    // Offset: 0x1372040
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0x1488B80
+    // Offset: 0x1372088
     void OnDestroy();
     // private System.Void UnsubscribeAllUICallbacks()
-    // Offset: 0x1488B3C
+    // Offset: 0x1372044
     void UnsubscribeAllUICallbacks();
     // public System.Void Refresh()
-    // Offset: 0x1487DC0
+    // Offset: 0x1370DA4
     void Refresh();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x1488BC4
+    // Offset: 0x13720CC
     void HandleSFXVolumeSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x1488C04
+    // Offset: 0x137210C
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0x1488C24
+    // Offset: 0x137212C
     void HandlePlayerHeightSettingsControllerValueDidChange(float value);
     // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx, System.Single startBeatOffset)
-    // Offset: 0x1488C44
+    // Offset: 0x137214C
     void HandleNoteJumpStartBeatOffsetPositionSelected(int idx, float startBeatOffset);
     // private System.Void HandleLightReductionAmountSelected(System.Int32 obj, EnvironmentEffectsFilterPreset environmentEffectsFilterPreset)
-    // Offset: 0x1488C64
+    // Offset: 0x137216C
     void HandleLightReductionAmountSelected(int obj, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
     // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0x1488C84
+    // Offset: 0x137218C
     void HandleAdvancedHudToggleChanged(bool on);
     // private System.Void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(System.Int32 idx, NoteJumpDurationTypeSettings noteJumpDurationTypeSettings)
-    // Offset: 0x1488CDC
+    // Offset: 0x13721E4
     void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int idx, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
     // private System.Void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(FormattedFloatListSettingsController formattedFloatListSettingsController, System.Single value)
-    // Offset: 0x1488D20
+    // Offset: 0x1372228
     void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* formattedFloatListSettingsController, float value);
     // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0x1488D40
+    // Offset: 0x1372248
     void HandleNoTextsAndHudsToggleChanged(bool on);
     // private System.Void SetIsDirty()
-    // Offset: 0x1488BE4
+    // Offset: 0x13720EC
     void SetIsDirty();
     // private System.Void RefreshNoteJumpUI(NoteJumpDurationTypeSettings noteJumpDurationTypeSettings)
-    // Offset: 0x1488B84
+    // Offset: 0x137208C
     void RefreshNoteJumpUI(::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
     // private System.Void SetSectionDisabled(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean disable)
-    // Offset: 0x1488780
+    // Offset: 0x1371C88
     void SetSectionDisabled(::UnityEngine::CanvasGroup* sectionCanvasGroup, bool disable);
     // private System.Void <OnEnable>b__35_0(System.Boolean on)
-    // Offset: 0x1488E00
+    // Offset: 0x1372308
     void $OnEnable$b__35_0(bool on);
     // private System.Void <OnEnable>b__35_1(System.Boolean on)
-    // Offset: 0x1488E20
+    // Offset: 0x1372328
     void $OnEnable$b__35_1(bool on);
     // private System.Void <OnEnable>b__35_2(System.Boolean on)
-    // Offset: 0x1488E40
+    // Offset: 0x1372348
     void $OnEnable$b__35_2(bool on);
     // private System.Void <OnEnable>b__35_3(System.Boolean on)
-    // Offset: 0x1488E60
+    // Offset: 0x1372368
     void $OnEnable$b__35_3(bool on);
     // private System.Void <OnEnable>b__35_4(System.Boolean on)
-    // Offset: 0x1488E80
+    // Offset: 0x1372388
     void $OnEnable$b__35_4(bool on);
     // private System.Void <OnEnable>b__35_5(System.Boolean on)
-    // Offset: 0x1488EA0
+    // Offset: 0x13723A8
     void $OnEnable$b__35_5(bool on);
     // private System.Void <OnEnable>b__35_6()
-    // Offset: 0x1488EEC
+    // Offset: 0x13723F4
     void $OnEnable$b__35_6();
     // private System.Void <OnEnable>b__35_7()
-    // Offset: 0x1489180
+    // Offset: 0x1372688
     void $OnEnable$b__35_7();
     // public System.Void .ctor()
-    // Offset: 0x1488D98
+    // Offset: 0x13722A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

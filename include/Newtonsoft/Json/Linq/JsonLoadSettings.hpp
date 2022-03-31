@@ -58,13 +58,13 @@ namespace Newtonsoft::Json::Linq {
     // Get instance field reference: private Newtonsoft.Json.Linq.LineInfoHandling _lineInfoHandling
     ::Newtonsoft::Json::Linq::LineInfoHandling& dyn__lineInfoHandling();
     // public Newtonsoft.Json.Linq.CommentHandling get_CommentHandling()
-    // Offset: 0x172BBB8
+    // Offset: 0x1722AA8
     ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
     // public Newtonsoft.Json.Linq.LineInfoHandling get_LineInfoHandling()
-    // Offset: 0x172BBC0
+    // Offset: 0x1722AB0
     ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
     // public System.Void .ctor()
-    // Offset: 0x172BBC8
+    // Offset: 0x1722AB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

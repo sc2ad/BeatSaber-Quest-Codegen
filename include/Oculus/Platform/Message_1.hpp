@@ -54,28 +54,28 @@ namespace Oculus::Platform {
       static constexpr std::string_view NESTED_NAME = "Callback";
       static constexpr bool IS_VALUE_TYPE = false;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename Message_1<T>::Callback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Message_1::Callback::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename Message_1<T>::Callback*, creationType>(object, method)));
       }
       // public System.Void Invoke(Oculus.Platform.Message`1<T> message)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void Invoke(::Oculus::Platform::Message_1<T>* message) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Message_1::Callback::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, message);
       }
       // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message`1<T> message, System.AsyncCallback callback, System.Object object)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::IAsyncResult* BeginInvoke(::Oculus::Platform::Message_1<T>* message, ::System::AsyncCallback* callback, ::Il2CppObject* object) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Message_1::Callback::BeginInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
         return ::il2cpp_utils::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal__method, message, callback, object);
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void EndInvoke(::System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Message_1::Callback::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
@@ -106,21 +106,21 @@ namespace Oculus::Platform {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public T get_Data()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T get_Data() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Message_1::get_Data");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Data", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // protected T GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetDataFromMessage(::System::IntPtr c_message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Message_1::GetDataFromMessage");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDataFromMessage", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(c_message)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, c_message);
     }
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

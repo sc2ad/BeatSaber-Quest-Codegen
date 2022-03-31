@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
     // static public T RunSync(System.Func`1<System.Threading.Tasks.Task`1<T>> asyncTask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T RunSync(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncHelper::RunSync");
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, asyncTask);
     }
     // static public System.Void RunSync(System.Func`1<System.Threading.Tasks.Task> asyncTask)
-    // Offset: 0x156DE1C
+    // Offset: 0x1564B28
     static void RunSync(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
   }; // AsyncHelper
   #pragma pack(pop)

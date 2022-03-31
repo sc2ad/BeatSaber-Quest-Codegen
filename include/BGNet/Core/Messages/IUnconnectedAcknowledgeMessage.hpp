@@ -28,7 +28,7 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedResponse*>(this);
     }
     // public System.Boolean get_messageHandled()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_messageHandled();
   }; // BGNet.Core.Messages.IUnconnectedAcknowledgeMessage
   #pragma pack(pop)

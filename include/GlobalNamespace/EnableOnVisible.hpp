@@ -70,22 +70,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Behaviour[] _components
     ::ArrayW<::UnityEngine::Behaviour*>& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1574138
+    // Offset: 0x156AE44
     void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x15741DC
+    // Offset: 0x156AEE8
     void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
     // protected System.Void Awake()
-    // Offset: 0x1574280
+    // Offset: 0x156AF8C
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x15742F0
+    // Offset: 0x156AFFC
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x15743A8
+    // Offset: 0x156B0B4
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x1574460
+    // Offset: 0x156B16C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

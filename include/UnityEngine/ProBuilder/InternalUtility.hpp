@@ -60,7 +60,7 @@ namespace UnityEngine::ProBuilder {
     // Nested type: ::UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0
     class $$c__DisplayClass6_0;
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> gameObjects)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::ArrayW<T> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* gameObjects) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -70,7 +70,7 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObjects);
     }
     // static public T[] GetComponents(UnityEngine.GameObject go)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::ArrayW<T> GetComponents(::UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -80,7 +80,7 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, go);
     }
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> transforms)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::ArrayW<T> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* transforms) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -90,10 +90,10 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, transforms);
     }
     // static public UnityEngine.GameObject EmptyGameObjectWithTransform(UnityEngine.Transform t)
-    // Offset: 0x1FBB424
+    // Offset: 0x1F8D740
     static ::UnityEngine::GameObject* EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
     // static public T NextEnumValue(T current)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T NextEnumValue(T current) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IConvertible>);
@@ -103,16 +103,16 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, current);
     }
     // static public System.String ControlKeyString(System.Char character)
-    // Offset: 0x1FBB51C
+    // Offset: 0x1F8D838
     static ::StringW ControlKeyString(::Il2CppChar character);
     // static public System.Boolean TryParseColor(System.String value, ref UnityEngine.Color col)
-    // Offset: 0x1FBB5F4
+    // Offset: 0x1F8D910
     static bool TryParseColor(::StringW value, ByRef<::UnityEngine::Color> col);
     // static public UnityEngine.Vector3[] StringToVector3Array(System.String str)
-    // Offset: 0x1FBB878
+    // Offset: 0x1F8DB94
     static ::ArrayW<::UnityEngine::Vector3> StringToVector3Array(::StringW str);
     // static public T DemandComponent(UnityEngine.Component component)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T DemandComponent(::UnityEngine::Component* component) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -122,7 +122,7 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, component);
     }
     // static public T DemandComponent(UnityEngine.GameObject gameObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T DemandComponent(::UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);

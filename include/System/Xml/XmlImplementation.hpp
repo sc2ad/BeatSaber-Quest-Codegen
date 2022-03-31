@@ -58,20 +58,20 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
     ::System::Xml::XmlNameTable*& dyn_nameTable();
     // System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x15A5794
+    // Offset: 0x159C52C
     ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Void .ctor(System.Xml.XmlNameTable nt)
-    // Offset: 0x15A5704
+    // Offset: 0x159C49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>(nt)));
     }
     // public System.Xml.XmlDocument CreateDocument()
-    // Offset: 0x15A5730
+    // Offset: 0x159C4C8
     ::System::Xml::XmlDocument* CreateDocument();
     // public System.Void .ctor()
-    // Offset: 0x15A5698
+    // Offset: 0x159C430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class ITimeProvider {
     public:
     // public System.Single get_time()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_time();
   }; // ITimeProvider
   #pragma pack(pop)

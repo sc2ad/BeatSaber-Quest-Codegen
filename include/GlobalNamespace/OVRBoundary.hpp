@@ -83,31 +83,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_cachedGeometryList();
     // static private System.Void .cctor()
-    // Offset: 0x1623514
+    // Offset: 0x161B258
     static void _cctor();
     // public System.Boolean GetConfigured()
-    // Offset: 0x1622BAC
+    // Offset: 0x161A8F0
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1622C50
+    // Offset: 0x161A994
     ::GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(::GlobalNamespace::OVRBoundary::Node node, ::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1622D2C
+    // Offset: 0x161AA70
     ::GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1622E2C
+    // Offset: 0x161AB70
     ::ArrayW<::UnityEngine::Vector3> GetGeometry(::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x162324C
+    // Offset: 0x161AF90
     ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0x1623350
+    // Offset: 0x161B094
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0x16233F4
+    // Offset: 0x161B138
     void SetVisible(bool value);
     // public System.Void .ctor()
-    // Offset: 0x16234A4
+    // Offset: 0x161B1E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

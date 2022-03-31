@@ -79,44 +79,44 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Boolean <ContentUpdateAvailable>k__BackingField
     bool& dyn_$ContentUpdateAvailable$k__BackingField();
     // public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator get_Locator()
-    // Offset: 0x189403C
+    // Offset: 0x188BF30
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* get_Locator();
     // private System.Void set_Locator(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator value)
-    // Offset: 0x1894044
+    // Offset: 0x188BF38
     void set_Locator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
     // public System.String get_LocalHash()
-    // Offset: 0x189404C
+    // Offset: 0x188BF40
     ::StringW get_LocalHash();
     // private System.Void set_LocalHash(System.String value)
-    // Offset: 0x1894054
+    // Offset: 0x188BF48
     void set_LocalHash(::StringW value);
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_CatalogLocation()
-    // Offset: 0x189405C
+    // Offset: 0x188BF50
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
     // private System.Void set_CatalogLocation(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation value)
-    // Offset: 0x1894064
+    // Offset: 0x188BF58
     void set_CatalogLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
     // public System.Boolean get_ContentUpdateAvailable()
-    // Offset: 0x189406C
+    // Offset: 0x188BF60
     bool get_ContentUpdateAvailable();
     // System.Void set_ContentUpdateAvailable(System.Boolean value)
-    // Offset: 0x1894074
+    // Offset: 0x188BF68
     void set_ContentUpdateAvailable(bool value);
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_HashLocation()
-    // Offset: 0x1894080
+    // Offset: 0x188BF74
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_HashLocation();
     // public System.Boolean get_CanUpdateContent()
-    // Offset: 0x18941A8
+    // Offset: 0x188C09C
     bool get_CanUpdateContent();
     // public System.Void .ctor(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc, System.String localHash, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation remoteCatalogLocation)
-    // Offset: 0x188D778
+    // Offset: 0x188566C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::ResourceLocatorInfo* New_ctor(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc, ::StringW localHash, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::ResourceLocatorInfo*, creationType>(loc, localHash, remoteCatalogLocation)));
     }
     // System.Void UpdateContent(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator locator, System.String hash, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x1894368
+    // Offset: 0x188C25C
     void UpdateContent(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator, ::StringW hash, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo
   #pragma pack(pop)

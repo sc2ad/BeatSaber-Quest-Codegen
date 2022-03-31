@@ -41,14 +41,14 @@ namespace Zenject {
   class FactoryToChoiceBinder_5 : public ::Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract> {
     public:
     // public Zenject.FactoryFromBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> ToSelf()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* ToSelf() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceBinder_5::ToSelf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToSelf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___internal__method);
     }
     // public Zenject.FactoryFromBinder`5<TParam1,TParam2,TParam3,TParam4,TConcrete> To()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TConcrete>
     ::Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TConcrete>* To() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);
@@ -58,7 +58,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TConcrete>*, false>(this, ___generic__method);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.FactoryFromBinder`5
     // Base method: System.Void FactoryFromBinder_5::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

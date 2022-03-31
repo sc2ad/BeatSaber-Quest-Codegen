@@ -40,17 +40,17 @@ namespace UnityEngine::Events {
   class BaseInvokableCall : public ::Il2CppObject {
     public:
     // protected System.Void .ctor(System.Object target, System.Reflection.MethodInfo function)
-    // Offset: 0x1F5EE68
+    // Offset: 0x1F31184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor(::Il2CppObject* target, ::System::Reflection::MethodInfo* function) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::BaseInvokableCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseInvokableCall*, creationType>(target, function)));
     }
     // public System.Void Invoke(System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Invoke(::ArrayW<::Il2CppObject*> args);
     // static protected System.Void ThrowOnInvalidArg(System.Object arg)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void ThrowOnInvalidArg(::Il2CppObject* arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::BaseInvokableCall::ThrowOnInvalidArg");
@@ -59,13 +59,13 @@ namespace UnityEngine::Events {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg);
     }
     // static protected System.Boolean AllowInvoke(System.Delegate delegate)
-    // Offset: 0x1F5EF24
+    // Offset: 0x1F31240
     static bool AllowInvoke(::System::Delegate* delegate);
     // public System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Find(::Il2CppObject* targetObj, ::System::Reflection::MethodInfo* method);
     // protected System.Void .ctor()
-    // Offset: 0x1F5EE60
+    // Offset: 0x1F3117C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

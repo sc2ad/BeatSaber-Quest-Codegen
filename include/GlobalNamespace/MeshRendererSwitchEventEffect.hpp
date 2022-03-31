@@ -64,21 +64,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
     // Padding between fields: beatmapEvent and: deactivateOnBoostRenderers
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x10B7250
+    // [NullAllowed] Offset: 0x1251694
     // private UnityEngine.MeshRenderer[] _deactivateOnBoostRenderers
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::UnityEngine::MeshRenderer*> deactivateOnBoostRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [NullAllowed] Offset: 0x10B7288
+    // [NullAllowed] Offset: 0x12516CC
     // private UnityEngine.MeshRenderer[] _activateOnBoostRenderers
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::UnityEngine::MeshRenderer*> activateOnBoostRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10B72C0
+    // [InjectAttribute] Offset: 0x1251704
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
@@ -105,19 +105,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Start()
-    // Offset: 0x132BE3C
+    // Offset: 0x13015BC
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x132BF54
+    // Offset: 0x13016D4
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x132BF70
+    // Offset: 0x13016F0
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void ToggleObjects(System.Boolean isBoostOn)
-    // Offset: 0x132BF90
+    // Offset: 0x1301710
     void ToggleObjects(bool isBoostOn);
     // public System.Void .ctor()
-    // Offset: 0x132C068
+    // Offset: 0x13017E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

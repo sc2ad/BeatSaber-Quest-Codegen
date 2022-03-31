@@ -81,31 +81,31 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 numOutstandingThreadRequests
     int& dyn_numOutstandingThreadRequests();
     // static private System.Void .cctor()
-    // Offset: 0x1D15850
+    // Offset: 0x1CF9D20
     static void _cctor();
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x1D142A4
+    // Offset: 0x1CF8774
     ::System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x1D14424
+    // Offset: 0x1CF88F4
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x1D144DC
+    // Offset: 0x1CF89AC
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x1D13F6C
+    // Offset: 0x1CF843C
     void Enqueue(::System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x1D14098
+    // Offset: 0x1CF8568
     bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x1D14D00
+    // Offset: 0x1CF91D0
     void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<::System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x1D152C4
+    // Offset: 0x1CF9794
     static bool Dispatch();
     // public System.Void .ctor()
-    // Offset: 0x1D141CC
+    // Offset: 0x1CF869C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

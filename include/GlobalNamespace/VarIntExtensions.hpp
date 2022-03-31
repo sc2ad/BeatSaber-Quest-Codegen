@@ -33,46 +33,46 @@ namespace GlobalNamespace {
   class VarIntExtensions : public ::Il2CppObject {
     public:
     // static public System.Void PutVarInt(LiteNetLib.Utils.NetDataWriter writer, System.Int32 val)
-    // Offset: 0x29F332C
+    // Offset: 0x29BF4A4
     static void PutVarInt(::LiteNetLib::Utils::NetDataWriter* writer, int val);
     // static public System.Int32 GetVarInt(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29F3654
+    // Offset: 0x29BF7CC
     static int GetVarInt(::LiteNetLib::Utils::NetDataReader* reader);
     // static public System.Void PutVarUInt(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 val)
-    // Offset: 0x29EF9D4
+    // Offset: 0x29BBB4C
     static void PutVarUInt(::LiteNetLib::Utils::NetDataWriter* writer, uint val);
     // static public System.UInt32 GetVarUInt(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29EF970
+    // Offset: 0x29BBAE8
     static uint GetVarUInt(::LiteNetLib::Utils::NetDataReader* reader);
     // static public System.Void PutVarLong(LiteNetLib.Utils.NetDataWriter writer, System.Int64 val)
-    // Offset: 0x29F85A4
+    // Offset: 0x29C471C
     static void PutVarLong(::LiteNetLib::Utils::NetDataWriter* writer, int64_t val);
     // static public System.Int64 GetVarLong(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29F85C0
+    // Offset: 0x29C4738
     static int64_t GetVarLong(::LiteNetLib::Utils::NetDataReader* reader);
     // static public System.Void PutVarULong(LiteNetLib.Utils.NetDataWriter writer, System.UInt64 val)
-    // Offset: 0x29F85DC
+    // Offset: 0x29C4754
     static void PutVarULong(::LiteNetLib::Utils::NetDataWriter* writer, uint64_t val);
     // static public System.UInt64 GetVarULong(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29F8628
+    // Offset: 0x29C47A0
     static uint64_t GetVarULong(::LiteNetLib::Utils::NetDataReader* reader);
     // static public System.Boolean TryGetVarUInt(LiteNetLib.Utils.NetDataReader reader, out System.UInt32 value)
-    // Offset: 0x29F86A8
+    // Offset: 0x29C4820
     static bool TryGetVarUInt(::LiteNetLib::Utils::NetDataReader* reader, ByRef<uint> value);
     // static public System.Boolean TryGetVarULong(LiteNetLib.Utils.NetDataReader reader, out System.UInt64 value)
-    // Offset: 0x29F86F8
+    // Offset: 0x29C4870
     static bool TryGetVarULong(::LiteNetLib::Utils::NetDataReader* reader, ByRef<uint64_t> value);
     // static public System.Int32 GetSize(System.Int32 val)
-    // Offset: 0x29F724C
+    // Offset: 0x29C33C4
     static int GetSize(int val);
     // static public System.Int32 GetSize(System.UInt32 val)
-    // Offset: 0x29F87B4
+    // Offset: 0x29C492C
     static int GetSize(uint val);
     // static public System.Int32 GetSize(System.Int64 val)
-    // Offset: 0x29F8784
+    // Offset: 0x29C48FC
     static int GetSize(int64_t val);
     // static public System.Int32 GetSize(System.UInt64 val)
-    // Offset: 0x29F87D0
+    // Offset: 0x29C4948
     static int GetSize(uint64_t val);
   }; // VarIntExtensions
   #pragma pack(pop)

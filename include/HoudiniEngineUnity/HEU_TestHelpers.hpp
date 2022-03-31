@@ -62,7 +62,7 @@ namespace HoudiniEngineUnity {
     template<typename T>
     class RequireClass_1;
     // static public System.Boolean AssertTrueLogEquivalent(T a, T b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireStruct`1<T> _)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(T a, T b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::HEU_TestHelpers::RequireStruct_1<T>* _) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);
@@ -72,10 +72,10 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
     }
     // static public System.Boolean AssertTrueLogEquivalent(UnityEngine.GameObject a, UnityEngine.GameObject b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AF1824
+    // Offset: 0x1AD4E5C
     static bool AssertTrueLogEquivalent(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivable`1<T> a, HoudiniEngineUnity.IEquivable`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
@@ -84,7 +84,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivableWrapperClass`1<T> a, HoudiniEngineUnity.IEquivableWrapperClass`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::HoudiniEngineUnity::IEquivableWrapperClass_1<T>* a, ::HoudiniEngineUnity::IEquivableWrapperClass_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
@@ -93,10 +93,10 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.String a, System.String b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AF23F8
+    // Offset: 0x1AD5A30
     static bool AssertTrueLogEquivalent(::StringW a, ::StringW b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<T> a, System.Collections.Generic.List`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireStruct`1<T> _)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::HEU_TestHelpers::RequireStruct_1<T>* _) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);
@@ -106,7 +106,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<T> a, System.Collections.Generic.List`1<T> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireClass`1<T> _)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1<T>* _) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
@@ -115,7 +115,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3, _);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivable`1<T>> a, System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivable`1<T>> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* a, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
@@ -124,7 +124,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivableWrapperClass`1<T>> a, System.Collections.Generic.List`1<HoudiniEngineUnity.IEquivableWrapperClass`1<T>> b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*>* a, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*>* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
@@ -133,7 +133,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(T[] a, T[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::ArrayW<T> a, ::ArrayW<T> b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3) {
       static_assert(std::is_convertible_v<T, ::System::ValueType*>);
@@ -143,10 +143,10 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(System.String[] a, System.String[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AF24F0
+    // Offset: 0x1AD5B28
     static bool AssertTrueLogEquivalent(::ArrayW<::StringW> a, ::ArrayW<::StringW> b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivable`1<T>[] a, HoudiniEngineUnity.IEquivable`1<T>[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*> a, ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*> b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
@@ -155,7 +155,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Boolean AssertTrueLogEquivalent(HoudiniEngineUnity.IEquivableWrapperClass`1<T>[] a, HoudiniEngineUnity.IEquivableWrapperClass`1<T>[] b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool AssertTrueLogEquivalent(::ArrayW<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*> a, ::ArrayW<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*> b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent");
@@ -164,10 +164,10 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(result), header, subject, optional1, optional2, optional3);
     }
     // static public System.Void PrintTestLogAndSetResult(System.Boolean expression, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3)
-    // Offset: 0x1AF22A4
+    // Offset: 0x1AD58DC
     static void PrintTestLogAndSetResult(bool expression, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
     // static public System.Boolean ShouldBeTested(T a, T b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool ShouldBeTested(T a, T b, ByRef<bool> bResult, ::StringW header, ::StringW subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
@@ -176,10 +176,10 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(UnityEngine.GameObject a, UnityEngine.GameObject b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0x1AF1948
+    // Offset: 0x1AD4F80
     static bool ShouldBeTested(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
     // static public System.Boolean ShouldBeTested(HoudiniEngineUnity.IEquivable`1<T> a, HoudiniEngineUnity.IEquivable`1<T> b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool ShouldBeTested(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
@@ -188,7 +188,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(HoudiniEngineUnity.IEquivableWrapperClass`1<T> a, HoudiniEngineUnity.IEquivableWrapperClass`1<T> b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool ShouldBeTested(::HoudiniEngineUnity::IEquivableWrapperClass_1<T>* a, ::HoudiniEngineUnity::IEquivableWrapperClass_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
@@ -197,7 +197,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static private System.Boolean ShouldBeTested(System.Collections.Generic.List`1<T> a, System.Collections.Generic.List`1<T> b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool ShouldBeTested(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
@@ -206,7 +206,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(T[] a, T[] b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool ShouldBeTested(::ArrayW<T> a, ::ArrayW<T> b, ByRef<bool> bResult, ::StringW header, ::StringW subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::ShouldBeTested");
@@ -215,13 +215,13 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(bResult), header, subject);
     }
     // static public System.Boolean ShouldBeTested(System.String a, System.String b, ref System.Boolean bResult, System.String header, System.String subject)
-    // Offset: 0x1AF2498
+    // Offset: 0x1AD5AD0
     static bool ShouldBeTested(::StringW a, ::StringW b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
     // static public System.Boolean TestOutputObjectEquivalence(UnityEngine.GameObject a, UnityEngine.GameObject b)
-    // Offset: 0x1AF1CB4
+    // Offset: 0x1AD52EC
     static bool TestOutputObjectEquivalence(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b);
     // public System.Void .ctor()
-    // Offset: 0x1AF2648
+    // Offset: 0x1AD5C80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

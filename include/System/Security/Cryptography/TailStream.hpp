@@ -79,75 +79,75 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Boolean _BufferFull
     bool& dyn__BufferFull();
     // public System.Byte[] get_Buffer()
-    // Offset: 0x2097EDC
+    // Offset: 0x20858B0
     ::ArrayW<uint8_t> get_Buffer();
     // public System.Void .ctor(System.Int32 bufferSize)
-    // Offset: 0x2097DA8
+    // Offset: 0x208577C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailStream* New_ctor(int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::TailStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TailStream*, creationType>(bufferSize)));
     }
     // public System.Void Clear()
-    // Offset: 0x2097E3C
+    // Offset: 0x2085810
     void Clear();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x2097F5C
+    // Offset: 0x2085930
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x2097F64
+    // Offset: 0x2085938
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x2097F6C
+    // Offset: 0x2085940
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Int64 get_Length()
-    // Offset: 0x2097F7C
+    // Offset: 0x2085950
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x2097FFC
+    // Offset: 0x20859D0
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x209807C
+    // Offset: 0x2085A50
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x2097E4C
+    // Offset: 0x2085820
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void Flush()
-    // Offset: 0x20980FC
+    // Offset: 0x2085AD0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x2098100
+    // Offset: 0x2085AD4
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x2098180
+    // Offset: 0x2085B54
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x2098200
+    // Offset: 0x2085BD4
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x2098280
+    // Offset: 0x2085C54
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::ArrayW<uint8_t> buffer, int offset, int count);

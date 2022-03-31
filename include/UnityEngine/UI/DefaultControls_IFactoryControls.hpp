@@ -35,7 +35,7 @@ namespace UnityEngine::UI {
   class DefaultControls::IFactoryControls {
     public:
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
   }; // UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls
   #pragma pack(pop)

@@ -68,151 +68,151 @@ namespace System::IO {
     // Set static field: static private System.Boolean dump_handles
     static void _set_dump_handles(bool value);
     // static public System.IntPtr get_ConsoleOutput()
-    // Offset: 0x1F96948
+    // Offset: 0x1F68C64
     static ::System::IntPtr get_ConsoleOutput();
     // static public System.IntPtr get_ConsoleInput()
-    // Offset: 0x1F9694C
+    // Offset: 0x1F68C68
     static ::System::IntPtr get_ConsoleInput();
     // static public System.IntPtr get_ConsoleError()
-    // Offset: 0x1F96950
+    // Offset: 0x1F68C6C
     static ::System::IntPtr get_ConsoleError();
     // static public System.Char get_VolumeSeparatorChar()
-    // Offset: 0x1F9695C
+    // Offset: 0x1F68C78
     static ::Il2CppChar get_VolumeSeparatorChar();
     // static public System.Char get_DirectorySeparatorChar()
-    // Offset: 0x1F96960
+    // Offset: 0x1F68C7C
     static ::Il2CppChar get_DirectorySeparatorChar();
     // static public System.Char get_AltDirectorySeparatorChar()
-    // Offset: 0x1F96964
+    // Offset: 0x1F68C80
     static ::Il2CppChar get_AltDirectorySeparatorChar();
     // static public System.Char get_PathSeparator()
-    // Offset: 0x1F96968
+    // Offset: 0x1F68C84
     static ::Il2CppChar get_PathSeparator();
     // static private System.Void .cctor()
-    // Offset: 0x1F96970
+    // Offset: 0x1F68C8C
     static void _cctor();
     // static public System.Exception GetException(System.IO.MonoIOError error)
-    // Offset: 0x1F8B034
+    // Offset: 0x1F5D350
     static ::System::Exception* GetException(::System::IO::MonoIOError error);
     // static public System.Exception GetException(System.String path, System.IO.MonoIOError error)
-    // Offset: 0x1F89D94
+    // Offset: 0x1F5C0B0
     static ::System::Exception* GetException(::StringW path, ::System::IO::MonoIOError error);
     // static private System.Boolean CreateDirectory(System.Char* path, out System.IO.MonoIOError error)
-    // Offset: 0x1F96868
+    // Offset: 0x1F68B84
     static bool CreateDirectory(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean CreateDirectory(System.String path, out System.IO.MonoIOError error)
-    // Offset: 0x1F89D10
+    // Offset: 0x1F5C02C
     static bool CreateDirectory(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean RemoveDirectory(System.Char* path, out System.IO.MonoIOError error)
-    // Offset: 0x1F9686C
+    // Offset: 0x1F68B88
     static bool RemoveDirectory(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean RemoveDirectory(System.String path, out System.IO.MonoIOError error)
-    // Offset: 0x1F8A81C
+    // Offset: 0x1F5CB38
     static bool RemoveDirectory(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static public System.String GetCurrentDirectory(out System.IO.MonoIOError error)
-    // Offset: 0x1F8B030
+    // Offset: 0x1F5D34C
     static ::StringW GetCurrentDirectory(ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean DeleteFile(System.Char* path, out System.IO.MonoIOError error)
-    // Offset: 0x1F96870
+    // Offset: 0x1F68B8C
     static bool DeleteFile(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean DeleteFile(System.String path, out System.IO.MonoIOError error)
-    // Offset: 0x1F8A798
+    // Offset: 0x1F5CAB4
     static bool DeleteFile(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean ReplaceFile(System.Char* sourceFileName, System.Char* destinationFileName, System.Char* destinationBackupFileName, System.Boolean ignoreMetadataErrors, out System.IO.MonoIOError error)
-    // Offset: 0x1F96874
+    // Offset: 0x1F68B90
     static bool ReplaceFile(::Il2CppChar* sourceFileName, ::Il2CppChar* destinationFileName, ::Il2CppChar* destinationBackupFileName, bool ignoreMetadataErrors, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean ReplaceFile(System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors, out System.IO.MonoIOError error)
-    // Offset: 0x1F8D484
+    // Offset: 0x1F5F7A0
     static bool ReplaceFile(::StringW sourceFileName, ::StringW destinationFileName, ::StringW destinationBackupFileName, bool ignoreMetadataErrors, ByRef<::System::IO::MonoIOError> error);
     // static private System.IO.FileAttributes GetFileAttributes(System.Char* path, out System.IO.MonoIOError error)
-    // Offset: 0x1F9687C
+    // Offset: 0x1F68B98
     static ::System::IO::FileAttributes GetFileAttributes(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.IO.FileAttributes GetFileAttributes(System.String path, out System.IO.MonoIOError error)
-    // Offset: 0x1F8C77C
+    // Offset: 0x1F5EA98
     static ::System::IO::FileAttributes GetFileAttributes(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.IO.MonoFileType GetFileType(System.IntPtr handle, out System.IO.MonoIOError error)
-    // Offset: 0x1F96880
+    // Offset: 0x1F68B9C
     static ::System::IO::MonoFileType GetFileType(::System::IntPtr handle, ByRef<::System::IO::MonoIOError> error);
     // static public System.IO.MonoFileType GetFileType(System.Runtime.InteropServices.SafeHandle safeHandle, out System.IO.MonoIOError error)
-    // Offset: 0x1F90D14
+    // Offset: 0x1F63030
     static ::System::IO::MonoFileType GetFileType(::System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<::System::IO::MonoIOError> error);
     // static private System.IntPtr FindFirstFile(System.Char* pathWithPattern, out System.String fileName, out System.Int32 fileAttr, out System.Int32 error)
-    // Offset: 0x1F96884
+    // Offset: 0x1F68BA0
     static ::System::IntPtr FindFirstFile(::Il2CppChar* pathWithPattern, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
     // static public System.IntPtr FindFirstFile(System.String pathWithPattern, out System.String fileName, out System.Int32 fileAttr, out System.Int32 error)
-    // Offset: 0x1F96888
+    // Offset: 0x1F68BA4
     static ::System::IntPtr FindFirstFile(::StringW pathWithPattern, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
     // static public System.Boolean FindNextFile(System.IntPtr hnd, out System.String fileName, out System.Int32 fileAttr, out System.Int32 error)
-    // Offset: 0x1F96924
+    // Offset: 0x1F68C40
     static bool FindNextFile(::System::IntPtr hnd, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
     // static public System.Boolean FindCloseFile(System.IntPtr hnd)
-    // Offset: 0x1F96928
+    // Offset: 0x1F68C44
     static bool FindCloseFile(::System::IntPtr hnd);
     // static public System.Boolean ExistsFile(System.String path, out System.IO.MonoIOError error)
-    // Offset: 0x1F8C604
+    // Offset: 0x1F5E920
     static bool ExistsFile(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean ExistsDirectory(System.String path, out System.IO.MonoIOError error)
-    // Offset: 0x1F8AED4
+    // Offset: 0x1F5D1F0
     static bool ExistsDirectory(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean ExistsSymlink(System.String path, out System.IO.MonoIOError error)
-    // Offset: 0x1F8A70C
+    // Offset: 0x1F5CA28
     static bool ExistsSymlink(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean GetFileStat(System.Char* path, out System.IO.MonoIOStat stat, out System.IO.MonoIOError error)
-    // Offset: 0x1F9692C
+    // Offset: 0x1F68C48
     static bool GetFileStat(::Il2CppChar* path, ByRef<::System::IO::MonoIOStat> stat, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean GetFileStat(System.String path, out System.IO.MonoIOStat stat, out System.IO.MonoIOError error)
-    // Offset: 0x1F8C938
+    // Offset: 0x1F5EC54
     static bool GetFileStat(::StringW path, ByRef<::System::IO::MonoIOStat> stat, ByRef<::System::IO::MonoIOError> error);
     // static private System.IntPtr Open(System.Char* filename, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.IO.FileOptions options, out System.IO.MonoIOError error)
-    // Offset: 0x1F96930
+    // Offset: 0x1F68C4C
     static ::System::IntPtr Open(::Il2CppChar* filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ByRef<::System::IO::MonoIOError> error);
     // static public System.IntPtr Open(System.String filename, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.IO.FileOptions options, out System.IO.MonoIOError error)
-    // Offset: 0x1F90BC4
+    // Offset: 0x1F62EE0
     static ::System::IntPtr Open(::StringW filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean Close(System.IntPtr handle, out System.IO.MonoIOError error)
-    // Offset: 0x1F9396C
+    // Offset: 0x1F65C88
     static bool Close(::System::IntPtr handle, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int32 Read(System.IntPtr handle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, out System.IO.MonoIOError error)
-    // Offset: 0x1F96934
+    // Offset: 0x1F68C50
     static int Read(::System::IntPtr handle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int32 Read(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, out System.IO.MonoIOError error)
-    // Offset: 0x1F93980
+    // Offset: 0x1F65C9C
     static int Read(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int32 Write(System.IntPtr handle, in System.Byte[] src, System.Int32 src_offset, System.Int32 count, out System.IO.MonoIOError error)
-    // Offset: 0x1F96938
+    // Offset: 0x1F68C54
     static int Write(::System::IntPtr handle, ByRef<::ArrayW<uint8_t>> src, int src_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int32 Write(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] src, System.Int32 src_offset, System.Int32 count, out System.IO.MonoIOError error)
-    // Offset: 0x1F92904
+    // Offset: 0x1F64C20
     static int Write(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> src, int src_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int64 Seek(System.IntPtr handle, System.Int64 offset, System.IO.SeekOrigin origin, out System.IO.MonoIOError error)
-    // Offset: 0x1F9693C
+    // Offset: 0x1F68C58
     static int64_t Seek(::System::IntPtr handle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int64 Seek(System.Runtime.InteropServices.SafeHandle safeHandle, System.Int64 offset, System.IO.SeekOrigin origin, out System.IO.MonoIOError error)
-    // Offset: 0x1F91090
+    // Offset: 0x1F633AC
     static int64_t Seek(::System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int64 GetLength(System.IntPtr handle, out System.IO.MonoIOError error)
-    // Offset: 0x1F96940
+    // Offset: 0x1F68C5C
     static int64_t GetLength(::System::IntPtr handle, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int64 GetLength(System.Runtime.InteropServices.SafeHandle safeHandle, out System.IO.MonoIOError error)
-    // Offset: 0x1F91354
+    // Offset: 0x1F63670
     static int64_t GetLength(::System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean SetLength(System.IntPtr handle, System.Int64 length, out System.IO.MonoIOError error)
-    // Offset: 0x1F96944
+    // Offset: 0x1F68C60
     static bool SetLength(::System::IntPtr handle, int64_t length, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean SetLength(System.Runtime.InteropServices.SafeHandle safeHandle, System.Int64 length, out System.IO.MonoIOError error)
-    // Offset: 0x1F93440
+    // Offset: 0x1F6575C
     static bool SetLength(::System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t length, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean CreatePipe(out System.IntPtr read_handle, out System.IntPtr write_handle, out System.IO.MonoIOError error)
-    // Offset: 0x1F96954
+    // Offset: 0x1F68C70
     static bool CreatePipe(ByRef<::System::IntPtr> read_handle, ByRef<::System::IntPtr> write_handle, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean DuplicateHandle(System.IntPtr source_process_handle, System.IntPtr source_handle, System.IntPtr target_process_handle, out System.IntPtr target_handle, System.Int32 access, System.Int32 inherit, System.Int32 options, out System.IO.MonoIOError error)
-    // Offset: 0x1F96958
+    // Offset: 0x1F68C74
     static bool DuplicateHandle(::System::IntPtr source_process_handle, ::System::IntPtr source_handle, ::System::IntPtr target_process_handle, ByRef<::System::IntPtr> target_handle, int access, int inherit, int options, ByRef<::System::IO::MonoIOError> error);
     // static private System.Void DumpHandles()
-    // Offset: 0x1F9681C
+    // Offset: 0x1F68B38
     static void DumpHandles();
     // static public System.Boolean RemapPath(System.String path, out System.String newPath)
-    // Offset: 0x1F9696C
+    // Offset: 0x1F68C88
     static bool RemapPath(::StringW path, ByRef<::StringW> newPath);
   }; // System.IO.MonoIO
   #pragma pack(pop)

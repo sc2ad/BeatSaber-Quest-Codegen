@@ -62,28 +62,28 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Int32 <intervalBit>k__BackingField
     int& dyn_$intervalBit$k__BackingField();
     // public System.Int64 get_intervalStart()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_intervalStart();
     // public System.Int64 get_intervalEnd()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_intervalEnd();
     // public System.Int32 get_intervalBit()
-    // Offset: 0x1D9DF24
+    // Offset: 0x1D813F4
     int get_intervalBit();
     // public System.Void set_intervalBit(System.Int32 value)
-    // Offset: 0x1D9DF2C
+    // Offset: 0x1D813FC
     void set_intervalBit(int value);
     // public System.Void set_enable(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_enable(bool value);
     // public System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void EvaluateAt(double localTime, ::UnityEngine::Playables::FrameData frameData);
     // public System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void DisableAt(double localTime, double rootDuration, ::UnityEngine::Playables::FrameData frameData);
     // protected System.Void .ctor()
-    // Offset: 0x1D9AE80
+    // Offset: 0x1D7E350
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

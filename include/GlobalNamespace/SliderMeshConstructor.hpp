@@ -106,25 +106,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     ::UnityEngine::Mesh*& dyn__mesh();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x13E657C
+    // Offset: 0x2AA1F1C
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void CreateMeshIfNonExisting()
-    // Offset: 0x13E6584
+    // Offset: 0x2AA1F24
     void CreateMeshIfNonExisting();
     // public System.Void CreateSliderMesh(VertexPath path)
-    // Offset: 0x13E663C
+    // Offset: 0x2AA1FDC
     void CreateSliderMesh(::GlobalNamespace::VertexPath* path);
     // protected System.Void CreateSliderMeshInternal(VertexPath path)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);
     // protected System.Int32 GetVertexCount(VertexPath path)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetVertexCount(::GlobalNamespace::VertexPath* path);
     // protected System.Int32 GetTrianglesCount(VertexPath path)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetTrianglesCount(::GlobalNamespace::VertexPath* path);
     // protected System.Void .ctor()
-    // Offset: 0x13E67D0
+    // Offset: 0x2AA2170
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

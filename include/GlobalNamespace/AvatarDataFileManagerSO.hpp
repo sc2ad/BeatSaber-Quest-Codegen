@@ -62,16 +62,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::StringW value);
     // public System.Void Save(AvatarData avatarData)
-    // Offset: 0x14C2624
+    // Offset: 0x14BBFDC
     void Save(::GlobalNamespace::AvatarData* avatarData);
     // public AvatarData Load()
-    // Offset: 0x14C278C
+    // Offset: 0x14BC144
     ::GlobalNamespace::AvatarData* Load();
     // private AvatarData LoadFromCurrentVersion(AvatarSaveData avatarSaveData)
-    // Offset: 0x14C2820
+    // Offset: 0x14BC1D8
     ::GlobalNamespace::AvatarData* LoadFromCurrentVersion(::GlobalNamespace::AvatarSaveData* avatarSaveData);
     // public System.Void .ctor()
-    // Offset: 0x14C29EC
+    // Offset: 0x14BC3A4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

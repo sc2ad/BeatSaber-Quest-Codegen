@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private SpawnRotationChevron _spawnRotationChevronPrefab
     ::GlobalNamespace::SpawnRotationChevron*& dyn__spawnRotationChevronPrefab();
     // public System.Void .ctor()
-    // Offset: 0x13EEE94
+    // Offset: 0x2AAA128
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnChevronObjectPoolsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13EEE14
+    // Offset: 0x2AAA0A8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

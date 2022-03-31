@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   class IExperimentData {
     public:
     // public System.String get_experimentPlatformKey()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_experimentPlatformKey();
   }; // IExperimentData
   #pragma pack(pop)

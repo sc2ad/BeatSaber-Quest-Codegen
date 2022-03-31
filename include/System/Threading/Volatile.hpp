@@ -27,13 +27,13 @@ namespace System::Threading {
   class Volatile : public ::Il2CppObject {
     public:
     // static public System.Boolean Read(ref System.Boolean location)
-    // Offset: 0x1D176FC
+    // Offset: 0x1CFBBCC
     static bool Read(ByRef<bool> location);
     // static public System.Int32 Read(ref System.Int32 location)
-    // Offset: 0x1D17720
+    // Offset: 0x1CFBBF0
     static int Read(ByRef<int> location);
     // static public T Read(ref T location)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T Read(ByRef<T> location) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Volatile::Read");
@@ -42,13 +42,13 @@ namespace System::Threading {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(location));
     }
     // static public System.Void Write(ref System.Boolean location, System.Boolean value)
-    // Offset: 0x1D17744
+    // Offset: 0x1CFBC14
     static void Write(ByRef<bool> location, bool value);
     // static public System.Void Write(ref System.Int32 location, System.Int32 value)
-    // Offset: 0x1D1776C
+    // Offset: 0x1CFBC3C
     static void Write(ByRef<int> location, int value);
     // static public System.Void Write(ref T location, T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Write(ByRef<T> location, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Volatile::Write");

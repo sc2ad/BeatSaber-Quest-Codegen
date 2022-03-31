@@ -59,25 +59,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger y
     ::Org::BouncyCastle::Math::BigInteger*& dyn_y();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters)
-    // Offset: 0x15E23A0
+    // Offset: 0x15C040C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaPublicKeyParameters*, creationType>(y, parameters)));
     }
     // static private Org.BouncyCastle.Math.BigInteger Validate(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters)
-    // Offset: 0x15E2238
+    // Offset: 0x15C02A4
     static ::Org::BouncyCastle::Math::BigInteger* Validate(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DsaPublicKeyParameters other)
-    // Offset: 0x15E2504
+    // Offset: 0x15C0570
     bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15E2454
+    // Offset: 0x15C04C0
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters
     // Base method: System.Boolean DsaKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15E2560
+    // Offset: 0x15C05CC
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters
     // Base method: System.Int32 DsaKeyParameters::GetHashCode()
     int GetHashCode();

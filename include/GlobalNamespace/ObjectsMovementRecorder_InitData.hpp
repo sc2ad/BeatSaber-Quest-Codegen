@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlaybackRenderer/PlaybackScreenshot[] playbackScreenshots
     ::ArrayW<::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot*>& dyn_playbackScreenshots();
     // public System.Void .ctor(ObjectsMovementRecorder/Mode mode, System.String recordingPath, ObjectsMovementRecorder/CameraView cameraView, System.Boolean addDateTimeSuffixToRecordingName, System.Boolean screenshotRecording, System.Int32 screenshotWidth, System.Int32 screenshotHeight, System.Int32 framerate, PlaybackRenderer/PlaybackScreenshot[] playbackScreenshots)
-    // Offset: 0x14EA34C
+    // Offset: 0x147DB4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectsMovementRecorder::InitData* New_ctor(::GlobalNamespace::ObjectsMovementRecorder::Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int screenshotWidth, int screenshotHeight, int framerate, ::ArrayW<::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot*> playbackScreenshots) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectsMovementRecorder::InitData::.ctor");

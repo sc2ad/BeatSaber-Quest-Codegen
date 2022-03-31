@@ -20,7 +20,7 @@ namespace GlobalNamespace {
   class OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider {
     public:
     // public OVRSkeletonRenderer/SkeletonRendererData GetSkeletonRendererData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData GetSkeletonRendererData();
   }; // OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider
   #pragma pack(pop)

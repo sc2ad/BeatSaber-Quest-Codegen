@@ -91,14 +91,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly LightRotationDirection rotationDirection
     ::GlobalNamespace::LightRotationDirection& dyn_rotationDirection();
     // public System.Void .ctor(System.Single beat, System.Boolean usePreviousEventRotationValue, EaseType easeType, System.Single rotation, System.Int32 loopsCount, LightRotationDirection rotationDirection)
-    // Offset: 0x14CF3C8
+    // Offset: 0x148E44C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationBaseData* New_ctor(float beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float rotation, int loopsCount, ::GlobalNamespace::LightRotationDirection rotationDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationBaseData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationBaseData*, creationType>(beat, usePreviousEventRotationValue, easeType, rotation, loopsCount, rotationDirection)));
     }
     // public System.Void .ctor(System.Single beat, System.Boolean usePreviousEventRotationValue)
-    // Offset: 0x14CF444
+    // Offset: 0x148E4C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationBaseData* New_ctor(float beat, bool usePreviousEventRotationValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationBaseData::.ctor");

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SignalSenderAttribute] Offset: 0x108BB28
+    // [SignalSenderAttribute] Offset: 0x12257C8
     // private Signal _inputFieldClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private Signal _inputFieldClickedSignal
     ::GlobalNamespace::Signal*& dyn__inputFieldClickedSignal();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2A0A7A8
+    // Offset: 0x29D6920
     void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x2A0A7C8
+    // Offset: 0x29D6940
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,13 +29,13 @@ namespace GlobalNamespace {
   class IStartSeekSongController {
     public:
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // public System.Void StartSong(System.Single offsetTime)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void StartSong(float offsetTime);
     // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SeekTo(float songTime);
   }; // IStartSeekSongController
   #pragma pack(pop)

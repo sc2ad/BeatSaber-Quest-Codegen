@@ -31,10 +31,10 @@ namespace GlobalNamespace {
   class ILevelGameplaySetupData {
     public:
     // public PreviewDifficultyBeatmap get_beatmapLevel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
   }; // ILevelGameplaySetupData
   #pragma pack(pop)

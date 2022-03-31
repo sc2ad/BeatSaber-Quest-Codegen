@@ -40,10 +40,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public IServerSongPackProvider GetServerSongPackProvider()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IServerSongPackProvider* GetServerSongPackProvider();
     // public System.Threading.Tasks.Task RefreshAsync()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task* RefreshAsync();
   }; // IServerSongPackProviderManager
   #pragma pack(pop)

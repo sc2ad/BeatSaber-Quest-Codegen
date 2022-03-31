@@ -85,16 +85,16 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.Object annotations
     ::Il2CppObject*& dyn_annotations();
     // public System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlNodeType get_NodeType();
     // public System.Xml.Linq.XElement get_Parent()
-    // Offset: 0x2A82420
+    // Offset: 0x2A4E5D0
     ::System::Xml::Linq::XElement* get_Parent();
     // public System.Object Annotation(System.Type type)
-    // Offset: 0x2A824A4
+    // Offset: 0x2A4E654
     ::Il2CppObject* Annotation(::System::Type* type);
     // public T Annotation()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T Annotation() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObject::Annotation");
@@ -103,7 +103,7 @@ namespace System::Xml::Linq {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method);
     }
     // public System.Collections.Generic.IEnumerable`1<T> Annotations()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::System::Collections::Generic::IEnumerable_1<T>* Annotations() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObject::Annotations");
@@ -112,19 +112,19 @@ namespace System::Xml::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method);
     }
     // System.Boolean NotifyChanged(System.Object sender, System.Xml.Linq.XObjectChangeEventArgs e)
-    // Offset: 0x2A7F344
+    // Offset: 0x2A4B4F4
     bool NotifyChanged(::Il2CppObject* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
     // System.Boolean NotifyChanging(System.Object sender, System.Xml.Linq.XObjectChangeEventArgs e)
-    // Offset: 0x2A7F28C
+    // Offset: 0x2A4B43C
     bool NotifyChanging(::Il2CppObject* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
     // System.Boolean SkipNotify()
-    // Offset: 0x2A7E638
+    // Offset: 0x2A4A7E8
     bool SkipNotify();
     // System.Xml.Linq.SaveOptions GetSaveOptionsFromAnnotations()
-    // Offset: 0x2A81FB0
+    // Offset: 0x2A4E160
     ::System::Xml::Linq::SaveOptions GetSaveOptionsFromAnnotations();
     // System.Void .ctor()
-    // Offset: 0x2A7CD5C
+    // Offset: 0x2A48F0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

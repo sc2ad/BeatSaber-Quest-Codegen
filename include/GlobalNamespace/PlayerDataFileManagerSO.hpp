@@ -165,40 +165,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Version _eulaUpdateVersion
     ::System::Version*& dyn__eulaUpdateVersion();
     // public System.Void Save(PlayerData playerData)
-    // Offset: 0x14836A4
+    // Offset: 0x12F7CF8
     void Save(::GlobalNamespace::PlayerData* playerData);
     // public PlayerData Load()
-    // Offset: 0x14846D4
+    // Offset: 0x12F898C
     ::GlobalNamespace::PlayerData* Load();
     // private PlayerData LoadFromJSONString(System.String jsonString)
-    // Offset: 0x14847B0
+    // Offset: 0x12F8A68
     ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
     // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
-    // Offset: 0x1485200
+    // Offset: 0x12F94D8
     ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
     // private PlayerData LoadFromVersionV1_0_1(PlayerSaveDataV1_0_1 playerDataModelSaveData)
-    // Offset: 0x1484A18
+    // Offset: 0x12F8CD0
     ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
     // public PlayerData CreateDefaultPlayerData()
-    // Offset: 0x148494C
+    // Offset: 0x12F8C04
     ::GlobalNamespace::PlayerData* CreateDefaultPlayerData();
     // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x148623C
+    // Offset: 0x12FA2D4
     static ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
-    // Offset: 0x1486108
+    // Offset: 0x12FA1A0
     static ::GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::StringW levelId);
     // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
-    // Offset: 0x1485EDC
+    // Offset: 0x12FA064
     ::GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
     // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentName)
-    // Offset: 0x14862A8
+    // Offset: 0x12FA340
     ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentName);
     // private System.String LoadCorrectedSongPackMask(System.Byte[] songMaskPackBytes)
-    // Offset: 0x1485FA8
+    // Offset: 0x12FA124
     ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
     // public System.Void .ctor()
-    // Offset: 0x14862C4
+    // Offset: 0x12FA35C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -34,7 +34,7 @@ namespace UnityEngine::Timeline {
   class IPropertyPreview {
     public:
     // public System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
   }; // UnityEngine.Timeline.IPropertyPreview
   #pragma pack(pop)

@@ -71,7 +71,7 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.GUILayoutGroup windows
     ::UnityEngine::GUILayoutGroup*& dyn_windows();
     // System.Void .ctor()
-    // Offset: 0x1FDE6CC
+    // Offset: 0x1FB09E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -70,16 +70,16 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.UI.Graphic m_Graphic
     ::UnityEngine::UI::Graphic*& dyn_m_Graphic();
     // protected UnityEngine.UI.Graphic get_graphic()
-    // Offset: 0x1906AC0
+    // Offset: 0x18FD9B4
     ::UnityEngine::UI::Graphic* get_graphic();
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x1906D5C
+    // Offset: 0x18FDC50
     void ModifyMesh(::UnityEngine::Mesh* mesh);
     // public System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
     // protected System.Void .ctor()
-    // Offset: 0x1906E98
+    // Offset: 0x18FDD8C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -93,17 +93,17 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMeshEffect*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1906B58
+    // Offset: 0x18FDA4C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x1906C04
+    // Offset: 0x18FDAF8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x1906CB0
+    // Offset: 0x18FDBA4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();

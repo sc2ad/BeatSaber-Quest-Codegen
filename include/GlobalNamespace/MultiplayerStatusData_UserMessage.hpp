@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerStatusData/UserMessage/LocalizedMessage[] localizations
     ::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>& dyn_localizations();
     // public System.Void .ctor()
-    // Offset: 0x14073C4
+    // Offset: 0x13ACBC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

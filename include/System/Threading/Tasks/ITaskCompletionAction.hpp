@@ -29,7 +29,7 @@ namespace System::Threading::Tasks {
   class ITaskCompletionAction {
     public:
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Invoke(::System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.ITaskCompletionAction
   #pragma pack(pop)

@@ -68,7 +68,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputAssetUICache> _inputAssetCache
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*& dyn__inputAssetCache();
     // public System.Void .ctor()
-    // Offset: 0x186353C
+    // Offset: 0x185A430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

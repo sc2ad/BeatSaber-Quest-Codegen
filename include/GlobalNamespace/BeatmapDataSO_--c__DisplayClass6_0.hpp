@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action action
     ::System::Action*& dyn_action();
     // System.Void <RunTaskAndLogException>b__0()
-    // Offset: 0x137B8F8
+    // Offset: 0x136D40C
     void $RunTaskAndLogException$b__0();
     // public System.Void .ctor()
-    // Offset: 0x137B8F0
+    // Offset: 0x136D404
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -144,28 +144,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MultiplayerResultsViewController> backToMenuPressedEvent
     ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToMenuPressedEvent();
     // public System.Void add_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x1402AB0
+    // Offset: 0x13A82B0
     void add_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x1402B54
+    // Offset: 0x13A8354
     void remove_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void add_backToMenuPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x1402BF8
+    // Offset: 0x13A83F8
     void add_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToMenuPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x1402C9C
+    // Offset: 0x13A849C
     void remove_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void Init(MultiplayerResultsData multiplayerResultsData, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showBackToLobbyButton, System.Boolean showBackToMenuButton)
-    // Offset: 0x1402D40
+    // Offset: 0x13A8540
     void Init(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton);
     // private System.Void BackToLobbyPressed()
-    // Offset: 0x1402FC0
+    // Offset: 0x13A87C0
     void BackToLobbyPressed();
     // private System.Void BackToMenuPressed()
-    // Offset: 0x1403024
+    // Offset: 0x13A8824
     void BackToMenuPressed();
     // public System.Void .ctor()
-    // Offset: 0x1403088
+    // Offset: 0x13A8888
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -179,7 +179,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1402EC4
+    // Offset: 0x13A86C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

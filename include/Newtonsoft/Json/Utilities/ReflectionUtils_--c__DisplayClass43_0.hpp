@@ -25,7 +25,7 @@ namespace Newtonsoft::Json::Utilities {
   class ReflectionUtils::$$c__DisplayClass43_0 : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x205FF8C
+    // Offset: 0x204D960
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

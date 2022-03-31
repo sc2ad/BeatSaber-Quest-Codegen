@@ -31,10 +31,10 @@ namespace Org::BouncyCastle::Crypto {
   class IDerivationFunction {
     public:
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GenerateBytes(::ArrayW<uint8_t> output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.IDerivationFunction
   #pragma pack(pop)

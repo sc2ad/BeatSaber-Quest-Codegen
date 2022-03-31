@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x10B6DDC
+    // [SpaceAttribute] Offset: 0x1251270
     // private System.Boolean _mirrorX
     // Size: 0x1
     // Offset: 0x20
@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform[] _yTransforms
     ::ArrayW<::UnityEngine::Transform*>& dyn__yTransforms();
     // public System.Boolean get_mirrorX()
-    // Offset: 0x14CFF8C
+    // Offset: 0x148F010
     bool get_mirrorX();
     // public System.Boolean get_mirrorY()
-    // Offset: 0x14CFF94
+    // Offset: 0x148F018
     bool get_mirrorY();
     // public UnityEngine.Transform[] get_xTransforms()
-    // Offset: 0x14CFF9C
+    // Offset: 0x148F020
     ::ArrayW<::UnityEngine::Transform*> get_xTransforms();
     // public UnityEngine.Transform[] get_yTransforms()
-    // Offset: 0x14CFFA4
+    // Offset: 0x148F028
     ::ArrayW<::UnityEngine::Transform*> get_yTransforms();
     // public System.Void .ctor()
-    // Offset: 0x14CFFAC
+    // Offset: 0x148F030
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

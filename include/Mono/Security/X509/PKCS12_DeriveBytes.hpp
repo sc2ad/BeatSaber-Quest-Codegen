@@ -82,37 +82,37 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Byte[] _salt
     ::ArrayW<uint8_t>& dyn__salt();
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x2A8BEB8
+    // Offset: 0x2A58068
     void set_HashName(::StringW value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x2A8BEC0
+    // Offset: 0x2A58070
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x2A8BEC8
+    // Offset: 0x2A58078
     void set_Password(::ArrayW<uint8_t> value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x2A8BF68
+    // Offset: 0x2A58118
     void set_Salt(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x2A8C6B0
+    // Offset: 0x2A58860
     static void _cctor();
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x2A8BFFC
+    // Offset: 0x2A581AC
     void Adjust(::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x2A8C0E4
+    // Offset: 0x2A58294
     ::ArrayW<uint8_t> Derive(::ArrayW<uint8_t> diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x2A8C530
+    // Offset: 0x2A586E0
     ::ArrayW<uint8_t> DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x2A8C5B0
+    // Offset: 0x2A58760
     ::ArrayW<uint8_t> DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x2A8C630
+    // Offset: 0x2A587E0
     ::ArrayW<uint8_t> DeriveMAC(int size);
     // public System.Void .ctor()
-    // Offset: 0x2A8BEB0
+    // Offset: 0x2A58060
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

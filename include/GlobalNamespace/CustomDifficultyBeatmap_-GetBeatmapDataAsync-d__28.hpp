@@ -23,6 +23,8 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapData;
   // Forward declaring type: EnvironmentInfoSO
   class EnvironmentInfoSO;
+  // Forward declaring type: PlayerSpecificSettings
+  class PlayerSpecificSettings;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -58,21 +60,27 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentInfoSO*) == 0x8);
-    // private CustomDifficultyBeatmap/<>c__DisplayClass28_0 <>8__1
+    // public PlayerSpecificSettings playerSpecificSettings
     // Size: 0x8
     // Offset: 0x30
+    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
+    // Field size check
+    static_assert(sizeof(::GlobalNamespace::PlayerSpecificSettings*) == 0x8);
+    // private CustomDifficultyBeatmap/<>c__DisplayClass28_0 <>8__1
+    // Size: 0x8
+    // Offset: 0x38
     ::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0* $$8__1;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0*) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     // Size: 0x8
-    // Offset: 0x38
+    // Offset: 0x40
     ::System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Field size check
     static_assert(sizeof(::System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
     public:
     // Creating value type constructor for type: $GetBeatmapDataAsync$d__28
-    constexpr $GetBeatmapDataAsync$d__28(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> $$t__builder_ = {}, ::GlobalNamespace::CustomDifficultyBeatmap* $$4__this_ = {}, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, ::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0* $$8__1_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, environmentInfo{environmentInfo_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
+    constexpr $GetBeatmapDataAsync$d__28(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> $$t__builder_ = {}, ::GlobalNamespace::CustomDifficultyBeatmap* $$4__this_ = {}, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, ::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0* $$8__1_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, environmentInfo{environmentInfo_}, playerSpecificSettings{playerSpecificSettings_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
@@ -89,15 +97,17 @@ namespace GlobalNamespace {
     ::GlobalNamespace::CustomDifficultyBeatmap*& dyn_$$4__this();
     // Get instance field reference: public EnvironmentInfoSO environmentInfo
     ::GlobalNamespace::EnvironmentInfoSO*& dyn_environmentInfo();
+    // Get instance field reference: public PlayerSpecificSettings playerSpecificSettings
+    ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: private CustomDifficultyBeatmap/<>c__DisplayClass28_0 <>8__1
     ::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1416C94
+    // Offset: 0x1409E34
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1416EEC
+    // Offset: 0x140A0A4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // CustomDifficultyBeatmap/<GetBeatmapDataAsync>d__28
   // WARNING Not writing size check since size may be invalid!

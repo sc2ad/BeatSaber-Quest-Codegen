@@ -70,63 +70,63 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<::System::Threading::Tasks::Task_1<TResult>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Threading.Tasks.Task`1<TResult> get_Task()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<TResult>* get_Task() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::get_Task");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Task", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal__method);
     }
     // private System.Void SpinUntilCompleted()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SpinUntilCompleted() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::SpinUntilCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SpinUntilCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean TrySetException(System.Exception exception)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TrySetException(::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::TrySetException");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TrySetException", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(exception)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, exception);
     }
     // public System.Boolean TrySetResult(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TrySetResult(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::TrySetResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TrySetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, result);
     }
     // public System.Void SetResult(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetResult(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::SetResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, result);
     }
     // public System.Boolean TrySetCanceled()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TrySetCanceled() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::TrySetCanceled");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TrySetCanceled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // public System.Boolean TrySetCanceled(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::TrySetCanceled");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TrySetCanceled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cancellationToken)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, cancellationToken);
     }
     // public System.Void SetCanceled()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetCanceled() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskCompletionSource_1::SetCanceled");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetCanceled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -129,34 +129,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _handleRot
     ::UnityEngine::Quaternion& dyn__handleRot();
     // public SaberType get_saberType()
-    // Offset: 0x13CCB24
+    // Offset: 0x1418A44
     ::GlobalNamespace::SaberType get_saberType();
     // public UnityEngine.Vector3 get_saberBladeTopPos()
-    // Offset: 0x13CCB40
+    // Offset: 0x1418A60
     ::UnityEngine::Vector3 get_saberBladeTopPos();
     // public UnityEngine.Vector3 get_saberBladeBottomPos()
-    // Offset: 0x13CCB4C
+    // Offset: 0x1418A6C
     ::UnityEngine::Vector3 get_saberBladeBottomPos();
     // public UnityEngine.Vector3 get_handlePos()
-    // Offset: 0x13CCB58
+    // Offset: 0x1418A78
     ::UnityEngine::Vector3 get_handlePos();
     // public UnityEngine.Quaternion get_handleRot()
-    // Offset: 0x13CCB64
+    // Offset: 0x1418A84
     ::UnityEngine::Quaternion get_handleRot();
     // public System.Single get_bladeSpeed()
-    // Offset: 0x13CCB70
+    // Offset: 0x1418A90
     float get_bladeSpeed();
     // public SaberMovementData get_movementData()
-    // Offset: 0x13CCB8C
+    // Offset: 0x1418AAC
     ::GlobalNamespace::SaberMovementData* get_movementData();
     // public System.Void ManualUpdate()
-    // Offset: 0x13CCB94
+    // Offset: 0x1418AB4
     void ManualUpdate();
     // public System.Void OverridePositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x13CCCDC
+    // Offset: 0x14190BC
     void OverridePositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // public System.Void .ctor()
-    // Offset: 0x13CCD58
+    // Offset: 0x1419138
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

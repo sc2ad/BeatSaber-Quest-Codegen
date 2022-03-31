@@ -64,7 +64,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Reflection.MemberInfo member
     ::System::Reflection::MemberInfo*& dyn_member();
     // public System.Void .ctor()
-    // Offset: 0x1D3DCF4
+    // Offset: 0x1D211C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

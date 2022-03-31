@@ -60,13 +60,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private AchievementSO _achievement
     ::GlobalNamespace::AchievementSO*& dyn__achievement();
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0x13504DC
+    // Offset: 0x12E9D70
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0x135030C
+    // Offset: 0x12E9BA0
     ::StringW get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x13504E4
+    // Offset: 0x12E9D78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

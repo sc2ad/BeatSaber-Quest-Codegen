@@ -85,28 +85,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::Zenject::IMemoryPool_1<T0>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Collections.Generic.List`1<T1> get_activeItems()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::List_1<T1>* get_activeItems() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MemoryPoolContainer_2::get_activeItems");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_activeItems", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T1>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.IMemoryPool`1<T0> memoryPool)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolContainer_2<T0, T1>* New_ctor(::Zenject::IMemoryPool_1<T0>* memoryPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MemoryPoolContainer_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolContainer_2<T0, T1>*, creationType>(memoryPool)));
     }
     // public T0 Spawn()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T0 Spawn() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MemoryPoolContainer_2::Spawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T0, false>(this, ___internal__method);
     }
     // public System.Void Despawn(T0 item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Despawn(T0 item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MemoryPoolContainer_2::Despawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Despawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));

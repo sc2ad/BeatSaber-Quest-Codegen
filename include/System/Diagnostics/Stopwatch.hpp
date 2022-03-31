@@ -76,37 +76,37 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean is_running
     bool& dyn_is_running();
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x1CC7D34
+    // Offset: 0x1CAC204
     ::System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x1CC7ED0
+    // Offset: 0x1CAC3A0
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x1CC7E50
+    // Offset: 0x1CAC320
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x1CC7FF0
+    // Offset: 0x1CAC4C0
     bool get_IsRunning();
     // static private System.Void .cctor()
-    // Offset: 0x1CC8174
+    // Offset: 0x1CAC644
     static void _cctor();
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x1CC7D28
+    // Offset: 0x1CAC1F8
     static int64_t GetTimestamp();
     // public System.Void Reset()
-    // Offset: 0x1CC7FF8
+    // Offset: 0x1CAC4C8
     void Reset();
     // public System.Void Start()
-    // Offset: 0x1CC8004
+    // Offset: 0x1CAC4D4
     void Start();
     // public System.Void Stop()
-    // Offset: 0x1CC807C
+    // Offset: 0x1CAC54C
     void Stop();
     // public System.Void Restart()
-    // Offset: 0x1CC8104
+    // Offset: 0x1CAC5D4
     void Restart();
     // public System.Void .ctor()
-    // Offset: 0x1CC7D2C
+    // Offset: 0x1CAC1FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

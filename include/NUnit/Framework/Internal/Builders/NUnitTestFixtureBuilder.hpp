@@ -76,25 +76,25 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
     ::NUnit::Framework::Interfaces::ITestCaseBuilder*& dyn__testBuilder();
     // static private System.Void .cctor()
-    // Offset: 0x1C66178
+    // Offset: 0x1C4C648
     static void _cctor();
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C63100
+    // Offset: 0x1C495D0
     ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo, NUnit.Framework.Interfaces.ITestFixtureData testFixtureData)
-    // Offset: 0x1C65158
+    // Offset: 0x1C4B628
     ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::NUnit::Framework::Interfaces::ITestFixtureData* testFixtureData);
     // private System.Void AddTestCasesToFixture(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x1C64EE4
+    // Offset: 0x1C4B3B4
     void AddTestCasesToFixture(::NUnit::Framework::Internal::TestFixture* fixture);
     // private NUnit.Framework.Internal.Test BuildTestCase(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x1C66018
+    // Offset: 0x1C4C4E8
     ::NUnit::Framework::Internal::Test* BuildTestCase(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::TestSuite* suite);
     // static private System.Void CheckTestFixtureIsValid(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x1C64BA8
+    // Offset: 0x1C4B078
     static void CheckTestFixtureIsValid(::NUnit::Framework::Internal::TestFixture* fixture);
     // public System.Void .ctor()
-    // Offset: 0x1C632E0
+    // Offset: 0x1C497B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

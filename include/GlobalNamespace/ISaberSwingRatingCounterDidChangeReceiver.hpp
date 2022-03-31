@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class ISaberSwingRatingCounterDidChangeReceiver {
     public:
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
   }; // ISaberSwingRatingCounterDidChangeReceiver
   #pragma pack(pop)

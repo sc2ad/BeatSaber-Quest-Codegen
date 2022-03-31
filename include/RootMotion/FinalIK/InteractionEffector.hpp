@@ -364,68 +364,68 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean started
     bool& dyn_started();
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
-    // Offset: 0x237DB6C
+    // Offset: 0x2352950
     ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
     // private System.Void set_effectorType(RootMotion.FinalIK.FullBodyBipedEffector value)
-    // Offset: 0x237DB74
+    // Offset: 0x2352958
     void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x237DB7C
+    // Offset: 0x2352960
     bool get_isPaused();
     // private System.Void set_isPaused(System.Boolean value)
-    // Offset: 0x237DB84
+    // Offset: 0x2352968
     void set_isPaused(bool value);
     // public RootMotion.FinalIK.InteractionObject get_interactionObject()
-    // Offset: 0x237DB90
+    // Offset: 0x2352974
     ::RootMotion::FinalIK::InteractionObject* get_interactionObject();
     // private System.Void set_interactionObject(RootMotion.FinalIK.InteractionObject value)
-    // Offset: 0x237DB98
+    // Offset: 0x235297C
     void set_interactionObject(::RootMotion::FinalIK::InteractionObject* value);
     // public System.Boolean get_inInteraction()
-    // Offset: 0x237DBA0
+    // Offset: 0x2352984
     bool get_inInteraction();
     // public System.Single get_progress()
-    // Offset: 0x2380560
+    // Offset: 0x2355344
     float get_progress();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x237DC10
+    // Offset: 0x23529F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionEffector*, creationType>(effectorType)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x237DC94
+    // Offset: 0x2352A78
     void Initiate(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // private System.Void StoreDefaults()
-    // Offset: 0x237DD38
+    // Offset: 0x2352B1C
     void StoreDefaults();
     // public System.Boolean ResetToDefaults(System.Single speed)
-    // Offset: 0x237DEB0
+    // Offset: 0x2352C94
     bool ResetToDefaults(float speed);
     // public System.Boolean Pause()
-    // Offset: 0x237E360
+    // Offset: 0x2353144
     bool Pause();
     // public System.Boolean Resume()
-    // Offset: 0x237E720
+    // Offset: 0x2353504
     bool Resume();
     // public System.Boolean Start(RootMotion.FinalIK.InteractionObject interactionObject, System.String tag, System.Single fadeInTime, System.Boolean interrupt)
-    // Offset: 0x237E774
+    // Offset: 0x2353558
     bool Start(::RootMotion::FinalIK::InteractionObject* interactionObject, ::StringW tag, float fadeInTime, bool interrupt);
     // public System.Void Update(UnityEngine.Transform root, System.Single speed)
-    // Offset: 0x237F2C8
+    // Offset: 0x23540AC
     void Update(::UnityEngine::Transform* root, float speed);
     // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, out System.Boolean pickUp, out System.Boolean pause)
-    // Offset: 0x237FDA8
+    // Offset: 0x2354B8C
     void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
     // private System.Void PickUp(UnityEngine.Transform root)
-    // Offset: 0x237FFD0
+    // Offset: 0x2354DB4
     void PickUp(::UnityEngine::Transform* root);
     // public System.Boolean Stop()
-    // Offset: 0x238040C
+    // Offset: 0x23551F0
     bool Stop();
     // public System.Void OnPostFBBIK()
-    // Offset: 0x2380A48
+    // Offset: 0x235582C
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
   #pragma pack(pop)

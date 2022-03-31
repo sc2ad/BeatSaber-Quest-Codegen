@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     template<typename T>
     class HashSetDelegateHolder_1;
     // static public System.Void SetCapacity(System.Collections.Generic.HashSet`1<T> hs, System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void SetCapacity(::System::Collections::Generic::HashSet_1<T>* hs, int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HashSetExtensions::SetCapacity");
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, hs, capacity);
     }
     // static public System.Collections.Generic.HashSet`1<T> GetHashSet(System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Collections::Generic::HashSet_1<T>* GetHashSet(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HashSetExtensions::GetHashSet");

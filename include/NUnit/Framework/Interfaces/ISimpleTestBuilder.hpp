@@ -36,7 +36,7 @@ namespace NUnit::Framework::Interfaces {
   class ISimpleTestBuilder {
     public:
     // public NUnit.Framework.Internal.TestMethod BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Internal::TestMethod* BuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* suite);
   }; // NUnit.Framework.Interfaces.ISimpleTestBuilder
   #pragma pack(pop)

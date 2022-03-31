@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::IO::Stream* GetOctetStream();
   }; // Org.BouncyCastle.Asn1.Asn1OctetStringParser
   #pragma pack(pop)

@@ -76,31 +76,31 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<ObstacleData,MockObstacleData> <>9__0_6
     static void _set_$$9__0_6(::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x133A8AC
+    // Offset: 0x13C473C
     static void _cctor();
     // System.Boolean <ToMockBeatmapData>b__0_0(NoteData nd)
-    // Offset: 0x133A918
+    // Offset: 0x13C47A8
     bool $ToMockBeatmapData$b__0_0(::GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_1(NoteData nd)
-    // Offset: 0x133A938
+    // Offset: 0x13C47C8
     ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_1(::GlobalNamespace::NoteData* nd);
     // System.Boolean <ToMockBeatmapData>b__0_2(NoteData nd)
-    // Offset: 0x133A940
+    // Offset: 0x13C47D0
     bool $ToMockBeatmapData$b__0_2(::GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_3(NoteData nd)
-    // Offset: 0x133A960
+    // Offset: 0x13C47F0
     ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_3(::GlobalNamespace::NoteData* nd);
     // System.Boolean <ToMockBeatmapData>b__0_4(NoteData nd)
-    // Offset: 0x133A968
+    // Offset: 0x13C47F8
     bool $ToMockBeatmapData$b__0_4(::GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_5(NoteData nd)
-    // Offset: 0x133A988
+    // Offset: 0x13C4818
     ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_5(::GlobalNamespace::NoteData* nd);
     // MockObstacleData <ToMockBeatmapData>b__0_6(ObstacleData od)
-    // Offset: 0x133A990
+    // Offset: 0x13C4820
     ::GlobalNamespace::MockObstacleData* $ToMockBeatmapData$b__0_6(::GlobalNamespace::ObstacleData* od);
     // public System.Void .ctor()
-    // Offset: 0x133A910
+    // Offset: 0x13C47A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

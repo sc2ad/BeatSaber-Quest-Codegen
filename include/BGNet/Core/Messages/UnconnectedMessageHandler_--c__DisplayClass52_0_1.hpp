@@ -75,14 +75,14 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::Action_2<T, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void <CustomUnreliableResponseHandler>b__0(T packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void $CustomUnreliableResponseHandler$b__0(T packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass52_0_1::<CustomUnreliableResponseHandler>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CustomUnreliableResponseHandler>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, packet, origin);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

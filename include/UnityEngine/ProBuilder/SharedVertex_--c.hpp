@@ -43,13 +43,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>,System.Boolean> <>9__26_0
     static void _set_$$9__26_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int, int>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2981FC8
+    // Offset: 0x2950140
     static void _cctor();
     // System.Boolean <SortedRemoveAndShift>b__26_0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x2982034
+    // Offset: 0x29501AC
     bool $SortedRemoveAndShift$b__26_0(::System::Collections::Generic::KeyValuePair_2<int, int> x);
     // public System.Void .ctor()
-    // Offset: 0x298202C
+    // Offset: 0x29501A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -100,13 +100,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<UnityEngine.Color> <>9__1
     ::System::Action_1<::UnityEngine::Color>*& dyn_$$9__1();
     // System.Void <SetupColorButton>b__0()
-    // Offset: 0x1421B94
+    // Offset: 0x1414D4C
     void $SetupColorButton$b__0();
     // System.Void <SetupColorButton>b__1(UnityEngine.Color c)
-    // Offset: 0x1421C74
+    // Offset: 0x1414E2C
     void $SetupColorButton$b__1(::UnityEngine::Color c);
     // public System.Void .ctor()
-    // Offset: 0x142189C
+    // Offset: 0x1414A54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

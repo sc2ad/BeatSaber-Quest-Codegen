@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private System.Boolean _keepDefaultRendering
+    // protected System.Boolean _keepDefaultRendering
     // Size: 0x1
     // Offset: 0x20
     bool keepDefaultRendering;
@@ -70,8 +70,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useCustomMaterial and: customMaterial
     char __padding1[0x6] = {};
-    // [DrawIfAttribute] Offset: 0x109CB1C
-    // [NullAllowed] Offset: 0x109CB1C
+    // [DrawIfAttribute] Offset: 0x1237800
+    // [NullAllowed] Offset: 0x1237800
     // private UnityEngine.Material _customMaterial
     // Size: 0x8
     // Offset: 0x28
@@ -85,12 +85,12 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Rendering::CommandBuffer*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109CBD4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12378B8
     // Get static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static int _get__worldSpaceCameraPosID();
     // Set static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static void _set__worldSpaceCameraPosID(int value);
-    // Get instance field reference: private System.Boolean _keepDefaultRendering
+    // Get instance field reference: protected System.Boolean _keepDefaultRendering
     bool& dyn__keepDefaultRendering();
     // Get instance field reference: private System.Boolean _useCustomMaterial
     bool& dyn__useCustomMaterial();
@@ -98,17 +98,17 @@ namespace GlobalNamespace {
     ::UnityEngine::Material*& dyn__customMaterial();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _commandBuffer
     ::UnityEngine::Rendering::CommandBuffer*& dyn__commandBuffer();
-    // protected UnityEngine.Renderer get_renderer()
-    // Offset: 0xFFFFFFFF
+    // public UnityEngine.Renderer get_renderer()
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Renderer* get_renderer();
-    // private System.Void InitIfNeeded()
-    // Offset: 0x1F10034
+    // protected System.Void InitIfNeeded()
+    // Offset: 0x2ACCAF0
     void InitIfNeeded();
     // protected System.Void Awake()
-    // Offset: 0x1F10120
+    // Offset: 0x2ACC9B4
     void Awake();
     // protected System.Void .ctor()
-    // Offset: 0x1F0FFCC
+    // Offset: 0x2ACCC04
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -122,13 +122,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundNonLightRendererCore*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F1031C
+    // Offset: 0x2ACCE98
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x1F10124
+    // Offset: 0x2ACCC6C
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);

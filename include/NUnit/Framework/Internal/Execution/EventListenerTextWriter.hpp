@@ -63,32 +63,32 @@ namespace NUnit::Framework::Internal::Execution {
     // Get instance field reference: private System.String _streamName
     ::StringW& dyn__streamName();
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0x1C6A788
+    // Offset: 0x1C50C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventListenerTextWriter* New_ctor(::StringW streamName, ::System::IO::TextWriter* defaultWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Execution::EventListenerTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventListenerTextWriter*, creationType>(streamName, defaultWriter)));
     }
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0x1C6A860
+    // Offset: 0x1C50D30
     bool TrySendToListener(::StringW text);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1C6AA7C
+    // Offset: 0x1C50F4C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     ::System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0x1C6A808
+    // Offset: 0x1C50CD8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0x1C6A9BC
+    // Offset: 0x1C50E8C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::StringW aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0x1C6AA0C
+    // Offset: 0x1C50EDC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::StringW aString);

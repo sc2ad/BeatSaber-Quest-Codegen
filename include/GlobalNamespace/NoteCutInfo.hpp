@@ -205,16 +205,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ISaberMovementData saberMovementData
     ::GlobalNamespace::ISaberMovementData*& dyn_saberMovementData();
     // public System.Boolean get_allIsOK()
-    // Offset: 0x29F449C
+    // Offset: 0x29C0614
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x29F44CC
+    // Offset: 0x29C0644
     bool get_allExceptSaberTypeIsOK();
     // public NoteCutInfo/FailReason get_failReason()
-    // Offset: 0x29F44F4
+    // Offset: 0x29C066C
     ::GlobalNamespace::NoteCutInfo::FailReason get_failReason();
     // public System.Void .ctor(NoteData noteData, System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, UnityEngine.Quaternion worldRotation, UnityEngine.Quaternion inverseWorldRotation, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 notePosition, ISaberMovementData saberMovementData)
-    // Offset: 0x29F4538
+    // Offset: 0x29C06B0
     // ABORTED: conflicts with another method.  NoteCutInfo(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, ::UnityEngine::Vector3 saberDir, ::GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
   }; // NoteCutInfo
   #pragma pack(pop)

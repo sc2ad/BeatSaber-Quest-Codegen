@@ -149,7 +149,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x108E588
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12292BC
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightRotationBeatmapEventData> _defaults
     static ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::LightRotationBeatmapEventData*>* _get__defaults();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightRotationBeatmapEventData> _defaults
@@ -171,34 +171,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <rotation>k__BackingField
     float& dyn_$rotation$k__BackingField();
     // public System.Single get_rotation()
-    // Offset: 0x284D34C
+    // Offset: 0x281C4C4
     float get_rotation();
     // private System.Void set_rotation(System.Single value)
-    // Offset: 0x284D354
+    // Offset: 0x281C4CC
     void set_rotation(float value);
     // public System.Void .ctor(System.Single time, System.Int32 groupId, System.Int32 elementId, System.Boolean usePreviousEventValue, EaseType easeType, LightRotationBeatmapEventData/Axis axis, System.Single rotation, System.Int32 loopCount, LightRotationDirection rotationDirection)
-    // Offset: 0x284D35C
+    // Offset: 0x281C4D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationBeatmapEventData* New_ctor(float time, int groupId, int elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis, float rotation, int loopCount, ::GlobalNamespace::LightRotationDirection rotationDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationBeatmapEventData*, creationType>(time, groupId, elementId, usePreviousEventValue, easeType, axis, rotation, loopCount, rotationDirection)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x284D69C
+    // Offset: 0x281C814
     static void _cctor();
     // public System.Void ChangeRotation(System.Single rotation)
-    // Offset: 0x284D46C
+    // Offset: 0x281C5E4
     void ChangeRotation(float rotation);
     // static public System.Int32 SubtypeIdentifier(System.Int32 groupId, System.Int32 elementId, LightRotationBeatmapEventData/Axis axis)
-    // Offset: 0x284D454
+    // Offset: 0x281C5CC
     static int SubtypeIdentifier(int groupId, int elementId, ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis);
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x284D474
+    // Offset: 0x281C5EC
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x284D534
+    // Offset: 0x281C6AC
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

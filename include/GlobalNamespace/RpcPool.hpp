@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
     static void _set__pools(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* value);
     // static public T Obtain()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T Obtain() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IRemoteProcedureCall>);
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void Fill()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void Fill() {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IRemoteProcedureCall>);
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void Release(IRemoteProcedureCall t)
-    // Offset: 0x260B4E4
+    // Offset: 0x25EB9A4
     static void Release(::GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
   #pragma pack(pop)

@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [ReorderableAttribute] Offset: 0x108C0C0
+    // [ReorderableAttribute] Offset: 0x1225D60
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String[] _strings
     ::ArrayW<::StringW>& dyn__strings();
     // public System.String[] get_strings()
-    // Offset: 0x2A0BB30
+    // Offset: 0x29D7CA8
     ::ArrayW<::StringW> get_strings();
     // public System.Void .ctor()
-    // Offset: 0x2A0BB38
+    // Offset: 0x29D7CB0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

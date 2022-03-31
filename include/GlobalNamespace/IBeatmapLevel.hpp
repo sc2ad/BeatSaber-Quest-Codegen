@@ -35,7 +35,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(this);
     }
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
   }; // IBeatmapLevel
   #pragma pack(pop)

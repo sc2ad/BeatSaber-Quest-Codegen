@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Math::Field {
       return *reinterpret_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(this);
     }
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
   }; // Org.BouncyCastle.Math.Field.IPolynomialExtensionField
   #pragma pack(pop)

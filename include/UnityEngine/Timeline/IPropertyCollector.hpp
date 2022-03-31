@@ -46,19 +46,19 @@ namespace UnityEngine::Timeline {
   class IPropertyCollector {
     public:
     // public System.Void PushActiveGameObject(UnityEngine.GameObject gameObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PushActiveGameObject(::UnityEngine::GameObject* gameObject);
     // public System.Void PopActiveGameObject()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PopActiveGameObject();
     // public System.Void AddFromClip(UnityEngine.AnimationClip clip)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromClip(::UnityEngine::AnimationClip* clip);
     // public System.Void AddFromClips(System.Collections.Generic.IEnumerable`1<UnityEngine.AnimationClip> clips)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromClips(::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* clips);
     // public System.Void AddFromName(System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void AddFromName(::StringW name) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -68,16 +68,16 @@ namespace UnityEngine::Timeline {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, name);
     }
     // public System.Void AddFromName(System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromName(::StringW name);
     // public System.Void AddFromClip(UnityEngine.GameObject obj, UnityEngine.AnimationClip clip)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromClip(::UnityEngine::GameObject* obj, ::UnityEngine::AnimationClip* clip);
     // public System.Void AddFromClips(UnityEngine.GameObject obj, System.Collections.Generic.IEnumerable`1<UnityEngine.AnimationClip> clips)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromClips(::UnityEngine::GameObject* obj, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* clips);
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void AddFromName(::UnityEngine::GameObject* obj, ::StringW name) {
       static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
@@ -87,16 +87,16 @@ namespace UnityEngine::Timeline {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, obj, name);
     }
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromName(::UnityEngine::GameObject* obj, ::StringW name);
     // public System.Void AddFromName(UnityEngine.Component component, System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromName(::UnityEngine::Component* component, ::StringW name);
     // public System.Void AddFromComponent(UnityEngine.GameObject obj, UnityEngine.Component component)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddFromComponent(::UnityEngine::GameObject* obj, ::UnityEngine::Component* component);
     // public System.Void AddObjectProperties(UnityEngine.Object obj, UnityEngine.AnimationClip clip)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddObjectProperties(::UnityEngine::Object* obj, ::UnityEngine::AnimationClip* clip);
   }; // UnityEngine.Timeline.IPropertyCollector
   #pragma pack(pop)

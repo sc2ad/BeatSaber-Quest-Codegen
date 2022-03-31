@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class VoipManager : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A9707C
+    // Offset: 0x2AC542C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

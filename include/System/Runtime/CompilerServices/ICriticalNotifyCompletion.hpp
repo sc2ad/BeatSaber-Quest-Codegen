@@ -35,7 +35,7 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(this);
     }
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UnsafeOnCompleted(::System::Action* continuation);
   }; // System.Runtime.CompilerServices.ICriticalNotifyCompletion
   #pragma pack(pop)

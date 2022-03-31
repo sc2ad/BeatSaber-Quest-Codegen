@@ -41,10 +41,10 @@ namespace GlobalNamespace {
   class IServerBeatmapProvider {
     public:
     // public System.Boolean VerifyBeatmapForSelectionMask(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelSelectionMask selectionMask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
     // public BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(System.Int32 playerCount, System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> beatmapsSuggestedByPlayers, BeatmapLevelSelectionMask selectionMask, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> playerOwnedSongPacks)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* beatmapsSuggestedByPlayers, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* playerOwnedSongPacks);
   }; // IServerBeatmapProvider
   #pragma pack(pop)

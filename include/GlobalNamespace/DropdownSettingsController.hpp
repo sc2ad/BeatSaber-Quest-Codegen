@@ -88,37 +88,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElements
     int& dyn__numberOfElements();
     // public System.Void add_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x141E550
+    // Offset: 0x1411708
     void add_dropDownValueDidChangeEvent(::System::Action* value);
     // public System.Void remove_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x141E5F4
+    // Offset: 0x14117AC
     void remove_dropDownValueDidChangeEvent(::System::Action* value);
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ApplyValue(int idx);
     // protected System.String TextForValue(System.Int32 idx)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x141E698
+    // Offset: 0x1411850
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x141E848
+    // Offset: 0x1411A00
     void OnDisable();
     // private System.Void HandleDropdownValueDidChange(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x141E920
+    // Offset: 0x1411AD8
     void HandleDropdownValueDidChange(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI()
-    // Offset: 0x141E760
+    // Offset: 0x1411918
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x141E968
+    // Offset: 0x1411B20
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x141E9C8
+    // Offset: 0x1411B80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -61,28 +61,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Action_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void Raise(T f)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Raise(T f) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GenericSignal_1::Raise");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Raise", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(f)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, f);
     }
     // public System.Void Subscribe(System.Action`1<T> foo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Subscribe(::System::Action_1<T>* foo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GenericSignal_1::Subscribe");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Subscribe", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(foo)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, foo);
     }
     // public System.Void Unsubscribe(System.Action`1<T> foo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Unsubscribe(::System::Action_1<T>* foo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GenericSignal_1::Unsubscribe");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Unsubscribe", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(foo)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, foo);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Signal
     // Base method: System.Void Signal::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GenericSignal_1<T>*, creationType>()));
     }
     // public override System.Void Raise()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Signal
     // Base method: System.Void Signal::Raise()
     void Raise() {

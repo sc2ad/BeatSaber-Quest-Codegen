@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
   class IClipper {
     public:
     // public System.Void PerformClipping()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PerformClipping();
   }; // UnityEngine.UI.IClipper
   #pragma pack(pop)

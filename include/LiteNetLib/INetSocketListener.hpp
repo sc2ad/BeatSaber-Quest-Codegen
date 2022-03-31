@@ -36,7 +36,7 @@ namespace LiteNetLib {
   class INetSocketListener {
     public:
     // public System.Void OnMessageReceived(System.Byte[] data, System.Int32 length, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnMessageReceived(::ArrayW<uint8_t> data, int length, ::System::Net::Sockets::SocketError errorCode, ::System::Net::IPEndPoint* remoteEndPoint);
   }; // LiteNetLib.INetSocketListener
   #pragma pack(pop)

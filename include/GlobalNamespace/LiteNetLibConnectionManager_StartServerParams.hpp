@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userName
     ::StringW& dyn_userName();
     // public System.Void .ctor()
-    // Offset: 0x1655274
+    // Offset: 0x164BFB8
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

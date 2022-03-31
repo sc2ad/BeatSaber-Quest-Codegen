@@ -120,43 +120,43 @@ namespace System::Net {
     // Get instance field reference: private System.String m_fqdnMyDomain
     ::StringW& dyn_m_fqdnMyDomain();
     // static private System.Void .cctor()
-    // Offset: 0x1A48CF8
+    // Offset: 0x1A3DBE4
     static void _cctor();
     // private System.Void AddRemoveDomain(System.String key, System.Net.PathList value)
-    // Offset: 0x1A45160
+    // Offset: 0x1A3A04C
     void AddRemoveDomain(::StringW key, ::System::Net::PathList* value);
     // System.Void Add(System.Net.Cookie cookie, System.Boolean throwOnError)
-    // Offset: 0x1A4525C
+    // Offset: 0x1A3A148
     void Add(::System::Net::Cookie* cookie, bool throwOnError);
     // private System.Boolean AgeCookies(System.String domain)
-    // Offset: 0x1A459CC
+    // Offset: 0x1A3A8B8
     bool AgeCookies(::StringW domain);
     // private System.Int32 ExpireCollection(System.Net.CookieCollection cc)
-    // Offset: 0x1A46D00
+    // Offset: 0x1A3BBEC
     int ExpireCollection(::System::Net::CookieCollection* cc);
     // System.Boolean IsLocalDomain(System.String host)
-    // Offset: 0x1A46E38
+    // Offset: 0x1A3BD24
     bool IsLocalDomain(::StringW host);
     // System.Net.CookieCollection CookieCutter(System.Uri uri, System.String headerName, System.String setCookieHeader, System.Boolean isThrow)
-    // Offset: 0x1A47100
+    // Offset: 0x1A3BFEC
     ::System::Net::CookieCollection* CookieCutter(::System::Uri* uri, ::StringW headerName, ::StringW setCookieHeader, bool isThrow);
     // System.Net.CookieCollection InternalGetCookies(System.Uri uri)
-    // Offset: 0x1A47D64
+    // Offset: 0x1A3CC50
     ::System::Net::CookieCollection* InternalGetCookies(::System::Uri* uri);
     // private System.Void BuildCookieCollectionFromDomainMatches(System.Uri uri, System.Boolean isSecure, System.Int32 port, System.Net.CookieCollection cookies, System.Collections.Generic.List`1<System.String> domainAttribute, System.Boolean matchOnlyPlainCookie)
-    // Offset: 0x1A4804C
+    // Offset: 0x1A3CF38
     void BuildCookieCollectionFromDomainMatches(::System::Uri* uri, bool isSecure, int port, ::System::Net::CookieCollection* cookies, ::System::Collections::Generic::List_1<::StringW>* domainAttribute, bool matchOnlyPlainCookie);
     // private System.Void MergeUpdateCollections(System.Net.CookieCollection destination, System.Net.CookieCollection source, System.Int32 port, System.Boolean isSecure, System.Boolean isPlainOnly)
-    // Offset: 0x1A48750
+    // Offset: 0x1A3D63C
     void MergeUpdateCollections(::System::Net::CookieCollection* destination, ::System::Net::CookieCollection* source, int port, bool isSecure, bool isPlainOnly);
     // public System.String GetCookieHeader(System.Uri uri)
-    // Offset: 0x1A48938
+    // Offset: 0x1A3D824
     ::StringW GetCookieHeader(::System::Uri* uri);
     // System.String GetCookieHeader(System.Uri uri, out System.String optCookie2)
-    // Offset: 0x1A48A08
+    // Offset: 0x1A3D8F4
     ::StringW GetCookieHeader(::System::Uri* uri, ByRef<::StringW> optCookie2);
     // public System.Void .ctor()
-    // Offset: 0x1A45080
+    // Offset: 0x1A39F6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

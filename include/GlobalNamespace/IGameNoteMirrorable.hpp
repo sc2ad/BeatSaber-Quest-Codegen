@@ -40,13 +40,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::INoteMirrorable*>(this);
     }
     // public NoteMovement get_noteMovement()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteMovement* get_noteMovement();
     // public NoteVisualModifierType get_noteVisualModifierType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
   }; // IGameNoteMirrorable
   #pragma pack(pop)

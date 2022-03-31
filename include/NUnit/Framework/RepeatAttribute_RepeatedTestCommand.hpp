@@ -49,7 +49,7 @@ namespace NUnit::Framework {
     // Get instance field reference: private System.Int32 repeatCount
     int& dyn_repeatCount();
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x29EDC2C
+    // Offset: 0x29B9DA4
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

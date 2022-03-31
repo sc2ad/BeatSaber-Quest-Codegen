@@ -75,10 +75,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _detailResolutionPerPatch
     int& dyn__detailResolutionPerPatch();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailProperties other)
-    // Offset: 0x175151C
+    // Offset: 0x174940C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other);
     // public System.Void .ctor()
-    // Offset: 0x17516AC
+    // Offset: 0x174959C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class ILevelRestartController {
     public:
     // public System.Void RestartLevel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RestartLevel();
   }; // ILevelRestartController
   #pragma pack(pop)

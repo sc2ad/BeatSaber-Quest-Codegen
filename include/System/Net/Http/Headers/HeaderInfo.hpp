@@ -105,23 +105,23 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
     ::System::Func_2<::Il2CppObject*, ::StringW>*& dyn_$CustomToString$k__BackingField();
     // public System.Func`2<System.Object,System.String> get_CustomToString()
-    // Offset: 0x1961854
+    // Offset: 0x1957740
     ::System::Func_2<::Il2CppObject*, ::StringW>* get_CustomToString();
     // private System.Void set_CustomToString(System.Func`2<System.Object,System.String> value)
-    // Offset: 0x196185C
+    // Offset: 0x1957748
     void set_CustomToString(::System::Func_2<::Il2CppObject*, ::StringW>* value);
     // public System.String get_Separator()
-    // Offset: 0x1961864
+    // Offset: 0x1957750
     ::StringW get_Separator();
     // protected System.Void .ctor(System.String name, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x1961808
+    // Offset: 0x19576F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HeaderInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo*, creationType>(name, headerKind)));
     }
     // static public System.Net.Http.Headers.HeaderInfo CreateSingle(System.String name, System.Net.Http.Headers.TryParseDelegate`1<T> parser, System.Net.Http.Headers.HttpHeaderKind headerKind, System.Func`2<System.Object,System.String> toString)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Net::Http::Headers::HeaderInfo* CreateSingle(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, ::System::Func_2<::Il2CppObject*, ::StringW>* toString) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HeaderInfo::CreateSingle");
@@ -130,7 +130,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<::System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, parser, headerKind, toString);
     }
     // static public System.Net.Http.Headers.HeaderInfo CreateMulti(System.String name, System.Net.Http.Headers.TryParseListDelegate`1<T> elementParser, System.Net.Http.Headers.HttpHeaderKind headerKind, System.Int32 minimalCount, System.String separator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::System::Net::Http::Headers::HeaderInfo* CreateMulti(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* elementParser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, int minimalCount, ::StringW separator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HeaderInfo::CreateMulti");
@@ -139,19 +139,19 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<::System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, elementParser, headerKind, minimalCount, separator);
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
-    // Offset: 0x1961844
+    // Offset: 0x1957730
     ::Il2CppObject* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
     // public System.Void AddToCollection(System.Object collection, System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AddToCollection(::Il2CppObject* collection, ::Il2CppObject* value);
     // protected System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
     // public System.Collections.Generic.List`1<System.String> ToStringCollection(System.Object collection)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::List_1<::StringW>* ToStringCollection(::Il2CppObject* collection);
     // public System.Boolean TryParse(System.String value, out System.Object result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryParse(::StringW value, ByRef<::Il2CppObject*> result);
   }; // System.Net.Http.Headers.HeaderInfo
   #pragma pack(pop)

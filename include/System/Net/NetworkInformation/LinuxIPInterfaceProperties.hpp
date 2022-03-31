@@ -52,17 +52,17 @@ namespace System::Net::NetworkInformation {
   class LinuxIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
     public:
     // public System.Void .ctor(System.Net.NetworkInformation.LinuxNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1A87900
+    // Offset: 0x1A7C7EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::LinuxIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)
-    // Offset: 0x1A87980
+    // Offset: 0x1A7C86C
     ::System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::StringW iface);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x1A87E04
+    // Offset: 0x1A7CCF0
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();

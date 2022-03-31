@@ -203,16 +203,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentSizeData/TrackLaneType _trackLaneType
     ::GlobalNamespace::EnvironmentSizeData::TrackLaneType& dyn__trackLaneType();
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x12DABA8
+    // Offset: 0x1385168
     ::GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x12DABB0
+    // Offset: 0x1385170
     ::GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public EnvironmentSizeData/TrackLaneType get_trackLaneType()
-    // Offset: 0x12DABB8
+    // Offset: 0x1385178
     ::GlobalNamespace::EnvironmentSizeData::TrackLaneType get_trackLaneType();
     // public System.Void .ctor()
-    // Offset: 0x12DABC0
+    // Offset: 0x1385180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

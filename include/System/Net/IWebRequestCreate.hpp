@@ -34,7 +34,7 @@ namespace System::Net {
   class IWebRequestCreate {
     public:
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Net::WebRequest* Create(::System::Uri* uri);
   }; // System.Net.IWebRequestCreate
   #pragma pack(pop)

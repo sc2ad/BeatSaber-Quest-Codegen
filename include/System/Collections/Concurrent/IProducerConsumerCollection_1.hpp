@@ -39,21 +39,21 @@ namespace System::Collections::Concurrent {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // public System.Boolean TryAdd(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryAdd(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::IProducerConsumerCollection_1::TryAdd");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryAdd", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, item);
     }
     // public System.Boolean TryTake(out T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryTake(ByRef<T> item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::IProducerConsumerCollection_1::TryTake");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryTake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(item));
     }
     // public T[] ToArray()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<T> ToArray() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::IProducerConsumerCollection_1::ToArray");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

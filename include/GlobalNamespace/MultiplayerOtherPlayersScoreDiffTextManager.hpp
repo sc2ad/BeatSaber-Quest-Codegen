@@ -56,42 +56,42 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10BA6E4
+    // [InjectAttribute] Offset: 0x1254C58
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA6F4
+    // [InjectAttribute] Offset: 0x1254C68
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA704
+    // [InjectAttribute] Offset: 0x1254C78
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA714
+    // [InjectAttribute] Offset: 0x1254C88
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA724
+    // [InjectAttribute] Offset: 0x1254C98
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BA734
+    // [InjectAttribute] Offset: 0x1254CA8
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -128,25 +128,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeToNextUpdate
     float& dyn__timeToNextUpdate();
     // protected System.Void Start()
-    // Offset: 0x13F97EC
+    // Offset: 0x139F07C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13F98B4
+    // Offset: 0x139F144
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13F9990
+    // Offset: 0x139F220
     void Update();
     // private System.Void InitLeftRightPositions()
-    // Offset: 0x13FA2EC
+    // Offset: 0x139FB7C
     void InitLeftRightPositions();
     // private System.Void HideAll()
-    // Offset: 0x13F9D50
+    // Offset: 0x139F5E0
     void HideAll();
     // private System.Void HandleStateChanged(MultiplayerController/State newState)
-    // Offset: 0x13FA7F0
+    // Offset: 0x13A0080
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State newState);
     // public System.Void .ctor()
-    // Offset: 0x13FA910
+    // Offset: 0x13A01A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

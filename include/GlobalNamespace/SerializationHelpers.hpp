@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class SerializationHelpers : public ::Il2CppObject {
     public:
     // static public T DeserializeData(System.Byte[] data)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T DeserializeData(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::DeserializeData");
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, data);
     }
     // static public System.Byte[] SerializeObject(T serializableObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::ArrayW<uint8_t> SerializeObject(T serializableObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::SerializeObject");
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, serializableObject);
     }
     // static public T DeserializeDataFromPlayerPrefs(System.String key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T DeserializeDataFromPlayerPrefs(::StringW key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::DeserializeDataFromPlayerPrefs");
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key);
     }
     // static public System.Void SerializeObjectIntoPlayerPrefs(System.String key, T serializableObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void SerializeObjectIntoPlayerPrefs(::StringW key, T serializableObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::SerializeObjectIntoPlayerPrefs");
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, serializableObject);
     }
     // static public T DeserializeDataFromFile(System.String filePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T DeserializeDataFromFile(::StringW filePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::DeserializeDataFromFile");
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, filePath);
     }
     // static public System.Void SerializeObjectToFile(System.String filePath, T serializableObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static void SerializeObjectToFile(::StringW filePath, T serializableObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::SerializeObjectToFile");
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, filePath, serializableObject);
     }
     // public System.Void .ctor()
-    // Offset: 0x2A0A084
+    // Offset: 0x29D61FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

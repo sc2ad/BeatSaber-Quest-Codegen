@@ -56,10 +56,10 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Object typedValue
     ::Il2CppObject*& dyn_typedValue();
     // public System.Xml.Schema.XmlSchemaSimpleType get_XmlType()
-    // Offset: 0x202FDE8
+    // Offset: 0x201D7BC
     ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
     // public System.Object get_TypedValue()
-    // Offset: 0x202FDF0
+    // Offset: 0x201D7C4
     ::Il2CppObject* get_TypedValue();
   }; // System.Xml.Schema.XsdSimpleValue
   #pragma pack(pop)

@@ -91,46 +91,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<INetworkPlayer> onInviteRequestEvent
     ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& dyn_onInviteRequestEvent();
     // public System.String get_myPartyTitle()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_myPartyTitle();
     // public System.String get_otherPlayersTitle()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_otherPlayersTitle();
     // public INetworkPlayerModel get_networkPlayerModel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // public System.Void add_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x140CB8C
+    // Offset: 0x147153C
     void add_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x140CC30
+    // Offset: 0x14715E0
     void remove_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void add_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x140CCD4
+    // Offset: 0x1471684
     void add_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x140CD78
+    // Offset: 0x1471728
     void remove_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // protected System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x140D2A0
+    // Offset: 0x1471C50
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected System.Void NetworkPlayersViewControllerDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x140D548
+    // Offset: 0x1471EF8
     void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
     // private System.Void HandlePartyChanged(INetworkPlayerModel playerModel)
-    // Offset: 0x140D554
+    // Offset: 0x1471F04
     void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
     // private System.Void HandleJoinRequest(INetworkPlayer player)
-    // Offset: 0x140D56C
+    // Offset: 0x1471F1C
     void HandleJoinRequest(::GlobalNamespace::INetworkPlayer* player);
     // private System.Void HandleInviteRequest(INetworkPlayer player)
-    // Offset: 0x140D5E0
+    // Offset: 0x1471F90
     void HandleInviteRequest(::GlobalNamespace::INetworkPlayer* player);
     // private System.Void Refresh()
-    // Offset: 0x140D0F4
+    // Offset: 0x1471AA4
     void Refresh();
     // protected System.Void .ctor()
-    // Offset: 0x140D654
+    // Offset: 0x1472004
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -144,17 +144,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x140CE1C
+    // Offset: 0x14717CC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x140D2A4
+    // Offset: 0x1471C54
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x140D54C
+    // Offset: 0x1471EFC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

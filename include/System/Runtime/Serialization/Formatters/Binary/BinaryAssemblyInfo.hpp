@@ -61,21 +61,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Reflection.Assembly assembly
     ::System::Reflection::Assembly*& dyn_assembly();
     // System.Void .ctor(System.String assemblyString)
-    // Offset: 0x18C03BC
+    // Offset: 0x18B82B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryAssemblyInfo* New_ctor(::StringW assemblyString) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString)));
     }
     // System.Void .ctor(System.String assemblyString, System.Reflection.Assembly assembly)
-    // Offset: 0x18C03E8
+    // Offset: 0x18B82DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryAssemblyInfo* New_ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString, assembly)));
     }
     // System.Reflection.Assembly GetAssembly()
-    // Offset: 0x18C0420
+    // Offset: 0x18B8314
     ::System::Reflection::Assembly* GetAssembly();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo
   #pragma pack(pop)

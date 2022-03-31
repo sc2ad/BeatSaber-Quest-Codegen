@@ -87,17 +87,17 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Get instance field reference: private System.Byte[] iv
     ::ArrayW<uint8_t>& dyn_iv();
     // public System.Void .ctor(System.Int32 counterStart, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1E0F60C
+    // Offset: 0x1DF3ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseKdfBytesGenerator* New_ctor(int counterStart, ::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseKdfBytesGenerator*, creationType>(counterStart, digest)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
-    // Offset: 0x1E0F648
+    // Offset: 0x1DF3B18
     void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
-    // Offset: 0x1E0F750
+    // Offset: 0x1DF3C20
     int GenerateBytes(::ArrayW<uint8_t> output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
   #pragma pack(pop)

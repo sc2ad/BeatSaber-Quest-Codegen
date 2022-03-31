@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1ParsingException : public ::System::InvalidOperationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1C08250
+    // Offset: 0x1BEE720
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1ParsingException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1C08258
+    // Offset: 0x1BEE728
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -59,7 +59,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1ParsingException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x1C08260
+    // Offset: 0x1BEE730
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception exception)

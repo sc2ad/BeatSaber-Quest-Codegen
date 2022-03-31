@@ -140,10 +140,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
     ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x164DFD4
+    // Offset: 0x1644D18
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x164E970
+    // Offset: 0x16456B4
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // GameLiftConnectionManager/<GameLiftConnectToServer>d__81
   // WARNING Not writing size check since size may be invalid!

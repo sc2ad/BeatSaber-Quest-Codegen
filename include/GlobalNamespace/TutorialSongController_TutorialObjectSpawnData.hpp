@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 lineIndex
     int& dyn_lineIndex();
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex)
-    // Offset: 0x138DC40
+    // Offset: 0x2AB39DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObjectSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::TutorialObjectSpawnData::.ctor");

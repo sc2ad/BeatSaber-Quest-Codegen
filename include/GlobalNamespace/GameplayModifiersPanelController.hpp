@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* maxRankValueText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C0AB0
+    // [SpaceAttribute] Offset: 0x125B044
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x30
@@ -182,37 +182,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>*& dyn__toggleForGameplayModifierParam();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13210DC
+    // Offset: 0x13E7DA0
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x1320F94
+    // Offset: 0x13E7C58
     void add_didChangeGameplayModifiersEvent(::System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x1321038
+    // Offset: 0x13E7CFC
     void remove_didChangeGameplayModifiersEvent(::System::Action* value);
     // public System.Void SetData(GameplayModifiers newGameplayModifiers)
-    // Offset: 0x13210E4
+    // Offset: 0x13E7DA8
     void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
     // protected System.Void Awake()
-    // Offset: 0x13210EC
+    // Offset: 0x13E7DB0
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x1321258
+    // Offset: 0x13E7F1C
     void OnDestroy();
     // private System.Void SetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams, System.Boolean value)
-    // Offset: 0x132126C
+    // Offset: 0x13E7F30
     void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
     // private System.Boolean GetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x1321304
+    // Offset: 0x13E7FC8
     bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // private System.Void RefreshTotalMultiplierAndRankUI()
-    // Offset: 0x1321398
+    // Offset: 0x13E805C
     void RefreshTotalMultiplierAndRankUI();
     // private System.Void IRefreshable.Refresh()
-    // Offset: 0x1321550
+    // Offset: 0x13E8214
     void IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1321658
+    // Offset: 0x13E831C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

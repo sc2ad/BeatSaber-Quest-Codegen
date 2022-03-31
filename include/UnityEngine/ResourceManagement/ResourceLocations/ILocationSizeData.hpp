@@ -35,7 +35,7 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
   class ILocationSizeData {
     public:
     // public System.Int64 ComputeSize(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceManager resourceManager)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
   }; // UnityEngine.ResourceManagement.ResourceLocations.ILocationSizeData
   #pragma pack(pop)

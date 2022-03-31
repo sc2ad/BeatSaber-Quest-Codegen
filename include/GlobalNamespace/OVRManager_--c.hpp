@@ -57,16 +57,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<UnityEngine.Camera> <>9__346_0
     static void _set_$$9__346_0(::System::Comparison_1<::UnityEngine::Camera*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16C58A0
+    // Offset: 0x16BC790
     static void _cctor();
     // System.String <InitOVRManager>b__337_0(System.Single f)
-    // Offset: 0x16C590C
+    // Offset: 0x16BC7FC
     ::StringW $InitOVRManager$b__337_0(float f);
     // System.Int32 <FindMainCamera>b__346_0(UnityEngine.Camera c0, UnityEngine.Camera c1)
-    // Offset: 0x16C5934
+    // Offset: 0x16BC824
     int $FindMainCamera$b__346_0(::UnityEngine::Camera* c0, ::UnityEngine::Camera* c1);
     // public System.Void .ctor()
-    // Offset: 0x16C5904
+    // Offset: 0x16BC7F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

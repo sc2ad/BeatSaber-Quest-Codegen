@@ -25,7 +25,7 @@ namespace Newtonsoft::Json {
   class JsonSerializerSettings::$$c__DisplayClass90_0 : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x179A624
+    // Offset: 0x1791514
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

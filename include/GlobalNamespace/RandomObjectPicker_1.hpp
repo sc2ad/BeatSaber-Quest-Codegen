@@ -80,21 +80,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<float*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(T obj, System.Single minimumPickInterval)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomObjectPicker_1<T>* New_ctor(T obj, float minimumPickInterval) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomObjectPicker_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomObjectPicker_1<T>*, creationType>(obj, minimumPickInterval)));
     }
     // public System.Void .ctor(T[] objects, System.Single minimumPickInterval)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomObjectPicker_1<T>* New_ctor(::ArrayW<T> objects, float minimumPickInterval) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomObjectPicker_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomObjectPicker_1<T>*, creationType>(objects, minimumPickInterval)));
     }
     // public T PickRandomObject()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T PickRandomObject() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomObjectPicker_1::PickRandomObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "PickRandomObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

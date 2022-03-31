@@ -90,49 +90,49 @@ namespace UnityEngine::ProBuilder::KdTree {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Int32 get_MaxCapacity()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_MaxCapacity() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_MaxCapacity");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_MaxCapacity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public System.Int32 get_Count()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_Count");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public System.Boolean get_IsCapacityReached()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsCapacityReached() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_IsCapacityReached");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCapacityReached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // public System.Void .ctor(System.Int32 maxCapacity, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TDistance> distanceMath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NearestNeighbourList_2<TItem, TDistance>* New_ctor(int maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NearestNeighbourList_2<TItem, TDistance>*, creationType>(maxCapacity, distanceMath)));
     }
     // public System.Boolean Add(TItem item, TDistance distance)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Add(TItem item, TDistance distance) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(distance)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, item, distance);
     }
     // public TDistance GetFurtherestDistance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TDistance GetFurtherestDistance() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::GetFurtherestDistance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetFurtherestDistance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TDistance, false>(this, ___internal__method);
     }
     // public TItem RemoveFurtherest()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TItem RemoveFurtherest() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::RemoveFurtherest");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveFurtherest", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

@@ -33,13 +33,13 @@ namespace System::Xml::XPath {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object obj1, System.Object obj2)
-    // Offset: 0x1B8AD10
+    // Offset: 0x1B711E0
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* obj1, ::Il2CppObject* obj2);
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1B8ADF4
+    // Offset: 0x1B712C4
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1B8AD08
+    // Offset: 0x1B711D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

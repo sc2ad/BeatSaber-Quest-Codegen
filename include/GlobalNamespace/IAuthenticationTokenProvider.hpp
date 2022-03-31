@@ -34,13 +34,13 @@ namespace GlobalNamespace {
   class IAuthenticationTokenProvider {
     public:
     // public System.String get_hashedUserId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_hashedUserId();
     // public System.String get_userName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userName();
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // IAuthenticationTokenProvider
   #pragma pack(pop)

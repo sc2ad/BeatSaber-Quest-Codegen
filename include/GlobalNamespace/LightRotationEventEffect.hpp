@@ -77,14 +77,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rotationSpeedMultiplier and: beatmapCallbacksController
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0x10B7130
+    // [InjectAttribute] Offset: 0x1251574
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B7140
+    // [InjectAttribute] Offset: 0x1251584
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x38
@@ -145,19 +145,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Start()
-    // Offset: 0x14CFB74
+    // Offset: 0x148EBF8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14CFCBC
+    // Offset: 0x148ED40
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x14CFDBC
+    // Offset: 0x148EE40
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x14CFDD8
+    // Offset: 0x148EE5C
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x14CFF0C
+    // Offset: 0x148EF90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

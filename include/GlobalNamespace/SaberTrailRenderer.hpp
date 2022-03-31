@@ -135,12 +135,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B6B44
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1250FD8
     // Get static field: static private readonly UnityEngine.Bounds _bounds
     static ::UnityEngine::Bounds _get__bounds();
     // Set static field: static private readonly UnityEngine.Bounds _bounds
     static void _set__bounds(::UnityEngine::Bounds value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B6B54
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1250FE8
     // Get static field: static private readonly System.Int32 _saberTravelledDistanceId
     static int _get__saberTravelledDistanceId();
     // Set static field: static private readonly System.Int32 _saberTravelledDistanceId
@@ -182,34 +182,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _whiteSectionMaxDuration
     float& dyn__whiteSectionMaxDuration();
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0x13AABEC
+    // Offset: 0x141FDB4
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0x13AAF14
+    // Offset: 0x14200DC
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0x13AAF20
+    // Offset: 0x14200E8
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0x13AB000
+    // Offset: 0x14201C8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13AB094
+    // Offset: 0x142025C
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0x13AB128
+    // Offset: 0x14202F0
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x13AA644
+    // Offset: 0x141F80C
     void UpdateMesh(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x13AB130
+    // Offset: 0x14202F8
     void UpdateVertices(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0x13AAD2C
+    // Offset: 0x141FEF4
     void UpdateIndices();
     // public System.Void .ctor()
-    // Offset: 0x13AB670
+    // Offset: 0x1420838
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -222,7 +222,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrailRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13AB678
+    // Offset: 0x1420840
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

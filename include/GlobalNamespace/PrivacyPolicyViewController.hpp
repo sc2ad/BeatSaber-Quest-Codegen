@@ -100,14 +100,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [HeaderAttribute] Offset: 0x10C2B3C
+    // [HeaderAttribute] Offset: 0x125D0D0
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x70
     ::UnityEngine::UI::Button* okButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10C2B88
+    // [HeaderAttribute] Offset: 0x125D11C
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x78
@@ -136,16 +136,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<PrivacyPolicyViewController/ButtonType> didFinishEvent
     ::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<PrivacyPolicyViewController/ButtonType> value)
-    // Offset: 0x13C4510
+    // Offset: 0x1379A90
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<PrivacyPolicyViewController/ButtonType> value)
-    // Offset: 0x13C45B4
+    // Offset: 0x1379B34
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>* value);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x13C4734
+    // Offset: 0x1379CB4
     void $DidActivate$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x13C472C
+    // Offset: 0x1379CAC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -159,7 +159,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PrivacyPolicyViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13C4658
+    // Offset: 0x1379BD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

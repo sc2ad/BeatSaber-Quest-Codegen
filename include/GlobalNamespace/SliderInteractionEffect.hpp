@@ -58,31 +58,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private SliderInteractionManager _sliderInteractionManager
     ::GlobalNamespace::SliderInteractionManager*& dyn__sliderInteractionManager();
     // protected System.Single get_saberInteractionParam()
-    // Offset: 0x13E5AAC
+    // Offset: 0x2AA0830
     float get_saberInteractionParam();
     // protected ColorType get_colorType()
-    // Offset: 0x13E5AC8
+    // Offset: 0x2AA0730
     ::GlobalNamespace::ColorType get_colorType();
     // protected System.Void Start()
-    // Offset: 0x13E5AE4
+    // Offset: 0x2AA0660
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13E5CFC
+    // Offset: 0x2AA166C
     void OnDestroy();
     // protected System.Void StartEffect(System.Single saberInteractionParam)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void StartEffect(float saberInteractionParam);
     // protected System.Void EndEffect()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void EndEffect();
     // private System.Void HandleSliderWasAddedToActiveSliders(System.Single saberInteractionParam)
-    // Offset: 0x13E5F14
+    // Offset: 0x2AA1884
     void HandleSliderWasAddedToActiveSliders(float saberInteractionParam);
     // private System.Void HandleAllSliderWereRemovedFromActiveSliders()
-    // Offset: 0x13E5F20
+    // Offset: 0x2AA1890
     void HandleAllSliderWereRemovedFromActiveSliders();
     // protected System.Void .ctor()
-    // Offset: 0x13E5F2C
+    // Offset: 0x2AA08FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

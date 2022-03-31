@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   class PosesSerializer::TypeSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13C04AC
+    // Offset: 0x1375A68
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Void SerializationBinder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PosesSerializer::TypeSerializationBinder*, creationType>()));
     }
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x13C18E0
+    // Offset: 0x1376E9C
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);

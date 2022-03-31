@@ -80,31 +80,31 @@ namespace Zenject {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext>> <>9__50_1
     static void _set_$$9__50_1(::System::Func_2<::UnityEngine::GameObject*, ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneDecoratorContext*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BFFD0C
+    // Offset: 0x1BE61DC
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <GetParentContainers>b__49_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1BFFD78
+    // Offset: 0x1BE6248
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* $GetParentContainers$b__49_0(::UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetParentContainers>b__49_1(UnityEngine.GameObject root)
-    // Offset: 0x1BFFDA0
+    // Offset: 0x1BE6270
     ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* $GetParentContainers$b__49_1(::UnityEngine::GameObject* root);
     // Zenject.DiContainer <GetParentContainers>b__49_3(Zenject.SceneContext x)
-    // Offset: 0x1BFFDF8
+    // Offset: 0x1BE62C8
     ::Zenject::DiContainer* $GetParentContainers$b__49_3(::Zenject::SceneContext* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <LookupDecoratorContexts>b__50_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1BFFE18
+    // Offset: 0x1BE62E8
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* $LookupDecoratorContexts$b__50_0(::UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext> <LookupDecoratorContexts>b__50_1(UnityEngine.GameObject root)
-    // Offset: 0x1BFFE40
+    // Offset: 0x1BE6310
     ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneDecoratorContext*>* $LookupDecoratorContexts$b__50_1(::UnityEngine::GameObject* root);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1BFFE98
+    // Offset: 0x1BE6368
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BFFEF4
+    // Offset: 0x1BE63C4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1BFFD70
+    // Offset: 0x1BE6240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

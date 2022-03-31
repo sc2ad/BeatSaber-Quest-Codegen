@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10C4508
+    // [InjectAttribute] Offset: 0x125EA9C
     // private readonly ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x10
@@ -68,25 +68,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ColorScheme _colorScheme
     ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x1363FCC
+    // Offset: 0x1355C68
     ::UnityEngine::Color get_obstaclesColor();
     // public UnityEngine.Color ColorForType(EnvironmentColorType type, System.Boolean boost)
-    // Offset: 0x1363FEC
+    // Offset: 0x1355C88
     ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
     // public UnityEngine.Color ColorForType(ColorType type)
-    // Offset: 0x1364074
+    // Offset: 0x1355D10
     ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0x13640C4
+    // Offset: 0x1355D60
     ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0x1364118
+    // Offset: 0x1355DB4
     ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0x13641B0
+    // Offset: 0x1355E4C
     ::UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0x1364214
+    // Offset: 0x1355EB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

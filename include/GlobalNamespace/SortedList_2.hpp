@@ -108,42 +108,42 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::LinkedListNode_1<TBase>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Collections.Generic.LinkedList`1<TBase> get_items()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedList_1<TBase>* get_items() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::get_items");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_items", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedList_1<TBase>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(ISortedListItemProcessor`1<TBase> sortedListDataProcessor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList_2<T, TBase>* New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList_2<T, TBase>*, creationType>(sortedListDataProcessor)));
     }
     // public System.Collections.Generic.LinkedListNode`1<TBase> Insert(TBase newItem)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<TBase>* Insert(TBase newItem) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(newItem)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<TBase>*, false>(this, ___internal__method, newItem);
     }
     // public System.Void Remove(System.Collections.Generic.LinkedListNode`1<TBase> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Remove(::System::Collections::Generic::LinkedListNode_1<TBase>* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // private System.Collections.Generic.LinkedListNode`1<TBase> InsertInternal(TBase newItem)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<TBase>* InsertInternal(TBase newItem) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::InsertInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InsertInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(newItem)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<TBase>*, false>(this, ___internal__method, newItem);
     }
     // public System.Collections.Generic.LinkedListNode`1<TBase> NodeForItem(TBase item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<TBase>* NodeForItem(TBase item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::NodeForItem");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "NodeForItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));

@@ -63,19 +63,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*& dyn__functions();
     // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
-    // Offset: 0x14B07C8
+    // Offset: 0x1484F94
     void AddFunction(::StringW name, ::GlobalNamespace::LevelMissionParser::ParserFunction* function);
     // public System.Boolean Parse(System.String s)
-    // Offset: 0x14B0838
+    // Offset: 0x1485004
     bool Parse(::StringW s);
     // private System.Boolean Parse(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x14B0854
+    // Offset: 0x1485020
     bool Parse(::StringW s, int start, int length);
     // private System.Boolean ParseFunction(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x14B0B30
+    // Offset: 0x14852FC
     bool ParseFunction(::StringW s, int start, int length);
     // public System.Void .ctor()
-    // Offset: 0x14B0750
+    // Offset: 0x1484F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

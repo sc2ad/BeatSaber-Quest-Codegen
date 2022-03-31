@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: _ID and: lightManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x109D900
+    // [InjectAttribute] Offset: 0x12387F4
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x20
@@ -87,37 +87,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isRegistered
     bool& dyn__isRegistered();
     // public System.Int32 get_lightId()
-    // Offset: 0x1F170FC
+    // Offset: 0x2AD331C
     int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1F17104
+    // Offset: 0x2AD3324
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1F1710C
+    // Offset: 0x2AD332C
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1F17118
+    // Offset: 0x2AD3338
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // protected System.Void OnEnable()
-    // Offset: 0x1F17120
+    // Offset: 0x2AD3340
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1F171B8
+    // Offset: 0x2AD33D8
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1F171BC
+    // Offset: 0x2AD33DC
     void OnDisable();
     // private System.Void RegisterLight()
-    // Offset: 0x1F17124
+    // Offset: 0x2AD3344
     void RegisterLight();
     // public System.Void SetLightId(System.Int32 newLightId)
-    // Offset: 0x1F17250
+    // Offset: 0x2AD3470
     void SetLightId(int newLightId);
     // protected System.Void .ctor()
-    // Offset: 0x1F0FD94
+    // Offset: 0x2ACB810
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

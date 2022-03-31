@@ -55,10 +55,10 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> call
     ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_call();
     // System.Object <CreateCastConverter>b__0(System.Object o)
-    // Offset: 0x2054FB4
+    // Offset: 0x2042988
     ::Il2CppObject* $CreateCastConverter$b__0(::Il2CppObject* o);
     // public System.Void .ctor()
-    // Offset: 0x2052B38
+    // Offset: 0x204050C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

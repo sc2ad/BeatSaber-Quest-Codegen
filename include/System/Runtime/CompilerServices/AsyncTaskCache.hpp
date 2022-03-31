@@ -48,13 +48,13 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Int32>[] Int32Tasks
     static void _set_Int32Tasks(::ArrayW<::System::Threading::Tasks::Task_1<int>*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1D655BC
+    // Offset: 0x1D48A8C
     static void _cctor();
     // static private System.Threading.Tasks.Task`1<System.Int32>[] CreateInt32Tasks()
-    // Offset: 0x1D654B4
+    // Offset: 0x1D48984
     static ::ArrayW<::System::Threading::Tasks::Task_1<int>*> CreateInt32Tasks();
     // static System.Threading.Tasks.Task`1<TResult> CreateCacheableTask(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Threading::Tasks::Task_1<TResult>* CreateCacheableTask(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskCache::CreateCacheableTask");

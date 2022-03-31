@@ -120,13 +120,13 @@ namespace TMPro {
     // Get instance field reference: public System.Byte smallcaps
     uint8_t& dyn_smallcaps();
     // public System.Void Clear()
-    // Offset: 0x1435098
+    // Offset: 0x143E984
     void Clear();
     // public System.Byte Add(TMPro.FontStyles style)
-    // Offset: 0x14350A4
+    // Offset: 0x143E990
     uint8_t Add(::TMPro::FontStyles style);
     // public System.Byte Remove(TMPro.FontStyles style)
-    // Offset: 0x143516C
+    // Offset: 0x143EA58
     uint8_t Remove(::TMPro::FontStyles style);
   }; // TMPro.TMP_FontStyleStack
   #pragma pack(pop)

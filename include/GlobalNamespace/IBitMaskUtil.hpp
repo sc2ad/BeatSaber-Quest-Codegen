@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   class IBitMaskUtil : public ::Il2CppObject {
     public:
     // static public System.Int32 NumberOfSetBits(T bitMask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static int NumberOfSetBits(T bitMask) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bitMask);
     }
     // static public System.String ToShortString(T bitMask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::StringW ToShortString(T bitMask) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bitMask);
     }
     // static public System.Byte[] ToBytes(T bitMask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::ArrayW<uint8_t> ToBytes(T bitMask) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bitMask);
     }
     // static public System.Boolean TryParse(System.String stringSerializedMask, out T bitMask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool TryParse(::StringW stringSerializedMask, ByRef<T> bitMask) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, stringSerializedMask, byref(bitMask));
     }
     // static public System.Boolean TryParse(System.String stringSerializedMask, System.Int32 offset, System.Int32 length, out T bitMask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static bool TryParse(::StringW stringSerializedMask, int offset, int length, ByRef<T> bitMask) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, stringSerializedMask, offset, length, byref(bitMask));
     }
     // static public T FromBytes(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T FromBytes(::ArrayW<uint8_t> bytes, int offset) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IBitMask_1<T>>);
@@ -98,13 +98,13 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bytes, offset);
     }
     // static private System.UInt32 GetHexDigit(System.Char c)
-    // Offset: 0x29F2D30
+    // Offset: 0x29BEEA8
     static uint GetHexDigit(::Il2CppChar c);
     // static private System.UInt32 GetBase64Digit(System.Char c)
-    // Offset: 0x29F2D80
+    // Offset: 0x29BEEF8
     static uint GetBase64Digit(::Il2CppChar c);
     // static private System.Char GetBase64Char(System.UInt64 digit)
-    // Offset: 0x29F2DF0
+    // Offset: 0x29BEF68
     static ::Il2CppChar GetBase64Char(uint64_t digit);
   }; // IBitMaskUtil
   #pragma pack(pop)

@@ -28,7 +28,7 @@ namespace UnityEngine::Experimental::Rendering {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public System.Boolean TickRealtimeProbes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TickRealtimeProbes();
   }; // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem
   #pragma pack(pop)

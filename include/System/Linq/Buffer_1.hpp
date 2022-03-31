@@ -74,14 +74,14 @@ namespace System::Linq {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     Buffer_1(::System::Collections::Generic::IEnumerable_1<TElement>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Buffer_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, source);
     }
     // TElement[] ToArray()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<TElement> ToArray() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Buffer_1::ToArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

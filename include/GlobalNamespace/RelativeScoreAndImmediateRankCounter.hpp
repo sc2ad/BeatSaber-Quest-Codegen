@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8130
+    // [InjectAttribute] Offset: 0x1252644
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B8140
+    // [InjectAttribute] Offset: 0x1252654
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x28
@@ -109,37 +109,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private RankModel/Rank <immediateRank>k__BackingField
     ::GlobalNamespace::RankModel::Rank& dyn_$immediateRank$k__BackingField();
     // public System.Single get_relativeScore()
-    // Offset: 0x13C7BE4
+    // Offset: 0x137D2F4
     float get_relativeScore();
     // private System.Void set_relativeScore(System.Single value)
-    // Offset: 0x13C7BEC
+    // Offset: 0x137D2FC
     void set_relativeScore(float value);
     // public RankModel/Rank get_immediateRank()
-    // Offset: 0x13C7BF4
+    // Offset: 0x137D304
     ::GlobalNamespace::RankModel::Rank get_immediateRank();
     // private System.Void set_immediateRank(RankModel/Rank value)
-    // Offset: 0x13C7BFC
+    // Offset: 0x137D30C
     void set_immediateRank(::GlobalNamespace::RankModel::Rank value);
     // public System.Void add_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0x13C7A9C
+    // Offset: 0x137D1AC
     void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
     // public System.Void remove_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0x13C7B40
+    // Offset: 0x137D250
     void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x13C7C04
+    // Offset: 0x137D314
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C7D38
+    // Offset: 0x137D448
     void OnDestroy();
     // private System.Void HandleScoreDidChange(System.Int32 scoreWithoutModifiers, System.Int32 scoreWithModifiers)
-    // Offset: 0x13C7E38
+    // Offset: 0x137D548
     void HandleScoreDidChange(int scoreWithoutModifiers, int scoreWithModifiers);
     // private System.Void UpdateRelativeScoreAndImmediateRank(System.Int32 score, System.Int32 modifiedScore, System.Int32 maxPossibleScore, System.Int32 maxPossibleModifiedScore)
-    // Offset: 0x13C7F8C
+    // Offset: 0x137D69C
     void UpdateRelativeScoreAndImmediateRank(int score, int modifiedScore, int maxPossibleScore, int maxPossibleModifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x13C801C
+    // Offset: 0x137D72C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

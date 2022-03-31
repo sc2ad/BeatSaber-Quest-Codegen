@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     int lightsId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x10B6810
+    // [InjectAttribute] Offset: 0x1250CA4
     // private LightWithIdManager _lightWithIdManager
     // Size: 0x8
     // Offset: 0x28
@@ -83,10 +83,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightWithIdManager _lightWithIdManager
     ::GlobalNamespace::LightWithIdManager*& dyn__lightWithIdManager();
     // protected System.Void Update()
-    // Offset: 0x1347C88
+    // Offset: 0x15192F8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1347CF0
+    // Offset: 0x1519360
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -71,21 +71,21 @@ namespace System::Threading {
       return *reinterpret_cast<::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void set_Value(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_Value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::AsyncLocal_1::set_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor(System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> valueChangedHandler)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncLocal_1<T>* New_ctor(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::AsyncLocal_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncLocal_1<T>*, creationType>(valueChangedHandler)));
     }
     // private System.Void System.Threading.IAsyncLocal.OnValueChanged(System.Object previousValueObj, System.Object currentValueObj, System.Boolean contextChanged)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void System_Threading_IAsyncLocal_OnValueChanged(::Il2CppObject* previousValueObj, ::Il2CppObject* currentValueObj, bool contextChanged) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::AsyncLocal_1::System.Threading.IAsyncLocal.OnValueChanged");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Threading.IAsyncLocal.OnValueChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(previousValueObj), ::il2cpp_utils::ExtractType(currentValueObj), ::il2cpp_utils::ExtractType(contextChanged)})));

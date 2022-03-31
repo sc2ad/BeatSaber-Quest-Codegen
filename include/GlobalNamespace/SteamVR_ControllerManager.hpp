@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* right;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1071790
+    // [TooltipAttribute] Offset: 0x1208B0C
     // public UnityEngine.GameObject[] objects
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::UnityEngine::GameObject*> objects;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x10717C8
+    // [TooltipAttribute] Offset: 0x1208B44
     // public System.Boolean assignAllBeforeIdentified
     // Size: 0x1
     // Offset: 0x30
@@ -162,43 +162,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamVR_Events/Action trackedDeviceRoleChangedAction
     ::GlobalNamespace::SteamVR_Events::Action*& dyn_trackedDeviceRoleChangedAction();
     // private System.Void SetUniqueObject(UnityEngine.GameObject o, System.Int32 index)
-    // Offset: 0x1871A44
+    // Offset: 0x1868938
     void SetUniqueObject(::UnityEngine::GameObject* o, int index);
     // public System.Void UpdateTargets()
-    // Offset: 0x1871B58
+    // Offset: 0x1868A4C
     void UpdateTargets();
     // private System.Void Awake()
-    // Offset: 0x1871C94
+    // Offset: 0x1868B88
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0x1871FDC
+    // Offset: 0x1868ED0
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x187257C
+    // Offset: 0x1869470
     void OnDisable();
     // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0x18725E0
+    // Offset: 0x18694D4
     void OnInputFocus(bool hasFocus);
     // private System.Void HideObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0x1872990
+    // Offset: 0x1869884
     void HideObject(::UnityEngine::Transform* t, ::StringW name);
     // private System.Void ShowObject(UnityEngine.Transform t, System.String name)
-    // Offset: 0x187289C
+    // Offset: 0x1869790
     void ShowObject(::UnityEngine::Transform* t, ::StringW name);
     // private System.Void SetTrackedDeviceIndex(System.Int32 objectIndex, System.UInt32 trackedDeviceIndex)
-    // Offset: 0x1872B00
+    // Offset: 0x18699F4
     void SetTrackedDeviceIndex(int objectIndex, uint trackedDeviceIndex);
     // private System.Void OnTrackedDeviceRoleChanged(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x1872D4C
+    // Offset: 0x1869C40
     void OnTrackedDeviceRoleChanged(::Valve::VR::VREvent_t vrEvent);
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x1872458
+    // Offset: 0x186934C
     void OnDeviceConnected(int index, bool connected);
     // public System.Void Refresh()
-    // Offset: 0x18721BC
+    // Offset: 0x18690B0
     void Refresh();
     // private System.Void .ctor()
-    // Offset: 0x1871C98
+    // Offset: 0x1868B8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -211,7 +211,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ControllerManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1872D50
+    // Offset: 0x1869C44
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

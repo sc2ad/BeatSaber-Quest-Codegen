@@ -22,7 +22,7 @@ namespace UnityEngine::Timeline {
   class ITimelineEvaluateCallback {
     public:
     // public System.Void Evaluate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Evaluate();
   }; // UnityEngine.Timeline.ITimelineEvaluateCallback
   #pragma pack(pop)

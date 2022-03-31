@@ -76,19 +76,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
     ::System::Action_1<bool>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x134F388
+    // Offset: 0x12E8BDC
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x134F42C
+    // Offset: 0x12E8C80
     void remove_didFinishEvent(::System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__5_0()
-    // Offset: 0x134F5D4
+    // Offset: 0x12E8E28
     void $DidActivate$b__5_0();
     // private System.Void <DidActivate>b__5_1()
-    // Offset: 0x134F638
+    // Offset: 0x12E8E8C
     void $DidActivate$b__5_1();
     // public System.Void .ctor()
-    // Offset: 0x134F5CC
+    // Offset: 0x12E8E20
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x134F4D0
+    // Offset: 0x12E8D24
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

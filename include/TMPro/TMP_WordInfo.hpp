@@ -72,7 +72,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 characterCount
     int& dyn_characterCount();
     // public System.String GetWord()
-    // Offset: 0x18D20B8
+    // Offset: 0x18C9FAC
     ::StringW GetWord();
   }; // TMPro.TMP_WordInfo
   #pragma pack(pop)

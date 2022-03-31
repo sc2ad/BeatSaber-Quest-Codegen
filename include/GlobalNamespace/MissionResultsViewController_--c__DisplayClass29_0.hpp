@@ -81,10 +81,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionObjectiveResult[] missionObjectiveResults
     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
-    // Offset: 0x1337E9C
+    // Offset: 0x13C17A8
     void $SetDataToUI$b__0(int idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
     // public System.Void .ctor()
-    // Offset: 0x1337DC4
+    // Offset: 0x13C17A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

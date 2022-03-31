@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Crypto {
   class CryptoException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x226BAE0
+    // Offset: 0x22428C4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<CryptoException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x226BB48
+    // Offset: 0x224292C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<CryptoException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x226BBC0
+    // Offset: 0x22429A4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

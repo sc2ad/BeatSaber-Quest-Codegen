@@ -35,10 +35,10 @@ namespace GlobalNamespace {
   class IExperimentModel {
     public:
     // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
     // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
   }; // IExperimentModel
   #pragma pack(pop)

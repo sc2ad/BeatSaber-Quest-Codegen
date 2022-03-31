@@ -67,21 +67,21 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B6CE4
+    // [InjectAttribute] Offset: 0x1251178
     // private readonly LightGroup[] _lightGroups
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::LightGroup*> lightGroups;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightGroup*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10B6CF4
+    // [InjectAttribute] Offset: 0x1251188
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B6D04
+    // [InjectAttribute] Offset: 0x1251198
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x28
@@ -114,19 +114,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<LightColorGroupEffect> _lightColorGroupEffects
     ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>*& dyn__lightColorGroupEffects();
     // public System.Collections.Generic.IReadOnlyCollection`1<LightGroup> get_lightGroups()
-    // Offset: 0x14CD648
+    // Offset: 0x148C6CC
     ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::LightGroup*>* get_lightGroups();
     // protected System.Void Start()
-    // Offset: 0x14CD650
+    // Offset: 0x148C6D4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14CD848
+    // Offset: 0x148C8CC
     void OnDestroy();
     // private System.Void HandleColorBoostBeatmapEvent(ColorBoostBeatmapEventData eventData)
-    // Offset: 0x14CD950
+    // Offset: 0x148C9D4
     void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x14CDA60
+    // Offset: 0x148CAE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

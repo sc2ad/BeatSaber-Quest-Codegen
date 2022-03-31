@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B58BC
+    // [InjectAttribute] Offset: 0x124FD40
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B58CC
+    // [InjectAttribute] Offset: 0x124FD50
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
@@ -235,52 +235,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeSinceHeadNoteJump
     float& dyn__timeSinceHeadNoteJump();
     // public System.Single get_jumpDuration()
-    // Offset: 0x13E7E08
+    // Offset: 0x2AA2ABC
     float get_jumpDuration();
     // public System.Single get_headNoteGravity()
-    // Offset: 0x13E7E10
+    // Offset: 0x2AA2AC4
     float get_headNoteGravity();
     // public System.Single get_tailNoteGravity()
-    // Offset: 0x13E7E18
+    // Offset: 0x2AA2ACC
     float get_tailNoteGravity();
     // public System.Single get_timeSinceHeadNoteJump()
-    // Offset: 0x13E7E20
+    // Offset: 0x2AA2AD4
     float get_timeSinceHeadNoteJump();
     // public System.Void add_movementDidFinishEvent(System.Action value)
-    // Offset: 0x13E78E8
+    // Offset: 0x2A9E92C
     void add_movementDidFinishEvent(::System::Action* value);
     // public System.Void remove_movementDidFinishEvent(System.Action value)
-    // Offset: 0x13E798C
+    // Offset: 0x2A9EF20
     void remove_movementDidFinishEvent(::System::Action* value);
     // public System.Void add_movementDidMoveEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13E7A30
+    // Offset: 0x2AA2974
     void add_movementDidMoveEvent(::System::Action_1<float>* value);
     // public System.Void remove_movementDidMoveEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13E7AD4
+    // Offset: 0x2AA2A18
     void remove_movementDidMoveEvent(::System::Action_1<float>* value);
     // public System.Void add_headDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x13E7B78
+    // Offset: 0x2A9E9D0
     void add_headDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void remove_headDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x13E7C1C
+    // Offset: 0x2A9EFC4
     void remove_headDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void add_tailDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x13E7CC0
+    // Offset: 0x2A9EA74
     void add_tailDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void remove_tailDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x13E7D64
+    // Offset: 0x2A9F068
     void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void Init(System.Single headNoteTime, System.Single tailNoteTime, System.Single worldRotation, UnityEngine.Vector3 headNoteJumpStartPos, UnityEngine.Vector3 headNoteJumpEndPos, System.Single jumpDuration, System.Single headNoteGravity, System.Single tailNoteGravity)
-    // Offset: 0x13E7E28
+    // Offset: 0x2A9D844
     void Init(float headNoteTime, float tailNoteTime, float worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, float jumpDuration, float headNoteGravity, float tailNoteGravity);
     // public System.Void StartMovement()
-    // Offset: 0x13E7F5C
+    // Offset: 0x2A9E7DC
     void StartMovement();
     // public System.Void ManualUpdate()
-    // Offset: 0x13E7F84
+    // Offset: 0x2A9F264
     void ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x13E81EC
+    // Offset: 0x2AA2ADC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

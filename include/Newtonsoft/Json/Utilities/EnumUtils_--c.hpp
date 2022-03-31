@@ -56,16 +56,16 @@ namespace Newtonsoft::Json::Utilities {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__5_0
     static void _set_$$9__5_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2059D64
+    // Offset: 0x2047738
     static void _cctor();
     // System.String <InitializeEnumType>b__1_0(System.Runtime.Serialization.EnumMemberAttribute a)
-    // Offset: 0x2059DD0
+    // Offset: 0x20477A4
     ::StringW $InitializeEnumType$b__1_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
     // System.Boolean <GetValues>b__5_0(System.Reflection.FieldInfo f)
-    // Offset: 0x2059DE8
+    // Offset: 0x20477BC
     bool $GetValues$b__5_0(::System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0x2059DC8
+    // Offset: 0x204779C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -59,16 +59,16 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_OutputAttributeDictionary _attributes
     ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& dyn__attributes();
     // public System.Void SetAttribute(HoudiniEngineUnity.HEU_OutputAttribute attribute)
-    // Offset: 0x1AC9F30
+    // Offset: 0x1AAE568
     void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);
     // public HoudiniEngineUnity.HEU_OutputAttribute GetAttribute(System.String name)
-    // Offset: 0x1ACA030
+    // Offset: 0x1AAE668
     ::HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
     // public System.Void Clear()
-    // Offset: 0x1ACA0A8
+    // Offset: 0x1AAE6E0
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1ACA100
+    // Offset: 0x1AAE738
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

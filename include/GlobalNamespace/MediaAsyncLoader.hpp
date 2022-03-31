@@ -67,22 +67,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IMediaAsyncLoader*>(this);
     }
     // static public System.Threading.Tasks.Task`1<System.String> LoadWebpage(System.String uri, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13E1284
+    // Offset: 0x12FD30C
     static ::System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipFromFilePathAsync(System.String filePath)
-    // Offset: 0x13E1394
+    // Offset: 0x12FD41C
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadTextureAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13E1494
+    // Offset: 0x12FD51C
     static ::System::Threading::Tasks::Task_1<::UnityEngine::Texture2D*>* LoadTextureAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13E15A4
+    // Offset: 0x12FD62C
     static ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
-    // Offset: 0x13E16B4
+    // Offset: 0x12FD73C
     static void Log(::StringW message);
     // public System.Void .ctor()
-    // Offset: 0x13E171C
+    // Offset: 0x12FD7A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

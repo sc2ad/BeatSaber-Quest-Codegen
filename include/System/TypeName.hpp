@@ -29,7 +29,7 @@ namespace System {
       return *reinterpret_cast<::System::IEquatable_1<::System::TypeName*>*>(this);
     }
     // public System.String get_DisplayName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DisplayName();
   }; // System.TypeName
   #pragma pack(pop)

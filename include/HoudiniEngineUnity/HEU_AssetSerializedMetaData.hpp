@@ -82,19 +82,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> _savedCurveNodeData
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*& dyn__savedCurveNodeData();
     // public System.Boolean get_SoftDeleted()
-    // Offset: 0x16A3F24
+    // Offset: 0x16AD0F8
     bool get_SoftDeleted();
     // public System.Void set_SoftDeleted(System.Boolean value)
-    // Offset: 0x16A3F2C
+    // Offset: 0x16AD100
     void set_SoftDeleted(bool value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> get_SavedCurveNodeData()
-    // Offset: 0x16A3F38
+    // Offset: 0x16AD10C
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AssetSerializedMetaData other)
-    // Offset: 0x16A3F40
+    // Offset: 0x16AD114
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
     // public System.Void .ctor()
-    // Offset: 0x16A3FEC
+    // Offset: 0x16AD1C0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

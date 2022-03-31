@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   class IFilePathSongPreviewAudioClipProvider {
     public:
     // public System.String get_songPreviewAudioClipPath()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_songPreviewAudioClipPath();
   }; // IFilePathSongPreviewAudioClipProvider
   #pragma pack(pop)

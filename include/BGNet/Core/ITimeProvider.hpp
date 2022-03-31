@@ -35,10 +35,10 @@ namespace BGNet::Core {
   class ITimeProvider {
     public:
     // public System.Int64 GetTimeMs()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
   }; // BGNet.Core.ITimeProvider
   #pragma pack(pop)

@@ -89,37 +89,37 @@ namespace Polyglot {
     // Get instance field reference: private System.Boolean downloadOnStart
     bool& dyn_downloadOnStart();
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x2A13624
+    // Offset: 0x29DF800
     ::UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x2A1362C
+    // Offset: 0x29DF808
     void set_TextAsset(::UnityEngine::TextAsset* value);
     // public System.String get_DocsId()
-    // Offset: 0x2A13634
+    // Offset: 0x29DF810
     ::StringW get_DocsId();
     // public System.Void set_DocsId(System.String value)
-    // Offset: 0x2A1363C
+    // Offset: 0x29DF818
     void set_DocsId(::StringW value);
     // public System.String get_SheetId()
-    // Offset: 0x2A13644
+    // Offset: 0x29DF820
     ::StringW get_SheetId();
     // public System.Void set_SheetId(System.String value)
-    // Offset: 0x2A1364C
+    // Offset: 0x29DF828
     void set_SheetId(::StringW value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x2A13654
+    // Offset: 0x29DF830
     ::Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x2A1365C
+    // Offset: 0x29DF838
     void set_Format(::Polyglot::GoogleDriveDownloadFormat value);
     // public System.Boolean get_DownloadOnStart()
-    // Offset: 0x2A13664
+    // Offset: 0x29DF840
     bool get_DownloadOnStart();
     // public System.Void set_DownloadOnStart(System.Boolean value)
-    // Offset: 0x2A1366C
+    // Offset: 0x29DF848
     void set_DownloadOnStart(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2A13678
+    // Offset: 0x29DF854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

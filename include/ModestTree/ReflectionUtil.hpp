@@ -86,19 +86,19 @@ namespace ModestTree {
   class ReflectionUtil : public ::Il2CppObject {
     public:
     // static public System.Array CreateArray(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x1733560
+    // Offset: 0x172B450
     static ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.Collections.IList CreateGenericList(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x17337D0
+    // Offset: 0x172B6C0
     static ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.String ToDebugString(System.Reflection.MethodInfo method)
-    // Offset: 0x1733B70
+    // Offset: 0x172BA60
     static ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
     // static public System.String ToDebugString(System.Action action)
-    // Offset: 0x1733CA8
+    // Offset: 0x172BB98
     static ::StringW ToDebugString(::System::Action* action);
     // static public System.String ToDebugString(System.Action`1<TParam1> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1>
     static ::StringW ToDebugString(::System::Action_1<TParam1>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -107,7 +107,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, action);
     }
     // static public System.String ToDebugString(System.Action`2<TParam1,TParam2> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2>
     static ::StringW ToDebugString(::System::Action_2<TParam1, TParam2>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -116,7 +116,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, action);
     }
     // static public System.String ToDebugString(System.Action`3<TParam1,TParam2,TParam3> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3>
     static ::StringW ToDebugString(::System::Action_3<TParam1, TParam2, TParam3>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -125,7 +125,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, action);
     }
     // static public System.String ToDebugString(System.Action`4<TParam1,TParam2,TParam3,TParam4> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4>
     static ::StringW ToDebugString(::System::Action_4<TParam1, TParam2, TParam3, TParam4>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -134,7 +134,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, action);
     }
     // static public System.String ToDebugString(System.Action`5<TParam1,TParam2,TParam3,TParam4,TParam5> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     static ::StringW ToDebugString(::System::Action_5<TParam1, TParam2, TParam3, TParam4, TParam5>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -143,7 +143,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, action);
     }
     // static public System.String ToDebugString(System.Action`6<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     static ::StringW ToDebugString(::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -152,7 +152,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, action);
     }
     // static public System.String ToDebugString(System.Func`1<TParam1> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1>
     static ::StringW ToDebugString(::System::Func_1<TParam1>* func) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -161,7 +161,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, func);
     }
     // static public System.String ToDebugString(System.Func`2<TParam1,TParam2> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2>
     static ::StringW ToDebugString(::System::Func_2<TParam1, TParam2>* func) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -170,7 +170,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, func);
     }
     // static public System.String ToDebugString(System.Func`3<TParam1,TParam2,TParam3> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3>
     static ::StringW ToDebugString(::System::Func_3<TParam1, TParam2, TParam3>* func) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");
@@ -179,7 +179,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, func);
     }
     // static public System.String ToDebugString(System.Func`4<TParam1,TParam2,TParam3,TParam4> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4>
     static ::StringW ToDebugString(::System::Func_4<TParam1, TParam2, TParam3, TParam4>* func) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::ReflectionUtil::ToDebugString");

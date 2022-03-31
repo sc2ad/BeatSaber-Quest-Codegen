@@ -218,58 +218,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action RecenteredPose
     ::System::Action*& dyn_RecenteredPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0x162DB34
+    // Offset: 0x1625878
     ::UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0x162DC60
+    // Offset: 0x16259A4
     ::UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x162DD8C
+    // Offset: 0x1625AD0
     ::UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x162DEB8
+    // Offset: 0x1625BFC
     ::UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0x162DFE4
+    // Offset: 0x1625D28
     ::GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0x162E1B0
+    // Offset: 0x1625EF4
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x162E24C
+    // Offset: 0x1625F90
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0x162E2B8
+    // Offset: 0x1625FFC
     ::ArrayW<float> get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0x162E318
+    // Offset: 0x162605C
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0x162E378
+    // Offset: 0x16260BC
     void set_displayFrequency(float value);
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0x162D970
+    // Offset: 0x16256B4
     void add_RecenteredPose(::System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0x162DA14
+    // Offset: 0x1625758
     void remove_RecenteredPose(::System::Action* value);
     // public System.Void Update()
-    // Offset: 0x162D7DC
+    // Offset: 0x1625520
     void Update();
     // public System.Void RecenterPose()
-    // Offset: 0x162DAB8
+    // Offset: 0x16257FC
     void RecenterPose();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x162D6D4
+    // Offset: 0x1625418
     ::GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(::UnityEngine::XR::XRNode eye);
     // private System.Void UpdateTextures()
-    // Offset: 0x162D7B0
+    // Offset: 0x16254F4
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x162E3E8
+    // Offset: 0x162612C
     void ConfigureEyeDesc(::UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0x162D730
+    // Offset: 0x1625474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

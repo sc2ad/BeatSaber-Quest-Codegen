@@ -27,6 +27,8 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapData;
   // Forward declaring type: EnvironmentInfoSO
   class EnvironmentInfoSO;
+  // Forward declaring type: PlayerSpecificSettings
+  class PlayerSpecificSettings;
 }
 // Forward declaring namespace: BeatmapSaveDataVersion3
 namespace BeatmapSaveDataVersion3 {
@@ -151,45 +153,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapSaveDataVersion3.BeatmapSaveData <beatmapSaveData>k__BackingField
     ::BeatmapSaveDataVersion3::BeatmapSaveData*& dyn_$beatmapSaveData$k__BackingField();
     // public IBeatmapLevel get_level()
-    // Offset: 0x14168A0
+    // Offset: 0x1409A2C
     ::GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x14168A8
+    // Offset: 0x1409A34
     ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x14168B0
+    // Offset: 0x1409A3C
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x14168B8
+    // Offset: 0x1409A44
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x14168C0
+    // Offset: 0x1409A4C
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x14168C8
+    // Offset: 0x1409A54
     float get_noteJumpStartBeatOffset();
     // public IBeatmapDataBasicInfo get_beatmapDataBasicInfo()
-    // Offset: 0x14168D0
+    // Offset: 0x1409A5C
     ::GlobalNamespace::IBeatmapDataBasicInfo* get_beatmapDataBasicInfo();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x14168D8
+    // Offset: 0x1409A64
     float get_beatsPerMinute();
     // public BeatmapSaveDataVersion3.BeatmapSaveData get_beatmapSaveData()
-    // Offset: 0x14168E0
+    // Offset: 0x1409A6C
     ::BeatmapSaveDataVersion3::BeatmapSaveData* get_beatmapSaveData();
     // public System.Void .ctor(IBeatmapLevel level, IDifficultyBeatmapSet parentDifficultyBeatmapSet, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Single beatsPerMinute, BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData, IBeatmapDataBasicInfo beatmapDataBasicInfo)
-    // Offset: 0x1416AF4
+    // Offset: 0x1409C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomDifficultyBeatmap* New_ctor(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet, ::GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, float beatsPerMinute, ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::GlobalNamespace::IBeatmapDataBasicInfo* beatmapDataBasicInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomDifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomDifficultyBeatmap*, creationType>(level, parentDifficultyBeatmapSet, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatsPerMinute, beatmapSaveData, beatmapDataBasicInfo)));
     }
     // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x14168E8
+    // Offset: 0x1409A74
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
-    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo)
-    // Offset: 0x14169E8
-    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
+    // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
+    // Offset: 0x1409B74
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
   }; // CustomDifficultyBeatmap
   #pragma pack(pop)
   static check_size<sizeof(CustomDifficultyBeatmap), 64 + sizeof(::BeatmapSaveDataVersion3::BeatmapSaveData*)> __GlobalNamespace_CustomDifficultyBeatmapSizeCheck;
@@ -283,9 +285,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::T
 // Writing MetadataGetter for method: GlobalNamespace::CustomDifficultyBeatmap::GetBeatmapDataAsync
 // Il2CppName: GetBeatmapDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (GlobalNamespace::CustomDifficultyBeatmap::*)(::GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::CustomDifficultyBeatmap::GetBeatmapDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* (GlobalNamespace::CustomDifficultyBeatmap::*)(::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::CustomDifficultyBeatmap::GetBeatmapDataAsync)> {
   static const MethodInfo* get() {
     static auto* environmentInfo = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomDifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo});
+    static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomDifficultyBeatmap*), "GetBeatmapDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentInfo, playerSpecificSettings});
   }
 };

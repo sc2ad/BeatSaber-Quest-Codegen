@@ -29,10 +29,10 @@ namespace MasterServer {
       return *reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
     // public System.String get_userId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userName();
   }; // MasterServer.IUserMasterServerClientToServerMessage
   #pragma pack(pop)

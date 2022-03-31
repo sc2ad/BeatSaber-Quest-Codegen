@@ -70,14 +70,14 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<::System::Net::Http::Headers::TryParseDelegate_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.String name, System.Net.Http.Headers.TryParseDelegate`1<T> parser, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo::HeaderTypeInfo_2<T, U>* New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo::HeaderTypeInfo_2<T, U>*, creationType>(name, parser, headerKind)));
     }
     // public override System.Void AddToCollection(System.Object collection, System.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Void HeaderInfo::AddToCollection(System.Object collection, System.Object value)
     void AddToCollection(::Il2CppObject* collection, ::Il2CppObject* value) {
@@ -86,7 +86,7 @@ namespace System::Net::Http::Headers {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, collection, value);
     }
     // protected override System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Object HeaderInfo::CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
     ::Il2CppObject* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo) {
@@ -95,7 +95,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method, headers, headerInfo);
     }
     // public override System.Collections.Generic.List`1<System.String> ToStringCollection(System.Object collection)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Collections.Generic.List`1<System.String> HeaderInfo::ToStringCollection(System.Object collection)
     ::System::Collections::Generic::List_1<::StringW>* ToStringCollection(::Il2CppObject* collection) {
@@ -104,7 +104,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*, false>(this, ___internal__method, collection);
     }
     // public override System.Boolean TryParse(System.String value, out System.Object result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Boolean HeaderInfo::TryParse(System.String value, out System.Object result)
     bool TryParse(::StringW value, ByRef<::Il2CppObject*> result) {

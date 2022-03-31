@@ -60,10 +60,10 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSeverityType severity
     ::System::Xml::Schema::XmlSeverityType& dyn_severity();
     // public System.Xml.Schema.XmlSeverityType get_Severity()
-    // Offset: 0x1C44CF4
+    // Offset: 0x1C2B1C4
     ::System::Xml::Schema::XmlSeverityType get_Severity();
     // public System.Xml.Schema.XmlSchemaException get_Exception()
-    // Offset: 0x1C44CFC
+    // Offset: 0x1C2B1CC
     ::System::Xml::Schema::XmlSchemaException* get_Exception();
   }; // System.Xml.Schema.ValidationEventArgs
   #pragma pack(pop)

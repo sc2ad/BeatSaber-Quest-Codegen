@@ -123,16 +123,16 @@ namespace HMUI {
     // Get instance field reference: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     ::System::Action_1<::HMUI::ToggleWithCallbacks::SelectionState>*& dyn_stateDidChangeEvent();
     // public HMUI.ToggleWithCallbacks/HMUI.SelectionState get_selectionState()
-    // Offset: 0x2A155F8
+    // Offset: 0x29E17D4
     ::HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x2A154A8
+    // Offset: 0x29E1684
     void add_stateDidChangeEvent(::System::Action_1<::HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x2A15550
+    // Offset: 0x29E172C
     void remove_stateDidChangeEvent(::System::Action_1<::HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x2A156E4
+    // Offset: 0x29E18C0
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -148,7 +148,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ToggleWithCallbacks*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x2A15658
+    // Offset: 0x29E1834
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

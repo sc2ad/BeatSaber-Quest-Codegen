@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // public System.Void Add(System.Object o)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(::Il2CppObject* o);
   }; // Org.BouncyCastle.Utilities.Collections.ISet
   #pragma pack(pop)

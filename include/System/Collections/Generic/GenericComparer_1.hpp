@@ -37,7 +37,7 @@ namespace System::Collections::Generic {
   class GenericComparer_1 : public ::System::Collections::Generic::Comparer_1<T> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.Comparer`1
     // Base method: System.Void Comparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -47,7 +47,7 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<GenericComparer_1<T>*, creationType>()));
     }
     // public override System.Int32 Compare(T x, T y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Collections.Generic.Comparer`1
     // Base method: System.Int32 Comparer_1::Compare(T x, T y)
     int Compare(T x, T y) {
@@ -56,7 +56,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x, y);
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
@@ -65,7 +65,7 @@ namespace System::Collections::Generic {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {

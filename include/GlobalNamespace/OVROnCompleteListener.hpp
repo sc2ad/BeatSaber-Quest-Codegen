@@ -29,13 +29,13 @@ namespace GlobalNamespace {
   class OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {
     public:
     // public System.Void onSuccess()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void onSuccess();
     // public System.Void onFailure()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void onFailure();
     // public System.Void .ctor()
-    // Offset: 0x16CF3A8
+    // Offset: 0x16C6298
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

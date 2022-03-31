@@ -70,19 +70,19 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private SliderMidAnchorMode m
     ::GlobalNamespace::SliderMidAnchorMode& dyn_m();
     // public System.Single get_headControlPointLengthMultiplier()
-    // Offset: 0x284C9A0
+    // Offset: 0x281BB18
     float get_headControlPointLengthMultiplier();
     // public System.Single get_tailControlPointLengthMultiplier()
-    // Offset: 0x284C9A8
+    // Offset: 0x281BB20
     float get_tailControlPointLengthMultiplier();
     // public NoteCutDirection get_tailCutDirection()
-    // Offset: 0x284C9B0
+    // Offset: 0x281BB28
     ::GlobalNamespace::NoteCutDirection get_tailCutDirection();
     // public SliderMidAnchorMode get_sliderMidAnchorMode()
-    // Offset: 0x284C9B8
+    // Offset: 0x281BB30
     ::GlobalNamespace::SliderMidAnchorMode get_sliderMidAnchorMode();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType colorType, System.Single headBeat, System.Int32 headLine, System.Int32 headLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single tailBeat, System.Int32 tailLine, System.Int32 tailLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, SliderMidAnchorMode sliderMidAnchorMode)
-    // Offset: 0x284BB50
+    // Offset: 0x281ACC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SliderData* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType colorType, float headBeat, int headLine, int headLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailBeat, int tailLine, int tailLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, ::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::SliderData::.ctor");

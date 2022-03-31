@@ -47,7 +47,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset newAsset
     ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_newAsset();
     // public System.Void .ctor()
-    // Offset: 0x1855E7C
+    // Offset: 0x184CD70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

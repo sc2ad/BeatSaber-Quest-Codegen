@@ -126,38 +126,38 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaContentType contentType
     ::System::Xml::Schema::XmlSchemaContentType& dyn_contentType();
     // public System.Xml.Schema.XmlSchemaValidity get_Validity()
-    // Offset: 0x2023E58
+    // Offset: 0x201182C
     ::System::Xml::Schema::XmlSchemaValidity get_Validity();
     // public System.Boolean get_IsDefault()
-    // Offset: 0x2023E60
+    // Offset: 0x2011834
     bool get_IsDefault();
     // public System.Boolean get_IsNil()
-    // Offset: 0x2023E68
+    // Offset: 0x201183C
     bool get_IsNil();
     // public System.Xml.Schema.XmlSchemaSimpleType get_MemberType()
-    // Offset: 0x2023E70
+    // Offset: 0x2011844
     ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
     // public System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0x2023E78
+    // Offset: 0x201184C
     ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // public System.Xml.Schema.XmlSchemaElement get_SchemaElement()
-    // Offset: 0x2023E80
+    // Offset: 0x2011854
     ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
     // public System.Xml.Schema.XmlSchemaAttribute get_SchemaAttribute()
-    // Offset: 0x2023E88
+    // Offset: 0x201185C
     ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
     // System.Void .ctor(System.Xml.Schema.XmlSchemaValidity validity)
-    // Offset: 0x2023E1C
+    // Offset: 0x20117F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaInfo* New_ctor(::System::Xml::Schema::XmlSchemaValidity validity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaInfo*, creationType>(validity)));
     }
     // System.Void Clear()
-    // Offset: 0x2023E04
+    // Offset: 0x20117D8
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x2023DCC
+    // Offset: 0x20117A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

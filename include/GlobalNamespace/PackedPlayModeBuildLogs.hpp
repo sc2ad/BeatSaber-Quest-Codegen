@@ -74,7 +74,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.String Message
       ::StringW& dyn_Message();
       // public System.Void .ctor(UnityEngine.LogType type, System.String message)
-      // Offset: 0x18849EC
+      // Offset: 0x187C8E0
       // ABORTED: conflicts with another method.  RuntimeBuildLog(::UnityEngine::LogType type, ::StringW message);
     }; // PackedPlayModeBuildLogs/RuntimeBuildLog
     #pragma pack(pop)
@@ -103,13 +103,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
     ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*& dyn_m_RuntimeBuildLogs();
     // public System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> get_RuntimeBuildLogs()
-    // Offset: 0x188496C
+    // Offset: 0x187C860
     ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* get_RuntimeBuildLogs();
     // public System.Void set_RuntimeBuildLogs(System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> value)
-    // Offset: 0x1884974
+    // Offset: 0x187C868
     void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* value);
     // public System.Void .ctor()
-    // Offset: 0x188497C
+    // Offset: 0x187C870
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithNetSyncSessionList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionList*> {
     public:
     // protected Oculus.Platform.Models.NetSyncSessionList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19BA3B8
+    // Offset: 0x19B02A4
     ::Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19BA314
+    // Offset: 0x19B0200
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithNetSyncSessionList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.NetSyncSessionList GetNetSyncSessionList()
-    // Offset: 0x19BA374
+    // Offset: 0x19B0260
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.NetSyncSessionList Message::GetNetSyncSessionList()
     ::Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();

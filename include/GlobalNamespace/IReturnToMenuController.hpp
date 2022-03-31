@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IReturnToMenuController {
     public:
     // public System.Void ReturnToMenu()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ReturnToMenu();
   }; // IReturnToMenuController
   #pragma pack(pop)

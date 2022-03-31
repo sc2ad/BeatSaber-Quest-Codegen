@@ -81,25 +81,25 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _enabled
     bool& dyn__enabled();
     // private System.Void Init()
-    // Offset: 0x168B548
+    // Offset: 0x1682428
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,System.Action`1<HMUI.InputFieldView>>> bindings)
-    // Offset: 0x168B5B0
+    // Offset: 0x1682490
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>* bindings);
     // public System.Void AddBinding(HMUI.InputFieldView inputField, System.Action`1<HMUI.InputFieldView> action)
-    // Offset: 0x168B6B8
+    // Offset: 0x1682598
     void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::HMUI::InputFieldView*>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x168B778
+    // Offset: 0x1682658
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x168B910
+    // Offset: 0x16827F0
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x168BA98
+    // Offset: 0x1682978
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x168B518
+    // Offset: 0x16823F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

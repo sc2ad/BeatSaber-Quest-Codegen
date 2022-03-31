@@ -37,12 +37,12 @@ namespace System::Net::Configuration {
   class DefaultProxySection : public ::System::Configuration::ConfigurationSection {
     public:
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A41700
+    // Offset: 0x1A365EC
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x1A416C0
+    // Offset: 0x1A365AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +51,7 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultProxySection*, creationType>()));
     }
     // protected override System.Void Reset(System.Configuration.ConfigurationElement parentElement)
-    // Offset: 0x1A41740
+    // Offset: 0x1A3662C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Void ConfigurationElement::Reset(System.Configuration.ConfigurationElement parentElement)
     void Reset(::System::Configuration::ConfigurationElement* parentElement);

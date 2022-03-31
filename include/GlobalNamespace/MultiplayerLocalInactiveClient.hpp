@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B9AC0
+    // [InjectAttribute] Offset: 0x1254034
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B9AD0
+    // [InjectAttribute] Offset: 0x1254044
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // protected System.Void LateUpdate()
-    // Offset: 0x13A089C
+    // Offset: 0x1397918
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x13A0C24
+    // Offset: 0x1397CA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

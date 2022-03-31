@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::InternetConnectionChecker::$IsConnectedToInternetAsync$d__0
     struct $IsConnectedToInternetAsync$d__0;
     // static public System.Threading.Tasks.Task`1<System.Boolean> IsConnectedToInternetAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14A2168
+    // Offset: 0x13B4A88
     static ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x14A2268
+    // Offset: 0x13B4B88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

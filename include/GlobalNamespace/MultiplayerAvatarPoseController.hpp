@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AvatarPoseController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B0FF4
+    // [InjectAttribute] Offset: 0x124B478
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10B1004
+    // [InjectOptionalAttribute] Offset: 0x124B488
     // private IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x28
@@ -78,16 +78,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private IConnectedPlayer _connectedPlayer
     ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x144395C
+    // Offset: 0x13CB9C0
     void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
     // protected System.Void Start()
-    // Offset: 0x1443964
+    // Offset: 0x13CB9C8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x144397C
+    // Offset: 0x13CB9E0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1443D34
+    // Offset: 0x13CBD98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

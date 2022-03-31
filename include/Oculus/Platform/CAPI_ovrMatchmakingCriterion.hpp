@@ -69,7 +69,7 @@ namespace Oculus::Platform {
     // Get instance field reference: public System.UInt32 parameterArrayCount
     uint& dyn_parameterArrayCount();
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
-    // Offset: 0x19A74A0
+    // Offset: 0x199D38C
     ovrMatchmakingCriterion(::StringW key, ::Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/Oculus.Platform.ovrMatchmakingCriterion
   #pragma pack(pop)

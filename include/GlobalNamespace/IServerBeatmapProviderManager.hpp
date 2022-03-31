@@ -40,10 +40,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public IServerBeatmapProvider GetServerBeatmapProvider()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IServerBeatmapProvider* GetServerBeatmapProvider();
     // public System.Threading.Tasks.Task RefreshAsync()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task* RefreshAsync();
   }; // IServerBeatmapProviderManager
   #pragma pack(pop)

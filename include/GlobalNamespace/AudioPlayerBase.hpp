@@ -36,19 +36,19 @@ namespace GlobalNamespace {
   class AudioPlayerBase : public ::UnityEngine::MonoBehaviour {
     public:
     // public UnityEngine.AudioClip get_activeAudioClip()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::AudioClip* get_activeAudioClip();
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void FadeOut(float duration);
     // public System.Void PauseCurrentChannel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PauseCurrentChannel();
     // public System.Void UnPauseCurrentChannel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UnPauseCurrentChannel();
     // protected System.Void .ctor()
-    // Offset: 0x14C0474
+    // Offset: 0x14B9E2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

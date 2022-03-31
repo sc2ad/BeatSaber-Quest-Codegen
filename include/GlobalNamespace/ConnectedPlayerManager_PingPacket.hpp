@@ -73,22 +73,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single pingTime
     float& dyn_pingTime();
     // static public PacketPool`1<ConnectedPlayerManager/PingPacket> get_pool()
-    // Offset: 0x1646A84
+    // Offset: 0x163D7C8
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PingPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1646ACC
+    // Offset: 0x163D810
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1646AEC
+    // Offset: 0x163D830
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public ConnectedPlayerManager/PingPacket Init(System.Single pingTime)
-    // Offset: 0x1646B20
+    // Offset: 0x163D864
     ::GlobalNamespace::ConnectedPlayerManager::PingPacket* Init(float pingTime);
     // public System.Void Release()
-    // Offset: 0x1646B28
+    // Offset: 0x163D86C
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1646B84
+    // Offset: 0x163D8C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

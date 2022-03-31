@@ -28,7 +28,7 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedReliableResponse*>(this);
     }
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isAuthenticated();
   }; // BGNet.Core.Messages.IUnconnectedAuthenticateResponse
   #pragma pack(pop)

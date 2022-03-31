@@ -32,7 +32,7 @@ namespace System::Linq {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(this);
     }
     // public TKey get_Key()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TKey get_Key() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::IGrouping_2::get_Key");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Key", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

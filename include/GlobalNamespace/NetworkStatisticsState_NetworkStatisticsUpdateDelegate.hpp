@@ -35,20 +35,20 @@ namespace GlobalNamespace {
   class NetworkStatisticsState::NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x170EB90
+    // Offset: 0x1705A80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkStatisticsState::NetworkStatisticsUpdateDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkStatisticsState::NetworkStatisticsUpdateDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkStatisticsState::NetworkStatisticsUpdateDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(in NetworkStatisticsState statisticsState)
-    // Offset: 0x170EBA0
+    // Offset: 0x1705A90
     void Invoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
     // public System.IAsyncResult BeginInvoke(in NetworkStatisticsState statisticsState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x170EDF4
+    // Offset: 0x1705CE4
     ::System::IAsyncResult* BeginInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in NetworkStatisticsState statisticsState, System.IAsyncResult result)
-    // Offset: 0x170EE88
+    // Offset: 0x1705D78
     void EndInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
   }; // NetworkStatisticsState/NetworkStatisticsUpdateDelegate
   #pragma pack(pop)

@@ -129,16 +129,16 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaParticle/System.Xml.Schema.Occurs flags
     ::System::Xml::Schema::XmlSchemaParticle::Occurs& dyn_flags();
     // public System.Void set_MinOccurs(System.Decimal value)
-    // Offset: 0x2022B40
+    // Offset: 0x2010514
     void set_MinOccurs(::System::Decimal value);
     // public System.Void set_MaxOccurs(System.Decimal value)
-    // Offset: 0x2022C74
+    // Offset: 0x2010648
     void set_MaxOccurs(::System::Decimal value);
     // static private System.Void .cctor()
-    // Offset: 0x2023F58
+    // Offset: 0x201192C
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x2022438
+    // Offset: 0x200FE0C
     // Implemented from: System.Xml.Schema.XmlSchemaAnnotated
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()

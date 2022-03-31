@@ -42,20 +42,20 @@ namespace UnityEngine::UI {
   class ReflectionMethodsCache::Raycast3DCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1EA40FC
+    // Offset: 0x1E875CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::Raycast3DCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::Raycast3DCallback*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(UnityEngine.Ray r, out UnityEngine.RaycastHit hit, System.Single f, System.Int32 i)
-    // Offset: 0x1EA410C
+    // Offset: 0x1E875DC
     bool Invoke(::UnityEngine::Ray r, ByRef<::UnityEngine::RaycastHit> hit, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, out UnityEngine.RaycastHit hit, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1EA4488
+    // Offset: 0x1E87958
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ByRef<::UnityEngine::RaycastHit> hit, float f, int i, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(out UnityEngine.RaycastHit hit, System.IAsyncResult result)
-    // Offset: 0x1EA457C
+    // Offset: 0x1E87A4C
     bool EndInvoke(ByRef<::UnityEngine::RaycastHit> hit, ::System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback
   #pragma pack(pop)

@@ -101,28 +101,28 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<::System::Threading::Tasks::Task_1<TResult>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Threading.Tasks.Task`1<TResult> get_Task()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<TResult>* get_Task() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::get_Task");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Task", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal__method);
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncTaskMethodBuilder_1<TResult>>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> Create()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> Create() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::Create");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncTaskMethodBuilder_1<TResult>>::get(), "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // public System.Void Start(ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TStateMachine>
     void Start(ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TStateMachine>, ::System::Runtime::CompilerServices::IAsyncStateMachine>);
@@ -132,14 +132,14 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::SetStateMachine");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, stateMachine);
     }
     // public System.Void AwaitOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TAwaiter>, ::System::Runtime::CompilerServices::INotifyCompletion>);
@@ -150,7 +150,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TAwaiter>, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion>);
@@ -161,28 +161,28 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetResult(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::SetResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, result);
     }
     // System.Void SetResult(System.Threading.Tasks.Task`1<TResult> completedTask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetResult(::System::Threading::Tasks::Task_1<TResult>* completedTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::SetResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(completedTask)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, completedTask);
     }
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetException(::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::SetException");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetException", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(exception)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, exception);
     }
     // private System.Threading.Tasks.Task`1<TResult> GetTaskForResult(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<TResult>* GetTaskForResult(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1::GetTaskForResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetTaskForResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));

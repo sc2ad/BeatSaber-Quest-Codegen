@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class ICertificateValidator {
     public:
     // public System.Void ValidateCertificateChain(DnsEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
   }; // ICertificateValidator
   #pragma pack(pop)

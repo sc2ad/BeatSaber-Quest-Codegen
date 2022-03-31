@@ -164,40 +164,40 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_Completed
     bool& dyn_m_Completed();
     // UnityEngine.Networking.UnityWebRequest CreateWebRequest(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x1EB7F18
+    // Offset: 0x1E9C3E8
     ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // private System.Single PercentComplete()
-    // Offset: 0x1EB80EC
+    // Offset: 0x1E9C5BC
     float PercentComplete();
     // private UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus()
-    // Offset: 0x1EB8104
+    // Offset: 0x1E9C5D4
     ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
     // public UnityEngine.AssetBundle GetAssetBundle()
-    // Offset: 0x1EB82C0
+    // Offset: 0x1E9C790
     ::UnityEngine::AssetBundle* GetAssetBundle();
     // System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1EB778C
+    // Offset: 0x1E9BC5C
     void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x1EB8A70
+    // Offset: 0x1E9CF40
     bool WaitForCompletionHandler();
     // private System.Void BeginOperation()
-    // Offset: 0x1EB874C
+    // Offset: 0x1E9CC1C
     void BeginOperation();
     // private System.Void LocalRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1EB8BC4
+    // Offset: 0x1E9D094
     void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
     // private System.Void WebRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1EB8DA4
+    // Offset: 0x1E9D274
     void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
     // public System.Void Unload()
-    // Offset: 0x1EB7B90
+    // Offset: 0x1E9C060
     void Unload();
     // private System.Void <BeginOperation>b__16_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x1EB9588
+    // Offset: 0x1E9DA58
     void $BeginOperation$b__16_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
     // public System.Void .ctor()
-    // Offset: 0x1EB7784
+    // Offset: 0x1E9BC54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

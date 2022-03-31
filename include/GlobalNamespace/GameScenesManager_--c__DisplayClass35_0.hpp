@@ -79,13 +79,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> sceneNamesToRemove
     ::System::Collections::Generic::List_1<::StringW>*& dyn_sceneNamesToRemove();
     // System.Void <RemoveScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x1579F98
+    // Offset: 0x1570CA4
     void $RemoveScenes$b__0(::Zenject::DiContainer* container);
     // System.Boolean <RemoveScenes>b__1(System.String scene)
-    // Offset: 0x157A060
+    // Offset: 0x1570D6C
     bool $RemoveScenes$b__1(::StringW scene);
     // public System.Void .ctor()
-    // Offset: 0x1578A14
+    // Offset: 0x156F720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

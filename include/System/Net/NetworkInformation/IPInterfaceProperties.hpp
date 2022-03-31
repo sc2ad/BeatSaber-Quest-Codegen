@@ -36,13 +36,13 @@ namespace System::Net::NetworkInformation {
   class IPInterfaceProperties : public ::Il2CppObject {
     public:
     // public System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
     // public System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // protected System.Void .ctor()
-    // Offset: 0x1A878F0
+    // Offset: 0x1A7C7DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

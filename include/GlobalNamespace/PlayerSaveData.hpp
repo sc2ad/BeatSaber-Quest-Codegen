@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::GuestPlayer*>*& dyn_guestPlayers();
     // public System.Void .ctor()
-    // Offset: 0x1484380
+    // Offset: 0x1371430
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
     // Base method: System.Void Object::.ctor()

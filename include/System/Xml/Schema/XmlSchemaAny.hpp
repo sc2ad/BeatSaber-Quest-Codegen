@@ -77,16 +77,16 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.NamespaceList namespaceList
     ::System::Xml::Schema::NamespaceList*& dyn_namespaceList();
     // public System.Void set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing value)
-    // Offset: 0x202233C
+    // Offset: 0x200FD10
     void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
     // System.Xml.Schema.NamespaceList get_NamespaceList()
-    // Offset: 0x2022344
+    // Offset: 0x200FD18
     ::System::Xml::Schema::NamespaceList* get_NamespaceList();
     // System.Void BuildNamespaceList(System.String targetNamespace)
-    // Offset: 0x202234C
+    // Offset: 0x200FD20
     void BuildNamespaceList(::StringW targetNamespace);
     // public System.Void .ctor()
-    // Offset: 0x20223D4
+    // Offset: 0x200FDA8
     // Implemented from: System.Xml.Schema.XmlSchemaParticle
     // Base method: System.Void XmlSchemaParticle::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

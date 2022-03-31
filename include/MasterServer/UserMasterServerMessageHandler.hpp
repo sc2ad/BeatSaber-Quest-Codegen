@@ -157,64 +157,64 @@ namespace MasterServer {
     // Get instance field reference: private readonly System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> _authenticationTokenProviderTask
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& dyn__authenticationTokenProviderTask();
     // public System.String get_userId()
-    // Offset: 0x16FD5C4
+    // Offset: 0x16F44B4
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x16FD5CC
+    // Offset: 0x16F44BC
     ::StringW get_userName();
     // public System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> get_authenticationTokenProviderTask()
-    // Offset: 0x16FD5D4
+    // Offset: 0x16F44C4
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* get_authenticationTokenProviderTask();
     // public System.Void .ctor(IUnconnectedMessageSender sender, DnsEndPoint endPoint, System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> authenticationTokenProviderTask, BGNet.Core.ITimeProvider timeProvider, ICertificateValidator certificateValidator)
-    // Offset: 0x16FD5DC
+    // Offset: 0x16F44CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMasterServerMessageHandler* New_ctor(::GlobalNamespace::IUnconnectedMessageSender* sender, ::GlobalNamespace::DnsEndPoint* endPoint, ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* authenticationTokenProviderTask, ::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::ICertificateValidator* certificateValidator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::UserMasterServerMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMasterServerMessageHandler*, creationType>(sender, endPoint, authenticationTokenProviderTask, timeProvider, certificateValidator)));
     }
     // protected System.Void RegisterUserMessageHandlers()
-    // Offset: 0x16FD618
+    // Offset: 0x16F4508
     void RegisterUserMessageHandlers();
     // private System.Threading.Tasks.Task`1<System.ValueTuple`2<System.String,System.String>> GetUserIdAndNameAsync()
-    // Offset: 0x16FE2DC
+    // Offset: 0x16F51CC
     ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::StringW>>* GetUserIdAndNameAsync();
     // private System.Void UpdateKeepalive()
-    // Offset: 0x16FDE7C
+    // Offset: 0x16F4D6C
     void UpdateKeepalive();
     // public System.Void ConnectToServer(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code, MasterServer.UserMasterServerMessageHandler/MasterServer.ConnectToServerDelegate onSuccess, System.Action`1<ConnectionFailedReason> onConnectionFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16FE3DC
+    // Offset: 0x16F52CC
     void ConnectToServer(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code, ::MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate* onSuccess, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailed, ::System::Threading::CancellationToken cancellationToken);
     // private System.Void SendConnectToServerRequest(MasterServer.BaseConnectToServerRequest request, MasterServer.UserMasterServerMessageHandler/MasterServer.ConnectToServerDelegate onSuccess, System.Action`1<ConnectionFailedReason> onConnectionFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16FE550
+    // Offset: 0x16F5440
     void SendConnectToServerRequest(::MasterServer::BaseConnectToServerRequest* request, ::MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate* onSuccess, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailed, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void GetPublicServers(System.Int32 offset, System.Int32 count, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x16FE6E8
+    // Offset: 0x16F55D8
     void GetPublicServers(int offset, int count, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure, ::System::Threading::CancellationToken cancellationToken);
     // private System.Void WithFailureHandler(System.Action`1<ConnectionFailedReason> onFailure, System.Func`1<System.Threading.Tasks.Task> performTask)
-    // Offset: 0x16FE624
+    // Offset: 0x16F5514
     void WithFailureHandler(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure, ::System::Func_1<::System::Threading::Tasks::Task*>* performTask);
     // public override System.Void PollUpdate()
-    // Offset: 0x16FDE54
+    // Offset: 0x16F4D44
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Void UnconnectedMessageHandler::PollUpdate()
     void PollUpdate();
     // protected override System.UInt32 GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x16FE00C
+    // Offset: 0x16F4EFC
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.UInt32 BaseClientUnconnectedMessageHandler::GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
     uint GetMessageType(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // protected override System.Boolean ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x16FE090
+    // Offset: 0x16F4F80
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.Boolean BaseClientUnconnectedMessageHandler::ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
     bool ShouldHandleMessage(::BGNet::Core::Messages::IUnconnectedMessage* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // protected override System.Threading.Tasks.Task`1<BGNet.Core.Messages.IUnconnectedAuthenticateRequest> GetAuthenticationRequest()
-    // Offset: 0x16FE1BC
+    // Offset: 0x16F50AC
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.Threading.Tasks.Task`1<BGNet.Core.Messages.IUnconnectedAuthenticateRequest> BaseClientUnconnectedMessageHandler::GetAuthenticationRequest()
     ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>* GetAuthenticationRequest();
     // private System.Void HandshakeLog(System.String message)
-    // Offset: 0x16FE7F8
+    // Offset: 0x16F56E8
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.Void BaseClientUnconnectedMessageHandler::HandshakeLog(System.String message)
     void HandshakeLog(::StringW message);

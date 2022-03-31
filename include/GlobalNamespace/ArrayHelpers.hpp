@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   class ArrayHelpers : public ::Il2CppObject {
     public:
     // static public T[] CreateOrEnlargeArray(T[] array, System.Int32 minimumCapacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static ::ArrayW<T> CreateOrEnlargeArray(::ArrayW<T> array, int minimumCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ArrayHelpers::CreateOrEnlargeArray");

@@ -59,14 +59,14 @@ namespace NUnit::Framework::Internal {
     protected:
     #endif
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0x10AA918
+    // [DebuggerBrowsableAttribute] Offset: 0x12448D4
     // private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::NUnit::Framework::Interfaces::ITypeInfo* TypeInfo;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Interfaces::ITypeInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x10AA954
+    // [DebuggerBrowsableAttribute] Offset: 0x1244910
     // private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -83,50 +83,50 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     ::System::Reflection::MethodInfo*& dyn_$MethodInfo$k__BackingField();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0x29E0EC8
+    // Offset: 0x29AD040
     ::NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
-    // Offset: 0x29E0ED0
+    // Offset: 0x29AD048
     void set_TypeInfo(::NUnit::Framework::Interfaces::ITypeInfo* value);
     // public System.Reflection.MethodInfo get_MethodInfo()
-    // Offset: 0x29E0ED8
+    // Offset: 0x29AD050
     ::System::Reflection::MethodInfo* get_MethodInfo();
     // private System.Void set_MethodInfo(System.Reflection.MethodInfo value)
-    // Offset: 0x29E0EE0
+    // Offset: 0x29AD058
     void set_MethodInfo(::System::Reflection::MethodInfo* value);
     // public System.String get_Name()
-    // Offset: 0x29E0EE8
+    // Offset: 0x29AD060
     ::StringW get_Name();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x29E0F08
+    // Offset: 0x29AD080
     bool get_IsAbstract();
     // public System.Boolean get_IsPublic()
-    // Offset: 0x29E0F24
+    // Offset: 0x29AD09C
     bool get_IsPublic();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x29E0F40
+    // Offset: 0x29AD0B8
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x29E0F64
+    // Offset: 0x29AD0DC
     bool get_IsGenericMethodDefinition();
     // public NUnit.Framework.Interfaces.ITypeInfo get_ReturnType()
-    // Offset: 0x29E0F88
+    // Offset: 0x29AD100
     ::NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public System.Void .ctor(System.Type type, System.Reflection.MethodInfo method)
-    // Offset: 0x29E0DD8
+    // Offset: 0x29ACF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodWrapper* New_ctor(::System::Type* type, ::System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::MethodWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodWrapper*, creationType>(type, method)));
     }
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
-    // Offset: 0x29E100C
+    // Offset: 0x29AD184
     ::ArrayW<::NUnit::Framework::Interfaces::IParameterInfo*> GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    // Offset: 0x29E1180
+    // Offset: 0x29AD2F8
     ::NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::ArrayW<::System::Type*> typeArguments);
     // public T[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::ArrayW<T> GetCustomAttributes(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::MethodWrapper::GetCustomAttributes");
@@ -135,7 +135,7 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     bool IsDefined(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::MethodWrapper::IsDefined");
@@ -144,10 +144,10 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, inherit);
     }
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
-    // Offset: 0x29E1290
+    // Offset: 0x29AD408
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::ArrayW<::Il2CppObject*> args);
     // public override System.String ToString()
-    // Offset: 0x29E15E4
+    // Offset: 0x29AD75C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

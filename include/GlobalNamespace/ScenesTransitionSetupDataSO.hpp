@@ -89,34 +89,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <beforeScenesWillBeActivatedTaskIsComplete>k__BackingField
     bool& dyn_$beforeScenesWillBeActivatedTaskIsComplete$k__BackingField();
     // public SceneInfo[] get_scenes()
-    // Offset: 0x2A09274
+    // Offset: 0x29D53EC
     ::ArrayW<::GlobalNamespace::SceneInfo*> get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
-    // Offset: 0x2A0927C
+    // Offset: 0x29D53F4
     void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo*> value);
     // public System.Boolean get_beforeScenesWillBeActivatedTaskIsComplete()
-    // Offset: 0x2A09284
+    // Offset: 0x29D53FC
     bool get_beforeScenesWillBeActivatedTaskIsComplete();
     // private System.Void set_beforeScenesWillBeActivatedTaskIsComplete(System.Boolean value)
-    // Offset: 0x2A0928C
+    // Offset: 0x29D5404
     void set_beforeScenesWillBeActivatedTaskIsComplete(bool value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
-    // Offset: 0x2A09298
+    // Offset: 0x29D5410
     void Init(::ArrayW<::GlobalNamespace::SceneInfo*> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
     // public System.Void BeforeScenesWillBeActivated(System.Boolean runAsync)
-    // Offset: 0x2A092A4
+    // Offset: 0x29D541C
     void BeforeScenesWillBeActivated(bool runAsync);
     // protected System.Threading.Tasks.Task BeforeScenesWillBeActivatedAsync()
-    // Offset: 0x2A09370
+    // Offset: 0x29D54E8
     ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x2A093D0
+    // Offset: 0x29D5548
     void InstallBindings(::Zenject::DiContainer* container);
     // private System.Threading.Tasks.Task <BeforeScenesWillBeActivated>b__10_0()
-    // Offset: 0x2A09514
+    // Offset: 0x29D568C
     ::System::Threading::Tasks::Task* $BeforeScenesWillBeActivated$b__10_0();
     // protected System.Void .ctor()
-    // Offset: 0x2A0950C
+    // Offset: 0x29D5684
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

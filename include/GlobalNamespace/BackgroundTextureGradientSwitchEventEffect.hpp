@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* boostTextureGradient;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B6C14
+    // [InjectAttribute] Offset: 0x12510A8
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
@@ -87,16 +87,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void Start()
-    // Offset: 0x136B9C0
+    // Offset: 0x135D65C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x136BA64
+    // Offset: 0x135D700
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(ColorBoostBeatmapEventData eventData)
-    // Offset: 0x136BA7C
+    // Offset: 0x135D718
     void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x136BAD0
+    // Offset: 0x135D76C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

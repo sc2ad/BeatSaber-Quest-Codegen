@@ -36,7 +36,7 @@ namespace System::Threading::Tasks {
   class TaskExtensions : public ::Il2CppObject {
     public:
     // static public System.Threading.Tasks.Task`1<TResult> Unwrap(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<TResult>> task)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TResult>
     static ::System::Threading::Tasks::Task_1<TResult>* Unwrap(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>* task) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskExtensions::Unwrap");

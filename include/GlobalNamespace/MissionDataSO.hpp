@@ -87,8 +87,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10B2C60
-    // [NullAllowed] Offset: 0x10B2C60
+    // [SpaceAttribute] Offset: 0x124D0E4
+    // [NullAllowed] Offset: 0x124D0E4
     // private MissionHelpSO _missionHelp
     // Size: 0x8
     // Offset: 0x40
@@ -111,28 +111,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionHelpSO _missionHelp
     ::GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0x132F6B0
+    // Offset: 0x1304E54
     ::ArrayW<::GlobalNamespace::MissionObjective*> get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0x132F6B8
+    // Offset: 0x1304E5C
     ::GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x132F6C0
+    // Offset: 0x1304E64
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x132F6C8
+    // Offset: 0x1304E6C
     ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x132F6D0
+    // Offset: 0x1304E74
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0x132F6D8
+    // Offset: 0x1304E7C
     ::GlobalNamespace::MissionHelpSO* get_missionHelp();
     // private System.Void OnValidate()
-    // Offset: 0x132F6E0
+    // Offset: 0x1304E84
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x132F784
+    // Offset: 0x1304F28
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -34,13 +34,13 @@ namespace System::ComponentModel::Design {
   class ITypeDescriptorFilterService {
     public:
     // public System.Boolean FilterAttributes(System.ComponentModel.IComponent component, System.Collections.IDictionary attributes)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool FilterAttributes(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* attributes);
     // public System.Boolean FilterEvents(System.ComponentModel.IComponent component, System.Collections.IDictionary events)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool FilterEvents(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* events);
     // public System.Boolean FilterProperties(System.ComponentModel.IComponent component, System.Collections.IDictionary properties)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool FilterProperties(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* properties);
   }; // System.ComponentModel.Design.ITypeDescriptorFilterService
   #pragma pack(pop)

@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
   class ILayoutIgnorer {
     public:
     // public System.Boolean get_ignoreLayout()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_ignoreLayout();
   }; // UnityEngine.UI.ILayoutIgnorer
   #pragma pack(pop)

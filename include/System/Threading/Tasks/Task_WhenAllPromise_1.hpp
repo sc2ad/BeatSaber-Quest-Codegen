@@ -70,21 +70,21 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void .ctor(System.Threading.Tasks.Task`1<T>[] tasks)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise_1<T>* New_ctor(::ArrayW<::System::Threading::Tasks::Task_1<T>*> tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::Task::WhenAllPromise_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise_1<T>*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task ignored)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Invoke(::System::Threading::Tasks::Task* ignored) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::Task::WhenAllPromise_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ignored)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, ignored);
     }
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion() {

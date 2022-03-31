@@ -54,16 +54,16 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public System.Reflection.PropertyInfo subTypeProperty
     ::System::Reflection::PropertyInfo*& dyn_subTypeProperty();
     // System.Boolean <GetChildPrivateProperties>b__0(System.Reflection.PropertyInfo p)
-    // Offset: 0x205FD20
+    // Offset: 0x204D6F4
     bool $GetChildPrivateProperties$b__0(::System::Reflection::PropertyInfo* p);
     // System.Boolean <GetChildPrivateProperties>b__1(System.Reflection.PropertyInfo p)
-    // Offset: 0x205FD80
+    // Offset: 0x204D754
     bool $GetChildPrivateProperties$b__1(::System::Reflection::PropertyInfo* p);
     // System.Boolean <GetChildPrivateProperties>b__2(System.Reflection.PropertyInfo p)
-    // Offset: 0x205FE2C
+    // Offset: 0x204D800
     bool $GetChildPrivateProperties$b__2(::System::Reflection::PropertyInfo* p);
     // public System.Void .ctor()
-    // Offset: 0x205FA28
+    // Offset: 0x204D3FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

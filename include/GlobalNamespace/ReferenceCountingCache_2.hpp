@@ -80,49 +80,49 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::Collections::Generic::Dictionary_2<TKey, int>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Int32 Insert(TKey key, TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int Insert(TKey key, TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReferenceCountingCache_2::Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(item)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key, item);
     }
     // public System.Int32 AddReference(TKey key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int AddReference(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReferenceCountingCache_2::AddReference");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddReference", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key);
     }
     // public System.Int32 RemoveReference(TKey key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int RemoveReference(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReferenceCountingCache_2::RemoveReference");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveReference", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key);
     }
     // public System.Int32 GetReferenceCount(TKey key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetReferenceCount(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReferenceCountingCache_2::GetReferenceCount");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetReferenceCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key);
     }
     // public System.Boolean TryGet(TKey key, out TValue result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryGet(TKey key, ByRef<TValue> result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReferenceCountingCache_2::TryGet");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGet", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key, byref(result));
     }
     // static private System.Void LogError(System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static void LogError(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReferenceCountingCache_2::LogError");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReferenceCountingCache_2<TKey, TValue>*>::get(), "LogError", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, message);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

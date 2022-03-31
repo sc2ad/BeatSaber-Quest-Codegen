@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::VRPlatformSDK) == 0x4);
     // Padding between fields: vrPlatformSdk and: vrPlatformHelper
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x108B2F8
+    // [InjectAttribute] Offset: 0x1224F98
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -69,10 +69,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // private System.Void Awake()
-    // Offset: 0x156D928
+    // Offset: 0x1564634
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x156DA10
+    // Offset: 0x156471C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,7 +29,7 @@ namespace System::Reflection {
   class IReflectableType {
     public:
     // public System.Reflection.TypeInfo GetTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Reflection::TypeInfo* GetTypeInfo();
   }; // System.Reflection.IReflectableType
   #pragma pack(pop)

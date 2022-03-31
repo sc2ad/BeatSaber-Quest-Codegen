@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   class IDsaEncoding {
     public:
     // public System.Byte[] Encode(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger r, Org.BouncyCastle.Math.BigInteger s)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> Encode(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
   }; // Org.BouncyCastle.Crypto.Signers.IDsaEncoding
   #pragma pack(pop)

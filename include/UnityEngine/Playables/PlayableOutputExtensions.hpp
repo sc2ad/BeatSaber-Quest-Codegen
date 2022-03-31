@@ -51,7 +51,7 @@ namespace UnityEngine::Playables {
   class PlayableOutputExtensions : public ::Il2CppObject {
     public:
     // static public System.Void SetReferenceObject(U output, UnityEngine.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetReferenceObject(U output, ::UnityEngine::Object* value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -61,7 +61,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, output, value);
     }
     // static public System.Void SetUserData(U output, UnityEngine.Object value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetUserData(U output, ::UnityEngine::Object* value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -71,7 +71,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, output, value);
     }
     // static public UnityEngine.Playables.Playable GetSourcePlayable(U output)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static ::UnityEngine::Playables::Playable GetSourcePlayable(U output) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -81,7 +81,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, output);
     }
     // static public System.Void SetSourcePlayable(U output, V value, System.Int32 port)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U, class V>
     static void SetSourcePlayable(U output, V value, int port) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -92,7 +92,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, output, value, port);
     }
     // static public System.Int32 GetSourceOutputPort(U output)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static int GetSourceOutputPort(U output) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -102,7 +102,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, output);
     }
     // static public System.Void SetWeight(U output, System.Single value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetWeight(U output, float value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -112,7 +112,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, output, value);
     }
     // static public System.Void PushNotification(U output, UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::Il2CppObject* context) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -122,7 +122,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, output, origin, notification, context);
     }
     // static public System.Void AddNotificationReceiver(U output, UnityEngine.Playables.INotificationReceiver receiver)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void AddNotificationReceiver(U output, ::UnityEngine::Playables::INotificationReceiver* receiver) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayableOutput> && std::is_convertible_v<U, ::System::ValueType*>);

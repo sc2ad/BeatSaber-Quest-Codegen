@@ -57,13 +57,13 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonToken <Parent>k__BackingField
     ::Newtonsoft::Json::Bson::BsonToken*& dyn_$Parent$k__BackingField();
     // public Newtonsoft.Json.Bson.BsonType get_Type()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Newtonsoft::Json::Bson::BsonType get_Type();
     // public System.Void set_Parent(Newtonsoft.Json.Bson.BsonToken value)
-    // Offset: 0x1782B3C
+    // Offset: 0x1779A2C
     void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
     // protected System.Void .ctor()
-    // Offset: 0x1780D1C
+    // Offset: 0x1777C0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

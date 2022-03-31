@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10C5CC8
+    // [InjectAttribute] Offset: 0x1260314
     // private readonly EnvironmentSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentSceneSetupData*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C5CD8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1260324
     // Get static field: static private readonly System.Int32 trackLaneYPositionPropertyId
     static int _get_trackLaneYPositionPropertyId();
     // Set static field: static private readonly System.Int32 trackLaneYPositionPropertyId
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
     ::GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x12DA5B4
+    // Offset: 0x1384B70
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -75,12 +75,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetup*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12DA5BC
+    // Offset: 0x1384B78
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void InstallBindings()
-    // Offset: 0x12DA464
+    // Offset: 0x1384A20
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

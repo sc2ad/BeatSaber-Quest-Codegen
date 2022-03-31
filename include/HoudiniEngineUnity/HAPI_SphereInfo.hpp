@@ -49,7 +49,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single radius
     float& dyn_radius();
     // public System.Void .ctor(System.Boolean initialize_fields)
-    // Offset: 0x16A130C
+    // Offset: 0x16AA4E0
     HAPI_SphereInfo(bool initialize_fields);
   }; // HoudiniEngineUnity.HAPI_SphereInfo
   #pragma pack(pop)

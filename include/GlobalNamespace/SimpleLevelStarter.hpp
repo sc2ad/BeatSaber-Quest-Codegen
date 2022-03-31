@@ -108,44 +108,50 @@ namespace GlobalNamespace {
     bool useTestNoteCutSoundEffects;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: useTestNoteCutSoundEffects and: recordingTextAsset
-    char __padding3[0x3] = {};
-    // [NullAllowed] Offset: 0x10C64A0
+    // private System.Boolean _overrideStrobeFilterSettingsToAllEffects
+    // Size: 0x1
+    // Offset: 0x2D
+    bool overrideStrobeFilterSettingsToAllEffects;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: overrideStrobeFilterSettingsToAllEffects and: recordingTextAsset
+    char __padding4[0x2] = {};
+    // [NullAllowed] Offset: 0x1260B0C
     // private UnityEngine.TextAsset _recordingTextAsset
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::TextAsset* recordingTextAsset;
     // Field size check
     static_assert(sizeof(::UnityEngine::TextAsset*) == 0x8);
-    // [NullAllowed] Offset: 0x10C64D8
+    // [NullAllowed] Offset: 0x1260B44
     // private UnityEngine.Component[] _prefabBindings
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<::UnityEngine::Component*> prefabBindings;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Component*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C6510
+    // [SpaceAttribute] Offset: 0x1260B7C
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C6548
+    // [InjectAttribute] Offset: 0x1260BB4
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C6558
+    // [InjectAttribute] Offset: 0x1260BC4
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C6568
+    // [InjectAttribute] Offset: 0x1260BD4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x58
@@ -175,6 +181,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // Get instance field reference: private System.Boolean _useTestNoteCutSoundEffects
     bool& dyn__useTestNoteCutSoundEffects();
+    // Get instance field reference: private System.Boolean _overrideStrobeFilterSettingsToAllEffects
+    bool& dyn__overrideStrobeFilterSettingsToAllEffects();
     // Get instance field reference: private UnityEngine.TextAsset _recordingTextAsset
     ::UnityEngine::TextAsset*& dyn__recordingTextAsset();
     // Get instance field reference: private UnityEngine.Component[] _prefabBindings
@@ -192,28 +200,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
     ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // protected System.Void Awake()
-    // Offset: 0x13B6C64
+    // Offset: 0x142BD34
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13B6D14
+    // Offset: 0x142BDE4
     void OnDestroy();
     // private System.Void StartLevel()
-    // Offset: 0x13B6D30
+    // Offset: 0x142BE00
     void StartLevel();
     // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x13B6F0C
+    // Offset: 0x142C06C
     void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
     // private System.Void ButtonPressed()
-    // Offset: 0x13B704C
+    // Offset: 0x142C1AC
     void ButtonPressed();
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x13B7050
+    // Offset: 0x142C1B0
     void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
-    // private System.Void <StartLevel>g__AfterSceneSwitchCallback|14_0(Zenject.DiContainer container)
-    // Offset: 0x13B7150
-    void $StartLevel$g__AfterSceneSwitchCallback_14_0(::Zenject::DiContainer* container);
+    // private System.Void <StartLevel>g__AfterSceneSwitchCallback|15_0(Zenject.DiContainer container)
+    // Offset: 0x142C2B0
+    void $StartLevel$g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x13B7074
+    // Offset: 0x142C1D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -283,13 +291,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "HandleLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{standardLevelSceneSetupData, levelCompletionResults});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_14_0
-// Il2CppName: <StartLevel>g__AfterSceneSwitchCallback|14_0
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_15_0
+// Il2CppName: <StartLevel>g__AfterSceneSwitchCallback|15_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)(::Zenject::DiContainer*)>(&GlobalNamespace::SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_14_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)(::Zenject::DiContainer*)>(&GlobalNamespace::SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_15_0)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "<StartLevel>g__AfterSceneSwitchCallback|14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "<StartLevel>g__AfterSceneSwitchCallback|15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::New_ctor

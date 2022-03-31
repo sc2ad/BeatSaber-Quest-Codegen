@@ -48,7 +48,7 @@ namespace Zenject {
   class ZenjectMoqExtensions : public ::Il2CppObject {
     public:
     // static public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromMock(Zenject.FromBinderGeneric`1<TContract> binder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     static ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMock(::Zenject::FromBinderGeneric_1<TContract>* binder) {
       static_assert(std::is_convertible_v<TContract, ::UnityEngine::MonoBehaviour*>);
@@ -58,7 +58,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, binder);
     }
     // static public Zenject.ConditionCopyNonLazyBinder FromMock(Zenject.FactoryFromBinder`1<TContract> binder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TContract>
     static ::Zenject::ConditionCopyNonLazyBinder* FromMock(::Zenject::FactoryFromBinder_1<TContract>* binder) {
       static_assert(std::is_convertible_v<TContract, ::UnityEngine::MonoBehaviour*>);

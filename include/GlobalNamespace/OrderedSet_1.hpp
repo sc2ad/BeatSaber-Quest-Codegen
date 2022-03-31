@@ -221,7 +221,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // public System.Void .ctor(T value, System.Int32 clearCount)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename OrderedSet_1<T>::Node* New_ctor(T value, int clearCount) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::Node::.ctor");
@@ -307,42 +307,42 @@ namespace GlobalNamespace {
         return *reinterpret_cast<typename ::GlobalNamespace::OrderedSet_1<T>::Node**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private T System.Collections.Generic.IEnumerator<T>.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       T System_Collections_Generic_IEnumerator$T$_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::$GetEnumerator$d__23::System.Collections.Generic.IEnumerator<T>.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<T>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::$GetEnumerator$d__23::System.Collections.IEnumerator.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // public System.Void .ctor(System.Int32 <>1__state)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static typename OrderedSet_1<T>::$GetEnumerator$d__23* New_ctor(int $$1__state) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::$GetEnumerator$d__23::.ctor");
         return THROW_UNLESS((::il2cpp_utils::New<typename OrderedSet_1<T>::$GetEnumerator$d__23*, creationType>($$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::$GetEnumerator$d__23::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Boolean MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::$GetEnumerator$d__23::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::$GetEnumerator$d__23::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
@@ -447,126 +447,126 @@ namespace GlobalNamespace {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Int32 get_count()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_count() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::get_count");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public System.Void .ctor(System.Comparison`1<T> comparison, OrderedSet`1/ProcessOrder<T> processOrder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrderedSet_1<T>* New_ctor(::System::Comparison_1<T>* comparison, typename ::GlobalNamespace::OrderedSet_1<T>::ProcessOrder processOrder) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrderedSet_1<T>*, creationType>(comparison, processOrder)));
     }
     // public System.Void Add(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean Contains(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Contains(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::Contains");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Contains", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, item);
     }
     // public System.Boolean Remove(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Remove(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, item);
     }
     // public System.Void UpdateSortedPosition(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdateSortedPosition(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::UpdateSortedPosition");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateSortedPosition", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // private System.Void AppendNode(OrderedSet`1/Node<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AppendNode(typename ::GlobalNamespace::OrderedSet_1<T>::Node* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::AppendNode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AppendNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // private System.Void AppendNodeUnchecked(OrderedSet`1/Node<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AppendNodeUnchecked(typename ::GlobalNamespace::OrderedSet_1<T>::Node* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::AppendNodeUnchecked");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AppendNodeUnchecked", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // private System.Void PrependNode(OrderedSet`1/Node<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PrependNode(typename ::GlobalNamespace::OrderedSet_1<T>::Node* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::PrependNode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "PrependNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // private System.Void PrependNodeUnchecked(OrderedSet`1/Node<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PrependNodeUnchecked(typename ::GlobalNamespace::OrderedSet_1<T>::Node* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::PrependNodeUnchecked");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "PrependNodeUnchecked", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // private System.Void SwapNodes(OrderedSet`1/Node<T> previous, OrderedSet`1/Node<T> next)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SwapNodes(typename ::GlobalNamespace::OrderedSet_1<T>::Node* previous, typename ::GlobalNamespace::OrderedSet_1<T>::Node* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::SwapNodes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SwapNodes", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(previous), ::il2cpp_utils::ExtractType(next)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, previous, next);
     }
     // private System.Void RemoveNode(OrderedSet`1/Node<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RemoveNode(typename ::GlobalNamespace::OrderedSet_1<T>::Node* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::RemoveNode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // private System.Void UpdateSortedPosition(OrderedSet`1/Node<T> node)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdateSortedPosition(typename ::GlobalNamespace::OrderedSet_1<T>::Node* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::UpdateSortedPosition");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateSortedPosition", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::System.Collections.IEnumerable.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
     // public T GetFirstOrDefault()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetFirstOrDefault() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::GetFirstOrDefault");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetFirstOrDefault", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Boolean TryGetFirst(out T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TryGetFirst(ByRef<T> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OrderedSet_1::TryGetFirst");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetFirst", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));

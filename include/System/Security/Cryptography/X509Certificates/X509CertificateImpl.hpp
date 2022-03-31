@@ -69,55 +69,55 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Byte[] cachedCertificateHash
     ::ArrayW<uint8_t>& dyn_cachedCertificateHash();
     // public System.Boolean get_IsValid()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x209A9CC
+    // Offset: 0x20883A0
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
     // public System.String GetIssuerName(System.Boolean legacyV1Mode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetIssuerName(bool legacyV1Mode);
     // public System.String GetSubjectName(System.Boolean legacyV1Mode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetSubjectName(bool legacyV1Mode);
     // public System.Byte[] GetRawCertData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> GetRawCertData();
     // public System.DateTime GetValidFrom()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime GetValidFrom();
     // public System.DateTime GetValidUntil()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x209A040
+    // Offset: 0x2087A14
     ::ArrayW<uint8_t> GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> GetCertHash(bool lazy);
     // public System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Equals(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, ByRef<bool> result);
     // public System.Byte[] GetSerialNumber()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> GetSerialNumber();
     // public System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType contentType, System.Byte[] password)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> Export(::System::Security::Cryptography::X509Certificates::X509ContentType contentType, ::ArrayW<uint8_t> password);
     // public System.String ToString(System.Boolean full)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(bool full);
     // public System.Void Dispose()
-    // Offset: 0x209A94C
+    // Offset: 0x2088320
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x209ACAC
+    // Offset: 0x2088680
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x209AD2C
+    // Offset: 0x2088700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -126,17 +126,17 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImpl*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x209AAB0
+    // Offset: 0x2088484
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x209AB1C
+    // Offset: 0x20884F0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // protected override System.Void Finalize()
-    // Offset: 0x209ACB4
+    // Offset: 0x2088688
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

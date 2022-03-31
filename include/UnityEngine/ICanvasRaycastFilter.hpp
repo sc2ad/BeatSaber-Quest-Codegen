@@ -31,7 +31,7 @@ namespace UnityEngine {
   class ICanvasRaycastFilter {
     public:
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
   }; // UnityEngine.ICanvasRaycastFilter
   #pragma pack(pop)

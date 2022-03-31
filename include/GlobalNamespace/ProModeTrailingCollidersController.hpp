@@ -88,16 +88,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     ::UnityEngine::Transform*& dyn__transform();
     // protected System.Void Start()
-    // Offset: 0x13C4798
+    // Offset: 0x1379D18
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C4834
+    // Offset: 0x1379DB4
     void OnDestroy();
     // private System.Void HandleNoteDidMoveInJumpPhase()
-    // Offset: 0x13C4908
+    // Offset: 0x1379E88
     void HandleNoteDidMoveInJumpPhase();
     // public System.Void .ctor()
-    // Offset: 0x13C4AB0
+    // Offset: 0x137A030
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

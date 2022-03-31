@@ -31,19 +31,19 @@ namespace GlobalNamespace {
   class IBeatmapDataBasicInfo {
     public:
     // public System.Int32 get_numberOfLines()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_numberOfLines();
     // public System.Int32 get_cuttableNotesCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_cuttableNotesCount();
     // public System.Int32 get_obstaclesCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_obstaclesCount();
     // public System.Int32 get_bombsCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_bombsCount();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_specialBasicBeatmapEventKeywords()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
   }; // IBeatmapDataBasicInfo
   #pragma pack(pop)

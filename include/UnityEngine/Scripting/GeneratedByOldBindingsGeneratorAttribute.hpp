@@ -30,7 +30,7 @@ namespace UnityEngine::Scripting {
   class GeneratedByOldBindingsGeneratorAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AC290C
+    // Offset: 0x2A8FABC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

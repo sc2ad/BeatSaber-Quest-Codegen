@@ -56,10 +56,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.EdgeLookup lup
     ::UnityEngine::ProBuilder::EdgeLookup& dyn_lup();
     // System.Boolean <BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x19F1518
+    // Offset: 0x19E7404
     bool $BevelEdges$b__4(::UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x19F0750
+    // Offset: 0x19E663C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

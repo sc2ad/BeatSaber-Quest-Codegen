@@ -49,7 +49,7 @@ namespace Zenject {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1085FE0
+    // [InjectAttribute] Offset: 0x121FC70
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
@@ -66,25 +66,25 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer _container
     ::Zenject::DiContainer*& dyn__container();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1CF8CD4
+    // Offset: 0x1CDD1A4
     ::Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0x1CF8CDC
+    // Offset: 0x1CDD1AC
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0x1CF8CE4
+    // Offset: 0x1CDD1B4
     void InstallBindings();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CF8D44
+    // Offset: 0x1CDD214
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1CF8DA0
+    // Offset: 0x1CDD270
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CF8E74
+    // Offset: 0x1CDD344
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1CF8B10
+    // Offset: 0x1CDCFE0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

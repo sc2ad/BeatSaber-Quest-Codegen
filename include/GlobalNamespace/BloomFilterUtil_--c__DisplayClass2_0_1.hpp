@@ -71,14 +71,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // T <ToBloomFilter>b__0(T bloomFilter, System.String str)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T $ToBloomFilter$b__0(T bloomFilter, ::StringW str) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFilterUtil::$$c__DisplayClass2_0_1::<ToBloomFilter>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToBloomFilter>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bloomFilter), ::il2cpp_utils::ExtractType(str)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, bloomFilter, str);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

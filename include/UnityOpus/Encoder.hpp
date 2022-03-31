@@ -104,41 +104,41 @@ namespace UnityOpus {
     // Get instance field reference: private System.Boolean disposedValue
     bool& dyn_disposedValue();
     // public System.Int32 get_Bitrate()
-    // Offset: 0x1A8DCA0
+    // Offset: 0x2ABB1D0
     int get_Bitrate();
     // public System.Void set_Bitrate(System.Int32 value)
-    // Offset: 0x1A8DCA8
+    // Offset: 0x2ABB1D8
     void set_Bitrate(int value);
     // public System.Int32 get_Complexity()
-    // Offset: 0x1A8DD64
+    // Offset: 0x2ABB294
     int get_Complexity();
     // public System.Void set_Complexity(System.Int32 value)
-    // Offset: 0x1A8DD6C
+    // Offset: 0x2ABB29C
     void set_Complexity(int value);
     // public UnityOpus.OpusSignal get_Signal()
-    // Offset: 0x1A8DE28
+    // Offset: 0x2ABB358
     ::UnityOpus::OpusSignal get_Signal();
     // public System.Void set_Signal(UnityOpus.OpusSignal value)
-    // Offset: 0x1A8DE30
+    // Offset: 0x2ABB360
     void set_Signal(::UnityOpus::OpusSignal value);
     // public System.Void .ctor(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels, UnityOpus.OpusApplication application)
-    // Offset: 0x1A8DEEC
+    // Offset: 0x2ABB41C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityOpus::Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoder*, creationType>(samplingFrequency, channels, application)));
     }
     // public System.Int32 Encode(System.Single[] pcm, System.Int32 count, System.Byte[] output)
-    // Offset: 0x1A8E0B4
+    // Offset: 0x2ABB5E4
     int Encode(::ArrayW<float> pcm, int count, ::ArrayW<uint8_t> output);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A8E21C
+    // Offset: 0x2ABB74C
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x1A8E380
+    // Offset: 0x2ABB8B0
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1A8E30C
+    // Offset: 0x2ABB83C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -89,7 +89,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Boolean Used
     bool& dyn_Used();
     // public System.Void .ctor()
-    // Offset: 0x1D4E9D4
+    // Offset: 0x1D31EA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

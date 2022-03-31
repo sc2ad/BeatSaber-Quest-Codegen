@@ -53,37 +53,37 @@ namespace HoudiniEngineUnity {
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _pendingRemove
     static void _set__pendingRemove(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AECD44
+    // Offset: 0x1AD037C
     static void _cctor();
     // static private System.Void Update()
-    // Offset: 0x1AECE00
+    // Offset: 0x1AD0438
     static void Update();
     // static public HoudiniEngineUnity.HEU_Task GetTask(System.Guid taskGuid)
-    // Offset: 0x1AECE04
+    // Offset: 0x1AD043C
     static ::HoudiniEngineUnity::HEU_Task* GetTask(::System::Guid taskGuid);
     // static public System.Void AddTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AECF8C
+    // Offset: 0x1AD05C4
     static void AddTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void KillTask(HoudiniEngineUnity.HEU_Task task, System.Boolean bRemove)
-    // Offset: 0x1AED0AC
+    // Offset: 0x1AD06E4
     static void KillTask(::HoudiniEngineUnity::HEU_Task* task, bool bRemove);
     // static public System.Void KillTask(System.Guid taskGuid, System.Boolean bRemove)
-    // Offset: 0x1AED2B4
+    // Offset: 0x1AD08EC
     static void KillTask(::System::Guid taskGuid, bool bRemove);
     // static public System.Void RemoveTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AED1A0
+    // Offset: 0x1AD07D8
     static void RemoveTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void ExecuteTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AED368
+    // Offset: 0x1AD09A0
     static void ExecuteTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void CompleteTask(HoudiniEngineUnity.HEU_Task task, HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
-    // Offset: 0x1AED39C
+    // Offset: 0x1AD09D4
     static void CompleteTask(::HoudiniEngineUnity::HEU_Task* task, ::HoudiniEngineUnity::HEU_Task::TaskResult result);
     // static private System.Void InternalCompleteTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1AED3C4
+    // Offset: 0x1AD09FC
     static void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task* task);
     // public System.Void .ctor()
-    // Offset: 0x1AED428
+    // Offset: 0x1AD0A60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

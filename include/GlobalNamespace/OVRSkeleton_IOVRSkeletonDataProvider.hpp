@@ -19,10 +19,10 @@ namespace GlobalNamespace {
   class OVRSkeleton::IOVRSkeletonDataProvider {
     public:
     // public OVRSkeleton/SkeletonType GetSkeletonType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::OVRSkeleton::SkeletonType GetSkeletonType();
     // public OVRSkeleton/SkeletonPoseData GetSkeletonPoseData()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::OVRSkeleton::SkeletonPoseData GetSkeletonPoseData();
   }; // OVRSkeleton/IOVRSkeletonDataProvider
   #pragma pack(pop)

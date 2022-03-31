@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightGroup _lightGroup
     ::GlobalNamespace::LightGroup*& dyn__lightGroup();
     // public System.Int32 get_groupId()
-    // Offset: 0x14CDB48
+    // Offset: 0x148CBCC
     int get_groupId();
     // protected LightGroup get_lightGroup()
-    // Offset: 0x14CDB64
+    // Offset: 0x148CBE8
     ::GlobalNamespace::LightGroup* get_lightGroup();
     // protected System.Void .ctor()
-    // Offset: 0x14CCB80
+    // Offset: 0x148BC04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

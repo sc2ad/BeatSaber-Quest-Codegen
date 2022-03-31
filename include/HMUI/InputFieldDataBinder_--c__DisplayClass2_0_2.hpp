@@ -110,21 +110,21 @@ namespace HMUI {
       return *reinterpret_cast<::System::Func_2<T1, ::StringW>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void <AddBindings>b__0(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void $AddBindings$b__0(::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2::<AddBindings>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddBindings>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // System.Void <AddBindings>b__1()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void $AddBindings$b__1() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2::<AddBindings>b__1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddBindings>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

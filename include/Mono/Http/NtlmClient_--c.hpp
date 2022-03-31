@@ -47,13 +47,13 @@ namespace Mono::Http {
     // Set static field: static public System.Runtime.CompilerServices.ConditionalWeakTable`2/System.Runtime.CompilerServices.CreateValueCallback<System.Net.HttpWebRequest,Mono.Http.NtlmSession> <>9__1_0
     static void _set_$$9__1_0(typename ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>::CreateValueCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AB4220
+    // Offset: 0x1A97858
     static void _cctor();
     // Mono.Http.NtlmSession <Authenticate>b__1_0(System.Net.HttpWebRequest x)
-    // Offset: 0x1AB428C
+    // Offset: 0x1A978C4
     ::Mono::Http::NtlmSession* $Authenticate$b__1_0(::System::Net::HttpWebRequest* x);
     // public System.Void .ctor()
-    // Offset: 0x1AB4284
+    // Offset: 0x1A978BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

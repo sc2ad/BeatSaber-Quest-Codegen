@@ -65,14 +65,14 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Int32 oldIndex
     int& dyn_oldIndex();
     // public System.Void .ctor(System.ComponentModel.ListChangedType listChangedType, System.Int32 newIndex)
-    // Offset: 0x1D7DD1C
+    // Offset: 0x1D611EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListChangedEventArgs* New_ctor(::System::ComponentModel::ListChangedType listChangedType, int newIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ListChangedEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListChangedEventArgs*, creationType>(listChangedType, newIndex)));
     }
     // public System.Void .ctor(System.ComponentModel.ListChangedType listChangedType, System.Int32 newIndex, System.Int32 oldIndex)
-    // Offset: 0x1D7DD24
+    // Offset: 0x1D611F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListChangedEventArgs* New_ctor(::System::ComponentModel::ListChangedType listChangedType, int newIndex, int oldIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ListChangedEventArgs::.ctor");

@@ -279,7 +279,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String extraDataBase64
     ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x1371D4C
+    // Offset: 0x1363A48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -23,10 +23,10 @@ namespace NUnit::Framework::Constraints {
   class EqualityAdapter : public ::Il2CppObject {
     public:
     // public System.Boolean AreEqual(System.Object x, System.Object y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Boolean CanCompare(System.Object x, System.Object y)
-    // Offset: 0x1C587F0
+    // Offset: 0x1C3ECC0
     bool CanCompare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // NUnit.Framework.Constraints.EqualityAdapter
   #pragma pack(pop)

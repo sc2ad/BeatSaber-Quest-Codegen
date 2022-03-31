@@ -47,13 +47,13 @@ namespace OnlineServices::API {
   class IApiLeaderboardsModel {
     public:
     // public System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> GetLeaderboardEntriesAsync(BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* GetLeaderboardEntriesAsync(::BeatSaberAPI::DataTransferObjects::LeaderboardQuery* leaderboardQueryDTO, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.Response> SendLevelScoreResultAsync(BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResultDto, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::Response>* SendLevelScoreResultAsync(::BeatSaberAPI::DataTransferObjects::LevelScoreResult* levelScoreResultDto, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void LogoutAsync()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogoutAsync();
   }; // OnlineServices.API.IApiLeaderboardsModel
   #pragma pack(pop)

@@ -61,10 +61,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MonoBehaviour _component
     ::UnityEngine::MonoBehaviour*& dyn__component();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1573CBC
+    // Offset: 0x156A9C8
     ::System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x1573D58
+    // Offset: 0x156AA64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

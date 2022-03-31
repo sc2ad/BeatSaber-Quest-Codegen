@@ -22,10 +22,10 @@ namespace System::Runtime::CompilerServices {
   class IAsyncStateMachine {
     public:
     // public System.Void MoveNext()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void MoveNext();
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Runtime.CompilerServices.IAsyncStateMachine
   #pragma pack(pop)

@@ -57,16 +57,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 baseForwardOffsetEuler
     ::UnityEngine::Vector3& dyn_baseForwardOffsetEuler();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x21D41B8
+    // Offset: 0x21AAF9C
     ::UnityEngine::Vector3 get_forward();
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x21D3690
+    // Offset: 0x21AA474
     void Initiate(::UnityEngine::Transform* root);
     // public System.Void LookAt(UnityEngine.Vector3 direction, System.Single weight)
-    // Offset: 0x21D45BC
+    // Offset: 0x21AB3A0
     void LookAt(::UnityEngine::Vector3 direction, float weight);
     // public System.Void .ctor()
-    // Offset: 0x21D4904
+    // Offset: 0x21AB6E8
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
@@ -77,7 +77,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt::LookAtBone*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x21D3354
+    // Offset: 0x21AA138
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor(UnityEngine.Transform transform)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

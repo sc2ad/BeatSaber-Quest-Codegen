@@ -55,7 +55,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _valueStr
     ::StringW& dyn__valueStr();
     // public System.Void .ctor()
-    // Offset: 0x1AE3E30
+    // Offset: 0x1AC7468
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

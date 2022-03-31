@@ -49,7 +49,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x10DDDC8
+    // [RangeAttribute] Offset: 0x12766A0
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -94,25 +94,25 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Quaternion defaultLocalRotation
     ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x2208B24
+    // Offset: 0x21DE908
     void StoreDefaultLocalState();
     // public System.Void FixTransform()
-    // Offset: 0x2208B74
+    // Offset: 0x21DE958
     void FixTransform();
     // public System.Void UpdateSolverPosition()
-    // Offset: 0x2208CFC
+    // Offset: 0x21DEAE0
     void UpdateSolverPosition();
     // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x2208D34
+    // Offset: 0x21DEB18
     void UpdateSolverLocalPosition();
     // public System.Void UpdateSolverState()
-    // Offset: 0x2208D6C
+    // Offset: 0x21DEB50
     void UpdateSolverState();
     // public System.Void UpdateSolverLocalState()
-    // Offset: 0x2208DBC
+    // Offset: 0x21DEBA0
     void UpdateSolverLocalState();
     // public System.Void .ctor()
-    // Offset: 0x22085F8
+    // Offset: 0x21DE3DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,7 +30,7 @@ namespace UnityEngine::Rendering {
   class CameraEventUtils : public ::Il2CppObject {
     public:
     // static public System.Boolean IsValid(UnityEngine.Rendering.CameraEvent value)
-    // Offset: 0x2120090
+    // Offset: 0x20C9E6C
     static bool IsValid(::UnityEngine::Rendering::CameraEvent value);
   }; // UnityEngine.Rendering.CameraEventUtils
   #pragma pack(pop)

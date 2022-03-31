@@ -103,59 +103,59 @@ namespace System {
       return *reinterpret_cast<T2*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(T1 item1, T2 item2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // ABORTED: conflicts with another method.  ValueTuple_2(T1 item1, T2 item2)
     // public System.Boolean Equals(System.ValueTuple`2<T1,T2> other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Equals(::System::ValueTuple_2<T1, T2> other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueTuple_2::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, other);
     }
     // private System.Boolean System.Collections.IStructuralEquatable.Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, ::System::Collections::IEqualityComparer* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueTuple_2::System.Collections.IStructuralEquatable.Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IStructuralEquatable.Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other), ::il2cpp_utils::ExtractType(comparer)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, other, comparer);
     }
     // private System.Int32 System.IComparable.CompareTo(System.Object other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int System_IComparable_CompareTo(::Il2CppObject* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueTuple_2::System.IComparable.CompareTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.IComparable.CompareTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, other);
     }
     // public System.Int32 CompareTo(System.ValueTuple`2<T1,T2> other)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int CompareTo(::System::ValueTuple_2<T1, T2> other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueTuple_2::CompareTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "CompareTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, other);
     }
     // private System.Int32 System.Collections.IStructuralComparable.CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, ::System::Collections::IComparer* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueTuple_2::System.Collections.IStructuralComparable.CompareTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IStructuralComparable.CompareTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other), ::il2cpp_utils::ExtractType(comparer)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, other, comparer);
     }
     // private System.Int32 System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueTuple_2::System.Collections.IStructuralEquatable.GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IStructuralEquatable.GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(comparer)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, comparer);
     }
     // private System.Int32 GetHashCodeCore(System.Collections.IEqualityComparer comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetHashCodeCore(::System::Collections::IEqualityComparer* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueTuple_2::GetHashCodeCore");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetHashCodeCore", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(comparer)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, comparer);
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
@@ -164,7 +164,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
@@ -173,7 +173,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public override System.String ToString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString() {

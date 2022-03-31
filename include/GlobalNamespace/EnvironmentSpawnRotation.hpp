@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10B7724
+    // [InjectAttribute] Offset: 0x1251BF8
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B7734
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1251C08
     // Get static field: static private readonly System.Int32 _spawnRotationID
     static int _get__spawnRotationID();
     // Set static field: static private readonly System.Int32 _spawnRotationID
@@ -118,31 +118,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetRotation
     float& dyn__targetRotation();
     // public System.Single get_targetRotation()
-    // Offset: 0x12DABC8
+    // Offset: 0x1385188
     float get_targetRotation();
     // protected System.Void OnEnable()
-    // Offset: 0x12DABD0
+    // Offset: 0x1385190
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12DAC40
+    // Offset: 0x1385200
     void OnDisable();
     // protected System.Void Start()
-    // Offset: 0x12DACB0
+    // Offset: 0x1385270
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x12DAE04
+    // Offset: 0x13853C4
     void OnDestroy();
     // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x12DAE20
+    // Offset: 0x13853E0
     void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x12DAF70
+    // Offset: 0x1385530
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x12DB040
+    // Offset: 0x1385600
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x12DB1DC
+    // Offset: 0x138579C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -155,7 +155,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSpawnRotation*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12DB1E4
+    // Offset: 0x13857A4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

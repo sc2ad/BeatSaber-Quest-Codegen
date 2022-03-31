@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BAFD0
+    // [InjectAttribute] Offset: 0x1255544
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -112,31 +112,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
     ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__scoreColorTween();
     // protected System.Void Awake()
-    // Offset: 0x1403C88
+    // Offset: 0x13A9488
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1403E50
+    // Offset: 0x13A9650
     void OnDestroy();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1403EE8
+    // Offset: 0x13A96E8
     void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x1403F64
+    // Offset: 0x13A9764
     void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetName(System.String text)
-    // Offset: 0x1404094
+    // Offset: 0x13A9894
     void SetName(::StringW text);
     // public System.Void SetScore(System.String text)
-    // Offset: 0x14040B0
+    // Offset: 0x13A98B0
     void SetScore(::StringW text);
     // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0x14040D4
+    // Offset: 0x13A98D4
     void $Awake$b__6_0(::UnityEngine::Color val);
     // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0x14040F8
+    // Offset: 0x13A98F8
     void $Awake$b__6_1(::UnityEngine::Color val);
     // public System.Void .ctor()
-    // Offset: 0x14040CC
+    // Offset: 0x13A98CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

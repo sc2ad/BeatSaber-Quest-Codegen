@@ -75,28 +75,28 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String <Version>k__BackingField
     ::StringW& dyn_$Version$k__BackingField();
     // public System.String get_Name()
-    // Offset: 0x1968418
+    // Offset: 0x195E304
     ::StringW get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x1968420
+    // Offset: 0x195E30C
     void set_Name(::StringW value);
     // public System.String get_Version()
-    // Offset: 0x1968428
+    // Offset: 0x195E314
     ::StringW get_Version();
     // System.Void set_Version(System.String value)
-    // Offset: 0x1968430
+    // Offset: 0x195E31C
     void set_Version(::StringW value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1968438
+    // Offset: 0x195E324
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ProductHeaderValue> result)
-    // Offset: 0x196857C
+    // Offset: 0x195E468
     static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ProductHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x196861C
+    // Offset: 0x195E508
     static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ProductHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // System.Void .ctor()
-    // Offset: 0x1968410
+    // Offset: 0x195E2FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,17 +105,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<ProductHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1968440
+    // Offset: 0x195E32C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x196850C
+    // Offset: 0x195E3F8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19687A4
+    // Offset: 0x195E690
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -29,10 +29,10 @@ namespace GameLift {
       return *reinterpret_cast<::GameLift::IGameLiftMessage*>(this);
     }
     // public System.String get_userId()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_userName();
   }; // GameLift.IGameLiftClientToServerMessage
   #pragma pack(pop)

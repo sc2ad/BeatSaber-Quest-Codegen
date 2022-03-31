@@ -113,40 +113,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isBeingDestroyed
     bool& dyn__isBeingDestroyed();
     // static public System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> get_bloomLightsDict()
-    // Offset: 0x1F109F4
+    // Offset: 0x2ACD578
     static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>* get_bloomLightsDict();
     // static public System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> get_lightsDataItems()
-    // Offset: 0x1F10A5C
+    // Offset: 0x2ACD5E0
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight::LightsDataItem*>* get_lightsDataItems();
     // public System.Boolean get_isDirty()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isDirty();
     // protected System.Void OnEnable()
-    // Offset: 0x1F10AC4
+    // Offset: 0x2ACD648
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1F10D44
+    // Offset: 0x2ACD8C8
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F10E0C
+    // Offset: 0x2ACD990
     void OnDestroy();
     // private System.Void RegisterLight()
-    // Offset: 0x1F10AC8
+    // Offset: 0x2ACD64C
     void RegisterLight();
     // private System.Void UnregisterLight()
-    // Offset: 0x1F10D48
+    // Offset: 0x2ACD8CC
     void UnregisterLight();
     // protected System.Void DidRegisterLight()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void DidRegisterLight();
     // public System.Void FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Vector3[] uvs, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void FillMeshData(int lightNum, ::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<::UnityEngine::Vector3> uvs, ::ArrayW<::UnityEngine::Color> colors, ::ArrayW<::UnityEngine::Vector4> viewPos, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
     // public System.Void Refresh()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Refresh();
     // protected System.Void .ctor()
-    // Offset: 0x1F10E50
+    // Offset: 0x2ACD9D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -159,7 +159,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F10E58
+    // Offset: 0x2ACD9DC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElements
     int& dyn__numberOfElements();
     // public System.Int32 get_groupId()
-    // Offset: 0x12D9884
+    // Offset: 0x1383E40
     int get_groupId();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x12D988C
+    // Offset: 0x1383E48
     int get_numberOfElements();
     // public System.Void .ctor()
-    // Offset: 0x12D9894
+    // Offset: 0x1383E50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

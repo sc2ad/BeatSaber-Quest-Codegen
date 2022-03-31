@@ -36,12 +36,12 @@ namespace System::Xml::Schema {
   class Datatype_language : public ::System::Xml::Schema::Datatype_token {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C38F88
+    // Offset: 0x1C1F458
     // Implemented from: System.Xml.Schema.Datatype_token
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_token::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C38F90
+    // Offset: 0x1C1F460
     // Implemented from: System.Xml.Schema.Datatype_token
     // Base method: System.Void Datatype_token::.ctor()
     // Base method: System.Void Datatype_normalizedString::.ctor()

@@ -46,20 +46,20 @@ namespace GlobalNamespace {
   class AudioClipAsyncLoader::LoadMethodDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14BE2E4
+    // Offset: 0x14B7C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipAsyncLoader::LoadMethodDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipAsyncLoader::LoadMethodDelegate*, creationType>(object, method)));
     }
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Invoke()
-    // Offset: 0x14BE4F8
+    // Offset: 0x14B7EB0
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14BED94
+    // Offset: 0x14B874C
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14BEDC0
+    // Offset: 0x14B8778
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* EndInvoke(::System::IAsyncResult* result);
   }; // AudioClipAsyncLoader/LoadMethodDelegate
   #pragma pack(pop)

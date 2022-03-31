@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorSchemeSO* defaultColorScheme;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSchemeSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C4568
+    // [SpaceAttribute] Offset: 0x125EAFC
     // private SimpleColorSO _environmentColor0
     // Size: 0x8
     // Offset: 0x20
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SimpleColorSO* environmentColor1Boost;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SimpleColorSO*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10C45D0
+    // [InjectOptionalAttribute] Offset: 0x125EB64
     // private ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x40
@@ -107,25 +107,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorScheme _colorScheme
     ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_environmentColor0()
-    // Offset: 0x12D9260
+    // Offset: 0x138381C
     ::UnityEngine::Color get_environmentColor0();
     // public UnityEngine.Color get_environmentColor1()
-    // Offset: 0x12D9280
+    // Offset: 0x138383C
     ::UnityEngine::Color get_environmentColor1();
     // public UnityEngine.Color get_environmentColor0Boost()
-    // Offset: 0x12D92A0
+    // Offset: 0x138385C
     ::UnityEngine::Color get_environmentColor0Boost();
     // public UnityEngine.Color get_environmentColor1Boost()
-    // Offset: 0x12D92F4
+    // Offset: 0x13838B0
     ::UnityEngine::Color get_environmentColor1Boost();
     // protected System.Void Awake()
-    // Offset: 0x12D9348
+    // Offset: 0x1383904
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x12D9374
+    // Offset: 0x1383930
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x12D9434
+    // Offset: 0x13839F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -47,10 +47,10 @@ namespace HMUI {
     // Get instance field reference: public System.Single threshold
     float& dyn_threshold();
     // System.Boolean <PageDownButtonPressed>b__0(System.Single pos)
-    // Offset: 0x16937A4
+    // Offset: 0x168A684
     bool $PageDownButtonPressed$b__0(float pos);
     // public System.Void .ctor()
-    // Offset: 0x1692E54
+    // Offset: 0x1689D34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

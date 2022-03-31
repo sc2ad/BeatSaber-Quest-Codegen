@@ -89,16 +89,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1F1985C
+    // Offset: 0x2AD5A8C
     ::ArrayW<::UnityEngine::Renderer*> get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1F195C8
+    // Offset: 0x2AD57E8
     ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x1F19398
+    // Offset: 0x2AD55B8
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x1F19864
+    // Offset: 0x2AD5A94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kFadeB
     static void _set_kFadeB(int value);
     // static public System.Boolean IsColor0EventDataValue(System.Int32 beatmapEventValue)
-    // Offset: 0x2847048
+    // Offset: 0x28161C0
     static bool IsColor0EventDataValue(int beatmapEventValue);
   }; // BeatmapEventDataExtensions/LightSwitchEventEffectDataValues
   #pragma pack(pop)

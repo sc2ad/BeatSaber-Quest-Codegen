@@ -47,20 +47,20 @@ namespace GlobalNamespace {
   class CuttableBySaber::WasCutBySaberDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1419A80
+    // Offset: 0x140CC38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CuttableBySaber::WasCutBySaberDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CuttableBySaber::WasCutBySaberDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x14194CC
+    // Offset: 0x140C684
     void Invoke(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
     // public System.IAsyncResult BeginInvoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1419A90
+    // Offset: 0x140CC48
     ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1419B78
+    // Offset: 0x140CD30
     void EndInvoke(::System::IAsyncResult* result);
   }; // CuttableBySaber/WasCutBySaberDelegate
   #pragma pack(pop)

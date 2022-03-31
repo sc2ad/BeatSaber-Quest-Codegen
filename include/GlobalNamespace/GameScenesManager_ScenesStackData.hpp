@@ -64,26 +64,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private Zenject.DiContainer <container>k__BackingField
     ::Zenject::DiContainer*& dyn_$container$k__BackingField();
     // public System.Collections.Generic.List`1<System.String> get_sceneNames()
-    // Offset: 0x157B070
+    // Offset: 0x1571D7C
     ::System::Collections::Generic::List_1<::StringW>* get_sceneNames();
     // private System.Void set_sceneNames(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x157B078
+    // Offset: 0x1571D84
     void set_sceneNames(::System::Collections::Generic::List_1<::StringW>* value);
     // public Zenject.DiContainer get_container()
-    // Offset: 0x157B080
+    // Offset: 0x1571D8C
     ::Zenject::DiContainer* get_container();
     // private System.Void set_container(Zenject.DiContainer value)
-    // Offset: 0x157B088
+    // Offset: 0x1571D94
     void set_container(::Zenject::DiContainer* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneNames)
-    // Offset: 0x1577B60
+    // Offset: 0x156E86C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::ScenesStackData* New_ctor(::System::Collections::Generic::List_1<::StringW>* sceneNames) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::ScenesStackData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::ScenesStackData*, creationType>(sceneNames)));
     }
     // public System.Void SetDiContainer(Zenject.DiContainer container)
-    // Offset: 0x15797BC
+    // Offset: 0x15704C8
     void SetDiContainer(::Zenject::DiContainer* container);
   }; // GameScenesManager/ScenesStackData
   #pragma pack(pop)

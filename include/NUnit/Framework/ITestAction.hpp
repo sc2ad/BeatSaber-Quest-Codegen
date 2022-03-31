@@ -34,13 +34,13 @@ namespace NUnit::Framework {
   class ITestAction {
     public:
     // public NUnit.Framework.ActionTargets get_Targets()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::ActionTargets get_Targets();
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void BeforeTest(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void AfterTest(::NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.ITestAction
   #pragma pack(pop)

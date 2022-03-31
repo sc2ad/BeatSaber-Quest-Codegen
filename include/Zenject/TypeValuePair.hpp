@@ -59,7 +59,7 @@ namespace Zenject {
     // Get instance field reference: public System.Object Value
     ::Il2CppObject*& dyn_Value();
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0x1D0A274
+    // Offset: 0x1CEE744
     // ABORTED: conflicts with another method.  TypeValuePair(::System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
   #pragma pack(pop)

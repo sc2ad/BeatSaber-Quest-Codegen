@@ -132,7 +132,7 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Threading::CancellationToken*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // public System.Void .ctor(TKey keyId, System.Threading.Tasks.TaskCompletionSource`1<TValue> taskCompletionSource, System.Threading.CancellationToken cancellationToken)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // ABORTED: conflicts with another method.  ScheduledTask(TKey keyId, ::System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource, ::System::Threading::CancellationToken cancellationToken)
     }; // AsyncCachedLoader`2/ScheduledTask
     // Could not write size check! Type: AsyncCachedLoader`2/ScheduledTask is generic, or has no fields that are valid for size checks!
@@ -236,14 +236,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<TValue>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private System.Void MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
@@ -339,14 +339,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<TValue>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // private System.Void MoveNext()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::$LoadAllAsync$d__8::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::$LoadAllAsync$d__8::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
@@ -421,28 +421,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Int32 maxNumberCachedElements, System.Func`3<TKey,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<TValue>> resultValueFunc)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncCachedLoader_2<TKey, TValue>* New_ctor(int maxNumberCachedElements, ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncCachedLoader_2<TKey, TValue>*, creationType>(maxNumberCachedElements, resultValueFunc)));
     }
     // public System.Void ClearCache()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ClearCache() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::ClearCache");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Threading.Tasks.Task`1<TValue> LoadAsync(TKey keyId, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task_1<TValue>* LoadAsync(TKey keyId, ::System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::LoadAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAsync", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keyId), ::il2cpp_utils::ExtractType(cancellationToken)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TValue>*, false>(this, ___internal__method, keyId, cancellationToken);
     }
     // private System.Void LoadAllAsync()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LoadAllAsync() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncCachedLoader_2::LoadAllAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAllAsync", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

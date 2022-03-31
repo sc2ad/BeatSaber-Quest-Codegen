@@ -107,21 +107,21 @@ namespace GlobalNamespace {
     ::UnityEngine::ParticleSystem* shockWavePS;
     // Field size check
     static_assert(sizeof(::UnityEngine::ParticleSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BBE18
+    // [SpaceAttribute] Offset: 0x125638C
     // private BloomFogEnvironmentParams _finishForParams
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BloomFogEnvironmentParams* finishForParams;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BBE50
+    // [InjectAttribute] Offset: 0x12563C4
     // private readonly BloomFogParamsAnimator _bloomFogAnimator
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::BloomFogParamsAnimator* bloomFogAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogParamsAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BBE60
+    // [InjectAttribute] Offset: 0x12563D4
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x58
@@ -182,40 +182,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _blueRingWrapperActive
     bool& dyn__blueRingWrapperActive();
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x14A24B4
+    // Offset: 0x13B4DD4
     void add_introTutorialDidFinishEvent(::System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x14A2558
+    // Offset: 0x13B4E78
     void remove_introTutorialDidFinishEvent(::System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x14A25FC
+    // Offset: 0x13B4F1C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14A2784
+    // Offset: 0x13B50A4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x14A2924
+    // Offset: 0x13B5244
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0x14A2788
+    // Offset: 0x13B50A8
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0x14A2A74
+    // Offset: 0x13B5394
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0x14A2AF0
+    // Offset: 0x13B5410
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0x14A29E8
+    // Offset: 0x13B5308
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0x14A2B34
+    // Offset: 0x13B5454
     ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0x14A2BD0
+    // Offset: 0x13B54F0
     void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0x14A2C64
+    // Offset: 0x13B5584
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

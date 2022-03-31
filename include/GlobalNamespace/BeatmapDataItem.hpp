@@ -121,23 +121,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly BeatmapDataItem/BeatmapDataItemType type
     ::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType& dyn_type();
     // public System.Single get_time()
-    // Offset: 0x2846AA0
+    // Offset: 0x2815C18
     float get_time();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x2846AA8
+    // Offset: 0x2815C20
     int get_executionOrder();
     // protected System.Void .ctor(System.Single time, System.Int32 executionOrder, System.Int32 subtypeIdentifier, BeatmapDataItem/BeatmapDataItemType type)
-    // Offset: 0x2846AB0
+    // Offset: 0x2815C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataItem* New_ctor(float time, int executionOrder, int subtypeIdentifier, ::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataItem*, creationType>(time, executionOrder, subtypeIdentifier, type)));
     }
     // public BeatmapDataItem GetCopy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // public System.Int32 CompareTo(BeatmapDataItem b)
-    // Offset: 0x2846B00
+    // Offset: 0x2815C78
     int CompareTo(::GlobalNamespace::BeatmapDataItem* b);
   }; // BeatmapDataItem
   #pragma pack(pop)

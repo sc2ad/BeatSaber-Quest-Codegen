@@ -67,14 +67,14 @@ namespace OnlineServices::API {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Boolean get_isError()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isError() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::ApiResponse_1::get_isError");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_isError", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // public System.Void .ctor(OnlineServices.API.Response response, T responseDto)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // ABORTED: conflicts with another method.  ApiResponse_1(::OnlineServices::API::Response response, T responseDto)
   }; // OnlineServices.API.ApiResponse`1
   // Could not write size check! Type: OnlineServices.API.ApiResponse`1 is generic, or has no fields that are valid for size checks!

@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* backgroundImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BDC28
+    // [SpaceAttribute] Offset: 0x12581BC
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x68
@@ -95,13 +95,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
     ::UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
     // public System.Void SetData(System.String headerText)
-    // Offset: 0x14AA374
+    // Offset: 0x14871CC
     void SetData(::StringW headerText);
     // private System.Void RefreshVisuals()
-    // Offset: 0x14B2378
+    // Offset: 0x14871EC
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x14B2424
+    // Offset: 0x1487298
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -117,12 +117,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackHeaderTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14B2374
+    // Offset: 0x14871E8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14B2420
+    // Offset: 0x1487294
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

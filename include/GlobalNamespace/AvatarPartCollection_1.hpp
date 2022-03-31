@@ -99,56 +99,56 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::ArrayW<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Int32 get_count()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_count() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::get_count");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public T[] get_parts()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<T> get_parts() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::get_parts");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_parts", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___internal__method);
     }
     // public System.Void .ctor(T[] parts)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPartCollection_1<T>* New_ctor(::ArrayW<T> parts) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPartCollection_1<T>*, creationType>(parts)));
     }
     // public T GetById(System.String id)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetById(::StringW id) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::GetById");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetById", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, id);
     }
     // public T GetRandom()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetRandom() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::GetRandom");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetRandom", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public T GetByIndex(System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetByIndex(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::GetByIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetByIndex", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, index);
     }
     // public System.Int32 GetIndexById(System.String id)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int GetIndexById(::StringW id) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::GetIndexById");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetIndexById", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, id);
     }
     // public T GetDefault()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T GetDefault() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartCollection_1::GetDefault");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDefault", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

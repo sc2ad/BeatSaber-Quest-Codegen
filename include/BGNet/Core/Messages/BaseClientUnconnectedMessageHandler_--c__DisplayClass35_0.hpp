@@ -84,10 +84,10 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public System.Byte[] signature
     ::ArrayW<uint8_t>& dyn_signature();
     // System.Boolean <VerifySignature>b__0()
-    // Offset: 0x152A44C
+    // Offset: 0x14F70EC
     bool $VerifySignature$b__0();
     // public System.Void .ctor()
-    // Offset: 0x152A21C
+    // Offset: 0x14F6EBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

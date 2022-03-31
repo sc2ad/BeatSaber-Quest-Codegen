@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x109D514
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12381F8
     // Get static field: static private readonly System.Int32 _randomValueID
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID
@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lastFrameNum
     int& dyn__lastFrameNum();
     // public System.Void SetRandomValueToShaders()
-    // Offset: 0x1F129F4
+    // Offset: 0x2ACF3B8
     void SetRandomValueToShaders();
     // public System.Void .ctor()
-    // Offset: 0x1F1CF24
+    // Offset: 0x2AD9338
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RandomValueToShader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F1CF34
+    // Offset: 0x2AD9348
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

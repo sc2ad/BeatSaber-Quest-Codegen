@@ -33,28 +33,28 @@ namespace GlobalNamespace {
   class SteamVR_Events::Event_2 : public ::UnityEngine::Events::UnityEvent_2<T0, T1> {
     public:
     // public System.Void Listen(UnityEngine.Events.UnityAction`2<T0,T1> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Listen(::UnityEngine::Events::UnityAction_2<T0, T1>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_2::Listen");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Listen", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, action);
     }
     // public System.Void Remove(UnityEngine.Events.UnityAction`2<T0,T1> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Remove(::UnityEngine::Events::UnityAction_2<T0, T1>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_2::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, action);
     }
     // public System.Void Send(T0 arg0, T1 arg1)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Send(T0 arg0, T1 arg1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event_2::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, arg0, arg1);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEvent`2
     // Base method: System.Void UnityEvent_2::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

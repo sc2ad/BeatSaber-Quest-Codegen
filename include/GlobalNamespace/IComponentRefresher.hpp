@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IComponentRefresher {
     public:
     // public System.Void __Refresh()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void __Refresh();
   }; // IComponentRefresher
   #pragma pack(pop)

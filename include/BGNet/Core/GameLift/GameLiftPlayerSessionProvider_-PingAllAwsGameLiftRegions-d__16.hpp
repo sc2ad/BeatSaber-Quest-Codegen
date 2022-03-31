@@ -49,7 +49,7 @@ namespace BGNet::Core::GameLift {
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* $$4__this;
     // Field size check
     static_assert(sizeof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x1097CFC
+    // [TupleElementNamesAttribute] Offset: 0x1232A30
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<System.String,System.Int64>[]> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x30
@@ -74,10 +74,10 @@ namespace BGNet::Core::GameLift {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<System.String,System.Int64>[]> <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::ValueTuple_2<::StringW, int64_t>>>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1527AC8
+    // Offset: 0x14F4768
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1527DD0
+    // Offset: 0x14F4A70
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<PingAllAwsGameLiftRegions>d__16
   // WARNING Not writing size check since size may be invalid!

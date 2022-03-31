@@ -156,28 +156,28 @@ namespace UnityEngine::ResourceManagement {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependentOp, ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dependentOp), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, dependentOp, callback, releaseDependenciesOnFailure);
     }
     // private System.Void OnWrappedCompleted(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> x)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void OnWrappedCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> x) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1::OnWrappedCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnWrappedCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, x);
     }
     // private System.Void RefreshDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RefreshDownloadStatus(::System::Collections::Generic::HashSet_1<::Il2CppObject*>* visited) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1::RefreshDownloadStatus");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RefreshDownloadStatus", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(visited)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, visited);
     }
     // protected override System.String get_DebugName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName() {
@@ -186,7 +186,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // protected override System.Single get_Progress()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Single AsyncOperationBase_1::get_Progress()
     float get_Progress() {
@@ -195,7 +195,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<float, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -205,7 +205,7 @@ namespace UnityEngine::ResourceManagement {
       return THROW_UNLESS((::il2cpp_utils::New<ChainOperationTypelessDepedency_1<TObject>*, creationType>()));
     }
     // protected override System.Void GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
     void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps) {
@@ -214,7 +214,7 @@ namespace UnityEngine::ResourceManagement {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, deps);
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion() {
@@ -223,7 +223,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // protected override System.Void Execute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute() {
@@ -232,7 +232,7 @@ namespace UnityEngine::ResourceManagement {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected override System.Void Destroy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Destroy()
     void Destroy() {
@@ -241,7 +241,7 @@ namespace UnityEngine::ResourceManagement {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // override System.Void ReleaseDependencies()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::ReleaseDependencies()
     void ReleaseDependencies() {
@@ -250,7 +250,7 @@ namespace UnityEngine::ResourceManagement {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // override UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus AsyncOperationBase_1::GetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
     ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::Il2CppObject*>* visited) {

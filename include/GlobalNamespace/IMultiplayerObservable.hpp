@@ -22,10 +22,10 @@ namespace GlobalNamespace {
   class IMultiplayerObservable {
     public:
     // public System.Single get_offsetSyncTime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isFailed();
   }; // IMultiplayerObservable
   #pragma pack(pop)

@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly BeatmapDataNoArrowsTransform/<>c <>9
     static void _set_$$9(::GlobalNamespace::BeatmapDataNoArrowsTransform::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x137A8C8
+    // Offset: 0x136C6A0
     static void _cctor();
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0_0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x137A934
+    // Offset: 0x136C70C
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // public System.Void .ctor()
-    // Offset: 0x137A92C
+    // Offset: 0x136C704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0x10BDFC0
+    // [SpaceAttribute] Offset: 0x1258554
     // protected T _component
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: BaseStateTransition
     // Base method: System.Void BaseStateTransition::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

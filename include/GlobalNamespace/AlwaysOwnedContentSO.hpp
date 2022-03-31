@@ -67,13 +67,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
     ::ArrayW<::GlobalNamespace::BeatmapLevelSO*>& dyn__alwaysOwnedBeatmapLevels();
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
-    // Offset: 0x14B7F98
+    // Offset: 0x14B1950
     ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*> get_alwaysOwnedPacks();
     // public BeatmapLevelSO[] get_alwaysOwnedBeatmapLevels()
-    // Offset: 0x14B7FA0
+    // Offset: 0x14B1958
     ::ArrayW<::GlobalNamespace::BeatmapLevelSO*> get_alwaysOwnedBeatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x14B7FA8
+    // Offset: 0x14B1960
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

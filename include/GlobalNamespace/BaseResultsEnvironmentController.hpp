@@ -36,16 +36,16 @@ namespace GlobalNamespace {
   class BaseResultsEnvironmentController : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void Activate(System.Boolean immediately)
-    // Offset: 0x136EB44
+    // Offset: 0x1360840
     void Activate(bool immediately);
     // public System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x136EB6C
+    // Offset: 0x1360868
     void Deactivate(bool immediately);
     // public System.Void Setup(IReadonlyBeatmapData beatmapData)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // protected System.Void .ctor()
-    // Offset: 0x136EB94
+    // Offset: 0x1360890
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

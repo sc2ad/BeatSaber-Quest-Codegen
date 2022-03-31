@@ -99,31 +99,31 @@ namespace System::Runtime::CompilerServices {
         return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // public System.Boolean get_IsCompleted()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       bool get_IsCompleted() {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::get_IsCompleted");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_IsCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext)
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void OnCompleted(::System::Action* continuation) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::OnCompleted");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "OnCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(continuation)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, continuation);
       }
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void UnsafeOnCompleted(::System::Action* continuation) {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::UnsafeOnCompleted");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "UnsafeOnCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(continuation)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, continuation);
       }
       // public TResult GetResult()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       TResult GetResult() {
         static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::GetResult");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
@@ -156,14 +156,14 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ConfiguredTaskAwaitable_1(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(continueOnCapturedContext)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task, continueOnCapturedContext);
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<TResult> GetAwaiter()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter GetAwaiter() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::GetAwaiter");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetAwaiter", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

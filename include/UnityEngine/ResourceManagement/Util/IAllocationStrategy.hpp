@@ -32,10 +32,10 @@ namespace UnityEngine::ResourceManagement::Util {
   class IAllocationStrategy {
     public:
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* New(::System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Release(int typeHash, ::Il2CppObject* obj);
   }; // UnityEngine.ResourceManagement.Util.IAllocationStrategy
   #pragma pack(pop)

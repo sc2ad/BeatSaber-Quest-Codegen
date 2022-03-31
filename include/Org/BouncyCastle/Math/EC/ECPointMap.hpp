@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Math::EC {
   class ECPointMap {
     public:
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ECPointMap
   #pragma pack(pop)

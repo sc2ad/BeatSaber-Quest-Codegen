@@ -41,14 +41,14 @@ namespace Zenject {
   class BindSignalIdToBinder_1 : public ::Zenject::BindSignalToBinder_1<TSignal> {
     public:
     // public Zenject.BindSignalToBinder`1<TSignal> WithId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::BindSignalToBinder_1<TSignal>* WithId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalIdToBinder_1::WithId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(identifier)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::BindSignalToBinder_1<TSignal>*, false>(this, ___internal__method, identifier);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SignalBindingBindInfo signalBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.BindSignalToBinder`1
     // Base method: System.Void BindSignalToBinder_1::.ctor(Zenject.DiContainer container, Zenject.SignalBindingBindInfo signalBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +57,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<BindSignalIdToBinder_1<TSignal>*, creationType>(container, signalBindInfo)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.BindSignalToBinder`1
     // Base method: System.Object BindSignalToBinder_1::__zenCreate(System.Object[] P_0)
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
@@ -66,7 +66,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.BindSignalToBinder`1
     // Base method: Zenject.InjectTypeInfo BindSignalToBinder_1::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {

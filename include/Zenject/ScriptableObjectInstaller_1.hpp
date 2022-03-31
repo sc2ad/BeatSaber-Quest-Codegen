@@ -40,21 +40,21 @@ namespace Zenject {
   class ScriptableObjectInstaller_1 : public ::Zenject::ScriptableObjectInstaller {
     public:
     // static public TDerived InstallFromResource(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static TDerived InstallFromResource(::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ScriptableObjectInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
       return ::il2cpp_utils::RunMethodRethrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, container);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ScriptableObjectInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(container)})));
       return ::il2cpp_utils::RunMethodRethrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, resourcePath, container);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: System.Void ScriptableObjectInstaller::.ctor()
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
@@ -67,7 +67,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstaller_1<TDerived>*, creationType>()));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: System.Object ScriptableObjectInstaller::__zenCreate(System.Object[] P_0)
     // Base method: System.Object ScriptableObjectInstallerBase::__zenCreate(System.Object[] P_0)
@@ -77,7 +77,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: Zenject.InjectTypeInfo ScriptableObjectInstaller::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo ScriptableObjectInstallerBase::__zenCreateInjectTypeInfo()

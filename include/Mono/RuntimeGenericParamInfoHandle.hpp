@@ -62,19 +62,19 @@ namespace Mono {
     // Get instance field reference: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
     ::Mono::RuntimeStructs::GenericParamInfo*& dyn_value();
     // System.Type[] get_Constraints()
-    // Offset: 0x1F34988
+    // Offset: 0x1F05CA4
     ::ArrayW<::System::Type*> get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
-    // Offset: 0x1F34ACC
+    // Offset: 0x1F05DE8
     ::System::Reflection::GenericParameterAttributes get_Attributes();
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0x1F3495C
+    // Offset: 0x1F05C78
     RuntimeGenericParamInfoHandle(::System::IntPtr ptr);
     // private System.Type[] GetConstraints()
-    // Offset: 0x1F3498C
+    // Offset: 0x1F05CA8
     ::ArrayW<::System::Type*> GetConstraints();
     // private System.Int32 GetConstraintsCount()
-    // Offset: 0x1F34AE8
+    // Offset: 0x1F05E04
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
   #pragma pack(pop)

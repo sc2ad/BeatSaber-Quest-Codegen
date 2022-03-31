@@ -23,7 +23,7 @@ namespace UnityEngine {
   class ClassLibraryInitializer : public ::Il2CppObject {
     public:
     // static private System.Void Init()
-    // Offset: 0x1F58E74
+    // Offset: 0x1F2B190
     static void Init();
   }; // UnityEngine.ClassLibraryInitializer
   #pragma pack(pop)

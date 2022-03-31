@@ -200,158 +200,158 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Boolean <IgnoreSerializableAttribute>k__BackingField
     bool& dyn_$IgnoreSerializableAttribute$k__BackingField();
     // static Newtonsoft.Json.Serialization.IContractResolver get_Instance()
-    // Offset: 0x172BDB8
+    // Offset: 0x1722CA8
     static ::Newtonsoft::Json::Serialization::IContractResolver* get_Instance();
     // public System.Reflection.BindingFlags get_DefaultMembersSearchFlags()
-    // Offset: 0x172BE20
+    // Offset: 0x1722D10
     ::System::Reflection::BindingFlags get_DefaultMembersSearchFlags();
     // public System.Void set_DefaultMembersSearchFlags(System.Reflection.BindingFlags value)
-    // Offset: 0x172BE28
+    // Offset: 0x1722D18
     void set_DefaultMembersSearchFlags(::System::Reflection::BindingFlags value);
     // public System.Boolean get_SerializeCompilerGeneratedMembers()
-    // Offset: 0x172BE30
+    // Offset: 0x1722D20
     bool get_SerializeCompilerGeneratedMembers();
     // public System.Boolean get_IgnoreSerializableInterface()
-    // Offset: 0x172BE38
+    // Offset: 0x1722D28
     bool get_IgnoreSerializableInterface();
     // public System.Boolean get_IgnoreSerializableAttribute()
-    // Offset: 0x172BE40
+    // Offset: 0x1722D30
     bool get_IgnoreSerializableAttribute();
     // public System.Void set_IgnoreSerializableAttribute(System.Boolean value)
-    // Offset: 0x172BE48
+    // Offset: 0x1722D38
     void set_IgnoreSerializableAttribute(bool value);
     // public System.Void .ctor(System.Boolean shareCache)
-    // Offset: 0x172BD80
+    // Offset: 0x1722C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver* New_ctor(bool shareCache) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultContractResolver*, creationType>(shareCache)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x173132C
+    // Offset: 0x172821C
     static void _cctor();
     // Newtonsoft.Json.Serialization.DefaultContractResolverState GetState()
-    // Offset: 0x172BED0
+    // Offset: 0x1722DC0
     ::Newtonsoft::Json::Serialization::DefaultContractResolverState* GetState();
     // public Newtonsoft.Json.Serialization.JsonContract ResolveContract(System.Type type)
-    // Offset: 0x172BF50
+    // Offset: 0x1722E40
     ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type* type);
     // protected System.Collections.Generic.List`1<System.Reflection.MemberInfo> GetSerializableMembers(System.Type objectType)
-    // Offset: 0x172C15C
+    // Offset: 0x172304C
     ::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>* GetSerializableMembers(::System::Type* objectType);
     // private System.Boolean ShouldSerializeEntityMember(System.Reflection.MemberInfo memberInfo)
-    // Offset: 0x172C894
+    // Offset: 0x1723784
     bool ShouldSerializeEntityMember(::System::Reflection::MemberInfo* memberInfo);
     // protected Newtonsoft.Json.Serialization.JsonObjectContract CreateObjectContract(System.Type objectType)
-    // Offset: 0x172C98C
+    // Offset: 0x172387C
     ::Newtonsoft::Json::Serialization::JsonObjectContract* CreateObjectContract(::System::Type* objectType);
     // private System.Reflection.MemberInfo GetExtensionDataMemberForType(System.Type type)
-    // Offset: 0x172D3C0
+    // Offset: 0x17242B0
     ::System::Reflection::MemberInfo* GetExtensionDataMemberForType(::System::Type* type);
     // static private System.Void SetExtensionDataDelegates(Newtonsoft.Json.Serialization.JsonObjectContract contract, System.Reflection.MemberInfo member)
-    // Offset: 0x172D56C
+    // Offset: 0x172445C
     static void SetExtensionDataDelegates(::Newtonsoft::Json::Serialization::JsonObjectContract* contract, ::System::Reflection::MemberInfo* member);
     // private System.Reflection.ConstructorInfo GetAttributeConstructor(System.Type objectType)
-    // Offset: 0x172CDF8
+    // Offset: 0x1723CE8
     ::System::Reflection::ConstructorInfo* GetAttributeConstructor(::System::Type* objectType);
     // private System.Reflection.ConstructorInfo GetParameterizedConstructor(System.Type objectType)
-    // Offset: 0x172D260
+    // Offset: 0x1724150
     ::System::Reflection::ConstructorInfo* GetParameterizedConstructor(::System::Type* objectType);
     // protected System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.JsonProperty> CreateConstructorParameters(System.Reflection.ConstructorInfo constructor, Newtonsoft.Json.Serialization.JsonPropertyCollection memberProperties)
-    // Offset: 0x172DD0C
+    // Offset: 0x1724BFC
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::JsonProperty*>* CreateConstructorParameters(::System::Reflection::ConstructorInfo* constructor, ::Newtonsoft::Json::Serialization::JsonPropertyCollection* memberProperties);
     // protected Newtonsoft.Json.Serialization.JsonProperty CreatePropertyFromConstructorParameter(Newtonsoft.Json.Serialization.JsonProperty matchingMemberProperty, System.Reflection.ParameterInfo parameterInfo)
-    // Offset: 0x172DEB0
+    // Offset: 0x1724DA0
     ::Newtonsoft::Json::Serialization::JsonProperty* CreatePropertyFromConstructorParameter(::Newtonsoft::Json::Serialization::JsonProperty* matchingMemberProperty, ::System::Reflection::ParameterInfo* parameterInfo);
     // protected Newtonsoft.Json.JsonConverter ResolveContractConverter(System.Type objectType)
-    // Offset: 0x172E57C
+    // Offset: 0x172546C
     ::Newtonsoft::Json::JsonConverter* ResolveContractConverter(::System::Type* objectType);
     // private System.Func`1<System.Object> GetDefaultCreator(System.Type createdType)
-    // Offset: 0x172E5E4
+    // Offset: 0x17254D4
     ::System::Func_1<::Il2CppObject*>* GetDefaultCreator(::System::Type* createdType);
     // private System.Void InitializeContract(Newtonsoft.Json.Serialization.JsonContract contract)
-    // Offset: 0x172CBF0
+    // Offset: 0x1723AE0
     void InitializeContract(::Newtonsoft::Json::Serialization::JsonContract* contract);
     // private System.Void ResolveCallbackMethods(Newtonsoft.Json.Serialization.JsonContract contract, System.Type t)
-    // Offset: 0x172E688
+    // Offset: 0x1725578
     void ResolveCallbackMethods(::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Type* t);
     // private System.Void GetCallbackMethodsForType(System.Type type, out System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> onSerializing, out System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> onSerialized, out System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> onDeserializing, out System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> onDeserialized, out System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationErrorCallback> onError)
-    // Offset: 0x172E7E4
+    // Offset: 0x17256D4
     void GetCallbackMethodsForType(::System::Type* type, ByRef<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerializing, ByRef<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerialized, ByRef<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserializing, ByRef<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserialized, ByRef<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> onError);
     // static private System.Boolean ShouldSkipDeserialized(System.Type t)
-    // Offset: 0x172EF24
+    // Offset: 0x1725E14
     static bool ShouldSkipDeserialized(::System::Type* t);
     // static private System.Boolean ShouldSkipSerializing(System.Type t)
-    // Offset: 0x172EF1C
+    // Offset: 0x1725E0C
     static bool ShouldSkipSerializing(::System::Type* t);
     // private System.Collections.Generic.List`1<System.Type> GetClassHierarchyForType(System.Type type)
-    // Offset: 0x172DC00
+    // Offset: 0x1724AF0
     ::System::Collections::Generic::List_1<::System::Type*>* GetClassHierarchyForType(::System::Type* type);
     // protected Newtonsoft.Json.Serialization.JsonDictionaryContract CreateDictionaryContract(System.Type objectType)
-    // Offset: 0x172F5EC
+    // Offset: 0x17264DC
     ::Newtonsoft::Json::Serialization::JsonDictionaryContract* CreateDictionaryContract(::System::Type* objectType);
     // protected Newtonsoft.Json.Serialization.JsonArrayContract CreateArrayContract(System.Type objectType)
-    // Offset: 0x172F9A8
+    // Offset: 0x1726898
     ::Newtonsoft::Json::Serialization::JsonArrayContract* CreateArrayContract(::System::Type* objectType);
     // protected Newtonsoft.Json.Serialization.JsonPrimitiveContract CreatePrimitiveContract(System.Type objectType)
-    // Offset: 0x172FC84
+    // Offset: 0x1726B74
     ::Newtonsoft::Json::Serialization::JsonPrimitiveContract* CreatePrimitiveContract(::System::Type* objectType);
     // protected Newtonsoft.Json.Serialization.JsonLinqContract CreateLinqContract(System.Type objectType)
-    // Offset: 0x172FD00
+    // Offset: 0x1726BF0
     ::Newtonsoft::Json::Serialization::JsonLinqContract* CreateLinqContract(::System::Type* objectType);
     // protected Newtonsoft.Json.Serialization.JsonISerializableContract CreateISerializableContract(System.Type objectType)
-    // Offset: 0x172FD7C
+    // Offset: 0x1726C6C
     ::Newtonsoft::Json::Serialization::JsonISerializableContract* CreateISerializableContract(::System::Type* objectType);
     // protected Newtonsoft.Json.Serialization.JsonStringContract CreateStringContract(System.Type objectType)
-    // Offset: 0x172FF44
+    // Offset: 0x1726E34
     ::Newtonsoft::Json::Serialization::JsonStringContract* CreateStringContract(::System::Type* objectType);
     // protected Newtonsoft.Json.Serialization.JsonContract CreateContract(System.Type objectType)
-    // Offset: 0x172FFC0
+    // Offset: 0x1726EB0
     ::Newtonsoft::Json::Serialization::JsonContract* CreateContract(::System::Type* objectType);
     // static System.Boolean IsJsonPrimitiveType(System.Type t)
-    // Offset: 0x17302FC
+    // Offset: 0x17271EC
     static bool IsJsonPrimitiveType(::System::Type* t);
     // static System.Boolean IsIConvertible(System.Type t)
-    // Offset: 0x1730588
+    // Offset: 0x1727478
     static bool IsIConvertible(::System::Type* t);
     // static System.Boolean CanConvertToString(System.Type type)
-    // Offset: 0x1730370
+    // Offset: 0x1727260
     static bool CanConvertToString(::System::Type* type);
     // static private System.Boolean IsValidCallback(System.Reflection.MethodInfo method, System.Reflection.ParameterInfo[] parameters, System.Type attributeType, System.Reflection.MethodInfo currentCallback, ref System.Type prevAttributeType)
-    // Offset: 0x172EF2C
+    // Offset: 0x1725E1C
     static bool IsValidCallback(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> parameters, ::System::Type* attributeType, ::System::Reflection::MethodInfo* currentCallback, ByRef<::System::Type*> prevAttributeType);
     // static System.String GetClrTypeFullName(System.Type type)
-    // Offset: 0x1730708
+    // Offset: 0x17275F8
     static ::StringW GetClrTypeFullName(::System::Type* type);
     // protected System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.JsonProperty> CreateProperties(System.Type type, Newtonsoft.Json.MemberSerialization memberSerialization)
-    // Offset: 0x1730890
+    // Offset: 0x1727780
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::JsonProperty*>* CreateProperties(::System::Type* type, ::Newtonsoft::Json::MemberSerialization memberSerialization);
     // protected Newtonsoft.Json.Serialization.IValueProvider CreateMemberValueProvider(System.Reflection.MemberInfo member)
-    // Offset: 0x1730C18
+    // Offset: 0x1727B08
     ::Newtonsoft::Json::Serialization::IValueProvider* CreateMemberValueProvider(::System::Reflection::MemberInfo* member);
     // protected Newtonsoft.Json.Serialization.JsonProperty CreateProperty(System.Reflection.MemberInfo member, Newtonsoft.Json.MemberSerialization memberSerialization)
-    // Offset: 0x1730C7C
+    // Offset: 0x1727B6C
     ::Newtonsoft::Json::Serialization::JsonProperty* CreateProperty(::System::Reflection::MemberInfo* member, ::Newtonsoft::Json::MemberSerialization memberSerialization);
     // private System.Void SetPropertySettingsFromAttributes(Newtonsoft.Json.Serialization.JsonProperty property, System.Object attributeProvider, System.String name, System.Type declaringType, Newtonsoft.Json.MemberSerialization memberSerialization, out System.Boolean allowNonPublicAccess)
-    // Offset: 0x172E0F8
+    // Offset: 0x1724FE8
     void SetPropertySettingsFromAttributes(::Newtonsoft::Json::Serialization::JsonProperty* property, ::Il2CppObject* attributeProvider, ::StringW name, ::System::Type* declaringType, ::Newtonsoft::Json::MemberSerialization memberSerialization, ByRef<bool> allowNonPublicAccess);
     // private System.Predicate`1<System.Object> CreateShouldSerializeTest(System.Reflection.MemberInfo member)
-    // Offset: 0x1730E70
+    // Offset: 0x1727D60
     ::System::Predicate_1<::Il2CppObject*>* CreateShouldSerializeTest(::System::Reflection::MemberInfo* member);
     // private System.Void SetIsSpecifiedActions(Newtonsoft.Json.Serialization.JsonProperty property, System.Reflection.MemberInfo member, System.Boolean allowNonPublicAccess)
-    // Offset: 0x1731074
+    // Offset: 0x1727F64
     void SetIsSpecifiedActions(::Newtonsoft::Json::Serialization::JsonProperty* property, ::System::Reflection::MemberInfo* member, bool allowNonPublicAccess);
     // protected System.String ResolvePropertyName(System.String propertyName)
-    // Offset: 0x1731304
+    // Offset: 0x17281F4
     ::StringW ResolvePropertyName(::StringW propertyName);
     // protected System.String ResolveDictionaryKey(System.String dictionaryKey)
-    // Offset: 0x173130C
+    // Offset: 0x17281FC
     ::StringW ResolveDictionaryKey(::StringW dictionaryKey);
     // public System.String GetResolvedPropertyName(System.String propertyName)
-    // Offset: 0x173131C
+    // Offset: 0x172820C
     ::StringW GetResolvedPropertyName(::StringW propertyName);
     // public System.Void .ctor()
-    // Offset: 0x172BE54
+    // Offset: 0x1722D44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

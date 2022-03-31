@@ -71,17 +71,17 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.String expandedName
     ::StringW& dyn_expandedName();
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2A7C144
+    // Offset: 0x2A482F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameSerializer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::NameSerializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameSerializer*, creationType>(info, context)));
     }
     // private System.Object System.Runtime.Serialization.IObjectReference.GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2A7C1F8
+    // Offset: 0x2A483A8
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(::System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2A7C39C
+    // Offset: 0x2A4854C
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
   }; // System.Xml.Linq.NameSerializer
   #pragma pack(pop)

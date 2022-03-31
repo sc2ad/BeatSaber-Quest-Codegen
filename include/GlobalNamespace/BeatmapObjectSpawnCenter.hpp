@@ -99,25 +99,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spawnCenterDistance
     float& dyn__spawnCenterDistance();
     // public System.Single get_spawnCenterDistance()
-    // Offset: 0x150B6A8
+    // Offset: 0x14D84F8
     float get_spawnCenterDistance();
     // public System.Boolean get_spawnCenterDistanceWasFound()
-    // Offset: 0x150B6B0
+    // Offset: 0x14D8500
     bool get_spawnCenterDistanceWasFound();
     // public System.Void add_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x150B6B8
+    // Offset: 0x14D8508
     void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float>* value);
     // public System.Void remove_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x150B75C
+    // Offset: 0x14D85AC
     void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float>* value);
     // public System.Single CalculateSpawnCenterPosition(System.Int32 numberOfPlayers)
-    // Offset: 0x150B800
+    // Offset: 0x14D8650
     float CalculateSpawnCenterPosition(int numberOfPlayers);
     // private System.Void ReportAndSaveSpawnCenterDistance(System.Single distance)
-    // Offset: 0x150B92C
+    // Offset: 0x14D877C
     void ReportAndSaveSpawnCenterDistance(float distance);
     // public System.Void .ctor()
-    // Offset: 0x150B9AC
+    // Offset: 0x14D87FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

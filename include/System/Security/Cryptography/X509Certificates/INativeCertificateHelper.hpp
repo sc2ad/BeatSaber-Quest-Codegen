@@ -31,7 +31,7 @@ namespace System::Security::Cryptography::X509Certificates {
   class INativeCertificateHelper {
     public:
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
   }; // System.Security.Cryptography.X509Certificates.INativeCertificateHelper
   #pragma pack(pop)

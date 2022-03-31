@@ -58,25 +58,25 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RequireComponent[] _requireComponentArray
     static void _set__requireComponentArray(::ArrayW<::UnityEngine::RequireComponent*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1F538C8
+    // Offset: 0x1F25BE4
     static void _cctor();
     // static private System.Type GetParentTypeDisallowingMultipleInclusion(System.Type type)
-    // Offset: 0x1F5323C
+    // Offset: 0x1F25558
     static ::System::Type* GetParentTypeDisallowingMultipleInclusion(::System::Type* type);
     // static private System.Type[] GetRequiredComponents(System.Type klass)
-    // Offset: 0x1F5333C
+    // Offset: 0x1F25658
     static ::ArrayW<::System::Type*> GetRequiredComponents(::System::Type* klass);
     // static private System.Int32 GetExecuteMode(System.Type klass)
-    // Offset: 0x1F53650
+    // Offset: 0x1F2596C
     static int GetExecuteMode(::System::Type* klass);
     // static private System.Int32 CheckIsEditorScript(System.Type klass)
-    // Offset: 0x1F5375C
+    // Offset: 0x1F25A78
     static int CheckIsEditorScript(::System::Type* klass);
     // static private System.Int32 GetDefaultExecutionOrderFor(System.Type klass)
-    // Offset: 0x1F53844
+    // Offset: 0x1F25B60
     static int GetDefaultExecutionOrderFor(::System::Type* klass);
     // static private T GetCustomAttributeOfType(System.Type klass)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     static T GetCustomAttributeOfType(::System::Type* klass) {
       static_assert(std::is_convertible_v<T, ::System::Attribute*>);

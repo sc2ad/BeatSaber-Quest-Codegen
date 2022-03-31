@@ -59,14 +59,14 @@ namespace Oculus::Platform {
       return *reinterpret_cast<typename ::Oculus::Platform::Message_1<T>::Callback**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(Oculus.Platform.Message`1/Oculus.Platform.Callback<T> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Callback::RequestCallback_1<T>* New_ctor(typename ::Oculus::Platform::Message_1<T>::Callback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Callback::RequestCallback_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback_1<T>*, creationType>(callback)));
     }
     // public override System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Oculus.Platform.Callback/Oculus.Platform.RequestCallback
     // Base method: System.Void RequestCallback::HandleMessage(Oculus.Platform.Message msg)
     void HandleMessage(::Oculus::Platform::Message* msg) {

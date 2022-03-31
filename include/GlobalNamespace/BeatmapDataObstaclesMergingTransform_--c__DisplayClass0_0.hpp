@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public ObstacleData[] prevObstacleDataInLines
     ::ArrayW<::GlobalNamespace::ObstacleData*>& dyn_prevObstacleDataInLines();
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x137B178
+    // Offset: 0x136CC74
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // public System.Void .ctor()
-    // Offset: 0x137B0EC
+    // Offset: 0x136CBE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

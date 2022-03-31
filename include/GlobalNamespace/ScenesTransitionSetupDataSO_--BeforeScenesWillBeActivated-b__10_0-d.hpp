@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x2A09604
+    // Offset: 0x29D577C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x2A09790
+    // Offset: 0x29D5908
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // ScenesTransitionSetupDataSO/<<BeforeScenesWillBeActivated>b__10_0>d
   // WARNING Not writing size check since size may be invalid!

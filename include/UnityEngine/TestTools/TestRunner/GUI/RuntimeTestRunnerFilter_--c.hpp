@@ -63,25 +63,25 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__7_2
     static void _set_$$9__7_2(::System::Func_2<::StringW, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1959C54
+    // Offset: 0x1950B40
     static void _cctor();
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_0(System.String s)
-    // Offset: 0x1959CC0
+    // Offset: 0x1950BAC
     ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_0(::StringW s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_1(System.String s)
-    // Offset: 0x1959D24
+    // Offset: 0x1950C10
     ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_1(::StringW s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_2(System.String s)
-    // Offset: 0x1959D88
+    // Offset: 0x1950C74
     ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_2(::StringW s);
     // System.Boolean <AddFilters>b__7_0(System.String v)
-    // Offset: 0x1959DFC
+    // Offset: 0x1950CE8
     bool $AddFilters$b__7_0(::StringW v);
     // System.Boolean <AddFilters>b__7_2(System.String v)
-    // Offset: 0x1959E64
+    // Offset: 0x1950D50
     bool $AddFilters$b__7_2(::StringW v);
     // public System.Void .ctor()
-    // Offset: 0x1959CB8
+    // Offset: 0x1950BA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

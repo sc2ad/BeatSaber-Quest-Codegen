@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     ::HMUI::IconSegmentedControl* levelFilterCategoryIconSegmentedControl;
     // Field size check
     static_assert(sizeof(::HMUI::IconSegmentedControl*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C15C0
+    // [InjectAttribute] Offset: 0x125BB54
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x80
@@ -182,22 +182,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private SelectLevelCategoryViewController/LevelCategoryInfo[] _levelCategoryInfos
     ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>& dyn__levelCategoryInfos();
     // public SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0x13B1FF8
+    // Offset: 0x14270E0
     ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // public System.Void add_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0x13B1EB0
+    // Offset: 0x1426F98
     void add_didSelectLevelCategoryEvent(::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // public System.Void remove_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0x13B1F54
+    // Offset: 0x142703C
     void remove_didSelectLevelCategoryEvent(::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // public System.Void Setup(SelectLevelCategoryViewController/LevelCategory selectedCategory, SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories)
-    // Offset: 0x13B205C
+    // Offset: 0x1427144
     void Setup(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory selectedCategory, ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories);
     // private System.Void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 index)
-    // Offset: 0x13B2460
+    // Offset: 0x1427548
     void LevelFilterCategoryIconSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int index);
     // public System.Void .ctor()
-    // Offset: 0x13B2664
+    // Offset: 0x142774C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -211,12 +211,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B2308
+    // Offset: 0x14273F0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13B23B4
+    // Offset: 0x142749C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

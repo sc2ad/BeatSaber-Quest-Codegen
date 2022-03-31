@@ -29,7 +29,7 @@ namespace System {
       return *reinterpret_cast<::System::TypeName*>(this);
     }
     // public System.String get_InternalName()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_InternalName();
   }; // System.TypeIdentifier
   #pragma pack(pop)

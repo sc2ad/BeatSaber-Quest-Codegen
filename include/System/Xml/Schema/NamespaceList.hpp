@@ -134,29 +134,29 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String targetNamespace
     ::StringW& dyn_targetNamespace();
     // public System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType get_Type()
-    // Offset: 0x1C3DCD4
+    // Offset: 0x1C241A4
     ::System::Xml::Schema::NamespaceList::ListType get_Type();
     // public System.String get_Excluded()
-    // Offset: 0x1C3DCDC
+    // Offset: 0x1C241AC
     ::StringW get_Excluded();
     // public System.Collections.ICollection get_Enumerate()
-    // Offset: 0x1C3DCE4
+    // Offset: 0x1C241B4
     ::System::Collections::ICollection* get_Enumerate();
     // public System.Void .ctor(System.String namespaces, System.String targetNamespace)
-    // Offset: 0x1C3DA60
+    // Offset: 0x1C23F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>(namespaces, targetNamespace)));
     }
     // public System.Boolean Allows(System.String ns)
-    // Offset: 0x1C3DD78
+    // Offset: 0x1C24248
     bool Allows(::StringW ns);
     // public System.Boolean Allows(System.Xml.XmlQualifiedName qname)
-    // Offset: 0x1C3DE08
+    // Offset: 0x1C242D8
     bool Allows(::System::Xml::XmlQualifiedName* qname);
     // public System.Void .ctor()
-    // Offset: 0x1C3DA58
+    // Offset: 0x1C23F28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -165,7 +165,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1C3DE28
+    // Offset: 0x1C242F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

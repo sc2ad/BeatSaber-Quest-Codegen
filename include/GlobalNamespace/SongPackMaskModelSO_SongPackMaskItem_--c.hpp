@@ -75,25 +75,25 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapLevelPackCollectionSO,System.Collections.Generic.IEnumerable`1<System.String>> <>9__11_3
     static void _set_$$9__11_3(::System::Func_2<::GlobalNamespace::BeatmapLevelPackCollectionSO*, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13EBD20
+    // Offset: 0x2AA6278
     static void _cctor();
     // System.String <get_songPackMask>b__11_0(IBeatmapLevelPack pack)
-    // Offset: 0x13EBD8C
+    // Offset: 0x2AA62E4
     ::StringW $get_songPackMask$b__11_0(::GlobalNamespace::IBeatmapLevelPack* pack);
     // System.String <get_songPackMask>b__11_1(BeatmapLevelPackSO pack)
-    // Offset: 0x13EBE38
+    // Offset: 0x2AA6390
     ::StringW $get_songPackMask$b__11_1(::GlobalNamespace::BeatmapLevelPackSO* pack);
     // System.String <get_songPackMask>b__11_2(PreviewBeatmapLevelPackSO pack)
-    // Offset: 0x13EBE50
+    // Offset: 0x2AA63A8
     ::StringW $get_songPackMask$b__11_2(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
     // System.Collections.Generic.IEnumerable`1<System.String> <get_songPackMask>b__11_3(BeatmapLevelPackCollectionSO collection)
-    // Offset: 0x13EBE68
+    // Offset: 0x2AA63C0
     ::System::Collections::Generic::IEnumerable_1<::StringW>* $get_songPackMask$b__11_3(::GlobalNamespace::BeatmapLevelPackCollectionSO* collection);
     // System.String <get_songPackMask>b__11_4(IBeatmapLevelPack pack)
-    // Offset: 0x13EBF74
+    // Offset: 0x2AA64CC
     ::StringW $get_songPackMask$b__11_4(::GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x13EBD84
+    // Offset: 0x2AA62DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

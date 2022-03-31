@@ -70,14 +70,14 @@ namespace System::Linq {
       return *reinterpret_cast<::System::Func_2<TSource, TMiddle>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // TResult <CombineSelectors>b__0(TSource x)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TResult $CombineSelectors$b__0(TSource x) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Enumerable::$$c__DisplayClass7_0_3::<CombineSelectors>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CombineSelectors>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
       return ::il2cpp_utils::RunMethodRethrow<TResult, false>(this, ___internal__method, x);
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -75,21 +75,21 @@ namespace Zenject {
       return *reinterpret_cast<::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void set_OnSpawnMethod(System.Action`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_OnSpawnMethod(::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::StaticMemoryPool_7::set_OnSpawnMethod");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_OnSpawnMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor(System.Action`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> onSpawnMethod, System.Action`1<TValue> onDespawnedMethod)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* New_ctor(::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::StaticMemoryPool_7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*, creationType>(onSpawnMethod, onDespawnedMethod)));
     }
     // public TValue Spawn(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Spawn(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::StaticMemoryPool_7::Spawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractType(p3), ::il2cpp_utils::ExtractType(p4), ::il2cpp_utils::ExtractType(p5), ::il2cpp_utils::ExtractType(p6)})));

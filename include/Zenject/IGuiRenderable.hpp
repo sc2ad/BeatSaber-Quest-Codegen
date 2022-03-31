@@ -22,7 +22,7 @@ namespace Zenject {
   class IGuiRenderable {
     public:
     // public System.Void GuiRender()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GuiRender();
   }; // Zenject.IGuiRenderable
   #pragma pack(pop)

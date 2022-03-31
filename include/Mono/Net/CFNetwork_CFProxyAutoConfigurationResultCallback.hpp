@@ -35,20 +35,20 @@ namespace Mono::Net {
   class CFNetwork::CFProxyAutoConfigurationResultCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB595C
+    // Offset: 0x1A98F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFNetwork::CFProxyAutoConfigurationResultCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::CFProxyAutoConfigurationResultCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x1AB62E4
+    // Offset: 0x1A9991C
     void Invoke(::System::IntPtr client, ::System::IntPtr proxyList, ::System::IntPtr error);
     // public System.IAsyncResult BeginInvoke(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB6578
+    // Offset: 0x1A99BB0
     ::System::IAsyncResult* BeginInvoke(::System::IntPtr client, ::System::IntPtr proxyList, ::System::IntPtr error, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AB6630
+    // Offset: 0x1A99C68
     void EndInvoke(::System::IAsyncResult* result);
   }; // Mono.Net.CFNetwork/Mono.Net.CFProxyAutoConfigurationResultCallback
   #pragma pack(pop)

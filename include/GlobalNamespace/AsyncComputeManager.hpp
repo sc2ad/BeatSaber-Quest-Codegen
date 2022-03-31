@@ -94,13 +94,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _disposed
     bool& dyn__disposed();
     // public System.Void Dispose()
-    // Offset: 0x1525958
+    // Offset: 0x14F25F8
     void Dispose();
     // public System.Void BeginOperation(AsyncComputeOperation operation)
-    // Offset: 0x15259C8
+    // Offset: 0x14F2668
     void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
     // public System.Threading.Tasks.Task`1<T> BeginOperation(AsyncComputeOperation`1<T> operation)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeManager::BeginOperation");
@@ -109,10 +109,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, operation);
     }
     // private System.Void ComputeThreadRun()
-    // Offset: 0x1525A30
+    // Offset: 0x14F26D0
     void ComputeThreadRun();
     // public System.Void .ctor()
-    // Offset: 0x1525854
+    // Offset: 0x14F24F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

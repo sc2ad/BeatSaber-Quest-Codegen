@@ -69,7 +69,7 @@ namespace HMUI {
     ::StringW textPrefix;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [SpaceAttribute] Offset: 0x10A0F18
+    // [SpaceAttribute] Offset: 0x123AED4
     // private UnityEngine.Color _color0
     // Size: 0x10
     // Offset: 0x148
@@ -107,7 +107,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10A0FA0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123AF5C
     // Get static field: static private readonly System.Text.StringBuilder _stringBuilder
     static ::System::Text::StringBuilder* _get__stringBuilder();
     // Set static field: static private readonly System.Text.StringBuilder _stringBuilder
@@ -127,19 +127,19 @@ namespace HMUI {
     // Get instance field reference: private System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
     ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // public System.Void add_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x16EA19C
+    // Offset: 0x16E108C
     void add_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x16EA244
+    // Offset: 0x16E1134
     void remove_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void SetColors(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0x16EA414
+    // Offset: 0x16E1304
     void SetColors(::UnityEngine::Color color0, ::UnityEngine::Color color1);
     // private System.Void HandleNormalizedValueDidChange(HMUI.TextSlider slider, System.Single normalizedValue)
-    // Offset: 0x16EA720
+    // Offset: 0x16E1610
     void HandleNormalizedValueDidChange(::HMUI::TextSlider* slider, float normalizedValue);
     // public System.Void .ctor()
-    // Offset: 0x16EA8F4
+    // Offset: 0x16E17E4
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -155,33 +155,33 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ColorGradientSlider*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16EA8FC
+    // Offset: 0x16E17EC
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void Awake()
-    // Offset: 0x16EA2EC
+    // Offset: 0x16E11DC
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x16EA388
+    // Offset: 0x16E1278
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0x16EA444
+    // Offset: 0x16E1334
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::UpdateVisuals()
     void UpdateVisuals();
     // protected override System.String TextForNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x16EA610
+    // Offset: 0x16E1500
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
     ::StringW TextForNormalizedValue(float normalizedValue);
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x16EA7D4
+    // Offset: 0x16E16C4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);

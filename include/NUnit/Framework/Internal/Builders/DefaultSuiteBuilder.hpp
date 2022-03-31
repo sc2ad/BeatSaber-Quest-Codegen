@@ -81,22 +81,22 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
     ::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__defaultBuilder();
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C62184
+    // Offset: 0x1C48654
     bool CanBuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C62458
+    // Offset: 0x1C48928
     ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
-    // Offset: 0x1C62E74
+    // Offset: 0x1C49344
     ::NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* fixtures);
     // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1C62AF0
+    // Offset: 0x1C48FC0
     ::ArrayW<::NUnit::Framework::Interfaces::IFixtureBuilder*> GetFixtureBuilderAttributes(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
-    // Offset: 0x1C63230
+    // Offset: 0x1C49700
     bool HasArguments(::NUnit::Framework::Interfaces::IFixtureBuilder* attr);
     // public System.Void .ctor()
-    // Offset: 0x1C51C90
+    // Offset: 0x1C38160
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

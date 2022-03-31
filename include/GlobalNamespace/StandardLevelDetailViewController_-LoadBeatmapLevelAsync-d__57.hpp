@@ -84,10 +84,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__2
     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x13F5BCC
+    // Offset: 0x1332AD8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x13F6070
+    // Offset: 0x1332F8C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<LoadBeatmapLevelAsync>d__57
   // WARNING Not writing size check since size may be invalid!

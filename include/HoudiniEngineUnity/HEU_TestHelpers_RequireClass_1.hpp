@@ -23,7 +23,7 @@ namespace HoudiniEngineUnity {
   class HEU_TestHelpers::RequireClass_1 : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

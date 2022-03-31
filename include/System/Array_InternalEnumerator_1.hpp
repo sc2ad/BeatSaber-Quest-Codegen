@@ -68,42 +68,42 @@ namespace System {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public T get_Current()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     T get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::InternalEnumerator_1::get_Current");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::InternalEnumerator_1::System.Collections.IEnumerator.get_Current");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method);
     }
     // System.Void .ctor(System.Array array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     InternalEnumerator_1(::System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::InternalEnumerator_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, array);
     }
     // public System.Void Dispose()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::InternalEnumerator_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Boolean MoveNext()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::InternalEnumerator_1::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void System_Collections_IEnumerator_Reset() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::InternalEnumerator_1::System.Collections.IEnumerator.Reset");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

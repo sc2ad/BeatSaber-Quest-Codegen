@@ -169,14 +169,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_1<::StringW>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallback>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallback$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass13_0_1::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -225,14 +225,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_2<::StringW, T0>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallback>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallback$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass14_0_2::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -281,14 +281,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_3<::StringW, T0, T1>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallback>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallback$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass15_0_3::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -337,14 +337,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_4<::StringW, T0, T1, T2>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallback>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallback$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass16_0_4::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -393,14 +393,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_5<::StringW, T0, T1, T2, T3>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallback>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallback$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass17_0_5::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -449,14 +449,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_2<::StringW, float>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallbackWithTime>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallbackWithTime$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass18_0_1::<RegisterCallbackWithTime>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallbackWithTime>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -505,14 +505,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_3<::StringW, float, T0>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallbackWithTime>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallbackWithTime$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass19_0_2::<RegisterCallbackWithTime>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallbackWithTime>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -561,14 +561,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_4<::StringW, float, T0, T1>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallbackWithTime>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallbackWithTime$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass20_0_3::<RegisterCallbackWithTime>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallbackWithTime>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -617,14 +617,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_5<::StringW, float, T0, T1, T2>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallbackWithTime>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallbackWithTime$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass21_0_4::<RegisterCallbackWithTime>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallbackWithTime>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -673,14 +673,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_6<::StringW, float, T0, T1, T2, T3>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallbackWithTime>b__0(IConnectedPlayer player, T rpc)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallbackWithTime$b__0(::GlobalNamespace::IConnectedPlayer* player, T rpc) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass22_0_5::<RegisterCallbackWithTime>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallbackWithTime>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player), ::il2cpp_utils::ExtractType(rpc)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, player, rpc);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -739,14 +739,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallback>b__0(T rpc, IConnectedPlayer player)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallback$b__0(T rpc, ::GlobalNamespace::IConnectedPlayer* player) {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass23_0_1::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rpc), ::il2cpp_utils::ExtractType(player)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, rpc, player);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -817,14 +817,14 @@ namespace GlobalNamespace {
         return *reinterpret_cast<typename ::GlobalNamespace::RpcHandler_1<TType>::$$c__DisplayClass23_0_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <RegisterCallback>b__1()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $RegisterCallback$b__1() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::$$c__DisplayClass23_1_1::<RegisterCallback>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -927,21 +927,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, MultiplayerSessionManager/MessageType messageType, System.Boolean delayCallTime)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RpcHandler_1<TType>* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::MultiplayerSessionManager_MessageType messageType, bool delayCallTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RpcHandler_1<TType>*, creationType>(multiplayerSessionManager, messageType, delayCallTime)));
     }
     // public System.Void Destroy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Destroy() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcHandler_1::Destroy");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Destroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void EnqueueRpc()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void EnqueueRpc() {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall*>);
@@ -951,7 +951,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public System.Void EnqueueRpc(T0 value0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0>
     void EnqueueRpc(T0 value0) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*>);
@@ -961,7 +961,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, value0);
     }
     // public System.Void EnqueueRpc(T0 value0, T1 value1)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1>
     void EnqueueRpc(T0 value0, T1 value1) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*>);
@@ -971,7 +971,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, value0, value1);
     }
     // public System.Void EnqueueRpc(T0 value0, T1 value1, T2 value2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1, class T2>
     void EnqueueRpc(T0 value0, T1 value1, T2 value2) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*>);
@@ -981,7 +981,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, value0, value1, value2);
     }
     // public System.Void EnqueueRpc(T0 value0, T1 value1, T2 value2, T3 value3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1, class T2, class T3>
     void EnqueueRpc(T0 value0, T1 value1, T2 value2, T3 value3) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*>);
@@ -991,7 +991,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, value0, value1, value2, value3);
     }
     // public System.Void RegisterCallback(TType type, System.Action`1<System.String> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void RegisterCallback(TType type, ::System::Action_1<::StringW>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall*>);
@@ -1001,7 +1001,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallback(TType type, System.Action`2<System.String,T0> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0>
     void RegisterCallback(TType type, ::System::Action_2<::StringW, T0>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*>);
@@ -1011,7 +1011,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallback(TType type, System.Action`3<System.String,T0,T1> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1>
     void RegisterCallback(TType type, ::System::Action_3<::StringW, T0, T1>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*>);
@@ -1021,7 +1021,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallback(TType type, System.Action`4<System.String,T0,T1,T2> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1, class T2>
     void RegisterCallback(TType type, ::System::Action_4<::StringW, T0, T1, T2>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*>);
@@ -1031,7 +1031,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallback(TType type, System.Action`5<System.String,T0,T1,T2,T3> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1, class T2, class T3>
     void RegisterCallback(TType type, ::System::Action_5<::StringW, T0, T1, T2, T3>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*>);
@@ -1041,7 +1041,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallbackWithTime(TType type, System.Action`2<System.String,System.Single> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void RegisterCallbackWithTime(TType type, ::System::Action_2<::StringW, float>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall*>);
@@ -1051,7 +1051,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallbackWithTime(TType type, System.Action`3<System.String,System.Single,T0> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0>
     void RegisterCallbackWithTime(TType type, ::System::Action_3<::StringW, float, T0>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*>);
@@ -1061,7 +1061,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallbackWithTime(TType type, System.Action`4<System.String,System.Single,T0,T1> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1>
     void RegisterCallbackWithTime(TType type, ::System::Action_4<::StringW, float, T0, T1>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*>);
@@ -1071,7 +1071,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallbackWithTime(TType type, System.Action`5<System.String,System.Single,T0,T1,T2> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1, class T2>
     void RegisterCallbackWithTime(TType type, ::System::Action_5<::StringW, float, T0, T1, T2>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*>);
@@ -1081,7 +1081,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // public System.Void RegisterCallbackWithTime(TType type, System.Action`6<System.String,System.Single,T0,T1,T2,T3> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T, class T0, class T1, class T2, class T3>
     void RegisterCallbackWithTime(TType type, ::System::Action_6<::StringW, float, T0, T1, T2, T3>* callback) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*>);
@@ -1091,7 +1091,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, type, callback);
     }
     // private System.Void RegisterCallback(TType type, System.Action`2<IConnectedPlayer,T> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void RegisterCallback(TType type, ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>* callback) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IRemoteProcedureCall>);

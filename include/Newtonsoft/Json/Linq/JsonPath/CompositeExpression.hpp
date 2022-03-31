@@ -60,10 +60,10 @@ namespace Newtonsoft::Json::Linq::JsonPath {
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> <Expressions>k__BackingField
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& dyn_$Expressions$k__BackingField();
     // public System.Void set_Expressions(System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> value)
-    // Offset: 0x172BC08
+    // Offset: 0x1722AF8
     void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
     // public System.Void .ctor()
-    // Offset: 0x172BC10
+    // Offset: 0x1722B00
     // Implemented from: Newtonsoft.Json.Linq.JsonPath.QueryExpression
     // Base method: System.Void QueryExpression::.ctor()
     // Base method: System.Void Object::.ctor()

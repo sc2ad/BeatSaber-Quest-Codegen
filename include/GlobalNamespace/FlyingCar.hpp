@@ -81,16 +81,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _pos
     ::UnityEngine::Vector3& dyn__pos();
     // protected System.Void Start()
-    // Offset: 0x12E415C
+    // Offset: 0x1390160
     void Start();
     // protected System.Void Update()
-    // Offset: 0x12E42BC
+    // Offset: 0x13902C0
     void Update();
     // protected System.Void UpdatePos()
-    // Offset: 0x12E420C
+    // Offset: 0x1390210
     void UpdatePos();
     // public System.Void .ctor()
-    // Offset: 0x12E4380
+    // Offset: 0x1390384
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -93,19 +93,19 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _hasCachedData
     bool& dyn__hasCachedData();
     // static private System.Void .cctor()
-    // Offset: 0x16EC420
+    // Offset: 0x16E3310
     static void _cctor();
     // public System.Void Reset()
-    // Offset: 0x16EC0C8
+    // Offset: 0x16E2FB8
     void Reset();
     // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
-    // Offset: 0x16EC0DC
+    // Offset: 0x16E2FCC
     ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
     // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x16EC304
+    // Offset: 0x16E31F4
     static ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
     // public System.Void .ctor()
-    // Offset: 0x16EC418
+    // Offset: 0x16E3308
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

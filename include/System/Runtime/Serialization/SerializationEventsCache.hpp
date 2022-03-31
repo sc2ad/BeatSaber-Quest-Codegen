@@ -44,10 +44,10 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.Collections.Hashtable cache
     static void _set_cache(::System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x160F9C4
+    // Offset: 0x1607708
     static void _cctor();
     // static System.Runtime.Serialization.SerializationEvents GetSerializationEventsForType(System.Type t)
-    // Offset: 0x160D694
+    // Offset: 0x16053D8
     static ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* t);
   }; // System.Runtime.Serialization.SerializationEventsCache
   #pragma pack(pop)

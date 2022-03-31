@@ -66,13 +66,13 @@ namespace System {
     // Get instance field reference: private System.Globalization.CompareInfo m_compareInfo
     ::System::Globalization::CompareInfo*& dyn_m_compareInfo();
     // static private System.Void .cctor()
-    // Offset: 0x1CD5884
+    // Offset: 0x1CB9D54
     static void _cctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1CD5794
+    // Offset: 0x1CB9C64
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // System.Void .ctor()
-    // Offset: 0x1CD5708
+    // Offset: 0x1CB9BD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

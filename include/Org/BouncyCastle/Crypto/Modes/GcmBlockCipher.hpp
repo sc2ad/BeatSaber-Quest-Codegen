@@ -256,72 +256,72 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private System.UInt64 atLengthPre
     uint64_t& dyn_atLengthPre();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher c)
-    // Offset: 0x1E2316C
+    // Offset: 0x1E0763C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GcmBlockCipher*, creationType>(c)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher c, Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier m)
-    // Offset: 0x1E23174
+    // Offset: 0x1E07644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GcmBlockCipher*, creationType>(c, m)));
     }
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E232F8
+    // Offset: 0x1E077C8
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E23300
+    // Offset: 0x1E077D0
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x1E23B5C
+    // Offset: 0x1E0802C
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x1E23B84
+    // Offset: 0x1E08054
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1E23BBC
+    // Offset: 0x1E0808C
     void ProcessAadBytes(::ArrayW<uint8_t> inBytes, int inOff, int len);
     // private System.Void InitCipher()
-    // Offset: 0x1E23D38
+    // Offset: 0x1E08208
     void InitCipher();
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E23EE8
+    // Offset: 0x1E083B8
     int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E24300
+    // Offset: 0x1E087D0
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E24B6C
+    // Offset: 0x1E0903C
     void Reset();
     // private System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x1E249A0
+    // Offset: 0x1E08E70
     void Reset(bool clearMac);
     // private System.Void ProcessBlock(System.Byte[] buf, System.Int32 bufOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E24188
+    // Offset: 0x1E08658
     void ProcessBlock(::ArrayW<uint8_t> buf, int bufOff, ::ArrayW<uint8_t> output, int outOff);
     // private System.Void ProcessPartial(System.Byte[] buf, System.Int32 off, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E2483C
+    // Offset: 0x1E08D0C
     void ProcessPartial(::ArrayW<uint8_t> buf, int off, int len, ::ArrayW<uint8_t> output, int outOff);
     // private System.Void gHASH(System.Byte[] Y, System.Byte[] b, System.Int32 len)
-    // Offset: 0x1E2399C
+    // Offset: 0x1E07E6C
     void gHASH(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b, int len);
     // private System.Void gHASHBlock(System.Byte[] Y, System.Byte[] b)
-    // Offset: 0x1E23A68
+    // Offset: 0x1E07F38
     void gHASHBlock(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b);
     // private System.Void gHASHBlock(System.Byte[] Y, System.Byte[] b, System.Int32 off)
-    // Offset: 0x1E24D28
+    // Offset: 0x1E091F8
     void gHASHBlock(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b, int off);
     // private System.Void gHASHPartial(System.Byte[] Y, System.Byte[] b, System.Int32 off, System.Int32 len)
-    // Offset: 0x1E23DDC
+    // Offset: 0x1E082AC
     void gHASHPartial(::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> b, int off, int len);
     // private System.Void GetNextCtrBlock(System.Byte[] block)
-    // Offset: 0x1E24B74
+    // Offset: 0x1E09044
     void GetNextCtrBlock(::ArrayW<uint8_t> block);
     // private System.Void CheckStatus()
-    // Offset: 0x1E23C9C
+    // Offset: 0x1E0816C
     void CheckStatus();
   }; // Org.BouncyCastle.Crypto.Modes.GcmBlockCipher
   #pragma pack(pop)

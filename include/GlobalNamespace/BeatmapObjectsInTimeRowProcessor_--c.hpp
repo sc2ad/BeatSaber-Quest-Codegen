@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapDataItem,System.Boolean> <>9__17_0
     static void _set_$$9__17_0(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2849790
+    // Offset: 0x2818908
     static void _cctor();
     // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0(BeatmapDataItem item)
-    // Offset: 0x28497FC
+    // Offset: 0x2818974
     bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__17_0(::GlobalNamespace::BeatmapDataItem* item);
     // public System.Void .ctor()
-    // Offset: 0x28497F4
+    // Offset: 0x281896C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

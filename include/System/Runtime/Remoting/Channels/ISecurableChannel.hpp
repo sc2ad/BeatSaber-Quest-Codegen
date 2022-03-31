@@ -22,7 +22,7 @@ namespace System::Runtime::Remoting::Channels {
   class ISecurableChannel {
     public:
     // public System.Void set_IsSecured(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_IsSecured(bool value);
   }; // System.Runtime.Remoting.Channels.ISecurableChannel
   #pragma pack(pop)

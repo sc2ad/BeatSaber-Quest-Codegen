@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10BBB88
+    // [InjectAttribute] Offset: 0x12560FC
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BBB98
+    // [InjectAttribute] Offset: 0x125610C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -118,37 +118,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _maxCombo
     int& dyn__maxCombo();
     // public System.Int32 get_maxCombo()
-    // Offset: 0x1411690
+    // Offset: 0x1404050
     int get_maxCombo();
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1411698
+    // Offset: 0x1404058
     void add_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x141173C
+    // Offset: 0x14040FC
     void remove_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x14117E0
+    // Offset: 0x14041A0
     void add_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x1411884
+    // Offset: 0x1404244
     void remove_comboBreakingEventHappenedEvent(::System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x1411928
+    // Offset: 0x14042E8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1411A44
+    // Offset: 0x1404404
     void OnDestroy();
     // private System.Void HandlePlayerHeadDidEnterObstacles()
-    // Offset: 0x1411BA8
+    // Offset: 0x1404568
     void HandlePlayerHeadDidEnterObstacles();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1411C2C
+    // Offset: 0x14045EC
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1411D0C
+    // Offset: 0x14046CC
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x1411DC8
+    // Offset: 0x1404788
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

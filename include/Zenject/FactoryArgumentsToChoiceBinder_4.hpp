@@ -48,7 +48,7 @@ namespace Zenject {
   class FactoryArgumentsToChoiceBinder_4 : public ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract> {
     public:
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(T param)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(T param) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
@@ -57,7 +57,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method, param);
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TFactoryParam1, class TFactoryParam2>
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
@@ -66,7 +66,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method, param1, param2);
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TFactoryParam1, class TFactoryParam2, class TFactoryParam3>
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
@@ -75,7 +75,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method, param1, param2, param3);
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3, TFactoryParam4 param4)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TFactoryParam1, class TFactoryParam2, class TFactoryParam3, class TFactoryParam4>
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3, TFactoryParam4 param4) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
@@ -84,7 +84,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method, param1, param2, param3, param4);
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3, TFactoryParam4 param4, TFactoryParam5 param5)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TFactoryParam1, class TFactoryParam2, class TFactoryParam3, class TFactoryParam4, class TFactoryParam5>
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3, TFactoryParam4 param4, TFactoryParam5 param5) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
@@ -93,7 +93,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method, param1, param2, param3, param4, param5);
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3, TFactoryParam4 param4, TFactoryParam5 param5, TFactoryParam6 param6)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TFactoryParam1, class TFactoryParam2, class TFactoryParam3, class TFactoryParam4, class TFactoryParam5, class TFactoryParam6>
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3, TFactoryParam4 param4, TFactoryParam5 param5, TFactoryParam6 param6) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
@@ -102,21 +102,21 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithFactoryArguments", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal__method, args);
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArgumentsExplicit(System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArgumentsExplicit");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithFactoryArgumentsExplicit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(extraArgs)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal__method, extraArgs);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: Zenject.FactoryToChoiceBinder`4
     // Base method: System.Void FactoryToChoiceBinder_4::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Base method: System.Void FactoryFromBinder_4::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)

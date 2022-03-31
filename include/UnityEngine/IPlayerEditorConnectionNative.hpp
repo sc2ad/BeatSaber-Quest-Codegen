@@ -31,28 +31,28 @@ namespace UnityEngine {
   class IPlayerEditorConnectionNative {
     public:
     // public System.Void Initialize()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Initialize();
     // public System.Void DisconnectAll()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void DisconnectAll();
     // public System.Void SendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // public System.Boolean TrySendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // public System.Void Poll()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Poll();
     // public System.Void RegisterInternal(System.Guid messageId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void RegisterInternal(::System::Guid messageId);
     // public System.Void UnregisterInternal(System.Guid messageId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void UnregisterInternal(::System::Guid messageId);
     // public System.Boolean IsConnected()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsConnected();
   }; // UnityEngine.IPlayerEditorConnectionNative
   #pragma pack(pop)

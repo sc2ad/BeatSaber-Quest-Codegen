@@ -42,7 +42,7 @@ namespace NUnit::Framework::Interfaces {
   class ITestBuilder {
     public:
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestMethod*>* BuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* suite);
   }; // NUnit.Framework.Interfaces.ITestBuilder
   #pragma pack(pop)

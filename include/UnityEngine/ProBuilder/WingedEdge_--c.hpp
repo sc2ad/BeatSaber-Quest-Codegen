@@ -47,16 +47,16 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Edge,System.Int32> <>9__32_2
     static void _set_$$9__32_2(::System::Func_2<::UnityEngine::ProBuilder::Edge, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x298F378
+    // Offset: 0x295D4F0
     static void _cctor();
     // UnityEngine.ProBuilder.Edge <SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge y)
-    // Offset: 0x298F3E4
+    // Offset: 0x295D55C
     ::UnityEngine::ProBuilder::Edge $SortCommonIndexesByAdjacency$b__32_1(::UnityEngine::ProBuilder::WingedEdge* y);
     // System.Int32 <SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x298F3FC
+    // Offset: 0x295D574
     int $SortCommonIndexesByAdjacency$b__32_2(::UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x298F3DC
+    // Offset: 0x295D554
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

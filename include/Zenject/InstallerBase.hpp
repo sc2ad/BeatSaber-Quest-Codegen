@@ -46,7 +46,7 @@ namespace Zenject {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x1085FC0
+    // [InjectAttribute] Offset: 0x121FC50
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -65,22 +65,22 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer _container
     ::Zenject::DiContainer*& dyn__container();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1BEB930
+    // Offset: 0x1BD1E00
     ::Zenject::DiContainer* get_Container();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x1BEB938
+    // Offset: 0x1BD1E08
     bool get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void InstallBindings();
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1BEB940
+    // Offset: 0x1BD1E10
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1BEBA14
+    // Offset: 0x1BD1EE4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // protected System.Void .ctor()
-    // Offset: 0x1BEB7F4
+    // Offset: 0x1BD1CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

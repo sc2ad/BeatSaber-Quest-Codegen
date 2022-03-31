@@ -75,22 +75,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerAvatarData playerAvatar
     ::GlobalNamespace::MultiplayerAvatarData& dyn_playerAvatar();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerAvatarPacket> get_pool()
-    // Offset: 0x164645C
+    // Offset: 0x163D1A0
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1646B8C
+    // Offset: 0x163D8D0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1646B98
+    // Offset: 0x163D8DC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1646BDC
+    // Offset: 0x163D920
     void Release();
     // public ConnectedPlayerManager/PlayerAvatarPacket Init(MultiplayerAvatarData avatar)
-    // Offset: 0x16464A4
+    // Offset: 0x163D1E8
     ::GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket* Init(::GlobalNamespace::MultiplayerAvatarData avatar);
     // public System.Void .ctor()
-    // Offset: 0x1646C38
+    // Offset: 0x163D97C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

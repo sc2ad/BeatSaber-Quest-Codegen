@@ -132,7 +132,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly IBeatmapLevel beatmapLevel
       ::GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
-      // Offset: 0x1507100
+      // Offset: 0x14D3F50
       // ABORTED: conflicts with another method.  GetBeatmapLevelResult(bool isError, ::GlobalNamespace::IBeatmapLevel* beatmapLevel);
     }; // BeatmapLevelsModel/GetBeatmapLevelResult
     #pragma pack(pop)
@@ -236,7 +236,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState downloadingState
       ::GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState& dyn_downloadingState();
       // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState downloadingState)
-      // Offset: 0x15066F8
+      // Offset: 0x14D3548
       // ABORTED: conflicts with another method.  LevelDownloadingUpdate(::StringW levelID, uint bytesTotal, uint bytesTransferred, ::GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState);
     }; // BeatmapLevelsModel/LevelDownloadingUpdate
     #pragma pack(pop)
@@ -277,21 +277,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxCachedBeatmapLevels and: additionalContentModel
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x10B1FEC
+    // [InjectAttribute] Offset: 0x124C470
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B1FFC
+    // [InjectAttribute] Offset: 0x124C480
     // private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatmapDataAssetFileModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B200C
+    // [InjectAttribute] Offset: 0x124C490
     // private AudioClipAsyncLoader _audioClipAsyncLoader
     // Size: 0x8
     // Offset: 0x48
@@ -372,73 +372,73 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelLoader _beatmapLevelLoader
     ::GlobalNamespace::BeatmapLevelLoader*& dyn__beatmapLevelLoader();
     // public BeatmapLevelPackCollectionSO get_ostAndExtrasPackCollection()
-    // Offset: 0x1505330
+    // Offset: 0x14D2180
     ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasPackCollection();
     // public IBeatmapLevelPackCollection get_dlcBeatmapLevelPackCollection()
-    // Offset: 0x1505338
+    // Offset: 0x14D2188
     ::GlobalNamespace::IBeatmapLevelPackCollection* get_dlcBeatmapLevelPackCollection();
     // public IBeatmapLevelPackCollection get_allLoadedBeatmapLevelPackCollection()
-    // Offset: 0x1505354
+    // Offset: 0x14D21A4
     ::GlobalNamespace::IBeatmapLevelPackCollection* get_allLoadedBeatmapLevelPackCollection();
     // public IBeatmapLevelPackCollection get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection()
-    // Offset: 0x150535C
+    // Offset: 0x14D21AC
     ::GlobalNamespace::IBeatmapLevelPackCollection* get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection();
     // public IBeatmapLevelPackCollection get_customLevelPackCollection()
-    // Offset: 0x1505364
+    // Offset: 0x14D21B4
     ::GlobalNamespace::IBeatmapLevelPackCollection* get_customLevelPackCollection();
     // public System.Void add_levelDownloadingUpdateEvent(System.Action`1<BeatmapLevelsModel/LevelDownloadingUpdate> value)
-    // Offset: 0x15051E8
+    // Offset: 0x14D2038
     void add_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>* value);
     // public System.Void remove_levelDownloadingUpdateEvent(System.Action`1<BeatmapLevelsModel/LevelDownloadingUpdate> value)
-    // Offset: 0x150528C
+    // Offset: 0x14D20DC
     void remove_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>* value);
     // private System.Void Init()
-    // Offset: 0x150536C
+    // Offset: 0x14D21BC
     void Init();
     // protected System.Void Start()
-    // Offset: 0x1505948
+    // Offset: 0x14D2798
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1505A38
+    // Offset: 0x14D2888
     void OnDestroy();
     // public System.Void ClearLoadedBeatmapLevelsCaches()
-    // Offset: 0x1505B80
+    // Offset: 0x14D29D0
     void ClearLoadedBeatmapLevelsCaches();
     // public System.Threading.Tasks.Task`1<IBeatmapLevelPackCollection> ReloadCustomLevelPackCollectionAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1505BD8
+    // Offset: 0x14D2A28
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelPackCollection*>* ReloadCustomLevelPackCollectionAsync(::System::Threading::CancellationToken cancellationToken);
     // public IBeatmapLevelPack GetLevelPackForLevelId(System.String levelId)
-    // Offset: 0x1505CD8
+    // Offset: 0x14D2B28
     ::GlobalNamespace::IBeatmapLevelPack* GetLevelPackForLevelId(::StringW levelId);
     // public IBeatmapLevelPack GetLevelPack(System.String levePacklId)
-    // Offset: 0x15061F0
+    // Offset: 0x14D3040
     ::GlobalNamespace::IBeatmapLevelPack* GetLevelPack(::StringW levePacklId);
     // public IPreviewBeatmapLevel GetLevelPreviewForLevelId(System.String levelId)
-    // Offset: 0x14FD374
+    // Offset: 0x14CA1D4
     ::GlobalNamespace::IPreviewBeatmapLevel* GetLevelPreviewForLevelId(::StringW levelId);
     // public System.Boolean IsBeatmapLevelLoaded(System.String levelId)
-    // Offset: 0x1506388
+    // Offset: 0x14D31D8
     bool IsBeatmapLevelLoaded(::StringW levelId);
     // public IBeatmapLevel GetBeatmapLevelIfLoaded(System.String levelId)
-    // Offset: 0x1506454
+    // Offset: 0x14D32A4
     ::GlobalNamespace::IBeatmapLevel* GetBeatmapLevelIfLoaded(::StringW levelId);
     // public System.Threading.Tasks.Task`1<BeatmapLevelsModel/GetBeatmapLevelResult> GetBeatmapLevelAsync(System.String levelID, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1506548
+    // Offset: 0x14D3398
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* GetBeatmapLevelAsync(::StringW levelID, ::System::Threading::CancellationToken cancellationToken);
     // private System.Void HandleLevelDataAssetDownloadUpdate(LevelDataAssetDownloadUpdate update)
-    // Offset: 0x1506668
+    // Offset: 0x14D34B8
     void HandleLevelDataAssetDownloadUpdate(::GlobalNamespace::LevelDataAssetDownloadUpdate update);
     // private System.Void HandleItemWillBeRemovedFromCache(IBeatmapLevel beatmapLevel)
-    // Offset: 0x1506708
+    // Offset: 0x14D3558
     void HandleItemWillBeRemovedFromCache(::GlobalNamespace::IBeatmapLevel* beatmapLevel);
     // private System.Void UpdateLoadedPreviewLevels()
-    // Offset: 0x1505468
+    // Offset: 0x14D22B8
     void UpdateLoadedPreviewLevels();
     // private System.Void UpdateAllLoadedBeatmapLevelPacks()
-    // Offset: 0x1506724
+    // Offset: 0x14D3574
     void UpdateAllLoadedBeatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x1506868
+    // Offset: 0x14D36B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

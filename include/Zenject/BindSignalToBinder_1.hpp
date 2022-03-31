@@ -119,28 +119,28 @@ namespace Zenject {
         return *reinterpret_cast<::System::Action_1<TSignal>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <ToMethod>b__0(System.Object o)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $ToMethod$b__0(::Il2CppObject* o) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass6_0::<ToMethod>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToMethod>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, o);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass6_0::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass6_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass6_0::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass6_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -188,28 +188,28 @@ namespace Zenject {
         return *reinterpret_cast<::System::Action**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <ToMethod>b__0(TSignal signal)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $ToMethod$b__0(TSignal signal) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass7_0::<ToMethod>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToMethod>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(signal)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, signal);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass7_0::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass7_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass7_0::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass7_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -258,28 +258,28 @@ namespace Zenject {
         return *reinterpret_cast<::System::Action_2<TObject, TSignal>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Action`1<TSignal> <ToMethod>b__0(TObject x)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::Action_1<TSignal>* $ToMethod$b__0(TObject x) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass8_0_1::<ToMethod>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToMethod>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
         return ::il2cpp_utils::RunMethodRethrow<::System::Action_1<TSignal>*, false>(this, ___internal__method, x);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass8_0_1::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass8_0_1<TObject>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass8_0_1::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass8_0_1<TObject>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -336,28 +336,28 @@ namespace Zenject {
         return *reinterpret_cast<typename ::Zenject::BindSignalToBinder_1<TSignal>::$$c__DisplayClass8_0_1<TObject>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <ToMethod>b__1(TSignal s)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $ToMethod$b__1(TSignal s) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass8_1_1::<ToMethod>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToMethod>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, s);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass8_1_1::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass8_1_1<TObject>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass8_1_1::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass8_1_1<TObject>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -406,28 +406,28 @@ namespace Zenject {
         return *reinterpret_cast<::System::Func_2<TObject, ::System::Action*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Action`1<TSignal> <ToMethod>b__0(TObject x)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       ::System::Action_1<TSignal>* $ToMethod$b__0(TObject x) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass9_0_1::<ToMethod>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToMethod>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
         return ::il2cpp_utils::RunMethodRethrow<::System::Action_1<TSignal>*, false>(this, ___internal__method, x);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass9_0_1::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass9_0_1<TObject>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass9_0_1::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass9_0_1<TObject>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -484,28 +484,28 @@ namespace Zenject {
         return *reinterpret_cast<typename ::Zenject::BindSignalToBinder_1<TSignal>::$$c__DisplayClass9_0_1<TObject>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
       // System.Void <ToMethod>b__1(TSignal s)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       void $ToMethod$b__1(TSignal s) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass9_1_1::<ToMethod>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToMethod>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
         ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, s);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass9_1_1::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass9_1_1<TObject>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
         return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::$$c__DisplayClass9_1_1::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BindSignalToBinder_1<TSignal>::$$c__DisplayClass9_1_1<TObject>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
         return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
-      // Offset: 0xFFFFFFFF
+      // Offset: 0xFFFFFFFFFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -568,35 +568,35 @@ namespace Zenject {
       return *reinterpret_cast<::Zenject::SignalBindingBindInfo**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // protected Zenject.SignalBindingBindInfo get_SignalBindInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::SignalBindingBindInfo* get_SignalBindInfo() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::get_SignalBindInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_SignalBindInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::SignalBindingBindInfo*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SignalBindingBindInfo signalBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindSignalToBinder_1<TSignal>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindSignalToBinder_1<TSignal>*, creationType>(container, signalBindInfo)));
     }
     // public Zenject.SignalCopyBinder ToMethod(System.Action`1<TSignal> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::SignalCopyBinder* ToMethod(::System::Action_1<TSignal>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::ToMethod");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(callback)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::SignalCopyBinder*, false>(this, ___internal__method, callback);
     }
     // public Zenject.SignalCopyBinder ToMethod(System.Action callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::Zenject::SignalCopyBinder* ToMethod(::System::Action* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::ToMethod");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(callback)})));
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::SignalCopyBinder*, false>(this, ___internal__method, callback);
     }
     // public Zenject.BindSignalFromBinder`2<TObject,TSignal> ToMethod(System.Action`2<TObject,TSignal> handler)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* ToMethod(::System::Action_2<TObject, TSignal>* handler) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::ToMethod");
@@ -605,7 +605,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::BindSignalFromBinder_2<TObject, TSignal>*, false>(this, ___generic__method, handler);
     }
     // public Zenject.BindSignalFromBinder`2<TObject,TSignal> ToMethod(System.Func`2<TObject,System.Action> handlerGetter)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* ToMethod(::System::Func_2<TObject, ::System::Action*>* handlerGetter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::ToMethod");
@@ -614,7 +614,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::BindSignalFromBinder_2<TObject, TSignal>*, false>(this, ___generic__method, handlerGetter);
     }
     // public Zenject.BindSignalFromBinder`2<TObject,TSignal> ToMethod(System.Func`2<TObject,System.Action`1<TSignal>> handlerGetter)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* ToMethod(::System::Func_2<TObject, ::System::Action_1<TSignal>*>* handlerGetter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::ToMethod");
@@ -623,14 +623,14 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::BindSignalFromBinder_2<TObject, TSignal>*, false>(this, ___generic__method, handlerGetter);
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::__zenCreate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BindSignalToBinder_1<TSignal>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindSignalToBinder_1::__zenCreateInjectTypeInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BindSignalToBinder_1<TSignal>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));

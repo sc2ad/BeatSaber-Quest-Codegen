@@ -30,7 +30,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> SignData(::ArrayW<uint8_t> data, int offset, int length);
   }; // ICertificateEncryptionProvider
   #pragma pack(pop)

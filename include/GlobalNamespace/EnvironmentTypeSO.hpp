@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _typeNameLocalizationKey
     ::StringW& dyn__typeNameLocalizationKey();
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0x12DB248
+    // Offset: 0x138631C
     ::StringW get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x12DB250
+    // Offset: 0x1386324
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

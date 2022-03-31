@@ -47,34 +47,34 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // public System.Boolean get_IsValid()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsValid();
     // public System.Security.Cryptography.X509Certificates.X509ChainElementCollection get_ChainElements()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
     // public System.Security.Cryptography.X509Certificates.X509ChainPolicy get_ChainPolicy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
     // public System.Void set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void set_ChainPolicy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // public System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // public System.Void Reset()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x1BD51F0
+    // Offset: 0x1BBB6C0
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1BD601C
+    // Offset: 0x1BBC4EC
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x1BD6094
+    // Offset: 0x1BBC564
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -83,7 +83,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainImpl*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1BD6020
+    // Offset: 0x1BBC4F0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

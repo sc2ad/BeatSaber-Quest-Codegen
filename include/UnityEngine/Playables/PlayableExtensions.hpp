@@ -48,7 +48,7 @@ namespace UnityEngine::Playables {
   class PlayableExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean IsValid(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static bool IsValid(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -58,7 +58,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public UnityEngine.Playables.PlayableGraph GetGraph(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static ::UnityEngine::Playables::PlayableGraph GetGraph(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -68,7 +68,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::PlayableGraph, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public UnityEngine.Playables.PlayState GetPlayState(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static ::UnityEngine::Playables::PlayState GetPlayState(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -78,7 +78,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::PlayState, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void Play(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void Play(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -88,7 +88,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void Pause(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void Pause(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -98,7 +98,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void SetSpeed(U playable, System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetSpeed(U playable, double value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -108,7 +108,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Void SetDuration(U playable, System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetDuration(U playable, double value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -118,7 +118,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Double GetDuration(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static double GetDuration(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -128,7 +128,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<double, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void SetTime(U playable, System.Double value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetTime(U playable, double value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -138,7 +138,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Double GetTime(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static double GetTime(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -148,7 +148,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<double, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Double GetPreviousTime(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static double GetPreviousTime(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -158,7 +158,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<double, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Boolean IsDone(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static bool IsDone(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -168,7 +168,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void SetPropagateSetTime(U playable, System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetPropagateSetTime(U playable, bool value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -178,7 +178,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Void SetInputCount(U playable, System.Int32 value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetInputCount(U playable, int value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -188,7 +188,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
     }
     // static public System.Int32 GetInputCount(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static int GetInputCount(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -198,7 +198,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public UnityEngine.Playables.Playable GetInput(U playable, System.Int32 inputPort)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static ::UnityEngine::Playables::Playable GetInput(U playable, int inputPort) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -208,7 +208,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, inputPort);
     }
     // static public System.Void SetInputWeight(U playable, System.Int32 inputIndex, System.Single weight)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetInputWeight(U playable, int inputIndex, float weight) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -218,7 +218,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, inputIndex, weight);
     }
     // static public System.Void SetInputWeight(U playable, V input, System.Single weight)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U, class V>
     static void SetInputWeight(U playable, V input, float weight) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -229,7 +229,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, input, weight);
     }
     // static public System.Single GetInputWeight(U playable, System.Int32 inputIndex)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static float GetInputWeight(U playable, int inputIndex) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -239,7 +239,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<float, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, inputIndex);
     }
     // static public System.Void SetTraversalMode(U playable, UnityEngine.Playables.PlayableTraversalMode mode)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetTraversalMode(U playable, ::UnityEngine::Playables::PlayableTraversalMode mode) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -249,7 +249,7 @@ namespace UnityEngine::Playables {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, mode);
     }
     // static UnityEngine.Playables.DirectorWrapMode GetTimeWrapMode(U playable)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static ::UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode(U playable) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
@@ -259,7 +259,7 @@ namespace UnityEngine::Playables {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::DirectorWrapMode, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static System.Void SetTimeWrapMode(U playable, UnityEngine.Playables.DirectorWrapMode value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class U>
     static void SetTimeWrapMode(U playable, ::UnityEngine::Playables::DirectorWrapMode value) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);

@@ -51,10 +51,10 @@ namespace Mono::Net::Security {
     // Get instance field reference: public System.Int32 len
     int& dyn_len();
     // System.Int32 <InnerRead>b__0()
-    // Offset: 0x1ABCC0C
+    // Offset: 0x1AA0244
     int $InnerRead$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1ABCC04
+    // Offset: 0x1AA023C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

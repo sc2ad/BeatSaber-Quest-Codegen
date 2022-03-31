@@ -67,10 +67,10 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Func`1<System.Object> defaultConstructor
     ::System::Func_1<::Il2CppObject*>*& dyn_defaultConstructor();
     // Newtonsoft.Json.JsonConverter <GetJsonConverterCreator>b__0(System.Object[] parameters)
-    // Offset: 0x204D7C0
+    // Offset: 0x203B194
     ::Newtonsoft::Json::JsonConverter* $GetJsonConverterCreator$b__0(::ArrayW<::Il2CppObject*> parameters);
     // public System.Void .ctor()
-    // Offset: 0x204CA40
+    // Offset: 0x203A414
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

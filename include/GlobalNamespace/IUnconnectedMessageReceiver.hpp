@@ -34,10 +34,10 @@ namespace GlobalNamespace {
   class IUnconnectedMessageReceiver {
     public:
     // public System.Void ReceiveUnconnectedMessage(System.Net.IPEndPoint endPoint, LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ReceiveUnconnectedMessage(::System::Net::IPEndPoint* endPoint, ::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void PollUpdate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void PollUpdate();
   }; // IUnconnectedMessageReceiver
   #pragma pack(pop)

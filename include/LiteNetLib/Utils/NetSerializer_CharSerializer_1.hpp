@@ -34,21 +34,21 @@ namespace LiteNetLib::Utils {
   class NetSerializer::CharSerializer_1 : public ::LiteNetLib::Utils::NetSerializer::FastCallSpecificAuto_2<T, ::Il2CppChar> {
     public:
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref System.Char prop)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ElementWrite(::LiteNetLib::Utils::NetDataWriter* w, ByRef<::Il2CppChar> prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementWrite");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementWrite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(w), ::il2cpp_utils::ExtractType(prop)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, w, byref(prop));
     }
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out System.Char prop)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ElementRead(::LiteNetLib::Utils::NetDataReader* r, ByRef<::Il2CppChar> prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementRead");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar&>()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, r, byref(prop));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecificAuto`2
     // Base method: System.Void FastCallSpecificAuto_2::.ctor()
     // Base method: System.Void FastCallSpecific_2::.ctor()

@@ -275,25 +275,25 @@ namespace UnityEngine::ResourceManagement {
       // Get instance field reference: private readonly System.String <Error>k__BackingField
       ::StringW& dyn_$Error$k__BackingField();
       // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_OperationHandle()
-      // Offset: 0x1EB6E88
+      // Offset: 0x1E9B358
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
       // public UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType get_Type()
-      // Offset: 0x1EB6E9C
+      // Offset: 0x1E9B36C
       ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType get_Type();
       // public System.Int32 get_EventValue()
-      // Offset: 0x1EB6EA4
+      // Offset: 0x1E9B374
       int get_EventValue();
       // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-      // Offset: 0x1EB6EAC
+      // Offset: 0x1E9B37C
       ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
       // public System.Object get_Context()
-      // Offset: 0x1EB6EB4
+      // Offset: 0x1E9B384
       ::Il2CppObject* get_Context();
       // public System.String get_Error()
-      // Offset: 0x1EB6EBC
+      // Offset: 0x1E9B38C
       ::StringW get_Error();
       // public System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType type, System.Int32 eventValue, System.String error, System.Object context)
-      // Offset: 0x1EB6EC4
+      // Offset: 0x1E9B394
       DiagnosticEventContext(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType type, int eventValue, ::StringW error, ::Il2CppObject* context);
     }; // UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext
     #pragma pack(pop)
@@ -502,98 +502,98 @@ namespace UnityEngine::ResourceManagement {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Type,System.Type> m_ProviderOperationTypeCache
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*& dyn_m_ProviderOperationTypeCache();
     // static public System.Action`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Exception> get_ExceptionHandler()
-    // Offset: 0x1EB34AC
+    // Offset: 0x1E9797C
     static ::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* get_ExceptionHandler();
     // static public System.Void set_ExceptionHandler(System.Action`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Exception> value)
-    // Offset: 0x1EB3514
+    // Offset: 0x1E979E4
     static void set_ExceptionHandler(::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* value);
     // public System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> get_InternalIdTransformFunc()
-    // Offset: 0x1EB3580
+    // Offset: 0x1E97A50
     ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* get_InternalIdTransformFunc();
     // public System.Void set_InternalIdTransformFunc(System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> value)
-    // Offset: 0x1EB3588
+    // Offset: 0x1E97A58
     void set_InternalIdTransformFunc(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
     // System.Int32 get_OperationCacheCount()
-    // Offset: 0x1EB3670
+    // Offset: 0x1E97B40
     int get_OperationCacheCount();
     // System.Int32 get_InstanceOperationCount()
-    // Offset: 0x1EB36C8
+    // Offset: 0x1E97B98
     int get_InstanceOperationCount();
     // public UnityEngine.ResourceManagement.Util.IAllocationStrategy get_Allocator()
-    // Offset: 0x1EB3870
+    // Offset: 0x1E97D40
     ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* get_Allocator();
     // public System.Void set_Allocator(UnityEngine.ResourceManagement.Util.IAllocationStrategy value)
-    // Offset: 0x1EB3878
+    // Offset: 0x1E97D48
     void set_Allocator(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> get_ResourceProviders()
-    // Offset: 0x1EB3880
+    // Offset: 0x1E97D50
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* get_ResourceProviders();
     // public UnityEngine.Networking.CertificateHandler get_CertificateHandlerInstance()
-    // Offset: 0x1EB3888
+    // Offset: 0x1E97D58
     ::UnityEngine::Networking::CertificateHandler* get_CertificateHandlerInstance();
     // public System.Void set_CertificateHandlerInstance(UnityEngine.Networking.CertificateHandler value)
-    // Offset: 0x1EB3890
+    // Offset: 0x1E97D60
     void set_CertificateHandlerInstance(::UnityEngine::Networking::CertificateHandler* value);
     // public System.Void .ctor(UnityEngine.ResourceManagement.Util.IAllocationStrategy alloc)
-    // Offset: 0x1EB3898
+    // Offset: 0x1E97D68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager* New_ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager*, creationType>(alloc)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EB6DB8
+    // Offset: 0x1E9B288
     static void _cctor();
     // public System.String TransformInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1EB3590
+    // Offset: 0x1E97A60
     ::StringW TransformInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void AddUpdateReceiver(UnityEngine.ResourceManagement.IUpdateReceiver receiver)
-    // Offset: 0x1EB3718
+    // Offset: 0x1E97BE8
     void AddUpdateReceiver(::UnityEngine::ResourceManagement::IUpdateReceiver* receiver);
     // public System.Void RemoveUpdateReciever(UnityEngine.ResourceManagement.IUpdateReceiver receiver)
-    // Offset: 0x1EB3794
+    // Offset: 0x1E97C64
     void RemoveUpdateReciever(::UnityEngine::ResourceManagement::IUpdateReceiver* receiver);
     // private System.Void OnObjectAdded(System.Object obj)
-    // Offset: 0x1EB3D2C
+    // Offset: 0x1E981FC
     void OnObjectAdded(::Il2CppObject* obj);
     // private System.Void OnObjectRemoved(System.Object obj)
-    // Offset: 0x1EB3DA8
+    // Offset: 0x1E98278
     void OnObjectRemoved(::Il2CppObject* obj);
     // System.Void RegisterForCallbacks()
-    // Offset: 0x1EB3E24
+    // Offset: 0x1E982F4
     void RegisterForCallbacks();
     // public System.Void ClearDiagnosticsCallback()
-    // Offset: 0x1EB3EF0
+    // Offset: 0x1E983C0
     void ClearDiagnosticsCallback();
     // public System.Void ClearDiagnosticCallbacks()
-    // Offset: 0x1EB3EF8
+    // Offset: 0x1E983C8
     void ClearDiagnosticCallbacks();
     // public System.Void UnregisterDiagnosticCallback(System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> func)
-    // Offset: 0x1EB3F00
+    // Offset: 0x1E983D0
     void UnregisterDiagnosticCallback(::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>* func);
     // public System.Void RegisterDiagnosticCallback(System.Action`4<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType,System.Int32,System.Object> func)
-    // Offset: 0x1EB3FC4
+    // Offset: 0x1E98494
     void RegisterDiagnosticCallback(::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>* func);
     // public System.Void RegisterDiagnosticCallback(System.Action`1<UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext> func)
-    // Offset: 0x1EB3FCC
+    // Offset: 0x1E9849C
     void RegisterDiagnosticCallback(::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>* func);
     // System.Void PostDiagnosticEvent(UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext context)
-    // Offset: 0x1EB404C
+    // Offset: 0x1E9851C
     void PostDiagnosticEvent(::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext context);
     // public UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider GetResourceProvider(System.Type t, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1EB41A4
+    // Offset: 0x1E98674
     ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* GetResourceProvider(::System::Type* t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // private System.Type GetDefaultTypeForLocation(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x1EB45F4
+    // Offset: 0x1E98AC4
     ::System::Type* GetDefaultTypeForLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // private System.Int32 CalculateLocationsHash(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Type t)
-    // Offset: 0x1EB4754
+    // Offset: 0x1E98C24
     int CalculateLocationsHash(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Type* t);
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle ProvideResource(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Type desiredType, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0x1EB4B18
+    // Offset: 0x1E98FE8
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle ProvideResource(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType, bool releaseDependenciesOnFailure);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> ProvideResource(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> ProvideResource(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::ProvideResource");
@@ -602,7 +602,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, location);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> StartOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> operation, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependency)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> StartOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* operation, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::StartOperation");
@@ -611,19 +611,19 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, operation, dependency);
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle StartOperation(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation operation, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependency)
-    // Offset: 0x1EB58DC
+    // Offset: 0x1E99DAC
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle StartOperation(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency);
     // private System.Void OnInstanceOperationDestroy(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation o)
-    // Offset: 0x1EB5A60
+    // Offset: 0x1E99F30
     void OnInstanceOperationDestroy(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
     // private System.Void OnOperationDestroyNonCached(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation o)
-    // Offset: 0x1EB5BA4
+    // Offset: 0x1E9A074
     void OnOperationDestroyNonCached(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
     // private System.Void OnOperationDestroyCached(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation o)
-    // Offset: 0x1EB5C90
+    // Offset: 0x1E9A160
     void OnOperationDestroyCached(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
     // T CreateOperation(System.Type actualType, System.Int32 typeHash, System.Int32 operationHash, System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> onDestroyAction)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     T CreateOperation(::System::Type* actualType, int typeHash, int operationHash, ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* onDestroyAction) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation>);
@@ -633,19 +633,19 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, actualType, typeHash, operationHash, onDestroyAction);
     }
     // System.Void AddOperationToCache(System.Int32 hash, UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation operation)
-    // Offset: 0x1EB5EA0
+    // Offset: 0x1E9A370
     void AddOperationToCache(int hash, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation);
     // System.Boolean RemoveOperationFromCache(System.Int32 hash)
-    // Offset: 0x1EB5E14
+    // Offset: 0x1E9A2E4
     bool RemoveOperationFromCache(int hash);
     // System.Boolean IsOperationCached(System.Int32 hash)
-    // Offset: 0x1EB5F30
+    // Offset: 0x1E9A400
     bool IsOperationCached(int hash);
     // System.Int32 CachedOperationCount()
-    // Offset: 0x1EB5F98
+    // Offset: 0x1E9A468
     int CachedOperationCount();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateCompletedOperation(TObject result, System.String errorMsg)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperation(TObject result, ::StringW errorMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateCompletedOperation");
@@ -654,7 +654,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, result, errorMsg);
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateCompletedOperationInternal(TObject result, System.Boolean success, System.String errorMsg, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperationInternal(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateCompletedOperationInternal");
@@ -663,16 +663,16 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, result, success, errorMsg, releaseDependenciesOnFailure);
     }
     // public System.Void Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x1EB5FF0
+    // Offset: 0x1E9A4C0
     void Release(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // public System.Void Acquire(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x1EB5FF8
+    // Offset: 0x1E9A4C8
     void Acquire(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // private UnityEngine.ResourceManagement.AsyncOperations.GroupOperation AcquireGroupOpFromCache(System.Int32 hash)
-    // Offset: 0x1EB601C
+    // Offset: 0x1E9A4EC
     ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* AcquireGroupOpFromCache(int hash);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> CreateGroupOperation(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> CreateGroupOperation(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateGroupOperation");
@@ -681,7 +681,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, false>(this, ___generic__method, locations);
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> CreateGroupOperation(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Boolean allowFailedDependencies)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> CreateGroupOperation(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool allowFailedDependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateGroupOperation");
@@ -690,13 +690,13 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, false>(this, ___generic__method, locations, allowFailedDependencies);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> CreateGenericGroupOperation(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> operations, System.Boolean releasedCachedOpOnComplete)
-    // Offset: 0x1EB6150
+    // Offset: 0x1E9A620
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> CreateGenericGroupOperation(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releasedCachedOpOnComplete);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> ProvideResourceGroupCached(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Int32 groupHash, System.Type desiredType, System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> callback, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0x1EB52F8
+    // Offset: 0x1E997C8
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> ProvideResourceGroupCached(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, int groupHash, ::System::Type* desiredType, ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* callback, bool releaseDependenciesOnFailure);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> ProvideResources(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Action`1<TObject> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<TObject>*> ProvideResources(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Action_1<TObject>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::ProvideResources");
@@ -705,7 +705,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<TObject>*>, false>(this, ___generic__method, locations, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> ProvideResources(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Boolean releaseDependenciesOnFailure, System.Action`1<TObject> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<TObject>*> ProvideResources(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool releaseDependenciesOnFailure, ::System::Action_1<TObject>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::ProvideResources");
@@ -714,7 +714,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<TObject>*>, false>(this, ___generic__method, locations, releaseDependenciesOnFailure, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency> dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency>,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject, class TObjectDependency>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateChainOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> dependentOp, ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
@@ -723,7 +723,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateChainOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependentOp, ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
@@ -732,7 +732,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency> dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObjectDependency>,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject, class TObjectDependency>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateChainOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> dependentOp, ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
@@ -741,7 +741,7 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback, releaseDependenciesOnFailure);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateChainOperation(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependentOp, System.Func`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>> callback, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TObject>
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateChainOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependentOp, ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceManager::CreateChainOperation");
@@ -750,31 +750,31 @@ namespace UnityEngine::ResourceManagement {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method, dependentOp, callback, releaseDependenciesOnFailure);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> ProvideScene(UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider sceneProvider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x1EB62B0
+    // Offset: 0x1E9A780
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ProvideScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> ReleaseScene(UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider sceneProvider, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> sceneLoadHandle)
-    // Offset: 0x1EB63DC
+    // Offset: 0x1E9A8AC
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ReleaseScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> ProvideInstance(UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider provider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters)
-    // Offset: 0x1EB651C
+    // Offset: 0x1E9A9EC
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> ProvideInstance(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* provider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
     // public System.Void CleanupSceneInstances(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1EB67AC
+    // Offset: 0x1E9AC7C
     void CleanupSceneInstances(::UnityEngine::SceneManagement::Scene scene);
     // private System.Void ExecuteDeferredCallbacks()
-    // Offset: 0x1EB6A60
+    // Offset: 0x1E9AF30
     void ExecuteDeferredCallbacks();
     // System.Void RegisterForDeferredCallback(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Boolean incrementRefCount)
-    // Offset: 0x1EB6C08
+    // Offset: 0x1E9B0D8
     void RegisterForDeferredCallback(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, bool incrementRefCount);
     // System.Void Update(System.Single unscaledDeltaTime)
-    // Offset: 0x1EB0640
+    // Offset: 0x1E94B10
     void Update(float unscaledDeltaTime);
     // public System.Void Dispose()
-    // Offset: 0x1EB6CF0
+    // Offset: 0x1E9B1C0
     void Dispose();
     // private System.Void <.ctor>b__45_0(UnityEngine.ResourceManagement.IUpdateReceiver x)
-    // Offset: 0x1EB6E84
+    // Offset: 0x1E9B354
     void $_ctor$b__45_0(::UnityEngine::ResourceManagement::IUpdateReceiver* x);
   }; // UnityEngine.ResourceManagement.ResourceManager
   #pragma pack(pop)

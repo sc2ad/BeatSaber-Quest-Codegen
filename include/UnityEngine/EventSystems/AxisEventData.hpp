@@ -66,19 +66,19 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: private UnityEngine.EventSystems.MoveDirection <moveDir>k__BackingField
     ::UnityEngine::EventSystems::MoveDirection& dyn_$moveDir$k__BackingField();
     // public UnityEngine.Vector2 get_moveVector()
-    // Offset: 0x18FB2A8
+    // Offset: 0x18F219C
     ::UnityEngine::Vector2 get_moveVector();
     // public System.Void set_moveVector(UnityEngine.Vector2 value)
-    // Offset: 0x18FB2B0
+    // Offset: 0x18F21A4
     void set_moveVector(::UnityEngine::Vector2 value);
     // public UnityEngine.EventSystems.MoveDirection get_moveDir()
-    // Offset: 0x18FB2B8
+    // Offset: 0x18F21AC
     ::UnityEngine::EventSystems::MoveDirection get_moveDir();
     // public System.Void set_moveDir(UnityEngine.EventSystems.MoveDirection value)
-    // Offset: 0x18FB2C0
+    // Offset: 0x18F21B4
     void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x18FB2C8
+    // Offset: 0x18F21BC
     // Implemented from: UnityEngine.EventSystems.BaseEventData
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

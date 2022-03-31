@@ -51,7 +51,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: SelectableStateController
     // Base method: System.Void SelectableStateController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

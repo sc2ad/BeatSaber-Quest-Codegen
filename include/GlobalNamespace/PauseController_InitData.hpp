@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean startPaused
     bool& dyn_startPaused();
     // public System.Void .ctor(System.Boolean startPaused)
-    // Offset: 0x147C14C
+    // Offset: 0x12F083C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseController::InitData* New_ctor(bool startPaused) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseController::InitData::.ctor");

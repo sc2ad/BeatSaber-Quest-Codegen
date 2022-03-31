@@ -43,13 +43,13 @@ namespace System::Net::NetworkInformation {
     // Nested type: ::System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI
     class Win32NetworkInterfaceAPI;
     // public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
     // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
-    // Offset: 0x1B46688
+    // Offset: 0x1B2AB58
     static ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
     // protected System.Void .ctor()
-    // Offset: 0x1B467B8
+    // Offset: 0x1B2AC88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -403,202 +403,202 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/OpenVRControllerDetails[] openVRControllerDetails
     static void _set_openVRControllerDetails(::ArrayW<::GlobalNamespace::OVRInput::OpenVRControllerDetails> value);
     // static private System.Boolean get_pluginSupportsActiveController()
-    // Offset: 0x19C8384
+    // Offset: 0x19BE270
     static bool get_pluginSupportsActiveController();
     // static private System.Void .cctor()
-    // Offset: 0x19C843C
+    // Offset: 0x19BE328
     static void _cctor();
     // static public System.Void Update()
-    // Offset: 0x19C899C
+    // Offset: 0x19BE888
     static void Update();
     // static public System.Void FixedUpdate()
-    // Offset: 0x19C95D8
+    // Offset: 0x19BF4C4
     static void FixedUpdate();
     // static public System.Boolean GetControllerOrientationTracked(OVRInput/Controller controllerType)
-    // Offset: 0x19C9734
+    // Offset: 0x19BF620
     static bool GetControllerOrientationTracked(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public System.Boolean GetControllerOrientationValid(OVRInput/Controller controllerType)
-    // Offset: 0x19C9800
+    // Offset: 0x19BF6EC
     static bool GetControllerOrientationValid(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public System.Boolean GetControllerPositionTracked(OVRInput/Controller controllerType)
-    // Offset: 0x19C98CC
+    // Offset: 0x19BF7B8
     static bool GetControllerPositionTracked(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public System.Boolean GetControllerPositionValid(OVRInput/Controller controllerType)
-    // Offset: 0x19C9998
+    // Offset: 0x19BF884
     static bool GetControllerPositionValid(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public UnityEngine.Vector3 GetLocalControllerPosition(OVRInput/Controller controllerType)
-    // Offset: 0x19C1FC4
+    // Offset: 0x19B7EB0
     static ::UnityEngine::Vector3 GetLocalControllerPosition(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public UnityEngine.Vector3 GetLocalControllerVelocity(OVRInput/Controller controllerType)
-    // Offset: 0x19C278C
+    // Offset: 0x19B8678
     static ::UnityEngine::Vector3 GetLocalControllerVelocity(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public UnityEngine.Vector3 GetLocalControllerAcceleration(OVRInput/Controller controllerType)
-    // Offset: 0x19C9A64
+    // Offset: 0x19BF950
     static ::UnityEngine::Vector3 GetLocalControllerAcceleration(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public UnityEngine.Quaternion GetLocalControllerRotation(OVRInput/Controller controllerType)
-    // Offset: 0x19C23AC
+    // Offset: 0x19B8298
     static ::UnityEngine::Quaternion GetLocalControllerRotation(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public UnityEngine.Vector3 GetLocalControllerAngularVelocity(OVRInput/Controller controllerType)
-    // Offset: 0x19C2934
+    // Offset: 0x19B8820
     static ::UnityEngine::Vector3 GetLocalControllerAngularVelocity(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public UnityEngine.Vector3 GetLocalControllerAngularAcceleration(OVRInput/Controller controllerType)
-    // Offset: 0x19C9C08
+    // Offset: 0x19BFAF4
     static ::UnityEngine::Vector3 GetLocalControllerAngularAcceleration(::GlobalNamespace::OVRInput::Controller controllerType);
     // static public OVRInput/Handedness GetDominantHand()
-    // Offset: 0x19C9DB0
+    // Offset: 0x19BFC9C
     static ::GlobalNamespace::OVRInput::Handedness GetDominantHand();
     // static public System.Boolean Get(OVRInput/Button virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19C4EA0
+    // Offset: 0x19BAD8C
     static bool Get(::GlobalNamespace::OVRInput::Button virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean Get(OVRInput/RawButton rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19C94E8
+    // Offset: 0x19BF3D4
     static bool Get(::GlobalNamespace::OVRInput::RawButton rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedButton(OVRInput/Button virtualMask, OVRInput/RawButton rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19C9E10
+    // Offset: 0x19BFCFC
     static bool GetResolvedButton(::GlobalNamespace::OVRInput::Button virtualMask, ::GlobalNamespace::OVRInput::RawButton rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetDown(OVRInput/Button virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19C9FD0
+    // Offset: 0x19BFEBC
     static bool GetDown(::GlobalNamespace::OVRInput::Button virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetDown(OVRInput/RawButton rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA1C0
+    // Offset: 0x19C00AC
     static bool GetDown(::GlobalNamespace::OVRInput::RawButton rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedButtonDown(OVRInput/Button virtualMask, OVRInput/RawButton rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA048
+    // Offset: 0x19BFF34
     static bool GetResolvedButtonDown(::GlobalNamespace::OVRInput::Button virtualMask, ::GlobalNamespace::OVRInput::RawButton rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetUp(OVRInput/Button virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA238
+    // Offset: 0x19C0124
     static bool GetUp(::GlobalNamespace::OVRInput::Button virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetUp(OVRInput/RawButton rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA428
+    // Offset: 0x19C0314
     static bool GetUp(::GlobalNamespace::OVRInput::RawButton rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedButtonUp(OVRInput/Button virtualMask, OVRInput/RawButton rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA2B0
+    // Offset: 0x19C019C
     static bool GetResolvedButtonUp(::GlobalNamespace::OVRInput::Button virtualMask, ::GlobalNamespace::OVRInput::RawButton rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean Get(OVRInput/Touch virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA4A0
+    // Offset: 0x19C038C
     static bool Get(::GlobalNamespace::OVRInput::Touch virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean Get(OVRInput/RawTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19C9560
+    // Offset: 0x19BF44C
     static bool Get(::GlobalNamespace::OVRInput::RawTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedTouch(OVRInput/Touch virtualMask, OVRInput/RawTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA518
+    // Offset: 0x19C0404
     static bool GetResolvedTouch(::GlobalNamespace::OVRInput::Touch virtualMask, ::GlobalNamespace::OVRInput::RawTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetDown(OVRInput/Touch virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA68C
+    // Offset: 0x19C0578
     static bool GetDown(::GlobalNamespace::OVRInput::Touch virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetDown(OVRInput/RawTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA87C
+    // Offset: 0x19C0768
     static bool GetDown(::GlobalNamespace::OVRInput::RawTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedTouchDown(OVRInput/Touch virtualMask, OVRInput/RawTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA704
+    // Offset: 0x19C05F0
     static bool GetResolvedTouchDown(::GlobalNamespace::OVRInput::Touch virtualMask, ::GlobalNamespace::OVRInput::RawTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetUp(OVRInput/Touch virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA8F4
+    // Offset: 0x19C07E0
     static bool GetUp(::GlobalNamespace::OVRInput::Touch virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetUp(OVRInput/RawTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CAAE4
+    // Offset: 0x19C09D0
     static bool GetUp(::GlobalNamespace::OVRInput::RawTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedTouchUp(OVRInput/Touch virtualMask, OVRInput/RawTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CA96C
+    // Offset: 0x19C0858
     static bool GetResolvedTouchUp(::GlobalNamespace::OVRInput::Touch virtualMask, ::GlobalNamespace::OVRInput::RawTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean Get(OVRInput/NearTouch virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CAB5C
+    // Offset: 0x19C0A48
     static bool Get(::GlobalNamespace::OVRInput::NearTouch virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean Get(OVRInput/RawNearTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CAD30
+    // Offset: 0x19C0C1C
     static bool Get(::GlobalNamespace::OVRInput::RawNearTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedNearTouch(OVRInput/NearTouch virtualMask, OVRInput/RawNearTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CABD4
+    // Offset: 0x19C0AC0
     static bool GetResolvedNearTouch(::GlobalNamespace::OVRInput::NearTouch virtualMask, ::GlobalNamespace::OVRInput::RawNearTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetDown(OVRInput/NearTouch virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CADC0
+    // Offset: 0x19C0CAC
     static bool GetDown(::GlobalNamespace::OVRInput::NearTouch virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetDown(OVRInput/RawNearTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CAFB0
+    // Offset: 0x19C0E9C
     static bool GetDown(::GlobalNamespace::OVRInput::RawNearTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedNearTouchDown(OVRInput/NearTouch virtualMask, OVRInput/RawNearTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CAE38
+    // Offset: 0x19C0D24
     static bool GetResolvedNearTouchDown(::GlobalNamespace::OVRInput::NearTouch virtualMask, ::GlobalNamespace::OVRInput::RawNearTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetUp(OVRInput/NearTouch virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CB028
+    // Offset: 0x19C0F14
     static bool GetUp(::GlobalNamespace::OVRInput::NearTouch virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Boolean GetUp(OVRInput/RawNearTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CB218
+    // Offset: 0x19C1104
     static bool GetUp(::GlobalNamespace::OVRInput::RawNearTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Boolean GetResolvedNearTouchUp(OVRInput/NearTouch virtualMask, OVRInput/RawNearTouch rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CB0A0
+    // Offset: 0x19C0F8C
     static bool GetResolvedNearTouchUp(::GlobalNamespace::OVRInput::NearTouch virtualMask, ::GlobalNamespace::OVRInput::RawNearTouch rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Single Get(OVRInput/Axis1D virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19C1290
+    // Offset: 0x19B717C
     static float Get(::GlobalNamespace::OVRInput::Axis1D virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Single Get(OVRInput/RawAxis1D rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CB708
+    // Offset: 0x19C15F4
     static float Get(::GlobalNamespace::OVRInput::RawAxis1D rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private System.Single GetResolvedAxis1D(OVRInput/Axis1D virtualMask, OVRInput/RawAxis1D rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CB290
+    // Offset: 0x19C117C
     static float GetResolvedAxis1D(::GlobalNamespace::OVRInput::Axis1D virtualMask, ::GlobalNamespace::OVRInput::RawAxis1D rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public UnityEngine.Vector2 Get(OVRInput/Axis2D virtualMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CB80C
+    // Offset: 0x19C16F8
     static ::UnityEngine::Vector2 Get(::GlobalNamespace::OVRInput::Axis2D virtualMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public UnityEngine.Vector2 Get(OVRInput/RawAxis2D rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CBC50
+    // Offset: 0x19C1B3C
     static ::UnityEngine::Vector2 Get(::GlobalNamespace::OVRInput::RawAxis2D rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private UnityEngine.Vector2 GetResolvedAxis2D(OVRInput/Axis2D virtualMask, OVRInput/RawAxis2D rawMask, OVRInput/Controller controllerMask)
-    // Offset: 0x19CB884
+    // Offset: 0x19C1770
     static ::UnityEngine::Vector2 GetResolvedAxis2D(::GlobalNamespace::OVRInput::Axis2D virtualMask, ::GlobalNamespace::OVRInput::RawAxis2D rawMask, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public OVRInput/Controller GetConnectedControllers()
-    // Offset: 0x19CBE70
+    // Offset: 0x19C1D5C
     static ::GlobalNamespace::OVRInput::Controller GetConnectedControllers();
     // static public System.Boolean IsControllerConnected(OVRInput/Controller controller)
-    // Offset: 0x19CBED8
+    // Offset: 0x19C1DC4
     static bool IsControllerConnected(::GlobalNamespace::OVRInput::Controller controller);
     // static public OVRInput/Controller GetActiveController()
-    // Offset: 0x19CBF4C
+    // Offset: 0x19C1E38
     static ::GlobalNamespace::OVRInput::Controller GetActiveController();
     // static private System.Void StartVibration(System.Single amplitude, System.Single duration, UnityEngine.XR.XRNode controllerNode)
-    // Offset: 0x19CBFB4
+    // Offset: 0x19C1EA0
     static void StartVibration(float amplitude, float duration, ::UnityEngine::XR::XRNode controllerNode);
     // static public System.Void SetOpenVRLocalPose(UnityEngine.Vector3 leftPos, UnityEngine.Vector3 rightPos, UnityEngine.Quaternion leftRot, UnityEngine.Quaternion rightRot)
-    // Offset: 0x19CC178
+    // Offset: 0x19C2064
     static void SetOpenVRLocalPose(::UnityEngine::Vector3 leftPos, ::UnityEngine::Vector3 rightPos, ::UnityEngine::Quaternion leftRot, ::UnityEngine::Quaternion rightRot);
     // static public System.String GetOpenVRStringProperty(OVR.OpenVR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
-    // Offset: 0x19CC2A0
+    // Offset: 0x19C218C
     static ::StringW GetOpenVRStringProperty(::OVR::OpenVR::ETrackedDeviceProperty prop, uint deviceId);
     // static private System.Void UpdateXRControllerNodeIds()
-    // Offset: 0x19C8EA0
+    // Offset: 0x19BED8C
     static void UpdateXRControllerNodeIds();
     // static private System.Void UpdateXRControllerHaptics()
-    // Offset: 0x19C92D8
+    // Offset: 0x19BF1C4
     static void UpdateXRControllerHaptics();
     // static private System.Void InitHapticInfo()
-    // Offset: 0x19C8844
+    // Offset: 0x19BE730
     static void InitHapticInfo();
     // static private System.Void PlayHapticImpulse(System.Single amplitude, UnityEngine.XR.XRNode deviceNode)
-    // Offset: 0x19CC414
+    // Offset: 0x19C2300
     static void PlayHapticImpulse(float amplitude, ::UnityEngine::XR::XRNode deviceNode);
     // static private System.Boolean IsValidOpenVRDevice(System.UInt32 deviceId)
-    // Offset: 0x19CC5A8
+    // Offset: 0x19C2494
     static bool IsValidOpenVRDevice(uint deviceId);
     // static public System.Void SetControllerVibration(System.Single frequency, System.Single amplitude, OVRInput/Controller controllerMask)
-    // Offset: 0x19CC5B4
+    // Offset: 0x19C24A0
     static void SetControllerVibration(float frequency, float amplitude, ::GlobalNamespace::OVRInput::Controller controllerMask);
     // static public System.Byte GetControllerBatteryPercentRemaining(OVRInput/Controller controllerMask)
-    // Offset: 0x19CC7BC
+    // Offset: 0x19C26A8
     static uint8_t GetControllerBatteryPercentRemaining(::GlobalNamespace::OVRInput::Controller controllerMask);
     // static private UnityEngine.Vector2 CalculateAbsMax(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-    // Offset: 0x19CBDF8
+    // Offset: 0x19C1CE4
     static ::UnityEngine::Vector2 CalculateAbsMax(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
     // static private System.Single CalculateAbsMax(System.Single a, System.Single b)
-    // Offset: 0x19CB7E8
+    // Offset: 0x19C16D4
     static float CalculateAbsMax(float a, float b);
     // static private UnityEngine.Vector2 CalculateDeadzone(UnityEngine.Vector2 a, System.Single deadzone)
-    // Offset: 0x19CBCE0
+    // Offset: 0x19C1BCC
     static ::UnityEngine::Vector2 CalculateDeadzone(::UnityEngine::Vector2 a, float deadzone);
     // static private System.Single CalculateDeadzone(System.Single a, System.Single deadzone)
-    // Offset: 0x19CB798
+    // Offset: 0x19C1684
     static float CalculateDeadzone(float a, float deadzone);
     // static private System.Boolean ShouldResolveController(OVRInput/Controller controllerType, OVRInput/Controller controllerMask)
-    // Offset: 0x19C9F6C
+    // Offset: 0x19BFE58
     static bool ShouldResolveController(::GlobalNamespace::OVRInput::Controller controllerType, ::GlobalNamespace::OVRInput::Controller controllerMask);
   }; // OVRInput
   #pragma pack(pop)

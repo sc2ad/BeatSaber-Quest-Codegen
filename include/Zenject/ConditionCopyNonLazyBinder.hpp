@@ -58,16 +58,16 @@ namespace Zenject {
     template<typename T>
     class $$c__5_1;
     // public Zenject.CopyNonLazyBinder When(Zenject.BindingCondition condition)
-    // Offset: 0x173E924
+    // Offset: 0x1736814
     ::Zenject::CopyNonLazyBinder* When(::Zenject::BindingCondition* condition);
     // public Zenject.CopyNonLazyBinder WhenInjectedIntoInstance(System.Object instance)
-    // Offset: 0x173E940
+    // Offset: 0x1736830
     ::Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::Il2CppObject* instance);
     // public Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
-    // Offset: 0x173E9F4
+    // Offset: 0x17368E4
     ::Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayW<::System::Type*> targets);
     // public Zenject.CopyNonLazyBinder WhenInjectedInto()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* WhenInjectedInto() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto");
@@ -76,7 +76,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method);
     }
     // public Zenject.CopyNonLazyBinder WhenNotInjectedInto()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     ::Zenject::CopyNonLazyBinder* WhenNotInjectedInto() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConditionCopyNonLazyBinder::WhenNotInjectedInto");
@@ -85,7 +85,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::CopyNonLazyBinder*, false>(this, ___generic__method);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x173E914
+    // Offset: 0x1736804
     // Implemented from: Zenject.CopyNonLazyBinder
     // Base method: System.Void CopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void NonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

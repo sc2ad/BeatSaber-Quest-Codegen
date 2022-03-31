@@ -74,19 +74,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapEventDataBoxGroup> _dirtyBoxGroups
     ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& dyn__dirtyBoxGroups();
     // public System.Collections.Generic.IReadOnlyCollection`1<BeatmapEventDataBoxGroup> get_dirtyBoxGroups()
-    // Offset: 0x14FC544
+    // Offset: 0x14C93A4
     ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
     // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> insertedNode)
-    // Offset: 0x14FC54C
+    // Offset: 0x14C93AC
     void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
     // public System.Void ProcessBeforeDeleteData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x14FCA80
+    // Offset: 0x14C98E0
     void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
     // public System.Void ClearDirtyData()
-    // Offset: 0x14FBB50
+    // Offset: 0x14C89B0
     void ClearDirtyData();
     // public System.Void .ctor()
-    // Offset: 0x14FB79C
+    // Offset: 0x14C85FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

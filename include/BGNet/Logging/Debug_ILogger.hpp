@@ -28,16 +28,16 @@ namespace BGNet::Logging {
   class Debug::ILogger {
     public:
     // public System.Void LogInfo(System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogInfo(::StringW message);
     // public System.Void LogError(System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogError(::StringW message);
     // public System.Void LogException(System.Exception exception, System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogException(::System::Exception* exception, ::StringW message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogWarning(::StringW message);
   }; // BGNet.Logging.Debug/BGNet.Logging.ILogger
   #pragma pack(pop)

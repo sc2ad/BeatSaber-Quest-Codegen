@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0x10B5A4C
+    // [InjectAttribute] Offset: 0x124FED0
     // private readonly StaticJumpOffsetYProvider/InitData _initData
     // Size: 0x8
     // Offset: 0x10
@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly StaticJumpOffsetYProvider/InitData _initData
     ::GlobalNamespace::StaticJumpOffsetYProvider::InitData*& dyn__initData();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x137D59C
+    // Offset: 0x1335E20
     float get_jumpOffsetY();
     // public System.Void .ctor()
-    // Offset: 0x137D5B8
+    // Offset: 0x1335E3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

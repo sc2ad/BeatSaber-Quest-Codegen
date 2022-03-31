@@ -82,16 +82,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x1351508
+    // Offset: 0x12EAD9C
     ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public PS4LevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x1351668
+    // Offset: 0x12EAEFC
     ::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
     // public PS4LevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x13516E8
+    // Offset: 0x12EAF7C
     ::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
     // public System.Void .ctor()
-    // Offset: 0x1351768
+    // Offset: 0x12EAFFC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1351510
+    // Offset: 0x12EADA4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

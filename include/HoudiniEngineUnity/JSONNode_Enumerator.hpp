@@ -112,19 +112,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> m_Array
     typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Array();
     // public System.Boolean get_IsValid()
-    // Offset: 0x19EA374
+    // Offset: 0x19E0260
     bool get_IsValid();
     // public System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> get_Current()
-    // Offset: 0x19EA3A8
+    // Offset: 0x19E0294
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> aArrayEnum)
-    // Offset: 0x19E4338
+    // Offset: 0x19DA224
     Enumerator(typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
-    // Offset: 0x19EA384
+    // Offset: 0x19E0270
     Enumerator(typename ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Boolean MoveNext()
-    // Offset: 0x19EA45C
+    // Offset: 0x19E0348
     bool MoveNext();
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
   // WARNING Not writing size check since size may be invalid!

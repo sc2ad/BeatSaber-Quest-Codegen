@@ -43,13 +43,13 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public System.Func`2<System.Object,System.Type> <>9__18_1
     static void _set_$$9__18_1(::System::Func_2<::Il2CppObject*, ::System::Type*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x204D738
+    // Offset: 0x203B10C
     static void _cctor();
     // System.Type <GetJsonConverterCreator>b__18_1(System.Object param)
-    // Offset: 0x204D7A4
+    // Offset: 0x203B178
     ::System::Type* $GetJsonConverterCreator$b__18_1(::Il2CppObject* param);
     // public System.Void .ctor()
-    // Offset: 0x204D79C
+    // Offset: 0x203B170
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

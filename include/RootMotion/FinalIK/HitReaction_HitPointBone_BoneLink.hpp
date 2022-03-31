@@ -46,15 +46,15 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0x10E0A6C
+    // [TooltipAttribute] Offset: 0x1279344
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Transform* bone;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10E0AA4
-    // [RangeAttribute] Offset: 0x10E0AA4
+    // [TooltipAttribute] Offset: 0x127937C
+    // [RangeAttribute] Offset: 0x127937C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -83,13 +83,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion current
     ::UnityEngine::Quaternion& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x21FE4A8
+    // Offset: 0x21D428C
     void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x21FE240
+    // Offset: 0x21D4024
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x21FE618
+    // Offset: 0x21D43FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

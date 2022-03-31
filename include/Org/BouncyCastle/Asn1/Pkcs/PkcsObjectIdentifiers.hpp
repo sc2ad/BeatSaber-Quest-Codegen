@@ -261,7 +261,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_Pkcs9AtLocalKeyID();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier Pkcs9AtLocalKeyID
     static void _set_Pkcs9AtLocalKeyID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // [ObsoleteAttribute] Offset: 0x1093DD4
+    // [ObsoleteAttribute] Offset: 0x122EB08
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier X509CertType
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_X509CertType();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier X509CertType
@@ -478,22 +478,22 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdAACommunityIdentifiers();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAACommunityIdentifiers
     static void _set_IdAACommunityIdentifiers(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // [ObsoleteAttribute] Offset: 0x1093E0C
+    // [ObsoleteAttribute] Offset: 0x122EB40
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAASigPolicyID
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdAASigPolicyID();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAASigPolicyID
     static void _set_IdAASigPolicyID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // [ObsoleteAttribute] Offset: 0x1093E44
+    // [ObsoleteAttribute] Offset: 0x122EB78
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAACommitmentType
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdAACommitmentType();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAACommitmentType
     static void _set_IdAACommitmentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // [ObsoleteAttribute] Offset: 0x1093E7C
+    // [ObsoleteAttribute] Offset: 0x122EBB0
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAASignerLocation
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdAASignerLocation();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAASignerLocation
     static void _set_IdAASignerLocation(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-    // [ObsoleteAttribute] Offset: 0x1093EB4
+    // [ObsoleteAttribute] Offset: 0x122EBE8
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAAOtherSigCert
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdAAOtherSigCert();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdAAOtherSigCert
@@ -555,7 +555,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier PbewithShaAnd40BitRC2Cbc
     static void _set_PbewithShaAnd40BitRC2Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CAD630
+    // Offset: 0x1C91B00
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Pkcs.PkcsObjectIdentifiers
   #pragma pack(pop)

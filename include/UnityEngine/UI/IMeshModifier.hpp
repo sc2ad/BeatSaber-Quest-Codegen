@@ -34,10 +34,10 @@ namespace UnityEngine::UI {
   class IMeshModifier {
     public:
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ModifyMesh(::UnityEngine::Mesh* mesh);
     // public System.Void ModifyMesh(UnityEngine.UI.VertexHelper verts)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void ModifyMesh(::UnityEngine::UI::VertexHelper* verts);
   }; // UnityEngine.UI.IMeshModifier
   #pragma pack(pop)

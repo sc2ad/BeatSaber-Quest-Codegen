@@ -90,10 +90,10 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Globalization.CultureInfo _culture
     ::System::Globalization::CultureInfo*& dyn__culture();
     // public System.Globalization.CultureInfo get_Culture()
-    // Offset: 0x1783F74
+    // Offset: 0x177AE64
     ::System::Globalization::CultureInfo* get_Culture();
     // public System.Void .ctor()
-    // Offset: 0x178474C
+    // Offset: 0x177B63C
     // Implemented from: Newtonsoft.Json.Converters.DateTimeConverterBase
     // Base method: System.Void DateTimeConverterBase::.ctor()
     // Base method: System.Void JsonConverter::.ctor()
@@ -104,12 +104,12 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<IsoDateTimeConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x1783FEC
+    // Offset: 0x177AEDC
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x178421C
+    // Offset: 0x177B10C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);

@@ -114,7 +114,7 @@ namespace Org::BouncyCastle::Asn1::Eac {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_512
     static void _set_id_TA_ECDSA_SHA_512(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C184C4
+    // Offset: 0x1BFE994
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Eac.EacObjectIdentifiers
   #pragma pack(pop)

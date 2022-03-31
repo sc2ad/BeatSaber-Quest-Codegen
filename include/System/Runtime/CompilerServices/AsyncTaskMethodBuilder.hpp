@@ -77,16 +77,16 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> m_builder
     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>& dyn_m_builder();
     // public System.Threading.Tasks.Task get_Task()
-    // Offset: 0x1D656B4
+    // Offset: 0x1D48B84
     ::System::Threading::Tasks::Task* get_Task();
     // static private System.Void .cctor()
-    // Offset: 0x1D657E0
+    // Offset: 0x1D48CB0
     static void _cctor();
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
-    // Offset: 0x1D65648
+    // Offset: 0x1D48B18
     static ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TStateMachine>
     void Start(ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TStateMachine>, ::System::Runtime::CompilerServices::IAsyncStateMachine>);
@@ -96,10 +96,10 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1D65654
+    // Offset: 0x1D48B24
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TAwaiter>, ::System::Runtime::CompilerServices::INotifyCompletion>);
@@ -110,7 +110,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine) {
       static_assert(std::is_convertible_v<std::remove_pointer_t<TAwaiter>, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion>);
@@ -121,10 +121,10 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult()
-    // Offset: 0x1D65704
+    // Offset: 0x1D48BD4
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0x1D65780
+    // Offset: 0x1D48C50
     void SetException(::System::Exception* exception);
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
   // WARNING Not writing size check since size may be invalid!

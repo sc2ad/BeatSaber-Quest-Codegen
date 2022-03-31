@@ -151,135 +151,135 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Globalization.CultureInfo runculture
     ::System::Globalization::CultureInfo*& dyn_runculture();
     // System.Void .ctor(System.Text.RegularExpressions.RegexCode code, System.Globalization.CultureInfo culture)
-    // Offset: 0x1DA6978
+    // Offset: 0x1D89E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexInterpreter* New_ctor(::System::Text::RegularExpressions::RegexCode* code, ::System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexInterpreter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexInterpreter*, creationType>(code, culture)));
     }
     // private System.Void Advance()
-    // Offset: 0x1DA6A0C
+    // Offset: 0x1D89EDC
     void Advance();
     // private System.Void Advance(System.Int32 i)
-    // Offset: 0x1DA6A14
+    // Offset: 0x1D89EE4
     void Advance(int i);
     // private System.Void Goto(System.Int32 newpos)
-    // Offset: 0x1DA6A9C
+    // Offset: 0x1D89F6C
     void Goto(int newpos);
     // private System.Void Textto(System.Int32 newpos)
-    // Offset: 0x1DA6B74
+    // Offset: 0x1D8A044
     void Textto(int newpos);
     // private System.Void Trackto(System.Int32 newpos)
-    // Offset: 0x1DA6B7C
+    // Offset: 0x1D8A04C
     void Trackto(int newpos);
     // private System.Int32 Textstart()
-    // Offset: 0x1DA6BA0
+    // Offset: 0x1D8A070
     int Textstart();
     // private System.Int32 Textpos()
-    // Offset: 0x1DA6BA8
+    // Offset: 0x1D8A078
     int Textpos();
     // private System.Int32 Trackpos()
-    // Offset: 0x1DA6BB0
+    // Offset: 0x1D8A080
     int Trackpos();
     // private System.Void TrackPush()
-    // Offset: 0x1DA6BD4
+    // Offset: 0x1D8A0A4
     void TrackPush();
     // private System.Void TrackPush(System.Int32 I1)
-    // Offset: 0x1DA6C20
+    // Offset: 0x1D8A0F0
     void TrackPush(int I1);
     // private System.Void TrackPush(System.Int32 I1, System.Int32 I2)
-    // Offset: 0x1DA6C94
+    // Offset: 0x1D8A164
     void TrackPush(int I1, int I2);
     // private System.Void TrackPush(System.Int32 I1, System.Int32 I2, System.Int32 I3)
-    // Offset: 0x1DA6D30
+    // Offset: 0x1D8A200
     void TrackPush(int I1, int I2, int I3);
     // private System.Void TrackPush2(System.Int32 I1)
-    // Offset: 0x1DA6DF4
+    // Offset: 0x1D8A2C4
     void TrackPush2(int I1);
     // private System.Void TrackPush2(System.Int32 I1, System.Int32 I2)
-    // Offset: 0x1DA6E6C
+    // Offset: 0x1D8A33C
     void TrackPush2(int I1, int I2);
     // private System.Void Backtrack()
-    // Offset: 0x1DA6F0C
+    // Offset: 0x1D8A3DC
     void Backtrack();
     // private System.Void SetOperator(System.Int32 op)
-    // Offset: 0x1DA6A7C
+    // Offset: 0x1D89F4C
     void SetOperator(int op);
     // private System.Void TrackPop()
-    // Offset: 0x1DA7000
+    // Offset: 0x1D8A4D0
     void TrackPop();
     // private System.Void TrackPop(System.Int32 framesize)
-    // Offset: 0x1DA7010
+    // Offset: 0x1D8A4E0
     void TrackPop(int framesize);
     // private System.Int32 TrackPeek()
-    // Offset: 0x1DA7020
+    // Offset: 0x1D8A4F0
     int TrackPeek();
     // private System.Int32 TrackPeek(System.Int32 i)
-    // Offset: 0x1DA7064
+    // Offset: 0x1D8A534
     int TrackPeek(int i);
     // private System.Void StackPush(System.Int32 I1)
-    // Offset: 0x1DA70AC
+    // Offset: 0x1D8A57C
     void StackPush(int I1);
     // private System.Void StackPush(System.Int32 I1, System.Int32 I2)
-    // Offset: 0x1DA70F4
+    // Offset: 0x1D8A5C4
     void StackPush(int I1, int I2);
     // private System.Void StackPop()
-    // Offset: 0x1DA7164
+    // Offset: 0x1D8A634
     void StackPop();
     // private System.Void StackPop(System.Int32 framesize)
-    // Offset: 0x1DA7174
+    // Offset: 0x1D8A644
     void StackPop(int framesize);
     // private System.Int32 StackPeek()
-    // Offset: 0x1DA7184
+    // Offset: 0x1D8A654
     int StackPeek();
     // private System.Int32 StackPeek(System.Int32 i)
-    // Offset: 0x1DA71C8
+    // Offset: 0x1D8A698
     int StackPeek(int i);
     // private System.Int32 Operator()
-    // Offset: 0x1DA7210
+    // Offset: 0x1D8A6E0
     int Operator();
     // private System.Int32 Operand(System.Int32 i)
-    // Offset: 0x1DA7218
+    // Offset: 0x1D8A6E8
     int Operand(int i);
     // private System.Int32 Leftchars()
-    // Offset: 0x1DA7260
+    // Offset: 0x1D8A730
     int Leftchars();
     // private System.Int32 Rightchars()
-    // Offset: 0x1DA7270
+    // Offset: 0x1D8A740
     int Rightchars();
     // private System.Int32 Bump()
-    // Offset: 0x1DA7280
+    // Offset: 0x1D8A750
     int Bump();
     // private System.Int32 Forwardchars()
-    // Offset: 0x1DA7294
+    // Offset: 0x1D8A764
     int Forwardchars();
     // private System.Char Forwardcharnext()
-    // Offset: 0x1DA72C0
+    // Offset: 0x1D8A790
     ::Il2CppChar Forwardcharnext();
     // private System.Boolean Stringmatch(System.String str)
-    // Offset: 0x1DA7380
+    // Offset: 0x1D8A850
     bool Stringmatch(::StringW str);
     // private System.Boolean Refmatch(System.Int32 index, System.Int32 len)
-    // Offset: 0x1DA7524
+    // Offset: 0x1D8A9F4
     bool Refmatch(int index, int len);
     // private System.Void Backwardnext()
-    // Offset: 0x1DA76D4
+    // Offset: 0x1D8ABA4
     void Backwardnext();
     // private System.Char CharAt(System.Int32 j)
-    // Offset: 0x1DA7704
+    // Offset: 0x1D8ABD4
     ::Il2CppChar CharAt(int j);
     // protected override System.Void InitTrackCount()
-    // Offset: 0x1DA69EC
+    // Offset: 0x1D89EBC
     // Implemented from: System.Text.RegularExpressions.RegexRunner
     // Base method: System.Void RegexRunner::InitTrackCount()
     void InitTrackCount();
     // protected override System.Boolean FindFirstChar()
-    // Offset: 0x1DA7720
+    // Offset: 0x1D8ABF0
     // Implemented from: System.Text.RegularExpressions.RegexRunner
     // Base method: System.Boolean RegexRunner::FindFirstChar()
     bool FindFirstChar();
     // protected override System.Void Go()
-    // Offset: 0x1DA7A98
+    // Offset: 0x1D8AF68
     // Implemented from: System.Text.RegularExpressions.RegexRunner
     // Base method: System.Void RegexRunner::Go()
     void Go();

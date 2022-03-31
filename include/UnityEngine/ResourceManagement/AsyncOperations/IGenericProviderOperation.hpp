@@ -72,28 +72,28 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   class IGenericProviderOperation {
     public:
     // public System.Int32 get_ProvideHandleVersion()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_ProvideHandleVersion();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
     // public System.Int32 get_DependencyCount()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     int get_DependencyCount();
     // public System.Type get_RequestedType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_RequestedType();
     // public System.Void Init(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider provider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> depOp)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> depOp);
     // public System.Void Init(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider provider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> depOp, System.Boolean releaseDependenciesOnFailure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> depOp, bool releaseDependenciesOnFailure);
     // public System.Void GetDependencies(System.Collections.Generic.IList`1<System.Object> dstList)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void GetDependencies(::System::Collections::Generic::IList_1<::Il2CppObject*>* dstList);
     // public TDepObject GetDependency(System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TDepObject>
     TDepObject GetDependency(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::GetDependency");
@@ -102,10 +102,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       return ::il2cpp_utils::RunMethodRethrow<TDepObject, false>(this, ___generic__method, index);
     }
     // public System.Void SetProgressCallback(System.Func`1<System.Single> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetProgressCallback(::System::Func_1<float>* callback);
     // public System.Void ProviderCompleted(T result, System.Boolean status, System.Exception e)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void ProviderCompleted(T result, bool status, ::System::Exception* e) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::ProviderCompleted");
@@ -114,10 +114,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, result, status, e);
     }
     // public System.Void SetDownloadProgressCallback(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetDownloadProgressCallback(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
     // public System.Void SetWaitForCompletionCallback(System.Func`1<System.Boolean> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
   }; // UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation
   #pragma pack(pop)

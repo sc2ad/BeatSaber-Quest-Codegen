@@ -74,28 +74,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryHeap_1<T>* New_ctor(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BinaryHeap_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryHeap_1<T>*, creationType>(capacity)));
     }
     // public System.Void Insert(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void Insert(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BinaryHeap_1::Insert");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Boolean RemoveMin(out T output)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     bool RemoveMin(ByRef<T> output) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BinaryHeap_1::RemoveMin");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveMin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(output));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

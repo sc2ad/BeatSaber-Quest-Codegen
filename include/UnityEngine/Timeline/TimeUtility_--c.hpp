@@ -45,16 +45,16 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Func`2<System.Char,System.Boolean> <>9__14_1
     static void _set_$$9__14_1(::System::Func_2<::Il2CppChar, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DA17B0
+    // Offset: 0x1D84C80
     static void _cctor();
     // System.Boolean <ParseTimeCode>b__14_0(System.Char c)
-    // Offset: 0x1DA181C
+    // Offset: 0x1D84CEC
     bool $ParseTimeCode$b__14_0(::Il2CppChar c);
     // System.Boolean <ParseTimeCode>b__14_1(System.Char c)
-    // Offset: 0x1DA1884
+    // Offset: 0x1D84D54
     bool $ParseTimeCode$b__14_1(::Il2CppChar c);
     // public System.Void .ctor()
-    // Offset: 0x1DA1814
+    // Offset: 0x1D84CE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

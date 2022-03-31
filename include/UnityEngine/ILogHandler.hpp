@@ -40,10 +40,10 @@ namespace UnityEngine {
   class ILogHandler {
     public:
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xFFFFFFFFFFFFFFFF
     void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
   }; // UnityEngine.ILogHandler
   #pragma pack(pop)
